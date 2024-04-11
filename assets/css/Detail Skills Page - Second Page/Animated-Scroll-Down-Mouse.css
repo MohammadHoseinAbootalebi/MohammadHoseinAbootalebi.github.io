@@ -18,9 +18,9 @@ body, html {
 }
 
 .mousey {
-  width: 3px;
+  width: 0.3vw;
   padding: 10px 15px;
-  height: 35px;
+  height: 2.5vw;
   border: 3px solid rgb(252,163,17);
   border-radius: 25px;
   opacity: 0.75;

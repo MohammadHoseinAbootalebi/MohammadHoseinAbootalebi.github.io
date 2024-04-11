@@ -1,6 +1,11 @@
 // Function to change the background color of an element based on viewport width
 function changeBackgroundOnResize() {
   const specialElement = document.getElementById('contact-me-nav-bar'); // Replace with your actual element ID
+  
+  // Gettings the elements in html to be responsive
+  const mouse_scroll_behaviour_animation = document.getElementById('scroll-mouse-direction-down-animation'); // Mouse Scroll Animation
+  const mouse_scroll_behaviour_animation_skills_softwares = document.getElementById('scroll-mouse-direction-down-animation-skills-softwares'); // Mouse Scroll Animation
+    
   const breakpoint = 768; // Replace with your desired viewport width
   // In Bootstrap Studio, the navbar will toggle to be closed based on the breakpoint classes you apply to the navbar. By default, Bootstrap uses the following breakpoints for its responsive navbar:
   // - Extra small devices (portrait phones, less than 576px): .navbar-expand-xs
@@ -14,6 +19,20 @@ function changeBackgroundOnResize() {
     specialElement.style.margin = '2vw 0px 0px 0px'; // Replace with your desired color
   } else {
     specialElement.style.margin = '0px 0px 0px 0px'; // Resets to default background
+  }
+
+  // Mouse Scroll Animation - Introdction
+  if (window.innerWidth < breakpoint) {
+    mouse_scroll_behaviour_animation.style.opacity = '0%'; // Replace with your desired color
+  } else {
+    mouse_scroll_behaviour_animation.style.opacity = '100%'; // Resets to default background
+  }
+
+  // Mouse Scroll Animation - Software Skills
+  if (window.innerWidth < breakpoint) {
+    mouse_scroll_behaviour_animation_skills_softwares.style.opacity = '0%'; // Replace with your desired color
+  } else {
+    mouse_scroll_behaviour_animation_skills_softwares.style.opacity = '100%'; // Resets to default background
   }
 }
 
