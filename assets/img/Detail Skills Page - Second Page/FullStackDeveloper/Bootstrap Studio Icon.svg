@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.11 31.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d88c0f;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #734a08;
+      }
+
+      .cls-2, .cls-4 {
+        opacity: .5;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #fca311;
+      }
+    </style>
+  </defs>
+  <g id="Full_Stack_Devloper" data-name="Full Stack Devloper">
+    <g id="React">
+      <rect id="BC_White" data-name="BC White" class="cls-3" width="31.11" height="31.11" rx="8" ry="8"/>
+      <g>
+        <rect class="cls-1" x="7.87" y="4.67" width="18.52" height="18.52"/>
+        <rect class="cls-2" x="6.36" y="6.3" width="18.31" height="18.31"/>
+        <rect class="cls-4" x="4.73" y="8.05" width="18.4" height="18.4"/>
+      </g>
+    </g>
+  </g>
+</svg>
