@@ -11,54 +11,81 @@ var listOfAllSkillsIndividualsSkillPage = [
                 imgURL: '/assets/img/Main Screen/Adobe XD Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe XD Software',
+                },
             },
             // Adobe Illustrator
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/Adobe Ai Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe Illustrator Software',
+                },
             },
             // Adobe Photoshop
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/Adobe Ps Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe Photoshop Software',
+                },
             },
             // Adobe Indesign
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/Indesign Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe Indesign Software',
+                },
             },
             // Adobe Premiere Pro
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/Preimier Pro Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe Premiere Pro Software',
+                },
             },
             // Adobe After Effects
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/After Effects Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe After Effects Software',
+                },
             },
             // Adobe Audition
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/Audition Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe Audition Software',
+                },
             },
             // Adobe Blender
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/Blender.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe Blender Software',
+                },
             },
             // Adobe Cinema 4D
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/UIUXDesigner/Cinema 4D.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Adobe Cinema 4D Software',
+                },
             },
         ],
     },
@@ -71,48 +98,72 @@ var listOfAllSkillsIndividualsSkillPage = [
                 imgURL: '/assets/img/Main Screen/Flutter Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Flutter',
+                },
             },
             // Dart Logo
             {
                 imgURL: '/assets/img/Main Screen/Dart Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Dart',
+                },
             },
             // Bloc Logo
             {
                 imgURL: '/assets/img/Main Screen/Bloc Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Bloc State Management',
+                },
             },
             // Flutter Widgets
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FlutterDeveloper/Widgets Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Flutter Widgets',
+                },
             },
             // Kotlin Logo
             {
                 imgURL: '/assets/img/Main Screen/Kotlin Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Kotlin',
+                },
             },
             // java Logo
             {
                 imgURL: '/assets/img/Main Screen/java Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Java',
+                },
             },
             // Android Logo
             {
                 imgURL: '/assets/img/Main Screen/Android Logo.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Android & Android Studio',
+                },
             },
             // Git Logo
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FlutterDeveloper/Git Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Git Version Control',
+                },
             },
         ],
     },
@@ -125,78 +176,195 @@ var listOfAllSkillsIndividualsSkillPage = [
                 imgURL: '/assets/img/Main Screen/Python Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python',
+                },
             },
             // Django Logo
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/Django Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Django',
+                },
             },
             // Git Logo
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FlutterDeveloper/Git Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Git Version Control',
+                },
             },
             // Bootstrap Studio Icon
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/Bootstrap Studio Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Bootstrap Studio Software',
+                },
             },
             // MySQL Icon
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/MySQL Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'MySQL',
+                },
             },
             // CSS Icon
             {
                 imgURL: '/assets/img/Main Screen/CSS Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'CSS',
+                },
             },
             // Html Icon
             {
                 imgURL: '/assets/img/Main Screen/Html Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'HTML',
+                },
             },
             // Javascript Icon
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/Javascript Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Javascript',
+                },
             },
             // C#
             {
                 imgURL: '/assets/img/Main Screen/C_Sharp.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'C#',
+                },
             },
             // .Net
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/-Net Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": '.Net',
+                },
             },
             // React Icon
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/React Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'React',
+                },
             },
             // Angular Icon
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/Angular Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Angular',
+                },
             },
             // PHP Icon
             {
                 imgURL: '/assets/img/Detail Skills Page - Second Page/FullStackDeveloper/PHP Icon.svg',
                 percentageNumber: 70,
                 paragraphWidth: 120,
+                tooltip: {
+                    "English": 'PHP',
+                },
+            },
+        ],
+    },
+    // Android Developer
+    {
+        skillName: "Android Developer",
+        softwarePercentages: [
+            // Android Logo
+            {
+                imgURL: '/assets/img/Main Screen/Android Logo.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Android & Android Studio',
+                },
+            },
+            // java Logo
+            {
+                imgURL: '/assets/img/Main Screen/java Logo.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Java',
+                },
+            },
+            // Kotlin Logo
+            {
+                imgURL: '/assets/img/Main Screen/Kotlin Logo.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Kotlin',
+                },
+            },
+            // Flutter Logo
+            {
+                imgURL: '/assets/img/Main Screen/Flutter Logo.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Flutter',
+                },
+            },
+            // Dart Logo
+            {
+                imgURL: '/assets/img/Main Screen/Dart Logo.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Dart',
+                },
+            },
+            // Bloc Logo
+            {
+                imgURL: '/assets/img/Main Screen/Bloc Logo.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Flutter Bloc State Management',
+                },
+            },
+            // Flutter Widgets
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/FlutterDeveloper/Widgets Logo.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Flutter Widgets',
+                },
+            },
+            // Git Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/FlutterDeveloper/Git Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Git',
+                },
             },
         ],
     },
@@ -370,6 +538,9 @@ var neededProperties = {
                     // Creating the second div
                     var secondDiv = document.createElement('div');
                     secondDiv.className = "col-auto d-flex d-xxl-flex align-items-center align-items-xxl-center";
+                    secondDiv.setAttribute('data-bs-toggle', 'tooltip');
+                    secondDiv.setAttribute('data-bs-placement', 'bottom');
+                    secondDiv.setAttribute('title', listOfAllSkillsIndividualsSkillPage[skilldex].softwarePercentages[index].tooltip.English);
                     secondDiv.id = "second-view-secondDiv-softwares-SKILLS-" + skilldex.toString() + (index + skilldex).toString();
                     document.getElementById(firstDiv.id).appendChild(secondDiv);
 
@@ -494,6 +665,9 @@ var neededProperties = {
                         // Creating the second div
                         var secondDiv = document.createElement('div');
                         secondDiv.className = "col-auto d-flex d-xxl-flex align-items-center align-items-xxl-center";
+                        secondDiv.setAttribute('data-bs-toggle', 'tooltip');
+                        secondDiv.setAttribute('data-bs-placement', 'bottom');
+                        secondDiv.setAttribute('title', listOfAllSkillsIndividualsSkillPage[skilldex].softwarePercentages[index].tooltip.English);
                         secondDiv.id = "slides-of-individual-skill-page-percentages-of-software-skills-second-div-slide-" + (counter + 1).toString() + "-software-number-" + index.toString();
                         document.getElementById(firstDiv.id).appendChild(secondDiv);
 
