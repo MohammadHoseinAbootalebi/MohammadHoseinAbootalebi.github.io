@@ -368,6 +368,282 @@ var listOfAllSkillsIndividualsSkillPage = [
             },
         ],
     },
+    // AI Engineer
+    {
+        skillName: "AI Engineer",
+        softwarePercentages: [
+            // Python Icon
+            {
+                imgURL: '/assets/img/Main Screen/Python Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python',
+                },
+            },
+            // Keras Icon
+            {
+                imgURL: '/assets/img/Main Screen/Keras Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python Keras Library',
+                },
+            },
+            // Numpy Icon
+            {
+                imgURL: '/assets/img/Main Screen/Numpy Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python Numpy Library',
+                },
+            },
+            // OpenCV Icon
+            {
+                imgURL: '/assets/img/Main Screen/OpenCV Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python OpenCV Library',
+                },
+            },
+            // Tensorflow Icon
+            {
+                imgURL: '/assets/img/Main Screen/Tensorflow Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python Tensorflow Library',
+                },
+            },
+            // SciPy Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/AIEngineer/SciPy Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python SciPy Library',
+                },
+            },
+            // PyTorch Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/AIEngineer/PyTorch Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python PyTorch Library',
+                },
+            },
+            // Anaconda Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/AIEngineer/Anaconda Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Anaconda',
+                },
+            },
+        ],
+    },
+    // Industrial Designer
+    {
+        skillName: "Industrial Designer",
+        softwarePercentages: [
+            // AutoCAD Icon
+            {
+                imgURL: '/assets/img/Main Screen/AutoCAD Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Auto CAD Software',
+                },
+            },
+            // Maya Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/IndustrialDesigner/Maya Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Maya Software',
+                },
+            },
+            // 3D Max Pro Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/IndustrialDesigner/3D Max Pro Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": '3D Max Pro Software',
+                },
+            },
+            // Catia Icon
+            {
+                imgURL: '/assets/img/Main Screen/Catia Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Catia Software',
+                },
+            },
+            // Solidworks Icon
+            {
+                imgURL: '/assets/img/Main Screen/Solidworks Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'SOLIDWORKS Software',
+                },
+            },
+            // Sketch Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/IndustrialDesigner/Sketch Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Sketch Book Pro Software',
+                },
+            },
+        ],
+    },
+    // Self-Driving Automobile Engineer
+    {
+        skillName: "Self-Driving Automobile Engineer",
+        softwarePercentages: [
+            // Python Icon
+            {
+                imgURL: '/assets/img/Main Screen/Python Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python',
+                },
+            },
+            // OpenCV Icon
+            {
+                imgURL: '/assets/img/Main Screen/OpenCV Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python OpenCV Library',
+                },
+            },
+            // Keras Icon
+            {
+                imgURL: '/assets/img/Main Screen/Keras Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python Keras Library',
+                },
+            },
+            // Anaconda Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/AIEngineer/Anaconda Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Anaconda',
+                },
+            },
+            // PyTorch Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/AIEngineer/PyTorch Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python PyTorch Library',
+                },
+            },
+            // SciPy Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/AIEngineer/SciPy Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python SciPy Library',
+                },
+            },
+            // MATLAB Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/SDCEngineer/MATLAB Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'MATLAB Software',
+                },
+            },
+            // CarSim Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/SDCEngineer/CarSim Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'CarSim Software',
+                },
+            },
+        ],
+    },
+    // Mechanical Engineer
+    {
+        skillName: "Mechanical Engineer",
+        softwarePercentages: [
+            // Python Icon
+            {
+                imgURL: '/assets/img/Main Screen/Python Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Python',
+                },
+            },
+            // Anaconda Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/AIEngineer/Anaconda Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Anaconda',
+                },
+            },
+            // MATLAB Icon
+            {
+                imgURL: '/assets/img/Detail Skills Page - Second Page/SDCEngineer/MATLAB Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'MATLAB Software',
+                },
+            },
+            // Ansys Icon
+            {
+                imgURL: '/assets/img/Main Screen/Ansys Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'Ansys Workbench Software',
+                },
+            },
+            // ABAQUS Icon
+            {
+                imgURL: '/assets/img/Main Screen/ABAQUS Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'ABAQUS Software',
+                },
+            },
+            // GMSH Icon
+            {
+                imgURL: '/assets/img/Main Screen/GMSH Icon.svg',
+                percentageNumber: 70,
+                paragraphWidth: 120,
+                tooltip: {
+                    "English": 'GMSH Software',
+                },
+            },
+        ],
+    },
 ];
 
 // Note:
@@ -540,7 +816,7 @@ var neededProperties = {
                     secondDiv.className = "col-auto d-flex d-xxl-flex align-items-center align-items-xxl-center";
                     secondDiv.setAttribute('data-bs-toggle', 'tooltip');
                     secondDiv.setAttribute('data-bs-placement', 'bottom');
-                    secondDiv.setAttribute('title', listOfAllSkillsIndividualsSkillPage[skilldex].softwarePercentages[index].tooltip.English);
+                    secondDiv.setAttribute('title', listOfAllSkillsIndividualsSkillPage[skilldex].softwarePercentages[index].tooltip[this._current_show_language]);
                     secondDiv.id = "second-view-secondDiv-softwares-SKILLS-" + skilldex.toString() + (index + skilldex).toString();
                     document.getElementById(firstDiv.id).appendChild(secondDiv);
 
@@ -667,7 +943,7 @@ var neededProperties = {
                         secondDiv.className = "col-auto d-flex d-xxl-flex align-items-center align-items-xxl-center";
                         secondDiv.setAttribute('data-bs-toggle', 'tooltip');
                         secondDiv.setAttribute('data-bs-placement', 'bottom');
-                        secondDiv.setAttribute('title', listOfAllSkillsIndividualsSkillPage[skilldex].softwarePercentages[index].tooltip.English);
+                        secondDiv.setAttribute('title', listOfAllSkillsIndividualsSkillPage[skilldex].softwarePercentages[index].tooltip[this._current_show_language]);
                         secondDiv.id = "slides-of-individual-skill-page-percentages-of-software-skills-second-div-slide-" + (counter + 1).toString() + "-software-number-" + index.toString();
                         document.getElementById(firstDiv.id).appendChild(secondDiv);
 
@@ -840,15 +1116,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 // --------------------- ↑ Changing the Value of Skills Drop Down ↑ ---------------------
-
-// --------------------- ↓ Customizing the whole individual skill introduction based on previous link passed ↓ ---------------------
-
-
-
-// Till this part ...
-
-
-
-// --------------------- ↑ Customizing the whole individual skill introduction based on previous link passed ↑ ---------------------
-
-
