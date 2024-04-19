@@ -1114,5 +1114,95 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    // Image of Third View Carousel Projects & Books & Courses Background
+    if (window.innerWidth >= 1300) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+        thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 24%, rgb(0,0,0) 48%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 70vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+    } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+        thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 24%, rgb(0,0,0) 48%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 70vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+    } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+        thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 24%, rgb(0,0,0) 48%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 70vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+    } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+        thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 26%, rgb(0,0,0) 50%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 50vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+    } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+        thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 26%, rgb(0,0,0) 50%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 40vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') -20vw 0px / 92vmin no-repeat;";
+    } else {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+        thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 26%, rgb(0,0,0) 50%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 40vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') -20vw 0px / 92vmin no-repeat;";
+    }
+
+    // Border Radius of Projects & Books & Courses
+    if (window.innerWidth >= 1300) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+        thirdViewCarouselProjectBooksCourses.style = "height: 60vmin;border-radius: 55px;width: 60vmin;";
+    } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+        thirdViewCarouselProjectBooksCourses.style = "height: 60vmin;border-radius: 55px;width: 60vmin;";
+    } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+        thirdViewCarouselProjectBooksCourses.style = "height: 100%;border-radius: 20%;width: 100%;";
+    } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+        thirdViewCarouselProjectBooksCourses.style = "height: 26vmin;border-radius: 40px;width: 26vmin;";
+    } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+        thirdViewCarouselProjectBooksCourses.style = "height: 30vmin;border-radius: 40px;width: 30vmin;";
+    } else {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+        thirdViewCarouselProjectBooksCourses.style = "height: 30vmin;border-radius: 25px;width: 30vmin;";
+    }
 });
 // --------------------- ↑ Changing the Value of Skills Drop Down ↑ ---------------------
+
+// --------------------- ↓ Adapting the background Image of Projects & Books & Courses ↓ ---------------------
+window.addEventListener(
+    'resize', function () {
+        // Image of Third View Carousel Projects & Books & Courses Background
+        if (window.innerWidth >= 1300) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+            thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 24%, rgb(0,0,0) 48%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 70vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+        } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+            thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 24%, rgb(0,0,0) 48%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 70vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+        } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+            thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 24%, rgb(0,0,0) 48%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 70vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+        } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+            thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 26%, rgb(0,0,0) 50%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 50vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') bottom left / 92vmin no-repeat;";
+        } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+            thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 26%, rgb(0,0,0) 50%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 40vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') -20vw 0px / 92vmin no-repeat;";
+        } else {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-projects-cources-books');
+            thirdViewCarouselProjectBooksCourses.style = "width: 100%;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.8) 26%, rgb(0,0,0) 50%, rgba(0,0,0,0.7) 91%, rgba(0,0,0,0)), url('/assets/img/Perfect Triangles 30 Rotated.png') 40vw 0px / 102vmin no-repeat, url('/assets/img/Perfect Shape Triangles.svg') -20vw 0px / 92vmin no-repeat;";
+        }
+
+        // Border Radius of Projects & Books & Courses
+        if (window.innerWidth >= 1300) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+            thirdViewCarouselProjectBooksCourses.style = "height: 60vmin;border-radius: 55px;width: 60vmin;";
+        } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+            thirdViewCarouselProjectBooksCourses.style = "height: 60vmin;border-radius: 55px;width: 60vmin;";
+        } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+            thirdViewCarouselProjectBooksCourses.style = "height: 40vmin;border-radius: 50px;width: 40vmin;";
+        } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+            thirdViewCarouselProjectBooksCourses.style = "height: 30vmin;border-radius: 40px;width: 30vmin;";
+        } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+            thirdViewCarouselProjectBooksCourses.style = "height: 30vmin;border-radius: 40px;width: 30vmin;";
+        } else {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-project-illustration');
+            thirdViewCarouselProjectBooksCourses.style = "height: 30vmin;border-radius: 25px;width: 30vmin;";
+        }
+    }
+);
+// --------------------- ↑ Adapting the background Image of Projects & Books & Courses ↑ ---------------------
