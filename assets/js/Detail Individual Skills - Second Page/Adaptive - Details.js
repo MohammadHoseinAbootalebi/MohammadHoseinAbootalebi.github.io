@@ -5,6 +5,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // UI & UX Designer
     {
         skillName: "UI & UX Designer",
+        backgroundFirstIntroImage: "/assets/img/Detail Skills Page - Second Page/UI - UX Designer.jpg",
         softwarePercentages: [
             // Adobe XD
             {
@@ -92,6 +93,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Flutter Developer
     {
         skillName: "Flutter Developer",
+        backgroundFirstIntroImage: "/assets/img/Main Screen/Flutter Card.jpg",
         softwarePercentages: [
             // Flutter Logo
             {
@@ -170,6 +172,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Full Stack Developer
     {
         skillName: "Full Stack Developer",
+        backgroundFirstIntroImage: "/assets/img/Main Screen/Full Stack Developer.jpg",
         softwarePercentages: [
             // Python Icon
             {
@@ -293,6 +296,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Android Developer
     {
         skillName: "Android Developer",
+        backgroundFirstIntroImage: "/assets/img/Main Screen/Android Developer.jpg",
         softwarePercentages: [
             // Android Logo
             {
@@ -371,6 +375,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // AI Engineer
     {
         skillName: "AI Engineer",
+        backgroundFirstIntroImage: "/assets/img/Main Screen/AI Engineer.jpeg",
         softwarePercentages: [
             // Python Icon
             {
@@ -449,6 +454,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Industrial Designer
     {
         skillName: "Industrial Designer",
+        backgroundFirstIntroImage: "/assets/img/Main Screen/Industrial Designer.jpg",
         softwarePercentages: [
             // AutoCAD Icon
             {
@@ -509,6 +515,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Self-Driving Automobile Engineer
     {
         skillName: "Self-Driving Automobile Engineer",
+        backgroundFirstIntroImage: "/assets/img/Main Screen/SDC Engineer.jpeg",
         softwarePercentages: [
             // Python Icon
             {
@@ -587,6 +594,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Mechanical Engineer
     {
         skillName: "Mechanical Engineer",
+        backgroundFirstIntroImage: "/assets/img/Main Screen/Mechanical Engineer Simulation.png",
         softwarePercentages: [
             // Python Icon
             {
@@ -654,6 +662,7 @@ var listOfAllSkillsIndividualsSkillPage = [
 var neededProperties = {
     _current_skill_selected: "",
     _current_show_language: "",
+    _current_skill_image_intro_background: "",
 
     get currentSkillSelected() {
         return this._current_skill_selected;
@@ -663,41 +672,25 @@ var neededProperties = {
         return this._current_show_language;
     },
 
+    get currentSkillIntroImageBackground() {
+        return this._current_skill_image_intro_background;
+    },
+
     set currentSkillSelected(newSkill) {
         this._current_skill_selected = newSkill;
 
         // ------- ↓ Changing the first view individual skill table of content ↓ -------
 
-        var passedImage_local = ''; // variable to show the image in the background of detail skill page view
-
-        if (newSkill == "UI & UX Designer") {
-            var passedImage_local = ', url("/assets/img/Detail Skills Page - Second Page/UI - UX Designer.jpg") right / contain no-repeat'; // UI & UX Designer Image
-        } else if (newSkill == "Flutter Developer") {
-            var passedImage_local = ', url("/assets/img/Main Screen/Flutter Card.jpg") right / contain no-repeat'; // Flutter Developer
-        } else if (newSkill == "Full Stack Developer") {
-            var passedImage_local = ', url("/assets/img/Main Screen/Full Stack Developer.jpg") right / contain no-repeat'; // Full Stack Developer
-        } else if (newSkill == "Android Developer") {
-            var passedImage_local = ', url("/assets/img/Main Screen/Android Developer.jpg") right / contain no-repeat'; // Android Developer
-        } else if (newSkill == "AI Engineer") {
-            var passedImage_local = ', url("/assets/img/Main Screen/AI Engineer.jpeg") right / contain no-repeat'; // AI Engineer
-        } else if (newSkill == "Industrial Designer") {
-            var passedImage_local = ', url("/assets/img/Main Screen/Industrial Designer.jpg") right / contain no-repeat'; // Industrial Designer
-        } else if (newSkill == "Self-Driving Automobile Engineer") {
-            var passedImage_local = ', url("/assets/img/Main Screen/SDC Engineer.jpeg") right / contain no-repeat'; // Self-Driving Automobile Engineer
-        } else if (newSkill == "Mechanical Engineer") {
-            var passedImage_local = ', url("/assets/img/Main Screen/Mechanical Engineer Simulation.png") right / contain no-repeat'; // Mechanical Engineer
+        for (var index = 0; index < listOfAllSkillsIndividualsSkillPage.length; index++) {
+            if (listOfAllSkillsIndividualsSkillPage[index].skillName == newSkill) {
+                this._current_skill_image_intro_background = listOfAllSkillsIndividualsSkillPage[index].backgroundFirstIntroImage;
+            }
         }
 
         // Webpage title
         document.title = "MHA - " + newSkill;
 
         document.getElementById('first-view-header-introduction-skill-individual-skill-name').textContent = newSkill;
-
-        window.addEventListener('resize', function () {
-            changeBackgroundOnResizeIndividualSkillPage(passedImage_local); // Add event listener for the window resize event
-        });
-
-        changeBackgroundOnResizeIndividualSkillPage(passedImage_local); // Call the function on initial load
 
         // Chnaging the main text paragraph of the first view of the individual view of each skill
         if ((newSkill == "UI & UX Designer") && (this._current_show_language == "English")) {
@@ -1236,6 +1229,72 @@ document.addEventListener('DOMContentLoaded', function () {
         var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-Books-illustration');
         thirdViewCarouselProjectBooksCourses.style = "height: 50vw;border-radius: 30px;width: 50vw;";
     }
+
+    // Making the first view title responsive
+    if (window.innerWidth >= 1300) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+    } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 6vw;";
+    } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+    } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+    } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+    } else {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 7vw;";
+    }
+
+    // Making the first view paragraph responsive
+    if (window.innerWidth >= 1300) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+        thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+    } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+        thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;width: 55vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+    } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+        thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+    } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+        thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+    } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+        thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+    } else {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+        thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;width: 50vw;margin-top: 3vmin;font-size: 4vw;margin-bottom: 3vmin;";
+    }
+
+    // Making the first view Button text responsive
+    if (window.innerWidth >= 1300) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+    } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.5vw;color: rgba(0, 0, 0, 1);margin-top: 10px; padding: 5px 20px 5px 20px; border-radius: 10px;";
+    } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+    } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+    } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+    } else {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+        thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 3vw;color: rgba(0, 0, 0, 1);margin-top: 10px; padding: 5px 10px 5px 10px;";
+    }
+
+    // Making the first view Background Image responsive
+    individualSkillFirstViewIntroBackgroundImage();
 });
 // --------------------- ↑ Changing the Value of Skills Drop Down ↑ ---------------------
 
@@ -1324,6 +1383,115 @@ window.addEventListener(
             var thirdViewCarouselProjectBooksCourses = document.getElementById('third-view-caraousel-Books-illustration');
             thirdViewCarouselProjectBooksCourses.style = "height: 50vw;border-radius: 30px;width: 50vw;";
         }
+
+        // Making the first view title responsive
+        if (window.innerWidth >= 1300) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 6vw;";
+        } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 7vw;";
+        }
+
+        // Making the first view title responsive
+        if (window.innerWidth >= 1300) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 6vw;";
+        } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 5vmin;";
+        } else {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('first-view-header-introduction-skill-individual-skill-name');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;color: rgb(252,163,17);max-width: 30vw;font-size: 7vw;";
+        }
+
+        // Making the first view paragraph responsive
+        if (window.innerWidth >= 1300) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+            thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+        } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+            thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;width: 55vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+        } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+            thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+        } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+            thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+        } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+            thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;max-width: 40vw;margin-top: 3vmin;font-size: 3vmin;margin-bottom: 3vmin;";
+        } else {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('MainTextIndividualSkillParagraphIntroduction');
+            thirdViewCarouselProjectBooksCourses.style = "color: rgb(255,255,255);font-family: 'Roboto Condensed', sans-serif;width: 50vw;margin-top: 3vmin;font-size: 4vw;margin-bottom: 3vmin;";
+        }
+
+        // Making the first view Button text responsive
+        if (window.innerWidth >= 1300) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+        } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.5vw;color: rgba(0, 0, 0, 1);margin-top: 10px; padding: 5px 20px 5px 20px; border-radius: 10px;";
+        } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+        } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+        } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
+        } else {
+            var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
+            thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 3vw;color: rgba(0, 0, 0, 1);margin-top: 10px; padding: 5px 10px 5px 10px;";
+        }
+
+        // Making the first view Background Image responsive
+        individualSkillFirstViewIntroBackgroundImage();
     }
 );
+
+function individualSkillFirstViewIntroBackgroundImage() {
+    if (window.innerWidth >= 1300) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
+        thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') -30vh -28vh / contain no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " right / contain no-repeat;";
+    } else if ((window.innerWidth < 1300) && (window.innerWidth > 1000)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
+        thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 70%, #000000 75%, rgba(0, 0, 0, 0.3) 100%), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') bottom left / 40vw no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " top / contain no-repeat;";
+    } else if ((window.innerWidth < 1000) && (window.innerWidth > 900)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
+        thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') -30vh -28vh / contain no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " right / contain no-repeat;";
+    } else if ((window.innerWidth < 900) && (window.innerWidth > 600)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
+        thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') -30vh -28vh / contain no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " right / contain no-repeat;";
+    } else if ((window.innerWidth < 600) && (window.innerWidth > 500)) {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
+        thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') -30vh -28vh / contain no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " right / contain no-repeat;";
+    } else {
+        var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
+        thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 42%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.7) 20%), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') bottom / contain no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " top / contain no-repeat;";
+    }
+}
 // --------------------- ↑ Adapting the background Image of Projects & Books & Courses ↑ ---------------------
