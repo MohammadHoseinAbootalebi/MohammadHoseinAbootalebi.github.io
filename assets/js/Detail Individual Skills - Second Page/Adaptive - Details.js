@@ -690,12 +690,14 @@ var neededProperties = {
         // Webpage title
         document.title = "MHA - " + newSkill;
 
+        individualSkillFirstViewIntroFirtView();
+
         document.getElementById('first-view-header-introduction-skill-individual-skill-name').textContent = newSkill;
 
         // Chnaging the main text paragraph of the first view of the individual view of each skill
         if ((newSkill == "UI & UX Designer") && (this._current_show_language == "English")) {
             document.getElementById('MainTextIndividualSkillParagraphIntroduction').textContent = "As a Senior UI/UX Designer, I specialize in creating intuitive and engaging user interfaces that enhance user satisfaction. My approach integrates user research, design psychology, and the latest design trends to produce innovative and accessible designs. With a strong portfolio of successful projects, I have a proven ability to deliver designs that are not only aesthetically pleasing but also functionality seamless, resulting in improved user experiences and business outcomes."; // Set the new value as the dropdown toggle text
-        } else if ((newSkill == "UI & UX Designer") && (this._current_show_language == "English")) {
+        } else if ((newSkill == "Flutter Developer") && (this._current_show_language == "English")) {
             document.getElementById('MainTextIndividualSkillParagraphIntroduction').textContent = "As a Senior Flutter Developer, I am adept at building cross-platform applications that deliver a native experience on both Android and iOS. My extensive knowledge of Dart and the Flutter framework enables me to craft fluid UIs and maintainable codebases. I have a strong track record of successfully integrating complex functionalities with backend services, ensuring a seamless user journey."; // Set the new value as the dropdown toggle text
         } else if ((newSkill == "Full Stack Developer") && (this._current_show_language == "English")) {
             document.getElementById('MainTextIndividualSkillParagraphIntroduction').textContent = "As a Senior Full Stack Developer, I bring a comprehensive skill set and a forward-thinking mindset to the development of full-stack applications. My expertise in both front-end and back-end technologies, including React, Node.js, and cloud services, allows me to build scalable, high-performance web applications that meet the strategic objectives of businesses."; // Set the new value as the dropdown toggle text
@@ -768,6 +770,31 @@ var neededProperties = {
 
                 // NUmber of software skills to show
                 var limitOfSofwaresSkillsToShowToCount = 5;
+
+                // // removing the previosu items if there is
+                // // Stop the carousel
+                // var softwareSkillsCarousel = document.getElementById('software-skills');
+                // softwareSkillsCarousel.classList.remove('slide'); // Remove the slide effect
+                // softwareSkillsCarousel.setAttribute('data-bs-ride', ''); // Disable automatic cycling
+
+                // var elements = document.getElementsByClassName('carousel-item');
+                // while (elements.length > 0) {
+                //     elements[0].parentNode.removeChild(elements[0]);
+                // }
+                // var elements = document.getElementsByClassName('carousel-item active');
+                // while (elements.length > 0) {
+                //     elements[0].parentNode.removeChild(elements[0]);
+                // }
+                // var elements = document.getElementsByClassName('carousel-indicators');
+                // while (elements.length > 0) {
+                //     elements[0].parentNode.removeChild(elements[0]);
+                // }
+
+                // Creating the indicators as well
+                var indicators = document.createElement('div');
+                indicators.className = "carousel-indicators";
+                indicators.id = "second-view-individual-skills-table-of-contents-second-view-carousel-indicator-div";
+                document.getElementById("software-skills").appendChild(indicators);
 
                 // Creating the Active div
                 var activeCarouselItemsDiv = document.createElement('div');
@@ -861,6 +888,8 @@ var neededProperties = {
                 firstDivIndicator.type = "button";
                 firstDivIndicator.dataset.bsTarget = "#software-skills";
                 firstDivIndicator.dataset.bsSlideTo = "0";
+                firstDivIndicator.ariaCurrent = "true";
+                firstDivIndicator.id = "HHHHHH";
                 document.getElementById("second-view-individual-skills-table-of-contents-second-view-carousel-indicator-div").appendChild(firstDivIndicator);
 
                 // counter to show the percentage skills
@@ -1011,6 +1040,28 @@ var neededProperties = {
                         // continue;
                     }
                 }
+
+                // // Re-initialize the carousel
+                // softwareSkillsCarousel.classList.add('slide'); // Add the slide effect back
+                // softwareSkillsCarousel.setAttribute('data-bs-ride', 'carousel'); // Enable automatic cycling again
+                // // Assuming you have a Bootstrap carousel with ID 'software-skills'
+                // var softwareSkillsCarousel = document.getElementById('software-skills');
+
+                // // Listen for slide changes
+                // softwareSkillsCarousel.addEventListener('slid.bs.carousel', function (event) {
+                //     // Get the index of the new active slide
+                //     var newIndex = event.to;
+
+                //     // Remove 'active' class from all indicators
+                //     var indicators = document.querySelectorAll('.carousel-indicators');
+                //     indicators.forEach(function (indicator) {
+                //         indicator.classList.remove('active');
+                //     });
+
+                //     // Add 'active' class to the indicator corresponding to the new slide
+                //     indicators[newIndex].classList.add('active');
+                // });
+
             }
         }
 
@@ -1131,10 +1182,6 @@ document.addEventListener('DOMContentLoaded', function () {
             // Prevent the default anchor click behavior
             event.preventDefault();
 
-            // Update the dropdown toggle button text with the clicked item's text
-            dropdownToggle.textContent = this.textContent;
-            neededProperties.currentSkillSelected = this.textContent;
-
             // Close the dropdown menu by removing 'show' class from the 'dropdown-menu' and 'dropdown'
             var dropdownElement = this.closest('.dropdown');
             if (dropdownElement) {
@@ -1144,6 +1191,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     dropdownElement.classList.remove('show');
                 }
             }
+
+            // Update the dropdown toggle button text with the clicked item's text
+            dropdownToggle.textContent = this.textContent;
+            neededProperties.currentSkillSelected = this.textContent;
+
+            // Set parameters in the URL before reloading
+            var newUrl = window.location.href.split('?')[0] + '?direction=' + encodeURIComponent(neededProperties._current_skill_selected) +'&language=' + encodeURIComponent(neededProperties._current_show_language);
+            window.location.href = newUrl; // This will navigate to the new URL with parameters
+
+            // Reload the page
+            // window.location.reload(true); // The 'true' parameter forces a hard reload from the server
+
+            // document.addEventListener("DOMContentLoaded", function () {
+            //     neededProperties.currentShowLanguage = decodeURIComponent(getQueryParam("language"));
+            //     neededProperties.currentSkillSelected = decodeURIComponent(getQueryParam("direction"));
+            // });
         });
     });
 
@@ -1408,7 +1471,7 @@ function individualSkillFirstViewIntroFirtView() {
         var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
         thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
     }
-     else if ((window.innerWidth < 659) && (window.innerWidth > 330)) {
+    else if ((window.innerWidth < 659) && (window.innerWidth > 330)) {
         // Background Image
         var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
         thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.8) 60%), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') -30vw bottom / 70% no-repeat, linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,1) 60%), " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " top / contain no-repeat;";
