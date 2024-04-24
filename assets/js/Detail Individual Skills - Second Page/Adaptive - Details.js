@@ -714,7 +714,11 @@ var neededProperties = {
         }
 
         // ------- ↓ Changing the current drop down value ↓ -------
-        var dropdownToggle = document.getElementById('DropDownValueShowing'); // Get the dropdown toggle link by its ID
+        var dropdownToggle = document.getElementById('DropDownValueShowingSkills'); // Get the dropdown toggle link by its ID
+
+        // Setting the current style of option of skill
+        stylingCurrentSelectedOptionInDropDown('skillssss-drop-down-opened-to-style', neededProperties._current_skill_selected);
+        stylingCurrentSelectedOptionInDropDown('languagesssss-drop-down-menu-items', neededProperties._current_show_language);
 
         dropdownToggle.textContent = newSkill; // Set the new value as the dropdown toggle text
         // ------- ↑ Changing the current drop down value ↑ -------
@@ -1167,7 +1171,7 @@ if (headerText) {
 // --------------------- ↓ Changing the Value of Skills Drop Down ↓ ---------------------
 document.addEventListener('DOMContentLoaded', function () {
     // Get the dropdown toggle button by its ID
-    var dropdownToggle = document.getElementById('DropDownValueShowing');
+    var dropdownToggle = document.getElementById('DropDownValueShowingSkills');
 
     // Get the dropdown menu container
     var dropdownMenu = dropdownToggle.nextElementSibling;
@@ -1197,7 +1201,7 @@ document.addEventListener('DOMContentLoaded', function () {
             neededProperties.currentSkillSelected = this.textContent;
 
             // Set parameters in the URL before reloading
-            var newUrl = window.location.href.split('?')[0] + '?direction=' + encodeURIComponent(neededProperties._current_skill_selected) +'&language=' + encodeURIComponent(neededProperties._current_show_language);
+            var newUrl = window.location.href.split('?')[0] + '?direction=' + encodeURIComponent(neededProperties._current_skill_selected) + '&language=' + encodeURIComponent(neededProperties._current_show_language);
             window.location.href = newUrl; // This will navigate to the new URL with parameters
 
             // Reload the page
@@ -1500,3 +1504,48 @@ function individualSkillFirstViewIntroFirtView() {
     }
 }
 // --------------------- ↑ Adapting the background Image of Projects & Books & Courses ↑ ---------------------
+
+// --------------------- ↓ Togging the Drop Down to Being Smooth ↓ ---------------------
+function toggleDropdown(nameOfEleemnt) {
+    var content = document.getElementById(nameOfEleemnt);
+    content.classList.toggle("show");
+}
+
+function closeDropdownOnClickOutside(event, elementNamedropDown, DropDownToggleName) {
+    var dropdown = document.getElementById(elementNamedropDown);
+    var dropdownToggle = document.getElementById(DropDownToggleName);
+
+    // If the clicked target is not the dropdown or its children
+    if (!dropdown.contains(event.target) && event.target !== dropdownToggle) {
+        dropdown.classList.remove('show');
+    }
+}
+
+function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugument) {
+    var dropdownItems = document.querySelectorAll('#' + dropDownNameID + ' .dropdown-item');
+
+    dropdownItems.forEach(function(item) {
+        if (item.textContent == toCompareArugument) {
+            item.style = "font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);";
+        } else {
+            item.style = "font-family: Roboto, sans-serif;font-size: 80%;";
+        }
+    });
+}
+
+// Add event listener to your dropdown button
+document.getElementById("ForToggling").addEventListener("click", function () {
+    toggleDropdown("language-individual-skills-drop-down-change-languages");
+});
+document.addEventListener('click', function () {
+    closeDropdownOnClickOutside(event, 'language-individual-skills-drop-down-change-languages', 'ForToggling');
+});
+
+document.getElementById("DropDownValueShowingSkills").addEventListener("click", function () {
+    toggleDropdown("Skills-Drop-Down-top-nav-bar");
+});
+document.addEventListener('click', function () {
+    closeDropdownOnClickOutside(event, 'Skills-Drop-Down-top-nav-bar', 'DropDownValueShowingSkills');
+});
+
+// --------------------- ↑ Togging the Drop Down to Being Smooth ↑ ---------------------
