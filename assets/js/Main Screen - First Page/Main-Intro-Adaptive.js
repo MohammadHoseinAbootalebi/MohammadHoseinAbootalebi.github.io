@@ -53,6 +53,113 @@ var downloadMyResumeTranslations = {
     },
 };
 
+var staticTranslationsOfMyWebsite = {
+    // English
+    'English': {
+        'ContactMe': 'Contact Me',
+        'Home': 'Home',
+        'DropDownSkillsTopNavBar': 'Skills',
+        'MainPageFirstViewIntroHeading': "Hi! I'm Muhammad Husain Aboutalebi",
+        'fontFamily': "'Lilita One', serif",
+    },
+    // German
+    'Deutsch': {
+        'ContactMe': 'Kontaktiere mich',
+        'Home': 'Heim',
+        'DropDownSkillsTopNavBar': 'Fähigkeiten',
+        'MainPageFirstViewIntroHeading': "Hallo! Ich bin Muhammad Husain Aboutalebi",
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Chinese (Simplified)
+    '中国人': {
+        'ContactMe': '联络我',
+        'Home': '家',
+        'DropDownSkillsTopNavBar': '技能',
+        'MainPageFirstViewIntroHeading': "你好！ 我是穆罕默德·侯赛因·阿布塔莱比",
+        'fontFamily': "'Ma Shan Zheng', serif",
+    },
+    // Russian
+    'Русский': {
+        'ContactMe': 'Свяжитесь со мной',
+        'Home': 'Дом',
+        'DropDownSkillsTopNavBar': 'Навыки',
+        'MainPageFirstViewIntroHeading': "Привет! Я Мухаммад Хусейн Обалеби.",
+        'fontFamily': "'Lilita One', serif",
+    },
+    // French
+    'Français': {
+        'ContactMe': 'Contactez Moi',
+        'Home': 'Maison',
+        'DropDownSkillsTopNavBar': 'Compétences',
+        'MainPageFirstViewIntroHeading': "Salut! Je m'appelle Muhammad Husain Aboutalebi",
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Japanese
+    '日本語': {
+        'ContactMe': '私に連絡して',
+        'Home': '家',
+        'DropDownSkillsTopNavBar': 'スキル',
+        'MainPageFirstViewIntroHeading': "こんにちは！ 私はムハマド・フサイン・アバウタレビです。",
+        'fontFamily': "'Dela Gothic One', serif",
+    },
+    // Korean
+    '한국인': {
+        'ContactMe': '저에게 연락하세요',
+        'Home': '집',
+        'DropDownSkillsTopNavBar': '기술',
+        'MainPageFirstViewIntroHeading': "안녕! 저는 무하마드 후세인 아바탈레비입니다",
+        'fontFamily': "'Black Han Sans', serif",
+    },
+    // Spanish
+    'Español': {
+        'ContactMe': 'Contáctame',
+        'Home': 'Hogar',
+        'DropDownSkillsTopNavBar': 'Habilidades',
+        'MainPageFirstViewIntroHeading': "¡Hola! Soy Muhammad Husain Aboutalebi.",
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Hindi
+    'हिंदी': {
+        'ContactMe': 'मुझसे संपर्क करें',
+        'Home': 'घर',
+        'DropDownSkillsTopNavBar': 'कौशल',
+        'MainPageFirstViewIntroHeading': "नमस्ते! मैं मुहम्मद हुसैन अबाउटलेबी हूं",
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Portuguese
+    'Português': {
+        'ContactMe': 'Contate Me',
+        'Home': 'Lar',
+        'DropDownSkillsTopNavBar': 'Habilidades',
+        'MainPageFirstViewIntroHeading': "Oi! Eu sou Muhammad Husain Aboutalebi",
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Bengali
+    'বাংলা': {
+        'ContactMe': 'আমার সাথে যোগাযোগ কর',
+        'Home': 'বাড়ি',
+        'DropDownSkillsTopNavBar': 'দক্ষতা',
+        'MainPageFirstViewIntroHeading': "ওহে! আমি মুহাম্মদ হোসেন আবুতালেবী",
+        'fontFamily': "'Galada', serif",
+    },
+    // Arabic
+    'عَرَبِيّ': {
+        'ContactMe': 'اتصل بي',
+        'Home': 'بيت',
+        'DropDownSkillsTopNavBar': 'مهارات',
+        'MainPageFirstViewIntroHeading': "أهلاً! انا محمد حسين ابوطالبي",
+        'fontFamily': "'Lalezar', serif",
+    },
+    // Persian
+    'فارسی': {
+        'ContactMe': 'تماس با من',
+        'Home': 'خانه',
+        'DropDownSkillsTopNavBar': 'توانایی ها',
+        'MainPageFirstViewIntroHeading': "سلام! من محمد حسین ابوطالبی هستم",
+        'fontFamily': "'A Titraj 1'",
+    },
+};
+
 // Needed Properties that help the main functionality based on them
 var neededProperties = {
     // Needed Properties
@@ -68,6 +175,22 @@ var neededProperties = {
         // Download My Resume button
         document.getElementById('download-my-resume-pdf-id-tag-button-link').textContent = downloadMyResumeTranslations[newLanguage]['text'];
         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.fontFamily = downloadMyResumeTranslations[newLanguage]['fontFamily'];
+
+        // Contact Me button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').textContent = staticTranslationsOfMyWebsite[newLanguage]['ContactMe'];
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
+        
+        // Home button
+        document.getElementById('home-icon-link-show-to-that-this-home-page').textContent = staticTranslationsOfMyWebsite[newLanguage]['Home'];
+        document.getElementById('home-icon-link-show-to-that-this-home-page').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
+        
+        // Drop Down link button Show
+        document.getElementById('DropDownValueShowingSkills').textContent = staticTranslationsOfMyWebsite[newLanguage]['DropDownSkillsTopNavBar'];
+        document.getElementById('DropDownValueShowingSkills').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
+        
+        // Hi I'm Muhammad Husain Aboutalebi
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').textContent = staticTranslationsOfMyWebsite[newLanguage]['MainPageFirstViewIntroHeading'];
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
         // ----------------------------↑ Translations ↑ ----------------------------
 
         // ---------------------------- ↓ Customization ↓ ----------------------------
@@ -82,6 +205,14 @@ var neededProperties = {
 
         skilDropDownElm.forEach(function (item) {
             item.href = "DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(item.textContent) + "&language=" + encodeURI(newLanguage);
+        });
+
+        // Caraousel Cards
+        var skillCards = document.querySelectorAll('[id^="skill-card-to-go-button"]');
+
+        skillCards.forEach(function (item) {
+            var headingSkillCard = item.previousElementSibling.previousElementSibling.previousElementSibling; // Get the heading of each card
+            item.href = "DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(headingSkillCard.textContent) + "&language=" + encodeURI(newLanguage);
         });
         // ----------------------------↑ Customization ↑ ----------------------------
 
