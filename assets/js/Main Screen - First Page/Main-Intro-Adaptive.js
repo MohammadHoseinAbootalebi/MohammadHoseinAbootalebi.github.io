@@ -68,6 +68,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "As a Senior Industrial Designer, my career is marked by passion for creating products that blend form and function in harmony. My expertise lies in transforming ideas into tangible, market-ready products that resonate with consumers and stand the test of time.",
         'IndividualSkillsThirdViewSDAENGINEERCards': "As a Senior Self-Driving Automobile Engineer, I bring a wealth of experience in developing autonomous vehicle systems that prioritize safety and efficiency.",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "As a Mechanical Engineer, I bring a proven track record of designing and optimizing mechanical systems that enhance efficiency and performance. My expertise encompasses CAD modeling, thermal analysis, and materials engineering, allowing me to innovate solutions that meet the evolving demands of the industry.",
+        'AllRightsReservedCopyRightSymbol': "© 2024 Muhammad Husain Aboutalebi. All rights reserved.",
         'fontFamily': "'Roboto Condensed', sans-serif",
     },
     // German
@@ -84,6 +85,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "Als Senior Industrial Designer ist meine Karriere geprägt von der Leidenschaft für die Entwicklung von Produkten, die Form und Funktion in Harmonie vereinen. Meine Expertise liegt in der Umsetzung von Ideen in greifbare, marktreife Produkte, die bei den Verbrauchern Anklang finden und sich über die Zeit bewähren.",
         'IndividualSkillsThirdViewSDAENGINEERCards': "Als leitender Ingenieur für selbstfahrende Automobile bringe ich umfangreiche Erfahrung in der Entwicklung autonomer Fahrzeugsysteme mit, bei denen Sicherheit und Effizienz im Vordergrund stehen.",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "Als Maschinenbauingenieur verfüge ich über eine nachgewiesene Erfolgsbilanz bei der Entwicklung und Optimierung mechanischer Systeme, die Effizienz und Leistung steigern. Meine Fachkenntnisse umfassen CAD-Modellierung, thermische Analyse und Werkstofftechnik und ermöglichen es mir, innovative Lösungen zu entwickeln, die den sich verändernden Anforderungen der Branche gerecht werden.",
+        'AllRightsReservedCopyRightSymbol': "© 2024 Muhammad Husain Aboutalebi. Alle Rechte vorbehalten.",
         'fontFamily': "'Roboto Condensed', sans-serif",
     },
     // Chinese
@@ -100,6 +102,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "作为一名高级工业设计师，我的职业生涯的特点是热衷于创造将形式与功能融为一体的产品。 我的专长在于将想法转化为有形的、可上市的产品，这些产品能引起消费者的共鸣并经得起时间的考验。",
         'IndividualSkillsThirdViewSDAENGINEERCards': "作为一名高级自动驾驶汽车工程师，我在开发优先考虑安全性和效率的自动驾驶汽车系统方面拥有丰富的经验。",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "作为一名机械工程师，我在设计和优化机械系统以提高效率和性能方面拥有良好的记录。 我的专业知识涵盖 CAD 建模、热分析和材料工程，使我能够创新解决方案，以满足行业不断变化的需求。",
+        'AllRightsReservedCopyRightSymbol': "© 2024 穆罕默德·侯赛因·阿布塔莱比。 版权所有。",
         'fontFamily': "'Ma Shan Zheng', serif",
     },
     // Russian
@@ -116,6 +119,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "Моя карьера старшего промышленного дизайнера отмечена страстью к созданию продуктов, которые гармонично сочетают форму и функциональность. Мой опыт заключается в преобразовании идей в осязаемые, готовые к выходу на рынок продукты, которые находят отклик у потребителей и выдерживают испытание временем.",
         'IndividualSkillsThirdViewSDAENGINEERCards': "Будучи старшим инженером по беспилотным автомобилям, я обладаю богатым опытом разработки автономных транспортных систем, в которых безопасность и эффективность имеют приоритет.",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "Как инженер-механик, я имею успешный опыт проектирования и оптимизации механических систем, которые повышают эффективность и производительность. Мой опыт охватывает CAD-моделирование, термический анализ и инженерию материалов, что позволяет мне предлагать инновационные решения, отвечающие меняющимся потребностям отрасли.",
+        'AllRightsReservedCopyRightSymbol': "© 2024 Мухаммад Хусейн Обалеби. Все права защищены.",
         'fontFamily': "'Roboto Condensed', sans-serif",
     },
     // French
@@ -132,6 +136,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "En tant que designer industriel senior, ma carrière est marquée par la passion pour la création de produits alliant forme et fonction en harmonie. Mon expertise réside dans la transformation d'idées en produits tangibles, prêts à être commercialisés, qui trouvent un écho auprès des consommateurs et résistent à l'épreuve du temps.",
         'IndividualSkillsThirdViewSDAENGINEERCards': "En tant qu'ingénieur automobile autonome senior, j'apporte une riche expérience dans le développement de systèmes de véhicules autonomes qui privilégient la sécurité et l'efficacité.",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "En tant qu'ingénieur mécanique, j'apporte une expérience éprouvée dans la conception et l'optimisation de systèmes mécaniques qui améliorent l'efficacité et les performances. Mon expertise englobe la modélisation CAO, l'analyse thermique et l'ingénierie des matériaux, me permettant d'innover des solutions qui répondent aux demandes évolutives de l'industrie.",
+        'AllRightsReservedCopyRightSymbol': "© 2024 Muhammad Husain Aboutalebi. Tous droits réservés.",
         'fontFamily': "'Roboto Condensed', sans-serif",
     },
     // Japanese
@@ -148,6 +153,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "シニア工業デザイナーとしての私のキャリアは、形と機能が調和した製品を作成するという情熱によって特徴づけられています。 私の専門知識は、アイデアを消費者の共感を呼び、時の試練に耐えられる具体的な市場投入可能な製品に変えることにあります。",
         'IndividualSkillsThirdViewSDAENGINEERCards': "私は自動運転自動車の上級エンジニアとして、安全性と効率性を優先した自動運転車システムの開発に豊富な経験を持っています。",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "機械エンジニアとして、私は効率とパフォーマンスを向上させる機械システムの設計と最適化において確かな実績をもたらしています。 私の専門知識には CAD モデリング、熱解析、材料工学が含まれており、進化する業界の需要を満たすソリューションを革新することができます。",
+        'AllRightsReservedCopyRightSymbol': "© 2024 ムハマド・フセイン アバウトアレビ。 無断転載を禁じます。",
         'fontFamily': "'Hina Mincho', serif",
     },
     // Korean
@@ -164,6 +170,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "선임 산업 디자이너로서 제 경력은 형태와 기능이 조화롭게 조화를 이루는 제품을 만들려는 열정으로 특징지어집니다. 나의 전문 분야는 아이디어를 소비자의 공감을 불러일으키고 시간이 지나도 견딜 수 있는 유형의 시장용 제품으로 바꾸는 것입니다.",
         'IndividualSkillsThirdViewSDAENGINEERCards': "저는 수석 자율주행차 엔지니어로서 안전과 효율성을 우선시하는 자율주행차 시스템 개발에 대한 풍부한 경험을 갖고 있습니다.",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "기계 엔지니어로서 저는 효율성과 성능을 향상시키는 기계 시스템을 설계하고 최적화하는 입증된 실적을 보유하고 있습니다. 저의 전문 지식은 CAD 모델링, 열 분석 및 재료 엔지니어링을 포괄하므로 진화하는 업계 요구 사항을 충족하는 솔루션을 혁신할 수 있습니다.",
+        'AllRightsReservedCopyRightSymbol': "© 2024 무하마드 후세인 아바탈레비. 판권 소유.",
         'fontFamily': "'Gowun Batang', serif",
     },
     // Spanish
@@ -180,6 +187,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "Como Diseñador Industrial Senior, mi carrera está marcada por la pasión por crear productos que combinen forma y función en armonía. Mi experiencia radica en transformar ideas en productos tangibles y listos para el mercado que resuenen entre los consumidores y resistan la prueba del tiempo.",
         'IndividualSkillsThirdViewSDAENGINEERCards': "Como ingeniero senior de vehículos autónomos, aporto una gran experiencia en el desarrollo de sistemas de vehículos autónomos que priorizan la seguridad y la eficiencia.",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "Como ingeniero mecánico, aporto una trayectoria comprobada en el diseño y optimización de sistemas mecánicos que mejoran la eficiencia y el rendimiento. Mi experiencia abarca el modelado CAD, el análisis térmico y la ingeniería de materiales, lo que me permite innovar en soluciones que satisfacen las demandas cambiantes de la industria.",
+        'AllRightsReservedCopyRightSymbol': "© 2024 Muhammad Husain Aboutalebi. Reservados todos los derechos.",
         'fontFamily': "'Roboto Condensed', sans-serif",
     },
     // Hindi
@@ -196,6 +204,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "एक वरिष्ठ औद्योगिक डिजाइनर के रूप में, मेरा करियर ऐसे उत्पादों को बनाने के जुनून से चिह्नित है जो सामंजस्यपूर्ण रूप से कार्य करते हैं। मेरी विशेषज्ञता विचारों को मूर्त, बाजार के लिए तैयार उत्पादों में बदलने में निहित है जो उपभोक्ताओं को पसंद आते हैं और समय की कसौटी पर खरे उतरते हैं।",
         'IndividualSkillsThirdViewSDAENGINEERCards': "एक वरिष्ठ सेल्फ-ड्राइविंग ऑटोमोबाइल इंजीनियर के रूप में, मेरे पास सुरक्षा और दक्षता को प्राथमिकता देने वाले स्वायत्त वाहन सिस्टम विकसित करने का भरपूर अनुभव है।",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "एक मैकेनिकल इंजीनियर के रूप में, मैं दक्षता और प्रदर्शन को बढ़ाने वाले मैकेनिकल सिस्टम को डिजाइन और अनुकूलित करने का एक सिद्ध ट्रैक रिकॉर्ड रखता हूं। मेरी विशेषज्ञता में सीएडी मॉडलिंग, थर्मल विश्लेषण और सामग्री इंजीनियरिंग शामिल है, जो मुझे उद्योग की उभरती मांगों को पूरा करने वाले समाधानों को नया करने की अनुमति देती है।",
+        'AllRightsReservedCopyRightSymbol': "© 2024 मुहम्मद हुसैन अबाउटलेबी। सर्वाधिकार सुरक्षित।",
         'fontFamily': "'Roboto Condensed', sans-serif",
     },
     // Portuguese
@@ -212,6 +221,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "Como Designer Industrial Sênior, minha carreira é marcada pela paixão por criar produtos que combinam forma e função em harmonia. Minha experiência reside em transformar ideias em produtos tangíveis e prontos para o mercado, que repercutam nos consumidores e resistam ao teste do tempo.",
         'IndividualSkillsThirdViewSDAENGINEERCards': "Como engenheiro sênior de automóveis autônomos, trago vasta experiência no desenvolvimento de sistemas de veículos autônomos que priorizam segurança e eficiência.",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "Como Engenheiro Mecânico, trago um histórico comprovado de projeto e otimização de sistemas mecânicos que melhoram a eficiência e o desempenho. Minha experiência abrange modelagem CAD, análise térmica e engenharia de materiais, o que me permite inovar em soluções que atendam às crescentes demandas da indústria.",
+        'AllRightsReservedCopyRightSymbol': "© 2024 Muhammad Husain Aboutalebi. Todos os direitos reservados.",
         'fontFamily': "'Roboto Condensed', sans-serif",
     },
     // Bengali
@@ -228,6 +238,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "একজন সিনিয়র ইন্ডাস্ট্রিয়াল ডিজাইনার হিসাবে, আমার কর্মজীবন এমন পণ্য তৈরি করার আবেগ দ্বারা চিহ্নিত করা হয়েছে যা ফর্ম এবং সামঞ্জস্যের সাথে কাজ করে। আমার দক্ষতা ধারণাগুলিকে বাস্তব, বাজার-প্রস্তুত পণ্যগুলিতে রূপান্তরিত করার মধ্যে রয়েছে যা গ্রাহকদের সাথে অনুরণিত হয় এবং সময়ের পরীক্ষায় দাঁড়ায়।",
         'IndividualSkillsThirdViewSDAENGINEERCards': "একজন সিনিয়র সেলফ-ড্রাইভিং অটোমোবাইল ইঞ্জিনিয়ার হিসাবে, আমি স্বায়ত্তশাসিত যানবাহন সিস্টেমগুলি বিকাশে প্রচুর অভিজ্ঞতা নিয়ে এসেছি যা সুরক্ষা এবং দক্ষতাকে অগ্রাধিকার দেয়।",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "একজন যান্ত্রিক প্রকৌশলী হিসাবে, আমি মেকানিক্যাল সিস্টেম ডিজাইন এবং অপ্টিমাইজ করার একটি প্রমাণিত ট্র্যাক রেকর্ড নিয়ে এসেছি যা দক্ষতা এবং কর্মক্ষমতা বাড়ায়। আমার দক্ষতা CAD মডেলিং, তাপীয় বিশ্লেষণ এবং উপকরণ প্রকৌশল অন্তর্ভুক্ত করে, যা আমাকে শিল্পের ক্রমবর্ধমান চাহিদা পূরণ করে এমন সমাধান উদ্ভাবন করতে দেয়।",
+        'AllRightsReservedCopyRightSymbol': "© 2024 মুহাম্মদ হুসাইন আবুতালেবী। সমস্ত অধিকার সংরক্ষিত.",
         'fontFamily': "'Noto Serif Bengali', serif",
     },
     // Arabic
@@ -244,6 +255,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "باعتباري أحد كبار المصممين الصناعيين، تتميز مسيرتي المهنية بالشغف في إنشاء منتجات تمزج بين الشكل والوظيفة في تناغم. تكمن خبرتي في تحويل الأفكار إلى منتجات ملموسة وجاهزة للسوق والتي تلقى صدى لدى المستهلكين وتصمد أمام اختبار الزمن",
         'IndividualSkillsThirdViewSDAENGINEERCards': "باعتباري أحد كبار مهندسي السيارات ذاتية القيادة، أمتلك ثروة من الخبرة في تطوير أنظمة المركبات ذاتية القيادة التي تعطي الأولوية للسلامة والكفاءة",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "باعتباري مهندسًا ميكانيكيًا، أحمل سجلاً حافلًا في تصميم وتحسين الأنظمة الميكانيكية التي تعزز الكفاءة والأداء. تشمل خبرتي نمذجة التصميم بمساعدة الكمبيوتر (CAD)، والتحليل الحراري، وهندسة المواد، مما يسمح لي بابتكار حلول تلبي المتطلبات المتطورة لهذه الصناعة",
+        'AllRightsReservedCopyRightSymbol': "٢٠٢٤ محمد حسين أبوطالبي. كل الحقوق محفوظة ©",
         'fontFamily': "Amiri, serif",
     },
     // Persian
@@ -260,6 +272,7 @@ var longTextParagraphsIntros = {
         'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "به عنوان یک طراح ارشد صنعتی، کار من با اشتیاق برای ایجاد محصولاتی که فرم و عملکرد را در هماهنگی ترکیب می کنند مشخص شده است. تخصص من در تبدیل ایده ها به محصولات ملموس و آماده برای بازار است که با مصرف کنندگان طنین انداز می شود و در آزمون زمان مقاومت می کند",
         'IndividualSkillsThirdViewSDAENGINEERCards': "من به عنوان یک مهندس ارشد خودروی خودران، تجربه زیادی در توسعه سیستم های خودروی خودمختار که ایمنی و کارایی را در اولویت قرار می دهند، به ارمغان آورده ام",
         'IndividualSkillsThirdViewMECHANICALENGINEERCards': "من به عنوان یک مهندس مکانیک، سابقه اثبات شده ای از طراحی و بهینه سازی سیستم های مکانیکی که کارایی و عملکرد را افزایش می دهد، به ارمغان می آورم. تخصص من شامل مدل سازی CAD، تجزیه و تحلیل حرارتی و مهندسی مواد است که به من امکان می دهد راه حل هایی را ابداع کنم که نیازهای در حال تحول صنعت را برآورده کند",
+        'AllRightsReservedCopyRightSymbol': ".٢٠٢٤ محمد حسین ابوطالبی. تمامی حقوق محفوظ است ©",
         'fontFamily': "'B Nazanin'",
     },
 };
@@ -276,6 +289,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'On-Time',
         'ScondViewCREATIVECharactristics': 'Creative',
         'SeeMoreButtonForIndividualSkillsThridView': "See More",
+        'LetsTalkThirdSectionHeading': "Let's Talk!",
         'fontFamily': "'Lilita One', serif",
     },
     // German
@@ -289,6 +303,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'Pünktlich',
         'ScondViewCREATIVECharactristics': 'Kreativ',
         'SeeMoreButtonForIndividualSkillsThridView': "Mehr sehen",
+        'LetsTalkThirdSectionHeading': "Lass uns reden!",
         'fontFamily': "'Lilita One', serif",
     },
     // Chinese (Simplified)
@@ -302,6 +317,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': '准时',
         'ScondViewCREATIVECharactristics': '有创造力的',
         'SeeMoreButtonForIndividualSkillsThridView': "查看更多",
+        'LetsTalkThirdSectionHeading': "我们来谈谈吧！",
         'fontFamily': "'Ma Shan Zheng'",
     },
     // Russian
@@ -315,6 +331,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'Вовремя',
         'ScondViewCREATIVECharactristics': 'творческий',
         'SeeMoreButtonForIndividualSkillsThridView': "Узнать больше",
+        'LetsTalkThirdSectionHeading': "Давай поговорим!",
         'fontFamily': "'Lilita One', serif",
     },
     // French
@@ -328,6 +345,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'À temps',
         'ScondViewCREATIVECharactristics': 'Créatif',
         'SeeMoreButtonForIndividualSkillsThridView': "Voir plus",
+        'LetsTalkThirdSectionHeading': "Parlons!",
         'fontFamily': "'Lilita One', serif",
     },
     // Japanese
@@ -341,6 +359,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': '時間通りに',
         'ScondViewCREATIVECharactristics': 'クリエイティブ',
         'SeeMoreButtonForIndividualSkillsThridView': "続きを見る",
+        'LetsTalkThirdSectionHeading': "話しましょう!",
         'fontFamily': "'Dela Gothic One', serif",
     },
     // Korean
@@ -354,6 +373,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': '정시',
         'ScondViewCREATIVECharactristics': '창의적인',
         'SeeMoreButtonForIndividualSkillsThridView': "더보기",
+        'LetsTalkThirdSectionHeading': "이야기하자!",
         'fontFamily': "'Black Han Sans', serif",
     },
     // Spanish
@@ -367,6 +387,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'A tiempo',
         'ScondViewCREATIVECharactristics': 'Creativo',
         'SeeMoreButtonForIndividualSkillsThridView': "Ver más",
+        'LetsTalkThirdSectionHeading': "¡Hablemos!",
         'fontFamily': "'Lilita One', serif",
     },
     // Hindi
@@ -380,6 +401,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'समय पर',
         'ScondViewCREATIVECharactristics': 'रचनात्मक',
         'SeeMoreButtonForIndividualSkillsThridView': "और देखें",
+        'LetsTalkThirdSectionHeading': "चलो बात करते हैं!",
         'fontFamily': "'Lilita One', serif",
     },
     // Portuguese
@@ -393,6 +415,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'Na hora',
         'ScondViewCREATIVECharactristics': 'Criativo',
         'SeeMoreButtonForIndividualSkillsThridView': "Ver mais",
+        'LetsTalkThirdSectionHeading': "Vamos conversar!",
         'fontFamily': "'Lilita One', serif",
     },
     // Bengali
@@ -406,6 +429,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'অন-টাইম',
         'ScondViewCREATIVECharactristics': 'সৃজনশীল',
         'SeeMoreButtonForIndividualSkillsThridView': "আরো দেখুন",
+        'LetsTalkThirdSectionHeading': "চল কথা বলি!",
         'fontFamily': "'Galada', serif",
     },
     // Arabic
@@ -419,6 +443,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'في الوقت المحدد',
         'ScondViewCREATIVECharactristics': 'مبدع',
         'SeeMoreButtonForIndividualSkillsThridView': "شاهد المزيد",
+        'LetsTalkThirdSectionHeading': "دعونا نتحدث",
         'fontFamily': "'Lalezar', serif",
     },
     // Persian
@@ -432,6 +457,7 @@ var staticTranslationsOfMyWebsite = {
         'ScondViewONTIMECharactristics': 'وقت شناس',
         'ScondViewCREATIVECharactristics': 'خلاق',
         'SeeMoreButtonForIndividualSkillsThridView': "بیشتر ببین",
+        'LetsTalkThirdSectionHeading': "بیایید صحبت کنیم",
         'fontFamily': "'Lalezar', serif",
     },
 };
@@ -543,6 +569,14 @@ var neededProperties = {
             item.textContent = staticTranslationsOfMyWebsite[newLanguage]['SeeMoreButtonForIndividualSkillsThridView'];
             item.style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
         });
+
+        // Translating the Let's Talk heading in contact information
+        document.getElementById('let-s-talk-third-section-the-contact-informations').textContent = staticTranslationsOfMyWebsite[newLanguage]['LetsTalkThirdSectionHeading'];
+        document.getElementById('let-s-talk-third-section-the-contact-informations').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
+
+        // Translating the all rights reserved section
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').textContent = longTextParagraphsIntros[newLanguage]['AllRightsReservedCopyRightSymbol'];
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
         // ----------------------------↑ Translations ↑ ----------------------------
 
         // ---------------------------- ↓ Customization ↓ ----------------------------
