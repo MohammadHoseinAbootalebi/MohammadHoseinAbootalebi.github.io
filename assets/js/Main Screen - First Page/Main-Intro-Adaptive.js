@@ -754,16 +754,16 @@ function MakingAnythingResponsiveBehavior() {
 
     // First view > section > background
     if (window.innerWidth < 765) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/Right%20Triangles%20and%20Orange%20Shape.svg") right top / 30vw no-repeat, url("/Left%20Top%20-%20Introduction%20-%20Shapes%20and%20Perfect%20Triangles.svg") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = '"/assets/img/Right Triangles and Orange Shape.svg" right top / 30vw no-repeat, url("/Left%20Top%20-%20Introduction%20-%20Shapes%20and%20Perfect%20Triangles.svg") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
     } else {
         // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
     }
 
     // First view > heading > font size
     if (window.innerWidth >= 1300) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
@@ -781,7 +781,7 @@ function MakingAnythingResponsiveBehavior() {
     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
     } else {
