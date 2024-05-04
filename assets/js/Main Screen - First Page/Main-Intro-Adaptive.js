@@ -481,35 +481,35 @@ var neededProperties = {
         // Contact Me button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').textContent = staticTranslationsOfMyWebsite[newLanguage]['ContactMe'];
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // Home button
         document.getElementById('home-icon-link-show-to-that-this-home-page').textContent = staticTranslationsOfMyWebsite[newLanguage]['Home'];
         document.getElementById('home-icon-link-show-to-that-this-home-page').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // Drop Down link button Show
         document.getElementById('DropDownValueShowingSkills').textContent = staticTranslationsOfMyWebsite[newLanguage]['DropDownSkillsTopNavBar'];
         document.getElementById('DropDownValueShowingSkills').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // Hi I'm Muhammad Husain Aboutalebi
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').textContent = staticTranslationsOfMyWebsite[newLanguage]['MainPageFirstViewIntroHeading'];
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // Contact Me in the Introduction
         document.getElementById('first-view-main-intro-page-first-button-black').textContent = staticTranslationsOfMyWebsite[newLanguage]['ContactMe'];
         document.getElementById('first-view-main-intro-page-first-button-black').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // See My Skills button
         document.getElementById('see-my-skills-button-main-page-first-view-intro').textContent = staticTranslationsOfMyWebsite[newLanguage]['SeeMySkillsButtonMainIntroFirstView'];
         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // First view intro paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').textContent = longTextParagraphsIntros[newLanguage]['MainIntroFirstViewIntroParagraph'];
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
-        
+
         // Responsible Charactristics
         document.getElementById('responsible-second-view-main-page-intro-charactristics').textContent = '  ' + staticTranslationsOfMyWebsite[newLanguage]['ScondViewRESPONSIBLECharactristics'];
         document.getElementById('responsible-second-view-main-page-intro-charactristics').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // Responsible chractristics paragraph
         document.querySelector('#small-text-responsible-second-view-charactristrics > span').textContent = '  ' + longTextParagraphsIntros[newLanguage]['SecondViewRESPONSIBLETextParagraph'];
         document.querySelector('#small-text-responsible-second-view-charactristrics > span').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
@@ -517,7 +517,7 @@ var neededProperties = {
         // On-Time charactristics
         document.getElementById('on-time-second-view-main-page-intro-charactristics').textContent = '  ' + staticTranslationsOfMyWebsite[newLanguage]['ScondViewONTIMECharactristics'];
         document.getElementById('on-time-second-view-main-page-intro-charactristics').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // On-Time charactristics Paragraph
         document.querySelector('#small-text-on-time-second-view-charactristrics > span').textContent = '  ' + longTextParagraphsIntros[newLanguage]['SecondViewONTIMETextParagraph'];
         document.querySelector('#small-text-on-time-second-view-charactristrics > span').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
@@ -525,11 +525,11 @@ var neededProperties = {
         // Creative charactristics
         document.getElementById('creative-second-view-main-page-intro-charactristics').textContent = '  ' + staticTranslationsOfMyWebsite[newLanguage]['ScondViewCREATIVECharactristics'];
         document.getElementById('creative-second-view-main-page-intro-charactristics').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
-        
+
         // Creative charactristics Paragraph
         document.querySelector('#small-text-creative-second-view-charactristrics > span').textContent = '  ' + longTextParagraphsIntros[newLanguage]['SecondViewCREATIVETextParagraph'];
         document.querySelector('#small-text-creative-second-view-charactristrics > span').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
-        
+
         // Translating the individual cards paragraphs - UI & UX Designer
         document.getElementById('individual-skills-third-view-cards-UI-and-UX-Designer').textContent = longTextParagraphsIntros[newLanguage]['IndividualSkillsThirdViewuIUXDESIGNERCards'];
         document.getElementById('individual-skills-third-view-cards-UI-and-UX-Designer').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
@@ -537,7 +537,7 @@ var neededProperties = {
         // Translating the individual cards paragraphs - Flutter Developer
         document.getElementById('individual-skills-third-view-cards-flutter-developer').textContent = longTextParagraphsIntros[newLanguage]['IndividualSkillsThirdViewFLUTTERDEVELOPERCards'];
         document.getElementById('individual-skills-third-view-cards-flutter-developer').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
-        
+
         // Translating the individual cards paragraphs - Full Stack Developer
         document.getElementById('individual-skills-third-view-cards-full-stack-developer').textContent = longTextParagraphsIntros[newLanguage]['IndividualSkillsThirdViewFULLSTACKDEVELOPERCards'];
         document.getElementById('individual-skills-third-view-cards-full-stack-developer').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
@@ -553,7 +553,7 @@ var neededProperties = {
         // Translating the individual cards paragraphs - Industrial Designer
         document.getElementById('individual-skills-third-view-cards-Industrial-Designer').textContent = longTextParagraphsIntros[newLanguage]['IndividualSkillsThirdViewINDUSTRIALDESIGNERCards'];
         document.getElementById('individual-skills-third-view-cards-Industrial-Designer').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
-        
+
         // Translating the individual cards paragraphs - Self-Driving Car Engineer
         document.getElementById('individual-skills-third-view-cards-SDC-engineer').textContent = longTextParagraphsIntros[newLanguage]['IndividualSkillsThirdViewSDAENGINEERCards'];
         document.getElementById('individual-skills-third-view-cards-SDC-engineer').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
@@ -561,7 +561,7 @@ var neededProperties = {
         // Translating the individual cards paragraphs - Mechanical Engineer
         document.getElementById('individual-skills-third-view-cards-Mechanical-engineer').textContent = longTextParagraphsIntros[newLanguage]['IndividualSkillsThirdViewMECHANICALENGINEERCards'];
         document.getElementById('individual-skills-third-view-cards-Mechanical-engineer').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
-        
+
         // Translating the See More button
         var seeMorebuttons = document.querySelectorAll('#skill-card-to-go-button');
 
@@ -716,6 +716,109 @@ switch (systemLanguage) {
 }
 // --------------------- ↑ Selecting the Browser language as the based selected language ↑ ---------------------
 
+
+// --------------------- ↓ Responsive Behavior of Anything ↓ ---------------------
+function MakingAnythingResponsiveBehavior() {
+
+    // --------------------- ↓ Top Nav Bar ↓ ---------------------
+    // Padding of the Contact Me in the Small Screens
+    if (window.innerWidth < 765) {
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+    } else {
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+    }
+
+    // Height of the drop down language to be decreased in small screens
+    if (window.innerWidth < 765) {
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '40px';
+    } else {
+        // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
+    }
+
+    // Height of the drop down of skills
+    document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.zIndex = '1'; // Make the skill drop down to upper level
+    if (window.innerWidth < 765) {
+        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.height = '40px';
+    } else {
+        // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
+    }
+
+    // First view > content > column > width
+    if (window.innerWidth < 765) {
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+    } else {
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '40vw';
+    }
+
+    // First view > section > background
+    if (window.innerWidth < 765) {
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/Right%20Triangles%20and%20Orange%20Shape.svg") right top / 30vw no-repeat, url("/Left%20Top%20-%20Introduction%20-%20Shapes%20and%20Perfect%20Triangles.svg") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+    } else {
+        // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
+    }
+
+    // First view > heading > font size
+    if (window.innerWidth >= 1300) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    } else {
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+    }
+
+    // First view > scroll indicator > opacity
+    if (window.innerWidth >= 1300) {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 900) && (window.innerWidth >= 600)) {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else {
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    }
+    // --------------------- ↑ Top Nav Bar ↑ ---------------------
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    MakingAnythingResponsiveBehavior();
+});
+
+window.addEventListener("resize", function () {
+    MakingAnythingResponsiveBehavior();
+});
+// --------------------- ↑ Responsive Behavior of Anything ↑ ---------------------
+
+
 // --------------------- ↓ Togging the Drop Down to Being Smooth ↓ ---------------------
 function toggleDropdown(nameOfEleemnt) {
     var content = document.getElementById(nameOfEleemnt);
@@ -765,7 +868,7 @@ document.addEventListener('click', function () {
 function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugument) {
     var dropdownItems = document.querySelectorAll('#' + dropDownNameID + ' .dropdown-item');
 
-    dropdownItems.forEach(function(item) {
+    dropdownItems.forEach(function (item) {
         if (item.textContent == toCompareArugument) {
             item.style = "font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);";
         } else {
