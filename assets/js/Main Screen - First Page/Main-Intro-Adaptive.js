@@ -774,7 +774,7 @@ function MakingAnythingResponsiveBehavior() {
     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 20vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 60vw no-repeat, rgb(255, 255, 255)';
     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 20vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 60vw no-repeat, rgb(255, 255, 255)';
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 17vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 60vw no-repeat, rgb(255, 255, 255)';
     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
     } else {
