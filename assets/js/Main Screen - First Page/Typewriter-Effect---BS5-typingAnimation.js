@@ -5,6 +5,7 @@
     let currentWord = ''; 
 
     const typewriter = document.getElementById('typewriter');
+    typewriter.style.fontSize = '2w';
     const cursor = document.getElementById('cursor');
 
     const type = () => {

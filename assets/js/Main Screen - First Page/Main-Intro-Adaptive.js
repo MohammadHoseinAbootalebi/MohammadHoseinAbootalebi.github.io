@@ -721,13 +721,215 @@ switch (systemLanguage) {
 function MakingAnythingResponsiveBehavior() {
 
     // --------------------- ↓ Top Nav Bar ↓ ---------------------
-    // Padding of the Contact Me in the Small Screens
-    if (window.innerWidth < 765) {
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-    } else {
+    // First View
+    if (window.innerWidth >= 1300) {
+        // First View
+        // Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '5vh';
+        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.height = '70vh';
+        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.marginTop = '20vh';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 50vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '5vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vw';
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 20vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 60vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 17vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 50vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
+        // First View > Skills Cursor
+        document.getElementById('typewriter').style.fontSize = '6vw';
+        document.getElementById('cursor').style.fontSize = '6vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '5vw';
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
+        // First View > See My Skills Button
+        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '4.5vw';
+        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '35vw';
+        // First View > Contact Me Button
+        document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '4.5vw';
+        document.getElementById('first-view-main-intro-page-first-button-black').style.width = '35vw';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+    } else {
+        // First View
+        // Top Nav Bar > Contact Me Button
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+        // First view > section > background
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+        // First view > heading > font size
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+        // First View > Paragraph
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        // First view > content > column > width
+        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+        // First view > scroll indicator > opacity
+        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
     }
 
     // Height of the drop down language to be decreased in small screens
@@ -743,90 +945,6 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.height = '40px';
     } else {
         // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
-    }
-
-    // First view > content > column > width
-    if (window.innerWidth < 765) {
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-    } else {
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '40vw';
-    }
-
-    // First view > section > background
-    if (window.innerWidth >= 1300) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 20vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 60vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 17vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 60vw no-repeat, rgb(255, 255, 255)';
-    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    } else {
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-    }
-
-    // First view > heading > font size
-    if (window.innerWidth >= 1300) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
-    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
-    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-    } else {
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-    }
-
-    // First view > scroll indicator > opacity
-    if (window.innerWidth >= 1300) {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
-    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
-    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
-    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
-    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
-    } else if ((window.innerWidth < 900) && (window.innerWidth >= 600)) {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
-    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
-    } else {
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
     }
     // --------------------- ↑ Top Nav Bar ↑ ---------------------
 }
