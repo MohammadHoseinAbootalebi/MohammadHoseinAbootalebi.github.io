@@ -793,6 +793,7 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
         // First View > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
         // First view > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // First view > scroll indicator > opacity
@@ -803,11 +804,11 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
         // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vh / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 25vw no-repeat, rgb(255, 255, 255)';
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 8vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 25vw no-repeat, rgb(255, 255, 255)';
         // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '5vh';
-        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.height = '70vh';
-        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.marginTop = '20vh';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.height = '50vw';
+        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.marginTop = '10vw';
         // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
         // - > content > column > width
@@ -823,7 +824,7 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 5vw / 35vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
         // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '10vh';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '10vw';
         // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
         // - > content > column 
@@ -836,20 +837,20 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
         // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 50vh no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vh no-repeat, rgb(255, 255, 255)';
+        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
         // - > heading
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '5vh';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '20vh';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '12vw';
         // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3.5vh';
+        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '2vw';
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
         // First View > See My Skills Button
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '3vh';
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '30vh';
+        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '2vw';
+        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '20vw';
         // First View > Contact Me Button
-        document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '3vh';
-        document.getElementById('first-view-main-intro-page-first-button-black').style.width = '30vh';
+        document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '2vw';
+        document.getElementById('first-view-main-intro-page-first-button-black').style.width = '20vw';
         // - > content > column
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // - > scroll indicator
@@ -941,6 +942,10 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // First view > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').background = 'url("/' + "assets/img/Gray - Circles.png" + '") bottom right / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") left top / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%);';
     } else {
         // First View
         // Top Nav Bar > Contact Me Button
@@ -979,15 +984,15 @@ document.addEventListener("DOMContentLoaded", function () {
     MakingAnythingResponsiveBehavior();
 });
 
-window.addEventListener("resize", function () {
-    this.location.reload();
-    MakingAnythingResponsiveBehavior();
-}, false);
+// window.addEventListener("resize", function () {
+//     this.location.reload();
+//     MakingAnythingResponsiveBehavior();
+// }, false);
 
-window.addEventListener('orientationchange', function () {
-    this.location.reload();
-    MakingAnythingResponsiveBehavior();
-}, false);
+// window.addEventListener('orientationchange', function () {
+//     this.location.reload();
+//     MakingAnythingResponsiveBehavior();
+// }, );
 // --------------------- ↑ Responsive Behavior of Anything ↑ ---------------------
 
 
