@@ -506,28 +506,28 @@ var neededProperties = {
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').textContent = longTextParagraphsIntros[newLanguage]['MainIntroFirstViewIntroParagraph'];
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
 
-        // Responsible Charactristics
+        // Responsible Charactristics Title
         document.getElementById('responsible-second-view-main-page-intro-charactristics').textContent = '  ' + staticTranslationsOfMyWebsite[newLanguage]['ScondViewRESPONSIBLECharactristics'];
         document.getElementById('responsible-second-view-main-page-intro-charactristics').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
 
         // Responsible chractristics paragraph
-        document.querySelector('#small-text-responsible-second-view-charactristrics > span').textContent = '  ' + longTextParagraphsIntros[newLanguage]['SecondViewRESPONSIBLETextParagraph'];
+        document.querySelector('#small-text-responsible-second-view-charactristrics > span').innerHTML = '<br>' + longTextParagraphsIntros[newLanguage]['SecondViewRESPONSIBLETextParagraph'];
         document.querySelector('#small-text-responsible-second-view-charactristrics > span').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
 
-        // On-Time charactristics
+        // On-Time charactristics Title
         document.getElementById('on-time-second-view-main-page-intro-charactristics').textContent = '  ' + staticTranslationsOfMyWebsite[newLanguage]['ScondViewONTIMECharactristics'];
         document.getElementById('on-time-second-view-main-page-intro-charactristics').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
 
         // On-Time charactristics Paragraph
-        document.querySelector('#small-text-on-time-second-view-charactristrics > span').textContent = '  ' + longTextParagraphsIntros[newLanguage]['SecondViewONTIMETextParagraph'];
+        document.querySelector('#small-text-on-time-second-view-charactristrics > span').innerHTML = '<br>' + longTextParagraphsIntros[newLanguage]['SecondViewONTIMETextParagraph'];
         document.querySelector('#small-text-on-time-second-view-charactristrics > span').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
 
-        // Creative charactristics
+        // Creative charactristics Title
         document.getElementById('creative-second-view-main-page-intro-charactristics').textContent = '  ' + staticTranslationsOfMyWebsite[newLanguage]['ScondViewCREATIVECharactristics'];
         document.getElementById('creative-second-view-main-page-intro-charactristics').style.fontFamily = staticTranslationsOfMyWebsite[newLanguage]['fontFamily'];
 
         // Creative charactristics Paragraph
-        document.querySelector('#small-text-creative-second-view-charactristrics > span').textContent = '  ' + longTextParagraphsIntros[newLanguage]['SecondViewCREATIVETextParagraph'];
+        document.querySelector('#small-text-creative-second-view-charactristrics > span').innerHTML = '<br>' + longTextParagraphsIntros[newLanguage]['SecondViewCREATIVETextParagraph'];
         document.querySelector('#small-text-creative-second-view-charactristrics > span').style.fontFamily = longTextParagraphsIntros[newLanguage]['fontFamily'];
 
         // Translating the individual cards paragraphs - UI & UX Designer
@@ -920,47 +920,71 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 30vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading
+        // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '6vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '10vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '30vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // First View > See My Skills Button
+        // - > See My Skills Button
         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '3.6vw';
         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '35vw';
-        // First View > Contact Me Button
+        // - > Contact Me Button
         document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '4.0vw';
         document.getElementById('first-view-main-intro-page-first-button-black').style.width = '35vw';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
         // Second View
         // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').background = 'url("/' + "assets/img/Gray - Circles.png" + '") bottom right / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") left top / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%);';
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 100vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // - > Responsible Button
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
+        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // - > On-Time Button
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
+        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // - > Creative Button
+        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
+        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading > font size
+        // - > heading > font size
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") bottom right / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") left top / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
     }
 
     // Height of the drop down language to be decreased in small screens
