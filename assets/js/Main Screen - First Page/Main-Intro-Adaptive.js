@@ -1230,6 +1230,36 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
         // Third View
+        // - > Total Third view height
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "160vh";
+        // - > Each skill title
+        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+        skillTitles.forEach(function (item) {
+            item.style.fontSize = '9vw';
+        });
+        // - > Getting all skills text description
+        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+        slidesSkillsCard.forEach(function (item) {
+            item.style.fontSize = '5vw';
+        });
+        // - > Softwares Icons
+        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+        softwaresIcons.forEach(function (item) {
+            item.style.width = '20vw';
+        });
+        // - > Each skill see more button
+        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+        seeMoreButton.forEach(function (item) {
+            item.style.fontSize = '3.5vw';
+            item.style.borderRadius = '5px';
+        });
+        // - > Skill Intro Picture
+        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+        cardIntroPicture.forEach(function (item) {
+            item.style.borderRadius = '30px';
+        });
+
+        // Fourth View
     } else {
         // First View
         // - > Top Nav Bar > Contact Me Button
