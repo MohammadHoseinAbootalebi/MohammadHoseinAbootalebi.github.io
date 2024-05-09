@@ -724,64 +724,160 @@ function MakingAnythingResponsiveBehavior() {
     // First View
     if (window.innerWidth >= 1300) {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading > font size
+        // - > heading > font size
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 15vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading > font size
+        // - > heading > font size
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 15vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading > font size
+        // - > heading > font size
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading > font size
+        // - > heading > font size
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
         // First View
         // Top Nav Bar > Contact Me Button
@@ -798,6 +894,30 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // First view > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 30vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -815,6 +935,30 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 20vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -831,6 +975,30 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // - > scroll indicator 
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 55vw 30vw / 40vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 40vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -855,6 +1023,30 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // - > scroll indicator
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 5vw / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // // - > Responsible Button
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // // - > On-Time Button
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // // - > Creative Button
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -871,53 +1063,125 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
         // - > scroll indicator
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 60vw / 60vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 60vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // - > Responsible Button
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // - > On-Time Button
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // - > Creative Button
+        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 50vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading
+        // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // First View > See My Skills Button
+        // - > See My Skills Button
         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '3.5vw';
         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '30vw';
-        // First View > Contact Me Button
+        // - > Contact Me Button
         document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '3.5vw';
         document.getElementById('first-view-main-intro-page-first-button-black').style.width = '30vw';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 100vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // - > Responsible Button
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
+        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // - > On-Time Button
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
+        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // - > Creative Button
+        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
+        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
         // First View
-        // Top Nav Bar > Contact Me Button
+        // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // First view > section > background
+        // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 17vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 50vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading > font size
+        // - > heading > font size
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
-        // First View > Skills Cursor
+        // - > Skills Cursor
         document.getElementById('typewriter').style.fontSize = '6vw';
         document.getElementById('cursor').style.fontSize = '6vw';
-        // First View > Paragraph
+        // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '5vw';
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // First View > See My Skills Button
+        // - > See My Skills Button
         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '4.5vw';
         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '35vw';
-        // First View > Contact Me Button
+        // - > Contact Me Button
         document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '4.5vw';
         document.getElementById('first-view-main-intro-page-first-button-black').style.width = '35vw';
-        // First view > content > column > width
+        // - > content > column > width
         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
+        // - > scroll indicator > opacity
         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+
+        // Second View
+        // - > Background
+        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 130vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 20vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+        // - > Responsible Button
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
+        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+        // - > On-Time Button
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
+        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+        // - > Creative Button
+        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
+        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+
+        // Third View
     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
