@@ -761,6 +761,55 @@ function MakingAnythingResponsiveBehavior() {
         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
         // Third View
+        // - > Total Third view height
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+        // - > Each individual left total description column
+        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+            item.style.marginLeft = '8vw';
+        });
+        // - > Each skill title
+        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+        skillTitles.forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '35vw';
+        });
+        // - > Getting all skills text description
+        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+        slidesSkillsCard.forEach(function (item) {
+            item.style.fontSize = '1.7vw';
+            item.style.width = '35vw';
+        });
+        // - > Softwares Icons
+        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+        softwaresIcons.forEach(function (item) {
+            item.style.width = '5vw';
+        });
+        // - > Each skill see more button
+        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+        seeMoreButton.forEach(function (item) {
+            item.style.fontSize = '1.5vw';
+            item.style.borderRadius = '14px';
+        });
+        // - > Skill Intro Picture
+        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+        cardIntroPicture.forEach(function (item) {
+            item.style.borderRadius = '80px';
+            item.style.width = '30vw';
+            item.style.height = '30vw';
+        });
+
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = (window.innerWidth * 0.03) + 'px';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -800,6 +849,54 @@ function MakingAnythingResponsiveBehavior() {
         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
         // Third View
+        // - > Total Third view height
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+        // - > Each individual left total description column
+        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+            item.style.marginLeft = '10vw';
+        });
+        // - > Each skill title
+        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+        skillTitles.forEach(function (item) {
+            item.style.fontSize = '3vw';
+        });
+        // - > Getting all skills text description
+        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+        slidesSkillsCard.forEach(function (item) {
+            item.style.fontSize = '1.7vw';
+            item.style.width = '35vw';
+        });
+        // - > Softwares Icons
+        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+        softwaresIcons.forEach(function (item) {
+            item.style.width = '5vw';
+        });
+        // - > Each skill see more button
+        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+        seeMoreButton.forEach(function (item) {
+            item.style.fontSize = '1.5vw';
+            item.style.borderRadius = '14px';
+        });
+        // - > Skill Intro Picture
+        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+        cardIntroPicture.forEach(function (item) {
+            item.style.borderRadius = '40px';
+            item.style.width = '30vw';
+            item.style.height = '30vw';
+        });
+
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -839,6 +936,53 @@ function MakingAnythingResponsiveBehavior() {
         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
         // Third View
+        // - > Total Third view height
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+        // - > Each individual left total description column
+        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+            item.style.marginLeft = '2vw';
+        });
+        // - > Each skill title
+        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+        skillTitles.forEach(function (item) {
+            item.style.fontSize = '4vw';
+        });
+        // - > Getting all skills text description
+        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+        slidesSkillsCard.forEach(function (item) {
+            item.style.fontSize = '2vw';
+        });
+        // - > Softwares Icons
+        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+        softwaresIcons.forEach(function (item) {
+            item.style.width = '6vw';
+        });
+        // - > Each skill see more button
+        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+        seeMoreButton.forEach(function (item) {
+            item.style.fontSize = '1.5vw';
+            item.style.borderRadius = '14px';
+        });
+        // - > Skill Intro Picture
+        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+        cardIntroPicture.forEach(function (item) {
+            item.style.borderRadius = '40px';
+            item.style.width = '30vw';
+            item.style.height = '30vw';
+        });
+
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -878,6 +1022,53 @@ function MakingAnythingResponsiveBehavior() {
         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
         // Third View
+        // - > Total Third view height
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+        // - > Each individual left total description column
+        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+            item.style.marginLeft = '2vw';
+        });
+        // - > Each skill title
+        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+        skillTitles.forEach(function (item) {
+            item.style.fontSize = '4vw';
+        });
+        // - > Getting all skills text description
+        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+        slidesSkillsCard.forEach(function (item) {
+            item.style.fontSize = '2vw';
+        });
+        // - > Softwares Icons
+        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+        softwaresIcons.forEach(function (item) {
+            item.style.width = '6vw';
+        });
+        // - > Each skill see more button
+        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+        seeMoreButton.forEach(function (item) {
+            item.style.fontSize = '1.5vw';
+            item.style.borderRadius = '14px';
+        });
+        // - > Skill Intro Picture
+        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+        cardIntroPicture.forEach(function (item) {
+            item.style.borderRadius = '40px';
+            item.style.width = '30vw';
+            item.style.height = '30vw';
+        });
+
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
         // First View
         // Top Nav Bar > Contact Me Button
@@ -918,6 +1109,53 @@ function MakingAnythingResponsiveBehavior() {
         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
         // Third View
+        // - > Total Third view height
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "80vw";
+        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 10vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+        // - > Each individual left total description column
+        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+            item.style.marginLeft = '3vw';
+        });
+        // - > Each skill title
+        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+        skillTitles.forEach(function (item) {
+            item.style.fontSize = '4vw';
+        });
+        // - > Getting all skills text description
+        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+        slidesSkillsCard.forEach(function (item) {
+            item.style.fontSize = '2vw';
+        });
+        // - > Softwares Icons
+        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+        softwaresIcons.forEach(function (item) {
+            item.style.width = '7vw';
+        });
+        // - > Each skill see more button
+        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+        seeMoreButton.forEach(function (item) {
+            item.style.fontSize = '1.5vw';
+            item.style.borderRadius = '14px';
+        });
+        // - > Skill Intro Picture
+        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+        cardIntroPicture.forEach(function (item) {
+            item.style.borderRadius = '40px';
+            item.style.width = '30vw';
+            item.style.height = '30vw';
+        });
+
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -996,6 +1234,16 @@ function MakingAnythingResponsiveBehavior() {
         });
 
         // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -1067,6 +1315,16 @@ function MakingAnythingResponsiveBehavior() {
         });
 
         // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -1146,6 +1404,16 @@ function MakingAnythingResponsiveBehavior() {
         });
 
         // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -1217,6 +1485,16 @@ function MakingAnythingResponsiveBehavior() {
         });
 
         // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '4vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '5vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -1294,6 +1572,16 @@ function MakingAnythingResponsiveBehavior() {
         });
 
         // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '6vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -1374,6 +1662,16 @@ function MakingAnythingResponsiveBehavior() {
         });
 
         // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '6vw';
+            item.style.width = '75vw';
+        });
     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
         // First View
         // - > Top Nav Bar > Contact Me Button
@@ -1453,6 +1751,16 @@ function MakingAnythingResponsiveBehavior() {
         });
 
         // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '6vw';
+            item.style.width = '75vw';
+        });
     } else {
         // First View
         // - > Top Nav Bar > Contact Me Button
