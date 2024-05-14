@@ -754,6 +754,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "As a Senior Self-Driving Automobile Engineer, see which books help me in the learning journey of this skill.",
             "Mechanical Engineer": "As a Seasoned Mechanical Engineer, see which books help me in the learning journey of this skill.",
         },
+        "AllRightsAreReservedLastView": "© 2024 Muhammad Husain Aboutalebi. All rights reserved.",
         "fontFamily": "'Roboto Condensed', sans-serif",
     },
     // German
@@ -798,6 +799,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "Erfahren Sie, welche Bücher mir als leitender Ingenieur für selbstfahrende Automobile beim Erlernen dieser Fähigkeit helfen.",
             "Mechanical Engineer": "Erfahren Sie, welche Bücher mir als erfahrenem Maschinenbauingenieur beim Erlernen dieser Fähigkeit helfen.",
         },
+        "AllRightsAreReservedLastView": "© 2024 Muhammad Husain Aboutalebi. Alle Rechte vorbehalten.",
         "fontFamily": "'Roboto Condensed', sans-serif",
     },
     // Chinese
@@ -842,6 +844,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "作为一名高级自动驾驶汽车工程师，看看哪些书籍可以帮助我完成这项技能的学习之旅。",
             "Mechanical Engineer": "作为一名经验丰富的机械工程师，看看哪些书籍可以帮助我完成这项技能的学习之旅。",
         },
+        "AllRightsAreReservedLastView": "© 2024 穆罕默德·侯赛因·阿布塔莱比。 版权所有。",
         "fontFamily": "'Ma Shan Zheng', serif",
     },
     // Russian
@@ -886,6 +889,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "Как старший инженер по беспилотным автомобилям, узнайте, какие книги помогают мне в освоении этого навыка.",
             "Mechanical Engineer": "Как опытному инженеру-механику, посмотрите, какие книги помогают мне в освоении этого навыка.",
         },
+        "AllRightsAreReservedLastView": "© 2024 Мухаммад Хусейн Обалеби. Все права защищены.",
         "fontFamily": "'Roboto Condensed', sans-serif",
     },
     // French
@@ -930,6 +934,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "En tant qu'ingénieur automobile autonome senior, découvrez quels livres m'aident dans le parcours d'apprentissage de cette compétence.",
             "Mechanical Engineer": "En tant qu'ingénieur mécanique chevronné, découvrez quels livres m'aident dans le parcours d'apprentissage de cette compétence.",
         },
+        "AllRightsAreReservedLastView": "© 2024 Muhammad Husain Aboutalebi. Tous droits réservés.",
         "fontFamily": "'Roboto Condensed', sans-serif",
     },
     // Japanese
@@ -974,6 +979,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "上級自動運転自動車エンジニアとして、このスキルの学習に役立つ書籍をご覧ください。",
             "Mechanical Engineer": "経験豊富な機械エンジニアとして、このスキルの学習に役立つ書籍をご覧ください。",
         },
+        "AllRightsAreReservedLastView": "© 2024 ムハマド・フセイン アバウトアレビ。 無断転載を禁じます。",
         "fontFamily": "'Hina Mincho', serif",
     },
     // Korean
@@ -1018,6 +1024,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "수석 자율주행차 엔지니어로서 이 기술을 학습하는 데 어떤 책이 도움이 되는지 알아보세요.",
             "Mechanical Engineer": "노련한 기계 엔지니어로서 이 기술을 배우는 과정에서 어떤 책이 도움이 되는지 알아보세요.",
         },
+        "AllRightsAreReservedLastView": "© 2024 무하마드 후세인 아바탈레비. 판권 소유.",
         "fontFamily": "'Gowun Batang', serif",
     },
     // Spanish
@@ -1062,6 +1069,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "Como ingeniero senior de automóviles autónomos, vea qué libros me ayudan en el aprendizaje de esta habilidad.",
             "Mechanical Engineer": "Como ingeniero mecánico experimentado, vea qué libros me ayudan en el aprendizaje de esta habilidad.",
         },
+        "AllRightsAreReservedLastView": "© 2024 Muhammad Husain Aboutalebi. Reservados todos los derechos.",
         "fontFamily": "'Roboto Condensed', sans-serif",
     },
     // Hindi
@@ -1106,6 +1114,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "एक वरिष्ठ सेल्फ-ड्राइविंग ऑटोमोबाइल इंजीनियर के रूप में, देखें कि कौन सी किताबें इस कौशल को सीखने की यात्रा में मेरी मदद करती हैं।",
             "Mechanical Engineer": "एक अनुभवी मैकेनिकल इंजीनियर के रूप में, देखें कि इस कौशल को सीखने की यात्रा में कौन सी किताबें मेरी मदद करती हैं।",
         },
+        "AllRightsAreReservedLastView": "© 2024 मुहम्मद हुसैन अबाउटलेबी। सर्वाधिकार सुरक्षित।",
         "fontFamily": "'Roboto Condensed', sans-serif",
     },
     // Portuguese
@@ -1150,6 +1159,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "Como engenheiro automotivo autônomo sênior, veja quais livros me ajudam na jornada de aprendizado dessa habilidade.",
             "Mechanical Engineer": "Como engenheiro mecânico experiente, veja quais livros me ajudam na jornada de aprendizado dessa habilidade.",
         },
+        "AllRightsAreReservedLastView": "© 2024 Muhammad Husain Aboutalebi. Todos os direitos reservados.",
         "fontFamily": "'Roboto Condensed', sans-serif",
     },
     // Bengali
@@ -1194,6 +1204,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "একজন সিনিয়র সেলফ-ড্রাইভিং অটোমোবাইল ইঞ্জিনিয়ার হিসেবে, দেখুন কোন বই আমাকে এই দক্ষতার শেখার যাত্রায় সাহায্য করে।",
             "Mechanical Engineer": "একজন অভিজ্ঞ মেকানিক্যাল ইঞ্জিনিয়ার হিসেবে, দেখুন কোন বই আমাকে এই দক্ষতার শেখার যাত্রায় সাহায্য করে।",
         },
+        "AllRightsAreReservedLastView": "© 2024 মুহাম্মদ হুসাইন আবুতালেবী। সমস্ত অধিকার সংরক্ষিত.",
         "fontFamily": "'Noto Serif Bengali', serif",
     },
     // Arabic
@@ -1238,6 +1249,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "باعتباري أحد كبار مهندسي السيارات ذاتية القيادة، اطلع على الكتب التي تساعدني في رحلة تعلم هذه المهارة.",
             "Mechanical Engineer": "كمهندس ميكانيكي متمرس، تعرف على الكتب التي تساعدني في رحلة تعلم هذه المهارة.",
         },
+        "AllRightsAreReservedLastView": "© 2024 محمد حسين أبوطالبي. كل الحقوق محفوظة.",
         "fontFamily": "Amiri, serif",
     },
     // Persian
@@ -1282,6 +1294,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "Self-Driving Automobile Engineer": "به عنوان یک مهندس ارشد خودروی خودران، ببینید کدام کتاب به من در سفر یادگیری این مهارت کمک می کند.",
             "Mechanical Engineer": "به عنوان یک مهندس مکانیک باتجربه، ببینید کدام کتاب به من در سفر یادگیری این مهارت کمک می کند.",
         },
+        "AllRightsAreReservedLastView": "© 2024 محمد حسین ابوطالبی. تمامی حقوق محفوظ است.",
         "fontFamily": "'B Nazanin'",
     },
 };
@@ -1295,6 +1308,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "Passed Courses",
             "ThirdViewCarouselSlideReadBooks": "Read Books",
             "ThirdViewCarouselSlideSeeMoreButton": "See More",
+            "SecondViewDetailViewSoftwareSkillsIcons": "Software Skills",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "UI & UX Designer",
+                "Flutter Developer": "Flutter Developer",
+                "Full Stack Developer": "Full Stack Developer",
+                "Android Developer": "Android Developer",
+                "AI Engineer": "AI Engineer",
+                "Industrial Designer": "Industrial Designer",
+                "Self-Driving Automobile Engineer": "Self-Driving Automobile Engineer",
+                "Mechanical Engineer": "Mechanical Engineer",
+            },
+            "LetstalkLastSectionTitle": "Let's Talk!",
         },
         'fontFamily': "'Lilita One', serif",
     },
@@ -1306,6 +1331,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "Bestandene Kurse",
             "ThirdViewCarouselSlideReadBooks": "Bücher lesen",
             "ThirdViewCarouselSlideSeeMoreButton": "Mehr sehen",
+            "SecondViewDetailViewSoftwareSkillsIcons": "Software-Kenntnisse",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "UI- und UX-Designer",
+                "Flutter Developer": "Flutter-Entwickler",
+                "Full Stack Developer": "Full-Stack-Entwickler",
+                "Android Developer": "Android-Entwickler",
+                "AI Engineer": "KI-Ingenieur",
+                "Industrial Designer": "Industriedesigner",
+                "Self-Driving Automobile Engineer": "Ingenieur für selbstfahrende Autos",
+                "Mechanical Engineer": "Maschinenbauingenieur",
+            },
+            "LetstalkLastSectionTitle": "Lass uns reden!",
         },
         'fontFamily': "'Lilita One', serif",
     },
@@ -1317,6 +1354,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "通过的课程",
             "ThirdViewCarouselSlideReadBooks": "看书",
             "ThirdViewCarouselSlideSeeMoreButton": "查看更多",
+            "SecondViewDetailViewSoftwareSkillsIcons": "软件技能",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "用户界面和用户体验设计师",
+                "Flutter Developer": "颤振开发者",
+                "Full Stack Developer": "全栈开发人员",
+                "Android Developer": "安卓开发者",
+                "AI Engineer": "人工智能工程师",
+                "Industrial Designer": "工业设计师",
+                "Self-Driving Automobile Engineer": "自动驾驶汽车工程师",
+                "Mechanical Engineer": "机械工程师",
+            },
+            "LetstalkLastSectionTitle": "我们来谈谈吧！",
         },
         'fontFamily': "'Ma Shan Zheng', serif",
     },
@@ -1328,6 +1377,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "Пройденные курсы",
             "ThirdViewCarouselSlideReadBooks": "Читать книги",
             "ThirdViewCarouselSlideSeeMoreButton": "Узнать больше",
+            "SecondViewDetailViewSoftwareSkillsIcons": "Навыки работы с программным обеспечением",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "UI и UX дизайнер",
+                "Flutter Developer": "Разработчик Flutter",
+                "Full Stack Developer": "Полный стек разработчик",
+                "Android Developer": "Android-разработчик",
+                "AI Engineer": "Инженер по искусственному интеллекту",
+                "Industrial Designer": "Промышленный дизайнер",
+                "Self-Driving Automobile Engineer": "Инженер по беспилотным автомобилям",
+                "Mechanical Engineer": "Инженер-механик",
+            },
+            "LetstalkLastSectionTitle": "Давай поговорим!",
         },
         'fontFamily': "'Lilita One', serif",
     },
@@ -1339,6 +1400,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "Cours réussis",
             "ThirdViewCarouselSlideReadBooks": "Lire des livres",
             "ThirdViewCarouselSlideSeeMoreButton": "Voir plus",
+            "SecondViewDetailViewSoftwareSkillsIcons": "Compétences de logiciels",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "Concepteur UI et UX",
+                "Flutter Developer": "Développeur Flutter",
+                "Full Stack Developer": "Développeur Full Stack",
+                "Android Developer": "Développeur Android",
+                "AI Engineer": "Ingénieur IA",
+                "Industrial Designer": "Designer industriel",
+                "Self-Driving Automobile Engineer": "Ingénieur automobile autonome",
+                "Mechanical Engineer": "Ingénieur mécanique",
+            },
+            "LetstalkLastSectionTitle": "Parlons!",
         },
         'fontFamily': "'Lilita One', serif",
     },
@@ -1350,6 +1423,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "合格したコース",
             "ThirdViewCarouselSlideReadBooks": "本を読む",
             "ThirdViewCarouselSlideSeeMoreButton": "続きを見る",
+            "SecondViewDetailViewSoftwareSkillsIcons": "ソフトウェアスキル",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "UI&UXデザイナー",
+                "Flutter Developer": "フラッター開発者",
+                "Full Stack Developer": "フルスタック開発者",
+                "Android Developer": "Android開発者",
+                "AI Engineer": "AIエンジニア",
+                "Industrial Designer": "工業デザイナー",
+                "Self-Driving Automobile Engineer": "自動運転自動車エンジニア",
+                "Mechanical Engineer": "機械工学士",
+            },
+            "LetstalkLastSectionTitle": "話しましょう!",
         },
         'fontFamily': "'Dela Gothic One', serif",
     },
@@ -1361,6 +1446,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "합격한 강좌",
             "ThirdViewCarouselSlideReadBooks": "책 읽기",
             "ThirdViewCarouselSlideSeeMoreButton": "더보기",
+            "SecondViewDetailViewSoftwareSkillsIcons": "소프트웨어 기술",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "UI & UX 디자이너",
+                "Flutter Developer": "Flutter 개발자",
+                "Full Stack Developer": "풀스택 개발자",
+                "Android Developer": "안드로이드 개발자",
+                "AI Engineer": "AI 엔지니어",
+                "Industrial Designer": "산업 디자이너",
+                "Self-Driving Automobile Engineer": "자율주행 자동차 엔지니어",
+                "Mechanical Engineer": "기계 엔지니어",
+            },
+            "LetstalkLastSectionTitle": "이야기하자!",
         },
         'fontFamily': "'Black Han Sans'",
     },
@@ -1372,6 +1469,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "Cursos aprobados",
             "ThirdViewCarouselSlideReadBooks": "Leer libros",
             "ThirdViewCarouselSlideSeeMoreButton": "Ver más",
+            "SecondViewDetailViewSoftwareSkillsIcons": "Habilidades de software",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "Diseñador de interfaz de usuario y UX",
+                "Flutter Developer": "Desarrollador Flutter",
+                "Full Stack Developer": "Desarrollador de pila completa",
+                "Android Developer": "Desarrollador de Android",
+                "AI Engineer": "Ingeniero de inteligencia artificial",
+                "Industrial Designer": "Diseñador industrial",
+                "Self-Driving Automobile Engineer": "Ingeniero de automóviles autónomos",
+                "Mechanical Engineer": "Ingeniero mecanico",
+            },
+            "LetstalkLastSectionTitle": "¡Hablemos!",
         },
         'fontFamily': "'Lilita One', serif",
     },
@@ -1383,6 +1492,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "उत्तीर्ण पाठ्यक्रम",
             "ThirdViewCarouselSlideReadBooks": "पुस्तकें पढ़ना",
             "ThirdViewCarouselSlideSeeMoreButton": "और देखें",
+            "SecondViewDetailViewSoftwareSkillsIcons": "सॉफ़्टवेयर कौशल",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "यूआई और यूएक्स डिजाइनर",
+                "Flutter Developer": "स्पंदन डेवलपर",
+                "Full Stack Developer": "पूरी स्टैक बनानेवाला",
+                "Android Developer": "एंड्रॉइड डेवलपर",
+                "AI Engineer": "एआई इंजीनियर",
+                "Industrial Designer": "इंडस्ट्रियल डिजाइनर",
+                "Self-Driving Automobile Engineer": "स्व-ड्राइविंग ऑटोमोबाइल इंजीनियर",
+                "Mechanical Engineer": "यांत्रिक इंजीनियर",
+            },
+            "LetstalkLastSectionTitle": "चलो बात करते हैं!",
         },
         'fontFamily': "'Lilita One', serif",
     },
@@ -1394,6 +1515,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "Cursos aprovados",
             "ThirdViewCarouselSlideReadBooks": "Leia livros",
             "ThirdViewCarouselSlideSeeMoreButton": "Ver mais",
+            "SecondViewDetailViewSoftwareSkillsIcons": "Habilidades em software",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "Designer de UI e UX",
+                "Flutter Developer": "Desenvolvedor Flutter",
+                "Full Stack Developer": "Desenvolvedor Full Stack",
+                "Android Developer": "Desenvolvedor Android",
+                "AI Engineer": "Engenheiro de IA",
+                "Industrial Designer": "Designer industrial",
+                "Self-Driving Automobile Engineer": "Engenheiro de automóveis autônomo",
+                "Mechanical Engineer": "Engenheiro mecânico",
+            },
+            "LetstalkLastSectionTitle": "Vamos conversar!",
         },
         'fontFamily': "'Lilita One', serif",
     },
@@ -1405,6 +1538,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "পাস করা কোর্স",
             "ThirdViewCarouselSlideReadBooks": "বই পড়া",
             "ThirdViewCarouselSlideSeeMoreButton": "আরো দেখুন",
+            "SecondViewDetailViewSoftwareSkillsIcons": "সফ্টওয়্যার দক্ষতা",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "যন্ত্র কৌশলী",
+                "Flutter Developer": "ফ্লটার ডেভেলপার",
+                "Full Stack Developer": "সম্পূর্ণ স্ট্যাক ডেভেলপার",
+                "Android Developer": "অ্যান্ড্রয়েড ডেভেলপার",
+                "AI Engineer": "এআই ইঞ্জিনিয়ার",
+                "Industrial Designer": "ইন্ডাস্ট্রিয়াল ডিজাইনার",
+                "Self-Driving Automobile Engineer": "স্ব-ড্রাইভিং অটোমোবাইল ইঞ্জিনিয়ার",
+                "Mechanical Engineer": "যন্ত্র কৌশলী",
+            },
+            "LetstalkLastSectionTitle": "চল কথা বলি!",
         },
         'fontFamily': "'Galada', serif",
     },
@@ -1416,6 +1561,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "الدورات التي تم اجتيازها",
             "ThirdViewCarouselSlideReadBooks": "اقرأ كتب",
             "ThirdViewCarouselSlideSeeMoreButton": "شاهد المزيد",
+            "SecondViewDetailViewSoftwareSkillsIcons": "مهارات البرمجة",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "مهندس سيارات ذاتية القيادة",
+                "Flutter Developer": "مطور الرفرفة",
+                "Full Stack Developer": "مطور مكدس كامل",
+                "Android Developer": "الروبوت المطور",
+                "AI Engineer": "مهندس الذكاء الاصطناعي",
+                "Industrial Designer": "المصمم الصناعي",
+                "Self-Driving Automobile Engineer": "مهندس سيارات ذاتية القيادة",
+                "Mechanical Engineer": "مهندس ميكانيكي",
+            },
+            "LetstalkLastSectionTitle": "دعونا نتحدث!",
         },
         'fontFamily': "'Lalezar', serif",
     },
@@ -1427,6 +1584,18 @@ var mainTitledTexts = {
             "ThirdViewCarouselSlidePassedCourses": "دوره های گذرانده شده",
             "ThirdViewCarouselSlideReadBooks": "کتاب های خوانده شده",
             "ThirdViewCarouselSlideSeeMoreButton": "دیدن بیشتر",
+            "SecondViewDetailViewSoftwareSkillsIcons": "مهارت های نرم افزاری",
+            "FirstViewSkillIndivitualTitleTranslations": {
+                "UI & UX Designer": "طراح رابط و تجربه کاربری",
+                "Flutter Developer": "توسعه دهنده فلاتر",
+                "Full Stack Developer": "توسعه دهنده فول استَک",
+                "Android Developer": "توسعه دهنده اندروید",
+                "AI Engineer": "مهندس هوش مصنوعی",
+                "Industrial Designer": "طراح صنعتی",
+                "Self-Driving Automobile Engineer": "مهندس خودروی خودران",
+                "Mechanical Engineer": "مهندس مکانیک",
+            },
+            "LetstalkLastSectionTitle": "بیایید صحبت کنیم!",
         },
         'fontFamily': "'Lalezar', serif",
     },
@@ -1844,6 +2013,10 @@ var neededProperties = {
         // Chaning the intro font style
         document.getElementById('MainTextIndividualSkillParagraphIntroduction').style.fontFamily = individualSkillsDescriptionsSecondhierachy[neededProperties._current_show_language]["fontFamily"];
 
+        // - > Title or Skill Name
+        document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects').textContent = mainTitledTexts[neededProperties._current_show_language]['texts']['FirstViewSkillIndivitualTitleTranslations'][newSkill];
+        document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects').style.fontFamily = mainTitledTexts[neededProperties._current_show_language]['fontFamily'];
+
         // -------------------------------------- ↑ Customizations ↑ --------------------------------------
     },
 
@@ -1876,6 +2049,20 @@ var neededProperties = {
         // - > CTA Button to go to the Projects
         document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects').textContent = mainTitledTexts[newLanguage]['texts']['firstViewCTAGoToProjectsCarousel'];
         document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects').style.fontFamily = mainTitledTexts[newLanguage]['fontFamily'];
+
+        // - > Title or Skill Name
+        document.getElementById('first-view-header-introduction-skill-individual-skill-name').textContent = mainTitledTexts[newLanguage]['texts']['FirstViewSkillIndivitualTitleTranslations'][neededProperties._current_skill_selected];
+        document.getElementById('first-view-header-introduction-skill-individual-skill-name').style.fontFamily = mainTitledTexts[newLanguage]['fontFamily'];
+
+        // Second View
+
+        // - > Software skills in second view
+        document.querySelectorAll('#slides-of-individual-skill-page-percentages-of-software-skills > div > div > div > h1').forEach(
+            function (item) {
+                item.textContent = mainTitledTexts[newLanguage]['texts']['SecondViewDetailViewSoftwareSkillsIcons'];
+                item.style.fontFamily = mainTitledTexts[newLanguage]['fontFamily'];
+            }
+        );
 
         // Third View
 
@@ -1910,6 +2097,15 @@ var neededProperties = {
                 item.style.fontFamily = mainTitledTexts[newLanguage]['fontFamily'];
             }
         );
+
+        // Last View
+        // - > Let's Talk
+        document.getElementById('let-s-talk-third-section-the-contact-informations').textContent = mainTitledTexts[newLanguage]['texts']['LetstalkLastSectionTitle'];
+        document.getElementById('let-s-talk-third-section-the-contact-informations').style.fontFamily = mainTitledTexts[newLanguage]['fontFamily'];
+
+        // - > All rights are reserved
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').textContent = individualSkillsDescriptionsSecondhierachy[newLanguage]['AllRightsAreReservedLastView'];
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontFamily = individualSkillsDescriptionsSecondhierachy[newLanguage]['fontFamily'];
 
         // -------------------------------------- ↑ Translations ↑ --------------------------------------
 
@@ -2331,7 +2527,8 @@ function individualSkillFirstViewIntroFirtView() {
         // CTA button
         var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
         thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
-    } else if ((window.innerWidth < 1300) && (window.innerWidth > 1200)) {
+    }
+    else if ((window.innerWidth < 1300) && (window.innerWidth > 1200)) {
         // Background Image
         var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
         thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 70%, #000000 75%, rgba(0, 0, 0, 0.3) 100%), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') bottom left / 40vw no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " top / contain no-repeat;";
@@ -2344,7 +2541,8 @@ function individualSkillFirstViewIntroFirtView() {
         // CTA button
         var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
         thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.5vw;color: rgba(0, 0, 0, 1);margin-top: 10px; padding: 5px 20px 5px 20px; border-radius: 10px;";
-    } else if ((window.innerWidth < 1200) && (window.innerWidth > 1000)) {
+    }
+    else if ((window.innerWidth < 1200) && (window.innerWidth > 1000)) {
         // Background Image
         var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
         thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') -30vh -28vh / contain no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " right / contain no-repeat;";
@@ -2371,7 +2569,8 @@ function individualSkillFirstViewIntroFirtView() {
         // CTA button
         var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
         thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
-    } else if ((window.innerWidth < 970) && (window.innerWidth > 900)) {
+    }
+    else if ((window.innerWidth < 970) && (window.innerWidth > 900)) {
         // Background Image
         var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
         thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 5%, rgb(0,0,0, 1) 25%, rgba(0, 0, 0, 1) 30%, rgba(0,0,0,0)), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') -30vh -28vh / contain no-repeat, linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(0,0,0) 35%, rgba(0, 0, 0, 0.8) 57%, rgba(0,0,0,0.6)), " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " right / contain no-repeat;";
@@ -2412,7 +2611,8 @@ function individualSkillFirstViewIntroFirtView() {
         // CTA button
         var thirdViewCarouselProjectBooksCourses = document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects');
         thirdViewCarouselProjectBooksCourses.style = "font-family: 'Lilita One', serif;background: #fca311;max-width: 30vw;border-color: rgba(255,255,255,0);font-size: 2.4vmin;color: rgba(0, 0, 0, 1);margin-top: 10px;";
-    } else {
+    }
+    else {
         // Background Image
         var thirdViewCarouselProjectBooksCourses = document.getElementById('detail-introduction-first-screen');
         thirdViewCarouselProjectBooksCourses.style = "padding-bottom: 0px;height: 100vh;background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 42%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.7) 20%), url('/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg') bottom / contain no-repeat, " + "url('" + neededProperties._current_skill_image_intro_background + "') " + " top / contain no-repeat;";
@@ -2434,6 +2634,20 @@ function individualSkillFirstViewIntroFirtView() {
     // - > CTA Go to the Projects
     document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects').textContent = mainTitledTexts[neededProperties._current_show_language]['texts']['firstViewCTAGoToProjectsCarousel'];
     document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects').style.fontFamily = mainTitledTexts[neededProperties._current_show_language]['fontFamily'];
+
+    // - > Title or Skill Name
+    document.getElementById('first-view-header-introduction-skill-individual-skill-name').textContent = mainTitledTexts[neededProperties._current_show_language]['texts']['FirstViewSkillIndivitualTitleTranslations'][neededProperties._current_skill_selected];
+    document.getElementById('first-view-header-introduction-skill-individual-skill-name').style.fontFamily = mainTitledTexts[neededProperties._current_show_language]['fontFamily'];
+
+    // Second View
+
+    // - > Software skills in second view
+    document.querySelectorAll('#slides-of-individual-skill-page-percentages-of-software-skills > div > div > div > h1').forEach(
+        function (item) {
+            item.textContent = mainTitledTexts[neededProperties._current_show_language]['texts']['SecondViewDetailViewSoftwareSkillsIcons'];
+            item.style.fontFamily = mainTitledTexts[neededProperties._current_show_language]['fontFamily'];
+        }
+    );
 
     // Third View
 
@@ -2468,6 +2682,158 @@ function individualSkillFirstViewIntroFirtView() {
             item.style.fontFamily = mainTitledTexts[neededProperties._current_show_language]['fontFamily'];
         }
     );
+
+    // - > All rights are reserved
+    document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').textContent = individualSkillsDescriptionsSecondhierachy[neededProperties._current_show_language]['AllRightsAreReservedLastView'];
+    document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontFamily = individualSkillsDescriptionsSecondhierachy[neededProperties._current_show_language]['fontFamily'];
+
+    // Last View
+    if (window.innerWidth >= 1300) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = (window.innerWidth * 0.03) + 'px';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '3vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '4vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '5vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '6vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '6vw';
+            item.style.width = '75vw';
+        });
+    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+        // Fourth View
+        // - > Background
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        // - > Reserved rights
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+        // - > Contact information buttons
+        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+            item.style.fontSize = '6vw';
+            item.style.width = '75vw';
+        });
+    } else {
+    }
 }
 // --------------------- ↑ Adapting the background Image of Projects & Books & Courses ↑ ---------------------
 
