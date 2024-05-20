@@ -16,3 +16,12 @@
   overflow: hidden;
 }
 
+.navbar-collapse {
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.navbar-collapse.show {
+  opacity: 1;
+}
+

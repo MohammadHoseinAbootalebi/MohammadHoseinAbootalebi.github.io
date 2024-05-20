@@ -1787,6 +1787,9 @@ function MakingAnythingResponsiveBehavior() {
         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '40px';
     } else {
         // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
+
+        // - > Showing the nav Bar totally
+        document.getElementById('navcol-1').style.opacity = '1';
     }
 
     // Height of the drop down of skills
