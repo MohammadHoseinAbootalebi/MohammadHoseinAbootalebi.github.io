@@ -260,18 +260,18 @@ var longTextParagraphsIntros = {
     },
     // Persian
     'فارسی': {
-        'MainIntroFirstViewIntroParagraph': "من یک خودآموخته و خودآموز هستم که خود را فقط با مدرک یا مجوز محدود نمی کند. من در هر ثانیه و هر لحظه از زندگی ام یاد گرفتم که خودم را بهتر کنم",
+        'MainIntroFirstViewIntroParagraph': "من یک خودآموخته و خودآموز هستم که خود را فقط با مدرک یا مجوز محدود نمی کند. من در هر ثانیه و هر لحظه از زندگی ام یاد گرفتم که خودم را بهتر کنم.",
         'SecondViewRESPONSIBLETextParagraph': "من مسئول کاری هستم که انجام می دهم",
         'SecondViewONTIMETextParagraph': "من همیشه تمام تلاشم را می کنم که کارها را در زمان مناسب انجام دهم",
         'SecondViewCREATIVETextParagraph': "من یک جستجوگر روش های جدید هستم",
-        'IndividualSkillsThirdViewuIUXDESIGNERCards': "من به عنوان یک طراح ارشد رابط و تجربه کاربری، با بیش از 5 سال تجربه، در ایجاد تجربیات دیجیتالی بصری و کاربر محور تخصص دارم",
-        'IndividualSkillsThirdViewFLUTTERDEVELOPERCards': "من به عنوان یک خودآموز و خودآموز، ٣ سال تجربه در توسعه فلاتر با ١٠ پروژه کاملاً انجام شده دارم که از یک برنامه ساده سلام جهان در هر زبان برنامه نویسی متداول است تا یک برنامه کاربردی تجارت الکترونیک و برنامه پیام رسان کاملاً کاربردی را شامل می شود",
-        'IndividualSkillsThirdViewFULLSTACKDEVELOPERCards': "به‌عنوان یک توسعه دهنده فول استک با تجربه، با یک دهه تجربه، در ایجاد برنامه‌های کاربردی پویا و پاسخگو در پلتفرم‌های مختلف که موفقیت کسب‌ وکار را به ارمغان می‌آورند، سرآمد هستم",
-        'IndividualSkillsThirdViewANDROIDDEVELOPERCards': "با پیشینه ای قوی در توسعه اندروید، با مهندسی بسیاری از برنامه های اندرویدی با کارایی بالات، من تخصص زیادی را به میز آورده ام",
-        'IndividualSkillsThirdViewAIENGINEERCards': "من به عنوان یک مهندس ارشد هوش مصنوعی، تخصص عمیقی در طراحی و پیاده سازی سیستم های هوش مصنوعی پیشرفته دارم. تجربه من شامل توسعه مدل‌های یادگیری ماشینی، پردازش زبان طبیعی و راه‌حل‌های بینایی رایانه‌ای است که نوآوری و کارایی را به همراه دارد",
-        'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "به عنوان یک طراح ارشد صنعتی، کار من با اشتیاق برای ایجاد محصولاتی که فرم و عملکرد را در هماهنگی ترکیب می کنند مشخص شده است. تخصص من در تبدیل ایده ها به محصولات ملموس و آماده برای بازار است که با مصرف کنندگان طنین انداز می شود و در آزمون زمان مقاومت می کند",
-        'IndividualSkillsThirdViewSDAENGINEERCards': "من به عنوان یک مهندس ارشد خودروی خودران، تجربه زیادی در توسعه سیستم های خودروی خودمختار که ایمنی و کارایی را در اولویت قرار می دهند، به ارمغان آورده ام",
-        'IndividualSkillsThirdViewMECHANICALENGINEERCards': "من به عنوان یک مهندس مکانیک، سابقه اثبات شده ای از طراحی و بهینه سازی سیستم های مکانیکی که کارایی و عملکرد را افزایش می دهد، به ارمغان می آورم. تخصص من شامل مدل سازی CAD، تجزیه و تحلیل حرارتی و مهندسی مواد است که به من امکان می دهد راه حل هایی را ابداع کنم که نیازهای در حال تحول صنعت را برآورده کند",
+        'IndividualSkillsThirdViewuIUXDESIGNERCards': "من به عنوان یک طراح ارشد رابط و تجربه کاربری، با بیش از 5 سال تجربه، در ایجاد تجربیات دیجیتالی بصری و کاربر محور تخصص دارم.",
+        'IndividualSkillsThirdViewFLUTTERDEVELOPERCards': "من به عنوان یک خودآموز و خودآموز، ٣ سال تجربه در توسعه فلاتر با ١٠ پروژه کاملاً انجام شده دارم که از یک برنامه ساده سلام جهان در هر زبان برنامه نویسی متداول است تا یک برنامه کاربردی تجارت الکترونیک و برنامه پیام رسان کاملاً کاربردی را شامل می شود.",
+        'IndividualSkillsThirdViewFULLSTACKDEVELOPERCards': "به‌عنوان یک توسعه دهنده فول استک با تجربه، با یک دهه تجربه، در ایجاد برنامه‌های کاربردی پویا و پاسخگو در پلتفرم‌های مختلف که موفقیت کسب‌ وکار را به ارمغان می‌آورند، سرآمد هستم.",
+        'IndividualSkillsThirdViewANDROIDDEVELOPERCards': "با پیشینه ای قوی در توسعه اندروید، با مهندسی بسیاری از برنامه های اندرویدی با کارایی بالات، من تخصص زیادی را به میز آورده ام.",
+        'IndividualSkillsThirdViewAIENGINEERCards': "من به عنوان یک مهندس ارشد هوش مصنوعی، تخصص عمیقی در طراحی و پیاده سازی سیستم های هوش مصنوعی پیشرفته دارم. تجربه من شامل توسعه مدل‌های یادگیری ماشینی، پردازش زبان طبیعی و راه‌حل‌های بینایی رایانه‌ای است که نوآوری و کارایی را به همراه دارد.",
+        'IndividualSkillsThirdViewINDUSTRIALDESIGNERCards': "به عنوان یک طراح ارشد صنعتی، کار من با اشتیاق برای ایجاد محصولاتی که فرم و عملکرد را در هماهنگی ترکیب می کنند مشخص شده است. تخصص من در تبدیل ایده ها به محصولات ملموس و آماده برای بازار است که با مصرف کنندگان طنین انداز می شود و در آزمون زمان مقاومت می کند.",
+        'IndividualSkillsThirdViewSDAENGINEERCards': "من به عنوان یک مهندس ارشد خودروی خودران، تجربه زیادی در توسعه سیستم های خودروی خودمختار که ایمنی و کارایی را در اولویت قرار می دهند، به ارمغان آورده ام.",
+        'IndividualSkillsThirdViewMECHANICALENGINEERCards': "من به عنوان یک مهندس مکانیک، سابقه اثبات شده ای از طراحی و بهینه سازی سیستم های مکانیکی که کارایی و عملکرد را افزایش می دهد، به ارمغان می آورم. تخصص من شامل مدل سازی. CAD، تجزیه و تحلیل حرارتی و مهندسی مواد است که به من امکان می دهد راه حل هایی را ابداع کنم که نیازهای در حال تحول صنعت را برآورده کند",
         'AllRightsReservedCopyRightSymbol': ".٢٠٢٤ محمد حسین ابوطالبی. تمامی حقوق محفوظ است ©",
         'fontFamily': "'B Nazanin'",
     },
@@ -598,6 +598,44 @@ var neededProperties = {
             item.href = "DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(headingSkillCard.textContent) + "&language=" + encodeURI(newLanguage);
         });
         // ----------------------------↑ Customization ↑ ----------------------------
+
+        // ---------------------------- ↓ Text Direction ↓ ----------------------------
+
+        if ((newLanguage == "فارسی") || (newLanguage == "عَرَبِيّ")) {
+            // First View
+            // - > Name Heading
+            document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.textAlign = "start";
+            document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').dir = "rtl";
+            // - > Self-Intro
+            document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.textAlign = "start";
+            document.getElementById('first-view-main-page-intro-paragraph-who-am-i').dir = "rtl";
+            
+            // Third View
+            // - > Paragraph
+            document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p').forEach(
+                function (item) {
+                    item.style.textAlign = "start";
+                    item.dir = "rtl";
+                });
+        } else {
+            // First View
+            // - > Name Heading
+            document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.textAlign = "start";
+            document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').dir = "ltr";
+            // - > Self-Intro
+            document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.textAlign = "start";
+            document.getElementById('first-view-main-page-intro-paragraph-who-am-i').dir = "ltr";
+
+            // Third View
+            // - > Paragraph
+            document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p').forEach(
+                function (item) {
+                    item.style.textAlign = "start";
+                    item.dir = "ltr";
+                });
+        }
+
+        // ----------------------------↑ Text Direction ↑ ----------------------------
 
         return this._current_selected_language = newLanguage;
     }
@@ -1157,6 +1195,12 @@ function MakingAnythingResponsiveBehavior() {
             item.style.width = '75vw';
         });
     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+        
+        // Top Navigation Bar
+
+        // - > Showing the nav Bar totally
+        // document.getElementById('navcol-1').style.opacity = '1';
+        
         // First View
         // - > Top Nav Bar > Contact Me Button
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
@@ -1245,15 +1289,36 @@ function MakingAnythingResponsiveBehavior() {
             item.style.width = '75vw';
         });
     } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+        
+        // Top Navigation Bar
+
+        // - > Showing the nav Bar totally
+        // document.getElementById('navcol-1').style.opacity = '1';
+
+        // > Class Name
+        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+        // - > Home Button
+        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
+        // - > language Drop Down
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
+        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+        // - > Skill Drop Down
+        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
+        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+        // - > Download the resume
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
+        // - > Contact me Button
+        document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
+        
         // First View
         // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
         // - > section
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 5vw / 35vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
         // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '10vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-10vw';
         // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
         // - > content > column 
@@ -1326,16 +1391,37 @@ function MakingAnythingResponsiveBehavior() {
             item.style.width = '75vw';
         });
     } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+        
+        // Top Navigation Bar
+
+        // - > Showing the nav Bar totally
+        // document.getElementById('navcol-1').style.opacity = '1';
+
+        // > Class Name
+        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+        // - > Home Button
+        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
+        // - > language Drop Down
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
+        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+        // - > Skill Drop Down
+        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
+        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+        // - > Download the resume
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
+        // - > Contact me Button
+        document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
+
         // First View
         // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
         // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
         // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '12vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-10vw';
         // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '2vw';
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
@@ -1415,15 +1501,37 @@ function MakingAnythingResponsiveBehavior() {
             item.style.width = '75vw';
         });
     } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+        
+        // Top Navigation Bar
+
+        // - > Showing the nav Bar totally
+        // document.getElementById('navcol-1').style.opacity = '1';
+
+        // > Class Name
+        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+        // - > Home Button
+        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
+        // - > language Drop Down
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
+        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+        // - > Skill Drop Down
+        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
+        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+        // - > Download the resume
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
+        // - > Contact me Button
+        document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
+        
         // First View
         // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
         // - > section
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 40vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
         // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '5vw';
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-30vw';
         // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3.2vw';
         // - > content > column
@@ -1496,14 +1604,36 @@ function MakingAnythingResponsiveBehavior() {
             item.style.width = '75vw';
         });
     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+        
+        // Top Navigation Bar
+
+        // - > Showing the nav Bar totally
+        // document.getElementById('navcol-1').style.opacity = '1';
+
+        // > Class Name
+        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+        // - > Home Button
+        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-20vw";
+        // - > language Drop Down
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-20vw";
+        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+        // - > Skill Drop Down
+        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-20vw";
+        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+        // - > Download the resume
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-20vw";
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "3vw";
+        // - > Contact me Button
+        document.getElementById('contact-me-nav-bar').style.marginLeft = "-20vw";
+        
         // First View
         // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
         // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 50vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
         // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-30vw';
         // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
@@ -1583,14 +1713,35 @@ function MakingAnythingResponsiveBehavior() {
             item.style.width = '75vw';
         });
     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+        // Top Navigation Bar
+
+        // - > Showing the nav Bar totally
+        // document.getElementById('navcol-1').style.opacity = '1';
+
+        // > Class Name
+        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+        // - > Home Button
+        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-20vw";
+        // - > language Drop Down
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-20vw";
+        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+        // - > Skill Drop Down
+        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-20vw";
+        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "70vw";
+        // - > Download the resume
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-20vw";
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "5vw";
+        // - > Contact me Button
+        document.getElementById('contact-me-nav-bar').style.marginLeft = "-20vw";
+        
         // First View
         // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
         // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 17vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 50vw no-repeat, rgb(255, 255, 255)';
         // - > heading > font size
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-40vw';
         // - > Skills Cursor
         document.getElementById('typewriter').style.fontSize = '6vw';
         document.getElementById('cursor').style.fontSize = '6vw';
@@ -1673,16 +1824,37 @@ function MakingAnythingResponsiveBehavior() {
             item.style.width = '75vw';
         });
     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+        
+        // Top Navigation Bar
+
+        // - > Showing the nav Bar totally
+        // document.getElementById('navcol-1').style.opacity = '1';
+
+        // > Class Name
+        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+        // - > Home Button
+        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-40vw";
+        // - > language Drop Down
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-40vw";
+        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+        // - > Skill Drop Down
+        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-40vw";
+        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "87vw";
+        // - > Download the resume
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-40vw";
+        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "5vw";
+        // - > Contact me Button
+        document.getElementById('contact-me-nav-bar').style.marginLeft = "-40vw";
+
         // First View
         // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
         // - > section > background
         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 30vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
         // - > heading
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '6vw';
         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '30vw';
+        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-20vw';
         // - > Paragraph
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
