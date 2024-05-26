@@ -3645,7 +3645,7 @@ function ResponsiveViewIndividualView() {
             item.style.fontSize = '6vw';
             item.style.width = '75vw';
         });
-    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+} else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
 
         // Top Navigation Bar
 
