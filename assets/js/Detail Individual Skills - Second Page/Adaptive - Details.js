@@ -2033,6 +2033,12 @@ var neededProperties = {
         document.getElementById('individual-skill-page-first-view-button-text-to-my-done-projects').style.fontFamily = mainTitledTexts[neededProperties._current_show_language]['fontFamily'];
 
         // -------------------------------------- ↑ Customizations ↑ --------------------------------------
+
+        // -------------------------------------- ↓ Links ↓ --------------------------------------
+
+        document.getElementById('books-button-to-go-to-the-book-list').href = "../BooksCoursesProjects/Books/BookList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
+
+        // -------------------------------------- ↑ Links ↑ --------------------------------------
     },
 
     set currentShowLanguage(newLanguage) {
@@ -2197,6 +2203,12 @@ var neededProperties = {
         // - > Language Selected style
         stylingCurrentSelectedOptionInDropDown('languagesssss-drop-down-menu-items', newLanguage);
         // -------------------------------------- ↑ Customizations ↑ --------------------------------------
+
+        // -------------------------------------- ↓ Links ↓ --------------------------------------
+
+        document.getElementById('books-button-to-go-to-the-book-list').href = "../BooksCoursesProjects/Books/BookList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
+
+        // -------------------------------------- ↑ Links ↑ --------------------------------------
 
         // Responsive Page View
         ResponsiveViewIndividualView();
@@ -3885,10 +3897,10 @@ function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugume
 
 // Add event listener to your dropdown button
 document.getElementById("ForToggling").addEventListener("click", function () {
-    toggleDropdown("language-individual-skills-drop-down-change-languages");
+    toggleDropdown("Main-Intro-language-individual-skills-drop-down-change-languages");
 });
 document.addEventListener('click', function () {
-    closeDropdownOnClickOutside(event, 'language-individual-skills-drop-down-change-languages', 'ForToggling');
+    closeDropdownOnClickOutside(event, 'Main-Intro-language-individual-skills-drop-down-change-languages', 'ForToggling');
 });
 
 document.getElementById("DropDownValueShowingSkills").addEventListener("click", function () {
