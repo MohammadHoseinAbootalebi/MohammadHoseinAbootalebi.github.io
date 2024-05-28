@@ -2284,6 +2284,33 @@ function getQueryParam(param) {
     return searchParams.get(param);
 }
 
+function toggleDropdown(nameOfEleemnt) {
+    var content = document.getElementById(nameOfEleemnt);
+    content.classList.toggle("show");
+}
+
+function closeDropdownOnClickOutside(event, elementNamedropDown, DropDownToggleName) {
+    var dropdown = document.getElementById(elementNamedropDown);
+    var dropdownToggle = document.getElementById(DropDownToggleName);
+
+    // If the clicked target is not the dropdown or its children
+    if (!dropdown.contains(event.target) && event.target !== dropdownToggle) {
+        dropdown.classList.remove('show');
+    }
+}
+
+function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugument) {
+    var dropdownItems = document.querySelectorAll('#' + dropDownNameID + ' .dropdown-item');
+
+    dropdownItems.forEach(function (item) {
+        if (item.textContent == toCompareArugument) {
+            item.style = "font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);";
+        } else {
+            item.style = "font-family: Roboto, sans-serif;font-size: 80%;";
+        }
+    });
+}
+
 // --------------------- ↑ Global Functions ↑ ---------------------
 
 // --------------------- ↓ Getting the current or passed lanauge ↓ ---------------------
@@ -2359,28 +2386,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-function toggleDropdown(nameOfEleemnt) {
-    var content = document.getElementById(nameOfEleemnt);
-    content.classList.toggle("show");
-}
+// function toggleDropdown(nameOfEleemnt) {
+//     var content = document.getElementById(nameOfEleemnt);
+//     content.classList.toggle("show");
+// }
 
-function closeDropdownOnClickOutside(event, elementNamedropDown, DropDownToggleName) {
-    var dropdown = document.getElementById(elementNamedropDown);
-    var dropdownToggle = document.getElementById(DropDownToggleName);
+// function closeDropdownOnClickOutside(event, elementNamedropDown, DropDownToggleName) {
+//     var dropdown = document.getElementById(elementNamedropDown);
+//     var dropdownToggle = document.getElementById(DropDownToggleName);
 
-    // If the clicked target is not the dropdown or its children
-    if (!dropdown.contains(event.target) && event.target !== dropdownToggle) {
-        dropdown.classList.remove('show');
-    }
-}
+//     // If the clicked target is not the dropdown or its children
+//     if (!dropdown.contains(event.target) && event.target !== dropdownToggle) {
+//         dropdown.classList.remove('show');
+//     }
+// }
 
-// Add event listener to your dropdown button
-document.getElementById("ForToggling").addEventListener("click", function () {
-    toggleDropdown("Main-Intro-language-individual-skills-drop-down-change-languages");
-});
-document.addEventListener('click', function () {
-    closeDropdownOnClickOutside(event, 'Main-Intro-language-individual-skills-drop-down-change-languages', 'ForToggling');
-});
+// // Add event listener to your dropdown button
+// document.getElementById("ForToggling").addEventListener("click", function () {
+//     toggleDropdown("Main-Intro-language-individual-skills-drop-down-change-languages");
+// });
+// document.addEventListener('click', function () {
+//     closeDropdownOnClickOutside(event, 'Main-Intro-language-individual-skills-drop-down-change-languages', 'ForToggling');
+// });
 // --------------------- ↑ Language Drop Down ↑ ---------------------
 
 // --------------------- ↓ Changing the Value of Skills Drop Down ↓ ---------------------
@@ -3868,32 +3895,6 @@ function ResponsiveViewIndividualView() {
 // --------------------- ↑ Adapting the background Image of Projects & Books & Courses ↑ ---------------------
 
 // --------------------- ↓ Togging the Drop Down to Being Smooth ↓ ---------------------
-function toggleDropdown(nameOfEleemnt) {
-    var content = document.getElementById(nameOfEleemnt);
-    content.classList.toggle("show");
-}
-
-function closeDropdownOnClickOutside(event, elementNamedropDown, DropDownToggleName) {
-    var dropdown = document.getElementById(elementNamedropDown);
-    var dropdownToggle = document.getElementById(DropDownToggleName);
-
-    // If the clicked target is not the dropdown or its children
-    if (!dropdown.contains(event.target) && event.target !== dropdownToggle) {
-        dropdown.classList.remove('show');
-    }
-}
-
-function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugument) {
-    var dropdownItems = document.querySelectorAll('#' + dropDownNameID + ' .dropdown-item');
-
-    dropdownItems.forEach(function (item) {
-        if (item.textContent == toCompareArugument) {
-            item.style = "font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);";
-        } else {
-            item.style = "font-family: Roboto, sans-serif;font-size: 80%;";
-        }
-    });
-}
 
 // Add event listener to your dropdown button
 document.getElementById("ForToggling").addEventListener("click", function () {
