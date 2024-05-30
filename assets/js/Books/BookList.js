@@ -1265,7 +1265,20 @@ function ResponsiveAdaptive() {
         document.getElementById('contact-me-nav-bar').style.marginLeft = "-20vw";
         document.getElementById('contact-me-nav-bar').style.marginBottom = "1.5vw";
 
-
+        // First View
+        // - > Top Indicator
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.height = "auto";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "5vw";
+        // - > Skill Image
+        document.getElementById('column-of-image-first-view-container-of-skill-card-image').style.align = "center";
+        document.getElementById('first-view-card-image-intro-skill-book-page').style.width = "70vw";
+        document.getElementById('first-view-card-image-intro-skill-book-page').style.borderRadius = "40px";
+        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginTop = "10vw";
+        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginBottom = "10vw";
+        // - > Mouse Scroll Indicator
+        document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "0";
 
 
         // Contact Information Section
