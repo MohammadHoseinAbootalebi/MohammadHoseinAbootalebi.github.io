@@ -1279,7 +1279,64 @@ function ResponsiveAdaptive() {
         document.getElementById('first-view-card-image-intro-skill-book-page').style.marginBottom = "10vw";
         // - > Mouse Scroll Indicator
         document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "0";
+        // - > Skill Heading
+        document.getElementById('first-view-skill-name-heading-introduction').style.marginLeft = "5vw";
+        document.getElementById('first-view-skill-name-heading-introduction').style.marginRight = "5vw";
+        // - > Short Description Paragraph
+        document.getElementById('first-view-div-element-for-short-description-just').style.marginLeft = "5vw";
+        document.getElementById('first-view-div-element-for-short-description-just').style.marginRight = "5vw";
 
+        // Second View
+        // - > Section
+        document.getElementById('secon-d-section-of-book-list-to-show').style.height = "365vw";
+        // - > Book Cover Image
+        document.getElementById('Book-image-second-view').style.width = "70vw";
+        document.getElementById('Book-image-second-view').style.height = "auto";
+        // - > Book Cover Image column
+        document.getElementById('Book-image-second-view-column').style.height = "120vw";
+        // - > Text Staff column
+        document.getElementById('short-information-couloumn-all-text-staffs').style.marginRight = "5vw";
+        document.getElementById('short-information-couloumn-all-text-staffs').style.marginLeft = "5vw";
+        document.getElementById('short-information-couloumn-all-text-staffs').style.marginBottom = "105vw";
+        // - > Book Name
+        document.getElementById('Book-name').style.fontSize = "8vw";
+        document.getElementById('Book-name').style.marginBottom = "4vw";
+        // - > Tag Texts
+        document.querySelectorAll('#tag-name-that-means-what-is-this-property').forEach(
+            function (item) {
+                item.style.fontSize = "5vw";
+                // item.style.marginTop = "5vw";
+            }
+        );
+        // - > Author Name
+        document.getElementById('author-name-that-should-be-replaced').style.fontSize = "5vw";
+        // - > Edition Number
+        document.getElementById('edition-number-name-that-should-be-replaced').style.fontSize = "5vw";
+        // - > Publisher Name
+        document.getElementById('publisher-name-that-should-be-replaced').style.fontSize = "5vw";
+        // - > ISBN Number
+        document.getElementById('isbn-number-name-that-should-be-replaced').style.fontSize = "5vw";
+        // - > Year Number
+        document.getElementById('year-number-name-that-should-be-replaced').style.fontSize = "5vw";
+        // - > Page Number
+        document.getElementById('Page-number-name-that-should-be-replaced').style.fontSize = "5vw";
+        // - > Short Description
+        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontSize = "5vw";
+        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.marginTop = "3vw";
+        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.width = "85vw";
+        document.getElementById('text-staff-container-jsut-short-description-paragraph').className = "container-fluid d-xxl-flex justify-content-start align-items-start align-items-xxl-start";
+        document.getElementById('text-staff-container-jsut-short-description-paragraph').style.marginTop = "3vw";
+        document.getElementById('text-staff-container-jsut-short-description-paragraph').style.marginBottom = "3vw";
+        // - > See More
+        document.getElementById('see-more-button-to-go-to-the-book-details').style.fontSize = "5vw";
+        document.getElementById('see-more-button-to-go-to-the-book-details').style.margin = "auto";
+        // - > Margin Staff just for spacing
+        document.querySelectorAll('#text-staff-container-jsut').forEach(
+            function (item) {
+                item.style.marginTop = "3vw";
+                item.style.marginBottom = "3vw";
+            }
+        );
 
         // Contact Information Section
         // Fourth View
@@ -1439,6 +1496,7 @@ var neededProperties = {
             // - > Intro Paragraph
             document.getElementById('first-view-intro-short-description-text-paragraph').style.textAlign = "start";
             document.getElementById('first-view-intro-short-description-text-paragraph').dir = "rtl";
+            document.getElementById('first-view-div-element-for-short-description-just').align = "end";
 
         } else {
 
@@ -1449,6 +1507,7 @@ var neededProperties = {
             // - > Intro Paragraph
             document.getElementById('first-view-intro-short-description-text-paragraph').style.textAlign = "start";
             document.getElementById('first-view-intro-short-description-text-paragraph').dir = "ltr";
+            document.getElementById('first-view-div-element-for-short-description-just').align = "start";
 
         }
 
@@ -1516,11 +1575,12 @@ var neededProperties = {
 
             // First View
             // - > Intro Skill Heading
-            document.getElementById('first-view-skill-name-heading-introduction').style.textAlign = "end";
+            document.getElementById('first-view-skill-name-heading-introduction').style.textAlign = "start";
             document.getElementById('first-view-skill-name-heading-introduction').dir = "rtl";
             // - > Intro Paragraph
             document.getElementById('first-view-intro-short-description-text-paragraph').style.textAlign = "start";
             document.getElementById('first-view-intro-short-description-text-paragraph').dir = "rtl";
+            document.getElementById('first-view-div-element-for-short-description-just').align = "end";
 
         } else {
 
@@ -1531,6 +1591,7 @@ var neededProperties = {
             // - > Intro Paragraph
             document.getElementById('first-view-intro-short-description-text-paragraph').style.textAlign = "start";
             document.getElementById('first-view-intro-short-description-text-paragraph').dir = "ltr";
+            document.getElementById('first-view-div-element-for-short-description-just').align = "start";
 
         }
 
