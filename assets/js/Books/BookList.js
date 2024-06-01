@@ -943,6 +943,324 @@ var individualSkillsDescriptionsSecondhierachy = {
     },
 };
 
+// Documentation
+// This dictionary contains all the books statically to be used in the preview section or the Book List Page
+var BooksReadForEachSkillStaticContainer = {
+    // UI & UX Designer
+    "UI & UX Designer": [
+        // User Research 2nd Edition stephanie Marsh
+        {
+            "BookName": "User Research",
+            "AuthorName": "Stephanie Marsh",
+            "EditionNumber": "2nd",
+            "PublisherName": "Kogan Page",
+            "ISBN": "978 1 3986 0358 5",
+            "YearNumber": "2022",
+            "PagesNumber": "345",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Introduction: why is user research so important ?",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Planning your user research",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Best practice in user research: who, what, why and how",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Getting the legal and ethical stuff right",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Setting up for success",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Managing user research logistics: agencies, facilities and contracts",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Usability testing: observing people doing things",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Content testing: what do people think your content means ?",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Card sorting: understanding how people group and relate things",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Surveys: how to gauge a widespread user response",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "User interviews: understanding people's experience through talking to them",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Diary studies: how to capture user research data over time",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Information architecture validation through tree testing: does the structure of your information work for your users ?",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 14
+                {
+                    "ChapterName": "Ethnography: observing how people behave in the real world",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 15
+                {
+                    "ChapterName": "Contextual inquiry: interviewing people in their own environment",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 16
+                {
+                    "ChapterName": "A/B testing: a technique to compare options",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 17
+                {
+                    "ChapterName": "Getting the best out of stakeholder workshops",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 18
+                {
+                    "ChapterName": "Guerrilla research: running fast-paced research in the real world",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 19
+                {
+                    "ChapterName": "How to combine user research methodologies",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 20
+                {
+                    "ChapterName": "Content analysis: understanding your qualitative data",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 21
+                {
+                    "ChapterName": "Identifying themes through affinity diagramming",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 22
+                {
+                    "ChapterName": "Thematic analysis: going beyond initial analysis",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 23
+                {
+                    "ChapterName": "Agile analysis",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 24
+                {
+                    "ChapterName": "Analysing usability data and cataloguing issues and needs",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 25
+                {
+                    "ChapterName": "Analysing data to create personas to communicate user characteristics and behaviour",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 26
+                {
+                    "ChapterName": "Analysing data to create mental models: visualizing how user think and identify opportunities",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 27
+                {
+                    "ChapterName": "Turning findings into insights",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 28
+                {
+                    "ChapterName": "Making recommendations: how to make your research findings actionable",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 29
+                {
+                    "ChapterName": "Creating executive summaries and detailed reports to present results",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 30
+                {
+                    "ChapterName": "Using video playback to present your research results",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 31
+                {
+                    "ChapterName": "Using journey and experience maps to visualize user research data",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 32
+                {
+                    "ChapterName": "Using scenarios and storyboards to represent the user journey",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 33
+                {
+                    "ChapterName": "Using infographics to translate numerical and statistical data",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 34
+                {
+                    "ChapterName": "How to recommend changes to visual, interaction and information design",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 35
+                {
+                    "ChapterName": "Conclusion",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                "User Research is a practical guide that shows readers how to use the vast array of user research methods available to improve product and service design and enhance user experience. Written by Stephanie Marsh, one of the UK’s leading user research professionals, the book covers all the key research methods, such as face-to-face user testing, card sorting, surveys, A/B testing and many more. The book also provides expert insight into the nuances, advantages and disadvantages of each method, as well as how to interpret, analyze and share the data once it has been obtained.",
+                // Paragraph 2
+                "The second edition of User Research, published in February 2022, includes new content on ethical and legal considerations when doing user research, especially in light of the new data protection laws. It also introduces the basics of research operations, a field that focuses on the infrastructure and processes that support user research. Moreover, it offers more depth on analyzing research data, one of the most difficult and important parts of the research process.",
+                // Paragraph 3
+                "User Research is a valuable resource for anyone who wants to learn how to conduct user research effectively and efficiently. It is suitable for beginners who want to get started with user research, as well as experienced practitioners who want to refresh their knowledge and skills. By reading this book, you will gain a comprehensive overview of how to be a great user researcher and how to design better products and services that meet the needs and expectations of your users.",
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/UIAndUXDesigner/User_Research_2nd_Edition_Stephanie_Marsh_Improve_Product_and_Service_Design_and_Enhance_Your_UX_Research.webp",
+        },
+        // Don't make me think Steve Krug
+        {
+            "BookName": "Don't Make Me Think",
+            "AuthorName": "Steve Krug",
+            "EditionNumber": "1st",
+            "PublisherName": "New Riders",
+            "ISBN": "978 0 3219 6551 6",
+            "YearNumber": "2014",
+            "PagesNumber": "214",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Don't make me think!",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "How we really use the Web",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Billboard Design 101",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Animal, Vegetable, or Mineral ?",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Omit needless words",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Street signs and Breadcrumbs",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "The Big Bang Theory of Web Design",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "'The Farmer and the Cowman Should Be Friends'",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Usability testing on 10 cents a day",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Mobile: It's not just a city in Alabama anymore",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "Usability as common courtesy",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Accessibility and you",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Guide for the perplexed",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                "Don't Make Me Think by Steve Krug is a book that teaches web designers and developers how to create websites that are easy to use and understand. The book is based on the principle that users should not have to think too much when they interact with a website, but rather be able to accomplish their goals quickly and intuitively. The book is full of practical tips, examples, and humor that make it a fun and informative read.",
+                // Paragraph 2
+                "One of the advantages of reading this book is that it helps web designers and developers to improve their skills and knowledge of web usability. The book covers topics such as how to design clear and effective navigation, how to write useful and concise content, how to conduct simple and cheap usability tests, and how to design for mobile devices. The book also explains the common mistakes and misconceptions that web designers and developers often make, and how to avoid them.",
+                // Paragraph 3
+                "Another advantage of reading this book is that it benefits the users of the websites that are designed and developed according to the book’s guidelines. Users will have a better experience when they visit a website that is easy to use and understand, and they will be more likely to return, recommend, or trust the website. Users will also save time and effort when they use a website that is designed to meet their needs and expectations, and they will be more satisfied and happy with the website.",
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/UIAndUXDesigner/Dont_Make_Me_Think_Steve_Krug_Revisited.webp",
+        },
+    ],
+    // Flutter Developer
+    "Flutter Developer": [
+
+    ],
+    // Full Stack Developer
+    "Full Stack Developer": [
+
+    ],
+    // Android Developer
+    "Android Developer": [
+
+    ],
+    // AI Engineer
+    "AI Engineer": [
+
+    ],
+    // Industrial Designer
+    "Industrial Designer": [
+
+    ],
+    // Self-Driving Automobile Engineer
+    "Self-Driving Automobile Engineer": [
+
+    ],
+    // Mechanical Engineer
+    "Mechanical Engineer": [
+
+    ],
+};
+
 // --------------------- ↑ Static Informations for Individual Skills Page ↑ ---------------------
 
 // ---------------------------------------- ↓ Functions ↓ ----------------------------------------
