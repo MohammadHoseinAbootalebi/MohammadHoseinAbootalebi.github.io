@@ -1275,7 +1275,7 @@ function ResponsiveAdaptive() {
         document.getElementById('column-of-image-first-view-container-of-skill-card-image').style.align = "center";
         document.getElementById('first-view-card-image-intro-skill-book-page').style.width = "70vw";
         document.getElementById('first-view-card-image-intro-skill-book-page').style.borderRadius = "40px";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginTop = "10vw";
+        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginTop = "5vw";
         document.getElementById('first-view-card-image-intro-skill-book-page').style.marginBottom = "10vw";
         // - > Mouse Scroll Indicator
         document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "0";
@@ -1292,6 +1292,7 @@ function ResponsiveAdaptive() {
         // - > Book Cover Image
         document.getElementById('Book-image-second-view').style.width = "70vw";
         document.getElementById('Book-image-second-view').style.height = "auto";
+        document.getElementById('Book-image-second-view').style.boxShadow = "0px 0px 20px 20px rgba(0, 0, 0, 0.08)"; // First: X, Second: Y, Third: Blur, Fourth: Spread, Fifth: Color
         // - > Book Cover Image column
         document.getElementById('Book-image-second-view-column').style.height = "120vw";
         // - > Text Staff column
@@ -1322,6 +1323,8 @@ function ResponsiveAdaptive() {
         document.getElementById('Page-number-name-that-should-be-replaced').style.fontSize = "5vw";
         // - > Short Description
         document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontSize = "5vw";
+        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontFamily = "'Roboto', sans-serif";
+        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontWeight = "300";
         document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.marginTop = "3vw";
         document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.width = "85vw";
         document.getElementById('text-staff-container-jsut-short-description-paragraph').className = "container-fluid d-xxl-flex justify-content-start align-items-start align-items-xxl-start";
