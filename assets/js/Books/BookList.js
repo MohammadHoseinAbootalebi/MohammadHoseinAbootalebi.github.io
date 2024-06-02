@@ -1136,7 +1136,14 @@ var BooksReadForEachSkillStaticContainer = {
             ],
             "TotalDescriptionAboutTheBook": [
                 // Paragraph 1
-                "User Research is a practical guide that shows readers how to use the vast array of user research methods available to improve product and service design and enhance user experience. Written by Stephanie Marsh, one of the UK’s leading user research professionals, the book covers all the key research methods, such as face-to-face user testing, card sorting, surveys, A/B testing and many more. The book also provides expert insight into the nuances, advantages and disadvantages of each method, as well as how to interpret, analyze and share the data once it has been obtained.",
+                {
+                    // English
+                    "English": "User Research is a practical guide that shows readers how to use the vast array of user research methods available to improve product and service design and enhance user experience. Written by Stephanie Marsh, one of the UK’s leading user research professionals, the book covers all the key research methods, such as face-to-face user testing, card sorting, surveys, A/B testing and many more. The book also provides expert insight into the nuances, advantages and disadvantages of each method, as well as how to interpret, analyze and share the data once it has been obtained.",
+                    // Deutsch
+                    "Deutsch": "User Research ist ein praktischer Leitfaden, der den Lesern zeigt, wie sie die große Bandbreite an verfügbaren Methoden der Benutzerforschung nutzen können, um das Produkt- und Servicedesign zu verbessern und das Benutzererlebnis zu steigern. Das Buch wurde von Stephanie Marsh, einer der führenden britischen Experten für Benutzerforschung, geschrieben und behandelt alle wichtigen Forschungsmethoden, wie z. B. persönliche Benutzertests, Kartensortierung, Umfragen, A/B-Tests und viele mehr. Das Buch bietet außerdem Experteneinblicke in die Nuancen, Vor- und Nachteile jeder Methode sowie in die Interpretation, Analyse und Weitergabe der Daten, sobald sie erfasst wurden.",
+                    // 中国人
+                    "中国人": "",
+                },
                 // Paragraph 2
                 "The second edition of User Research, published in February 2022, includes new content on ethical and legal considerations when doing user research, especially in light of the new data protection laws. It also introduces the basics of research operations, a field that focuses on the infrastructure and processes that support user research. Moreover, it offers more depth on analyzing research data, one of the most difficult and important parts of the research process.",
                 // Paragraph 3
