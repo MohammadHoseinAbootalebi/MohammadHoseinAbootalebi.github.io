@@ -1138,16 +1138,90 @@ var BooksReadForEachSkillStaticContainer = {
                 // Paragraph 1
                 {
                     // English
-                    "English": "User Research is a practical guide that shows readers how to use the vast array of user research methods available to improve product and service design and enhance user experience. Written by Stephanie Marsh, one of the UK’s leading user research professionals, the book covers all the key research methods, such as face-to-face user testing, card sorting, surveys, A/B testing and many more. The book also provides expert insight into the nuances, advantages and disadvantages of each method, as well as how to interpret, analyze and share the data once it has been obtained.",
-                    // Deutsch
+                    "English": "User Research is a practical guide that shows readers how to use the vast array of user research methods available to improve product and service design and enhance user experience. Written by Stephanie Marsh, one of the UK's leading user research professionals, the book covers all the key research methods, such as face-to-face user testing, card sorting, surveys, A/B testing and many more. The book also provides expert insight into the nuances, advantages and disadvantages of each method, as well as how to interpret, analyze and share the data once it has been obtained.",
+                    // German
                     "Deutsch": "User Research ist ein praktischer Leitfaden, der den Lesern zeigt, wie sie die große Bandbreite an verfügbaren Methoden der Benutzerforschung nutzen können, um das Produkt- und Servicedesign zu verbessern und das Benutzererlebnis zu steigern. Das Buch wurde von Stephanie Marsh, einer der führenden britischen Experten für Benutzerforschung, geschrieben und behandelt alle wichtigen Forschungsmethoden, wie z. B. persönliche Benutzertests, Kartensortierung, Umfragen, A/B-Tests und viele mehr. Das Buch bietet außerdem Experteneinblicke in die Nuancen, Vor- und Nachteile jeder Methode sowie in die Interpretation, Analyse und Weitergabe der Daten, sobald sie erfasst wurden.",
-                    // 中国人
-                    "中国人": "",
+                    // Chinese
+                    "中国人": "《用户研究》是一本实用指南，向读者展示如何使用各种可用的用户研究方法来改进产品和服务设计并增强用户体验。本书由英国领先的用户研究专家之一斯蒂芬妮·马什 (Stephanie Marsh) 撰写，涵盖了所有主要研究方法，例如面对面用户测试、卡片分类、调查、A/B 测试等等。本书还提供了专家对每种方法的细微差别、优点和缺点的见解，以及如何在获得数据后解释、分析和共享数据。",
+                    // Russian
+                    "Русский": "Исследование пользователей — это практическое руководство, которое показывает читателям, как использовать широкий спектр доступных методов исследования пользователей для улучшения дизайна продуктов и услуг и улучшения пользовательского опыта. Книга, написанная Стефани Марш, одним из ведущих британских специалистов по исследованию пользователей, охватывает все ключевые методы исследования, такие как личное тестирование пользователей, сортировка карточек, опросы, A/B-тестирование и многое другое. В книге также дается экспертное представление о нюансах, преимуществах и недостатках каждого метода, а также о том, как интерпретировать, анализировать и обмениваться полученными данными.",
+                    // French
+                    "Français": "User Research est un guide pratique qui montre aux lecteurs comment utiliser la vaste gamme de méthodes de recherche sur les utilisateurs disponibles pour améliorer la conception des produits et des services et améliorer l'expérience utilisateur. Écrit par Stephanie Marsh, l'une des principales professionnelles de la recherche sur les utilisateurs au Royaume-Uni, le livre couvre toutes les méthodes de recherche clés, telles que les tests utilisateurs en face à face, le tri des cartes, les enquêtes, les tests A/B et bien d'autres. Le livre fournit également un aperçu expert des nuances, des avantages et des inconvénients de chaque méthode, ainsi que de la manière d'interpréter, d'analyser et de partager les données une fois obtenues.",
+                    // Japanese
+                    "日本語": "ユーザー リサーチは、製品やサービスの設計を改善し、ユーザー エクスペリエンスを強化するために利用できるさまざまなユーザー リサーチ方法の使用方法を読者に示す実用的なガイドです。英国を代表するユーザー リサーチ専門家の 1 人である Stephanie Marsh が執筆したこの本では、対面ユーザー テスト、カード ソート、アンケート、A/B テストなど、すべての主要なリサーチ方法が取り上げられています。また、各方法のニュアンス、利点、欠点、および取得したデータの解釈、分析、共有方法についても専門家の見解が示されています。",
+                    // Korean
+                    "한국인": "사용자 연구는 제품 및 서비스 디자인을 개선하고 사용자 경험을 향상시키는 데 사용할 수 있는 광범위한 사용자 연구 방법을 사용하는 방법을 독자에게 보여주는 실용적인 가이드입니다. 영국 최고의 사용자 연구 전문가 중 한 명인 Stephanie Marsh가 집필한 이 책은 대면 사용자 테스트, 카드 정렬, 설문 조사, A/B 테스트 등과 같은 모든 주요 연구 방법을 다루고 있습니다. 이 책은 또한 각 방법의 뉘앙스, 장점 및 단점은 물론 데이터를 얻은 후 해석, 분석 및 공유하는 방법에 대한 전문적인 통찰력을 제공합니다.",
+                    // Spanish
+                    "Español": "User Research es una guía práctica que muestra a los lectores cómo utilizar la amplia gama de métodos de investigación de usuarios disponibles para mejorar el diseño de productos y servicios y mejorar la experiencia del usuario. Escrito por Stephanie Marsh, una de las principales profesionales de investigación de usuarios del Reino Unido, el libro cubre todos los métodos de investigación clave, como pruebas de usuario cara a cara, clasificación de tarjetas, encuestas, pruebas A/B y muchos más. El libro también proporciona información experta sobre los matices, ventajas y desventajas de cada método, así como sobre cómo interpretar, analizar y compartir los datos una vez obtenidos.",
+                    // Hindi
+                    "हिंदी": "यूजर रिसर्च एक व्यावहारिक मार्गदर्शिका है जो पाठकों को उत्पाद और सेवा डिज़ाइन को बेहतर बनाने और उपयोगकर्ता अनुभव को बढ़ाने के लिए उपलब्ध उपयोगकर्ता अनुसंधान विधियों की विशाल सरणी का उपयोग करने का तरीका दिखाती है। यूके के प्रमुख उपयोगकर्ता अनुसंधान पेशेवरों में से एक, स्टेफ़नी मार्श द्वारा लिखित, पुस्तक में सभी प्रमुख शोध विधियों को शामिल किया गया है, जैसे कि आमने-सामने उपयोगकर्ता परीक्षण, कार्ड सॉर्टिंग, सर्वेक्षण, ए/बी परीक्षण और कई अन्य। पुस्तक प्रत्येक विधि की बारीकियों, लाभों और नुकसानों के बारे में विशेषज्ञ अंतर्दृष्टि भी प्रदान करती है, साथ ही यह भी बताती है कि डेटा प्राप्त होने के बाद उसकी व्याख्या, विश्लेषण और साझा कैसे करें।",
+                    // Portuguese
+                    "Português": "User Research é um guia prático que mostra aos leitores como usar a vasta gama de métodos de pesquisa de usuários disponíveis para melhorar o design de produtos e serviços e aprimorar a experiência do usuário. Escrito por Stephanie Marsh, uma das principais profissionais de pesquisa de usuários do Reino Unido, o livro cobre todos os principais métodos de pesquisa, como testes presenciais de usuários, classificação de cartões, pesquisas, testes A/B e muito mais. O livro também fornece informações especializadas sobre as nuances, vantagens e desvantagens de cada método, bem como como interpretar, analisar e compartilhar os dados depois de obtidos.",
+                    // Bengali
+                    "বাংলা": "ব্যবহারকারী গবেষণা একটি ব্যবহারিক নির্দেশিকা যা পাঠকদের দেখায় কিভাবে পণ্য এবং পরিষেবার নকশা উন্নত করতে এবং ব্যবহারকারীর অভিজ্ঞতা বাড়াতে উপলব্ধ ব্যবহারকারী গবেষণা পদ্ধতির বিশাল অ্যারে ব্যবহার করতে হয়। যুক্তরাজ্যের একজন নেতৃস্থানীয় ব্যবহারকারী গবেষণা পেশাদার স্টেফানি মার্শ লিখেছেন, বইটিতে সমস্ত মূল গবেষণা পদ্ধতি রয়েছে, যেমন মুখোমুখি ব্যবহারকারী পরীক্ষা, কার্ড বাছাই, জরিপ, A/B পরীক্ষা এবং আরও অনেক কিছু। বইটি প্রতিটি পদ্ধতির সূক্ষ্মতা, সুবিধা এবং অসুবিধাগুলির মধ্যে বিশেষজ্ঞ অন্তর্দৃষ্টি প্রদান করে, সেইসাথে কীভাবে ডেটা প্রাপ্ত হয়ে গেলে ব্যাখ্যা, বিশ্লেষণ এবং ভাগ করে নেওয়া যায়।",
+                    // Arabic
+                    "عَرَبِيّ": "User Research is a practical guide that shows readers how to use the vast array of user research methods available to improve product and service design and enhance user experience. Written by Stephanie Marsh, one of the UK's leading user research professionals, the book covers all the key research methods, such as face-to-face user testing, card sorting, surveys, A/B testing and many more. The book also provides expert insight into the nuances, advantages and disadvantages of each method, as well as how to interpret, analyze and share the data once it has been obtained.",
+                    // Persian
+                    "فارسی": "تحقیقات کاربر یک راهنمای عملی است که به خوانندگان نشان می دهد چگونه از طیف گسترده ای از روش های تحقیق کاربر در دسترس برای بهبود طراحی محصول و خدمات و بهبود تجربه کاربر استفاده کنند. این کتاب که توسط استفانی مارش، یکی از متخصصان پیشرو در تحقیقات کاربر در بریتانیا نوشته شده است، تمام روش‌های تحقیقاتی کلیدی، مانند تست چهره به چهره کاربر، مرتب‌سازی کارت، نظرسنجی، تست A/B و بسیاری موارد دیگر را پوشش می‌دهد. این کتاب همچنین بینش تخصصی در مورد تفاوت های ظریف، مزایا و معایب هر روش، و همچنین نحوه تفسیر، تجزیه و تحلیل و به اشتراک گذاری داده ها پس از به دست آوردن آن ارائه می دهد.",
                 },
                 // Paragraph 2
-                "The second edition of User Research, published in February 2022, includes new content on ethical and legal considerations when doing user research, especially in light of the new data protection laws. It also introduces the basics of research operations, a field that focuses on the infrastructure and processes that support user research. Moreover, it offers more depth on analyzing research data, one of the most difficult and important parts of the research process.",
+                {
+                    // English
+                    "English": "The second edition of User Research, published in February 2022, includes new content on ethical and legal considerations when doing user research, especially in light of the new data protection laws. It also introduces the basics of research operations, a field that focuses on the infrastructure and processes that support user research. Moreover, it offers more depth on analyzing research data, one of the most difficult and important parts of the research process.",
+                    // German
+                    "Deutsch": "Die zweite Ausgabe von User Research, die im Februar 2022 veröffentlicht wurde, enthält neue Inhalte zu ethischen und rechtlichen Überlegungen bei der Durchführung von Benutzerforschung, insbesondere im Hinblick auf die neuen Datenschutzgesetze. Sie führt auch in die Grundlagen der Forschungsarbeit ein, ein Bereich, der sich auf die Infrastruktur und Prozesse konzentriert, die die Benutzerforschung unterstützen. Darüber hinaus bietet sie tiefere Einblicke in die Analyse von Forschungsdaten, einem der schwierigsten und wichtigsten Teile des Forschungsprozesses.",
+                    // Chinese
+                    "中国人": "《用户研究》第二版于 2022 年 2 月出版，其中包含有关进行用户研究时的道德和法律考虑的新内容，尤其是考虑到新的数据保护法。它还介绍了研究运营的基础知识，该领域侧重于支持用户研究的基础设施和流程。此外，它更深入地分析了研究数据，这是研究过程中最困难和最重要的部分之一。",
+                    // Russian
+                    "Русский": "Второе издание User Research, опубликованное в феврале 2022 года, включает новый контент, посвященный этическим и юридическим соображениям при проведении исследований пользователей, особенно в свете новых законов о защите данных. Он также знакомит с основами исследовательской деятельности — области, в которой основное внимание уделяется инфраструктуре и процессам, поддерживающим исследования пользователей. Более того, он предлагает более глубокий анализ данных исследования, что является одной из самых сложных и важных частей исследовательского процесса.",
+                    // French
+                    "Français": "La deuxième édition de User Research, publiée en février 2022, comprend du nouveau contenu sur les considérations éthiques et juridiques lors de la recherche sur les utilisateurs, notamment à la lumière des nouvelles lois sur la protection des données. Il présente également les bases des opérations de recherche, un domaine qui se concentre sur l'infrastructure et les processus qui soutiennent la recherche des utilisateurs. De plus, il offre une analyse plus approfondie des données de recherche, l’une des parties les plus difficiles et les plus importantes du processus de recherche.",
+                    // Japanese
+                    "日本語": "2022 年 2 月に発行されたユーザー リサーチの第 2 版には、特に新しいデータ保護法に照らして、ユーザー リサーチを行う際の倫理的および法的考慮事項に関する新しいコンテンツが含まれています。また、ユーザー リサーチをサポートするインフラストラクチャとプロセスに重点を置いた分野であるリサーチ オペレーションの基礎も紹介しています。さらに、リサーチ プロセスの中で最も困難かつ重要な部分の 1 つであるリサーチ データの分析について、より深く掘り下げています。",
+                    // Korean
+                    "한국인": "2022년 2월에 출판된 사용자 연구 제2판에는 특히 새로운 데이터 보호법에 비추어 사용자 연구를 수행할 때 윤리적, 법적 고려 사항에 대한 새로운 콘텐츠가 포함되어 있습니다. 또한 사용자 연구를 지원하는 인프라와 프로세스에 초점을 맞춘 분야인 연구 운영의 기본 사항을 소개합니다. 또한 연구 과정에서 가장 어렵고 중요한 부분 중 하나인 연구 데이터 분석에 대해 더 깊이 있는 정보를 제공합니다.",
+                    // Spanish
+                    "Español": "La segunda edición de User Research, publicada en febrero de 2022, incluye nuevo contenido sobre consideraciones éticas y legales al realizar investigaciones de usuarios, especialmente a la luz de las nuevas leyes de protección de datos. También presenta los conceptos básicos de las operaciones de investigación, un campo que se centra en la infraestructura y los procesos que respaldan la investigación de los usuarios. Además, ofrece más profundidad en el análisis de datos de investigación, una de las partes más difíciles e importantes del proceso de investigación.",
+                    // Hindi
+                    "हिंदी": "फरवरी 2022 में प्रकाशित यूजर रिसर्च के दूसरे संस्करण में, विशेष रूप से नए डेटा सुरक्षा कानूनों के आलोक में, यूजर रिसर्च करते समय नैतिक और कानूनी विचारों पर नई सामग्री शामिल है। यह रिसर्च ऑपरेशन की मूल बातें भी पेश करता है, एक ऐसा क्षेत्र जो यूजर रिसर्च का समर्थन करने वाले बुनियादी ढांचे और प्रक्रियाओं पर ध्यान केंद्रित करता है। इसके अलावा, यह रिसर्च डेटा के विश्लेषण पर अधिक गहराई प्रदान करता है, जो रिसर्च प्रक्रिया के सबसे कठिन और महत्वपूर्ण हिस्सों में से एक है।",
+                    // Portuguese
+                    "Português": "A segunda edição da User Research, publicada em fevereiro de 2022, inclui novos conteúdos sobre considerações éticas e legais ao fazer pesquisas com usuários, especialmente à luz das novas leis de proteção de dados. Ele também apresenta os fundamentos das operações de pesquisa, um campo que se concentra na infraestrutura e nos processos que apoiam a pesquisa do usuário. Além disso, oferece mais profundidade na análise dos dados da pesquisa, uma das partes mais difíceis e importantes do processo de pesquisa.",
+                    // Bengali
+                    "বাংলা": "ইউজার রিসার্চের দ্বিতীয় সংস্করণ, ফেব্রুয়ারি 2022-এ প্রকাশিত, ব্যবহারকারী গবেষণা করার সময় নৈতিক এবং আইনি বিবেচনার উপর নতুন বিষয়বস্তু অন্তর্ভুক্ত করে, বিশেষ করে নতুন ডেটা সুরক্ষা আইনের আলোকে। এটি গবেষণা ক্রিয়াকলাপের মৌলিক বিষয়গুলিও প্রবর্তন করে, একটি ক্ষেত্র যা অবকাঠামো এবং প্রক্রিয়াগুলির উপর ফোকাস করে যা ব্যবহারকারীর গবেষণাকে সমর্থন করে। অধিকন্তু, এটি গবেষণা তথ্য বিশ্লেষণে আরও গভীরতা প্রদান করে, যা গবেষণা প্রক্রিয়ার অন্যতম কঠিন এবং গুরুত্বপূর্ণ অংশ।",
+                    // Arabic
+                    "عَرَبِيّ": "تتضمن النسخة الثانية من بحث المستخدم، المنشورة في فبراير ٢٠٢٢، محتوى جديدًا حول الاعتبارات الأخلاقية والقانونية عند إجراء بحث المستخدم، خاصة في ضوء قوانين حماية البيانات الجديدة. كما يقدم أساسيات عمليات البحث، وهو المجال الذي يركز على البنية التحتية والعمليات التي تدعم أبحاث المستخدم. علاوة على ذلك، فهو يوفر المزيد من التعمق في تحليل بيانات البحث، وهو أحد أصعب وأهم أجزاء عملية البحث.",
+                    // Persian
+                    "فارسی": "ویرایش دوم تحقیقات کاربر، منتشر شده در فوریه ٢٠٢٢، شامل محتوای جدیدی در مورد ملاحظات اخلاقی و قانونی هنگام انجام تحقیقات کاربر، به ویژه با توجه به قوانین جدید حفاظت از داده است. همچنین مبانی عملیات تحقیقاتی را معرفی می‌کند، زمینه‌ای که بر زیرساخت‌ها و فرآیندهایی تمرکز دارد که از تحقیقات کاربر پشتیبانی می‌کنند. علاوه بر این، عمق بیشتری را در تجزیه و تحلیل داده های تحقیق، یکی از دشوارترین و مهم ترین بخش های فرآیند تحقیق، ارائه می دهد.",
+                },
                 // Paragraph 3
-                "User Research is a valuable resource for anyone who wants to learn how to conduct user research effectively and efficiently. It is suitable for beginners who want to get started with user research, as well as experienced practitioners who want to refresh their knowledge and skills. By reading this book, you will gain a comprehensive overview of how to be a great user researcher and how to design better products and services that meet the needs and expectations of your users.",
+                {
+                    // English
+                    "English": "User Research is a valuable resource for anyone who wants to learn how to conduct user research effectively and efficiently. It is suitable for beginners who want to get started with user research, as well as experienced practitioners who want to refresh their knowledge and skills. By reading this book, you will gain a comprehensive overview of how to be a great user researcher and how to design better products and services that meet the needs and expectations of your users.",
+                    // German
+                    "Deutsch": "User Research ist eine wertvolle Ressource für jeden, der lernen möchte, wie man effektiv und effizient Benutzerforschung betreibt. Es eignet sich sowohl für Anfänger, die in die Benutzerforschung einsteigen möchten, als auch für erfahrene Praktiker, die ihr Wissen und ihre Fähigkeiten auffrischen möchten. Durch die Lektüre dieses Buches erhalten Sie einen umfassenden Überblick darüber, wie Sie ein großartiger Benutzerforscher werden und bessere Produkte und Dienstleistungen entwickeln, die den Bedürfnissen und Erwartungen Ihrer Benutzer entsprechen.",
+                    // Chinese
+                    "中国人": "对于任何想要学习如何有效、高效地进行用户研究的人来说，《用户研究》都是一本宝贵的资源。它适合想要开始进行用户研究的初学者，也适合想要更新知识和技能的经验丰富的从业者。通过阅读这本书，你将全面了解如何成为一名优秀的用户研究员，以及如何设计出更好的产品和服务来满足用户的需求和期望。",
+                    // Russian
+                    "Русский": "Исследование пользователей — ценный ресурс для всех, кто хочет научиться эффективно и результативно проводить исследования пользователей. Он подходит как новичкам, желающим начать работу с исследованиями пользователей, так и опытным практикам, желающим освежить свои знания и навыки. Прочитав эту книгу, вы получите исчерпывающее представление о том, как стать отличным исследователем пользователей и как разрабатывать более качественные продукты и услуги, отвечающие потребностям и ожиданиям ваших пользователей.",
+                    // French
+                    "Français": "La recherche sur les utilisateurs est une ressource précieuse pour quiconque souhaite apprendre à mener des recherches sur les utilisateurs de manière efficace et efficiente. Il convient aux débutants qui souhaitent se lancer dans la recherche d'utilisateurs, ainsi qu'aux praticiens expérimentés qui souhaitent rafraîchir leurs connaissances et leurs compétences. En lisant ce livre, vous obtiendrez un aperçu complet de la façon d'être un excellent chercheur d'utilisateurs et de concevoir de meilleurs produits et services qui répondent aux besoins et aux attentes de vos utilisateurs.",
+                    // Japanese
+                    "日本語": "ユーザー リサーチは、ユーザー リサーチを効果的かつ効率的に実施する方法を学びたい人にとって貴重なリソースです。ユーザー リサーチを始めたい初心者にも、知識とスキルをリフレッシュしたい経験豊富な実践者にも適しています。この本を読むことで、優れたユーザー リサーチャーになる方法と、ユーザーのニーズと期待に応える優れた製品とサービスを設計する方法についての包括的な概要が得られます。",
+                    // Korean
+                    "한국인": "사용자 연구는 사용자 연구를 효과적이고 효율적으로 수행하는 방법을 배우고자 하는 모든 사람에게 귀중한 리소스입니다. 사용자 연구를 시작하려는 초보자는 물론, 지식과 기술을 새로 고치고 싶은 숙련된 실무자에게도 적합합니다. 이 책을 읽으면 훌륭한 사용자 연구원이 되는 방법과 사용자의 요구와 기대를 충족하는 더 나은 제품과 서비스를 설계하는 방법에 대한 포괄적인 개요를 얻을 수 있습니다.",
+                    // Spanish
+                    "Español": "La investigación de usuarios es un recurso valioso para cualquiera que quiera aprender cómo realizar investigaciones de usuarios de forma eficaz y eficiente. Es adecuado para principiantes que quieran iniciarse en la investigación de usuarios, así como para profesionales experimentados que quieran actualizar sus conocimientos y habilidades. Al leer este libro, obtendrá una descripción general completa de cómo ser un gran investigador de usuarios y cómo diseñar mejores productos y servicios que satisfagan las necesidades y expectativas de sus usuarios.",
+                    // Hindi
+                    "हिंदी": "उपयोगकर्ता अनुसंधान उन सभी लोगों के लिए एक मूल्यवान संसाधन है जो उपयोगकर्ता अनुसंधान को प्रभावी ढंग से और कुशलता से संचालित करना सीखना चाहते हैं। यह उन शुरुआती लोगों के लिए उपयुक्त है जो उपयोगकर्ता अनुसंधान के साथ शुरुआत करना चाहते हैं, साथ ही अनुभवी व्यवसायी जो अपने ज्ञान और कौशल को ताज़ा करना चाहते हैं। इस पुस्तक को पढ़कर, आपको एक महान उपयोगकर्ता शोधकर्ता बनने और अपने उपयोगकर्ताओं की ज़रूरतों और अपेक्षाओं को पूरा करने वाले बेहतर उत्पाद और सेवाएँ डिज़ाइन करने का एक व्यापक अवलोकन प्राप्त होगा।",
+                    // Portuguese
+                    "Português": "A pesquisa de usuários é um recurso valioso para quem deseja aprender como conduzir pesquisas de usuários de maneira eficaz e eficiente. É adequado para iniciantes que desejam começar a pesquisar usuários, bem como para profissionais experientes que desejam atualizar seus conhecimentos e habilidades. Ao ler este livro, você terá uma visão abrangente de como ser um excelente pesquisador de usuários e como projetar produtos e serviços melhores que atendam às necessidades e expectativas de seus usuários.",
+                    // Bengali
+                    "বাংলা": "ব্যবহারকারী গবেষণা কার্যকরভাবে এবং দক্ষতার সাথে কীভাবে ব্যবহারকারীর গবেষণা পরিচালনা করতে হয় তা শিখতে চায় এমন যেকোন ব্যক্তির জন্য একটি মূল্যবান সম্পদ। এটি নতুনদের জন্য উপযুক্ত যারা ব্যবহারকারী গবেষণা শুরু করতে চান, সেইসাথে অভিজ্ঞ অনুশীলনকারীদের জন্য যারা তাদের জ্ঞান এবং দক্ষতা রিফ্রেশ করতে চান। এই বইটি পড়ার মাধ্যমে, আপনি কীভাবে একজন দুর্দান্ত ব্যবহারকারী গবেষক হতে হবে এবং কীভাবে আপনার ব্যবহারকারীদের চাহিদা এবং প্রত্যাশা পূরণ করে এমন আরও ভাল পণ্য এবং পরিষেবাগুলি ডিজাইন করবেন তার একটি বিস্তৃত ওভারভিউ পাবেন৷",
+                    // Arabic
+                    "عَرَبِيّ": "يعد بحث المستخدم مصدرًا قيمًا لأي شخص يريد تعلم كيفية إجراء بحث المستخدم بفعالية وكفاءة. إنها مناسبة للمبتدئين الذين يرغبون في البدء في بحث المستخدم، وكذلك الممارسين ذوي الخبرة الذين يرغبون في تحديث معارفهم ومهاراتهم. من خلال قراءة هذا الكتاب، سوف تحصل على نظرة شاملة حول كيف تصبح باحثًا رائعًا في مجال المستخدمين وكيفية تصميم منتجات وخدمات أفضل تلبي احتياجات وتوقعات المستخدمين.",
+                    // Persian
+                    "فارسی": "تحقیقات کاربر منبع ارزشمندی برای هر کسی است که می خواهد بیاموزد که چگونه تحقیقات کاربر را به طور مؤثر و کارآمد انجام دهد. این برای مبتدیانی که می خواهند با تحقیقات کاربر شروع کنند، و همچنین برای پزشکان با تجربه که می خواهند دانش و مهارت های خود را تازه کنند، مناسب است. با خواندن این کتاب، دید کلی جامعی در مورد چگونگی تبدیل شدن به یک کاربر محقق عالی و نحوه طراحی محصولات و خدمات بهتری که نیازها و انتظارات کاربران خود را برآورده می کند، به دست خواهید آورد.",
+                },
             ],
             "BookCoverImagePath": "../../assets/img/Book Covers/UIAndUXDesigner/User_Research_2nd_Edition_Stephanie_Marsh_Improve_Product_and_Service_Design_and_Enhance_Your_UX_Research.webp",
         },
@@ -1229,38 +1303,1944 @@ var BooksReadForEachSkillStaticContainer = {
             ],
             "TotalDescriptionAboutTheBook": [
                 // Paragraph 1
-                "Don't Make Me Think by Steve Krug is a book that teaches web designers and developers how to create websites that are easy to use and understand. The book is based on the principle that users should not have to think too much when they interact with a website, but rather be able to accomplish their goals quickly and intuitively. The book is full of practical tips, examples, and humor that make it a fun and informative read.",
+                {
+                    // English
+                    "English": "Don't Make Me Think by Steve Krug is a book that teaches web designers and developers how to create websites that are easy to use and understand. The book is based on the principle that users should not have to think too much when they interact with a website, but rather be able to accomplish their goals quickly and intuitively. The book is full of practical tips, examples, and humor that make it a fun and informative read.",
+                    // German
+                    "Deutsch": "„Don't Make Me Think“ von Steve Krug ist ein Buch, das Webdesignern und Entwicklern beibringt, wie sie Websites erstellen, die einfach zu verwenden und zu verstehen sind. Das Buch basiert auf dem Prinzip, dass Benutzer bei der Interaktion mit einer Website nicht zu viel nachdenken müssen, sondern ihre Ziele schnell und intuitiv erreichen können. Das Buch ist voller praktischer Tipps, Beispiele und Humor, die es zu einer unterhaltsamen und informativen Lektüre machen.",
+                    // Chinese
+                    "中国人": "Steve Krug 的《别让我思考》是一本教网页设计师和开发人员如何创建易于使用和理解的网站的书。这本书基于这样的原则：用户在与网站互动时不必想太多，而是能够快速直观地实现他们的目标。这本书充满了实用的技巧、例子和幽默，使它成为一本有趣且内容丰富的读物。",
+                    // Russian
+                    "Русский": "«Не заставляйте меня думать» Стива Круга — это книга, которая учит веб-дизайнеров и разработчиков создавать веб-сайты, простые в использовании и понимании. Книга основана на принципе, согласно которому пользователям не нужно слишком много думать, когда они взаимодействуют с веб-сайтом, а скорее иметь возможность быстро и интуитивно достигать своих целей. Книга полна практических советов, примеров и юмора, которые делают ее увлекательным и познавательным чтением.",
+                    // French
+                    "Français": "Don't Make Me Think de Steve Krug est un livre qui enseigne aux concepteurs et aux développeurs Web comment créer des sites Web faciles à utiliser et à comprendre. Le livre est basé sur le principe selon lequel les utilisateurs ne devraient pas avoir à trop réfléchir lorsqu'ils interagissent avec un site Web, mais plutôt être capables d'atteindre leurs objectifs de manière rapide et intuitive. Le livre regorge de conseils pratiques, d’exemples et d’humour qui en font une lecture amusante et informative.",
+                    // Japanese
+                    "日本語": "Steve Krug 著の Don't Make Me Think は、Web デザイナーや開発者に、使いやすく理解しやすい Web サイトの作成方法を教える本です。この本は、ユーザーが Web サイトを操作するときにあまり考えすぎず、すばやく直感的に目的を達成できるようにするという原則に基づいています。この本には実用的なヒント、例、ユーモアが満載で、楽しく有益な読み物となっています。",
+                    // Korean
+                    "한국인": "Steve Krug의 Don't Make Me Think는 웹 디자이너와 개발자에게 사용하기 쉽고 이해하기 쉬운 웹 사이트를 만드는 방법을 가르치는 책입니다. 이 책은 사용자가 웹 사이트와 상호 작용할 때 너무 많이 생각할 필요가 없고 오히려 빠르고 직관적으로 목표를 달성할 수 있어야 한다는 원칙에 기초하고 있습니다. 이 책은 재미있고 유익한 읽기를 가능하게 하는 실용적인 팁, 예, 유머로 가득 차 있습니다.",
+                    // Spanish
+                    "Español": "Don't Make Me Think de Steve Krug es un libro que enseña a diseñadores y desarrolladores web cómo crear sitios web que sean fáciles de usar y comprender. El libro se basa en el principio de que los usuarios no deberían tener que pensar demasiado cuando interactúan con un sitio web, sino que deberían poder lograr sus objetivos de forma rápida e intuitiva. El libro está lleno de consejos prácticos, ejemplos y humor que lo convierten en una lectura divertida e informativa.",
+                    // Hindi
+                    "हिंदी": "स्टीव क्रुग द्वारा लिखी गई डोंट मेक मी थिंक एक ऐसी किताब है जो वेब डिज़ाइनरों और डेवलपर्स को सिखाती है कि ऐसी वेबसाइट कैसे बनाई जाए जो इस्तेमाल करने और समझने में आसान हो। यह किताब इस सिद्धांत पर आधारित है कि उपयोगकर्ताओं को वेबसाइट से इंटरैक्ट करते समय बहुत ज़्यादा सोचना नहीं चाहिए, बल्कि उन्हें अपने लक्ष्यों को जल्दी और सहजता से पूरा करने में सक्षम होना चाहिए। यह किताब व्यावहारिक सुझावों, उदाहरणों और हास्य से भरी हुई है जो इसे एक मज़ेदार और जानकारीपूर्ण किताब बनाती है।",
+                    // Portuguese
+                    "Português": "Don't Make Me Think, de Steve Krug, é um livro que ensina web designers e desenvolvedores como criar sites fáceis de usar e entender. O livro baseia-se no princípio de que os usuários não devem pensar muito ao interagir com um site, mas sim ser capazes de atingir seus objetivos de forma rápida e intuitiva. O livro está repleto de dicas práticas, exemplos e humor que o tornam uma leitura divertida e informativa.",
+                    // Bengali
+                    "বাংলা": "স্টিভ ক্রুগের লেখা ডোন্ট মেক মি থিঙ্ক এমন একটি বই যা ওয়েব ডিজাইনার এবং ডেভেলপারদের শেখায় যে কীভাবে ওয়েবসাইট তৈরি করতে হয় যা ব্যবহার করা সহজ এবং বোঝা যায়৷ বইটি এই নীতির উপর ভিত্তি করে তৈরি করা হয়েছে যে ব্যবহারকারীরা যখন কোনও ওয়েবসাইটের সাথে ইন্টারঅ্যাক্ট করে তখন খুব বেশি চিন্তা করতে হবে না, বরং তাদের লক্ষ্যগুলি দ্রুত এবং স্বজ্ঞাতভাবে সম্পন্ন করতে সক্ষম হবে। বইটি ব্যবহারিক টিপস, উদাহরণ এবং হাস্যরসে পূর্ণ যা এটিকে একটি মজাদার এবং তথ্যপূর্ণ করে তোলে।",
+                    // Arabic
+                    "عَرَبِيّ": "لا تجعلني أفكر بقلم ستيف كروج هو كتاب يعلم مصممي ومطوري الويب كيفية إنشاء مواقع ويب سهلة الاستخدام والفهم. يعتمد الكتاب على مبدأ مفاده أنه لا ينبغي للمستخدمين التفكير كثيرًا عندما يتفاعلون مع موقع الويب، بل يجب أن يكونوا قادرين على تحقيق أهدافهم بسرعة وبشكل حدسي. الكتاب مليء بالنصائح العملية والأمثلة والفكاهة التي تجعل قراءته ممتعة وغنية بالمعلومات.",
+                    // Persian
+                    "فارسی": "مرا به فکر نکن اثر استیو کروگ کتابی است که به طراحان و توسعه دهندگان وب می آموزد که چگونه وب سایت هایی ایجاد کنند که استفاده و درک آن آسان باشد. این کتاب بر این اصل استوار است که کاربران نباید هنگام تعامل با یک وب سایت زیاد فکر کنند، بلکه باید بتوانند به سرعت و به طور مستقیم به اهداف خود دست یابند. کتاب مملو از نکات کاربردی، مثال‌ها و طنز است که آن را به خواندنی سرگرم‌کننده و آموزنده تبدیل می‌کند.",
+                },
                 // Paragraph 2
-                "One of the advantages of reading this book is that it helps web designers and developers to improve their skills and knowledge of web usability. The book covers topics such as how to design clear and effective navigation, how to write useful and concise content, how to conduct simple and cheap usability tests, and how to design for mobile devices. The book also explains the common mistakes and misconceptions that web designers and developers often make, and how to avoid them.",
+                {
+                    // English
+                    "English": "One of the advantages of reading this book is that it helps web designers and developers to improve their skills and knowledge of web usability. The book covers topics such as how to design clear and effective navigation, how to write useful and concise content, how to conduct simple and cheap usability tests, and how to design for mobile devices. The book also explains the common mistakes and misconceptions that web designers and developers often make, and how to avoid them.",
+                    // German
+                    "Deutsch": "Einer der Vorteile dieses Buches besteht darin, dass es Webdesignern und -entwicklern hilft, ihre Fähigkeiten und Kenntnisse in Sachen Web-Usability zu verbessern. Das Buch behandelt Themen wie die Gestaltung einer klaren und effektiven Navigation, das Schreiben nützlicher und prägnanter Inhalte, die Durchführung einfacher und kostengünstiger Usability-Tests und das Design für mobile Geräte. Das Buch erklärt auch die häufigsten Fehler und Missverständnisse, die Webdesigner und -entwickler oft machen, und wie man sie vermeidet.",
+                    // Chinese
+                    "中国人": "阅读本书的优点之一是它可以帮助网页设计师和开发人员提高他们的网页可用性技能和知识。本书涵盖的主题包括如何设计清晰有效的导航、如何编写有用而简洁的内容、如何进行简单而廉价的可用性测试以及如何为移动设备进行设计。本书还解释了网页设计师和开发人员经常犯的常见错误和误解，以及如何避免它们。",
+                    // Russian
+                    "Русский": "Одним из преимуществ чтения этой книги является то, что она помогает веб-дизайнерам и разработчикам улучшить свои навыки и знания в области удобства использования веб-страниц. В книге рассматриваются такие темы, как создание четкой и эффективной навигации, как писать полезный и краткий контент, как проводить простые и дешевые юзабилити-тесты и как разрабатывать дизайн для мобильных устройств. В книге также объясняются распространенные ошибки и заблуждения, которые часто допускают веб-дизайнеры и разработчики, и как их избежать.",
+                    // French
+                    "Français": "L'un des avantages de la lecture de ce livre est qu'il aide les concepteurs et les développeurs Web à améliorer leurs compétences et leurs connaissances en matière d'utilisabilité du Web. Le livre couvre des sujets tels que comment concevoir une navigation claire et efficace, comment rédiger un contenu utile et concis, comment effectuer des tests d'utilisabilité simples et bon marché et comment concevoir pour les appareils mobiles. Le livre explique également les erreurs et les idées fausses courantes que font souvent les concepteurs et les développeurs Web, et comment les éviter.",
+                    // Japanese
+                    "日本語": "この本を読むことの利点の 1 つは、Web デザイナーや開発者が Web ユーザビリティに関するスキルと知識を向上させるのに役立つことです。この本では、明確で効果的なナビゲーションの設計方法、有用で簡潔なコンテンツの書き方、シンプルで安価なユーザビリティ テストの実施方法、モバイル デバイス向けの設計方法などのトピックを取り上げています。また、Web デザイナーや開発者が犯しがちな一般的な間違いや誤解、およびそれらを回避する方法についても説明しています。",
+                    // Korean
+                    "한국인": "이 책을 읽는 장점 중 하나는 웹 디자이너와 개발자가 웹 사용성에 대한 기술과 지식을 향상시키는 데 도움이 된다는 것입니다. 이 책은 명확하고 효과적인 내비게이션을 디자인하는 방법, 유용하고 간결한 콘텐츠를 작성하는 방법, 간단하고 저렴한 사용성 테스트를 수행하는 방법, 모바일 장치에 맞게 디자인하는 방법 등의 주제를 다루고 있습니다. 이 책은 또한 웹 디자이너와 개발자가 자주 저지르는 일반적인 실수와 오해, 그리고 이를 방지하는 방법에 대해서도 설명합니다.",
+                    // Spanish
+                    "Español": "Una de las ventajas de leer este libro es que ayuda a los diseñadores y desarrolladores web a mejorar sus habilidades y conocimientos sobre usabilidad web. El libro cubre temas como cómo diseñar una navegación clara y efectiva, cómo escribir contenido útil y conciso, cómo realizar pruebas de usabilidad simples y económicas y cómo diseñar para dispositivos móviles. El libro también explica los errores y conceptos erróneos comunes que suelen cometer los diseñadores y desarrolladores web y cómo evitarlos.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने का एक लाभ यह है कि यह वेब डिज़ाइनरों और डेवलपर्स को वेब उपयोगिता के बारे में अपने कौशल और ज्ञान को बेहतर बनाने में मदद करती है। पुस्तक में स्पष्ट और प्रभावी नेविगेशन कैसे डिज़ाइन करें, उपयोगी और संक्षिप्त सामग्री कैसे लिखें, सरल और सस्ते प्रयोज्य परीक्षण कैसे करें और मोबाइल उपकरणों के लिए कैसे डिज़ाइन करें जैसे विषयों को शामिल किया गया है। पुस्तक में वेब डिज़ाइनर और डेवलपर्स द्वारा अक्सर की जाने वाली सामान्य गलतियों और गलतफहमियों के बारे में भी बताया गया है और उनसे कैसे बचा जाए।",
+                    // Portuguese
+                    "Português": "Uma das vantagens de ler este livro é que ele ajuda web designers e desenvolvedores a melhorar suas habilidades e conhecimentos de usabilidade web. O livro cobre tópicos como como projetar uma navegação clara e eficaz, como escrever conteúdo útil e conciso, como realizar testes de usabilidade simples e baratos e como projetar para dispositivos móveis. O livro também explica os erros e equívocos comuns que web designers e desenvolvedores costumam cometer e como evitá-los.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার একটি সুবিধা হল এটি ওয়েব ডিজাইনার এবং ডেভেলপারদের তাদের দক্ষতা এবং ওয়েব ব্যবহারযোগ্যতার জ্ঞান উন্নত করতে সাহায্য করে। বইটি কীভাবে পরিষ্কার এবং কার্যকর নেভিগেশন ডিজাইন করতে হয়, কীভাবে দরকারী এবং সংক্ষিপ্ত বিষয়বস্তু লিখতে হয়, কীভাবে সহজ এবং সস্তা ব্যবহারযোগ্যতা পরীক্ষা পরিচালনা করতে হয় এবং কীভাবে মোবাইল ডিভাইসের জন্য ডিজাইন করতে হয় তার মতো বিষয়গুলি কভার করে। বইটি ওয়েব ডিজাইনার এবং বিকাশকারীরা প্রায়শই যে সাধারণ ভুল এবং ভ্রান্ত ধারণাগুলি করে এবং কীভাবে সেগুলি এড়াতে হয় তা ব্যাখ্যা করে৷",
+                    // Arabic
+                    "عَرَبِيّ": "إحدى مزايا قراءة هذا الكتاب هو أنه يساعد مصممي ومطوري الويب على تحسين مهاراتهم ومعرفتهم بسهولة استخدام الويب. يغطي الكتاب موضوعات مثل كيفية تصميم تنقل واضح وفعال، وكيفية كتابة محتوى مفيد وموجز، وكيفية إجراء اختبارات سهولة الاستخدام البسيطة والرخيصة، وكيفية التصميم للأجهزة المحمولة. يشرح الكتاب أيضًا الأخطاء الشائعة والمفاهيم الخاطئة التي غالبًا ما يقع فيها مصممو ومطورو الويب، وكيفية تجنبها.",
+                    // Persian
+                    "فارسی": "یکی از مزایای خواندن این کتاب این است که به طراحان و توسعه دهندگان وب کمک می کند تا مهارت ها و دانش خود را در مورد قابلیت استفاده از وب ارتقا دهند. این کتاب موضوعاتی مانند نحوه طراحی ناوبری واضح و موثر، نحوه نوشتن محتوای مفید و مختصر، نحوه انجام تست های ساده و ارزان قابلیت استفاده، و نحوه طراحی برای دستگاه های تلفن همراه را پوشش می دهد. این کتاب همچنین اشتباهات رایج و باورهای غلطی را که طراحان و توسعه دهندگان وب اغلب مرتکب می شوند و نحوه اجتناب از آنها توضیح می دهد.",
+                },
                 // Paragraph 3
-                "Another advantage of reading this book is that it benefits the users of the websites that are designed and developed according to the book’s guidelines. Users will have a better experience when they visit a website that is easy to use and understand, and they will be more likely to return, recommend, or trust the website. Users will also save time and effort when they use a website that is designed to meet their needs and expectations, and they will be more satisfied and happy with the website.",
+                {
+                    // English
+                    "English": "Another advantage of reading this book is that it benefits the users of the websites that are designed and developed according to the book’s guidelines. Users will have a better experience when they visit a website that is easy to use and understand, and they will be more likely to return, recommend, or trust the website. Users will also save time and effort when they use a website that is designed to meet their needs and expectations, and they will be more satisfied and happy with the website.",
+                    // German
+                    "Deutsch": "Ein weiterer Vorteil der Lektüre dieses Buches besteht darin, dass es den Benutzern von Websites zugute kommt, die gemäß den Richtlinien des Buches entworfen und entwickelt wurden. Benutzer haben ein besseres Erlebnis, wenn sie eine Website besuchen, die einfach zu verwenden und zu verstehen ist, und sie werden eher wiederkommen, die Website weiterempfehlen oder ihr vertrauen. Benutzer sparen auch Zeit und Mühe, wenn sie eine Website verwenden, die auf ihre Bedürfnisse und Erwartungen zugeschnitten ist, und sie werden mit der Website zufriedener und glücklicher sein.",
+                    // Chinese
+                    "中国人": "阅读本书的另一个好处是，它使按照本书的指导方针设计和开发的网站的用户受益。当用户访问一个易于使用和理解的网站时，他们将获得更好的体验，他们更有可能返回、推荐或信任该网站。当用户使用一个旨在满足他们的需求和期望的网站时，他们也会节省时间和精力，他们会对网站更加满意和高兴。",
+                    // Russian
+                    "Русский": "Еще одним преимуществом чтения этой книги является то, что она принесет пользу пользователям веб-сайтов, спроектированных и разработанных в соответствии с рекомендациями книги. Пользователи получат больше удовольствия от посещения веб-сайта, который прост в использовании и понимании, и они с большей вероятностью вернутся, порекомендуют веб-сайт или доверят ему. Пользователи также сэкономят время и усилия, используя веб-сайт, разработанный с учетом их потребностей и ожиданий, и будут более удовлетворены и довольны веб-сайтом.",
+                    // French
+                    "Français": "Un autre avantage de la lecture de ce livre est qu’il profite aux utilisateurs des sites Web conçus et développés selon les directives du livre. Les utilisateurs bénéficieront d’une meilleure expérience lorsqu’ils visiteront un site Web facile à utiliser et à comprendre, et ils seront plus susceptibles de revenir, de recommander ou de faire confiance au site Web. Les utilisateurs économiseront également du temps et des efforts lorsqu’ils utiliseront un site Web conçu pour répondre à leurs besoins et à leurs attentes, et ils seront plus satisfaits du site Web.",
+                    // Japanese
+                    "日本語": "この本を読むことのもう 1 つの利点は、本のガイドラインに従って設計および開発された Web サイトのユーザーにもメリットがあるということです。ユーザーは、使いやすく理解しやすい Web サイトにアクセスしたときに優れたエクスペリエンスを得ることができ、その Web サイトを再訪したり、推奨したり、信頼したりする可能性が高くなります。また、ユーザーは、自分のニーズと期待を満たすように設計された Web サイトを使用すると、時間と労力を節約でき、その Web サイトに満足して幸せになります。",
+                    // Korean
+                    "한국인": "이 책을 읽는 또 다른 이점은 책의 지침에 따라 설계되고 개발된 웹 사이트의 사용자에게 도움이 된다는 것입니다. 사용자는 사용하기 쉽고 이해하기 쉬운 웹사이트를 방문할 때 더 나은 경험을 하게 될 것이며, 해당 웹사이트를 재방문하거나 추천하거나 신뢰하게 될 가능성이 높아질 것입니다. 또한 사용자는 자신의 필요와 기대에 맞게 설계된 웹사이트를 사용할 때 시간과 노력을 절약할 수 있으며 웹사이트에 대한 만족도와 만족도가 더욱 높아질 것입니다.",
+                    // Spanish
+                    "Español": "Otra ventaja de leer este libro es que beneficia a los usuarios de los sitios web diseñados y desarrollados de acuerdo con las pautas del libro. Los usuarios tendrán una mejor experiencia cuando visiten un sitio web que sea fácil de usar y comprender, y será más probable que regresen, recomienden o confíen en el sitio web. Los usuarios también ahorrarán tiempo y esfuerzo cuando utilicen un sitio web diseñado para satisfacer sus necesidades y expectativas, y estarán más satisfechos y contentos con el sitio web.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने का एक और लाभ यह है कि यह उन वेबसाइटों के उपयोगकर्ताओं को लाभ पहुँचाता है जो पुस्तक के दिशा-निर्देशों के अनुसार डिज़ाइन और विकसित की गई हैं। उपयोगकर्ताओं को एक बेहतर अनुभव होगा जब वे एक ऐसी वेबसाइट पर जाएँगे जो उपयोग करने और समझने में आसान है, और वे वेबसाइट पर वापस लौटने, अनुशंसा करने या उस पर भरोसा करने की अधिक संभावना रखेंगे। उपयोगकर्ता अपनी ज़रूरतों और अपेक्षाओं को पूरा करने के लिए डिज़ाइन की गई वेबसाइट का उपयोग करने पर समय और प्रयास भी बचाएँगे, और वे वेबसाइट से अधिक संतुष्ट और खुश होंगे।",
+                    // Portuguese
+                    "Português": "Outra vantagem da leitura deste livro é que ele beneficia os usuários dos sites que são desenhados e desenvolvidos de acordo com as diretrizes do livro. Os usuários terão uma experiência melhor ao visitar um site fácil de usar e entender, e terão maior probabilidade de retornar, recomendar ou confiar no site. Os usuários também economizarão tempo e esforço ao usar um site projetado para atender às suas necessidades e expectativas, e ficarão mais satisfeitos e felizes com o site.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার আরেকটি সুবিধা হল এটি ওয়েবসাইটগুলির ব্যবহারকারীদের উপকৃত করে যেগুলি বইটির নির্দেশিকা অনুসারে ডিজাইন এবং বিকাশ করা হয়েছে। ব্যবহারকারীদের একটি ভাল অভিজ্ঞতা হবে যখন তারা এমন একটি ওয়েবসাইট পরিদর্শন করবে যা ব্যবহার করা সহজ এবং বোঝা যায় এবং তারা ওয়েবসাইটটিতে ফিরে আসার, সুপারিশ করার বা বিশ্বাস করার সম্ভাবনা বেশি থাকে। ব্যবহারকারীরা যখন তাদের চাহিদা এবং প্রত্যাশা পূরণের জন্য ডিজাইন করা একটি ওয়েবসাইট ব্যবহার করেন তখন তাদের সময় এবং শ্রমও বাঁচবে এবং তারা ওয়েবসাইটটি নিয়ে আরও সন্তুষ্ট এবং খুশি হবে।",
+                    // Arabic
+                    "عَرَبِيّ": "ومن المزايا الأخرى لقراءة هذا الكتاب أنه يفيد مستخدمي المواقع التي تم تصميمها وتطويرها وفقًا لإرشادات الكتاب. سيحصل المستخدمون على تجربة أفضل عند زيارتهم لموقع ويب سهل الاستخدام والفهم، وسيكونون أكثر عرضة للعودة إلى موقع الويب أو التوصية به أو الوثوق به. كما سيوفر المستخدمون الوقت والجهد عند استخدامهم لموقع ويب مصمم لتلبية احتياجاتهم وتوقعاتهم، وسيكونون أكثر رضا وسعادة بالموقع.",
+                    // Persian
+                    "فارسی": "یکی دیگر از مزیت های مطالعه این کتاب این است که برای کاربران وب سایت هایی که بر اساس دستورالعمل های کتاب طراحی و توسعه یافته اند، مفید است. کاربران با بازدید از وب سایتی که استفاده و درک آن آسان است، تجربه بهتری خواهند داشت و احتمال بازگشت، توصیه یا اعتماد به وب سایت بیشتر خواهد بود. کاربران همچنین با استفاده از وب سایتی که مطابق با نیازها و انتظارات آنها طراحی شده است در زمان و تلاش خود صرفه جویی می کنند و از وب سایت رضایت و رضایت بیشتری خواهند داشت.",
+                },
             ],
             "BookCoverImagePath": "../../assets/img/Book Covers/UIAndUXDesigner/Dont_Make_Me_Think_Steve_Krug_Revisited.webp",
         },
     ],
     // Flutter Developer
     "Flutter Developer": [
-
+        // Flutter complete reference book
+        {
+            "BookName": "Flutter Complete Reference 2.0",
+            "AuthorName": "Alberto Miola",
+            "EditionNumber": "1st",
+            "PublisherName": "Independently Published",
+            "ISBN": "978 8 6919 3995 3",
+            "YearNumber": "2020",
+            "PagesNumber": "765",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Welcome",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Variables and data types",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Control flow and functions",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Classes",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Inheritance and Exceptions",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Generics and Collections",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Asynchronous programming",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Coding principles with Dart",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Basics of Flutter",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Building UIs in Flutter",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "State Management",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Routes and navigation",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Localization and internationalization",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 14
+                {
+                    "ChapterName": "Animation",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 15
+                {
+                    "ChapterName": "Working with JSON and other formats",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 16
+                {
+                    "ChapterName": "Testing and profiling apps",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 17
+                {
+                    "ChapterName": "Networking",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 18
+                {
+                    "ChapterName": "Assets, images, and multimedia",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 19
+                {
+                    "ChapterName": "Forms and gestures",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 20
+                {
+                    "ChapterName": "Interacting with the device",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 21
+                {
+                    "ChapterName": "Widgets showcase",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 22
+                {
+                    "ChapterName": "Using Firebase with Flutter",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 23
+                {
+                    "ChapterName": "Publishing packages and apps",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 24
+                {
+                    "ChapterName": "Complete Flutter project example",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 25
+                {
+                    "ChapterName": "Dart Appendix",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 26
+                {
+                    "ChapterName": "Flutter Appendix",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "Flutter Complete Reference 2.0 is a comprehensive and practical book that covers all aspects of Dart and Flutter development. It is written by Alberto Miola, a professional Flutter developer and instructor. The book is suitable for beginners and experienced developers alike, as it provides clear explanations, examples, and tips for each topic.",
+                    // German
+                    "Deutsch": "Flutter Complete Reference 2.0 ist ein umfassendes und praktisches Buch, das alle Aspekte der Dart- und Flutter-Entwicklung abdeckt. Es wurde von Alberto Miola geschrieben, einem professionellen Flutter-Entwickler und -Lehrer. Das Buch ist sowohl für Anfänger als auch für erfahrene Entwickler geeignet, da es klare Erklärungen, Beispiele und Tipps zu jedem Thema bietet.",
+                    // Chinese
+                    "中国人": "Flutter Complete Reference 2.0 是一本全面实用的书，涵盖了 Dart 和 Flutter 开发的各个方面。它由专业的 Flutter 开发人员和讲师 Alberto Miola 撰写。这本书适合初学者和经验丰富的开发人员，因为它为每个主题提供了清晰的解释、示例和提示。",
+                    // Russian
+                    "Русский": "Flutter Complete Reference 2.0 — это всеобъемлющая и практическая книга, охватывающая все аспекты разработки Dart и Flutter. Он написан Альберто Миолой, профессиональным разработчиком и инструктором Flutter. Книга подойдет как новичкам, так и опытным разработчикам, поскольку содержит понятные объяснения, примеры и советы по каждой теме.",
+                    // French
+                    "Français": "Flutter Complete Reference 2.0 est un livre complet et pratique qui couvre tous les aspects du développement de Dart et Flutter. Il est écrit par Alberto Miola, développeur et instructeur professionnel Flutter. Le livre convient aussi bien aux développeurs débutants qu'aux développeurs expérimentés, car il fournit des explications claires, des exemples et des conseils pour chaque sujet.",
+                    // Japanese
+                    "日本語": "Flutter Complete Reference 2.0 は、Dart および Flutter 開発のあらゆる側面を網羅した包括的かつ実用的な書籍です。プロの Flutter 開発者兼インストラクターである Alberto Miola によって執筆されています。各トピックについて明確な説明、例、ヒントを提供しているため、初心者にも経験豊富な開発者にも適した書籍です。",
+                    // Korean
+                    "한국인": "Flutter Complete Reference 2.0은 Dart 및 Flutter 개발의 모든 측면을 다루는 포괄적이고 실용적인 책입니다. Flutter 전문 개발자이자 강사인 Alberto Miola가 작성했습니다. 이 책은 각 주제에 대한 명확한 설명, 예제, 팁을 제공하므로 초보자와 숙련된 개발자 모두에게 적합합니다.",
+                    // Spanish
+                    "Español": "Flutter Complete Reference 2.0 es un libro completo y práctico que cubre todos los aspectos del desarrollo de Dart y Flutter. Está escrito por Alberto Miola, un desarrollador e instructor profesional de Flutter. El libro es adecuado tanto para principiantes como para desarrolladores experimentados, ya que proporciona explicaciones claras, ejemplos y consejos para cada tema.",
+                    // Hindi
+                    "हिंदी": "फ़्लटर कम्प्लीट रेफरेंस 2.0 एक व्यापक और व्यावहारिक पुस्तक है जो डार्ट और फ़्लटर विकास के सभी पहलुओं को कवर करती है। यह अल्बर्टो मिओला द्वारा लिखी गई है, जो एक पेशेवर फ़्लटर डेवलपर और प्रशिक्षक हैं। यह पुस्तक शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त है, क्योंकि यह प्रत्येक विषय के लिए स्पष्ट स्पष्टीकरण, उदाहरण और सुझाव प्रदान करती है।",
+                    // Portuguese
+                    "Português": "Flutter Complete Reference 2.0 é um livro abrangente e prático que cobre todos os aspectos do desenvolvimento do Dart e do Flutter. Foi escrito por Alberto Miola, desenvolvedor e instrutor profissional de Flutter. O livro é adequado tanto para iniciantes quanto para desenvolvedores experientes, pois fornece explicações claras, exemplos e dicas para cada tópico.",
+                    // Bengali
+                    "বাংলা": "ফ্লাটার কমপ্লিট রেফারেন্স 2.0 হল একটি ব্যাপক এবং ব্যবহারিক বই যা ডার্ট এবং ফ্লাটার ডেভেলপমেন্টের সমস্ত দিক কভার করে। এটি আলবার্তো মিওলা লিখেছেন, একজন পেশাদার ফ্লাটার বিকাশকারী এবং প্রশিক্ষক৷ বইটি নতুনদের এবং অভিজ্ঞ বিকাশকারীদের জন্য একইভাবে উপযুক্ত, কারণ এটি প্রতিটি বিষয়ের জন্য স্পষ্ট ব্যাখ্যা, উদাহরণ এবং টিপস প্রদান করে।",
+                    // Arabic
+                    "عَرَبِيّ": "Flutter Complete Reference 2.0 هو كتاب شامل وعملي يغطي جميع جوانب تطوير Dart وFlutter. تمت كتابته بواسطة ألبرتو ميولا، وهو مطور ومدرب Flutter محترف. الكتاب مناسب للمبتدئين والمطورين ذوي الخبرة على حد سواء، حيث يقدم شروحات وأمثلة ونصائح واضحة لكل موضوع.",
+                    // Persian
+                    "فارسی": "Flutter Complete Reference 2.0 یک کتاب جامع و کاربردی است که تمام جنبه های توسعه دارت و فلاتر را پوشش می دهد. این توسط Alberto Miola، توسعه دهنده و مربی حرفه ای Flutter نوشته شده است. این کتاب برای مبتدیان و توسعه دهندگان با تجربه به طور یکسان مناسب است، زیرا توضیحات، مثال ها و نکات روشنی را برای هر موضوع ارائه می دهد.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "By reading this book, you will learn how to use Flutter to create beautiful, fast, and native apps for any device. You will also master the Dart language and its features, such as generics, collections, async, streams, and isolates. You will explore the Flutter framework and its widgets, state management solutions, animations, navigation, localization, accessibility, and more. You will also learn how to test, deploy, and monetize your Flutter apps, as well as how to interact with platforms, servers, and low-level HTML.",
+                    // German
+                    "Deutsch": "In diesem Buch lernen Sie, wie Sie mit Flutter schöne, schnelle und native Apps für jedes Gerät erstellen. Sie beherrschen auch die Sprache Dart und ihre Funktionen wie Generika, Sammlungen, Asynchronität, Streams und Isolate. Sie erkunden das Flutter-Framework und seine Widgets, Lösungen zur Zustandsverwaltung, Animationen, Navigation, Lokalisierung, Zugänglichkeit und mehr. Sie lernen auch, wie Sie Ihre Flutter-Apps testen, bereitstellen und monetarisieren sowie wie Sie mit Plattformen, Servern und Low-Level-HTML interagieren.",
+                    // Chinese
+                    "中国人": "通过阅读本书，您将学习如何使用 Flutter 为任何设备创建美观、快速且原生的应用。您还将掌握 Dart 语言及其功能，例如泛型、集合、异步、流和隔离。您将探索 Flutter 框架及其小部件、状态管理解决方案、动画、导航、本地化、可访问性等。您还将学习如何测试、部署和货币化您的 Flutter 应用，以及如何与平台、服务器和低级 HTML 交互。",
+                    // Russian
+                    "Русский": "Прочитав эту книгу, вы узнаете, как использовать Flutter для создания красивых, быстрых и нативных приложений для любого устройства. Вы также освоите язык Dart и его функции, такие как дженерики, коллекции, асинхронность, потоки и изоляты. Вы изучите инфраструктуру Flutter и ее виджеты, решения для управления состоянием, анимацию, навигацию, локализацию, специальные возможности и многое другое. Вы также узнаете, как тестировать, развертывать и монетизировать свои приложения Flutter, а также как взаимодействовать с платформами, серверами и низкоуровневым HTML.",
+                    // French
+                    "Français": "En lisant ce livre, vous apprendrez à utiliser Flutter pour créer des applications belles, rapides et natives pour n'importe quel appareil. Vous maîtriserez également le langage Dart et ses fonctionnalités, telles que les génériques, les collections, l'async, les flux et les isolats. Vous explorerez le framework Flutter et ses widgets, ses solutions de gestion d'état, ses animations, sa navigation, sa localisation, son accessibilité, etc. Vous apprendrez également comment tester, déployer et monétiser vos applications Flutter, ainsi que comment interagir avec les plates-formes, les serveurs et le HTML de bas niveau.",
+                    // Japanese
+                    "日本語": "この本を読むことで、Flutter を使用して、あらゆるデバイス向けの美しく高速なネイティブ アプリを作成する方法を学ぶことができます。また、ジェネリック、コレクション、非同期、ストリーム、分離などの Dart 言語とその機能を習得できます。Flutter フレームワークとそのウィジェット、状態管理ソリューション、アニメーション、ナビゲーション、ローカリゼーション、アクセシビリティなどについて学習します。さらに、Flutter アプリをテスト、展開、収益化する方法、およびプラットフォーム、サーバー、低レベル HTML を操作する方法についても学習します。",
+                    // Korean
+                    "한국인": "이 책을 읽으면 Flutter를 사용하여 모든 기기에서 사용할 수 있는 아름답고 빠른 기본 앱을 만드는 방법을 배우게 됩니다. 또한 Dart 언어와 제네릭, 컬렉션, 비동기, 스트림 및 격리와 같은 기능을 익히게 됩니다. Flutter 프레임워크와 해당 위젯, 상태 관리 솔루션, 애니메이션, 탐색, 현지화, 접근성 등을 살펴보겠습니다. 또한 Flutter 앱을 테스트, 배포 및 수익화하는 방법은 물론 플랫폼, 서버 및 하위 수준 HTML과 상호 작용하는 방법도 배우게 됩니다.",
+                    // Spanish
+                    "Español": "Al leer este libro, aprenderá cómo usar Flutter para crear aplicaciones hermosas, rápidas y nativas para cualquier dispositivo. También dominará el lenguaje Dart y sus características, como genéricos, colecciones, asíncronos, transmisiones y aislamientos. Explorará el marco Flutter y sus widgets, soluciones de administración de estado, animaciones, navegación, localización, accesibilidad y más. También aprenderá cómo probar, implementar y monetizar sus aplicaciones Flutter, así como también cómo interactuar con plataformas, servidores y HTML de bajo nivel.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़कर, आप सीखेंगे कि किसी भी डिवाइस के लिए सुंदर, तेज़ और मूल ऐप बनाने के लिए फ़्लटर का उपयोग कैसे करें। आप डार्ट भाषा और इसकी विशेषताओं, जैसे कि जेनरिक, संग्रह, एसिंक्रोनस, स्ट्रीम और आइसोलेट्स में भी महारत हासिल करेंगे। आप फ़्लटर फ्रेमवर्क और इसके विजेट, स्टेट मैनेजमेंट सॉल्यूशन, एनिमेशन, नेविगेशन, लोकलाइज़ेशन, एक्सेसिबिलिटी और बहुत कुछ का पता लगाएंगे। आप यह भी सीखेंगे कि अपने फ़्लटर ऐप का परीक्षण, परिनियोजन और मुद्रीकरण कैसे करें, साथ ही प्लेटफ़ॉर्म, सर्वर और निम्न-स्तरीय HTML के साथ कैसे इंटरैक्ट करें।",
+                    // Portuguese
+                    "Português": "Ao ler este livro, você aprenderá como usar o Flutter para criar aplicativos bonitos, rápidos e nativos para qualquer dispositivo. Você também dominará a linguagem Dart e seus recursos, como genéricos, coleções, assíncronos, fluxos e isolados. Você explorará a estrutura Flutter e seus widgets, soluções de gerenciamento de estado, animações, navegação, localização, acessibilidade e muito mais. Você também aprenderá como testar, implantar e monetizar seus aplicativos Flutter, bem como interagir com plataformas, servidores e HTML de baixo nível.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার মাধ্যমে, আপনি শিখবেন কিভাবে যেকোন ডিভাইসের জন্য সুন্দর, দ্রুত এবং নেটিভ অ্যাপ তৈরি করতে Flutter ব্যবহার করতে হয়। এছাড়াও আপনি ডার্ট ভাষা এবং এর বৈশিষ্ট্যগুলি যেমন জেনেরিক, সংগ্রহ, অ্যাসিঙ্ক, স্ট্রিম এবং আইসোলেটগুলি আয়ত্ত করতে পারবেন। আপনি ফ্লটার ফ্রেমওয়ার্ক এবং এর উইজেট, স্টেট ম্যানেজমেন্ট সলিউশন, অ্যানিমেশন, নেভিগেশন, স্থানীয়করণ, অ্যাক্সেসযোগ্যতা এবং আরও অনেক কিছু অন্বেষণ করবেন। আপনি কীভাবে আপনার ফ্লাটার অ্যাপগুলি পরীক্ষা, স্থাপন এবং নগদীকরণ করবেন, সেইসাথে প্ল্যাটফর্ম, সার্ভার এবং নিম্ন-স্তরের HTML এর সাথে কীভাবে ইন্টারঅ্যাক্ট করবেন তাও শিখবেন।",
+                    // Arabic
+                    "عَرَبِيّ": "من خلال قراءة هذا الكتاب، ستتعلم كيفية استخدام Flutter لإنشاء تطبيقات جميلة وسريعة ومبتكرة لأي جهاز. ستتقن أيضًا لغة Dart وميزاتها، مثل الأدوية العامة والمجموعات وغير المتزامنة والتدفقات والعزلات. سوف تستكشف إطار عمل Flutter وعناصر واجهة المستخدم الخاصة به وحلول إدارة الحالة والرسوم المتحركة والتنقل والترجمة وإمكانية الوصول والمزيد. ستتعلم أيضًا كيفية اختبار تطبيقات Flutter ونشرها وتحقيق الدخل منها، بالإضافة إلى كيفية التفاعل مع الأنظمة الأساسية والخوادم ولغة HTML ذات المستوى المنخفض.",
+                    // Persian
+                    "فارسی": "با خواندن این کتاب، یاد خواهید گرفت که چگونه از فلاتر برای ایجاد اپلیکیشن های زیبا، سریع و بومی برای هر دستگاهی استفاده کنید. شما همچنین به زبان دارت و ویژگی‌های آن مانند ژنریک، مجموعه‌ها، همگام‌سازی، جریان‌ها و ایزوله‌ها تسلط خواهید داشت. شما چارچوب Flutter و ویجت‌های آن، راه‌حل‌های مدیریت حالت، انیمیشن‌ها، ناوبری، محلی‌سازی، دسترسی و موارد دیگر را بررسی خواهید کرد. همچنین یاد خواهید گرفت که چگونه برنامه های Flutter خود را آزمایش، استقرار و کسب درآمد کنید و همچنین نحوه تعامل با پلتفرم ها، سرورها و HTML سطح پایین را خواهید آموخت.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "This book will help you gain a solid understanding of Flutter and its best practices. You will also discover the benefits of using Flutter, such as faster development, native performance, hot reload and hot restart, and a vibrant community. Whether you are new to Flutter or have some experience with it, this book will help you master the skills and knowledge you need to become a successful Flutter developer.",
+                    // German
+                    "Deutsch": "Dieses Buch vermittelt Ihnen ein solides Verständnis von Flutter und seinen Best Practices. Sie werden auch die Vorteile von Flutter entdecken, wie schnellere Entwicklung, native Leistung, Hot Reload und Hot Restart sowie eine lebendige Community. Egal, ob Sie neu bei Flutter sind oder bereits Erfahrung damit haben, dieses Buch hilft Ihnen dabei, die Fähigkeiten und Kenntnisse zu erlernen, die Sie benötigen, um ein erfolgreicher Flutter-Entwickler zu werden.",
+                    // Chinese
+                    "中国人": "本书将帮助您深入了解 Flutter 及其最佳实践。您还将发现使用 Flutter 的好处，例如更快的开发、原生性能、热重载和热重启以及充满活力的社区。无论您是 Flutter 新手还是有一定使用经验，本书都将帮助您掌握成为成功的 Flutter 开发人员所需的技能和知识。",
+                    // Russian
+                    "Русский": "Эта книга поможет вам получить четкое представление о Flutter и его лучших практиках. Вы также откроете для себя преимущества использования Flutter, такие как более быстрая разработка, собственная производительность, горячая перезагрузка и горячий перезапуск, а также активное сообщество. Независимо от того, являетесь ли вы новичком во Flutter или имеете некоторый опыт работы с ним, эта книга поможет вам овладеть навыками и знаниями, необходимыми для того, чтобы стать успешным разработчиком Flutter.",
+                    // French
+                    "Français": "Ce livre vous aidera à acquérir une solide compréhension de Flutter et de ses meilleures pratiques. Vous découvrirez également les avantages de l'utilisation de Flutter, tels qu'un développement plus rapide, des performances natives, un rechargement et un redémarrage à chaud, ainsi qu'une communauté dynamique. Que vous soyez nouveau sur Flutter ou que vous en ayez une certaine expérience, ce livre vous aidera à maîtriser les compétences et les connaissances dont vous avez besoin pour devenir un développeur Flutter à succès.",
+                    // Japanese
+                    "日本語": "この本は、Flutter とそのベスト プラクティスをしっかりと理解するのに役立ちます。また、開発の高速化、ネイティブ パフォーマンス、ホット リロードとホット リスタート、活気のあるコミュニティなど、Flutter を使用する利点も発見できます。Flutter を初めて使用する場合でも、ある程度の経験がある場合でも、この本は、成功する Flutter 開発者になるために必要なスキルと知識を習得するのに役立ちます。",
+                    // Korean
+                    "한국인": "이 책은 Flutter와 Flutter의 모범 사례를 확실하게 이해하는 데 도움이 될 것입니다. 또한 더 빠른 개발, 기본 성능, 핫 리로드 및 핫 리스타트, 활발한 커뮤니티 등 Flutter 사용의 이점을 발견하게 될 것입니다. Flutter를 처음 접하는 사람이든 경험이 있는 사람이든 이 책은 성공적인 Flutter 개발자가 되기 위해 필요한 기술과 지식을 익히는 데 도움이 될 것입니다.",
+                    // Spanish
+                    "Español": "Este libro lo ayudará a obtener una comprensión sólida de Flutter y sus mejores prácticas. También descubrirá los beneficios de usar Flutter, como un desarrollo más rápido, rendimiento nativo, recarga y reinicio en caliente y una comunidad vibrante. Ya sea que sea nuevo en Flutter o tenga algo de experiencia con él, este libro lo ayudará a dominar las habilidades y el conocimiento que necesita para convertirse en un desarrollador exitoso de Flutter.",
+                    // Hindi
+                    "हिंदी": "यह पुस्तक आपको फ़्लटर और इसके सर्वोत्तम अभ्यासों की ठोस समझ हासिल करने में मदद करेगी। आप फ़्लटर का उपयोग करने के लाभों की भी खोज करेंगे, जैसे तेज़ विकास, मूल प्रदर्शन, हॉट रीलोड और हॉट रीस्टार्ट, और एक जीवंत समुदाय। चाहे आप फ़्लटर के लिए नए हों या इसके साथ कुछ अनुभव रखते हों, यह पुस्तक आपको फ़्लटर डेवलपर बनने के लिए आवश्यक कौशल और ज्ञान में महारत हासिल करने में मदद करेगी।",
+                    // Portuguese
+                    "Português": "Este livro o ajudará a obter uma compreensão sólida do Flutter e de suas práticas recomendadas. Você também descobrirá os benefícios de usar o Flutter, como desenvolvimento mais rápido, desempenho nativo, recarga e reinicialização a quente e uma comunidade vibrante. Quer você seja novo no Flutter ou tenha alguma experiência com ele, este livro o ajudará a dominar as habilidades e o conhecimento necessários para se tornar um desenvolvedor Flutter de sucesso.",
+                    // Bengali
+                    "বাংলা": "এই বইটি আপনাকে ফ্লটার এবং এর সর্বোত্তম অনুশীলন সম্পর্কে একটি দৃঢ় উপলব্ধি অর্জন করতে সহায়তা করবে। আপনি ফ্লটার ব্যবহারের সুবিধাগুলিও আবিষ্কার করবেন, যেমন দ্রুত বিকাশ, নেটিভ পারফরম্যান্স, হট রিলোড এবং হট রিস্টার্ট এবং একটি প্রাণবন্ত সম্প্রদায়। আপনি ফ্লটারে নতুন হোন বা এর সাথে কিছু অভিজ্ঞতা থাকুক না কেন, এই বইটি আপনাকে একজন সফল ফ্লটার ডেভেলপার হওয়ার জন্য আপনার প্রয়োজনীয় দক্ষতা এবং জ্ঞান আয়ত্ত করতে সাহায্য করবে।",
+                    // Arabic
+                    "عَرَبِيّ": "سيساعدك هذا الكتاب على اكتساب فهم قوي لـ Flutter وأفضل ممارساتها. ستكتشف أيضًا فوائد استخدام Flutter، مثل التطوير الأسرع والأداء الأصلي وإعادة التحميل السريع وإعادة التشغيل السريع ومجتمع نابض بالحياة. سواء كنت جديدًا في استخدام Flutter أو لديك بعض الخبرة فيه، سيساعدك هذا الكتاب على إتقان المهارات والمعرفة التي تحتاجها لتصبح مطور Flutter ناجحًا.",
+                    // Persian
+                    "فارسی": "این کتاب به شما کمک می کند تا درک کاملی از فلاتر و بهترین شیوه های آن به دست آورید. همچنین مزایای استفاده از Flutter مانند توسعه سریعتر، عملکرد بومی، بارگذاری مجدد داغ و راه اندازی مجدد داغ و یک جامعه پر جنب و جوش را خواهید دید. چه در فلاتر تازه کار باشید و چه تجربه ای در این زمینه داشته باشید، این کتاب به شما کمک می کند تا مهارت ها و دانش لازم برای تبدیل شدن به یک توسعه دهنده موفق فلاتر را به دست آورید.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Flutter Development/Flutter_complete_reference_2.0.jpg",
+        },
+        // Flutter Apprentice
+        {
+            "BookName": "Flutter Apprentice",
+            "AuthorName": "Mike Katz, Kevin D Moore, Vincent Ngo",
+            "EditionNumber": "3rd",
+            "PublisherName": "Raywenderlich",
+            "ISBN": "978 1 9503 2574 0",
+            "YearNumber": "2022",
+            "PagesNumber": "660",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Getting Started",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Hello, Flutter",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Basic Widgets",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Understanding Widgets",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Scrollable Widgets",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Interactive Widgets",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Routes & Navigation",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Deep Links & Web URLs",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Handling Shared Preferences",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Serialization With JSON",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "Networking in Flutter",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Using a Network Library",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Managing State",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 14
+                {
+                    "ChapterName": "Working With Streams",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 15
+                {
+                    "ChapterName": "Saving Data With SQLite",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 16
+                {
+                    "ChapterName": "Platform-Specific App Assets",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 17
+                {
+                    "ChapterName": "Build & Release an Android App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 18
+                {
+                    "ChapterName": "Build & Release an iOS App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 19
+                {
+                    "ChapterName": "Firebase Cloud Firestore",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "Flutter Complete Reference 2.0 is a comprehensive and practical book that covers all aspects of Dart and Flutter development. It is written by Alberto Miola, a professional Flutter developer and instructor. The book is suitable for beginners and experienced developers alike, as it provides clear explanations, examples, and tips for each topic.",
+                    // German
+                    "Deutsch": "Flutter ist ein leistungsstarkes Framework, mit dem Sie plattformübergreifende Apps für iOS, Android, Web und Desktop mit einer einzigen Codebasis erstellen können. Es bietet einen deklarativen Ansatz für die UI-Entwicklung, eine schnelle und ausdrucksstarke Programmiersprache sowie eine umfangreiche Auswahl an Widgets und Tools. Mit Flutter können Sie in kürzerer Zeit und mit weniger Code schöne, leistungsstarke und reaktionsschnelle Apps erstellen.",
+                    // Chinese
+                    "中国人": "Flutter 是一个功能强大的框架，可让您使用单一代码库为 iOS、Android、网页和桌面创建跨平台应用。它提供了一种声明式的 UI 开发方法、一种快速且富有表现力的编程语言以及一组丰富的小部件和工具。借助 Flutter，您可以用更少的时间和更少的代码构建美观、高性能且响应迅速的应用。",
+                    // Russian
+                    "Русский": "Flutter — это мощная платформа, которая позволяет создавать кроссплатформенные приложения для iOS, Android, Интернета и настольных компьютеров с единой базой кода. Он предлагает декларативный подход к разработке пользовательского интерфейса, быстрый и выразительный язык программирования, а также богатый набор виджетов и инструментов. С Flutter вы можете создавать красивые, производительные и отзывчивые приложения за меньшее время и с меньшим количеством кода.",
+                    // French
+                    "Français": "Flutter est un framework puissant qui vous permet de créer des applications multiplateformes pour iOS, Android, Web et ordinateur de bureau avec une seule base de code. Il offre une approche déclarative du développement d'interface utilisateur, un langage de programmation rapide et expressif et un riche ensemble de widgets et d'outils. Avec Flutter, vous pouvez créer des applications belles, performantes et réactives en moins de temps et avec moins de code.",
+                    // Japanese
+                    "日本語": "Flutter は、単一のコードベースで iOS、Android、Web、デスクトップ向けのクロスプラットフォーム アプリを作成できる強力なフレームワークです。UI 開発への宣言型アプローチ、高速で表現力豊かなプログラミング言語、豊富なウィジェットとツールのセットを提供します。Flutter を使用すると、より少ない時間とコードで、美しく、パフォーマンスが高く、応答性の高いアプリを構築できます。",
+                    // Korean
+                    "한국인": "Flutter는 단일 코드베이스로 iOS, Android, 웹, 데스크톱용 크로스 플랫폼 앱을 만들 수 있는 강력한 프레임워크입니다. 이는 UI 개발에 대한 선언적 접근 방식, 빠르고 표현력이 풍부한 프로그래밍 언어, 풍부한 위젯 및 도구 세트를 제공합니다. Flutter를 사용하면 더 짧은 시간과 더 적은 코드로 아름답고 성능이 뛰어나며 반응성이 뛰어난 앱을 구축할 수 있습니다.",
+                    // Spanish
+                    "Español": "Flutter es un marco poderoso que te permite crear aplicaciones multiplataforma para iOS, Android, web y escritorio con una única base de código. Ofrece un enfoque declarativo para el desarrollo de UI, un lenguaje de programación rápido y expresivo y un amplio conjunto de widgets y herramientas. Con Flutter, puedes crear aplicaciones hermosas, eficientes y responsivas en menos tiempo y con menos código.",
+                    // Hindi
+                    "हिंदी": "फ़्लटर एक शक्तिशाली फ़्रेमवर्क है जो आपको एक ही कोडबेस के साथ iOS, Android, वेब और डेस्कटॉप के लिए क्रॉस-प्लेटफ़ॉर्म ऐप बनाने की अनुमति देता है। यह UI विकास के लिए एक घोषणात्मक दृष्टिकोण, एक तेज़ और अभिव्यंजक प्रोग्रामिंग भाषा और विजेट और टूल का एक समृद्ध सेट प्रदान करता है। फ़्लटर के साथ, आप कम समय में और कम कोड के साथ सुंदर, प्रदर्शनकारी और उत्तरदायी ऐप बना सकते हैं।",
+                    // Portuguese
+                    "Português": "Flutter é uma estrutura poderosa que permite criar aplicativos multiplataforma para iOS, Android, web e desktop com uma única base de código. Ele oferece uma abordagem declarativa para o desenvolvimento de UI, uma linguagem de programação rápida e expressiva e um rico conjunto de widgets e ferramentas. Com o Flutter, você pode criar aplicativos bonitos, de alto desempenho e responsivos em menos tempo e com menos código.",
+                    // Bengali
+                    "বাংলা": "ফ্লটার হল একটি শক্তিশালী ফ্রেমওয়ার্ক যা আপনাকে iOS, Android, ওয়েব এবং ডেস্কটপের জন্য একটি একক কোডবেস সহ ক্রস-প্ল্যাটফর্ম অ্যাপ তৈরি করতে দেয়। এটি UI বিকাশের জন্য একটি ঘোষণামূলক পদ্ধতি, একটি দ্রুত এবং অভিব্যক্তিপূর্ণ প্রোগ্রামিং ভাষা এবং উইজেট এবং সরঞ্জামগুলির একটি সমৃদ্ধ সেট অফার করে। Flutter এর মাধ্যমে, আপনি কম সময়ে এবং কম কোড সহ সুন্দর, পারফরম্যান্স এবং প্রতিক্রিয়াশীল অ্যাপ তৈরি করতে পারেন।",
+                    // Arabic
+                    "عَرَبِيّ": "Flutter هو إطار عمل قوي يسمح لك بإنشاء تطبيقات مشتركة بين الأنظمة الأساسية لأنظمة iOS وAndroid والويب وسطح المكتب باستخدام قاعدة تعليمات برمجية واحدة. فهو يقدم نهجًا تعريفيًا لتطوير واجهة المستخدم، ولغة برمجة سريعة ومعبرة، ومجموعة غنية من الأدوات والأدوات. باستخدام Flutter، يمكنك إنشاء تطبيقات جميلة وفعالة وسريعة الاستجابة في وقت أقل وباستخدام تعليمات برمجية أقل.",
+                    // Persian
+                    "فارسی": "Flutter یک فریمورک قدرتمند است که به شما امکان می دهد با یک پایگاه کد، اپلیکیشن های چند پلتفرمی برای iOS، اندروید، وب و دسکتاپ ایجاد کنید. این یک رویکرد اعلامی برای توسعه UI، یک زبان برنامه نویسی سریع و رسا، و مجموعه ای غنی از ویجت ها و ابزارها را ارائه می دهد. با Flutter می‌توانید اپلیکیشن‌های زیبا، عملکردی و واکنش‌گرا را در زمان کمتر و با کد کمتر بسازید.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "Flutter Apprentice is a practical and comprehensive guide that teaches you how to use Flutter to create amazing apps. It covers everything from the basics of widgets, navigation, networking and state management, to advanced topics such as streams, deployment and testing. You will learn by following clear and engaging examples, and by applying your skills to real-world projects.",
+                    // German
+                    "Deutsch": "Flutter Apprentice ist ein praktischer und umfassender Leitfaden, der Ihnen beibringt, wie Sie mit Flutter fantastische Apps erstellen. Er deckt alles ab, von den Grundlagen von Widgets, Navigation, Netzwerken und Statusverwaltung bis hin zu fortgeschrittenen Themen wie Streams, Bereitstellung und Tests. Sie lernen anhand klarer und ansprechender Beispiele und indem Sie Ihre Fähigkeiten in realen Projekten anwenden.",
+                    // Chinese
+                    "中国人": "Flutter Apprentice 是一本实用而全面的指南，教您如何使用 Flutter 创建出色的应用。它涵盖了从小部件、导航、网络和状态管理的基础知识到流、部署和测试等高级主题的所有内容。您将通过遵循清晰而引人入胜的示例并将您的技能应用于实际项目来学习。",
+                    // Russian
+                    "Русский": "Flutter Apprentice — это практическое и подробное руководство, которое научит вас использовать Flutter для создания потрясающих приложений. Он охватывает все: от основ виджетов, навигации, сетей и управления состоянием до сложных тем, таких как потоки, развертывание и тестирование. Вы будете учиться, следуя четким и интересным примерам и применяя свои навыки в реальных проектах.",
+                    // French
+                    "Français": "Flutter Apprentice est un guide pratique et complet qui vous apprend à utiliser Flutter pour créer des applications étonnantes. Il couvre tout, depuis les bases des widgets, de la navigation, de la mise en réseau et de la gestion de l'état, jusqu'aux sujets avancés tels que les flux, le déploiement et les tests. Vous apprendrez en suivant des exemples clairs et engageants et en appliquant vos compétences à des projets du monde réel.",
+                    // Japanese
+                    "日本語": "Flutter Apprentice は、Flutter を使用して素晴らしいアプリを作成する方法を教える実用的で包括的なガイドです。ウィジェット、ナビゲーション、ネットワーク、状態管理の基本から、ストリーム、展開、テストなどの高度なトピックまで、すべてを網羅しています。明確で魅力的な例に従い、実際のプロジェクトにスキルを適用することで学習します。",
+                    // Korean
+                    "한국인": "Flutter Apprentice는 Flutter를 사용하여 놀라운 앱을 만드는 방법을 알려주는 실용적이고 포괄적인 가이드입니다. 위젯, 탐색, 네트워킹 및 상태 관리의 기본부터 스트림, 배포 및 테스트와 같은 고급 주제까지 모든 것을 다룹니다. 명확하고 흥미로운 사례를 따르고 실제 프로젝트에 기술을 적용하여 학습하게 됩니다.",
+                    // Spanish
+                    "Español": "Flutter Apprentice es una guía práctica y completa que te enseña cómo usar Flutter para crear aplicaciones increíbles. Cubre todo, desde los conceptos básicos de widgets, navegación, redes y administración de estado, hasta temas avanzados como transmisiones, implementación y pruebas. Aprenderá siguiendo ejemplos claros y atractivos y aplicando sus habilidades a proyectos del mundo real.",
+                    // Hindi
+                    "हिंदी": "फ़्लटर अप्रेंटिस एक व्यावहारिक और व्यापक गाइड है जो आपको फ़्लटर का उपयोग करके अद्भुत ऐप बनाने का तरीका सिखाता है। इसमें विजेट, नेविगेशन, नेटवर्किंग और स्टेट मैनेजमेंट की मूल बातों से लेकर स्ट्रीम, परिनियोजन और परीक्षण जैसे उन्नत विषयों तक सब कुछ शामिल है। आप स्पष्ट और आकर्षक उदाहरणों का पालन करके और अपने कौशल को वास्तविक दुनिया की परियोजनाओं में लागू करके सीखेंगे।",
+                    // Portuguese
+                    "Português": "Flutter Apprentice é um guia prático e completo que ensina como usar o Flutter para criar aplicativos incríveis. Abrange tudo, desde o básico de widgets, navegação, rede e gerenciamento de estado, até tópicos avançados, como fluxos, implantação e testes. Você aprenderá seguindo exemplos claros e envolventes e aplicando suas habilidades a projetos do mundo real.",
+                    // Bengali
+                    "বাংলা": "ফ্লাটার অ্যাপ্রেন্টিস হল একটি ব্যবহারিক এবং ব্যাপক নির্দেশিকা যা আপনাকে শিখায় কিভাবে আশ্চর্যজনক অ্যাপ তৈরি করতে ফ্লটার ব্যবহার করতে হয়। এটি উইজেট, নেভিগেশন, নেটওয়ার্কিং এবং স্টেট ম্যানেজমেন্টের মৌলিক বিষয়গুলি থেকে শুরু করে স্ট্রীম, স্থাপনা এবং পরীক্ষার মতো উন্নত বিষয়গুলিকে কভার করে৷ আপনি স্পষ্ট এবং আকর্ষক উদাহরণ অনুসরণ করে এবং বাস্তব-বিশ্বের প্রকল্পগুলিতে আপনার দক্ষতা প্রয়োগ করে শিখবেন।",
+                    // Arabic
+                    "عَرَبِيّ": "Flutter Apprentice هو دليل عملي وشامل يعلمك كيفية استخدام Flutter لإنشاء تطبيقات مذهلة. وهو يغطي كل شيء بدءًا من أساسيات عناصر واجهة المستخدم والملاحة والشبكات وإدارة الحالة وحتى الموضوعات المتقدمة مثل التدفقات والنشر والاختبار. سوف تتعلم من خلال اتباع أمثلة واضحة وجذابة، ومن خلال تطبيق مهاراتك على مشاريع في العالم الحقيقي.",
+                    // Persian
+                    "فارسی": "Flutter Apprentice یک راهنمای عملی و جامع است که به شما می آموزد چگونه از Flutter برای ایجاد برنامه های شگفت انگیز استفاده کنید. این همه چیز از اصول اولیه ابزارک ها، ناوبری، شبکه و مدیریت وضعیت، تا موضوعات پیشرفته مانند استریم، استقرار و آزمایش را پوشش می دهد. شما با دنبال کردن مثال‌های واضح و جذاب، و با به کارگیری مهارت‌های خود در پروژه‌های دنیای واقعی، یاد خواهید گرفت.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "By reading this book, you will gain a solid understanding of Flutter and its best practices. You will also discover the benefits of using Flutter, such as faster development, native performance, hot reload and hot restart, and a vibrant community. Whether you are new to Flutter or have some experience with it, this book will help you master the skills and knowledge you need to become a successful Flutter developer.",
+                    // German
+                    "Deutsch": "Durch die Lektüre dieses Buches erlangen Sie ein solides Verständnis von Flutter und seinen Best Practices. Sie werden auch die Vorteile der Verwendung von Flutter entdecken, wie z. B. schnellere Entwicklung, native Leistung, Hot Reload und Hot Restart sowie eine lebendige Community. Egal, ob Sie neu bei Flutter sind oder bereits Erfahrung damit haben, dieses Buch wird Ihnen helfen, die Fähigkeiten und Kenntnisse zu erwerben, die Sie benötigen, um ein erfolgreicher Flutter-Entwickler zu werden.",
+                    // Chinese
+                    "中国人": "通过阅读本书，您将对 Flutter 及其最佳实践有深入的了解。您还将发现使用 Flutter 的好处，例如更快的开发、原生性能、热重载和热重启以及充满活力的社区。无论您是 Flutter 新手还是有一定使用经验，本书都将帮助您掌握成为成功的 Flutter 开发人员所需的技能和知识。",
+                    // Russian
+                    "Русский": "Прочитав эту книгу, вы получите четкое представление о Flutter и его лучших практиках. Вы также откроете для себя преимущества использования Flutter, такие как более быстрая разработка, собственная производительность, горячая перезагрузка и горячий перезапуск, а также активное сообщество. Независимо от того, являетесь ли вы новичком во Flutter или имеете некоторый опыт работы с ним, эта книга поможет вам овладеть навыками и знаниями, необходимыми для того, чтобы стать успешным разработчиком Flutter.",
+                    // French
+                    "Français": "En lisant ce livre, vous acquerrez une solide compréhension de Flutter et de ses meilleures pratiques. Vous découvrirez également les avantages de l'utilisation de Flutter, tels qu'un développement plus rapide, des performances natives, un rechargement et un redémarrage à chaud, ainsi qu'une communauté dynamique. Que vous soyez nouveau sur Flutter ou que vous en ayez une certaine expérience, ce livre vous aidera à maîtriser les compétences et les connaissances dont vous avez besoin pour devenir un développeur Flutter à succès.",
+                    // Japanese
+                    "日本語": "この本を読むことで、Flutter とそのベスト プラクティスについてしっかりと理解できるようになります。また、開発の高速化、ネイティブ パフォーマンス、ホット リロードとホット リスタート、活気のあるコミュニティなど、Flutter を使用するメリットも発見できます。Flutter を初めて使用する場合でも、ある程度の経験がある場合でも、この本は、成功する Flutter 開発者になるために必要なスキルと知識を習得するのに役立ちます。",
+                    // Korean
+                    "한국인": "이 책을 읽으면 Flutter와 Flutter의 모범 사례를 확실하게 이해하게 될 것입니다. 또한 더 빠른 개발, 기본 성능, 핫 리로드 및 핫 리스타트, 활발한 커뮤니티 등 Flutter 사용의 이점을 발견하게 될 것입니다. Flutter를 처음 접하는 사람이든 경험이 있는 사람이든 이 책은 성공적인 Flutter 개발자가 되기 위해 필요한 기술과 지식을 익히는 데 도움이 될 것입니다.",
+                    // Spanish
+                    "Español": "Al leer este libro, obtendrá una comprensión sólida de Flutter y sus mejores prácticas. También descubrirá los beneficios de usar Flutter, como un desarrollo más rápido, rendimiento nativo, recarga y reinicio en caliente y una comunidad vibrante. Ya sea que sea nuevo en Flutter o tenga algo de experiencia con él, este libro lo ayudará a dominar las habilidades y el conocimiento que necesita para convertirse en un desarrollador exitoso de Flutter.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़कर, आपको फ़्लटर और इसके सर्वोत्तम अभ्यासों की ठोस समझ प्राप्त होगी। आप फ़्लटर का उपयोग करने के लाभों को भी जानेंगे, जैसे तेज़ विकास, मूल प्रदर्शन, हॉट रीलोड और हॉट रीस्टार्ट, और एक जीवंत समुदाय। चाहे आप फ़्लटर के लिए नए हों या इसके साथ कुछ अनुभव रखते हों, यह पुस्तक आपको फ़्लटर डेवलपर बनने के लिए आवश्यक कौशल और ज्ञान में महारत हासिल करने में मदद करेगी।",
+                    // Portuguese
+                    "Português": "Ao ler este livro, você obterá uma compreensão sólida do Flutter e de suas práticas recomendadas. Você também descobrirá os benefícios de usar o Flutter, como desenvolvimento mais rápido, desempenho nativo, recarga e reinicialização a quente e uma comunidade vibrante. Quer você seja novo no Flutter ou tenha alguma experiência com ele, este livro o ajudará a dominar as habilidades e o conhecimento necessários para se tornar um desenvolvedor Flutter de sucesso.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার মাধ্যমে, আপনি ফ্লটার এবং এর সর্বোত্তম অনুশীলন সম্পর্কে একটি দৃঢ় উপলব্ধি অর্জন করবেন। আপনি ফ্লটার ব্যবহারের সুবিধাগুলিও আবিষ্কার করবেন, যেমন দ্রুত বিকাশ, নেটিভ পারফরম্যান্স, হট রিলোড এবং হট রিস্টার্ট এবং একটি প্রাণবন্ত সম্প্রদায়। আপনি ফ্লটারে নতুন হোন বা এর সাথে কিছু অভিজ্ঞতা থাকুক না কেন, এই বইটি আপনাকে একজন সফল ফ্লটার ডেভেলপার হওয়ার জন্য আপনার প্রয়োজনীয় দক্ষতা এবং জ্ঞান আয়ত্ত করতে সাহায্য করবে।",
+                    // Arabic
+                    "عَرَبِيّ": "من خلال قراءة هذا الكتاب، سوف تكتسب فهمًا قويًا لـ Flutter وأفضل ممارساتها. ستكتشف أيضًا فوائد استخدام Flutter، مثل التطوير الأسرع والأداء الأصلي وإعادة التحميل السريع وإعادة التشغيل السريع ومجتمع نابض بالحياة. سواء كنت جديدًا في استخدام Flutter أو لديك بعض الخبرة فيه، سيساعدك هذا الكتاب على إتقان المهارات والمعرفة التي تحتاجها لتصبح مطور Flutter ناجحًا.",
+                    // Persian
+                    "فارسی": "با خواندن این کتاب، درک کاملی از فلاتر و بهترین شیوه های آن به دست خواهید آورد. همچنین مزایای استفاده از Flutter مانند توسعه سریعتر، عملکرد بومی، بارگذاری مجدد داغ و راه اندازی مجدد داغ و یک جامعه پر جنب و جوش را خواهید دید. چه در فلاتر تازه کار باشید و چه تجربه ای در این زمینه داشته باشید، این کتاب به شما کمک می کند تا مهارت ها و دانش لازم برای تبدیل شدن به یک توسعه دهنده موفق فلاتر را به دست آورید.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Flutter Development/Flutter_Apprentice_Third_Edition_Learn_to_Build_Cross_Platform_Apps.jpg",
+        },
     ],
     // Full Stack Developer
     "Full Stack Developer": [
-
+        // Visual C# How to Program
+        {
+            "BookName": "Visual C# How to Program",
+            "AuthorName": "Paul Deitel, Harvey Deitel",
+            "EditionNumber": "6th",
+            "PublisherName": "Pearson",
+            "ISBN": "978 0 1346 0154 0",
+            "YearNumber": "2017",
+            "PagesNumber": "2840",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Introduction to Computers, the Internet and Visual C#",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Introduction to Visual Studio and Visual Programming",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Introduction to C# App Programming",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Introduction to Classes, Objects, Methods and String",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Algorithm Development and Control Statements: Part 1",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Control Statements: Part 2",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Methods: A Deeper Look",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Arrays; Introduction to Exception Handling",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Introduction to LINQ and the List Collection",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Classes and Objects: A Deeper Look",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "Object-Oriented Programming: Inheritance",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "OOP: Polymorphism and Interfaces",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Exception Handling: A Deeper Look",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 14
+                {
+                    "ChapterName": "Graphical User Interfaces with Windows Forms: Part 1",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 15
+                {
+                    "ChapterName": "Graphical User Interfaces with Windows Forms: Part 2",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 16
+                {
+                    "ChapterName": "Strings and Characters: A Deeper Look",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 17
+                {
+                    "ChapterName": "Files and Streams",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 18
+                {
+                    "ChapterName": "Searching and Sorting",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 19
+                {
+                    "ChapterName": "Custom Linked Data Structures",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 20
+                {
+                    "ChapterName": "Generics",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 21
+                {
+                    "ChapterName": "Generic Collections; Functional Programming with LINQ/PLINQ",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 22
+                {
+                    "ChapterName": "Databases and LINQ",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 23
+                {
+                    "ChapterName": "Asynchronous Programming with async and await",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "“Visual C# How to Program” 6th edition by Paul and Harvey Deitel is a comprehensive guide that introduces readers to the world of desktop, mobile, and web app development using Microsoft’s Visual C# programming language. This edition is particularly notable for its integrated coverage of C# 6 and its clear, example-driven presentation of programming fundamentals. Readers will benefit from the Deitel’s signature “live-code approach,” which presents concepts in the context of complete working programs, followed by sample executions. This approach helps to solidify understanding and enables readers to see the practical application of the code they are learning.",
+                    // German
+                    "Deutsch": "„Visual C# How to Program“ 6. Auflage von Paul und Harvey Deitel ist ein umfassender Leitfaden, der Leser in die Welt der Entwicklung von Desktop-, Mobil- und Web-Apps mit der Programmiersprache Visual C# von Microsoft einführt. Diese Auflage ist besonders bemerkenswert für ihre integrierte Abdeckung von C# 6 und ihre klare, beispielbasierte Präsentation der Programmiergrundlagen. Leser profitieren von Deitels charakteristischem „Live-Code-Ansatz“, der Konzepte im Kontext vollständiger Arbeitsprogramme präsentiert, gefolgt von Beispielausführungen. Dieser Ansatz trägt dazu bei, das Verständnis zu festigen und ermöglicht es den Lesern, die praktische Anwendung des Codes zu sehen, den sie lernen.",
+                    // Chinese
+                    "中国人": "Paul 和 Harvey Deitel 编写的《Visual C# 编程指南》第 6 版是一本全面的指南，向读者介绍了使用 Microsoft Visual C# 编程语言进行桌面、移动和 Web 应用程序开发的世界。此版本尤其值得注意的是它全面介绍了 C# 6，并以示例为主导清晰地介绍了编程基础知识。读者将受益于 Deitel 的标志性“实时代码方法”，该方法在完整的工作程序环境中介绍概念，然后执行示例。这种方法有助于巩固理解，并使读者能够看到他们正在学习的代码的实际应用。",
+                    // Russian
+                    "Русский": "«Как программировать на Visual C#», 6-е издание Пола и Харви Дейтелов, представляет собой комплексное руководство, знакомящее читателей с миром разработки настольных, мобильных и веб-приложений с использованием языка программирования Microsoft Visual C#. Это издание особенно примечательно комплексным освещением C# 6 и четким, основанным на примерах представлением основ программирования. Читателям будет полезен фирменный «подход Дейтеля с живым кодом», который представляет концепции в контексте законченных рабочих программ с последующими примерами выполнения. Такой подход помогает укрепить понимание и позволяет читателям увидеть практическое применение изучаемого кода.",
+                    // French
+                    "Français": "« Visual C# How to Program » 6e édition de Paul et Harvey Deitel est un guide complet qui présente aux lecteurs le monde du développement d'applications de bureau, mobiles et Web à l'aide du langage de programmation Visual C# de Microsoft. Cette édition se distingue particulièrement par sa couverture intégrée de C# 6 et sa présentation claire et basée sur des exemples des principes fondamentaux de la programmation. Les lecteurs bénéficieront de « l’approche live-code », signature de Deitel, qui présente les concepts dans le contexte de programmes de travail complets, suivis d’exemples d’exécution. Cette approche contribue à consolider la compréhension et permet aux lecteurs de voir l’application pratique du code qu’ils apprennent.",
+                    // Japanese
+                    "日本語": "Paul および Harvey Deitel 著の「Visual C# プログラミング方法」第 6 版は、Microsoft の Visual C# プログラミング言語を使用したデスクトップ、モバイル、および Web アプリ開発の世界を読者に紹介する総合ガイドです。この版は、C# 6 を総合的にカバーし、プログラミングの基礎をわかりやすく例を交えて提示していることが特に注目に値します。読者は、Deitel の特徴である「ライブ コード アプローチ」の恩恵を受けるでしょう。このアプローチでは、概念を完全な動作プログラムのコンテキストで提示し、その後にサンプル実行が続きます。このアプローチは理解を強固にするのに役立ち、読者は学習しているコードの実際の適用方法を確認できます。",
+                    // Korean
+                    "한국인": "Paul Deitel과 Harvey Deitel이 쓴 “Visual C# 프로그래밍 방법” 6판은 Microsoft의 Visual C# 프로그래밍 언어를 사용하여 독자에게 데스크톱, 모바일 및 웹 앱 개발의 세계를 소개하는 포괄적인 가이드입니다. 이 버전은 C# 6에 대한 통합된 내용과 프로그래밍 기본 사항에 대한 명확하고 예제 중심의 프레젠테이션으로 특히 주목할 만합니다. 독자들은 완전한 작업 프로그램의 맥락에서 개념을 제시하고 이어서 샘플을 실행하는 Deitel의 대표적인 “라이브 코드 접근 방식”의 이점을 누릴 수 있습니다. 이 접근 방식은 이해를 확고히 하는 데 도움이 되며 독자가 학습 중인 코드의 실제 적용을 볼 수 있게 해줍니다.",
+                    // Spanish
+                    "Español": "“Visual C# How to Program”, sexta edición de Paul y Harvey Deitel es una guía completa que presenta a los lectores el mundo del desarrollo de aplicaciones de escritorio, móviles y web utilizando el lenguaje de programación Visual C# de Microsoft. Esta edición es particularmente notable por su cobertura integrada de C# 6 y su presentación clara, basada en ejemplos, de los fundamentos de la programación. Los lectores se beneficiarán del “enfoque de código en vivo” característico de Deitel, que presenta conceptos en el contexto de programas de trabajo completos, seguidos de ejecuciones de muestra. Este enfoque ayuda a solidificar la comprensión y permite a los lectores ver la aplicación práctica del código que están aprendiendo.",
+                    // Hindi
+                    "हिंदी": "पॉल और हार्वे डीटेल द्वारा लिखित “विजुअल C# हाउ टू प्रोग्राम” का छठा संस्करण एक व्यापक गाइड है जो पाठकों को Microsoft की Visual C# प्रोग्रामिंग भाषा का उपयोग करके डेस्कटॉप, मोबाइल और वेब ऐप डेवलपमेंट की दुनिया से परिचित कराता है। यह संस्करण C# 6 के अपने एकीकृत कवरेज और प्रोग्रामिंग की बुनियादी बातों की स्पष्ट, उदाहरण-संचालित प्रस्तुति के लिए विशेष रूप से उल्लेखनीय है। पाठकों को डीटेल के सिग्नेचर “लाइव-कोड दृष्टिकोण” से लाभ होगा, जो पूर्ण कार्यशील कार्यक्रमों के संदर्भ में अवधारणाओं को प्रस्तुत करता है, उसके बाद नमूना निष्पादन होता है। यह दृष्टिकोण समझ को मजबूत करने में मदद करता है और पाठकों को उनके द्वारा सीखे जा रहे कोड के व्यावहारिक अनुप्रयोग को देखने में सक्षम बनाता है।",
+                    // Portuguese
+                    "Português": "“Visual C# How to Program” 6ª edição de Paul e Harvey Deitel é um guia abrangente que apresenta aos leitores o mundo do desenvolvimento de aplicativos para desktop, dispositivos móveis e web usando a linguagem de programação Visual C# da Microsoft. Esta edição é particularmente notável por sua cobertura integrada do C# 6 e por sua apresentação clara e baseada em exemplos dos fundamentos da programação. Os leitores se beneficiarão da “abordagem de código ao vivo” exclusiva da Deitel, que apresenta conceitos no contexto de programas de trabalho completos, seguidos por exemplos de execuções. Essa abordagem ajuda a solidificar a compreensão e permite que os leitores vejam a aplicação prática do código que estão aprendendo.",
+                    // Bengali
+                    "বাংলা": "পল এবং হার্ভে ডিটেলের “ভিজ্যুয়াল সি# হাউ টু প্রোগ্রাম” 6 তম সংস্করণ হল একটি বিস্তৃত নির্দেশিকা যা মাইক্রোসফ্টের ভিজ্যুয়াল সি# প্রোগ্রামিং ভাষা ব্যবহার করে পাঠকদের ডেস্কটপ, মোবাইল এবং ওয়েব অ্যাপ ডেভেলপমেন্টের জগতে পরিচিত করে। এই সংস্করণটি C# 6 এর সমন্বিত কভারেজ এবং প্রোগ্রামিং মৌলিক বিষয়গুলির স্পষ্ট, উদাহরণ-চালিত উপস্থাপনার জন্য বিশেষভাবে উল্লেখযোগ্য। পাঠকরা Deitel-এর স্বাক্ষর “লাইভ-কোড পদ্ধতি” থেকে উপকৃত হবেন, যা সম্পূর্ণ কার্যকারী প্রোগ্রামের প্রেক্ষাপটে ধারণাগুলি উপস্থাপন করে, যার পরে নমুনা কার্যকর করা হয়। এই পদ্ধতিটি বোঝার দৃঢ় করতে সাহায্য করে এবং পাঠকদের তারা যে কোডটি শিখছে তার ব্যবহারিক প্রয়োগ দেখতে সক্ষম করে।",
+                    // Arabic
+                    "عَرَبِيّ": "“Visual C# How to Program” الإصدار السادس من تأليف Paul وHarvey Deitel هو دليل شامل يقدم للقراء عالم تطوير تطبيقات سطح المكتب والجوال وتطبيقات الويب باستخدام لغة البرمجة Visual C# من Microsoft. تتميز هذه الطبعة بشكل خاص بتغطيتها المتكاملة لـ C# 6 وعرضها الواضح والمبني على الأمثلة لأساسيات البرمجة. سيستفيد القراء من “نهج الكود المباشر” الخاص بشركة Deitel، والذي يقدم المفاهيم في سياق برامج العمل الكاملة، تليها نماذج من التنفيذ. يساعد هذا الأسلوب على ترسيخ الفهم ويمكّن القراء من رؤية التطبيق العملي للكود الذي يتعلمونه.",
+                    // Persian
+                    "فارسی": "“Visual C# How to Program” ویرایش ششم توسط Paul and Harvey Deitel یک راهنمای جامع است که خوانندگان را با دنیای توسعه دسکتاپ، موبایل و برنامه های وب با استفاده از زبان برنامه نویسی Visual C# مایکروسافت آشنا می کند. این نسخه به ویژه به دلیل پوشش یکپارچه C# 6 و ارائه واضح و مثال محور اصول برنامه نویسی قابل توجه است. خوانندگان از «رویکرد کد زنده» امضای Deitel بهره مند خواهند شد که مفاهیم را در چارچوب برنامه های کاری کامل و به دنبال آن اجراهای نمونه ارائه می کند. این رویکرد به تقویت درک کمک می کند و خوانندگان را قادر می سازد تا کاربرد عملی کدهایی را که یاد می گیرند ببینند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "One of the key advantages of this book is its rich coverage of essential programming concepts such as classes, objects, inheritance, polymorphism, and interfaces. The early introduction to LINQ and generic collections, as well as PLINQ (Parallel LINQ) for multicore performance, prepares readers for modern programming challenges. Additionally, the asynchronous programming with async and await is covered, which is crucial for writing responsive applications. By the end of the book, readers will have a strong foundation in C# and be equipped with the skills to build robust applications for a variety of platforms.",
+                    // German
+                    "Deutsch": "Einer der Hauptvorteile dieses Buches ist die umfassende Abdeckung wesentlicher Programmierkonzepte wie Klassen, Objekte, Vererbung, Polymorphismus und Schnittstellen. Die frühe Einführung in LINQ und generische Sammlungen sowie PLINQ (Parallel LINQ) für Multicore-Leistung bereitet die Leser auf moderne Programmierherausforderungen vor. Darüber hinaus wird die asynchrone Programmierung mit Async und Await behandelt, die für das Schreiben reaktionsfähiger Anwendungen von entscheidender Bedeutung ist. Am Ende des Buches verfügen die Leser über solide Grundlagen in C# und sind mit den Fähigkeiten ausgestattet, robuste Anwendungen für eine Vielzahl von Plattformen zu erstellen.",
+                    // Chinese
+                    "中国人": "本书的主要优势之一是它涵盖了类、对象、继承、多态性和接口等基本编程概念。本书对 LINQ 和泛型集合以及用于多核性能的 PLINQ（并行 LINQ）进行了早期介绍，帮助读者应对现代编程挑战。此外，本书还介绍了使用 async 和 await 的异步编程，这对于编写响应式应用程序至关重要。读完本书后，读者将拥有扎实的 C# 基础，并具备为各种平台构建强大应用程序的技能。",
+                    // Russian
+                    "Русский": "Одним из ключевых преимуществ этой книги является богатое освещение основных концепций программирования, таких как классы, объекты, наследование, полиморфизм и интерфейсы. Раннее знакомство с LINQ и универсальными коллекциями, а также с PLINQ (Parallel LINQ) для многоядерной производительности готовит читателей к современным задачам программирования. Кроме того, рассматривается асинхронное программирование с использованием async и await, что крайне важно для написания адаптивных приложений. К концу книги читатели получат прочные знания C# и навыки создания надежных приложений для различных платформ.",
+                    // French
+                    "Français": "L'un des principaux avantages de ce livre est sa riche couverture des concepts de programmation essentiels tels que les classes, les objets, l'héritage, le polymorphisme et les interfaces. L'introduction précoce à LINQ et aux collections génériques, ainsi qu'à PLINQ (Parallel LINQ) pour les performances multicœurs, prépare les lecteurs aux défis de programmation modernes. De plus, la programmation asynchrone avec async et wait est couverte, ce qui est crucial pour l'écriture d'applications réactives. À la fin du livre, les lecteurs auront de solides bases en C# et seront dotés des compétences nécessaires pour créer des applications robustes pour une variété de plates-formes.",
+                    // Japanese
+                    "日本語": "この本の主な利点の 1 つは、クラス、オブジェクト、継承、ポリモーフィズム、インターフェイスなどの基本的なプログラミング概念を豊富にカバーしていることです。LINQ とジェネリック コレクション、およびマルチコア パフォーマンスのための PLINQ (Parallel LINQ) を早期に紹介することで、読者は最新のプログラミングの課題に備えることができます。さらに、応答性の高いアプリケーションを作成するために不可欠な、async と await を使用した非同期プログラミングについても取り上げています。この本を読み終える頃には、読者は C# の強固な基礎を身に付け、さまざまなプラットフォーム向けの堅牢なアプリケーションを構築するスキルを身に付けているでしょう。",
+                    // Korean
+                    "한국인": "이 책의 주요 장점 중 하나는 클래스, 객체, 상속, 다형성 및 인터페이스와 같은 필수 프로그래밍 개념을 풍부하게 다루고 있다는 것입니다. LINQ 및 일반 컬렉션과 멀티코어 성능을 위한 PLINQ(Parallel LINQ)에 대한 초기 소개를 통해 독자는 최신 프로그래밍 과제에 대비할 수 있습니다. 또한 반응형 애플리케이션을 작성하는 데 중요한 async 및 Wait를 사용한 비동기 프로그래밍도 다룹니다. 책이 끝날 무렵 독자들은 C#에 대한 탄탄한 기초를 갖추고 다양한 플랫폼을 위한 강력한 애플리케이션을 구축할 수 있는 기술을 갖추게 될 것입니다.",
+                    // Spanish
+                    "Español": "Una de las ventajas clave de este libro es su rica cobertura de conceptos esenciales de programación como clases, objetos, herencia, polimorfismo e interfaces. La introducción temprana a LINQ y colecciones genéricas, así como a PLINQ (Parallel LINQ) para rendimiento multinúcleo, prepara a los lectores para los desafíos de programación modernos. Además, se cubre la programación asincrónica con async y await, que es crucial para escribir aplicaciones responsivas. Al final del libro, los lectores tendrán una base sólida en C# y estarán equipados con las habilidades para crear aplicaciones sólidas para una variedad de plataformas.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक का एक मुख्य लाभ यह है कि इसमें क्लास, ऑब्जेक्ट, इनहेरिटेंस, पॉलीमॉर्फिज्म और इंटरफेस जैसी आवश्यक प्रोग्रामिंग अवधारणाओं का विस्तृत विवरण दिया गया है। LINQ और जेनेरिक कलेक्शन के साथ-साथ मल्टीकोर परफॉरमेंस के लिए PLINQ (पैरेलल LINQ) का प्रारंभिक परिचय पाठकों को आधुनिक प्रोग्रामिंग चुनौतियों के लिए तैयार करता है। इसके अतिरिक्त, async और await के साथ एसिंक्रोनस प्रोग्रामिंग को कवर किया गया है, जो रिस्पॉन्सिव एप्लिकेशन लिखने के लिए महत्वपूर्ण है। पुस्तक के अंत तक, पाठकों के पास C# में एक मजबूत आधार होगा और वे विभिन्न प्लेटफ़ॉर्म के लिए मजबूत एप्लिकेशन बनाने के कौशल से लैस होंगे।",
+                    // Portuguese
+                    "Português": "Uma das principais vantagens deste livro é sua rica cobertura de conceitos essenciais de programação, como classes, objetos, herança, polimorfismo e interfaces. A introdução antecipada ao LINQ e às coleções genéricas, bem como ao PLINQ (Parallel LINQ) para desempenho multicore, prepara os leitores para os desafios modernos de programação. Além disso, é abordada a programação assíncrona com async e await, o que é crucial para escrever aplicativos responsivos. Ao final do livro, os leitores terão uma base sólida em C# e estarão equipados com as habilidades necessárias para criar aplicativos robustos para diversas plataformas.",
+                    // Bengali
+                    "বাংলা": "এই বইটির অন্যতম প্রধান সুবিধা হল ক্লাস, অবজেক্ট, উত্তরাধিকার, পলিমরফিজম এবং ইন্টারফেসের মতো প্রয়োজনীয় প্রোগ্রামিং ধারণাগুলির সমৃদ্ধ কভারেজ। LINQ এবং জেনেরিক সংগ্রহের প্রাথমিক পরিচিতি, সেইসাথে মাল্টিকোর পারফরম্যান্সের জন্য PLINQ (সমান্তরাল LINQ), পাঠকদের আধুনিক প্রোগ্রামিং চ্যালেঞ্জের জন্য প্রস্তুত করে। উপরন্তু, async এবং await সহ অ্যাসিঙ্ক্রোনাস প্রোগ্রামিং কভার করা হয়েছে, যা প্রতিক্রিয়াশীল অ্যাপ্লিকেশন লেখার জন্য অত্যন্ত গুরুত্বপূর্ণ। বইয়ের শেষ নাগাদ, পাঠকদের C# এর একটি শক্তিশালী ভিত্তি থাকবে এবং তারা বিভিন্ন প্ল্যাটফর্মের জন্য শক্তিশালী অ্যাপ্লিকেশন তৈরি করার দক্ষতার সাথে সজ্জিত হবে।",
+                    // Arabic
+                    "عَرَبِيّ": "إحدى المزايا الرئيسية لهذا الكتاب هي تغطيته الغنية لمفاهيم البرمجة الأساسية مثل الفئات والكائنات والميراث وتعدد الأشكال والواجهات. إن المقدمة المبكرة لـ LINQ والمجموعات العامة، بالإضافة إلى PLINQ (Parallel LINQ) للأداء متعدد النواة، تعمل على إعداد القراء لمواجهة تحديات البرمجة الحديثة. بالإضافة إلى ذلك، تمت تغطية البرمجة غير المتزامنة مع المزامنة والانتظار، وهو أمر بالغ الأهمية لكتابة التطبيقات المستجيبة. بحلول نهاية الكتاب، سيكون لدى القراء أساس قوي في لغة C# وسيكونون مجهزين بالمهارات اللازمة لبناء تطبيقات قوية لمجموعة متنوعة من المنصات.",
+                    // Persian
+                    "فارسی": "یکی از مزایای کلیدی این کتاب، پوشش غنی آن از مفاهیم اساسی برنامه نویسی مانند کلاس ها، اشیاء، وراثت، چندشکلی و رابط ها است. معرفی اولیه LINQ و مجموعه های عمومی، و همچنین PLINQ (LINQ موازی) برای عملکرد چند هسته ای، خوانندگان را برای چالش های برنامه نویسی مدرن آماده می کند. علاوه بر این، برنامه‌نویسی ناهمزمان با async و await پوشش داده شده است که برای نوشتن برنامه‌های واکنش‌گرا بسیار مهم است. در پایان کتاب، خوانندگان پایه ای قوی در C# خواهند داشت و به مهارت هایی برای ساخت برنامه های کاربردی قوی برای پلتفرم های مختلف مجهز خواهند شد.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "Moreover, the book is designed to be informative, engaging, challenging, and entertaining, making the learning process enjoyable. It is suitable for all basic-to-intermediate level courses in Visual C# programming. The broad range of example programs and exercises included in the book come from diverse fields such as computer science, business, education, and many other areas, ensuring that readers gain a well-rounded perspective on programming with C#. With this book, readers will not only learn the syntax of the C# language but also how to apply it effectively to solve real-world problems.",
+                    // German
+                    "Deutsch": "Darüber hinaus ist das Buch so konzipiert, dass es informativ, spannend, herausfordernd und unterhaltsam ist, sodass der Lernprozess Spaß macht. Es eignet sich für alle Kurse in Visual C#-Programmierung auf Grund- bis Mittelstufenniveau. Die große Auswahl an Beispielprogrammen und Übungen im Buch stammt aus unterschiedlichen Bereichen wie Informatik, Wirtschaft, Bildung und vielen anderen Bereichen und stellt sicher, dass die Leser eine umfassende Perspektive auf die Programmierung mit C# erhalten. Mit diesem Buch lernen die Leser nicht nur die Syntax der Sprache C#, sondern auch, wie sie diese effektiv anwenden können, um reale Probleme zu lösen.",
+                    // Chinese
+                    "中国人": "此外，本书内容丰富、引人入胜、富有挑战性和娱乐性，让学习过程变得愉快。它适用于 Visual C# 编程的所有基础到中级课程。本书包含的大量示例程序和练习来自计算机科学、商业、教育和许多其他领域等不同领域，确保读者对使用 C# 进行编程有一个全面的了解。通过本书，读者不仅可以学习 C# 语言的语法，还可以学习如何有效地应用它来解决实际问题。",
+                    // Russian
+                    "Русский": "Более того, книга призвана быть информативной, увлекательной, сложной и увлекательной, что делает процесс обучения приятным. Он подходит для всех курсов программирования Visual C# от базового до среднего уровня. Широкий спектр примеров программ и упражнений, включенных в книгу, взят из различных областей, таких как информатика, бизнес, образование и многие другие области, что гарантирует читателям всестороннее представление о программировании на C#. С помощью этой книги читатели не только изучат синтаксис языка C#, но и научатся эффективно его применять для решения реальных задач.",
+                    // French
+                    "Français": "De plus, le livre est conçu pour être informatif, engageant, stimulant et divertissant, rendant le processus d'apprentissage agréable. Il convient à tous les cours de programmation Visual C# de niveau basique à intermédiaire. Le large éventail d'exemples de programmes et d'exercices inclus dans le livre proviennent de divers domaines tels que l'informatique, les affaires, l'éducation et bien d'autres domaines, garantissant aux lecteurs une perspective complète sur la programmation avec C#. Avec ce livre, les lecteurs apprendront non seulement la syntaxe du langage C#, mais aussi comment l'appliquer efficacement pour résoudre des problèmes du monde réel.",
+                    // Japanese
+                    "日本語": "さらに、この本は、情報に富み、興味をそそり、やりがいがあり、楽しく、学習プロセスが楽しくなるように作られています。Visual C# プログラミングの初級から中級レベルのすべてのコースに適しています。この本に含まれる幅広いサンプル プログラムと演習は、コンピューター サイエンス、ビジネス、教育など、さまざまな分野から提供されており、読者が C# プログラミングについて幅広い視点を身に付けることができます。この本では、読者は C# 言語の構文だけでなく、それを効果的に適用して実際の問題を解決する方法も学習できます。",
+                    // Korean
+                    "한국인": "더욱이 이 책은 유익하고, 흥미롭고, 도전적이고, 재미있도록 구성되어 학습 과정을 즐겁게 만듭니다. Visual C# 프로그래밍의 모든 기초부터 중급 수준 과정에 적합합니다. 이 책에 포함된 광범위한 예제 프로그램과 연습 문제는 컴퓨터 과학, 비즈니스, 교육 및 기타 여러 분야와 같은 다양한 분야에서 제공되므로 독자는 C#을 사용한 프로그래밍에 대한 균형 잡힌 관점을 얻을 수 있습니다. 이 책을 통해 독자는 C# 언어의 구문뿐만 아니라 이를 효과적으로 적용하여 실제 문제를 해결하는 방법도 배울 수 있습니다.",
+                    // Spanish
+                    "Español": "Además, el libro está diseñado para ser informativo, atractivo, desafiante y entretenido, haciendo que el proceso de aprendizaje sea agradable. Es adecuado para todos los cursos de nivel básico a intermedio en programación en Visual C#. La amplia gama de programas de ejemplo y ejercicios incluidos en el libro provienen de diversos campos, como la informática, los negocios, la educación y muchas otras áreas, lo que garantiza que los lectores obtengan una perspectiva completa sobre la programación con C#. Con este libro, los lectores no sólo aprenderán la sintaxis del lenguaje C# sino también cómo aplicarlo de manera efectiva para resolver problemas del mundo real.",
+                    // Hindi
+                    "हिंदी": "इसके अलावा, पुस्तक को जानकारीपूर्ण, आकर्षक, चुनौतीपूर्ण और मनोरंजक बनाने के लिए डिज़ाइन किया गया है, जिससे सीखने की प्रक्रिया आनंददायक हो जाती है। यह Visual C# प्रोग्रामिंग में सभी बुनियादी से लेकर मध्यवर्ती स्तर के पाठ्यक्रमों के लिए उपयुक्त है। पुस्तक में शामिल उदाहरण कार्यक्रमों और अभ्यासों की विस्तृत श्रृंखला कंप्यूटर विज्ञान, व्यवसाय, शिक्षा और कई अन्य क्षेत्रों जैसे विविध क्षेत्रों से आती है, यह सुनिश्चित करते हुए कि पाठकों को C# के साथ प्रोग्रामिंग पर एक अच्छी तरह से गोल परिप्रेक्ष्य प्राप्त होता है। इस पुस्तक के साथ, पाठक न केवल C# भाषा के वाक्यविन्यास को सीखेंगे, बल्कि वास्तविक दुनिया की समस्याओं को हल करने के लिए इसे प्रभावी ढंग से लागू करना भी सीखेंगे।",
+                    // Portuguese
+                    "Português": "Além disso, o livro foi projetado para ser informativo, envolvente, desafiador e divertido, tornando o processo de aprendizagem agradável. É adequado para todos os cursos de nível básico a intermediário em programação Visual C#. A ampla gama de exemplos de programas e exercícios incluídos no livro vem de diversos campos, como ciência da computação, negócios, educação e muitas outras áreas, garantindo que os leitores obtenham uma perspectiva completa sobre programação com C#. Com este livro, os leitores aprenderão não apenas a sintaxe da linguagem C#, mas também como aplicá-la de maneira eficaz para resolver problemas do mundo real.",
+                    // Bengali
+                    "বাংলা": "অধিকন্তু, বইটি তথ্যপূর্ণ, আকর্ষক, চ্যালেঞ্জিং এবং বিনোদনমূলক, শেখার প্রক্রিয়াটিকে আনন্দদায়ক করার জন্য ডিজাইন করা হয়েছে। এটি ভিজ্যুয়াল C# প্রোগ্রামিং-এর সমস্ত মৌলিক থেকে মধ্যবর্তী স্তরের কোর্সের জন্য উপযুক্ত। বইটিতে অন্তর্ভুক্ত উদাহরণ প্রোগ্রাম এবং অনুশীলনের বিস্তৃত পরিসর বিভিন্ন ক্ষেত্র যেমন কম্পিউটার বিজ্ঞান, ব্যবসা, শিক্ষা এবং অন্যান্য অনেক ক্ষেত্র থেকে আসে, এটি নিশ্চিত করে যে পাঠকরা C# এর সাথে প্রোগ্রামিং সম্পর্কে একটি সুসংহত দৃষ্টিভঙ্গি অর্জন করে। এই বইটির মাধ্যমে, পাঠকরা শুধুমাত্র C# ভাষার সিনট্যাক্স শিখবে না বরং বাস্তব-বিশ্বের সমস্যা সমাধানের জন্য কীভাবে এটি কার্যকরভাবে প্রয়োগ করা যায় তাও শিখবে।",
+                    // Arabic
+                    "عَرَبِيّ": "علاوة على ذلك، تم تصميم الكتاب ليكون مفيدًا وجذابًا وصعبًا ومسليًا، مما يجعل عملية التعلم ممتعة. إنها مناسبة لجميع دورات المستوى الأساسي إلى المتوسط ​​في برمجة Visual C#. تأتي المجموعة الواسعة من أمثلة البرامج والتمارين المتضمنة في الكتاب من مجالات متنوعة مثل علوم الكمبيوتر والأعمال والتعليم والعديد من المجالات الأخرى، مما يضمن حصول القراء على منظور شامل حول البرمجة باستخدام C#. مع هذا الكتاب، لن يتعلم القراء بناء جملة لغة C# فحسب، بل سيتعلمون أيضًا كيفية تطبيقها بفعالية لحل مشكلات العالم الحقيقي.",
+                    // Persian
+                    "فارسی": "علاوه بر این، کتاب به گونه ای طراحی شده است که آموزنده، جذاب، چالش برانگیز و سرگرم کننده باشد و فرآیند یادگیری را لذت بخش کند. برای تمام دوره های پایه تا متوسط ​​برنامه نویسی ویژوال سی شارپ مناسب است. طیف وسیعی از برنامه‌ها و تمرین‌های نمونه موجود در این کتاب از زمینه‌های متنوعی مانند علوم کامپیوتر، تجارت، آموزش و بسیاری از زمینه‌های دیگر می‌آیند و اطمینان می‌دهند که خوانندگان دیدگاهی جامع در مورد برنامه‌نویسی با سی شارپ به دست می‌آورند. با این کتاب، خوانندگان نه تنها نحو زبان سی شارپ را یاد خواهند گرفت، بلکه نحوه به کارگیری موثر آن برای حل مشکلات دنیای واقعی را نیز یاد خواهند گرفت.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Deitel_and_Deitel_C_Sharp_How_to_Program.webp",
+        },
+        // Head First Git
+        {
+            "BookName": "Head First Git",
+            "AuthorName": "Raju Gandhi",
+            "EditionNumber": "1st",
+            "PublisherName": "O'REILLY",
+            "ISBN": "978 1 4920 9251 3",
+            "YearNumber": "2022",
+            "PagesNumber": "873",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Beginning Git: Get Going with Git",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Branching Out: Multiple Trains of Thought",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Looking Around: Investigating Your Git Repository",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Undoing: Fixing Your Mistakes",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Collaborating with Git - Part I: Remote Work",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Collaborating with Git - Part II: Go, Team, Go!",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Searching Git Repositories: Git a Grep",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Making your life Easier with Git: #ProTips",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "“Head First Git” by Raju Gandhi is a comprehensive guide designed to help readers understand Git from the inside out. The book is part of the well-known “Head First” series, which is celebrated for its visually rich format and engaging, conversational style that aligns with how the brain learns best. By reading this book, learners will move beyond merely following ‘recipes’ or commands found online, to truly grasping the underlying mechanics of Git. This deeper understanding enables them to navigate tight spots and complex situations with confidence.",
+                    // German
+                    "Deutsch": "„Head First Git“ von Raju Gandhi ist ein umfassender Leitfaden, der den Lesern helfen soll, Git von Grund auf zu verstehen. Das Buch ist Teil der bekannten „Head First“-Reihe, die für ihr visuell ansprechendes Format und ihren ansprechenden, gesprächigen Stil bekannt ist, der sich an der Art und Weise orientiert, wie das Gehirn am besten lernt. Durch die Lektüre dieses Buches werden Lernende nicht nur „Rezepte“ oder Befehle befolgen, die sie online finden, sondern die zugrunde liegende Mechanik von Git wirklich verstehen. Dieses tiefere Verständnis ermöglicht es ihnen, schwierige Situationen und komplexe Situationen souverän zu meistern.",
+                    // Chinese
+                    "中国人": "Raju Gandhi 的《Head First Git》是一本全面的指南，旨在帮助读者从内到外了解 Git。这本书是著名的“Head First”系列的一部分，该系列以其丰富的视觉格式和引人入胜的对话风格而闻名，与大脑的最佳学习方式相一致。通过阅读这本书，学习者将不再仅仅遵循在线找到的“食谱”或命令，而是真正掌握 Git 的底层机制。这种更深入的理解使他们能够自信地应对困境和复杂情况。",
+                    // Russian
+                    "Русский": "«Head First Git» Раджу Ганди — это подробное руководство, призванное помочь читателям понять Git изнутри. Книга входит в известную серию «Head First», которая славится своим визуально богатым форматом и увлекательным разговорным стилем, который соответствует тому, как мозг лучше всего учится. Прочитав эту книгу, учащиеся перейдут от простого следования «рецептам» или командам, найденным в Интернете, к настоящему пониманию основной механики Git. Это более глубокое понимание позволяет им уверенно ориентироваться в трудных ситуациях и сложных ситуациях.",
+                    // French
+                    "Français": "« Head First Git » de Raju Gandhi est un guide complet conçu pour aider les lecteurs à comprendre Git de l'intérieur. Le livre fait partie de la célèbre série « Head First », célèbre pour son format visuellement riche et son style de conversation engageant qui correspond à la façon dont le cerveau apprend le mieux. En lisant ce livre, les apprenants ne se contenteront pas de suivre des « recettes » ou des commandes trouvées en ligne, mais comprendront véritablement les mécanismes sous-jacents de Git. Cette compréhension plus approfondie leur permet de naviguer en toute confiance dans des situations difficiles et complexes.",
+                    // Japanese
+                    "日本語": "Raju Gandhi 著の「Head First Git」は、読者が Git を隅々まで理解できるように設計された総合ガイドです。この本は、視覚的に豊かな形式と、脳の学習に最適な魅力的な会話スタイルで定評のある「Head First」シリーズの一部です。この本を読むことで、学習者は単にオンラインで見つかった「レシピ」やコマンドに従うだけでなく、Git の基本的な仕組みを真に理解できるようになります。この深い理解により、困難な状況や複雑な状況にも自信を持って対処できるようになります。",
+                    // Korean
+                    "한국인": "Raju Gandhi가 쓴 “Head First Git”은 독자가 Git을 내부적으로 이해할 수 있도록 고안된 포괄적인 가이드입니다. 이 책은 시각적으로 풍부한 형식과 뇌가 가장 잘 학습하는 방식에 부합하는 매력적인 대화 스타일로 유명한 “Head First” 시리즈의 일부입니다. 이 책을 읽으면 학습자는 단순히 온라인에서 찾을 수 있는 '레시피'나 명령을 따르는 것 이상으로 Git의 기본 메커니즘을 진정으로 이해할 수 있습니다. 이러한 깊은 이해를 통해 그들은 어려운 지점과 복잡한 상황을 자신있게 탐색할 수 있습니다.",
+                    // Spanish
+                    "Español": "“Head First Git” de Raju Gandhi es una guía completa diseñada para ayudar a los lectores a comprender Git desde adentro hacia afuera. El libro es parte de la conocida serie “Head First”, que se celebra por su formato visualmente rico y su estilo conversacional atractivo que se alinea con la forma en que el cerebro aprende mejor. Al leer este libro, los estudiantes irán más allá de simplemente seguir “recetas” o comandos encontrados en línea, para comprender verdaderamente la mecánica subyacente de Git. Esta comprensión más profunda les permite navegar por momentos difíciles y situaciones complejas con confianza.",
+                    // Hindi
+                    "हिंदी": "राजू गांधी द्वारा लिखित “हेड फर्स्ट गिट” एक व्यापक गाइड है जिसे पाठकों को गिट को अंदर से बाहर तक समझने में मदद करने के लिए डिज़ाइन किया गया है। यह पुस्तक प्रसिद्ध “हेड फर्स्ट” श्रृंखला का हिस्सा है, जिसे इसके विज़ुअल समृद्ध प्रारूप और आकर्षक, संवादात्मक शैली के लिए जाना जाता है जो मस्तिष्क के सीखने के तरीके से सबसे अच्छी तरह मेल खाती है। इस पुस्तक को पढ़कर, शिक्षार्थी केवल ऑनलाइन पाए जाने वाले ‘नुस्खे’ या आदेशों का पालन करने से आगे बढ़कर, गिट के अंतर्निहित यांत्रिकी को वास्तव में समझ पाएंगे। यह गहरी समझ उन्हें मुश्किल परिस्थितियों और जटिल परिस्थितियों को आत्मविश्वास के साथ नेविगेट करने में सक्षम बनाती है।",
+                    // Portuguese
+                    "Português": "“Head First Git” de Raju Gandhi é um guia completo projetado para ajudar os leitores a entender o Git de dentro para fora. O livro faz parte da conhecida série “Head First”, que é celebrada por seu formato visualmente rico e estilo conversacional envolvente que se alinha com a forma como o cérebro aprende melhor. Ao ler este livro, os alunos irão além de apenas seguir “receitas” ou comandos encontrados online, para realmente compreenderem a mecânica subjacente do Git. Essa compreensão mais profunda lhes permite navegar em situações difíceis e complexas com confiança.",
+                    // Bengali
+                    "বাংলা": "রাজু গান্ধীর “হেড ফার্স্ট গিট” হল একটি বিস্তৃত নির্দেশিকা যা পাঠকদের গিটকে ভেতর থেকে বুঝতে সাহায্য করার জন্য ডিজাইন করা হয়েছে। বইটি সুপরিচিত “হেড ফার্স্ট” সিরিজের অংশ, যা এর দৃশ্যত সমৃদ্ধ বিন্যাস এবং আকর্ষক, কথোপকথন শৈলীর জন্য পালিত হয় যা মস্তিষ্ক কীভাবে সবচেয়ে ভাল শেখে তার সাথে সারিবদ্ধ করে। এই বইটি পড়ার মাধ্যমে, শিক্ষার্থীরা গিটের অন্তর্নিহিত মেকানিক্সকে সত্যিকার অর্থে উপলব্ধি করতে, অনলাইনে পাওয়া ‘রেসিপি’ বা কমান্ডগুলি অনুসরণ করার বাইরে চলে যাবে। এই গভীর উপলব্ধি তাদের আঁটসাঁট দাগ এবং জটিল পরিস্থিতিতে আত্মবিশ্বাসের সাথে নেভিগেট করতে সক্ষম করে।",
+                    // Arabic
+                    "عَرَبِيّ": "“Head First Git” بقلم Raju Gandhi هو دليل شامل مصمم لمساعدة القراء على فهم Git من الداخل إلى الخارج. يعد الكتاب جزءًا من سلسلة “Head First” الشهيرة، والتي يتم الاحتفال بها لشكلها الغني بصريًا وأسلوب المحادثة الجذاب الذي يتماشى مع كيفية تعلم الدماغ بشكل أفضل. من خلال قراءة هذا الكتاب، سينتقل المتعلمون إلى ما هو أبعد من مجرد اتباع “الوصفات” أو الأوامر الموجودة عبر الإنترنت، إلى فهم الآليات الأساسية لـ Git حقًا. وهذا الفهم الأعمق يمكّنهم من التنقل في النقاط الصعبة والمواقف المعقدة بثقة.",
+                    // Persian
+                    "فارسی": "“Head First Git” توسط راجو گاندی یک راهنمای جامع است که برای کمک به خوانندگان برای درک Git از درون به بیرون طراحی شده است. این کتاب بخشی از مجموعه معروف “Head First” است که به دلیل قالب بصری غنی و سبک مکالمه جذاب و جذاب که با نحوه یادگیری مغز به بهترین شکل مطابقت دارد، تحسین شده است. با خواندن این کتاب، فراگیران فراتر از پیروی از «دستورالعمل‌ها» یا دستورات موجود در اینترنت می‌روند تا مکانیک زیربنایی Git را درک کنند. این درک عمیق‌تر آنها را قادر می‌سازد تا نقاط تنگ و موقعیت‌های پیچیده را با اعتماد به نفس طی کنند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "Readers of “Head First Git” will gain a mastery of Git’s fundamental concepts, such as branches, merges, commit messages, search, and utilities. The book emphasizes not just the ‘how’ but also the ‘why’ behind Git’s operations, providing a more intuitive understanding of the tool. Additionally, it covers best practices for collaborative work, allowing readers to unlock the full potential of Git in team settings. The hands-on approach, with numerous exercises, ensures that readers don’t just passively consume information but actively engage with the material.",
+                    // German
+                    "Deutsch": "Leser von „Head First Git“ erlernen die grundlegenden Konzepte von Git, wie z. B. Branches, Merges, Commit-Nachrichten, Suche und Dienstprogramme. Das Buch betont nicht nur das „Wie“, sondern auch das „Warum“ hinter den Vorgängen von Git und vermittelt so ein intuitiveres Verständnis des Tools. Darüber hinaus behandelt es Best Practices für die Zusammenarbeit, sodass Leser das volle Potenzial von Git in Teamumgebungen ausschöpfen können. Der praktische Ansatz mit zahlreichen Übungen stellt sicher, dass Leser Informationen nicht nur passiv aufnehmen, sondern sich aktiv mit dem Material auseinandersetzen.",
+                    // Chinese
+                    "中国人": "《Head First Git》的读者将掌握 Git 的基本概念，例如分支、合并、提交消息、搜索和实用程序。本书不仅强调 Git 操作背后的“如何”而且强调“为什么”，从而更直观地了解该工具。此外，它还涵盖了协作工作的最佳实践，使读者能够在团队环境中充分发挥 Git 的潜力。实践方法和大量练习确保读者不仅仅是被动地获取信息，而是积极地参与材料。",
+                    // Russian
+                    "Русский": "Читатели «Head First Git» познакомятся с фундаментальными концепциями Git, такими как ветвления, слияния, сообщения фиксации, поиск и утилиты. В книге подчеркивается не только «как», но и «почему», лежащая в основе операций Git, обеспечивая более интуитивное понимание этого инструмента. Кроме того, в нем рассматриваются лучшие практики совместной работы, что позволяет читателям раскрыть весь потенциал Git в командной работе. Практический подход с многочисленными упражнениями гарантирует, что читатели не просто пассивно потребляют информацию, а активно взаимодействуют с материалом.",
+                    // French
+                    "Français": "Les lecteurs de « Head First Git » acquerront une maîtrise des concepts fondamentaux de Git, tels que les branches, les fusions, les messages de validation, la recherche et les utilitaires. Le livre met l’accent non seulement sur le « comment », mais également sur le « pourquoi » des opérations de Git, offrant ainsi une compréhension plus intuitive de l’outil. De plus, il couvre les meilleures pratiques en matière de travail collaboratif, permettant aux lecteurs de libérer tout le potentiel de Git en équipe. L’approche pratique, avec de nombreux exercices, garantit que les lecteurs ne se contentent pas de consommer passivement les informations mais s’engagent activement dans le matériel.",
+                    // Japanese
+                    "日本語": "「Head First Git」の読者は、ブランチ、マージ、コミット メッセージ、検索、ユーティリティなどの Git の基本概念を習得できます。本書では、Git の操作の「方法」だけでなく「理由」にも重点を置いており、ツールをより直感的に理解できます。さらに、共同作業のベスト プラクティスも取り上げており、チーム設定で Git の潜在能力を最大限に引き出すことができます。多数の演習を含む実践的なアプローチにより、読者は受動的に情報を消費するのではなく、資料に積極的に関与できます。",
+                    // Korean
+                    "한국인": "“Head First Git”의 독자는 분기, 병합, 커밋 메시지, 검색 및 유틸리티와 같은 Git의 기본 개념을 숙지하게 됩니다. 이 책은 Git의 운영 이면에 있는 '어떻게'뿐만 아니라 '이유'도 강조하여 도구에 대한 보다 직관적인 이해를 제공합니다. 또한 공동 작업에 대한 모범 사례를 다루므로 독자는 팀 설정에서 Git의 잠재력을 최대한 활용할 수 있습니다. 수많은 연습을 통한 실습 접근 방식을 통해 독자는 정보를 수동적으로 소비할 뿐만 아니라 자료에 적극적으로 참여할 수 있습니다.",
+                    // Spanish
+                    "Español": "Los lectores de “Head First Git” dominarán los conceptos fundamentales de Git, como ramas, fusiones, mensajes de confirmación, búsqueda y utilidades. El libro enfatiza no sólo el “cómo” sino también el “por qué” detrás de las operaciones de Git, proporcionando una comprensión más intuitiva de la herramienta. Además, cubre las mejores prácticas para el trabajo colaborativo, lo que permite a los lectores desbloquear todo el potencial de Git en entornos de equipo. El enfoque práctico, con numerosos ejercicios, garantiza que los lectores no solo consuman información pasivamente sino que interactúen activamente con el material.",
+                    // Hindi
+                    "हिंदी": "“हेड फर्स्ट गिट” के पाठकों को गिट की मूलभूत अवधारणाओं, जैसे कि शाखाएँ, मर्ज, कमिट संदेश, खोज और उपयोगिताओं में महारत हासिल होगी। पुस्तक न केवल ‘कैसे’ बल्कि गिट के संचालन के पीछे ‘क्यों’ पर भी जोर देती है, जिससे टूल की अधिक सहज समझ मिलती है। इसके अतिरिक्त, यह सहयोगी कार्य के लिए सर्वोत्तम प्रथाओं को शामिल करता है, जिससे पाठकों को टीम सेटिंग में गिट की पूरी क्षमता को अनलॉक करने की अनुमति मिलती है। कई अभ्यासों के साथ व्यावहारिक दृष्टिकोण यह सुनिश्चित करता है कि पाठक केवल निष्क्रिय रूप से जानकारी का उपभोग न करें बल्कि सामग्री के साथ सक्रिय रूप से जुड़ें।",
+                    // Portuguese
+                    "Português": "Os leitores de “Head First Git” ganharão domínio dos conceitos fundamentais do Git, como ramificações, mesclagens, mensagens de commit, pesquisa e utilitários. O livro enfatiza não apenas o “como”, mas também o “porquê” por trás das operações do Git, proporcionando uma compreensão mais intuitiva da ferramenta. Além disso, aborda as melhores práticas para trabalho colaborativo, permitindo aos leitores desbloquear todo o potencial do Git em ambientes de equipe. A abordagem prática, com vários exercícios, garante que os leitores não apenas consumam informações passivamente, mas também se envolvam ativamente com o material.",
+                    // Bengali
+                    "বাংলা": "“হেড ফার্স্ট গিট”-এর পাঠকরা গিট-এর মৌলিক ধারণা যেমন শাখা, একত্রীকরণ, কমিট মেসেজ, অনুসন্ধান এবং ইউটিলিটিগুলির উপর দক্ষতা অর্জন করবে। বইটি শুধু 'কীভাবে' নয় বরং Git-এর ক্রিয়াকলাপগুলির পিছনে 'কেন'-কেও জোর দেয়, সরঞ্জামটির আরও স্বজ্ঞাত বোঝার ব্যবস্থা করে। উপরন্তু, এটি সহযোগী কাজের জন্য সর্বোত্তম অনুশীলনগুলিকে কভার করে, পাঠকদের দল সেটিংসে গিট-এর সম্পূর্ণ সম্ভাবনা আনলক করতে দেয়। হ্যান্ডস-অন পদ্ধতি, অসংখ্য অনুশীলনের সাথে, নিশ্চিত করে যে পাঠকরা কেবল নিষ্ক্রিয়ভাবে তথ্য গ্রহণ করে না বরং সক্রিয়ভাবে উপাদানের সাথে জড়িত থাকে।",
+                    // Arabic
+                    "عَرَبِيّ": "سوف يكتسب قراء “Head First Git” إتقانًا لمفاهيم Git الأساسية، مثل الفروع والدمج ورسائل الالتزام والبحث والأدوات المساعدة. لا يركز الكتاب على ”كيف“ فحسب، بل أيضًا على ”لماذا“ وراء عمليات Git، مما يوفر فهمًا أكثر سهولة للأداة. بالإضافة إلى ذلك، فإنه يغطي أفضل الممارسات للعمل التعاوني، مما يسمح للقراء بإطلاق العنان للإمكانات الكاملة لـ Git في إعدادات الفريق. يضمن النهج العملي، مع العديد من التمارين، أن القراء لا يستهلكون المعلومات بشكل سلبي فحسب، بل يتفاعلون بشكل نشط مع المادة.",
+                    // Persian
+                    "فارسی": "خوانندگان «Head First Git» بر مفاهیم اساسی Git مانند شاخه‌ها، ادغام‌ها، commit پیام‌ها، جستجو و برنامه‌های کاربردی تسلط خواهند داشت. این کتاب نه تنها بر 'چگونه' بلکه بر 'چرا' پشت عملیات Git نیز تأکید می کند و درک شهودی تری از ابزار ارائه می دهد. علاوه بر این، بهترین شیوه‌های کار مشترک را پوشش می‌دهد و به خوانندگان اجازه می‌دهد تا پتانسیل کامل Git را در تنظیمات تیم باز کنند. رویکرد عملی، با تمرین‌های متعدد، تضمین می‌کند که خوانندگان نه تنها اطلاعات را منفعلانه مصرف نمی‌کنند، بلکه فعالانه با مطالب درگیر می‌شوند.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "The advantages of reading “Head First Git” are manifold. Firstly, the book’s unique teaching methodology makes learning about Git an enjoyable and effective experience. The use of stories, analogies, and visual aids helps in retaining complex information. Secondly, the practical exercises included in the book offer real-world applicability, ensuring that readers can apply their knowledge immediately. Lastly, the book’s approach to explaining the ‘why’ behind the ‘how’ equips readers with a problem-solving mindset, making them more adept at overcoming challenges they may encounter while using Git.",
+                    // German
+                    "Deutsch": "Die Vorteile der Lektüre von „Head First Git“ sind vielfältig. Erstens macht die einzigartige Lehrmethode des Buches das Lernen über Git zu einer unterhaltsamen und effektiven Erfahrung. Die Verwendung von Geschichten, Analogien und visuellen Hilfsmitteln hilft dabei, komplexe Informationen zu behalten. Zweitens bieten die im Buch enthaltenen praktischen Übungen praktische Anwendbarkeit und stellen sicher, dass die Leser ihr Wissen sofort anwenden können. Schließlich vermittelt der Ansatz des Buches, das „Warum“ hinter dem „Wie“ zu erklären, den Lesern eine Problemlösungsmentalität, sodass sie die Herausforderungen, denen sie bei der Verwendung von Git begegnen können, besser bewältigen können.",
+                    // Chinese
+                    "中国人": "阅读《Head First Git》的好处是多方面的。首先，本书独特的教学方法使学习 Git 成为一种愉快而有效的体验。故事、类比和视觉辅助的使用有助于保留复杂的信息。其次，本书包含的实践练习提供了现实世界的适用性，确保读者可以立即应用他们的知识。最后，本书解释“如何”背后的“为什么”的方法使读者具备解决问题​​的心态，使他们更善于克服使用 Git 时可能遇到的挑战。",
+                    // Russian
+                    "Русский": "Преимущества чтения «Head First Git» многочисленны. Во-первых, уникальная методика преподавания книги делает изучение Git приятным и эффективным занятием. Использование историй, аналогий и наглядных пособий помогает запомнить сложную информацию. Во-вторых, практические упражнения, включенные в книгу, предлагают применимость в реальной жизни, гарантируя, что читатели смогут немедленно применить свои знания. Наконец, подход книги к объяснению «почему» за «как» дает читателям мышление, позволяющее решать проблемы, делая их более умелыми в преодолении проблем, с которыми они могут столкнуться при использовании Git.",
+                    // French
+                    "Français": "Les avantages de lire « Head First Git » sont multiples. Premièrement, la méthodologie pédagogique unique du livre fait de l’apprentissage de Git une expérience agréable et efficace. L'utilisation d'histoires, d'analogies et d'aides visuelles aide à conserver des informations complexes. Deuxièmement, les exercices pratiques inclus dans le livre sont applicables dans le monde réel, garantissant que les lecteurs peuvent appliquer leurs connaissances immédiatement. Enfin, l’approche du livre consistant à expliquer le « pourquoi » derrière le « comment » donne aux lecteurs un état d’esprit de résolution de problèmes, les rendant plus aptes à surmonter les défis qu’ils peuvent rencontrer lors de l’utilisation de Git.",
+                    // Japanese
+                    "日本語": "「Head First Git」を読むことの利点は多岐にわたります。まず、この本のユニークな教授法によって、Git の学習が楽しく効果的なものになります。ストーリー、アナロジー、視覚的な補助の使用により、複雑な情報を記憶しやすくなります。次に、この本に含まれる実践的な演習は現実世界での応用性を提供し、読者が知識をすぐに応用できるようにします。最後に、この本は「方法」の背後にある「理由」を説明するアプローチを採用しているため、読者は問題解決の考え方を身に付け、Git の使用中に遭遇する可能性のある課題をより上手に克服できるようになります。",
+                    // Korean
+                    "한국인": "“Head First Git”을 읽는 것의 장점은 다양합니다. 첫째, 이 책의 독특한 교육 방법론은 Git에 대한 학습을 ​​즐겁고 효과적인 경험으로 만듭니다. 이야기, 비유, 시각적 자료를 사용하면 복잡한 정보를 유지하는 데 도움이 됩니다. 둘째, 책에 포함된 실습은 실제 적용 가능성을 제공하므로 독자가 지식을 즉시 적용할 수 있습니다. 마지막으로, '어떻게' 뒤에 있는 '이유'를 설명하는 이 책의 접근 방식은 독자가 문제 해결 사고방식을 갖도록 하여 Git을 사용하는 동안 직면할 수 있는 문제를 극복하는 데 더 능숙하게 만듭니다.",
+                    // Spanish
+                    "Español": "Las ventajas de leer “Head First Git” son múltiples. En primer lugar, la metodología de enseñanza única del libro hace que aprender sobre Git sea una experiencia agradable y eficaz. El uso de historias, analogías y ayudas visuales ayuda a retener información compleja. En segundo lugar, los ejercicios prácticos incluidos en el libro ofrecen aplicabilidad en el mundo real, lo que garantiza que los lectores puedan aplicar sus conocimientos de inmediato. Por último, el enfoque del libro para explicar el “por qué” detrás del “cómo” dota a los lectores de una mentalidad de resolución de problemas, haciéndolos más hábiles para superar los desafíos que pueden encontrar al usar Git.",
+                    // Hindi
+                    "हिंदी": "“हेड फर्स्ट गिट” पढ़ने के कई फायदे हैं। सबसे पहले, पुस्तक की अनूठी शिक्षण पद्धति गिट के बारे में सीखना एक सुखद और प्रभावी अनुभव बनाती है। कहानियों, उपमाओं और दृश्य सहायता का उपयोग जटिल जानकारी को बनाए रखने में मदद करता है। दूसरे, पुस्तक में शामिल व्यावहारिक अभ्यास वास्तविक दुनिया की प्रयोज्यता प्रदान करते हैं, यह सुनिश्चित करते हुए कि पाठक अपने ज्ञान को तुरंत लागू कर सकते हैं। अंत में, ‘कैसे’ के पीछे ‘क्यों’ को समझाने के लिए पुस्तक का दृष्टिकोण पाठकों को समस्या-समाधान मानसिकता से लैस करता है, जिससे वे गिट का उपयोग करते समय आने वाली चुनौतियों पर काबू पाने में अधिक कुशल बन जाते हैं।",
+                    // Portuguese
+                    "Português": "As vantagens de ler “Head First Git” são múltiplas. Em primeiro lugar, a metodologia de ensino exclusiva do livro torna o aprendizado sobre Git uma experiência agradável e eficaz. O uso de histórias, analogias e recursos visuais ajuda a reter informações complexas. Em segundo lugar, os exercícios práticos incluídos no livro oferecem aplicabilidade no mundo real, garantindo que os leitores possam aplicar os seus conhecimentos imediatamente. Por último, a abordagem do livro para explicar o “porquê” por trás do “como” equipa os leitores com uma mentalidade de resolução de problemas, tornando-os mais aptos a superar os desafios que podem encontrar ao usar o Git.",
+                    // Bengali
+                    "বাংলা": "“হেড ফার্স্ট গিট” পড়ার সুবিধা বহুগুণ। প্রথমত, বইটির অনন্য শিক্ষণ পদ্ধতি গিট সম্পর্কে শেখাকে একটি উপভোগ্য এবং কার্যকর অভিজ্ঞতা করে তোলে। গল্প, উপমা এবং ভিজ্যুয়াল এইডস ব্যবহার জটিল তথ্য ধরে রাখতে সাহায্য করে। দ্বিতীয়ত, বইটিতে অন্তর্ভুক্ত ব্যবহারিক অনুশীলনগুলি বাস্তব-বিশ্বের প্রযোজ্যতা প্রদান করে, যাতে পাঠকরা অবিলম্বে তাদের জ্ঞান প্রয়োগ করতে পারে তা নিশ্চিত করে। অবশেষে, 'কীভাবে' এর পিছনে 'কেন' ব্যাখ্যা করার জন্য বইটির পদ্ধতি পাঠকদের একটি সমস্যা-সমাধানের মানসিকতার সাথে সজ্জিত করে, তাদের গিট ব্যবহার করার সময় তারা যে চ্যালেঞ্জগুলির সম্মুখীন হতে পারে তা কাটিয়ে উঠতে তাদের আরও দক্ষ করে তোলে।",
+                    // Arabic
+                    "عَرَبِيّ": "مزايا قراءة “Head First Git” متعددة. أولاً، منهجية التدريس الفريدة للكتاب تجعل تعلم Git تجربة ممتعة وفعالة. يساعد استخدام القصص والقياسات والوسائل البصرية في الاحتفاظ بالمعلومات المعقدة. ثانيًا، توفر التمارين العملية المضمنة في الكتاب قابلية التطبيق في العالم الحقيقي، مما يضمن أن يتمكن القراء من تطبيق معرفتهم على الفور. وأخيرًا، فإن منهج الكتاب في شرح 'السبب' وراء 'الكيفية' يزود القراء بعقلية حل المشكلات، مما يجعلهم أكثر مهارة في التغلب على التحديات التي قد يواجهونها أثناء استخدام Git.",
+                    // Persian
+                    "فارسی": "مزایای خواندن “Head First Git” بسیار زیاد است. اولاً، روش تدریس منحصر به فرد کتاب، یادگیری در مورد Git را به تجربه ای لذت بخش و مؤثر تبدیل می کند. استفاده از داستان ها، تشبیه ها و وسایل کمک بصری به حفظ اطلاعات پیچیده کمک می کند. ثانیاً، تمرین‌های عملی موجود در کتاب قابلیت کاربرد در دنیای واقعی را ارائه می‌دهند و اطمینان می‌دهند که خوانندگان می‌توانند فوراً دانش خود را به کار گیرند. در نهایت، رویکرد کتاب برای توضیح «چرا» پشت «چگونه»، خوانندگان را با طرز فکر حل مسئله مجهز می‌کند و آنها را در غلبه بر چالش‌هایی که ممکن است در حین استفاده از Git با آن‌ها مواجه شوند، ماهرتر می‌کند.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Head_First_Git.webp",
+        },
+        // Learn Django in 24 Hours
+        {
+            "BookName": "Learn Django in 24 Hours",
+            "AuthorName": "S. Basu",
+            "EditionNumber": "1st",
+            "PublisherName": "Independently Published",
+            "ISBN": "979 8 5040 8230 1",
+            "YearNumber": "2021",
+            "PagesNumber": "181",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "HTML and CSS",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Introduction to JavaScript",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "How to Mobile Optimize a Website",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Introduction to Python Programming",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Django",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "'Learn Django in 24 Hours' by S. Basu is a beginner-friendly guide that promises to equip readers with the knowledge to build web applications using HTML, CSS, JavaScript, Python, and the Django Web Framework. The book is structured to be a simple, concise, and easy guide, making it accessible to individuals who are new to web development or those looking to transition into using Django for their projects. It's designed to make the learning process enjoyable, informative, and interesting, with thorough examples and codes to support the concepts presented.",
+                    // German
+                    "Deutsch": "„Learn Django in 24 Hours“ von S. Basu ist ein anfängerfreundlicher Leitfaden, der den Lesern das Wissen vermittelt, um Webanwendungen mit HTML, CSS, JavaScript, Python und dem Django Web Framework zu erstellen. Das Buch ist als einfacher, prägnanter und leicht verständlicher Leitfaden aufgebaut und somit für Personen zugänglich, die neu in der Webentwicklung sind oder für diejenigen, die für ihre Projekte auf Django umsteigen möchten. Es ist so konzipiert, dass der Lernprozess unterhaltsam, informativ und interessant ist, mit ausführlichen Beispielen und Codes zur Unterstützung der vorgestellten Konzepte.",
+                    // Chinese
+                    "中国人": "S. Basu 撰写的《24 小时学会 Django》是一本适合初学者的指南，承诺让读者掌握使用 HTML、CSS、JavaScript、Python 和 Django Web 框架构建 Web 应用程序的知识。本书结构简洁、简明易懂，适合刚接触 Web 开发或希望过渡到使用 Django 进行项目开发的个人。它旨在让学习过程变得愉快、信息丰富且有趣，并提供详尽的示例和代码来支持所提出的概念。",
+                    // Russian
+                    "Русский": "«Изучите Django за 24 часа» С. Басу — это руководство для начинающих, которое обещает дать читателям знания по созданию веб-приложений с использованием HTML, CSS, JavaScript, Python и Django Web Framework. Книга построена так, чтобы представлять собой простое, краткое и легкое руководство, делающее ее доступной для людей, которые плохо знакомы с веб-разработкой или тех, кто хочет перейти на использование Django в своих проектах. Он разработан, чтобы сделать процесс обучения приятным, информативным и интересным, с подробными примерами и кодами, подтверждающими представленные концепции.",
+                    // French
+                    "Français": "« Apprenez Django en 24 heures » de S. Basu est un guide convivial pour les débutants qui promet de doter les lecteurs des connaissances nécessaires pour créer des applications Web en utilisant HTML, CSS, JavaScript, Python et Django Web Framework. Le livre est structuré pour être un guide simple, concis et facile, le rendant accessible aux personnes qui débutent dans le développement Web ou à celles qui cherchent à utiliser Django pour leurs projets. Il est conçu pour rendre le processus d'apprentissage agréable, informatif et intéressant, avec des exemples et des codes détaillés pour soutenir les concepts présentés.",
+                    // Japanese
+                    "日本語": "S. Basu 著の「Learn Django in 24 Hours」は、HTML、CSS、JavaScript、Python、Django Web Framework を使用して Web アプリケーションを構築するための知識を読者に提供することを約束する初心者向けのガイドです。この本は、Web 開発の初心者や、プロジェクトで Django の使用に移行しようとしている人にとって理解しやすい、シンプルで簡潔、かつわかりやすいガイドとして構成されています。提示された概念をサポートする詳細な例とコードを使用して、学習プロセスを楽しく、有益で興味深いものにするように設計されています。",
+                    // Korean
+                    "한국인": "S. Basu의 '24시간 안에 Django 배우기'는 HTML, CSS, JavaScript, Python 및 Django 웹 프레임워크를 사용하여 웹 애플리케이션을 구축하는 데 필요한 지식을 독자에게 제공하는 초보자 친화적인 가이드입니다. 이 책은 간단하고 간결하며 쉬운 가이드로 구성되어 웹 개발이 처음이거나 프로젝트에 Django를 사용하려는 사람들이 쉽게 접근할 수 있습니다. 제시된 개념을 뒷받침하는 철저한 예제와 코드를 통해 학습 과정을 즐겁고 유익하며 흥미롭게 만들도록 설계되었습니다.",
+                    // Spanish
+                    "Español": "'Aprenda Django en 24 horas' de S. Basu es una guía para principiantes que promete equipar a los lectores con el conocimiento para crear aplicaciones web utilizando HTML, CSS, JavaScript, Python y Django Web Framework. El libro está estructurado para ser una guía simple, concisa y fácil, haciéndolo accesible a personas que son nuevas en el desarrollo web o aquellos que buscan hacer la transición al uso de Django para sus proyectos. Está diseñado para hacer que el proceso de aprendizaje sea agradable, informativo e interesante, con ejemplos y códigos completos para respaldar los conceptos presentados.",
+                    // Hindi
+                    "हिंदी": "एस. बसु द्वारा लिखित '24 घंटे में Django सीखें' एक शुरुआती-अनुकूल मार्गदर्शिका है जो पाठकों को HTML, CSS, JavaScript, Python और Django वेब फ्रेमवर्क का उपयोग करके वेब एप्लिकेशन बनाने के ज्ञान से लैस करने का वादा करती है। पुस्तक को एक सरल, संक्षिप्त और आसान मार्गदर्शिका के रूप में संरचित किया गया है, जो इसे उन व्यक्तियों के लिए सुलभ बनाता है जो वेब विकास के लिए नए हैं या जो अपनी परियोजनाओं के लिए Django का उपयोग करना चाहते हैं। इसे सीखने की प्रक्रिया को सुखद, जानकारीपूर्ण और दिलचस्प बनाने के लिए डिज़ाइन किया गया है, जिसमें प्रस्तुत अवधारणाओं का समर्थन करने के लिए विस्तृत उदाहरण और कोड हैं।",
+                    // Portuguese
+                    "Português": "'Aprenda Django em 24 horas' de S. Basu é um guia para iniciantes que promete equipar os leitores com o conhecimento para construir aplicativos da web usando HTML, CSS, JavaScript, Python e Django Web Framework. O livro está estruturado para ser um guia simples, conciso e fácil, tornando-o acessível para indivíduos que são novos no desenvolvimento web ou para aqueles que desejam fazer a transição para o uso do Django em seus projetos. Ele foi projetado para tornar o processo de aprendizagem agradável, informativo e interessante, com exemplos e códigos completos para apoiar os conceitos apresentados.",
+                    // Bengali
+                    "বাংলা": "এস. বসুর '24 ঘন্টায় জ্যাঙ্গো শিখুন' হল একটি শিক্ষানবিস-বান্ধব গাইড যা পাঠকদের এইচটিএমএল, সিএসএস, জাভাস্ক্রিপ্ট, পাইথন এবং জ্যাঙ্গো ওয়েব ফ্রেমওয়ার্ক ব্যবহার করে ওয়েব অ্যাপ্লিকেশন তৈরি করার জ্ঞান দিয়ে সজ্জিত করার প্রতিশ্রুতি দেয়। বইটি একটি সহজ, সংক্ষিপ্ত এবং সহজ নির্দেশিকা হিসাবে গঠন করা হয়েছে, যা ওয়েব ডেভেলপমেন্টে নতুন বা যারা তাদের প্রজেক্টের জন্য জ্যাঙ্গো ব্যবহার করতে চান তাদের জন্য এটি অ্যাক্সেসযোগ্য করে তোলে। উপস্থাপিত ধারণাগুলিকে সমর্থন করার জন্য পুঙ্খানুপুঙ্খ উদাহরণ এবং কোড সহ শেখার প্রক্রিয়াটিকে উপভোগ্য, তথ্যপূর্ণ এবং আকর্ষণীয় করার জন্য এটি ডিজাইন করা হয়েছে।",
+                    // Arabic
+                    "عَرَبِيّ": "'تعلم Django في 24 ساعة' بقلم S. Basu هو دليل مناسب للمبتدئين يعد بتزويد القراء بالمعرفة اللازمة لبناء تطبيقات الويب باستخدام HTML وCSS وJavaScript وPython وDjango Web Framework. تم تصميم الكتاب ليكون دليلًا بسيطًا وموجزًا ​​وسهلاً، مما يجعله في متناول الأفراد الجدد في مجال تطوير الويب أو أولئك الذين يتطلعون إلى الانتقال إلى استخدام Django في مشاريعهم. لقد تم تصميمه لجعل عملية التعلم ممتعة وغنية بالمعلومات ومثيرة للاهتمام، مع أمثلة وأكواد شاملة لدعم المفاهيم المقدمة.",
+                    // Persian
+                    "فارسی": "'یادگیری جنگو در 24 ساعت' توسط S. Basu یک راهنمای مبتدی است که قول می دهد خوانندگان را با دانش ساخت برنامه های وب با استفاده از HTML، CSS، جاوا اسکریپت، پایتون، و چارچوب وب جنگو مجهز کند. این کتاب به گونه‌ای طراحی شده است که راهنمای ساده، مختصر و آسانی باشد، که آن را برای افرادی که تازه در توسعه وب هستند یا کسانی که به دنبال استفاده از جنگو برای پروژه‌های خود هستند قابل دسترسی است. این طراحی شده است تا فرآیند یادگیری را لذت بخش، آموزنده و جالب کند، با مثال ها و کدهای کامل برای پشتیبانی از مفاهیم ارائه شده.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "One of the key advantages of reading 'Learn Django in 24 Hours' is its approach to teaching. The author, S. Basu, has laid out the content in a manner that allows for a quick yet comprehensive understanding of Django. This is particularly beneficial for readers who are short on time but want to gain a solid grasp of building web applications. The book's format is also conducive to learning, with its focus on practical examples that readers can follow along and implement themselves.",
+                    // German
+                    "Deutsch": "Einer der Hauptvorteile der Lektüre von „Learn Django in 24 Hours“ ist sein Lehransatz. Der Autor, S. Basu, hat den Inhalt so angelegt, dass ein schnelles und dennoch umfassendes Verständnis von Django möglich ist. Dies ist besonders für Leser von Vorteil, die wenig Zeit haben, aber ein solides Verständnis für die Erstellung von Webanwendungen erlangen möchten. Das Format des Buches fördert das Lernen ebenfalls, da es sich auf praktische Beispiele konzentriert, die die Leser nachvollziehen und selbst umsetzen können.",
+                    // Chinese
+                    "中国人": "阅读《24 小时学会 Django》的主要优势之一是其教学方法。作者 S. Basu 以一种允许快速而全面地了解 Django 的方式安排内容。这对于时间紧迫但想要扎实掌握构建 Web 应用程序的读者尤其有益。本书的格式也有利于学习，重点关注读者可以跟随并自己实现的实际示例。",
+                    // Russian
+                    "Русский": "Одним из ключевых преимуществ книги «Изучите Django за 24 часа» является ее подход к преподаванию. Автор, С. Басу, изложил содержание таким образом, чтобы обеспечить быстрое, но полное понимание Django. Это особенно полезно для читателей, у которых мало времени, но которые хотят получить четкое представление о создании веб-приложений. Формат книги также способствует обучению, поскольку в ней основное внимание уделяется практическим примерам, которым читатели могут следовать и применять самостоятельно.",
+                    // French
+                    "Français": "L'un des principaux avantages de la lecture de « Apprenez Django en 24 heures » est son approche pédagogique. L'auteur, S. Basu, a présenté le contenu de manière à permettre une compréhension rapide mais complète de Django. Ceci est particulièrement bénéfique pour les lecteurs qui manquent de temps mais souhaitent acquérir une solide maîtrise de la création d’applications Web. Le format du livre est également propice à l'apprentissage, en mettant l'accent sur des exemples pratiques que les lecteurs peuvent suivre et mettre en œuvre eux-mêmes.",
+                    // Japanese
+                    "日本語": "「24 時間で Django を学ぶ」を読むことの大きな利点の 1 つは、その指導方法です。著者の S. Basu は、Django を素早くかつ包括的に理解できるようにコンテンツを作成しました。これは、時間があまりないが Web アプリケーションの構築をしっかりと理解したい読者にとって特に有益です。この本の形式も学習に役立ち、読者が従って自分で実装できる実用的な例に重点を置いています。",
+                    // Korean
+                    "한국인": "'24시간 안에 Django 배우기'를 읽는 주요 이점 중 하나는 교육에 대한 접근 방식입니다. 저자 S. Basu는 Django를 빠르고 포괄적으로 이해할 수 있도록 내용을 구성했습니다. 이는 시간이 부족하지만 웹 애플리케이션 구축에 대한 확실한 이해를 원하는 독자에게 특히 유용합니다. 이 책의 형식은 독자가 직접 따라하고 구현할 수 있는 실제 사례에 중점을 두어 학습에도 도움이 됩니다.",
+                    // Spanish
+                    "Español": "Una de las ventajas clave de leer 'Aprende Django en 24 horas' es su enfoque de enseñanza. El autor, S. Basu, ha presentado el contenido de una manera que permite una comprensión rápida pero completa de Django. Esto es particularmente beneficioso para los lectores que tienen poco tiempo pero desean obtener una comprensión sólida de la creación de aplicaciones web. El formato del libro también favorece el aprendizaje, ya que se centra en ejemplos prácticos que los lectores pueden seguir e implementar por sí mismos.",
+                    // Hindi
+                    "हिंदी": "'24 घंटे में Django सीखें' पढ़ने का एक मुख्य लाभ यह है कि इसे पढ़ाना बहुत आसान है। लेखक एस. बसु ने इस पुस्तक की विषय-वस्तु को इस तरह से प्रस्तुत किया है कि Django को जल्दी से जल्दी और व्यापक रूप से समझा जा सके। यह उन पाठकों के लिए विशेष रूप से लाभदायक है जिनके पास समय की कमी है, लेकिन वे वेब एप्लिकेशन बनाने की ठोस समझ हासिल करना चाहते हैं। पुस्तक का प्रारूप भी सीखने के लिए अनुकूल है, जिसमें व्यावहारिक उदाहरणों पर ध्यान केंद्रित किया गया है, जिनका पाठक अनुसरण कर सकते हैं और उन्हें स्वयं लागू कर सकते हैं।",
+                    // Portuguese
+                    "Português": "Uma das principais vantagens de ler 'Aprenda Django em 24 horas' é a sua abordagem de ensino. O autor, S. Basu, expôs o conteúdo de uma maneira que permite uma compreensão rápida, porém abrangente, do Django. Isso é particularmente benéfico para leitores que têm pouco tempo, mas desejam obter uma compreensão sólida da construção de aplicativos da web. O formato do livro também favorece o aprendizado, com foco em exemplos práticos que os leitores podem acompanhar e implementar por conta própria.",
+                    // Bengali
+                    "বাংলা": "'24 ঘন্টার মধ্যে জ্যাঙ্গো শিখুন' পড়ার মূল সুবিধাগুলির মধ্যে একটি হল এটি শেখানোর পদ্ধতি। লেখক, এস. বসু, বিষয়বস্তুটি এমনভাবে সাজিয়েছেন যা জ্যাঙ্গো সম্পর্কে দ্রুত কিন্তু ব্যাপক বোঝার অনুমতি দেয়। এটি পাঠকদের জন্য বিশেষভাবে উপকারী যারা সময় কম কিন্তু ওয়েব অ্যাপ্লিকেশন তৈরির বিষয়ে একটি দৃঢ় উপলব্ধি অর্জন করতে চান। বইটির বিন্যাস শেখার জন্যও উপযোগী, ব্যবহারিক উদাহরণের উপর ফোকাস সহ যা পাঠকরা অনুসরণ করতে পারে এবং নিজেদের বাস্তবায়ন করতে পারে।",
+                    // Arabic
+                    "عَرَبِيّ": "إحدى المزايا الرئيسية لقراءة «تعلم جانغو في 24 ساعة» هي أسلوبها في التدريس. لقد وضع المؤلف، S. Basu، المحتوى بطريقة تسمح بفهم سريع وشامل لـ Django. يعد هذا مفيدًا بشكل خاص للقراء الذين ليس لديهم الوقت الكافي ولكنهم يريدون اكتساب فهم قوي لبناء تطبيقات الويب. كما أن شكل الكتاب يساعد أيضًا على التعلم، مع تركيزه على الأمثلة العملية التي يمكن للقراء متابعتها وتنفيذها بأنفسهم.",
+                    // Persian
+                    "فارسی": "یکی از مزایای کلیدی خواندن «یادگیری جنگو در 24 ساعت» رویکرد آن به آموزش است. نویسنده، S. Basu، محتوا را به گونه ای تنظیم کرده است که امکان درک سریع و در عین حال جامع جنگو را فراهم می کند. این به ویژه برای خوانندگانی مفید است که زمان کمی دارند اما می‌خواهند درک کاملی از ساخت برنامه‌های وب کسب کنند. قالب کتاب نیز با تمرکز بر مثال‌های عملی که خوانندگان می‌توانند آن‌ها را دنبال کرده و خودشان پیاده‌سازی کنند، برای یادگیری مفید است.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "After reading this book, learners will gain the confidence to start their own Django projects from scratch. They will have a foundational understanding of web application development and the ability to use Django's features effectively. Additionally, the book's emphasis on a hands-on approach means that readers will not only learn theoretical aspects but also apply what they've learned in real-world scenarios, thereby solidifying their knowledge and skills.",
+                    // German
+                    "Deutsch": "Nach der Lektüre dieses Buches werden die Lernenden das Selbstvertrauen haben, ihre eigenen Django-Projekte von Grund auf zu starten. Sie werden ein grundlegendes Verständnis für die Entwicklung von Webanwendungen haben und in der Lage sein, die Funktionen von Django effektiv zu nutzen. Darüber hinaus bedeutet der Schwerpunkt des Buches auf einem praktischen Ansatz, dass die Leser nicht nur theoretische Aspekte lernen, sondern das Gelernte auch in realen Szenarien anwenden und so ihr Wissen und ihre Fähigkeiten festigen.",
+                    // Chinese
+                    "中国人": "读完本书后，学习者将有信心从头开始创建自己的 Django 项目。他们将对 Web 应用程序开发有基本的了解，并能够有效地使用 Django 的功能。此外，本书强调实践方法，这意味着读者不仅可以学习理论知识，还可以将所学知识应用于实际场景，从而巩固他们的知识和技能。",
+                    // Russian
+                    "Русский": "Прочитав эту книгу, учащиеся обретут уверенность в том, что смогут начать свои собственные проекты Django с нуля. У них будет базовое понимание разработки веб-приложений и способность эффективно использовать функции Django. Кроме того, упор в книге на практический подход означает, что читатели будут не только изучать теоретические аспекты, но и применять полученные знания в реальных сценариях, тем самым закрепляя свои знания и навыки.",
+                    // French
+                    "Français": "Après avoir lu ce livre, les apprenants gagneront en confiance pour démarrer leurs propres projets Django à partir de zéro. Ils auront une compréhension fondamentale du développement d’applications Web et la capacité d’utiliser efficacement les fonctionnalités de Django. De plus, l'accent mis par le livre sur une approche pratique signifie que les lecteurs apprendront non seulement les aspects théoriques, mais appliqueront également ce qu'ils ont appris dans des scénarios du monde réel, renforçant ainsi leurs connaissances et leurs compétences.",
+                    // Japanese
+                    "日本語": "この本を読んだ後、学習者は自信を得て、ゼロから独自の Django プロジェクトを開始できるようになります。Web アプリケーション開発の基礎を理解し、Django の機能を効果的に使用できるようになります。さらに、本書では実践的なアプローチを重視しているため、読者は理論的な側面を学ぶだけでなく、学んだことを実際のシナリオに適用して、知識とスキルを固めることができます。",
+                    // Korean
+                    "한국인": "이 책을 읽고 나면 학습자는 처음부터 자신만의 Django 프로젝트를 시작할 수 있다는 자신감을 얻게 될 것입니다. 그들은 웹 애플리케이션 개발에 대한 기초적인 이해와 Django의 기능을 효과적으로 사용할 수 있는 능력을 갖추게 됩니다. 또한 이 책에서 실습 접근 방식을 강조한다는 것은 독자가 이론적 측면을 배울 뿐만 아니라 배운 내용을 실제 시나리오에 적용하여 지식과 기술을 확고히 한다는 것을 의미합니다.",
+                    // Spanish
+                    "Español": "Después de leer este libro, los estudiantes ganarán la confianza para comenzar sus propios proyectos Django desde cero. Tendrán un conocimiento básico del desarrollo de aplicaciones web y la capacidad de utilizar las funciones de Django de forma eficaz. Además, el énfasis del libro en un enfoque práctico significa que los lectores no sólo aprenderán aspectos teóricos sino que también aplicarán lo que han aprendido en escenarios del mundo real, solidificando así sus conocimientos y habilidades.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने के बाद, शिक्षार्थियों को अपने Django प्रोजेक्ट को शुरू से शुरू करने का आत्मविश्वास मिलेगा। उन्हें वेब एप्लिकेशन डेवलपमेंट की मूलभूत समझ होगी और Django की विशेषताओं का प्रभावी ढंग से उपयोग करने की क्षमता होगी। इसके अतिरिक्त, पुस्तक में व्यावहारिक दृष्टिकोण पर जोर दिया गया है, जिसका अर्थ है कि पाठक न केवल सैद्धांतिक पहलुओं को सीखेंगे, बल्कि वास्तविक दुनिया के परिदृश्यों में जो उन्होंने सीखा है उसे लागू भी करेंगे, जिससे उनका ज्ञान और कौशल मजबूत होगा।",
+                    // Portuguese
+                    "Português": "Depois de ler este livro, os alunos ganharão confiança para iniciar seus próprios projetos Django do zero. Eles terão uma compreensão básica do desenvolvimento de aplicações web e a capacidade de usar os recursos do Django de forma eficaz. Além disso, a ênfase do livro em uma abordagem prática significa que os leitores não apenas aprenderão aspectos teóricos, mas também aplicarão o que aprenderam em cenários do mundo real, solidificando assim seus conhecimentos e habilidades.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার পর, শিক্ষার্থীরা স্ক্র্যাচ থেকে তাদের নিজস্ব জ্যাঙ্গো প্রকল্প শুরু করার আত্মবিশ্বাস অর্জন করবে। তাদের ওয়েব অ্যাপ্লিকেশন ডেভেলপমেন্ট এবং জ্যাঙ্গোর বৈশিষ্ট্যগুলি কার্যকরভাবে ব্যবহার করার ক্ষমতা সম্পর্কে একটি মৌলিক ধারণা থাকবে। অতিরিক্তভাবে, বইটির হাতে-কলমে জোর দেওয়ার অর্থ হল পাঠকরা কেবল তাত্ত্বিক দিকগুলিই শিখবে না বরং বাস্তব-বিশ্বের পরিস্থিতিতে তারা যা শিখেছে তা প্রয়োগ করবে, যার ফলে তাদের জ্ঞান এবং দক্ষতা দৃঢ় হবে।",
+                    // Arabic
+                    "عَرَبِيّ": "بعد قراءة هذا الكتاب، سيكتسب المتعلمون الثقة لبدء مشاريع جانغو الخاصة بهم من الصفر. سيكون لديهم فهم أساسي لتطوير تطبيقات الويب والقدرة على استخدام ميزات Django بشكل فعال. بالإضافة إلى ذلك، فإن تركيز الكتاب على النهج العملي يعني أن القراء لن يتعلموا الجوانب النظرية فحسب، بل سيطبقون أيضًا ما تعلموه في سيناريوهات العالم الحقيقي، وبالتالي تعزيز معارفهم ومهاراتهم.",
+                    // Persian
+                    "فارسی": "پس از خواندن این کتاب، زبان آموزان اعتماد به نفس پیدا می کنند تا پروژه های جنگو خود را از ابتدا شروع کنند. آنها درک اساسی از توسعه برنامه های کاربردی وب و توانایی استفاده موثر از ویژگی های جنگو خواهند داشت. علاوه بر این، تأکید کتاب بر رویکرد عملی به این معنی است که خوانندگان نه تنها جنبه‌های نظری را یاد می‌گیرند، بلکه آنچه را که آموخته‌اند در سناریوهای دنیای واقعی نیز به کار می‌گیرند و در نتیجه دانش و مهارت‌های خود را تقویت می‌کنند.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Learn_Django_In_24_Hours.webp",
+        },
+        // Django for Beginners
+        {
+            "BookName": "Django for Beginners",
+            "AuthorName": "William S. Vincent",
+            "EditionNumber": "4th",
+            "PublisherName": "Learnpub",
+            "ISBN": "978 1 9831 7266 3",
+            "YearNumber": "2022",
+            "PagesNumber": "306",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Introduction",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Initial Set Up",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Hello World App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Pages App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Message Board App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Blog App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Forms",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "User Accounts",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Custom User Model",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "User Authentication",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "Bootstrap",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Password Change and Reset",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Email",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 14
+                {
+                    "ChapterName": "Newspaper App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 15
+                {
+                    "ChapterName": "Permissions and Authorization",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 16
+                {
+                    "ChapterName": "Comments",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 17
+                {
+                    "ChapterName": "Deployment",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 18
+                {
+                    "ChapterName": "Conclusion",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "Django for Beginners is a book that teaches web development with Python and Django, a popular and powerful web framework. The book covers the core concepts and best practices of Django, such as models, views, templates, urls, forms, authentication, testing, and deployment. The book also guides the reader through building five progressively more complex web applications, including a message board, a blog, and a newspaper site.",
+                    // German
+                    "Deutsch": "„Django für Anfänger“ ist ein Buch, das Webentwicklung mit Python und Django lehrt, einem beliebten und leistungsstarken Web-Framework. Das Buch behandelt die Kernkonzepte und Best Practices von Django, wie Modelle, Ansichten, Vorlagen, URLs, Formulare, Authentifizierung, Tests und Bereitstellung. Das Buch führt den Leser auch durch die Erstellung von fünf zunehmend komplexeren Webanwendungen, darunter ein Message Board, ein Blog und eine Zeitungsseite.",
+                    // Chinese
+                    "中国人": "《Django for Beginners》是一本教你如何使用 Python 和 Django（一种流行且强大的 Web 框架）进行 Web 开发的书。本书涵盖了 Django 的核心概念和最佳实践，例如模型、视图、模板、URL、表单、身份验证、测试和部署。本书还指导读者构建五个逐渐复杂的 Web 应用程序，包括留言板、博客和报纸网站。",
+                    // Russian
+                    "Русский": "«Джанго для начинающих» — это книга, в которой обучают веб-разработке с использованием Python и Django, популярного и мощного веб-фреймворка. В книге рассматриваются основные концепции и лучшие практики Django, такие как модели, представления, шаблоны, URL-адреса, формы, аутентификация, тестирование и развертывание. Книга также помогает читателю создать пять все более сложных веб-приложений, включая доску объявлений, блог и газетный сайт.",
+                    // French
+                    "Français": "Django for Beginners est un livre qui enseigne le développement Web avec Python et Django, un framework Web populaire et puissant. Le livre couvre les concepts de base et les meilleures pratiques de Django, tels que les modèles, les vues, les modèles, les URL, les formulaires, l'authentification, les tests et le déploiement. Le livre guide également le lecteur dans la création de cinq applications Web de plus en plus complexes, notamment un forum de discussion, un blog et un site de journal.",
+                    // Japanese
+                    "日本語": "Django for Beginners は、人気があり強力な Web フレームワークである Django と Python を使用した Web 開発を教える本です。この本では、モデル、ビュー、テンプレート、URL、フォーム、認証、テスト、デプロイメントなど、Django のコア概念とベスト プラクティスを取り上げています。また、メッセージ ボード、ブログ、新聞サイトなど、徐々に複雑化する 5 つの Web アプリケーションの構築方法についても説明しています。",
+                    // Korean
+                    "한국인": "초보자를 위한 Django는 Python과 인기 있고 강력한 웹 프레임워크인 Django를 사용하여 웹 개발을 가르치는 책입니다. 이 책은 모델, 뷰, 템플릿, URL, 양식, 인증, 테스트 및 배포와 같은 Django의 핵심 개념과 모범 사례를 다루고 있습니다. 또한 이 책은 메시지 보드, 블로그, 신문 사이트를 포함하여 점점 더 복잡해지는 5개의 웹 애플리케이션을 구축하는 과정을 독자에게 안내합니다.",
+                    // Spanish
+                    "Español": "Django para principiantes es un libro que enseña desarrollo web con Python y Django, un marco web potente y popular. El libro cubre los conceptos centrales y las mejores prácticas de Django, como modelos, vistas, plantillas, URL, formularios, autenticación, pruebas e implementación. El libro también guía al lector a través de la creación de cinco aplicaciones web progresivamente más complejas, incluido un tablero de mensajes, un blog y un sitio de periódico.",
+                    // Hindi
+                    "हिंदी": "Django for Beginners एक ऐसी किताब है जो Python और Django के साथ वेब डेवलपमेंट सिखाती है, जो एक लोकप्रिय और शक्तिशाली वेब फ्रेमवर्क है। यह किताब Django की मुख्य अवधारणाओं और सर्वोत्तम प्रथाओं को कवर करती है, जैसे मॉडल, व्यू, टेम्प्लेट, यूआरएल, फॉर्म, प्रमाणीकरण, परीक्षण और परिनियोजन। यह किताब पाठक को संदेश बोर्ड, ब्लॉग और समाचार पत्र साइट सहित पाँच उत्तरोत्तर अधिक जटिल वेब एप्लिकेशन बनाने के माध्यम से भी मार्गदर्शन करती है।",
+                    // Portuguese
+                    "Português": "Django para Iniciantes é um livro que ensina desenvolvimento web com Python e Django, um framework web popular e poderoso. O livro cobre os principais conceitos e práticas recomendadas do Django, como modelos, visualizações, modelos, URLs, formulários, autenticação, teste e implantação. O livro também orienta o leitor na construção de cinco aplicações web cada vez mais complexas, incluindo um quadro de mensagens, um blog e um site de jornal.",
+                    // Bengali
+                    "বাংলা": "Django for Beginners হল একটি বই যা Python এবং Django এর সাথে ওয়েব ডেভেলপমেন্ট শেখায়, একটি জনপ্রিয় এবং শক্তিশালী ওয়েব ফ্রেমওয়ার্ক। বইটিতে জ্যাঙ্গোর মূল ধারণা এবং সর্বোত্তম অনুশীলন যেমন মডেল, ভিউ, টেমপ্লেট, ইউআরএল, ফর্ম, প্রমাণীকরণ, পরীক্ষা এবং স্থাপনা রয়েছে। বইটি একটি বার্তা বোর্ড, একটি ব্লগ এবং একটি সংবাদপত্রের সাইট সহ আরও পাঁচটি ক্রমান্বয়ে জটিল ওয়েব অ্যাপ্লিকেশন তৈরির মাধ্যমে পাঠককে গাইড করে৷",
+                    // Arabic
+                    "عَرَبِيّ": "Django للمبتدئين هو كتاب يعلمك تطوير الويب باستخدام Python وDjango، وهو إطار ويب مشهور وقوي. يغطي الكتاب المفاهيم الأساسية وأفضل ممارسات Django، مثل النماذج وطرق العرض والقوالب وعناوين URL والنماذج والمصادقة والاختبار والنشر. يرشد الكتاب أيضًا القارئ من خلال بناء خمسة تطبيقات ويب أكثر تعقيدًا بشكل تدريجي، بما في ذلك لوحة الرسائل، والمدونة، وموقع الصحيفة.",
+                    // Persian
+                    "فارسی": "Django for Beginners کتابی است که توسعه وب را با پایتون و جنگو، یک چارچوب وب محبوب و قدرتمند، آموزش می‌دهد. این کتاب مفاهیم اصلی و بهترین شیوه‌های جنگو، مانند مدل‌ها، نماها، قالب‌ها، آدرس‌های اینترنتی، فرم‌ها، احراز هویت، آزمایش و استقرار را پوشش می‌دهد. این کتاب همچنین خواننده را از طریق ساخت پنج برنامه کاربردی وب به تدریج پیچیده تر، از جمله یک تابلوی پیام، یک وبلاگ، و یک سایت روزنامه راهنمایی می کند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "The advantages of reading this book are that the reader will learn how to create dynamic and interactive websites with Django, using a clear and step-by-step approach. The reader will also learn how to use Django's built-in features and third-party packages to enhance the functionality and security of their web applications. The reader will also gain practical experience and confidence in developing and deploying web applications with Django.",
+                    // German
+                    "Deutsch": "Die Vorteile dieses Buches liegen darin, dass der Leser lernt, wie man mit Django dynamische und interaktive Websites erstellt, und zwar mit einem klaren und schrittweisen Ansatz. Der Leser lernt auch, wie man die integrierten Funktionen und Pakete von Drittanbietern von Django nutzt, um die Funktionalität und Sicherheit seiner Webanwendungen zu verbessern. Der Leser gewinnt außerdem praktische Erfahrung und Selbstvertrauen bei der Entwicklung und Bereitstellung von Webanwendungen mit Django.",
+                    // Chinese
+                    "中国人": "阅读本书的好处在于，读者将学习如何使用 Django 以清晰、循序渐进的方式创建动态和交互式网站。读者还将学习如何使用 Django 的内置功能和第三方包来增强其 Web 应用程序的功能和安全性。读者还将获得使用 Django 开发和部署 Web 应用程序的实践经验和信心。",
+                    // Russian
+                    "Русский": "Преимущества чтения этой книги заключаются в том, что читатель узнает, как создавать динамические и интерактивные веб-сайты с помощью Django, используя ясный и пошаговый подход. Читатель также узнает, как использовать встроенные функции Django и сторонние пакеты для повышения функциональности и безопасности своих веб-приложений. Читатель также получит практический опыт и уверенность в разработке и развертывании веб-приложений с помощью Django.",
+                    // French
+                    "Français": "Les avantages de la lecture de ce livre sont que le lecteur apprendra à créer des sites Web dynamiques et interactifs avec Django, en utilisant une approche claire et étape par étape. Le lecteur apprendra également comment utiliser les fonctionnalités intégrées de Django et les packages tiers pour améliorer les fonctionnalités et la sécurité de leurs applications Web. Le lecteur acquerra également une expérience pratique et une confiance dans le développement et le déploiement d'applications Web avec Django.",
+                    // Japanese
+                    "日本語": "この本を読むことの利点は、読者が明確で段階的なアプローチを使用して、Django で動的でインタラクティブな Web サイトを作成する方法を学べることです。また、読者は Django の組み込み機能とサードパーティ パッケージを使用して Web アプリケーションの機能とセキュリティを強化する方法も学べます。さらに、読者は Django を使用した Web アプリケーションの開発と展開に関する実践的な経験と自信も得られます。",
+                    // Korean
+                    "한국인": "이 책을 읽으면 독자가 명확하고 단계별 접근 방식을 사용하여 Django를 사용하여 역동적이고 대화형 웹사이트를 만드는 방법을 배울 수 있다는 장점이 있습니다. 독자는 또한 Django의 내장 기능과 타사 패키지를 사용하여 웹 애플리케이션의 기능과 보안을 강화하는 방법을 배우게 됩니다. 독자는 또한 Django를 사용하여 웹 애플리케이션을 개발하고 배포하는 데 대한 실질적인 경험과 자신감을 얻게 될 것입니다.",
+                    // Spanish
+                    "Español": "Las ventajas de leer este libro son que el lector aprenderá cómo crear sitios web dinámicos e interactivos con Django, utilizando un enfoque claro y paso a paso. El lector también aprenderá cómo utilizar las funciones integradas de Django y los paquetes de terceros para mejorar la funcionalidad y seguridad de sus aplicaciones web. El lector también obtendrá experiencia práctica y confianza en el desarrollo e implementación de aplicaciones web con Django.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने के लाभ यह हैं कि पाठक सीखेंगे कि Django के साथ गतिशील और इंटरैक्टिव वेबसाइट कैसे बनाई जाती है, एक स्पष्ट और चरण-दर-चरण दृष्टिकोण का उपयोग करके। पाठक यह भी सीखेंगे कि Django की अंतर्निहित सुविधाओं और तृतीय-पक्ष पैकेजों का उपयोग करके अपने वेब अनुप्रयोगों की कार्यक्षमता और सुरक्षा को कैसे बढ़ाया जाए। पाठक को Django के साथ वेब अनुप्रयोगों को विकसित करने और तैनात करने में व्यावहारिक अनुभव और आत्मविश्वास भी मिलेगा।",
+                    // Portuguese
+                    "Português": "As vantagens de ler este livro é que o leitor aprenderá como criar sites dinâmicos e interativos com Django, utilizando uma abordagem clara e passo a passo. O leitor também aprenderá como usar os recursos integrados do Django e pacotes de terceiros para aprimorar a funcionalidade e a segurança de suas aplicações web. O leitor também ganhará experiência prática e confiança no desenvolvimento e implantação de aplicações web com Django.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার সুবিধা হল যে পাঠক শিখবে কিভাবে Django এর সাথে গতিশীল এবং ইন্টারেক্টিভ ওয়েবসাইট তৈরি করতে হয়, একটি পরিষ্কার এবং ধাপে ধাপে পদ্ধতি ব্যবহার করে। পাঠক তাদের ওয়েব অ্যাপ্লিকেশনগুলির কার্যকারিতা এবং নিরাপত্তা বাড়াতে জ্যাঙ্গোর অন্তর্নির্মিত বৈশিষ্ট্য এবং তৃতীয় পক্ষের প্যাকেজগুলি কীভাবে ব্যবহার করবেন তাও শিখবেন। পাঠক জ্যাঙ্গোর সাথে ওয়েব অ্যাপ্লিকেশনগুলি বিকাশ এবং স্থাপনে ব্যবহারিক অভিজ্ঞতা এবং আস্থা অর্জন করবে।",
+                    // Arabic
+                    "عَرَبِيّ": "تتمثل مزايا قراءة هذا الكتاب في أن القارئ سيتعلم كيفية إنشاء مواقع ويب ديناميكية وتفاعلية باستخدام Django، باستخدام منهج واضح وتدريجي. سوف يتعلم القارئ أيضًا كيفية استخدام ميزات Django المضمنة وحزم الجهات الخارجية لتعزيز وظائف وأمان تطبيقات الويب الخاصة به. سوف يكتسب القارئ أيضًا خبرة عملية وثقة في تطوير ونشر تطبيقات الويب باستخدام Django.",
+                    // Persian
+                    "فارسی": "از مزایای خواندن این کتاب این است که خواننده یاد می گیرد که چگونه با استفاده از یک رویکرد واضح و گام به گام، وب سایت های پویا و تعاملی با جنگو ایجاد کند. خواننده همچنین می‌آموزد که چگونه از ویژگی‌های داخلی جنگو و بسته‌های شخص ثالث برای افزایش عملکرد و امنیت برنامه‌های وب خود استفاده کند. خواننده همچنین تجربه عملی و اعتماد به نفس در توسعه و استقرار برنامه های کاربردی وب با جنگو به دست خواهد آورد.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "The reader will gain many skills and knowledge after reading this book, such as: 1. How to set up a development environment and install Django, 2. How to use Django's ORM to interact with databases, 3. How to create and customize Django's views and templates, 4. How to handle user input and validation with Django's forms, 5. How to implement user authentication and authorization with Django's auth system, 6. How to write tests for Django applications and use test-driven development, 7. How to deploy Django applications to various platforms, such as Heroku, 8. How to use Django's admin interface and shell, 9. How to use Django's REST framework to create APIs, 10. How to use Bootstrap to style Django applications.",
+                    // German
+                    "Deutsch": "Der Leser wird nach der Lektüre dieses Buches viele Fähigkeiten und Kenntnisse erwerben, wie zum Beispiel: 1. Wie man eine Entwicklungsumgebung einrichtet und Django installiert, 2. Wie man Djangos ORM verwendet, um mit Datenbanken zu interagieren, 3. Wie man Djangos Ansichten und Vorlagen erstellt und anpasst, 4. Wie man Benutzereingaben und Validierung mit Djangos Formularen handhabt, 5. Wie man Benutzerauthentifizierung und -autorisierung mit Djangos Authentifizierungssystem implementiert, 6. Wie man Tests für Django-Anwendungen schreibt und testgetriebene Entwicklung verwendet, 7. Wie man Django-Anwendungen auf verschiedenen Plattformen bereitstellt, wie zum Beispiel Heroku, 8. Wie man Djangos Admin-Schnittstelle und Shell verwendet, 9. Wie man Djangos REST-Framework verwendet, um APIs zu erstellen, 10. Wie man Bootstrap verwendet, um Django-Anwendungen zu gestalten.",
+                    // Chinese
+                    "中国人": "阅读本书后，读者将获得很多技能和知识，比如：1. 如何设置开发环境并安装 Django，2. 如何使用 Django 的 ORM 与数据库交互，3. 如何创建和自定义 Django 的视图和模板，4. 如何使用 Django 的表单处理用户输入和验证，5. 如何使用 Django 的身份验证系统实现用户身份验证和授权，6. 如何为 Django 应用程序编写测试并使用测试驱动开发，7. 如何将 Django 应用程序部署到各种平台，例如 Heroku，8. 如何使用 Django 的管理界面和 shell，9. 如何使用 Django 的 REST 框架创建 API，10. 如何使用 Bootstrap 来设计 Django 应用程序的样式。",
+                    // Russian
+                    "Русский": "После прочтения этой книги читатель приобретет множество навыков и знаний, таких как: 1. Как настроить среду разработки и установить Django, 2. Как использовать ORM Django для взаимодействия с базами данных, 3. Как создавать и настраивать представления Django. и шаблоны, 4. Как обрабатывать пользовательский ввод и проверку с помощью форм Django, 5. Как реализовать аутентификацию и авторизацию пользователей с помощью системы аутентификации Django, 6. Как писать тесты для приложений Django и использовать разработку через тестирование, 7. Как развертывать приложения Django на различных платформах, таких как Heroku, 8. Как использовать интерфейс администратора и оболочку Django, 9. Как использовать среду REST Django для создания API, 10. Как использовать Bootstrap для стилизации приложений Django.",
+                    // French
+                    "Français": "Le lecteur acquerra de nombreuses compétences et connaissances après la lecture de ce livre, telles que : 1. Comment configurer un environnement de développement et installer Django, 2. Comment utiliser l'ORM de Django pour interagir avec les bases de données, 3. Comment créer et personnaliser les vues de Django. et modèles, 4. Comment gérer la saisie et la validation des utilisateurs avec les formulaires de Django, 5. Comment implémenter l'authentification et l'autorisation des utilisateurs avec le système d'authentification de Django, 6. Comment écrire des tests pour les applications Django et utiliser le développement piloté par les tests, 7. Comment déployer des applications Django sur diverses plates-formes, telles que Heroku, 8. Comment utiliser l'interface d'administration et le shell de Django, 9. Comment utiliser le framework REST de Django pour créer des API, 10. Comment utiliser Bootstrap pour styliser les applications Django.",
+                    // Japanese
+                    "日本語": "この本を読んだ後、読者は次のような多くのスキルと知識を身に付けることができます。1. 開発環境をセットアップして Django をインストールする方法、2. Django の ORM を使用してデータベースを操作する方法、3. Django のビューとテンプレートを作成してカスタマイズする方法、4. Django のフォームでユーザー入力と検証を処理する方法、5. Django の認証システムを使用してユーザー認証と承認を実装する方法、6. Django アプリケーションのテストを作成し、テスト駆動開発を使用する方法、7. Heroku などのさまざまなプラットフォームに Django アプリケーションをデプロイする方法、8. Django の管理インターフェイスとシェルを使用する方法、9. Django の REST フレームワークを使用して API を作成する方法、10. Bootstrap を使用して Django アプリケーションをスタイル設定する方法。",
+                    // Korean
+                    "한국인": "독자는 이 책을 읽고 나면 다음과 같은 많은 기술과 지식을 얻게 될 것입니다. 1. 개발 환경을 설정하고 Django를 설치하는 방법, 2. Django의 ORM을 사용하여 데이터베이스와 상호 작용하는 방법, 3. Django의 뷰를 만들고 사용자 정의하는 방법 및 템플릿, 4. Django의 양식으로 사용자 입력 및 유효성 검사를 처리하는 방법, 5. Django의 인증 시스템으로 사용자 인증 및 권한 부여를 구현하는 방법, 6. Django 애플리케이션에 대한 테스트를 작성하고 테스트 중심 개발을 사용하는 방법, 7. 방법 Django 애플리케이션을 Heroku와 같은 다양한 플랫폼에 배포하는 방법, 8. Django의 관리 인터페이스 및 셸을 사용하는 방법, 9. Django의 REST 프레임워크를 사용하여 API를 만드는 방법, 10. Bootstrap을 사용하여 Django 애플리케이션 스타일을 지정하는 방법.",
+                    // Spanish
+                    "Español": "El lector obtendrá muchas habilidades y conocimientos después de leer este libro, tales como: 1. Cómo configurar un entorno de desarrollo e instalar Django, 2. Cómo usar el ORM de Django para interactuar con bases de datos, 3. Cómo crear y personalizar las vistas de Django. y plantillas, 4. Cómo manejar la entrada y validación del usuario con los formularios de Django, 5. Cómo implementar la autenticación y autorización del usuario con el sistema de autenticación de Django, 6. Cómo escribir pruebas para aplicaciones de Django y utilizar el desarrollo basado en pruebas, 7. Cómo implementar aplicaciones Django en varias plataformas, como Heroku, 8. Cómo usar la interfaz de administración y el shell de Django, 9. Cómo usar el marco REST de Django para crear API, 10. Cómo usar Bootstrap para diseñar aplicaciones Django.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने के बाद पाठक को कई कौशल और ज्ञान प्राप्त होंगे, जैसे: 1. विकास का वातावरण कैसे सेट करें और Django को कैसे स्थापित करें, 2. डेटाबेस के साथ बातचीत करने के लिए Django के ORM का उपयोग कैसे करें, 3. Django के दृश्य और टेम्पलेट्स कैसे बनाएं और अनुकूलित करें, 4. Django के फ़ॉर्म के साथ उपयोगकर्ता इनपुट और सत्यापन को कैसे संभालें, 5. Django के प्रमाणीकरण प्रणाली के साथ उपयोगकर्ता प्रमाणीकरण और प्राधिकरण कैसे लागू करें, 6. Django अनुप्रयोगों के लिए परीक्षण कैसे लिखें और परीक्षण-संचालित विकास का उपयोग करें, 7. Django अनुप्रयोगों को विभिन्न प्लेटफार्मों पर कैसे तैनात करें, जैसे Heroku, 8. Django के व्यवस्थापक इंटरफ़ेस और शेल का उपयोग कैसे करें, 9. API बनाने के लिए Django के REST फ्रेमवर्क का उपयोग कैसे करें, 10. Django अनुप्रयोगों को स्टाइल करने के लिए बूटस्ट्रैप का उपयोग कैसे करें।",
+                    // Portuguese
+                    "Português": "O leitor ganhará muitas habilidades e conhecimentos após a leitura deste livro, tais como: 1. Como configurar um ambiente de desenvolvimento e instalar o Django, 2. Como usar o ORM do Django para interagir com bancos de dados, 3. Como criar e personalizar as visualizações do Django e modelos, 4. Como lidar com a entrada e validação do usuário com os formulários do Django, 5. Como implementar autenticação e autorização do usuário com o sistema de autenticação do Django, 6. Como escrever testes para aplicativos Django e usar desenvolvimento orientado a testes, 7. Como implantar aplicativos Django em várias plataformas, como Heroku, 8. Como usar a interface de administração e shell do Django, 9. Como usar a estrutura REST do Django para criar APIs, 10. Como usar Bootstrap para estilizar aplicativos Django.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার পরে পাঠক অনেক দক্ষতা এবং জ্ঞান অর্জন করবে, যেমন: 1. কীভাবে একটি উন্নয়ন পরিবেশ সেট আপ করতে হয় এবং জ্যাঙ্গো ইনস্টল করতে হয়, 2. ডাটাবেসের সাথে যোগাযোগ করতে জ্যাঙ্গোর ওআরএম কীভাবে ব্যবহার করতে হয়, 3. কীভাবে জ্যাঙ্গোর ভিউ তৈরি এবং কাস্টমাইজ করতে হয় এবং টেমপ্লেটগুলি, 4. জ্যাঙ্গোর ফর্মগুলির সাথে কীভাবে ব্যবহারকারীর ইনপুট এবং বৈধতা পরিচালনা করবেন, 5. কীভাবে জ্যাঙ্গোর প্রমাণীকরণ সিস্টেমের সাথে ব্যবহারকারীর প্রমাণীকরণ এবং অনুমোদন কার্যকর করবেন, 6. কীভাবে জ্যাঙ্গো অ্যাপ্লিকেশনগুলির জন্য পরীক্ষা লিখবেন এবং পরীক্ষা-চালিত বিকাশ ব্যবহার করবেন, 7. কীভাবে করবেন জ্যাঙ্গো অ্যাপ্লিকেশনগুলিকে বিভিন্ন প্ল্যাটফর্মে স্থাপন করুন, যেমন হেরোকু, 8. কীভাবে জ্যাঙ্গোর অ্যাডমিন ইন্টারফেস এবং শেল ব্যবহার করবেন, 9. API তৈরি করতে জ্যাঙ্গোর REST ফ্রেমওয়ার্ক কীভাবে ব্যবহার করবেন, 10. জ্যাঙ্গো অ্যাপ্লিকেশনগুলিকে স্টাইল করতে বুটস্ট্র্যাপ কীভাবে ব্যবহার করবেন।",
+                    // Arabic
+                    "عَرَبِيّ": "سوف يكتسب القارئ العديد من المهارات والمعرفة بعد قراءة هذا الكتاب، مثل: ١. كيفية إعداد بيئة تطوير وتثبيت Django، ٢. كيفية استخدام ORM الخاص بـ Django للتفاعل مع قواعد البيانات، ٣. كيفية إنشاء وتخصيص عروض Django والقوالب، ٤. كيفية التعامل مع إدخال المستخدم والتحقق من صحته باستخدام نماذج جانغو، ٥. كيفية تنفيذ مصادقة المستخدم والترخيص باستخدام نظام مصادقة جانغو، ٦. كيفية كتابة اختبارات لتطبيقات جانغو واستخدام التطوير القائم على الاختبار، ٧. كيفية نشر تطبيقات Django على منصات مختلفة، مثل Heroku، ٨. كيفية استخدام واجهة إدارة Django وshell، ٩. كيفية استخدام إطار عمل REST الخاص بـ Django لإنشاء واجهات برمجة التطبيقات، ١٠. كيفية استخدام Bootstrap لتصميم تطبيقات Django.",
+                    // Persian
+                    "فارسی": "خواننده پس از مطالعه این کتاب مهارت ها و دانش های زیادی را به دست خواهد آورد، مانند: ١. نحوه راه اندازی یک محیط توسعه و نصب جنگو، ٢. نحوه استفاده از ORM جنگو برای تعامل با پایگاه های داده، ٣. نحوه ایجاد و شخصی سازی نماهای جنگو. و الگوها، ٤. نحوه مدیریت ورودی و اعتبارسنجی کاربر با فرم‌های جنگو، ٥. نحوه اجرای احراز هویت و مجوز کاربر با سیستم احراز هویت جنگو، ٦. نحوه نوشتن تست‌ها برای برنامه‌های جنگو و استفاده از توسعه مبتنی بر تست، ٧. نحوه اجرای استقرار برنامه های جنگو در پلتفرم های مختلف، مانند Heroku، ٨. نحوه استفاده از رابط مدیریت و پوسته جنگو، ٩. نحوه استفاده از چارچوب REST جنگو برای ایجاد API، ١٠. نحوه استفاده از Bootstrap برای استایل دادن به برنامه های جنگو.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Django_For_Beginners_Build_Websites_with_Python_and_Django.webp",
+        },
     ],
     // Android Developer
     "Android Developer": [
-
+        // Android How to Program
+        {
+            "BookName": "Android How to Program",
+            "AuthorName": "Paul Deitel, Harvey Deitel",
+            "EditionNumber": "3rd",
+            "PublisherName": "Pearson",
+            "ISBN": "978 0 1344 4430 7",
+            "YearNumber": "2017",
+            "PagesNumber": "2296",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Introduction to Android",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Welcome App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Tip Calculator App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Flag Quiz App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Doodlz App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Cannon Game App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Weather Viewer App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Twitter Searches App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Address Book App",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Google Play and App Business Issues",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "Introduction to Java Applications",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Introduction to Classes, Objects, Methods and Strings",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Control Statements",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 14
+                {
+                    "ChapterName": "Methods: A Deeper Look",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 15
+                {
+                    "ChapterName": "Arrays and ArrayLists",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 16
+                {
+                    "ChapterName": "Classes and Objects: A Deeper Look",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 17
+                {
+                    "ChapterName": "Object-Oriented Programming: Inheritance and Polymorphism",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 18
+                {
+                    "ChapterName": "Exception Handling: A Deeper Look",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 19
+                {
+                    "ChapterName": "GUI Components and Event Handling",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 20
+                {
+                    "ChapterName": "Other Java Topics",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 21
+                {
+                    "ChapterName": "Operator Precedence Chart",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 22
+                {
+                    "ChapterName": "Primitive Types",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "“Android How to Program” by Paul Deitel and Harvey Deitel is a comprehensive guide that introduces readers to the world of Android app development. The book is part of the esteemed “How to Program” series, known for its effective teaching methodologies and hands-on approach to learning programming languages. In this edition, the Deitels focus on the Android Software Development Kit (SDK), Java programming language, and the Android Studio Integrated Development Environment (IDE), providing a solid foundation for aspiring Android developers.",
+                    // German
+                    "Deutsch": "„Android How to Program“ von Paul Deitel und Harvey Deitel ist ein umfassender Leitfaden, der Leser in die Welt der Android-App-Entwicklung einführt. Das Buch ist Teil der angesehenen „How to Program“-Reihe, die für ihre effektiven Lehrmethoden und ihren praktischen Ansatz zum Erlernen von Programmiersprachen bekannt ist. In dieser Ausgabe konzentrieren sich die Deitels auf das Android Software Development Kit (SDK), die Programmiersprache Java und die integrierte Entwicklungsumgebung (IDE) von Android Studio und bieten so eine solide Grundlage für angehende Android-Entwickler.",
+                    // Chinese
+                    "中国人": "Paul Deitel 和 Harvey Deitel 合著的《Android 编程入门》是一本全面的指南，向读者介绍了 Android 应用开发的世界。本书是备受推崇的“如何编程”系列的一部分，该系列以有效的教学方法和学习编程语言的实践方法而闻名。在这个版本中，Deitels 重点介绍了 Android 软件开发工具包 (SDK)、Java 编程语言和 Android Studio 集成开发环境 (IDE)，为有抱负的 Android 开发者提供了坚实的基础。",
+                    // Russian
+                    "Русский": "«Как программировать на Android» Пола Дейтела и Харви Дейтеля — это подробное руководство, знакомящее читателей с миром разработки приложений для Android. Книга входит в уважаемую серию «Как программировать», известную своими эффективными методиками обучения и практическим подходом к изучению языков программирования.В этом выпуске компания Deitels сосредоточится на комплекте разработки программного обеспечения Android (SDK), языке программирования Java и интегрированной среде разработки (IDE) Android Studio, обеспечивающих прочную основу для начинающих разработчиков Android.",
+                    // French
+                    "Français": "« Android Comment programmer » de Paul Deitel et Harvey Deitel est un guide complet qui présente aux lecteurs le monde du développement d'applications Android. Le livre fait partie de la célèbre série « Comment programmer », connue pour ses méthodologies d'enseignement efficaces et son approche pratique de l'apprentissage des langages de programmation.Dans cette édition, les Deitels se concentrent sur le kit de développement logiciel (SDK) Android, le langage de programmation Java et l'environnement de développement intégré (IDE) Android Studio, fournissant une base solide aux futurs développeurs Android.",
+                    // Japanese
+                    "日本語": "Paul Deitel と Harvey Deitel による「Android How to Program」は、Android アプリ開発の世界を読者に紹介する総合ガイドです。この本は、効果的な指導方法とプログラミング言語の学習に対する実践的なアプローチで知られる、高く評価されている「How to Program」シリーズの一部です。この版では、Deitel は Android ソフトウェア開発キット (SDK)、Java プログラミング言語、Android Studio 統合開発環境 (IDE) に焦点を当て、Android 開発者を目指す人々に強固な基盤を提供します。",
+                    // Korean
+                    "한국인": "Paul Deitel과 Harvey Deitel이 저술한 'Android 프로그래밍 방법'은 독자에게 Android 앱 개발의 세계를 소개하는 포괄적인 가이드입니다. 이 책은 프로그래밍 언어 학습에 대한 효과적인 교육 방법론과 실습 접근 방식으로 잘 알려진 “프로그래밍 방법” 시리즈의 일부입니다.이번 에디션에서 Deitels는 Android 소프트웨어 개발 키트(SDK), Java 프로그래밍 언어 및 Android Studio 통합 개발 환경(IDE)에 중점을 두어 야심 찬 Android 개발자에게 견고한 기반을 제공합니다.",
+                    // Spanish
+                    "Español": "“Android How to Program” de Paul Deitel y Harvey Deitel es una guía completa que introduce a los lectores al mundo del desarrollo de aplicaciones para Android. El libro es parte de la estimada serie “Cómo programar”, conocida por sus metodologías de enseñanza efectivas y su enfoque práctico para aprender lenguajes de programación.En esta edición, los Deitels se centran en el kit de desarrollo de software (SDK) de Android, el lenguaje de programación Java y el entorno de desarrollo integrado (IDE) de Android Studio, lo que proporciona una base sólida para los aspirantes a desarrolladores de Android.",
+                    // Hindi
+                    "हिंदी": "पॉल डीटेल और हार्वे डीटेल द्वारा लिखित “एंड्रॉइड हाउ टू प्रोग्राम” एक व्यापक गाइड है जो पाठकों को एंड्रॉइड ऐप डेवलपमेंट की दुनिया से परिचित कराती है। यह पुस्तक प्रतिष्ठित “हाउ टू प्रोग्राम” श्रृंखला का हिस्सा है, जो अपनी प्रभावी शिक्षण पद्धतियों और प्रोग्रामिंग भाषाओं को सीखने के लिए व्यावहारिक दृष्टिकोण के लिए जानी जाती है। इस संस्करण में, डीटेल एंड्रॉइड सॉफ़्टवेयर डेवलपमेंट किट (SDK), जावा प्रोग्रामिंग भाषा और एंड्रॉइड स्टूडियो इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट (IDE) पर ध्यान केंद्रित करते हैं, जो महत्वाकांक्षी एंड्रॉइड डेवलपर्स के लिए एक ठोस आधार प्रदान करते हैं।",
+                    // Portuguese
+                    "Português": "“Android How to Program”, de Paul Deitel e Harvey Deitel, é um guia completo que apresenta aos leitores o mundo do desenvolvimento de aplicativos Android. O livro faz parte da conceituada série “Como Programar”, conhecida por suas metodologias de ensino eficazes e abordagem prática para aprender linguagens de programação.Nesta edição, os Deitels se concentram no Android Software Development Kit (SDK), na linguagem de programação Java e no Android Studio Integrated Development Environment (IDE), fornecendo uma base sólida para aspirantes a desenvolvedores Android.",
+                    // Bengali
+                    "বাংলা": "পল ডিটেল এবং হার্ভে ডিটেল দ্বারা “অ্যান্ড্রয়েড হাউ টু প্রোগ্রাম” হল একটি বিস্তৃত নির্দেশিকা যা পাঠকদের অ্যান্ড্রয়েড অ্যাপ বিকাশের জগতের সাথে পরিচয় করিয়ে দেয়। বইটি সম্মানিত “কিভাবে প্রোগ্রাম করবেন” সিরিজের অংশ, যা এর কার্যকর শিক্ষণ পদ্ধতি এবং প্রোগ্রামিং ভাষা শেখার জন্য হাতে-কলমে পরিচিত।এই সংস্করণে, ডেইটেলস অ্যান্ড্রয়েড সফটওয়্যার ডেভেলপমেন্ট কিট (SDK), জাভা প্রোগ্রামিং ভাষা এবং অ্যান্ড্রয়েড স্টুডিও ইন্টিগ্রেটেড ডেভেলপমেন্ট এনভায়রনমেন্ট (আইডিই) এর উপর ফোকাস করে, যা উচ্চাকাঙ্ক্ষী অ্যান্ড্রয়েড বিকাশকারীদের জন্য একটি শক্ত ভিত্তি প্রদান করে।",
+                    // Arabic
+                    "عَرَبِيّ": "“Android How to Program” بقلم Paul Deitel وHarvey Deitel هو دليل شامل يقدم للقراء عالم تطوير تطبيقات Android. يعد الكتاب جزءًا من سلسلة ”کيفية البرمجة“ المرموقة، والمعروفة بمنهجيات التدريس الفعالة ونهجها العملي في تعلم لغات البرمجة.في هذا الإصدار، تركز Deitels على Android Software Development Kit (SDK)، ولغة برمجة Java، وبيئة التطوير المتكاملة لـ Android Studio (IDE)، مما يوفر أساسًا متينًا لمطوري Android الطموحين.",
+                    // Persian
+                    "فارسی": "“Android How to Program” توسط Paul Deitel و Harvey Deitel راهنمای جامعی است که خوانندگان را با دنیای توسعه اپلیکیشن اندروید آشنا می کند. این کتاب بخشی از مجموعه معتبر «چگونه برنامه‌نویسی کنیم» است که به دلیل روش‌های آموزشی مؤثر و رویکرد عملی برای یادگیری زبان‌های برنامه‌نویسی شناخته شده است.در این نسخه، Deitels بر روی کیت توسعه نرم‌افزار اندروید (SDK)، زبان برنامه‌نویسی جاوا و محیط توسعه یکپارچه اندروید استودیو (IDE) تمرکز می‌کند و یک پایه محکم برای توسعه‌دهندگان مشتاق اندروید فراهم می‌کند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "The book’s advantages lie in its app-driven approach, where each new concept is illustrated through the development of a complete, working Android app. This method allows readers to see the practical application of theoretical knowledge, making the learning process more engaging and effective. The Deitels’ live-code strategy is particularly beneficial for visual learners, as it includes screen shots, test drives of the apps, and a comprehensive overview of the technologies and architecture used to build them.",
+                    // German
+                    "Deutsch": "Die Vorteile des Buchs liegen in seinem App-orientierten Ansatz, bei dem jedes neue Konzept durch die Entwicklung einer vollständigen, funktionierenden Android-App veranschaulicht wird. Diese Methode ermöglicht es den Lesern, die praktische Anwendung theoretischen Wissens zu sehen, was den Lernprozess spannender und effektiver macht. Die Live-Code-Strategie der Deitels ist besonders für visuelle Lerner von Vorteil, da sie Screenshots, Testläufe der Apps und einen umfassenden Überblick über die Technologien und die Architektur umfasst, die zu ihrer Erstellung verwendet wurden.",
+                    // Chinese
+                    "中国人": "本书的优势在于其应用驱动的方法，其中每个新概念都通过开发一个完整、可运行的 Android 应用程序来说明。这种方法让读者看到理论知识的实际应用，使学习过程更具吸引力和效率。Deitels 的实时代码策略对视觉学习者特别有益，因为它包括屏幕截图、应用程序的试用以及用于构建它们的技术和架构的全面概述。",
+                    // Russian
+                    "Русский": "Преимущества книги заключаются в подходе, основанном на приложениях, где каждая новая концепция иллюстрируется посредством разработки полноценного работающего приложения для Android. Этот метод позволяет читателям увидеть практическое применение теоретических знаний, делая процесс обучения более увлекательным и эффективным.Стратегия Deitels с использованием живого кода особенно полезна для визуальных учащихся, поскольку она включает снимки экрана, тест-драйвы приложений и всесторонний обзор технологий и архитектуры, используемых для их создания.",
+                    // French
+                    "Français": "Les avantages du livre résident dans son approche axée sur les applications, où chaque nouveau concept est illustré par le développement d’une application Android complète et fonctionnelle. Cette méthode permet aux lecteurs de voir l'application pratique des connaissances théoriques, rendant le processus d'apprentissage plus engageant et efficace.La stratégie de code live de Deitels est particulièrement bénéfique pour les apprenants visuels, car elle comprend des captures d'écran, des tests des applications et un aperçu complet des technologies et de l'architecture utilisées pour les créer.",
+                    // Japanese
+                    "日本語": "この本の利点は、アプリ主導のアプローチにあります。新しい概念は、それぞれが完成して機能する Android アプリの開発を通じて説明されます。この方法により、読者は理論的な知識の実際の応用を確認でき、学習プロセスがより魅力的で効果的になります。Deitels のライブコード戦略は、スクリーンショット、アプリの試用、アプリの構築に使用されたテクノロジーとアーキテクチャの包括的な概要が含まれているため、視覚的に学習する人にとって特に有益です。",
+                    // Korean
+                    "한국인": "이 책의 장점은 앱 중심 접근 방식에 있습니다. 여기서는 완전하고 작동하는 Android 앱의 개발을 통해 각각의 새로운 개념이 설명됩니다. 이 방법을 통해 독자는 이론적 지식의 실제 적용을 볼 수 있어 학습 과정이 더욱 매력적이고 효과적이게 됩니다.Deitels의 라이브 코드 전략은 스크린샷, 앱 테스트 드라이브, 앱 구축에 사용된 기술 및 아키텍처에 대한 포괄적인 개요를 포함하므로 시각적 학습자에게 특히 유용합니다.",
+                    // Spanish
+                    "Español": "Las ventajas del libro residen en su enfoque basado en aplicaciones, donde cada nuevo concepto se ilustra mediante el desarrollo de una aplicación Android completa y funcional. Este método permite a los lectores ver la aplicación práctica del conocimiento teórico, haciendo que el proceso de aprendizaje sea más atractivo y eficaz.La estrategia de código en vivo de los Deitel es particularmente beneficiosa para los estudiantes visuales, ya que incluye capturas de pantalla, pruebas de manejo de las aplicaciones y una descripción general completa de las tecnologías y la arquitectura utilizadas para crearlas.",
+                    // Hindi
+                    "हिंदी": "पुस्तक के लाभ इसके ऐप-संचालित दृष्टिकोण में निहित हैं, जहाँ प्रत्येक नई अवधारणा को एक पूर्ण, कार्यशील Android ऐप के विकास के माध्यम से चित्रित किया गया है। यह विधि पाठकों को सैद्धांतिक ज्ञान के व्यावहारिक अनुप्रयोग को देखने की अनुमति देती है, जिससे सीखने की प्रक्रिया अधिक आकर्षक और प्रभावी हो जाती है। डीटेल्स की लाइव-कोड रणनीति विशेष रूप से दृश्य शिक्षार्थियों के लिए फायदेमंद है, क्योंकि इसमें स्क्रीन शॉट, ऐप्स के टेस्ट ड्राइव और उन्हें बनाने के लिए उपयोग की जाने वाली तकनीकों और वास्तुकला का व्यापक अवलोकन शामिल है।",
+                    // Portuguese
+                    "Português": "As vantagens do livro residem em sua abordagem orientada a aplicativos, onde cada novo conceito é ilustrado através do desenvolvimento de um aplicativo Android completo e funcional. Este método permite ao leitor ver a aplicação prática do conhecimento teórico, tornando o processo de aprendizagem mais envolvente e eficaz.A estratégia de código ao vivo da Deitels é particularmente benéfica para alunos visuais, pois inclui capturas de tela, test drives dos aplicativos e uma visão geral abrangente das tecnologias e arquitetura usadas para construí-los.",
+                    // Bengali
+                    "বাংলা": "বইটির সুবিধাগুলি এর অ্যাপ-চালিত পদ্ধতির মধ্যে রয়েছে, যেখানে প্রতিটি নতুন ধারণা একটি সম্পূর্ণ, কার্যকরী অ্যান্ড্রয়েড অ্যাপের বিকাশের মাধ্যমে চিত্রিত করা হয়েছে। এই পদ্ধতিটি পাঠকদের তাত্ত্বিক জ্ঞানের ব্যবহারিক প্রয়োগ দেখতে দেয়, যা শেখার প্রক্রিয়াটিকে আরও আকর্ষক এবং কার্যকর করে তোলে।ডিটেলসের লাইভ-কোড কৌশলটি ভিজ্যুয়াল শিক্ষার্থীদের জন্য বিশেষভাবে উপকারী, কারণ এতে স্ক্রিন শট, অ্যাপের টেস্ট ড্রাইভ এবং সেগুলি তৈরি করতে ব্যবহৃত প্রযুক্তি এবং স্থাপত্যের একটি বিস্তৃত ওভারভিউ অন্তর্ভুক্ত রয়েছে।",
+                    // Arabic
+                    "عَرَبِيّ": "تكمن مزايا الكتاب في منهجه القائم على التطبيق، حيث يتم توضيح كل مفهوم جديد من خلال تطوير تطبيق Android كامل وعملي. تسمح هذه الطريقة للقراء برؤية التطبيق العملي للمعرفة النظرية، مما يجعل عملية التعلم أكثر جاذبية وفعالية.تعد استراتيجية الكود المباشر الخاصة بشركة Deitels مفيدة بشكل خاص للمتعلمين البصريين، حيث تتضمن لقطات شاشة واختبارات تشغيل التطبيقات ونظرة عامة شاملة على التقنيات والهندسة المعمارية المستخدمة في بنائها.",
+                    // Persian
+                    "فارسی": "مزایای این کتاب در رویکرد برنامه محور آن نهفته است، جایی که هر مفهوم جدید از طریق توسعه یک برنامه اندروید کامل و کارآمد نشان داده می شود. این روش به خوانندگان اجازه می دهد تا کاربرد عملی دانش نظری را ببینند و فرآیند یادگیری را جذاب تر و موثرتر می کند.استراتژی کد زنده Deitels به ویژه برای یادگیرندگان بصری مفید است، زیرا شامل عکس‌های صفحه نمایش، درایوهای آزمایشی برنامه‌ها و مروری جامع از فناوری‌ها و معماری مورد استفاده برای ساخت آن‌ها است.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "By reading “Android How to Program” learners will gain hands-on experience with a wide spectrum of essential Android APIs. The book is structured to help readers think like developers from the start, fostering a deep understanding of app development that goes beyond surface-level programming. With its clear explanations and step-by-step guidance, readers will be well-equipped to tackle the challenges of Android app development and will be prepared to create their own innovative apps.",
+                    // German
+                    "Deutsch": "Durch die Lektüre von „Android How to Program“ sammeln Lernende praktische Erfahrungen mit einem breiten Spektrum wichtiger Android-APIs. Das Buch ist so aufgebaut, dass die Leser von Anfang an wie Entwickler denken und ein tiefes Verständnis der App-Entwicklung entwickeln, das über oberflächliches Programmieren hinausgeht. Mit den klaren Erklärungen und der Schritt-für-Schritt-Anleitung sind die Leser gut gerüstet, um die Herausforderungen der Android-App-Entwicklung anzugehen und ihre eigenen innovativen Apps zu erstellen.",
+                    // Chinese
+                    "中国人": "通过阅读“Android 编程指南”，学习者将获得使用各种基本 Android API 的实践经验。本书的结构旨在帮助读者从一开始就像开发人员一样思考，培养对应用开发的深刻理解，超越表面级编程。通过清晰的解释和循序渐进的指导，读者将能够很好地应对 Android 应用开发的挑战，并准备好创建自己的创新应用。",
+                    // Russian
+                    "Русский": "Прочитав статью «Как программировать на Android», учащиеся получат практический опыт работы с широким спектром основных API-интерфейсов Android. Книга построена таким образом, чтобы помочь читателям с самого начала мыслить как разработчики, способствуя глубокому пониманию разработки приложений, выходящему за рамки поверхностного программирования.Благодаря четким объяснениям и пошаговым руководствам читатели будут хорошо подготовлены к решению проблем разработки приложений для Android и будут готовы создавать свои собственные инновационные приложения.",
+                    // French
+                    "Français": "En lisant « Android Comment programmer », les apprenants acquerront une expérience pratique avec un large éventail d’API Android essentielles. Le livre est structuré pour aider les lecteurs à penser comme des développeurs dès le départ, favorisant une compréhension approfondie du développement d'applications qui va au-delà de la programmation superficielle.Grâce à ses explications claires et à ses conseils étape par étape, les lecteurs seront bien équipés pour relever les défis du développement d'applications Android et seront prêts à créer leurs propres applications innovantes.",
+                    // Japanese
+                    "日本語": "「Android プログラミング方法」を読むことで、学習者は幅広い重要な Android API を実際に体験することができます。この本は、読者が最初から開発者のように考え、表面的なプログラミングを超えたアプリ開発の深い理解を育むように構成されています。明確な説明とステップバイステップのガイダンスにより、読者は Android アプリ開発の課題に取り組む準備が整い、独自の革新的なアプリを作成する準備が整います。",
+                    // Korean
+                    "한국인": "'Android 프로그래밍 방법'을 읽으면 학습자는 다양한 필수 Android API에 대한 실무 경험을 쌓게 됩니다. 이 책은 독자들이 처음부터 개발자처럼 생각할 수 있도록 구성되어 표면 수준 프로그래밍을 뛰어넘어 앱 개발에 대한 깊은 이해를 돕습니다.명확한 설명과 단계별 지침을 통해 독자는 Android 앱 개발의 과제를 해결하고 자신만의 혁신적인 앱을 만들 수 있는 준비를 갖추게 됩니다.",
+                    // Spanish
+                    "Español": "Al leer “Cómo programar en Android”, los estudiantes obtendrán experiencia práctica con un amplio espectro de API esenciales de Android. El libro está estructurado para ayudar a los lectores a pensar como desarrolladores desde el principio, fomentando una comprensión profunda del desarrollo de aplicaciones que va más allá de la programación superficial.Con explicaciones claras y orientación paso a paso, los lectores estarán bien equipados para afrontar los desafíos del desarrollo de aplicaciones de Android y estarán preparados para crear sus propias aplicaciones innovadoras.",
+                    // Hindi
+                    "हिंदी": "“एंड्रॉइड कैसे प्रोग्राम करें” पढ़कर शिक्षार्थियों को आवश्यक एंड्रॉइड एपीआई की एक विस्तृत श्रृंखला के साथ व्यावहारिक अनुभव प्राप्त होगा। पुस्तक को पाठकों को शुरू से ही डेवलपर्स की तरह सोचने में मदद करने के लिए संरचित किया गया है, जो सतही स्तर की प्रोग्रामिंग से परे ऐप डेवलपमेंट की गहरी समझ को बढ़ावा देता है। इसके स्पष्ट स्पष्टीकरण और चरण-दर-चरण मार्गदर्शन के साथ, पाठक एंड्रॉइड ऐप डेवलपमेंट की चुनौतियों से निपटने के लिए अच्छी तरह से सुसज्जित होंगे और अपने स्वयं के अभिनव ऐप बनाने के लिए तैयार होंगे।",
+                    // Portuguese
+                    "Português": "Ao ler “Android Como programar”, os alunos ganharão experiência prática com uma ampla gama de APIs Android essenciais. O livro está estruturado para ajudar os leitores a pensar como desenvolvedores desde o início, promovendo uma compreensão profunda do desenvolvimento de aplicativos que vai além da programação de nível superficial.Com suas explicações claras e orientação passo a passo, os leitores estarão bem equipados para enfrentar os desafios do desenvolvimento de aplicativos Android e preparados para criar seus próprios aplicativos inovadores.",
+                    // Bengali
+                    "বাংলা": "“Android How to Program” পড়ার মাধ্যমে শিক্ষার্থীরা প্রয়োজনীয় Android API-এর বিস্তৃত স্পেকট্রামের সাথে অভিজ্ঞতা অর্জন করবে। বইটি পাঠকদের শুরু থেকেই ডেভেলপারদের মত চিন্তা করতে সাহায্য করার জন্য গঠন করা হয়েছে, অ্যাপ ডেভেলপমেন্টের গভীর বোধগম্যতা বৃদ্ধি করে যা পৃষ্ঠ-স্তরের প্রোগ্রামিং-এর বাইরে যায়।এর সুস্পষ্ট ব্যাখ্যা এবং ধাপে ধাপে নির্দেশিকা সহ, পাঠকরা অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্টের চ্যালেঞ্জ মোকাবেলা করতে সুসজ্জিত হবে এবং তাদের নিজস্ব উদ্ভাবনী অ্যাপ তৈরি করতে প্রস্তুত হবে।",
+                    // Arabic
+                    "عَرَبِيّ": "من خلال قراءة “كيفية برمجة Android”، سيكتسب المتعلمون خبرة عملية مع مجموعة واسعة من واجهات برمجة تطبيقات Android الأساسية. تم تصميم الكتاب لمساعدة القراء على التفكير مثل المطورين منذ البداية، وتعزيز الفهم العميق لتطوير التطبيقات الذي يتجاوز البرمجة على مستوى السطح.بفضل تفسيراته الواضحة وإرشاداته خطوة بخطوة، سيكون القراء مجهزين تجهيزًا جيدًا لمواجهة تحديات تطوير تطبيقات Android وسيكونون مستعدين لإنشاء تطبيقاتهم المبتكرة.",
+                    // Persian
+                    "فارسی": "با خواندن «نحوه برنامه‌نویسی اندروید»، زبان‌آموزان تجربه عملی با طیف گسترده‌ای از APIهای ضروری اندروید به دست خواهند آورد. این کتاب به گونه‌ای طراحی شده است که به خوانندگان کمک کند از ابتدا مانند توسعه‌دهندگان فکر کنند، و درک عمیقی از توسعه برنامه‌ها را که فراتر از برنامه‌نویسی سطحی است، تقویت می‌کند.با توضیحات واضح و راهنمایی گام به گام، خوانندگان برای مقابله با چالش های توسعه برنامه اندروید به خوبی مجهز خواهند شد و آماده خواهند شد تا برنامه های نوآورانه خود را ایجاد کنند.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Android Development/Android_How_to_Program.webp",
+        },
     ],
     // AI Engineer
     "AI Engineer": [
-
+        // Deep Learning from Scratch
+        {
+            "BookName": "Deep Learning from Scratch",
+            "AuthorName": "Seth Weidman",
+            "EditionNumber": "1st",
+            "PublisherName": "O'Reilly",
+            "ISBN": "978 9 3521 3902 6",
+            "YearNumber": "2019",
+            "PagesNumber": "250",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Foundation",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Fundamentals",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Deep Learning from Scratch",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Extensions",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Convolutional Neural Networks",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Recurrent Neural Networks",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "PyTorch",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Deep Dives",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "“Deep Learning from Scratch” by Seth Weidman is a book that serves as a bridge between the theoretical underpinnings of deep learning and its practical applications. It is designed to take readers on a journey from the foundational concepts of neural networks to the construction and understanding of deep learning models. The book is praised for its clarity and the way it demystifies complex ideas, making them accessible to readers with a basic understanding of Python.",
+                    // German
+                    "Deutsch": "„Deep Learning from Scratch“ von Seth Weidman ist ein Buch, das als Brücke zwischen den theoretischen Grundlagen des Deep Learning und seinen praktischen Anwendungen dient. Es ist so konzipiert, dass es die Leser auf eine Reise von den grundlegenden Konzepten neuronaler Netzwerke bis hin zur Konstruktion und dem Verständnis von Deep-Learning-Modellen mitnimmt. Das Buch wird für seine Klarheit und die Art und Weise gelobt, wie es komplexe Ideen entmystifiziert und sie für Leser mit Grundkenntnissen in Python zugänglich macht.",
+                    // Chinese
+                    "中国人": "Seth Weidman 撰写的《从头开始深度学习》是一本在深度学习的理论基础和实际应用之间架起桥梁的书。它旨在带领读者从神经网络的基础概念到深度学习模型的构建和理解。这本书因其清晰的语言和揭开复杂思想神秘面纱的方式而受到称赞，使对 Python 有基本了解的读者也能理解。",
+                    // Russian
+                    "Русский": "«Глубокое обучение с нуля» Сета Вайдмана — это книга, которая служит мостом между теоретическими основами глубокого обучения и его практическим применением. Он предназначен для того, чтобы провести читателей от основополагающих концепций нейронных сетей к построению и пониманию моделей глубокого обучения.Книгу хвалят за ее ясность и то, как она демистифицирует сложные идеи, делая их доступными для читателей с базовым пониманием Python.",
+                    // French
+                    "Français": "« Deep Learning from Scratch » de Seth Weidman est un livre qui sert de pont entre les fondements théoriques de l'apprentissage profond et ses applications pratiques. Il est conçu pour faire voyager les lecteurs depuis les concepts fondamentaux des réseaux de neurones jusqu'à la construction et la compréhension de modèles d'apprentissage profond.Le livre est loué pour sa clarté et la façon dont il démystifie les idées complexes, les rendant accessibles aux lecteurs ayant une compréhension de base de Python.",
+                    // Japanese
+                    "日本語": "Seth Weidman 著の「Deep Learning from Scratch」は、ディープラーニングの理論的基礎と実際の応用をつなぐ架け橋となる本です。ニューラル ネットワークの基本概念からディープラーニング モデルの構築と理解まで、読者を旅させるように設計されています。この本は、その明快さと複雑なアイデアをわかりやすく説明し、Python の基礎知識を持つ読者にも理解しやすいようにしている点が高く評価されています。",
+                    // Korean
+                    "한국인": "Seth Weidman이 쓴 “Deep Learning from Scratch”는 딥 러닝의 이론적 토대와 실제 적용을 연결하는 다리 역할을 하는 책입니다. 이 책은 독자들이 신경망의 기본 개념부터 딥 러닝 모델의 구성과 이해까지의 여정을 안내하도록 설계되었습니다.이 책은 파이썬에 대한 기본적인 이해를 바탕으로 독자들이 쉽게 접근할 수 있도록 명확성과 복잡한 아이디어를 쉽게 설명하는 방식으로 호평을 받고 있습니다.",
+                    // Spanish
+                    "Español": "“Deep Learning from Scratch” de Seth Weidman es un libro que sirve como puente entre los fundamentos teóricos del aprendizaje profundo y sus aplicaciones prácticas. Está diseñado para llevar a los lectores en un viaje desde los conceptos fundamentales de las redes neuronales hasta la construcción y comprensión de modelos de aprendizaje profundo.El libro es elogiado por su claridad y la forma en que desmitifica ideas complejas, haciéndolas accesibles a lectores con un conocimiento básico de Python.",
+                    // Hindi
+                    "हिंदी": "सेठ वीडमैन द्वारा लिखित “डीप लर्निंग फ्रॉम स्क्रैच” एक ऐसी किताब है जो डीप लर्निंग के सैद्धांतिक आधार और इसके व्यावहारिक अनुप्रयोगों के बीच एक पुल का काम करती है। इसे पाठकों को तंत्रिका नेटवर्क की मूलभूत अवधारणाओं से लेकर डीप लर्निंग मॉडल के निर्माण और समझ तक की यात्रा पर ले जाने के लिए डिज़ाइन किया गया है। इस पुस्तक की प्रशंसा इसकी स्पष्टता और जटिल विचारों को स्पष्ट करने के तरीके के लिए की जाती है, जिससे वे पायथन की बुनियादी समझ वाले पाठकों के लिए सुलभ हो जाते हैं।",
+                    // Portuguese
+                    "Português": "“Deep Learning from Scratch” de Seth Weidman é um livro que serve como uma ponte entre os fundamentos teóricos do aprendizado profundo e suas aplicações práticas. Ele foi projetado para levar os leitores em uma jornada desde os conceitos fundamentais das redes neurais até a construção e compreensão de modelos de aprendizagem profunda.O livro é elogiado por sua clareza e pela forma como desmistifica ideias complexas, tornando-as acessíveis a leitores com conhecimento básico de Python.",
+                    // Bengali
+                    "বাংলা": "সেথ ওয়েডম্যানের “ডিপ লার্নিং ফ্রম স্ক্র্যাচ” হল একটি বই যা গভীর শিক্ষার তাত্ত্বিক ভিত্তি এবং এর ব্যবহারিক প্রয়োগের মধ্যে একটি সেতু হিসেবে কাজ করে। এটি পাঠকদের নিউরাল নেটওয়ার্কের মৌলিক ধারণা থেকে গভীর শিক্ষার মডেলের নির্মাণ এবং বোঝার যাত্রায় নিয়ে যাওয়ার জন্য ডিজাইন করা হয়েছে।বইটি এর স্বচ্ছতার জন্য প্রশংসিত হয়েছে এবং এটি যেভাবে জটিল ধারণাগুলিকে অস্পষ্ট করে তোলে, সেগুলি পাঠকদের কাছে পাইথনের প্রাথমিক বোঝার সাথে অ্যাক্সেসযোগ্য করে তোলে৷",
+                    // Arabic
+                    "عَرَبِيّ": "“التعلم العميق من الصفر” بقلم سيث ويدمان هو كتاب بمثابة جسر بين الأسس النظرية للتعلم العميق وتطبيقاته العملية. إنه مصمم ليأخذ القراء في رحلة من المفاهيم الأساسية للشبكات العصبية إلى بناء وفهم نماذج التعلم العميق.تمت الإشادة بالكتاب لوضوحه وطريقة إزالة الغموض عن الأفكار المعقدة، مما يجعلها في متناول القراء الذين لديهم فهم أساسي لبايثون.",
+                    // Persian
+                    "فارسی": "«یادگیری عمیق از ابتدا» نوشته ست ویدمن کتابی است که به عنوان پلی بین زیربنای نظری یادگیری عمیق و کاربردهای عملی آن عمل می کند. این طراحی شده است تا خوانندگان را به سفری از مفاهیم اساسی شبکه های عصبی تا ساخت و درک مدل های یادگیری عمیق ببرد.این کتاب به دلیل وضوح و روشی که ایده‌های پیچیده را رمزگشایی می‌کند، مورد ستایش قرار می‌گیرد و آن‌ها را برای خوانندگان با درک اولیه پایتون قابل دسترس می‌کند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "The book’s primary advantage is its structured approach that combines theory, diagrams, code, and mathematics to provide a holistic understanding of deep learning. Readers benefit from extremely clear mental models, accompanied by working code examples and mathematical explanations, which facilitate a comprehensive grasp of neural networks. This approach ensures that readers not only learn how to implement multilayer neural networks from scratch but also understand the conceptual, computational, and mathematical aspects of what they are doing.",
+                    // German
+                    "Deutsch": "Der Hauptvorteil des Buchs ist sein strukturierter Ansatz, der Theorie, Diagramme, Code und Mathematik kombiniert, um ein ganzheitliches Verständnis von Deep Learning zu vermitteln. Die Leser profitieren von äußerst klaren mentalen Modellen, begleitet von funktionierenden Codebeispielen und mathematischen Erklärungen, die ein umfassendes Verständnis neuronaler Netzwerke ermöglichen. Dieser Ansatz stellt sicher, dass die Leser nicht nur lernen, wie man mehrschichtige neuronale Netzwerke von Grund auf implementiert, sondern auch die konzeptionellen, rechnerischen und mathematischen Aspekte ihrer Arbeit verstehen.",
+                    // Chinese
+                    "中国人": "本书的主要优势在于其结构化方法，将理论、图表、代码和数学结合在一起，提供对深度学习的整体理解。读者受益于极其清晰的思维模型，并辅以实用的代码示例和数学解释，从而全面掌握神经网络。这种方法确保读者不仅可以学习如何从头开始实现多层神经网络，还可以了解他们所做工作的概念、计算和数学方面。",
+                    // Russian
+                    "Русский": "Основным преимуществом книги является ее структурированный подход, который сочетает в себе теорию, диаграммы, код и математику, чтобы обеспечить целостное понимание глубокого обучения. Читатели получают пользу от чрезвычайно ясных мысленных моделей, сопровождаемых примерами рабочего кода и математическими объяснениями, которые способствуют всестороннему пониманию работы нейронных сетей.Такой подход гарантирует, что читатели не только узнают, как реализовать многослойные нейронные сети с нуля, но и поймут концептуальные, вычислительные и математические аспекты того, что они делают.",
+                    // French
+                    "Français": "Le principal avantage du livre réside dans son approche structurée qui combine théorie, diagrammes, code et mathématiques pour fournir une compréhension holistique de l’apprentissage profond. Les lecteurs bénéficient de modèles mentaux extrêmement clairs, accompagnés d'exemples de code fonctionnels et d'explications mathématiques, qui facilitent une compréhension globale des réseaux de neurones.Cette approche garantit que les lecteurs apprennent non seulement à implémenter des réseaux de neurones multicouches à partir de zéro, mais qu'ils comprennent également les aspects conceptuels, informatiques et mathématiques de ce qu'ils font.",
+                    // Japanese
+                    "日本語": "この本の主な利点は、理論、図、コード、数学を組み合わせて、ディープラーニングの総合的な理解を提供する構造化されたアプローチです。読者は、実用的なコード例と数学的説明を伴う非常に明確なメンタルモデルの恩恵を受け、ニューラルネットワークを包括的に理解することができます。このアプローチにより、読者は多層ニューラルネットワークをゼロから実装する方法を学ぶだけでなく、自分が行っていることの概念的、計算的、数学的側面も理解できるようになります。",
+                    // Korean
+                    "한국인": "이 책의 가장 큰 장점은 이론, 다이어그램, 코드, 수학을 결합하여 딥 러닝에 대한 전체적인 이해를 제공하는 구조화된 접근 방식입니다. 독자는 신경망에 대한 포괄적인 이해를 촉진하는 작업 코드 예제 및 수학적 설명과 함께 매우 명확한 정신 모델의 이점을 누릴 수 있습니다.이 접근 방식을 통해 독자는 다층 신경망을 처음부터 구현하는 방법을 배울 수 있을 뿐만 아니라 자신이 수행하는 작업의 개념적, 계산적, 수학적 측면도 이해할 수 있습니다.",
+                    // Spanish
+                    "Español": "La principal ventaja del libro es su enfoque estructurado que combina teoría, diagramas, código y matemáticas para proporcionar una comprensión holística del aprendizaje profundo. Los lectores se benefician de modelos mentales extremadamente claros, acompañados de ejemplos de códigos de trabajo y explicaciones matemáticas, que facilitan una comprensión integral de las redes neuronales.Este enfoque garantiza que los lectores no sólo aprendan cómo implementar redes neuronales multicapa desde cero, sino que también comprendan los aspectos conceptuales, computacionales y matemáticos de lo que están haciendo.",
+                    // Hindi
+                    "हिंदी": "पुस्तक का मुख्य लाभ इसका संरचित दृष्टिकोण है जो गहन शिक्षण की समग्र समझ प्रदान करने के लिए सिद्धांत, आरेख, कोड और गणित को जोड़ता है। पाठकों को अत्यंत स्पष्ट मानसिक मॉडल से लाभ मिलता है, साथ ही कार्यशील कोड उदाहरण और गणितीय स्पष्टीकरण भी मिलते हैं, जो तंत्रिका नेटवर्क की व्यापक समझ को सुविधाजनक बनाते हैं। यह दृष्टिकोण सुनिश्चित करता है कि पाठक न केवल स्क्रैच से मल्टीलेयर न्यूरल नेटवर्क को लागू करना सीखें बल्कि वे जो कर रहे हैं उसके वैचारिक, कम्प्यूटेशनल और गणितीय पहलुओं को भी समझें।",
+                    // Portuguese
+                    "Português": "A principal vantagem do livro é sua abordagem estruturada que combina teoria, diagramas, código e matemática para fornecer uma compreensão holística do aprendizado profundo. Os leitores se beneficiam de modelos mentais extremamente claros, acompanhados de exemplos de códigos funcionais e explicações matemáticas, que facilitam uma compreensão abrangente das redes neurais.Essa abordagem garante que os leitores não apenas aprendam como implementar redes neurais multicamadas do zero, mas também entendam os aspectos conceituais, computacionais e matemáticos do que estão fazendo.",
+                    // Bengali
+                    "বাংলা": "বইটির প্রাথমিক সুবিধা হল এর কাঠামোগত পদ্ধতি যা তত্ত্ব, ডায়াগ্রাম, কোড এবং গণিতকে একত্রিত করে গভীর শিক্ষার সামগ্রিক উপলব্ধি প্রদান করে। পাঠকরা অত্যন্ত পরিষ্কার মানসিক মডেল থেকে উপকৃত হন, কাজের কোডের উদাহরণ এবং গাণিতিক ব্যাখ্যা সহ, যা নিউরাল নেটওয়ার্কগুলির একটি বিস্তৃত উপলব্ধি সহজতর করে।এই পদ্ধতিটি নিশ্চিত করে যে পাঠকরা কেবলমাত্র মাল্টিলেয়ার নিউরাল নেটওয়ার্কগুলি কীভাবে স্ক্র্যাচ থেকে প্রয়োগ করতে হয় তা শিখে না বরং তারা যা করছে তার ধারণাগত, গণনামূলক এবং গাণিতিক দিকগুলিও বুঝতে পারে।",
+                    // Arabic
+                    "عَرَبِيّ": "الميزة الأساسية للكتاب هي منهجه المنظم الذي يجمع بين النظرية والرسوم البيانية والتعليمات البرمجية والرياضيات لتوفير فهم شامل للتعلم العميق. يستفيد القراء من النماذج العقلية الواضحة للغاية، مصحوبة بأمثلة كود العمل والتفسيرات الرياضية، والتي تسهل الفهم الشامل للشبكات العصبية.يضمن هذا النهج ألا يتعلم القراء كيفية تنفيذ الشبكات العصبية متعددة الطبقات من الصفر فحسب، بل يضمن أيضًا فهم الجوانب المفاهيمية والحسابية والرياضية لما يفعلونه.",
+                    // Persian
+                    "فارسی": "مزیت اصلی این کتاب رویکرد ساختاری آن است که تئوری، نمودارها، کدها و ریاضیات را برای ارائه درک جامعی از یادگیری عمیق ترکیب می‌کند. خوانندگان از مدل‌های ذهنی بسیار واضح، همراه با نمونه‌های کد کار و توضیحات ریاضی بهره می‌برند، که درک جامع شبکه‌های عصبی را تسهیل می‌کند.این رویکرد تضمین می‌کند که خوانندگان نه تنها نحوه پیاده‌سازی شبکه‌های عصبی چندلایه را از ابتدا یاد می‌گیرند، بلکه جنبه‌های مفهومی، محاسباتی و ریاضی کاری که انجام می‌دهند را نیز درک می‌کنند.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "By reading “Deep Learning from Scratch” readers will gain the confidence to build their own neural networks and use frameworks like PyTorch with a solid understanding of each step. The book’s content is laid out in a non-intimidating manner, with the author explaining complex terms simply and with helpful visualizations. This makes the book an excellent resource for those who wish to delve into the depths of deep learning, providing a strong foundation that makes learning complex related topics easier.",
+                    // German
+                    "Deutsch": "Durch die Lektüre von „Deep Learning from Scratch“ gewinnen die Leser das Selbstvertrauen, ihre eigenen neuronalen Netzwerke aufzubauen und Frameworks wie PyTorch zu verwenden, wobei sie jeden Schritt gut verstehen. Der Inhalt des Buchs ist auf eine nicht einschüchternde Art und Weise aufgebaut, wobei der Autor komplexe Begriffe einfach und mit hilfreichen Visualisierungen erklärt. Dies macht das Buch zu einer hervorragenden Ressource für alle, die sich in die Tiefen des Deep Learning vertiefen möchten, und bietet eine solide Grundlage, die das Erlernen komplexer verwandter Themen erleichtert.",
+                    // Chinese
+                    "中国人": "通过阅读《从头开始深度学习》，读者将有信心构建自己的神经网络并使用 PyTorch 等框架，并对每个步骤有扎实的理解。本书的内容布局并不令人生畏，作者用简单易懂的方式解释了复杂的术语，并附有有用的可视化效果。这使得本书成为那些希望深入研究深度学习的人的绝佳资源，为学习复杂的相关主题奠定了坚实的基础。",
+                    // Russian
+                    "Русский": "Прочитав «Глубокое обучение с нуля», читатели обретут уверенность в создании собственных нейронных сетей и использовании таких фреймворков, как PyTorch, с четким пониманием каждого шага. Содержание книги изложено в непугающей манере: автор просто объясняет сложные термины с помощью полезных визуализаций.Это делает книгу отличным ресурсом для тех, кто хочет углубиться в глубины глубокого обучения, обеспечивая прочную основу, облегчающую изучение сложных смежных тем.",
+                    // French
+                    "Français": "En lisant « Deep Learning from Scratch », les lecteurs acquerront la confiance nécessaire pour construire leurs propres réseaux de neurones et utiliser des frameworks comme PyTorch avec une solide compréhension de chaque étape. Le contenu du livre est présenté de manière non intimidante, l’auteur expliquant simplement les termes complexes et avec des visualisations utiles.Cela fait de ce livre une excellente ressource pour ceux qui souhaitent approfondir l’apprentissage profond, fournissant une base solide qui facilite l’apprentissage de sujets connexes complexes.",
+                    // Japanese
+                    "日本語": "「ゼロから学ぶディープラーニング」を読むことで、読者は各ステップをしっかりと理解した上で、独自のニューラルネットワークを構築し、PyTorch などのフレームワークを使用する自信が得られます。本書の内容は、著者が複雑な用語をわかりやすく、わかりやすい視覚化で説明しており、威圧感を与えない構成になっています。そのため、本書はディープラーニングの深みを探求したい人にとって優れたリソースとなり、複雑な関連トピックの学習を容易にする強力な基盤を提供します。",
+                    // Korean
+                    "한국인": "“처음부터 딥 러닝”을 읽으면 독자는 각 단계를 확실하게 이해하면서 자신만의 신경망을 구축하고 PyTorch와 같은 프레임워크를 사용할 수 있다는 자신감을 얻게 될 것입니다. 책의 내용은 저자가 복잡한 용어를 간단하고 유용한 시각화로 설명하는 등 위협적이지 않은 방식으로 구성되어 있습니다.따라서 이 책은 딥 러닝의 깊이를 탐구하려는 사람들에게 훌륭한 리소스가 되며 복잡한 관련 주제를 더 쉽게 학습할 수 있는 강력한 기반을 제공합니다.",
+                    // Spanish
+                    "Español": "Al leer “Aprendizaje profundo desde cero”, los lectores obtendrán la confianza para construir sus propias redes neuronales y utilizar marcos como PyTorch con una sólida comprensión de cada paso. El contenido del libro está presentado de una manera no intimidante, y el autor explica términos complejos de forma sencilla y con visualizaciones útiles.Esto hace que el libro sea un recurso excelente para aquellos que desean profundizar en las profundidades del aprendizaje profundo, proporcionando una base sólida que facilita el aprendizaje de temas complejos relacionados.",
+                    // Hindi
+                    "हिंदी": "“डीप लर्निंग फ्रॉम स्क्रैच” को पढ़कर पाठकों को अपने स्वयं के न्यूरल नेटवर्क बनाने और प्रत्येक चरण की ठोस समझ के साथ PyTorch जैसे फ्रेमवर्क का उपयोग करने का आत्मविश्वास मिलेगा। पुस्तक की सामग्री को गैर-डराने वाले तरीके से प्रस्तुत किया गया है, जिसमें लेखक जटिल शब्दों को सरलता से और सहायक विज़ुअलाइज़ेशन के साथ समझाता है। यह पुस्तक उन लोगों के लिए एक उत्कृष्ट संसाधन बनाती है जो गहन शिक्षण की गहराई में उतरना चाहते हैं, एक मजबूत आधार प्रदान करते हैं जो जटिल संबंधित विषयों को सीखना आसान बनाता है।",
+                    // Portuguese
+                    "Português": "Ao ler “Deep Learning from Scratch”, os leitores ganharão confiança para construir suas próprias redes neurais e usar estruturas como PyTorch com um conhecimento sólido de cada etapa. O conteúdo do livro é apresentado de maneira não intimidante, com o autor explicando termos complexos de forma simples e com visualizações úteis.Isso torna o livro um excelente recurso para aqueles que desejam se aprofundar no aprendizado profundo, fornecendo uma base sólida que facilita o aprendizado de tópicos relacionados complexos.",
+                    // Bengali
+                    "বাংলা": "“ডিপ লার্নিং ফ্রম স্ক্র্যাচ” পড়ার মাধ্যমে পাঠকরা তাদের নিজস্ব নিউরাল নেটওয়ার্ক তৈরি করতে এবং প্রতিটি ধাপের দৃঢ় বোঝার সাথে PyTorch-এর মতো ফ্রেমওয়ার্ক ব্যবহার করার আত্মবিশ্বাস অর্জন করবে। বইটির বিষয়বস্তু অ-ভীতিকর পদ্ধতিতে সাজানো হয়েছে, লেখক জটিল পদগুলি সহজভাবে এবং সহায়ক ভিজ্যুয়ালাইজেশনের সাথে ব্যাখ্যা করেছেন।এটি বইটিকে তাদের জন্য একটি চমৎকার সম্পদ করে তোলে যারা গভীর শিক্ষার গভীরতায় যেতে চায়, একটি শক্তিশালী ভিত্তি প্রদান করে যা জটিল সম্পর্কিত বিষয়গুলি শেখা সহজ করে তোলে।",
+                    // Arabic
+                    "عَرَبِيّ": "من خلال قراءة 'التعلم العميق من الصفر'، سيكتسب القراء الثقة لبناء شبكاتهم العصبية الخاصة واستخدام أطر عمل مثل PyTorch مع فهم قوي لكل خطوة. تم وضع محتوى الكتاب بطريقة غير مخيفة، حيث يشرح المؤلف المصطلحات المعقدة ببساطة وبتصورات مفيدة.وهذا يجعل الكتاب مصدرًا ممتازًا لأولئك الذين يرغبون في التعمق في أعماق التعلم العميق، حيث يوفر أساسًا قويًا يجعل تعلم الموضوعات المعقدة ذات الصلة أسهل.",
+                    // Persian
+                    "فارسی": "با خواندن 'یادگیری عمیق از ابتدا' خوانندگان اعتماد به نفس ایجاد شبکه های عصبی خود و استفاده از چارچوب هایی مانند PyTorch را با درک کامل از هر مرحله به دست می آورند. محتوای کتاب به شیوه‌ای غیر ترسناک تنظیم شده است و نویسنده اصطلاحات پیچیده را به سادگی و با تجسم‌های مفید توضیح می‌دهد.این کتاب را به منبعی عالی برای کسانی تبدیل می‌کند که می‌خواهند در اعماق یادگیری عمیق کاوش کنند و پایه‌ای قوی فراهم کند که یادگیری موضوعات پیچیده مرتبط را آسان‌تر می‌کند.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/AI Engineering/Deep_Learning_From_Scratch.webp",
+        },
     ],
     // Industrial Designer
     "Industrial Designer": [
-
+        // SOLIDWORKS 2020 Basic Tools - Getting Started with Parts Assemblies and Drawings
+        {
+            "BookName": "SOLIDWORKS 2020 Basic Tools",
+            "AuthorName": "Paul Tran",
+            "EditionNumber": "1st",
+            "PublisherName": "SDC Publications",
+            "ISBN": "978 1 6305 7306 5",
+            "YearNumber": "2020",
+            "PagesNumber": "681",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "SOLIDWORKS 2020 User Interface",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "System Options",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Document Templates",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Basic Solid Modeling - Extrude Options",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Basic Solid Modeling - Extrude and Revolve",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Revolve Parts",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Rib & Shell Features",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "Patterns",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Part Configurations",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Modeling Threads",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "Bottom Up Assembly",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Using Advanced Mates",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 13
+                {
+                    "ChapterName": "Layout Assembly",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 14
+                {
+                    "ChapterName": "PhotoView360 Basics",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 15
+                {
+                    "ChapterName": "Drawing Preparations",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 16
+                {
+                    "ChapterName": "Assembly Drawings",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 17
+                {
+                    "ChapterName": "Drawing Views",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 18
+                {
+                    "ChapterName": "Detailing - Machined Block Details",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 19
+                {
+                    "ChapterName": "Sheet Metal Drawings",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 20
+                {
+                    "ChapterName": "Configurations",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 21
+                {
+                    "ChapterName": "Design Tables",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "SOLIDWORKS 2020 Basic Tools is the first book in a three-part series that introduces new users to the SOLIDWORKS interface, tools, and basic modeling techniques. It provides you with a strong understanding of SOLIDWORKS and covers the creation of parts, assemblies, and drawings. Every lesson and exercise in this book was created based on real-world projects, and each project has been broken down and developed into easy and comprehensible steps.",
+                    // German
+                    "Deutsch": "SOLIDWORKS 2020 Basic Tools ist das erste Buch einer dreiteiligen Reihe, die neuen Benutzern die SOLIDWORKS-Benutzeroberfläche, -Tools und grundlegenden Modellierungstechniken vorstellt. Es vermittelt Ihnen ein fundiertes Verständnis von SOLIDWORKS und behandelt die Erstellung von Teilen, Baugruppen und Zeichnungen. Jede Lektion und Übung in diesem Buch wurde auf der Grundlage realer Projekte erstellt, und jedes Projekt wurde in einfache und verständliche Schritte unterteilt und entwickelt.",
+                    // Chinese
+                    "中国人": "SOLIDWORKS 2020 基础工具是三部分系列的第一本书，向新用户介绍 SOLIDWORKS 界面、工具和基本建模技术。它让您深入了解 SOLIDWORKS，并涵盖零件、装配体和工程图的创建。本书中的每个课程和练习都是基于真实项目创建的，每个项目都已分解并发展为简单易懂的步骤。",
+                    // Russian
+                    "Русский": "SOLIDWORKS 2020 Basic Tools — это первая книга из серии, состоящей из трех частей, которая знакомит новых пользователей с интерфейсом SOLIDWORKS, инструментами и основными методами моделирования. Он дает вам глубокое понимание SOLIDWORKS и охватывает создание деталей, сборок и чертежей. Каждый урок и упражнение в этой книге были созданы на основе реальных проектов, каждый проект был разбит на простые и понятные шаги.",
+                    // French
+                    "Français": "SOLIDWORKS 2020 Basic Tools est le premier livre d'une série en trois parties qui présente aux nouveaux utilisateurs l'interface, les outils et les techniques de modélisation de base de SOLIDWORKS. Il vous offre une solide compréhension de SOLIDWORKS et couvre la création de pièces, d'assemblages et de dessins. Chaque leçon et exercice de ce livre a été créé sur la base de projets du monde réel, et chaque projet a été décomposé et développé en étapes simples et compréhensibles.",
+                    // Japanese
+                    "日本語": "SOLIDWORKS 2020 基本ツールは、新規ユーザーに SOLIDWORKS インターフェース、ツール、基本的なモデリング手法を紹介する 3 部構成のシリーズの最初の書籍です。SOLIDWORKS を深く理解できるようになり、部品、アセンブリ、図面の作成方法もカバーします。この本のすべてのレッスンと演習は実際のプロジェクトに基づいて作成されており、各プロジェクトは簡単でわかりやすい手順に細分化されて開発されています。",
+                    // Korean
+                    "한국인": "SOLIDWORKS 2020 기본 도구는 새로운 사용자에게 SOLIDWORKS 인터페이스, 도구 및 기본 모델링 기술을 소개하는 3부작 시리즈 중 첫 번째 책입니다. SOLIDWORKS에 대한 깊은 이해를 제공하고 파트, 어셈블리 및 도면 작성을 다룹니다. 이 책의 모든 강의와 연습은 실제 프로젝트를 기반으로 작성되었으며, 각 프로젝트는 쉽고 이해하기 쉬운 단계로 나누어 개발되었습니다.",
+                    // Spanish
+                    "Español": "SOLIDWORKS 2020 Basic Tools es el primer libro de una serie de tres partes que presenta a los nuevos usuarios la interfaz, las herramientas y las técnicas básicas de modelado de SOLIDWORKS. Le proporciona una sólida comprensión de SOLIDWORKS y cubre la creación de piezas, ensamblajes y dibujos. Cada lección y ejercicio de este libro se creó en base a proyectos del mundo real, y cada proyecto se ha desglosado y desarrollado en pasos sencillos y comprensibles.",
+                    // Hindi
+                    "हिंदी": "SOLIDWORKS 2020 बेसिक टूल्स तीन-भाग वाली श्रृंखला की पहली पुस्तक है जो नए उपयोगकर्ताओं को SOLIDWORKS इंटरफ़ेस, टूल और बुनियादी मॉडलिंग तकनीकों से परिचित कराती है। यह आपको SOLIDWORKS की एक मजबूत समझ प्रदान करता है और भागों, असेंबली और रेखाचित्रों के निर्माण को कवर करता है। इस पुस्तक में प्रत्येक पाठ और अभ्यास वास्तविक दुनिया की परियोजनाओं के आधार पर बनाया गया था, और प्रत्येक परियोजना को आसान और समझने योग्य चरणों में विभाजित और विकसित किया गया है।",
+                    // Portuguese
+                    "Português": "Ferramentas básicas do SOLIDWORKS 2020 é o primeiro livro de uma série de três partes que apresenta aos novos usuários a interface, as ferramentas e as técnicas básicas de modelagem do SOLIDWORKS. Ele fornece um forte conhecimento do SOLIDWORKS e abrange a criação de peças, montagens e desenhos. Cada lição e exercício deste livro foram criados com base em projetos do mundo real, e cada projeto foi dividido e desenvolvido em etapas fáceis e compreensíveis.",
+                    // Bengali
+                    "বাংলা": "SOLIDWORKS 2020 Basic Tools হল একটি তিন-অংশের সিরিজের প্রথম বই যা SOLIDWORKS ইন্টারফেস, টুলস এবং মৌলিক মডেলিং কৌশলগুলির সাথে নতুন ব্যবহারকারীদের পরিচয় করিয়ে দেয়। এটি আপনাকে সলিডওয়ার্কস সম্পর্কে একটি দৃঢ় উপলব্ধি প্রদান করে এবং অংশ, সমাবেশ এবং অঙ্কন তৈরি করে। এই বইয়ের প্রতিটি পাঠ এবং অনুশীলন বাস্তব-বিশ্বের প্রকল্পগুলির উপর ভিত্তি করে তৈরি করা হয়েছে এবং প্রতিটি প্রকল্পকে ভেঙে ফেলা হয়েছে এবং সহজ এবং বোধগম্য পদক্ষেপগুলিতে বিকাশ করা হয়েছে।",
+                    // Arabic
+                    "عَرَبِيّ": "SOLIDWORKS 2020 Basic Tools هو الكتاب الأول في سلسلة من ثلاثة أجزاء تقدم للمستخدمين الجدد واجهة SOLIDWORKS وأدواتها وتقنيات النمذجة الأساسية. يوفر لك فهمًا قويًا لـ SOLIDWORKS ويغطي إنشاء الأجزاء والتجميعات والرسومات. تم إنشاء كل درس وتمرين في هذا الكتاب بناءً على مشاريع واقعية، وتم تقسيم كل مشروع وتطويره إلى خطوات سهلة ومفهومة.",
+                    // Persian
+                    "فارسی": "SOLIDWORKS 2020 Basic Tools اولین کتاب از مجموعه سه قسمتی است که کاربران جدید را با رابط کاربری SOLIDWORKS، ابزارها و تکنیک های مدل سازی اولیه آشنا می کند. درک قوی از SOLIDWORKS برای شما فراهم می کند و ایجاد قطعات، مجموعه ها و نقشه ها را پوشش می دهد. هر درس و تمرین در این کتاب بر اساس پروژه های دنیای واقعی ایجاد شده است و هر پروژه به مراحل آسان و قابل درک تبدیل شده است.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "By reading this book, you will gain several advantages, such as learning how to use SOLIDWORKS in a step-by-step, tutorial approach with real-world examples. You will also learn how to create various types of models, such as solid, surface, sheet metal, and assembly models, and how to apply different features, such as extrude, revolve, fillet, mirror, pattern, and more. You will also learn how to prepare your models for drawing, detailing, and rendering, and how to use the SOLIDWORKS tools for analysis, animation, and simulation.",
+                    // German
+                    "Deutsch": "Durch die Lektüre dieses Buches erhalten Sie mehrere Vorteile, z. B. lernen Sie Schritt für Schritt, wie Sie SOLIDWORKS anhand von Beispielen aus der Praxis verwenden. Sie lernen auch, wie Sie verschiedene Modelltypen erstellen, z. B. Volumen-, Oberflächen-, Blech- und Baugruppenmodelle, und wie Sie verschiedene Funktionen anwenden, z. B. Extrudieren, Drehen, Abrunden, Spiegeln, Mustern und mehr. Sie lernen auch, wie Sie Ihre Modelle für das Zeichnen, Detaillieren und Rendern vorbereiten und wie Sie die SOLIDWORKS-Tools für Analyse, Animation und Simulation verwenden.",
+                    // Chinese
+                    "中国人": "通过阅读本书，您将获得多种好处，例如学习如何通过循序渐进的教程方法使用 SOLIDWORKS，并结合实际示例。您还将学习如何创建各种类型的模型，例如实体、曲面、钣金和装配模型，以及如何应用不同的功能，例如拉伸、旋转、圆角、镜像、图案等。您还将学习如何准备模型以进行绘图、详图和渲染，以及如何使用 SOLIDWORKS 工具进行分析、动画和模拟。",
+                    // Russian
+                    "Русский": "Прочитав эту книгу, вы получите ряд преимуществ, например, научитесь использовать SOLIDWORKS с помощью пошагового учебного пособия с примерами из реальной жизни. Вы также узнаете, как создавать различные типы моделей, такие как твердотельные, поверхностные, модели из листового металла и сборки, а также как применять различные функции, такие как выдавливание, вращение, скругление, зеркальное отображение, узор и многое другое. Вы также узнаете, как подготовить модели к рисованию, детализации и рендерингу, а также как использовать инструменты SOLIDWORKS для анализа, анимации и моделирования.",
+                    // French
+                    "Français": "En lisant ce livre, vous bénéficierez de plusieurs avantages, tels que l'apprentissage de l'utilisation de SOLIDWORKS dans le cadre d'une approche didactique étape par étape avec des exemples concrets. Vous apprendrez également à créer différents types de modèles, tels que des modèles de solides, de surfaces, de tôlerie et d'assemblage, et à appliquer différentes fonctionnalités, telles que l'extrusion, la révolution, le congé, la symétrie, le motif, etc. Vous apprendrez également à préparer vos modèles pour le dessin, les détails et le rendu, et à utiliser les outils SOLIDWORKS pour l'analyse, l'animation et la simulation.",
+                    // Japanese
+                    "日本語": "この本を読むことで、実際の例を使ってステップバイステップのチュートリアル形式で SOLIDWORKS の使い方を学べるなど、さまざまなメリットが得られます。また、ソリッド、サーフェス、板金、アセンブリ モデルなどのさまざまなモデルを作成する方法や、押し出し、回転、フィレット、ミラー、パターンなどのさまざまな機能を適用する方法も学習します。さらに、描画、詳細化、レンダリング用にモデルを準備する方法や、解析、アニメーション、シミュレーションに SOLIDWORKS ツールを使用する方法も学習します。",
+                    // Korean
+                    "한국인": "이 책을 읽으면 실제 사례를 통해 단계별 튜토리얼 방식으로 SOLIDWORKS를 사용하는 방법을 배우는 등 여러 가지 이점을 얻을 수 있습니다. 또한 솔리드, 곡면, 판금 및 어셈블리 모델과 같은 다양한 유형의 모델을 생성하는 방법과 돌출, 회전, 필렛, 대칭복사, 패턴 등과 같은 다양한 기능을 적용하는 방법을 배웁니다. 또한 도면, 상세화 및 렌더링을 위해 모델을 준비하는 방법과 분석, 애니메이션 및 시뮬레이션을 위해 SOLIDWORKS 도구를 사용하는 방법을 배우게 됩니다.",
+                    // Spanish
+                    "Español": "Al leer este libro, obtendrá varias ventajas, como aprender a utilizar SOLIDWORKS mediante un enfoque tutorial paso a paso con ejemplos del mundo real. También aprenderá a crear varios tipos de modelos, como modelos sólidos, de superficie, de chapa y de ensamblaje, y a aplicar diferentes funciones, como extrusión, revolución, empalme, simetría, patrón y más. También aprenderá a preparar sus modelos para dibujar, detallar y renderizar, y a utilizar las herramientas de SOLIDWORKS para análisis, animación y simulación.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़कर, आपको कई लाभ प्राप्त होंगे, जैसे कि वास्तविक दुनिया के उदाहरणों के साथ चरण-दर-चरण, ट्यूटोरियल दृष्टिकोण में SOLIDWORKS का उपयोग करना सीखना। आप यह भी सीखेंगे कि विभिन्न प्रकार के मॉडल कैसे बनाएं, जैसे कि ठोस, सतह, शीट मेटल और असेंबली मॉडल, और विभिन्न विशेषताओं को कैसे लागू करें, जैसे कि एक्सट्रूड, रिवॉल्व, फिलेट, मिरर, पैटर्न, और बहुत कुछ। आप यह भी सीखेंगे कि अपने मॉडल को ड्राइंग, डिटेलिंग और रेंडरिंग के लिए कैसे तैयार करें, और विश्लेषण, एनीमेशन और सिमुलेशन के लिए SOLIDWORKS टूल का उपयोग कैसे करें।",
+                    // Portuguese
+                    "Português": "Ao ler este livro, você obterá diversas vantagens, como aprender a usar o SOLIDWORKS em uma abordagem tutorial passo a passo com exemplos do mundo real. Você também aprenderá como criar vários tipos de modelos, como modelos sólidos, de superfície, de chapa metálica e de montagem, e como aplicar diferentes recursos, como extrusão, revolução, filete, espelho, padrão e muito mais. Você também aprenderá como preparar seus modelos para desenho, detalhamento e renderização e como usar as ferramentas do SOLIDWORKS para análise, animação e simulação.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার মাধ্যমে, আপনি বেশ কিছু সুবিধা পাবেন, যেমন বাস্তব-বিশ্বের উদাহরণ সহ ধাপে ধাপে SOLIDWORKS ব্যবহার করতে শেখা। আপনি আরও শিখবেন কীভাবে বিভিন্ন ধরণের মডেল তৈরি করতে হয়, যেমন কঠিন, পৃষ্ঠ, শীট মেটাল এবং অ্যাসেম্বলি মডেল এবং কীভাবে বিভিন্ন বৈশিষ্ট্য যেমন এক্সট্রুড, রিভল, ফিলেট, মিরর, প্যাটার্ন এবং আরও অনেক কিছু প্রয়োগ করতে হয়। আপনি কীভাবে আপনার মডেলগুলি অঙ্কন, বিশদ বিবরণ এবং রেন্ডারিংয়ের জন্য প্রস্তুত করবেন এবং বিশ্লেষণ, অ্যানিমেশন এবং সিমুলেশনের জন্য সলিডওয়ার্কস সরঞ্জামগুলি কীভাবে ব্যবহার করবেন তাও শিখবেন।",
+                    // Arabic
+                    "عَرَبِيّ": "من خلال قراءة هذا الكتاب، سوف تكتسب العديد من المزايا، مثل تعلم كيفية استخدام SOLIDWORKS بطريقة تعليمية خطوة بخطوة مع أمثلة من العالم الحقيقي. ستتعلم أيضًا كيفية إنشاء أنواع مختلفة من النماذج، مثل النماذج الصلبة والسطحية والصفائح المعدنية ونماذج التجميع، وكيفية تطبيق ميزات مختلفة، مثل البثق والتدوير والشرائح والمرآة والنمط والمزيد. سوف تتعلم أيضًا كيفية إعداد النماذج الخاصة بك للرسم والتفصيل والعرض، وكيفية استخدام أدوات SOLIDWORKS للتحليل والرسوم المتحركة والمحاكاة.",
+                    // Persian
+                    "فارسی": "با مطالعه این کتاب، چندین مزیت از جمله یادگیری نحوه استفاده از SOLIDWORKS به صورت گام به گام و آموزشی با مثال های واقعی به دست خواهید آورد. همچنین یاد خواهید گرفت که چگونه انواع مدل‌ها مانند مدل‌های جامد، سطحی، ورق فلزی و مدل‌های مونتاژی ایجاد کنید و چگونه ویژگی‌های مختلف مانند اکسترود، چرخش، فیله، آینه، الگو و غیره را اعمال کنید. همچنین یاد خواهید گرفت که چگونه مدل های خود را برای ترسیم، جزئیات و رندر آماده کنید و چگونه از ابزار SOLIDWORKS برای تجزیه و تحلیل، انیمیشن و شبیه سازی استفاده کنید.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "After reading this book, the reader will have a solid foundation of SOLIDWORKS knowledge and skills that he/she can apply to his/her own projects and designs. He/She will also be ready to move on to the next level of SOLIDWORKS learning, as the book is part of a three-book series that covers intermediate and advanced topics. This book is a great resource for anyone who wants to start learning SOLIDWORKS or improve their existing skills.",
+                    // German
+                    "Deutsch": "Nach der Lektüre dieses Buches verfügt der Leser über eine solide Grundlage an SOLIDWORKS-Wissen und -Fähigkeiten, die er/sie in seinen/ihren eigenen Projekten und Konstruktionen anwenden kann. Er/sie wird auch bereit sein, zur nächsten Stufe des SOLIDWORKS-Lernens überzugehen, da das Buch Teil einer dreiteiligen Buchreihe ist, die fortgeschrittene und fortgeschrittene Themen abdeckt. Dieses Buch ist eine großartige Ressource für jeden, der mit dem Erlernen von SOLIDWORKS beginnen oder seine vorhandenen Fähigkeiten verbessern möchte.",
+                    // Chinese
+                    "中国人": "读完本书后，读者将拥有扎实的 SOLIDWORKS 知识和技能基础，可以将其应用于自己的项目和设计。他/她还将准备好进入 SOLIDWORKS 学习的下一个阶段，因为本书是涵盖中级和高级主题的三本系列丛书的一部分。对于任何想要开始学习 SOLIDWORKS 或提高现有技能的人来说，这本书都是很好的资源。",
+                    // Russian
+                    "Русский": "Прочитав эту книгу, читатель получит прочную основу знаний и навыков SOLIDWORKS, которые он/она сможет применить в своих собственных проектах и ​​проектах. Он/она также будет готов перейти на следующий уровень изучения SOLIDWORKS, поскольку книга является частью серии из трех книг, охватывающей темы среднего и продвинутого уровня. Эта книга — отличный ресурс для всех, кто хочет начать изучать SOLIDWORKS или улучшить свои существующие навыки.",
+                    // French
+                    "Français": "Après avoir lu ce livre, le lecteur disposera d'une base solide de connaissances et de compétences SOLIDWORKS qu'il pourra appliquer à ses propres projets et conceptions. Il/elle sera également prêt à passer au niveau suivant d'apprentissage de SOLIDWORKS, car le livre fait partie d'une série de trois livres qui couvrent des sujets intermédiaires et avancés. Ce livre est une excellente ressource pour tous ceux qui souhaitent commencer à apprendre SOLIDWORKS ou améliorer leurs compétences existantes.",
+                    // Japanese
+                    "日本語": "この本を読んだ後、読者は SOLIDWORKS の知識とスキルの確固たる基礎を身につけ、自分のプロジェクトや設計に応用できるようになります。また、この本は中級および上級のトピックを網羅する 3 冊のシリーズの一部であるため、読者は SOLIDWORKS 学習の次のレベルに進む準備も整います。この本は、SOLIDWORKS の学習を始めたい方や、既存のスキルを向上させたい方にとって素晴らしいリソースです。",
+                    // Korean
+                    "한국인": "이 책을 읽고 나면 독자는 자신의 프로젝트와 설계에 적용할 수 있는 SOLIDWORKS 지식과 기술에 대한 탄탄한 기초를 갖게 될 것입니다. 또한 이 책은 중급 및 고급 주제를 다루는 3권으로 구성된 시리즈의 일부이므로 학생은 SOLIDWORKS 학습의 다음 단계로 넘어갈 준비가 되어 있습니다. 이 책은 SOLIDWORKS 학습을 시작하거나 기존 기술을 향상시키려는 모든 사람에게 훌륭한 리소스입니다.",
+                    // Spanish
+                    "Español": "Después de leer este libro, el lector tendrá una base sólida de conocimientos y habilidades de SOLIDWORKS que podrá aplicar a sus propios proyectos y diseños. También estará listo para pasar al siguiente nivel de aprendizaje de SOLIDWORKS, ya que el libro forma parte de una serie de tres libros que cubre temas intermedios y avanzados. Este libro es un gran recurso para cualquiera que quiera empezar a aprender SOLIDWORKS o mejorar sus habilidades existentes.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने के बाद, पाठक के पास SOLIDWORKS ज्ञान और कौशल का एक ठोस आधार होगा जिसे वह अपनी परियोजनाओं और डिज़ाइनों पर लागू कर सकता है। वह SOLIDWORKS सीखने के अगले स्तर पर जाने के लिए भी तैयार होगा, क्योंकि यह पुस्तक तीन-पुस्तक श्रृंखला का हिस्सा है जो मध्यवर्ती और उन्नत विषयों को कवर करती है। यह पुस्तक उन लोगों के लिए एक बेहतरीन संसाधन है जो SOLIDWORKS सीखना शुरू करना चाहते हैं या अपने मौजूदा कौशल में सुधार करना चाहते हैं।",
+                    // Portuguese
+                    "Português": "Depois de ler este livro, o leitor terá uma base sólida de conhecimentos e habilidades do SOLIDWORKS que poderá aplicar em seus próprios projetos e projetos. Ele/ela também estará pronto para passar para o próximo nível de aprendizado do SOLIDWORKS, já que o livro faz parte de uma série de três livros que cobre tópicos intermediários e avançados. Este livro é um ótimo recurso para quem deseja começar a aprender o SOLIDWORKS ou aprimorar suas habilidades existentes.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার পরে, পাঠকের সলিডওয়ার্কস জ্ঞান এবং দক্ষতার একটি শক্ত ভিত্তি থাকবে যা সে তার নিজের প্রকল্প এবং ডিজাইনগুলিতে প্রয়োগ করতে পারে। তিনি/তিনি সলিডওয়ার্কস শেখার পরবর্তী স্তরে যাওয়ার জন্যও প্রস্তুত থাকবেন, কারণ বইটি একটি তিন-বই সিরিজের অংশ যা মধ্যবর্তী এবং উন্নত বিষয়গুলি কভার করে। যারা সলিডওয়ার্কস শিখতে বা তাদের বিদ্যমান দক্ষতা উন্নত করতে চান তাদের জন্য এই বইটি একটি দুর্দান্ত সম্পদ।",
+                    // Arabic
+                    "عَرَبِيّ": "بعد قراءة هذا الكتاب، سيكون لدى القارئ أساس متين من المعرفة والمهارات في SOLIDWORKS التي يمكنه تطبيقها على مشاريعه وتصميماته الخاصة. سيكون أيضًا جاهزًا للانتقال إلى المستوى التالي من تعلم SOLIDWORKS، حيث أن الكتاب جزء من سلسلة من ثلاثة كتب تغطي موضوعات متوسطة ومتقدمة. يعد هذا الكتاب مصدرًا رائعًا لأي شخص يريد البدء في تعلم SOLIDWORKS أو تحسين مهاراته الحالية.",
+                    // Persian
+                    "فارسی": "پس از خواندن این کتاب، خواننده پایه محکمی از دانش و مهارت های SOLIDWORKS خواهد داشت که می تواند در پروژه ها و طرح های خود اعمال کند. او همچنین برای رفتن به سطح بعدی یادگیری SOLIDWORKS آماده خواهد بود، زیرا این کتاب بخشی از یک مجموعه سه کتاب است که موضوعات متوسط ​​و پیشرفته را پوشش می دهد. این کتاب یک منبع عالی برای هر کسی است که می خواهد شروع به یادگیری SOLIDWORKS کند یا مهارت های موجود خود را بهبود بخشد.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Industrial Designing/SOLIDWORKS_2020_Basic_Tools_Getting_Started_with_Parts_Assemblies_and_Drawings.webp",
+        },
     ],
     // Self-Driving Automobile Engineer
     "Self-Driving Automobile Engineer": [
-
+        // Applied Deep Learning and Computer Vision for Self-Driving Cars
+        {
+            "BookName": "Applied Deep Learning and Computer Vision for Self-Driving Cars",
+            "AuthorName": "Sumit Ranjan, Dr. S. Senthamilarasu",
+            "EditionNumber": "1st",
+            "PublisherName": "Packt Publishing Ltd",
+            "ISBN": "978 1 8386 4630 1",
+            "YearNumber": "2020",
+            "PagesNumber": "320",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "The Foundation of Self-Driving Cars",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 2
+                {
+                    "ChapterName": "Dive Deep into Deep Neural Networks",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 3
+                {
+                    "ChapterName": "Implementing a Deep Learning Model Using Keras",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 4
+                {
+                    "ChapterName": "Computer Vision for Self-Driving Cars",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 5
+                {
+                    "ChapterName": "Finding Road Markings Using OpenCV",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 6
+                {
+                    "ChapterName": "Improving the Image Classifier with CNN",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 7
+                {
+                    "ChapterName": "Road Sign Detection Using Deep Learning",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 8
+                {
+                    "ChapterName": "The Principles and Foundations of Semantic Segmentation",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 9
+                {
+                    "ChapterName": "Implementing Semantic Segmentation",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 10
+                {
+                    "ChapterName": "Behavioral Cloning Using Deep Learning",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 11
+                {
+                    "ChapterName": "Vehicle Detection Using OpenCV and Deep Learning",
+                    "ShortDescriptionAboutChapter": "",
+                },
+                // 12
+                {
+                    "ChapterName": "Next Steps",
+                    "ShortDescriptionAboutChapter": "",
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "Applied Deep Learning and Computer Vision for Self-Driving Cars is a comprehensive guide that covers the theory and practice of developing autonomous vehicles using the latest techniques in artificial intelligence. The book provides a thorough overview of the main concepts and challenges of self-driving cars, such as perception, planning, control, and safety. It also introduces the reader to the most popular frameworks and tools for building and testing self-driving car applications, such as TensorFlow and OpenCV.",
+                    // German
+                    "Deutsch": "„Applied Deep Learning and Computer Vision for Self-Driving Cars“ ist ein umfassender Leitfaden, der die Theorie und Praxis der Entwicklung autonomer Fahrzeuge unter Verwendung der neuesten Techniken der künstlichen Intelligenz abdeckt. Das Buch bietet einen umfassenden Überblick über die wichtigsten Konzepte und Herausforderungen selbstfahrender Autos, wie Wahrnehmung, Planung, Steuerung und Sicherheit. Es führt den Leser auch in die beliebtesten Frameworks und Tools zum Erstellen und Testen von Anwendungen für selbstfahrende Autos ein, wie TensorFlow und OpenCV.",
+                    // Chinese
+                    "中国人": "《自动驾驶汽车的深度学习和计算机视觉应用》是一本全面的指南，涵盖了使用最新人工智能技术开发自动驾驶汽车的理论和实践。本书全面概述了自动驾驶汽车的主要概念和挑战，例如感知、规划、控制和安全。它还向读者介绍了用于构建和测试自动驾驶汽车应用程序的最流行的框架和工具，例如 TensorFlow 和 OpenCV。",
+                    // Russian
+                    "Русский": "«Прикладное глубокое обучение и компьютерное зрение для беспилотных автомобилей» — это комплексное руководство, охватывающее теорию и практику разработки автономных транспортных средств с использованием новейших технологий искусственного интеллекта. В книге представлен подробный обзор основных концепций и проблем беспилотных автомобилей, таких как восприятие, планирование, контроль и безопасность. Он также знакомит читателя с наиболее популярными платформами и инструментами для создания и тестирования приложений для беспилотных автомобилей, такими как TensorFlow и OpenCV.",
+                    // French
+                    "Français": "Applied Deep Learning and Computer Vision for Self-Driving Cars est un guide complet qui couvre la théorie et la pratique du développement de véhicules autonomes en utilisant les dernières techniques d'intelligence artificielle. Le livre donne un aperçu complet des principaux concepts et défis des voitures autonomes, tels que la perception, la planification, le contrôle et la sécurité. Il présente également au lecteur les frameworks et outils les plus populaires pour créer et tester des applications de voiture autonome, tels que TensorFlow et OpenCV.",
+                    // Japanese
+                    "日本語": "『自動運転車のための応用ディープラーニングとコンピュータービジョン』は、人工知能の最新技術を使用して自律走行車を開発するための理論と実践を網羅した総合ガイドです。この本では、認識、計画、制御、安全性など、自動運転車の主要な概念と課題について徹底的に概説しています。また、TensorFlow や OpenCV など、自動運転車アプリケーションの構築とテストに最もよく使用されるフレームワークとツールについても紹介しています。",
+                    // Korean
+                    "한국인": "자율주행차를 위한 응용 딥러닝 및 컴퓨터 비전은 인공지능의 최신 기술을 사용하여 자율주행차를 개발하는 이론과 실제를 다루는 포괄적인 가이드입니다. 이 책은 인식, 계획, 제어, 안전 등 자율주행차의 주요 개념과 과제에 대한 철저한 개요를 제공합니다. 또한 TensorFlow 및 OpenCV와 같이 자율 주행 자동차 애플리케이션을 구축하고 테스트하는 데 가장 널리 사용되는 프레임워크와 도구를 소개합니다.",
+                    // Spanish
+                    "Español": "Applied Deep Learning and Computer Vision for Self-Driving Cars es una guía completa que cubre la teoría y la práctica del desarrollo de vehículos autónomos utilizando las últimas técnicas en inteligencia artificial. El libro proporciona una descripción detallada de los principales conceptos y desafíos de los vehículos autónomos, como la percepción, la planificación, el control y la seguridad. También presenta al lector los marcos y herramientas más populares para crear y probar aplicaciones de vehículos autónomos, como TensorFlow y OpenCV.",
+                    // Hindi
+                    "हिंदी": "सेल्फ-ड्राइविंग कारों के लिए एप्लाइड डीप लर्निंग और कंप्यूटर विज़न एक व्यापक गाइड है जो आर्टिफिशियल इंटेलिजेंस में नवीनतम तकनीकों का उपयोग करके स्वायत्त वाहनों को विकसित करने के सिद्धांत और अभ्यास को कवर करती है। यह पुस्तक सेल्फ-ड्राइविंग कारों की मुख्य अवधारणाओं और चुनौतियों, जैसे कि धारणा, योजना, नियंत्रण और सुरक्षा का विस्तृत अवलोकन प्रदान करती है। यह पाठक को सेल्फ-ड्राइविंग कार अनुप्रयोगों के निर्माण और परीक्षण के लिए सबसे लोकप्रिय फ्रेमवर्क और टूल से भी परिचित कराती है, जैसे कि TensorFlow और OpenCV।",
+                    // Portuguese
+                    "Português": "Applied Deep Learning and Computer Vision for Self-Driving Cars é um guia abrangente que cobre a teoria e a prática do desenvolvimento de veículos autônomos usando as mais recentes técnicas de inteligência artificial. O livro fornece uma visão geral completa dos principais conceitos e desafios dos carros autônomos, como percepção, planejamento, controle e segurança. Ele também apresenta ao leitor as estruturas e ferramentas mais populares para criar e testar aplicativos para carros autônomos, como TensorFlow e OpenCV.",
+                    // Bengali
+                    "বাংলা": "অ্যাপ্লায়েড ডিপ লার্নিং এবং স্ব-ড্রাইভিং গাড়ির জন্য কম্পিউটার দৃষ্টি একটি ব্যাপক নির্দেশিকা যা কৃত্রিম বুদ্ধিমত্তার সর্বশেষ কৌশলগুলি ব্যবহার করে স্বায়ত্তশাসিত যানবাহন বিকাশের তত্ত্ব এবং অনুশীলনকে কভার করে। বইটি স্ব-চালিত গাড়ির প্রধান ধারণা এবং চ্যালেঞ্জগুলির একটি পুঙ্খানুপুঙ্খ ওভারভিউ প্রদান করে, যেমন উপলব্ধি, পরিকল্পনা, নিয়ন্ত্রণ এবং নিরাপত্তা। এটি পাঠককে টেনসরফ্লো এবং ওপেনসিভি-র মতো স্ব-ড্রাইভিং গাড়ি অ্যাপ্লিকেশন তৈরি এবং পরীক্ষা করার জন্য সবচেয়ে জনপ্রিয় কাঠামো এবং সরঞ্জামগুলির সাথে পরিচয় করিয়ে দেয়।",
+                    // Arabic
+                    "عَرَبِيّ": "التعلم العميق التطبيقي والرؤية الحاسوبية للسيارات ذاتية القيادة هو دليل شامل يغطي نظرية وممارسة تطوير المركبات ذاتية القيادة باستخدام أحدث التقنيات في الذكاء الاصطناعي. يقدم الكتاب لمحة شاملة عن المفاهيم والتحديات الرئيسية للسيارات ذاتية القيادة، مثل الإدراك والتخطيط والتحكم والسلامة. كما أنه يقدم للقارئ الأطر والأدوات الأكثر شعبية لبناء واختبار تطبيقات السيارات ذاتية القيادة، مثل TensorFlow وOpenCV.",
+                    // Persian
+                    "فارسی": "یادگیری عمیق کاربردی و دید کامپیوتری برای خودروهای خودران راهنمای جامعی است که تئوری و عمل توسعه وسایل نقلیه خودران با استفاده از آخرین تکنیک‌های هوش مصنوعی را پوشش می‌دهد. این کتاب مروری کامل بر مفاهیم و چالش‌های اصلی خودروهای خودران مانند ادراک، برنامه‌ریزی، کنترل و ایمنی ارائه می‌کند. همچنین خواننده را با محبوب ترین چارچوب ها و ابزارها برای ساخت و آزمایش برنامه های کاربردی خودروهای خودران مانند TensorFlow و OpenCV آشنا می کند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "By reading this book, the user will achieve several advantages. First, the user will gain a solid understanding of the fundamentals of deep learning and computer vision, and how they can be applied to solve real-world problems in self-driving cars. Second, the user will learn how to design, implement, and evaluate various deep learning models and algorithms for tasks such as object detection, semantic segmentation, lane detection, and vehicle control. Third, the user will acquire practical skills and experience in working with self-driving car simulators and datasets, and deploying their solutions on real hardware.",
+                    // German
+                    "Deutsch": "Durch die Lektüre dieses Buches erhält der Benutzer mehrere Vorteile. Erstens erhält der Benutzer ein solides Verständnis der Grundlagen von Deep Learning und Computer Vision und wie diese angewendet werden können, um reale Probleme bei selbstfahrenden Autos zu lösen. Zweitens lernt der Benutzer, wie man verschiedene Deep-Learning-Modelle und -Algorithmen für Aufgaben wie Objekterkennung, semantische Segmentierung, Spurerkennung und Fahrzeugsteuerung entwirft, implementiert und bewertet. Drittens erwirbt der Benutzer praktische Fähigkeiten und Erfahrungen im Umgang mit Simulatoren und Datensätzen für selbstfahrende Autos und im Einsatz seiner Lösungen auf echter Hardware.",
+                    // Chinese
+                    "中国人": "通过阅读本书，用户将获得几个好处。首先，用户将深入了解深度学习和计算机视觉的基础知识，以及如何应用它们来解决自动驾驶汽车中的实际问题。其次，用户将学习如何设计、实施和评估各种深度学习模型和算法，以完成诸如对象检测、语义分割、车道检测和车辆控制等任务。第三，用户将获得使用自动驾驶汽车模拟器和数据集并在真实硬件上部署其解决方案的实践技能和经验。",
+                    // Russian
+                    "Русский": "Прочитав эту книгу, пользователь получит ряд преимуществ. Во-первых, пользователь получит четкое представление об основах глубокого обучения и компьютерного зрения, а также о том, как их можно применять для решения реальных проблем в беспилотных автомобилях. Во-вторых, пользователь научится проектировать, реализовывать и оценивать различные модели и алгоритмы глубокого обучения для таких задач, как обнаружение объектов, семантическая сегментация, обнаружение полосы движения и управление транспортными средствами. В-третьих, пользователь приобретет практические навыки и опыт работы с симуляторами беспилотных автомобилей и наборами данных, а также развертывания их решений на реальном оборудовании.",
+                    // French
+                    "Français": "En lisant ce livre, l'utilisateur bénéficiera de plusieurs avantages. Tout d’abord, l’utilisateur acquerra une solide compréhension des principes fondamentaux de l’apprentissage profond et de la vision par ordinateur, ainsi que de la manière dont ils peuvent être appliqués pour résoudre des problèmes réels liés aux voitures autonomes. Deuxièmement, l'utilisateur apprendra à concevoir, mettre en œuvre et évaluer divers modèles et algorithmes d'apprentissage profond pour des tâches telles que la détection d'objets, la segmentation sémantique, la détection de voie et le contrôle des véhicules. Troisièmement, l'utilisateur acquerra des compétences pratiques et une expérience en travaillant avec des simulateurs et des ensembles de données de voitures autonomes, et en déployant ses solutions sur du matériel réel.",
+                    // Japanese
+                    "日本語": "この本を読むことで、ユーザーはいくつかのメリットを得ることができます。まず、ディープラーニングとコンピュータービジョンの基礎と、それらを自動運転車の実際の問題の解決にどのように適用できるかをしっかりと理解できます。次に、オブジェクト検出、セマンティックセグメンテーション、車線検出、車両制御などのタスク用のさまざまなディープラーニングモデルとアルゴリズムを設計、実装、評価する方法を学びます。最後に、自動運転車のシミュレーターとデータセットを操作し、実際のハードウェアにソリューションを展開するための実践的なスキルと経験を身に付けます。",
+                    // Korean
+                    "한국인": "이 책을 읽으면 사용자는 여러 가지 이점을 얻을 수 있습니다. 첫째, 사용자는 딥 러닝과 컴퓨터 비전의 기본 원리와 이를 자율 주행 자동차의 실제 문제 해결에 어떻게 적용할 수 있는지에 대한 확실한 이해를 얻게 됩니다. 둘째, 사용자는 객체 감지, 의미론적 분할, 차선 감지 및 차량 제어와 같은 작업을 위한 다양한 딥 러닝 모델 및 알고리즘을 설계, 구현 및 평가하는 방법을 배웁니다. 셋째, 사용자는 자율 주행 자동차 시뮬레이터 및 데이터 세트를 사용하고 실제 하드웨어에 솔루션을 배포하는 데 있어 실용적인 기술과 경험을 습득하게 됩니다.",
+                    // Spanish
+                    "Español": "Al leer este libro, el usuario obtendrá varias ventajas. En primer lugar, el usuario obtendrá una sólida comprensión de los fundamentos del aprendizaje profundo y la visión por computadora, y cómo se pueden aplicar para resolver problemas del mundo real en vehículos autónomos. En segundo lugar, el usuario aprenderá a diseñar, implementar y evaluar varios modelos y algoritmos de aprendizaje profundo para tareas como la detección de objetos, la segmentación semántica, la detección de carriles y el control de vehículos. En tercer lugar, el usuario adquirirá habilidades prácticas y experiencia para trabajar con simuladores y conjuntos de datos de vehículos autónomos y para implementar sus soluciones en hardware real.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़कर, उपयोगकर्ता को कई लाभ प्राप्त होंगे। सबसे पहले, उपयोगकर्ता को डीप लर्निंग और कंप्यूटर विज़न के मूल सिद्धांतों की ठोस समझ प्राप्त होगी, और उन्हें स्व-चालित कारों में वास्तविक दुनिया की समस्याओं को हल करने के लिए कैसे लागू किया जा सकता है। दूसरा, उपयोगकर्ता ऑब्जेक्ट डिटेक्शन, सिमेंटिक सेगमेंटेशन, लेन डिटेक्शन और वाहन नियंत्रण जैसे कार्यों के लिए विभिन्न डीप लर्निंग मॉडल और एल्गोरिदम को डिज़ाइन, कार्यान्वित और मूल्यांकन करना सीखेगा। तीसरा, उपयोगकर्ता स्व-चालित कार सिमुलेटर और डेटासेट के साथ काम करने और वास्तविक हार्डवेयर पर उनके समाधान को तैनात करने में व्यावहारिक कौशल और अनुभव प्राप्त करेगा।",
+                    // Portuguese
+                    "Português": "Ao ler este livro, o usuário obterá diversas vantagens. Primeiro, o usuário obterá uma compreensão sólida dos fundamentos do aprendizado profundo e da visão computacional, e como eles podem ser aplicados para resolver problemas do mundo real em carros autônomos. Em segundo lugar, o usuário aprenderá como projetar, implementar e avaliar vários modelos e algoritmos de aprendizagem profunda para tarefas como detecção de objetos, segmentação semântica, detecção de faixas e controle de veículos. Terceiro, o usuário adquirirá habilidades práticas e experiência no trabalho com simuladores e conjuntos de dados de carros autônomos e na implantação de suas soluções em hardware real.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার মাধ্যমে, ব্যবহারকারী বিভিন্ন সুবিধা অর্জন করবে। প্রথমত, ব্যবহারকারী গভীর শিক্ষা এবং কম্পিউটার দৃষ্টিভঙ্গির মৌলিক বিষয়গুলির একটি দৃঢ় বোধগম্যতা অর্জন করবে এবং সেগুলি কীভাবে স্ব-ড্রাইভিং গাড়িগুলিতে বাস্তব-বিশ্বের সমস্যাগুলি সমাধান করতে প্রয়োগ করা যেতে পারে। দ্বিতীয়ত, ব্যবহারকারী শিখবে কিভাবে অবজেক্ট ডিটেকশন, সিমেন্টিক সেগমেন্টেশন, লেন ডিটেকশন এবং গাড়ি নিয়ন্ত্রণের মতো কাজের জন্য বিভিন্ন ডিপ লার্নিং মডেল এবং অ্যালগরিদম ডিজাইন, বাস্তবায়ন এবং মূল্যায়ন করা যায়। তৃতীয়ত, ব্যবহারকারী স্ব-ড্রাইভিং কার সিমুলেটর এবং ডেটাসেটগুলির সাথে কাজ করার এবং বাস্তব হার্ডওয়্যারে তাদের সমাধানগুলি স্থাপন করার ক্ষেত্রে ব্যবহারিক দক্ষতা এবং অভিজ্ঞতা অর্জন করবে।",
+                    // Arabic
+                    "عَرَبِيّ": "من خلال قراءة هذا الكتاب، سيحقق المستخدم العديد من المزايا. أولاً، سيكتسب المستخدم فهمًا قويًا لأساسيات التعلم العميق ورؤية الكمبيوتر، وكيف يمكن تطبيقها لحل مشكلات العالم الحقيقي في السيارات ذاتية القيادة. ثانيًا، سيتعلم المستخدم كيفية تصميم وتنفيذ وتقييم نماذج وخوارزميات التعلم العميق المختلفة لمهام مثل اكتشاف الكائنات والتجزئة الدلالية واكتشاف المسار والتحكم في السيارة. ثالثًا، سيكتسب المستخدم مهارات عملية وخبرة في العمل مع محاكيات السيارات ذاتية القيادة ومجموعات البيانات، ونشر حلولها على أجهزة حقيقية.",
+                    // Persian
+                    "فارسی": "کاربر با مطالعه این کتاب به چندین مزیت دست خواهد یافت. ابتدا، کاربر به درک کاملی از اصول یادگیری عمیق و بینایی کامپیوتری و چگونگی استفاده از آنها برای حل مشکلات دنیای واقعی در خودروهای خودران دست خواهد یافت. دوم، کاربر یاد خواهد گرفت که چگونه مدل ها و الگوریتم های یادگیری عمیق مختلف را برای کارهایی مانند تشخیص اشیا، تقسیم بندی معنایی، تشخیص خط و کنترل وسیله نقلیه طراحی، پیاده سازی و ارزیابی کند. سوم، کاربر مهارت ها و تجربه عملی را در کار با شبیه سازها و مجموعه داده های ماشین خودران و استقرار راه حل های آنها بر روی سخت افزار واقعی به دست می آورد.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "The user will also gain many benefits from reading this book. The user will be able to appreciate the current state-of-the-art and future trends in self-driving car research and development. The user will be able to explore the ethical, social, and legal implications of self-driving cars, and how they can contribute to a safer and more efficient transportation system. The user will be able to apply their knowledge and skills to other domains and applications that involve deep learning and computer vision, such as robotics, healthcare, and security. The user will be able to join the growing community of self-driving car enthusiasts and professionals, and participate in various competitions and projects.",
+                    // German
+                    "Deutsch": "Auch der Benutzer wird durch die Lektüre dieses Buches viele Vorteile erhalten. Er wird den aktuellen Stand der Technik und zukünftige Trends in der Forschung und Entwicklung selbstfahrender Autos kennenlernen. Er wird die ethischen, sozialen und rechtlichen Auswirkungen selbstfahrender Autos erkunden und erfahren, wie sie zu einem sichereren und effizienteren Transportsystem beitragen können. Er wird sein Wissen und seine Fähigkeiten auf andere Bereiche und Anwendungen anwenden können, die Deep Learning und Computer Vision beinhalten, wie etwa Robotik, Gesundheitswesen und Sicherheit. Er wird der wachsenden Community von Enthusiasten und Fachleuten selbstfahrender Autos beitreten und an verschiedenen Wettbewerben und Projekten teilnehmen können.",
+                    // Chinese
+                    "中国人": "用户阅读本书也会受益匪浅。用户将能够了解自动驾驶汽车研究和开发的当前最新水平和未来趋势。用户将能够探索自动驾驶汽车的道德、社会和法律影响，以及它们如何为更安全、更高效的交通系统做出贡献。用户将能够将他们的知识和技能应用于涉及深度学习和计算机视觉的其他领域和应用，例如机器人、医疗保健和安全。用户将能够加入不断壮大的自动驾驶汽车爱好者和专业人士社区，并参与各种比赛和项目。",
+                    // Russian
+                    "Русский": "Пользователь также получит много преимуществ от чтения этой книги. Пользователь сможет оценить современное состояние и будущие тенденции в исследованиях и разработках беспилотных автомобилей. Пользователь сможет изучить этические, социальные и юридические последствия беспилотных автомобилей, а также то, как они могут способствовать созданию более безопасной и эффективной транспортной системы. Пользователь сможет применить свои знания и навыки в других областях и приложениях, связанных с глубоким обучением и компьютерным зрением, таких как робототехника, здравоохранение и безопасность. Пользователь сможет присоединиться к растущему сообществу любителей и профессионалов беспилотных автомобилей, а также участвовать в различных конкурсах и проектах.",
+                    // French
+                    "Français": "L'utilisateur bénéficiera également de nombreux avantages en lisant ce livre. L'utilisateur pourra apprécier l'état de l'art actuel et les tendances futures en matière de recherche et de développement de voitures autonomes. L'utilisateur pourra explorer les implications éthiques, sociales et juridiques des voitures autonomes et comment elles peuvent contribuer à un système de transport plus sûr et plus efficace. L'utilisateur pourra appliquer ses connaissances et compétences à d'autres domaines et applications impliquant l'apprentissage profond et la vision par ordinateur, tels que la robotique, les soins de santé et la sécurité. L'utilisateur pourra rejoindre la communauté grandissante des passionnés et des professionnels de la voiture autonome, et participer à divers concours et projets.",
+                    // Japanese
+                    "日本語": "ユーザーは、この本を読むことで多くのメリットも得られます。ユーザーは、自動運転車の研究開発における現在の最先端技術と将来の動向を理解できるようになります。ユーザーは、自動運転車の倫理的、社会的、法的影響と、自動運転車がより安全で効率的な輸送システムにどのように貢献できるかを探求できるようになります。ユーザーは、ロボット工学、ヘルスケア、セキュリティなど、ディープラーニングとコンピュータービジョンを含む他の分野やアプリケーションに知識とスキルを適用できるようになります。ユーザーは、成長を続ける自動運転車の愛好家や専門家のコミュニティに参加し、さまざまなコンテストやプロジェクトに参加できるようになります。",
+                    // Korean
+                    "한국인": "사용자도 이 책을 읽으면 많은 이점을 얻을 수 있습니다. 사용자는 자율주행차 연구개발의 현재 최첨단 기술과 미래 동향을 감상할 수 있습니다. 사용자는 자율주행차의 윤리적, 사회적, 법적 의미를 탐색하고 자율주행차가 보다 안전하고 효율적인 교통 시스템에 어떻게 기여할 수 있는지 알아볼 수 있습니다. 사용자는 로봇 공학, 의료, 보안 등 딥 러닝 및 컴퓨터 비전과 관련된 다른 도메인 및 애플리케이션에 자신의 지식과 기술을 적용할 수 있습니다. 사용자는 성장하는 자율주행차 애호가 및 전문가 커뮤니티에 합류하고 다양한 대회와 프로젝트에 참여할 수 있습니다.",
+                    // Spanish
+                    "Español": "El usuario también obtendrá muchos beneficios al leer este libro. El usuario podrá apreciar el estado actual de la técnica y las tendencias futuras en la investigación y el desarrollo de vehículos autónomos. El usuario podrá explorar las implicaciones éticas, sociales y legales de los vehículos autónomos y cómo pueden contribuir a un sistema de transporte más seguro y eficiente. El usuario podrá aplicar sus conocimientos y habilidades a otros dominios y aplicaciones que involucran aprendizaje profundo y visión por computadora, como robótica, atención médica y seguridad. El usuario podrá unirse a la creciente comunidad de entusiastas y profesionales de los vehículos autónomos y participar en diversos concursos y proyectos.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने से उपयोगकर्ता को कई लाभ भी होंगे। उपयोगकर्ता स्व-चालित कार अनुसंधान और विकास में वर्तमान अत्याधुनिक और भविष्य के रुझानों की सराहना करने में सक्षम होगा। उपयोगकर्ता स्व-चालित कारों के नैतिक, सामाजिक और कानूनी निहितार्थों का पता लगाने में सक्षम होगा, और वे कैसे एक सुरक्षित और अधिक कुशल परिवहन प्रणाली में योगदान कर सकते हैं। उपयोगकर्ता अपने ज्ञान और कौशल को अन्य डोमेन और अनुप्रयोगों में लागू करने में सक्षम होगा जिसमें रोबोटिक्स, स्वास्थ्य सेवा और सुरक्षा जैसे गहन शिक्षण और कंप्यूटर विज़न शामिल हैं। उपयोगकर्ता स्व-चालित कार उत्साही और पेशेवरों के बढ़ते समुदाय में शामिल हो सकेगा, और विभिन्न प्रतियोगिताओं और परियोजनाओं में भाग ले सकेगा।",
+                    // Portuguese
+                    "Português": "O usuário também obterá muitos benefícios com a leitura deste livro. O usuário poderá apreciar o estado da arte atual e as tendências futuras em pesquisa e desenvolvimento de carros autônomos. O usuário poderá explorar as implicações éticas, sociais e legais dos carros autônomos e como eles podem contribuir para um sistema de transporte mais seguro e eficiente. O usuário poderá aplicar seus conhecimentos e habilidades a outros domínios e aplicações que envolvem aprendizagem profunda e visão computacional, como robótica, saúde e segurança. O usuário poderá ingressar na crescente comunidade de entusiastas e profissionais de carros autônomos e participar de diversas competições e projetos.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ে ব্যবহারকারী অনেক সুবিধাও পাবেন। ব্যবহারকারী স্ব-ড্রাইভিং গাড়ি গবেষণা এবং উন্নয়নে বর্তমান অত্যাধুনিক এবং ভবিষ্যতের প্রবণতাগুলির প্রশংসা করতে সক্ষম হবে। ব্যবহারকারী স্ব-ড্রাইভিং গাড়িগুলির নৈতিক, সামাজিক এবং আইনি প্রভাবগুলি এবং কীভাবে তারা একটি নিরাপদ এবং আরও দক্ষ পরিবহন ব্যবস্থায় অবদান রাখতে পারে তা অন্বেষণ করতে সক্ষম হবে। ব্যবহারকারী তাদের জ্ঞান এবং দক্ষতা অন্যান্য ডোমেন এবং অ্যাপ্লিকেশনগুলিতে প্রয়োগ করতে সক্ষম হবে যা গভীর শিক্ষা এবং কম্পিউটার দৃষ্টি জড়িত, যেমন রোবোটিক্স, স্বাস্থ্যসেবা এবং নিরাপত্তা। ব্যবহারকারী স্ব-ড্রাইভিং কার উত্সাহী এবং পেশাদারদের ক্রমবর্ধমান সম্প্রদায়ের সাথে যোগ দিতে এবং বিভিন্ন প্রতিযোগিতা এবং প্রকল্পে অংশগ্রহণ করতে সক্ষম হবে।",
+                    // Arabic
+                    "عَرَبِيّ": "وسيحصل المستخدم أيضًا على العديد من الفوائد من قراءة هذا الكتاب. سيكون المستخدم قادرًا على تقدير أحدث الاتجاهات الحالية والمستقبلية في أبحاث وتطوير السيارات ذاتية القيادة. سيكون المستخدم قادرًا على استكشاف الآثار الأخلاقية والاجتماعية والقانونية للسيارات ذاتية القيادة، وكيف يمكن أن تساهم في نظام نقل أكثر أمانًا وكفاءة. سيكون المستخدم قادرًا على تطبيق معرفته ومهاراته على المجالات والتطبيقات الأخرى التي تتضمن التعلم العميق ورؤية الكمبيوتر، مثل الروبوتات والرعاية الصحية والأمن. وسيتمكن المستخدم من الانضمام إلى المجتمع المتنامي من عشاق ومحترفي السيارات ذاتية القيادة، والمشاركة في المسابقات والمشاريع المختلفة.",
+                    // Persian
+                    "فارسی": "کاربر نیز از خواندن این کتاب مزایای بسیاری را به دست خواهد آورد. کاربر می‌تواند از پیشرفت‌های فعلی و روندهای آینده در تحقیق و توسعه خودروهای خودران قدردانی کند. کاربر می‌تواند پیامدهای اخلاقی، اجتماعی و قانونی خودروهای خودران و اینکه چگونه می‌توانند به سیستم حمل‌ونقل ایمن‌تر و کارآمدتر کمک کنند را کشف کند. کاربر می‌تواند دانش و مهارت‌های خود را در حوزه‌ها و برنامه‌های کاربردی دیگری که شامل یادگیری عمیق و بینایی رایانه‌ای هستند، مانند رباتیک، مراقبت‌های بهداشتی و امنیت، به کار گیرد. کاربر می تواند به جامعه رو به رشد علاقه مندان و متخصصان خودروهای خودران بپیوندد و در مسابقات و پروژه های مختلف شرکت کند.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/SDC Engineering/Applied_Deep_Learning_and_Computer_Vision_for_Self_Driving_Cars.webp",
+        },
     ],
     // Mechanical Engineer
     "Mechanical Engineer": [
