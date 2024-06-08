@@ -961,7 +961,34 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Introduction: why is user research so important ?",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "As this chapter name says, in this chapter the book will talk about some introduction staff like 'Why is user research?', 'Who is this book for?', 'Why do user research?', 'What will you learn in this book?' and a brief description of each chapter.",
+                        // German
+                        "Deutsch": "Wie der Name dieses Kapitels schon sagt, werden in diesem Kapitel einige einführende Themen behandelt, wie etwa „Warum gibt es Benutzerforschung?“, „Für wen ist dieses Buch?“, „Warum betreiben Sie Benutzerforschung?“, „Was werden Sie in diesem Buch lernen?“ und es gibt eine kurze Beschreibung jedes Kapitels.",
+                        // Chinese
+                        "中国人": "正如章节名称所示，本书在本章中会讨论一些介绍性的内容，例如“为什么要进行用户研究？”，“这本书适合谁阅读？”，“为什么要进行用户研究？”，“你将在本书中学到什么？”，并对每个章节进行简要描述。",
+                        // Russian
+                        "Русский": "Как следует из названия главы, в этой главе в книге будут обсуждаться некоторые вводные темы, такие как «Зачем проводятся исследования пользователей?», «Для кого предназначена эта книга?», «Зачем проводить исследования пользователей?», «Что вы узнаете в этой главе». книга?' и краткое описание каждой главы.",
+                        // French
+                        "Français": "Comme le nom de ce chapitre l'indique, dans ce chapitre, le livre parlera de certaines introductions telles que « Pourquoi la recherche sur les utilisateurs ? », « À qui s'adresse ce livre ? », « Pourquoi faire de la recherche sur les utilisateurs ? », « Qu'allez-vous apprendre dans ce livre ? livre?' et une brève description de chaque chapitre.",
+                        // Japanese
+                        "日本語": "この章の名前が示すように、この章では、「なぜユーザーリサーチを行うのか」、「この本は誰を対象にしているのか」、「なぜユーザーリサーチを行うのか」、「この本で何を学ぶのか」などの入門的な内容と、各章の簡単な説明について説明します。",
+                        // Korean
+                        "한국인": "이 장 이름에서 알 수 있듯이, 이 장에서는 '왜 사용자 연구를 하는가?', '이 책은 누구를 위한 책인가?', '왜 사용자 연구를 하는가?', '이 책에서 무엇을 배울 것인가?'와 같은 소개 직원에 대해 이야기할 것입니다. 책?' 그리고 각 장에 대한 간략한 설명.",
+                        // Spanish
+                        "Español": "Como lo indica el nombre de este capítulo, en este capítulo el libro hablará sobre algunas introducciones como '¿Por qué se realiza la investigación de usuarios?', '¿Para quién es este libro?', '¿Por qué se realiza la investigación de usuarios?', '¿Qué aprenderás en este ¿libro?' y una breve descripción de cada capítulo.",
+                        // Hindi
+                        "हिंदी": "जैसा कि इस अध्याय के नाम से पता चलता है, इस अध्याय में पुस्तक कुछ परिचयात्मक विषयों के बारे में बात करेगी जैसे 'उपयोगकर्ता अनुसंधान क्यों है?', 'यह पुस्तक किसके लिए है?', 'उपयोगकर्ता अनुसंधान क्यों करें?', 'आप इस पुस्तक में क्या सीखेंगे?' और प्रत्येक अध्याय का संक्षिप्त विवरण।",
+                        // Portuguese
+                        "Português": "Como o nome deste capítulo diz, neste capítulo o livro falará sobre algumas introduções como 'Por que é a pesquisa do usuário?', 'Para quem é este livro?', 'Por que a pesquisa do usuário?', 'O que você aprenderá neste livro?' e uma breve descrição de cada capítulo.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ের নাম অনুসারে, এই অধ্যায়ে বইটি কিছু পরিচিতি কর্মীদের সম্পর্কে কথা বলবে যেমন 'ব্যবহারকারী গবেষণা কেন?', 'এই বইটি কার জন্য?', 'কেন ব্যবহারকারী গবেষণা করবেন?', 'এতে আপনি কী শিখবেন? বই?' এবং প্রতিটি অধ্যায়ের একটি সংক্ষিপ্ত বিবরণ।",
+                        // Arabic
+                        "عَرَبِيّ": "كما يشير اسم هذا الفصل، سيتحدث الكتاب في هذا الفصل عن بعض عناصر المقدمة مثل 'لماذا يتم البحث عن المستخدمين؟'، 'لمن هذا الكتاب؟'، 'لماذا يتم البحث عن المستخدمين؟'، 'ماذا ستتعلم في هذا الكتاب؟' كتاب؟' ووصف مختصر لكل فصل.",
+                        // Persian
+                        "فارسی": "همانطور که از نام این فصل می‌گوید، در این فصل کتاب در مورد برخی از کارکنان مقدماتی مانند 'چرا تحقیق کاربر است؟'، 'این کتاب برای چه کسی است؟'، 'چرا کاربر تحقیق می‌کنید؟'، 'در این مورد چه خواهید آموخت؟' صحبت خواهد کرد. کتاب؟' و شرح مختصری از هر فصل.",
+                    },
                 },
                 // 2
                 {
@@ -3263,7 +3290,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Design Tables",
                     "ShortDescriptionAboutChapter": "",
                 },
-                
+
             ],
             "TotalDescriptionAboutTheBook": [
                 // Paragraph 1
@@ -3828,7 +3855,7 @@ function ResponsiveAdaptive() {
         document.getElementById('first-view-skill-name-heading-introduction').style.fontSize = "10vw";
         document.getElementById('first-view-skill-name-heading-introduction').style.width = "90vw";
 
-        
+
 
 
 
