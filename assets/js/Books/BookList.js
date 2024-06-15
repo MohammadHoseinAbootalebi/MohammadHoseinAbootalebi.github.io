@@ -1089,157 +1089,994 @@ var BooksReadForEachSkillStaticContainer = {
                 // 5
                 {
                     "ChapterName": "Setting up for success",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter talks about ReOps which stands for Research Operations that handles all research staff about the product. Then, It is talked about Data Management and its related topics like Naming conventions, Example of shared drive folder and file names, Helping your colleagues keep track, and Participant data management. After that, the next topic is Communicating with participants, Admin, and Tools and infrastructure.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es um ReOps, was für Research Operations steht und alle Forschungsmitarbeiter mit dem Produkt betraut. Anschließend geht es um Datenmanagement und damit verbundene Themen wie Namenskonventionen, Beispiele für Ordner- und Dateinamen auf freigegebenen Laufwerken, wie Sie Ihren Kollegen den Überblick behalten und Teilnehmerdatenmanagement helfen. Danach geht es um die Kommunikation mit Teilnehmern, Admin sowie Tools und Infrastruktur.",
+                        // Chinese
+                        "中国人": "本章讨论了 ReOps，即研究运营，负责处理有关产品的所有研究人员。然后，讨论了数据管理及其相关主题，如命名约定、共享驱动器文件夹和文件名的示例、帮助您的同事跟踪以及参与者数据管理。之后，下一个主题是与参与者、管理员以及工具和基础设施进行沟通。",
+                        // Russian
+                        "Русский": "В этой главе рассказывается о ReOps, что означает исследовательские операции, которые касаются продукта всем исследовательским персоналом. Затем речь идет об управлении данными и связанных с ним темах, таких как соглашения об именах, пример имен папок и файлов на общем диске, помощь вашим коллегам в отслеживании и управление данными участников. После этого следующая тема — «Общение с участниками, администратором, инструментами и инфраструктурой».",
+                        // French
+                        "Français": "Ce chapitre parle de ReOps qui signifie Research Operations qui gère tout le personnel de recherche sur le produit. Ensuite, il est question de la gestion des données et de ses sujets connexes tels que les conventions de dénomination, les exemples de noms de dossiers et de fichiers du lecteur partagé, l'aide à vos collègues pour le suivi et la gestion des données des participants. Après cela, le sujet suivant est la communication avec les participants, l'administrateur, ainsi que les outils et l'infrastructure.",
+                        // Japanese
+                        "日本語": "この章では、製品に関するすべての研究スタッフを管理するReOps（リサーチオペレーション）について説明します。次に、命名規則、共有ドライブのフォルダとファイル名の例、同僚の追跡支援、参加者データの管理など、データ管理とそれに関連するトピックについて説明します。その後、参加者とのコミュニケーション、管理者、ツールとインフラストラクチャについて説明します。",
+                        // Korean
+                        "한국인": "이 장에서는 제품에 대한 모든 연구원을 처리하는 Research Operations(연구 운영)를 의미하는 ReOps에 대해 설명합니다. 그런 다음 데이터 관리 및 명명 규칙, 공유 드라이브 폴더 및 파일 이름의 예, 동료의 추적 지원, 참가자 데이터 관리와 같은 관련 주제에 대해 설명합니다. 그 후 다음 주제는 참가자, 관리자, 도구 및 인프라와의 통신입니다.",
+                        // Spanish
+                        "Español": "Este capítulo habla de ReOps, que significa Operaciones de investigación, que se encarga de todo el personal de investigación sobre el producto. Luego, se habla sobre la gestión de datos y sus temas relacionados, como convenciones de nomenclatura, ejemplos de nombres de archivos y carpetas de unidades compartidas, cómo ayudar a sus colegas a realizar un seguimiento y la gestión de datos de los participantes. Después de eso, el siguiente tema es Comunicación con los participantes, el administrador y las herramientas e infraestructura.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय ReOps के बारे में बात करता है जिसका मतलब है रिसर्च ऑपरेशन जो उत्पाद के बारे में सभी शोध कर्मचारियों को संभालता है। फिर, इसमें डेटा प्रबंधन और इसके संबंधित विषयों जैसे नामकरण सम्मेलनों, साझा ड्राइव फ़ोल्डर और फ़ाइल नामों का उदाहरण, अपने सहकर्मियों को ट्रैक रखने में मदद करना और प्रतिभागी डेटा प्रबंधन के बारे में बात की गई है। उसके बाद, अगला विषय प्रतिभागियों, व्यवस्थापक और उपकरण और बुनियादी ढांचे के साथ संवाद करना है।",
+                        // Portuguese
+                        "Português": "Este capítulo fala sobre ReOps, que significa Operações de Pesquisa, que trata de toda a equipe de pesquisa sobre o produto. Em seguida, é falado sobre gerenciamento de dados e seus tópicos relacionados, como convenções de nomenclatura, exemplo de pasta de unidade compartilhada e nomes de arquivos, ajudando seus colegas a manter o controle e gerenciamento de dados dos participantes. Depois disso, o próximo tópico é Comunicação com participantes, Administrador e Ferramentas e infraestrutura.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি ReOps সম্পর্কে কথা বলে যা গবেষণা অপারেশনগুলির জন্য দাঁড়িয়েছে যা পণ্য সম্পর্কে সমস্ত গবেষণা কর্মীদের পরিচালনা করে। তারপরে, এটি ডেটা ম্যানেজমেন্ট এবং এর সাথে সম্পর্কিত বিষয়গুলি যেমন নামকরণের প্রথা, শেয়ার্ড ড্রাইভ ফোল্ডার এবং ফাইলের নামগুলির উদাহরণ, আপনার সহকর্মীদের ট্র্যাক রাখতে সাহায্য করা এবং অংশগ্রহণকারী ডেটা পরিচালনা সম্পর্কে কথা বলা হয়। এর পরে, পরবর্তী বিষয় হল অংশগ্রহণকারীদের সাথে যোগাযোগ করা, অ্যাডমিন, এবং টুলস এবং অবকাঠামো।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث هذا الفصل عن ReOps والتي تعني عمليات البحث التي تتعامل مع جميع موظفي البحث حول المنتج. بعد ذلك، يتم الحديث عن إدارة البيانات والموضوعات ذات الصلة بها مثل اصطلاحات التسمية، ومثال على مجلدات محرك الأقراص المشتركة وأسماء الملفات، ومساعدة زملائك على التتبع، وإدارة بيانات المشاركين. بعد ذلك، الموضوع التالي هو التواصل مع المشاركين والمسؤول والأدوات والبنية التحتية.",
+                        // Persian
+                        "فارسی": "این فصل در مورد ReOps صحبت می کند که مخفف عبارت Research Operations است که تمام کارکنان تحقیقاتی را در مورد محصول مدیریت می کند. سپس، در مورد مدیریت داده ها و موضوعات مرتبط با آن مانند قراردادهای نامگذاری، نمونه ای از پوشه ها و نام فایل ها درایو مشترک، کمک به همکاران خود در پیگیری و مدیریت داده های شرکت کننده صحبت می شود. بعد از آن موضوع بعدی ارتباط با شرکت کنندگان، ادمین و ابزار و زیرساخت است.",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Managing user research logistics: agencies, facilities and contracts",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'Managing user research logistics' mainly talks about Logistics, Safety first, Appearance and perception when doing face-to-face research, Be aware of cultural differences, Doing user research with children, Hiring agencies, choosing facilities, signing contracts, and From Very small budget to Large budget.",
+                        // German
+                        "Deutsch": "Im Kapitel „Logistik für Benutzerforschung verwalten“ geht es hauptsächlich um Logistik, Sicherheit geht vor, Auftreten und Wahrnehmung bei der persönlichen Forschung, kulturelle Unterschiede beachten, Benutzerforschung mit Kindern durchführen, Agenturen beauftragen, Einrichtungen auswählen, Verträge unterzeichnen und vom sehr kleinen bis zum großen Budget.",
+                        // Chinese
+                        "中国人": "“管理用户研究物流”一章主要讨论物流、安全第一、进行面对面研究时的外观和感知、注意文化差异、与儿童一起进行用户研究、聘请机构、选择设施、签订合同以及从非常小的预算到大预算。",
+                        // Russian
+                        "Русский": "В главе «Управление логистикой исследований пользователей» в основном говорится о логистике, безопасности прежде всего, внешнем виде и восприятии при проведении личных исследований, учете культурных различий, проведении исследований пользователей с детьми, найме агентств, выборе помещений, подписании контрактов и От очень маленького бюджета до большого бюджета.",
+                        // French
+                        "Français": "Le chapitre « Gérer la logistique de la recherche sur les utilisateurs » parle principalement de la logistique, de la sécurité d'abord, de l'apparence et de la perception lors des recherches en face à face, d'être conscient des différences culturelles, de faire des recherches sur les utilisateurs avec des enfants, d'embaucher des agences, de choisir des installations, de signer des contrats et Du Très petit budget au Gros budget.",
+                        // Japanese
+                        "日本語": "「ユーザー調査ロジスティクスの管理」の章では、主にロジスティクス、安全第一、対面調査を行う際の外見と認識、文化の違いに注意すること、子供を対象にしたユーザー調査の実施、代理店の雇用、施設の選択、契約の締結、非常に小さな予算から大きな予算までについて説明します。",
+                        // Korean
+                        "한국인": "'사용자 연구 물류 관리' 장에서는 주로 물류, 안전 제일, 대면 조사 시 외모와 인식, 문화적 차이에 대한 인식, 어린이를 대상으로 한 사용자 연구 수행, 대행사 고용, 시설 선택, 계약 체결 및 아주 작은 예산부터 큰 예산까지.",
+                        // Spanish
+                        "Español": "El capítulo 'Gestión de la logística de investigación de usuarios' habla principalmente sobre logística, seguridad primero, apariencia y percepción al realizar una investigación cara a cara, ser consciente de las diferencias culturales, realizar investigaciones de usuarios con niños, contratar agencias, elegir instalaciones, firmar contratos y Desde presupuesto muy pequeño hasta presupuesto grande.",
+                        // Hindi
+                        "हिंदी": "'ব্যবহারকারী গবেষণা লজিস্টিক পরিচালনা' অধ্যায়টি মূলত লজিস্টিক, নিরাপত্তা প্রথম, মুখোমুখি গবেষণা করার সময় উপস্থিতি এবং উপলব্ধি, সাংস্কৃতিক পার্থক্য সম্পর্কে সচেতন হওয়া, শিশুদের সাথে ব্যবহারকারীর গবেষণা করা, নিয়োগকারী সংস্থা, সুবিধা নির্বাচন করা, চুক্তি স্বাক্ষর করা এবং খুব ছোট বাজেট থেকে বড় বাজেটে।",
+                        // Portuguese
+                        "Português": "O capítulo 'Gerenciando a logística de pesquisa de usuários' fala principalmente sobre Logística, Segurança em primeiro lugar, Aparência e percepção ao fazer pesquisas presenciais, Estar ciente das diferenças culturais, Fazer pesquisas de usuários com crianças, Contratar agências, escolher instalações, assinar contratos, e Do orçamento muito pequeno ao orçamento grande.",
+                        // Bengali
+                        "বাংলা": "'ব্যবহারকারী গবেষণা লজিস্টিক পরিচালনা' অধ্যায়টি মূলত লজিস্টিক, নিরাপত্তা প্রথম, মুখোমুখি গবেষণা করার সময় উপস্থিতি এবং উপলব্ধি, সাংস্কৃতিক পার্থক্য সম্পর্কে সচেতন হওয়া, শিশুদের সাথে ব্যবহারকারীর গবেষণা করা, নিয়োগকারী সংস্থা, সুবিধা নির্বাচন করা, চুক্তি স্বাক্ষর করা এবং খুব ছোট বাজেট থেকে বড় বাজেটে।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث فصل 'إدارة لوجستيات بحث المستخدم' بشكل أساسي عن الخدمات اللوجستية، والسلامة أولاً، والمظهر والإدراك عند إجراء بحث وجهًا لوجه، وكن على دراية بالاختلافات الثقافية، وإجراء بحث المستخدم مع الأطفال، وتوظيف الوكالات، واختيار المرافق، وتوقيع العقود، و من ميزانية صغيرة جدًا إلى ميزانية كبيرة.",
+                        // Persian
+                        "فارسی": "فصل 'مدیریت تدارکات تحقیقات کاربر' عمدتاً در مورد لجستیک، ابتدا ایمنی، ظاهر و ادراک هنگام انجام تحقیقات حضوری، آگاهی از تفاوت‌های فرهنگی، انجام تحقیقات کاربر با کودکان، آژانس‌های استخدام، انتخاب امکانات، امضای قرارداد، و از بودجه بسیار کم تا بودجه بزرگ.",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Usability testing: observing people doing things",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'Usability testing' simply talks about how to observe people doing things. In this chapter, the reader will learn about 'What is usability testing?', 'The fundamentals of moderated usability testing', 'What moderated usability testing is good for', 'What moderated usability testing is not good for', 'Effort required to do this kind of research', a case study about moderated usability testing, 'When to use moderated usability testing', 'How to do moderated usability testing', 'Creating a protocol or a script', 'What should a protocol contain?', 'Tools for moderated usability testing', and the same stuff related to 'The fundamentals of unmoderated usability testing'.",
+                        // German
+                        "Deutsch": "Im Kapitel „Usability-Tests“ geht es einfach darum, wie man Menschen bei der Arbeit beobachtet. In diesem Kapitel erfährt der Leser, was Usability-Tests sind, die Grundlagen moderierter Usability-Tests, wofür moderierte Usability-Tests gut sind, wofür moderierte Usability-Tests nicht gut sind, welchen Aufwand diese Art von Forschung erfordert, eine Fallstudie zu moderierten Usability-Tests, wann moderierte Usability-Tests verwendet werden, wie moderierte Usability-Tests durchgeführt werden, ein Protokoll oder Skript erstellt wird, was ein Protokoll enthalten sollte, Tools für moderierte Usability-Tests und dasselbe wie in „Die Grundlagen unmoderierter Usability-Tests“.",
+                        // Chinese
+                        "中国人": "“可用性测试”一章只是谈论如何观察人们做事。在本章中，读者将了解“什么是可用性测试？”，“有主持可用性测试的基本原理”，“有主持可用性测试的优点”，“有主持可用性测试的缺点”，“进行此类研究所需的努力”，有关有主持可用性测试的案例研究，“何时使用有主持可用性测试”，“如何进行有主持可用性测试”，“创建协议或脚本”，“协议应包含什么？”，“有主持可用性测试的工具”，以及与“无主持可用性测试的基本原理”相关的相同内容。",
+                        // Russian
+                        "Русский": "В главе «Юзабилити-тестирование» просто рассказывается о том, как наблюдать за тем, как люди что-то делают. В этой главе читатель узнает о том, «Что такое юзабилити-тестирование?», «Основы модерируемого юзабилити-тестирования», «Чем модерируемое юзабилити-тестирование полезно», «Чем модерируемое юзабилити-тестирование не годится», «Требуемые усилия». проводить такого рода исследования», тематическое исследование модерируемого юзабилити-тестирования, «Когда использовать модерируемое юзабилити-тестирование», «Как проводить модерируемое юзабилити-тестирование», «Создание протокола или сценария», «Что должен содержать протокол?» ', «Инструменты для модерируемого юзабилити-тестирования» и то же самое, связанное с «Основами немодерируемого юзабилити-тестирования».",
+                        // French
+                        "Français": "Le chapitre « Tests d'utilisabilité » explique simplement comment observer les gens faire les choses. Dans ce chapitre, le lecteur découvrira « Qu'est-ce que les tests d'utilisabilité ? », « Les principes fondamentaux des tests d'utilisabilité modérés », « À quoi servent les tests d'utilisabilité modérés », « À quoi servent les tests d'utilisabilité modérés », « Effort requis » faire ce genre de recherche », une étude de cas sur les tests d'utilisabilité modérés, « Quand utiliser les tests d'utilisabilité modérés », « Comment faire des tests d'utilisabilité modérés », « Créer un protocole ou un script », « Que doit contenir un protocole ? », « Outils pour les tests d'utilisabilité modérés », et les mêmes éléments liés à « Les principes fondamentaux des tests d'utilisabilité non modérés ».",
+                        // Japanese
+                        "日本語": "「ユーザビリティ テスト」の章では、人々の行動を観察する方法について簡単に説明します。この章では、「ユーザビリティ テストとは何か」、「モデレートされたユーザビリティ テストの基礎」、「モデレートされたユーザビリティ テストの適した用途」、「モデレートされたユーザビリティ テストの適していない用途」、「この種の調査に必要な労力」、モデレートされたユーザビリティ テストに関するケース スタディ、「モデレートされたユーザビリティ テストを使用するタイミング」、「モデレートされたユーザビリティ テストの実施方法」、「プロトコルまたはスクリプトの作成」、「プロトコルには何を含めるべきか」、「モデレートされたユーザビリティ テストのツール」、および「モデレートされていないユーザビリティ テストの基礎」に関連する内容について学習します。",
+                        // Korean
+                        "한국인": "'사용성 테스트' 장에서는 사람들이 일을 하는 것을 관찰하는 방법에 대해 간단히 설명합니다. 이 장에서 독자는 '사용성 테스팅이란 무엇인가?', '중간 사용성 테스팅의 기본', '중간 사용성 테스팅이 좋은 점', '중간 사용성 테스팅이 좋지 않은 점', '필요한 노력'에 대해 배울 것입니다. 이런 종류의 연구를 수행하기', 조정된 사용성 테스트에 대한 사례 연구, '조정된 사용성 테스트를 사용해야 하는 경우', '조정된 사용성 테스트를 수행하는 방법', '프로토콜 또는 스크립트 작성', '프로토콜에는 무엇을 포함해야 합니까? ', '조정된 유용성 테스트를 위한 도구' 및 '조정되지 않은 유용성 테스트의 기본'과 관련된 동일한 내용입니다.",
+                        // Spanish
+                        "Español": "El capítulo 'Pruebas de usabilidad' simplemente habla de cómo observar a las personas haciendo cosas. En este capítulo, el lector aprenderá sobre '¿Qué son las pruebas de usabilidad?', 'Los fundamentos de las pruebas de usabilidad moderadas', 'Para qué son buenas las pruebas de usabilidad moderadas', 'Para qué no son buenas las pruebas de usabilidad moderadas', 'Esfuerzo requerido'. para hacer este tipo de investigación', un estudio de caso sobre pruebas de usabilidad moderadas, 'Cuándo usar pruebas de usabilidad moderadas', 'Cómo hacer pruebas de usabilidad moderadas', 'Creación de un protocolo o un script', '¿Qué debe contener un protocolo? ', 'Herramientas para pruebas de usabilidad moderadas' y lo mismo relacionado con 'Los fundamentos de las pruebas de usabilidad no moderadas'.",
+                        // Hindi
+                        "हिंदी": "'उपयोगिता परीक्षण' अध्याय में केवल इस बारे में बात की गई है कि लोगों को काम करते हुए कैसे देखा जाए। इस अध्याय में, पाठक 'उपयोगिता परीक्षण क्या है?', 'संयमित प्रयोज्यता परीक्षण के मूल सिद्धांत', 'संयमित प्रयोज्यता परीक्षण किसके लिए अच्छा है', 'संयमित प्रयोज्यता परीक्षण किसके लिए अच्छा नहीं है', 'इस तरह के शोध करने के लिए आवश्यक प्रयास', संयमित प्रयोज्यता परीक्षण के बारे में एक केस स्टडी, 'संयमित प्रयोज्यता परीक्षण का उपयोग कब करें', 'संयमित प्रयोज्यता परीक्षण कैसे करें', 'प्रोटोकॉल या स्क्रिप्ट बनाना', 'प्रोटोकॉल में क्या होना चाहिए?', 'संयमित प्रयोज्यता परीक्षण के लिए उपकरण', और 'असंयमित प्रयोज्यता परीक्षण के मूल सिद्धांत' से संबंधित समान सामग्री के बारे में जानेंगे।",
+                        // Portuguese
+                        "Português": "O capítulo 'Testes de usabilidade' simplesmente fala sobre como observar as pessoas fazendo coisas. Neste capítulo, o leitor aprenderá sobre 'O que é teste de usabilidade?', 'Os fundamentos do teste de usabilidade moderado', 'Para que serve o teste de usabilidade moderado', 'Para que serve o teste de usabilidade moderado', 'Esforço necessário para fazer este tipo de pesquisa', um estudo de caso sobre testes de usabilidade moderados, 'Quando usar testes de usabilidade moderados', 'Como fazer testes de usabilidade moderados', 'Criando um protocolo ou script', 'O que um protocolo deve conter? ', 'Ferramentas para testes de usabilidade moderados' e o mesmo material relacionado a 'Os fundamentos dos testes de usabilidade não moderados'.",
+                        // Bengali
+                        "বাংলা": "'ব্যবহারযোগ্যতা পরীক্ষা' অধ্যায়টি সহজভাবে লোকেদের কাজগুলি কীভাবে পর্যবেক্ষণ করতে হয় সে সম্পর্কে কথা বলে। এই অধ্যায়ে, পাঠক 'ব্যবহারযোগ্যতা পরীক্ষা কী?', 'পরিমিত ব্যবহারযোগ্যতা পরীক্ষার মৌলিক বিষয়গুলি', 'মডারেটেড ব্যবহারযোগ্যতা পরীক্ষা কীসের জন্য ভাল', 'কিসের জন্য পরিমিত ব্যবহারযোগ্যতা পরীক্ষা ভাল নয়', 'প্রচেষ্টা প্রয়োজন' সম্পর্কে শিখবেন। এই ধরনের গবেষণা করতে', পরিমিত ব্যবহারযোগ্যতা পরীক্ষা সম্পর্কে একটি কেস স্টাডি, 'কখন পরিমিত ব্যবহারযোগ্যতা পরীক্ষা ব্যবহার করবেন', 'কীভাবে পরিমিত ব্যবহারযোগ্যতা পরীক্ষা করবেন', 'একটি প্রোটোকল বা একটি স্ক্রিপ্ট তৈরি করা হচ্ছে', 'প্রটোকলের মধ্যে কী থাকা উচিত? ', 'মডারেটেড ব্যবহারযোগ্যতা পরীক্ষার জন্য সরঞ্জাম', এবং 'অনিয়ন্ত্রিত ব্যবহারযোগ্যতা পরীক্ষার মৌলিক বিষয়গুলি' সম্পর্কিত একই জিনিস।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث فصل 'اختبار قابلية الاستخدام' ببساطة عن كيفية مراقبة الأشخاص وهم يفعلون الأشياء. في هذا الفصل، سيتعرف القارئ على 'ما هو اختبار قابلية الاستخدام؟'، 'أساسيات اختبار قابلية الاستخدام الخاضع للإشراف'، 'ما هو اختبار قابلية الاستخدام الخاضع للإشراف الجيد'، 'ما هو اختبار قابلية الاستخدام الخاضع للإشراف ليس جيدًا'، 'الجهد المطلوب' للقيام بهذا النوع من الأبحاث'، دراسة حالة حول اختبار قابلية الاستخدام الخاضع للإشراف، 'متى يتم استخدام اختبار قابلية الاستخدام الخاضع للإشراف'، 'كيفية إجراء اختبار قابلية الاستخدام الخاضع للإشراف'، 'إنشاء بروتوكول أو برنامج نصي'، 'ما الذي يجب أن يحتوي عليه البروتوكول؟' '،' أدوات اختبار قابلية الاستخدام الخاضع للإشراف '، ونفس الأشياء المتعلقة بـ 'أساسيات اختبار قابلية الاستخدام غير الخاضع للإشراف'.",
+                        // Persian
+                        "فارسی": "فصل 'آزمایش قابلیت استفاده' به سادگی در مورد چگونگی مشاهده افراد در حال انجام کارها صحبت می کند. در این فصل، خواننده در مورد 'تست قابلیت استفاده چیست؟'، 'اصول تست قابلیت استفاده تعدیل شده'، 'تست قابلیت استفاده تعدیل شده برای چه چیزی خوب است'، 'تست قابلیت استفاده تعدیل شده برای چه چیزی خوب نیست'، 'تلاش لازم است' آشنا خواهد شد. برای انجام این نوع تحقیقات، یک مطالعه موردی در مورد تست قابلیت استفاده تعدیل شده، «چه زمانی از تست قابلیت استفاده تعدیل شده استفاده کنیم»، «چگونه تست قابلیت استفاده تعدیل شده را انجام دهیم»، «ایجاد یک پروتکل یا یک اسکریپت»، «یک پروتکل باید شامل چه مواردی باشد؟ '، 'ابزارهایی برای تست قابلیت استفاده تعدیل شده'، و موارد مشابه مربوط به 'اصول تست قابلیت استفاده تعدیل نشده'.",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Content testing: what do people think your content means ?",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "In this chapter, it is mainly talked about the 'What do people think your content means?'. The topics are 'What is good content?', 'What content testing is good for', 'What content testing is not good for', 'Effort required to do this kind of research', 'When to use content testing', 'How to test the effectiveness of content', 'Comprehension testing', 'Cloze testing', 'A/B (comparative) testing', and 'Guerrilla content testing'.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es hauptsächlich um die Frage „Was glauben die Leute, was Ihr Inhalt bedeutet?“. Die Themen sind „Was ist guter Inhalt?“, „Wofür Inhaltstests gut sind?“, „Wofür Inhaltstests nicht gut sind?“, „Aufwand für diese Art von Recherche“, „Wann Inhaltstests eingesetzt werden“, „Wie testet man die Wirksamkeit von Inhalten?“, „Verständnistests“, „Cloze-Tests“, „A/B-Tests (Vergleichstests)“ und „Guerilla-Inhaltstests“.",
+                        // Chinese
+                        "中国人": "本章主要讨论‘人们认为您的内容意味着什么？’。主题包括‘什么是好的内容？’，‘内容测试有什么用’，‘内容测试有什么用’，‘进行此类研究所需的努力’，‘何时使用内容测试’，‘如何测试内容的有效性’，‘理解力测试’，‘完形填空测试’，‘A/B（比较）测试’和‘游击内容测试’。",
+                        // Russian
+                        "Русский": "В этой главе в основном говорится о том, «Что люди думают о вашем контенте?». Темы: «Что такое хороший контент?», «Для чего полезно тестирование контента», «Для чего тестирование контента не подходит», «Усилия, необходимые для проведения такого рода исследований», «Когда использовать тестирование контента», « Как проверить эффективность контента», «Тестирование понимания», «Тестирование Cloze», «A/B (сравнительное) тестирование» и «Партизанское тестирование контента».",
+                        // French
+                        "Français": "Dans ce chapitre, il est principalement question de « Que pensent les gens de votre contenu ? ». Les sujets sont « Qu'est-ce qu'un bon contenu ? », « À quoi servent les tests de contenu », « À quoi servent les tests de contenu », « Effort requis pour effectuer ce type de recherche », « Quand utiliser les tests de contenu », « Comment tester l'efficacité du contenu », « Tests de compréhension », « Tests Cloze », « Tests A/B (comparatifs) » et « Tests de contenu Guerrilla ».",
+                        // Japanese
+                        "日本語": "この章では、主に「あなたのコンテンツが何を意味していると人々は考えているか」について説明します。トピックは、「良いコンテンツとは何か」、「コンテンツ テストが適しているもの」、「コンテンツ テストが適していないもの」、「この種の調査を行うために必要な労力」、「コンテンツ テストを使用するタイミング」、「コンテンツの有効性をテストする方法」、「理解度テスト」、「クローズ テスト」、「A/B (比較) テスト」、「ゲリラ コンテンツ テスト」です。",
+                        // Korean
+                        "한국인": "이번 장에서는 '사람들이 당신의 콘텐츠가 무엇을 의미한다고 생각하는가?'에 대해 주로 이야기합니다. 주제는 '좋은 콘텐츠란 무엇인가?', '어떤 콘텐츠 테스팅이 좋은가', '어떤 콘텐츠 테스팅이 좋지 않은가', '이런 연구를 하려면 노력이 필요하다', '콘텐츠 테스팅을 언제 사용해야 하는가', ' 콘텐츠의 유효성을 테스트하는 방법', '이해 테스트', 'Cloze 테스트', 'A/B(비교) 테스트', '게릴라 콘텐츠 테스트'.",
+                        // Spanish
+                        "Español": "En este capítulo, se habla principalmente de '¿Qué cree la gente que significa tu contenido?'. Los temas son '¿Qué es un buen contenido?', 'Para qué son buenas las pruebas de contenido', 'Para qué no son buenas las pruebas de contenido', 'Esfuerzo necesario para realizar este tipo de investigación', 'Cuándo utilizar las pruebas de contenido', ' Cómo probar la efectividad del contenido', 'Pruebas de comprensión', 'Pruebas de cierre', 'Pruebas A/B (comparativas)' y 'Pruebas de contenido de guerrilla'.",
+                        // Hindi
+                        "हिंदी": "इस अध्याय में मुख्य रूप से इस बारे में बात की गई है कि 'लोग आपके कंटेंट का क्या मतलब समझते हैं?'। विषय हैं 'अच्छा कंटेंट क्या है?', 'कंटेंट टेस्टिंग किसके लिए अच्छा है', 'कंटेंट टेस्टिंग किसके लिए अच्छा नहीं है', 'इस तरह के शोध करने के लिए आवश्यक प्रयास', 'कंटेंट टेस्टिंग का उपयोग कब करें', 'कंटेंट की प्रभावशीलता का परीक्षण कैसे करें', 'समझ परीक्षण', 'क्लोज परीक्षण', 'ए/बी (तुलनात्मक) परीक्षण' और 'गुरिल्ला कंटेंट परीक्षण'।",
+                        // Portuguese
+                        "Português": "Neste capítulo, fala-se principalmente sobre 'O que as pessoas acham que o seu conteúdo significa?'. Os tópicos são 'O que é um bom conteúdo?', 'Para que serve o teste de conteúdo', 'Para que o teste de conteúdo não é bom', 'Esforço necessário para fazer este tipo de pesquisa', 'Quando usar o teste de conteúdo', ' Como testar a eficácia do conteúdo', 'Teste de compreensão', 'Teste Cloze', 'Teste A/B (comparativo)' e 'Teste de conteúdo de guerrilha'.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ে, এটি প্রধানত 'লোকেরা আপনার বিষয়বস্তু মানে কি মনে করে?' সম্পর্কে কথা বলা হয়েছে. বিষয়গুলি হল 'ভাল বিষয়বস্তু কী?', 'কোন বিষয়বস্তুর পরীক্ষা করা ভাল', 'কোন বিষয়বস্তুর পরীক্ষা ভাল নয়', 'এই ধরনের গবেষণা করার জন্য প্রচেষ্টা প্রয়োজন', 'কন্টেন্ট টেস্টিং কখন ব্যবহার করতে হবে', ' কিভাবে বিষয়বস্তুর কার্যকারিতা পরীক্ষা করা যায়', 'বোধগম্য পরীক্ষা', 'ক্লোজ টেস্টিং', 'A/B (তুলনামূলক) পরীক্ষা', এবং 'গেরিলা বিষয়বস্তু পরীক্ষা'।",
+                        // Arabic
+                        "عَرَبِيّ": "في هذا الفصل، يتم الحديث بشكل أساسي عن 'ماذا يعتقد الناس أن المحتوى الخاص بك يعني؟'. المواضيع هي 'ما هو المحتوى الجيد؟'، 'ما هو المحتوى المناسب لاختبار المحتوى'، 'ما هو اختبار المحتوى غير الجيد'، 'الجهد المطلوب للقيام بهذا النوع من البحث'، 'متى يتم استخدام اختبار المحتوى'، '' كيفية اختبار فعالية المحتوى، و'اختبار الفهم'، و'اختبار الغلق'، و'اختبار أ/ب (المقارن)، و'اختبار محتوى حرب العصابات'.",
+                        // Persian
+                        "فارسی": "در این فصل، عمدتاً در مورد 'مردم فکر می کنند محتوای شما به چه معناست؟' صحبت می شود. عناوین عبارتند از «محتوای خوب چیست؟»، «تست محتوا برای چه چیزی خوب است»، «تست محتوا برای چه چیزی خوب نیست»، «تلاش لازم برای انجام این نوع تحقیق»، «زمان استفاده از تست محتوا»، « نحوه آزمایش اثربخشی محتوا، «تست درک مطلب»، «تست کلوز»، «تست A/B (مقایسه‌ای)» و «تست محتوای چریکی».",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Card sorting: understanding how people group and relate things",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "Card sorting is a method used to understand how people think about and associate things, grouping items that are related to each other. This chapter mainly topics are 'What card sorting is good for', 'What card sorting is not good for', 'When to use card sorting', 'When to do hybrid testing', 'When to do iterative card sorting', 'Effort required to do this kind of research', 'How to do card sorting', and 'Tools for card sorting'.",
+                        // German
+                        "Deutsch": "Card Sorting ist eine Methode, mit der man verstehen kann, wie Menschen über Dinge denken und sie assoziieren, indem man Dinge gruppiert, die miteinander in Zusammenhang stehen. Die Hauptthemen dieses Kapitels sind „Wofür Card Sorting gut ist“, „Wofür Card Sorting nicht gut ist“, „Wann Card Sorting verwendet werden sollte“, „Wann Hybridtests durchgeführt werden sollten“, „Wann iteratives Card Sorting durchgeführt werden sollte“, „Aufwand für diese Art von Forschung“, „Wie Card Sorting durchgeführt wird“ und „Tools für Card Sorting“.",
+                        // Chinese
+                        "中国人": "卡片分类是一种用于了解人们如何思考和联想事物的方法，将相互关联的项目分组。本章主要讨论“卡片分类有什么用”、“卡片分类有什么用”、“何时使用卡片分类”、“何时进行混合测试”、“何时进行迭代卡片分类”、“进行此类研究所需的努力”、“如何进行卡片分类”和“卡片分类的工具”。",
+                        // Russian
+                        "Русский": "Сортировка карточек — это метод, используемый для понимания того, как люди думают и связывают вещи, группируя предметы, связанные друг с другом. Главные темы этой главы: «Для чего подходит сортировка карточек», «Для чего сортировка карточек не годится», «Когда использовать сортировку карточек», «Когда проводить гибридное тестирование», «Когда проводить итеративную сортировку карточек», Усилия, необходимые для проведения такого рода исследования», «Как сортировать карточки» и «Инструменты для сортировки карточек».",
+                        // French
+                        "Français": "Le tri des cartes est une méthode utilisée pour comprendre comment les gens pensent et associent les choses, en regroupant les éléments liés les uns aux autres. Ce chapitre traite principalement des sujets suivants : « À quoi sert le tri des cartes », « À quoi sert le tri des cartes ? », « Quand utiliser le tri des cartes », « Quand effectuer des tests hybrides », « Quand effectuer un tri itératif des cartes », « Effort requis pour effectuer ce type de recherche », « Comment effectuer le tri des cartes » et « Outils de tri des cartes ».",
+                        // Japanese
+                        "日本語": "カード ソートは、人々が物事についてどのように考え、関連付けているかを理解するために使用する手法で、互いに関連する項目をグループ化します。この章の主なトピックは、「カード ソートが適している用途」、「カード ソートが適していない用途」、「カード ソートを使用するタイミング」、「ハイブリッド テストを実行するタイミング」、「反復カード ソートを実行するタイミング」、「この種の調査に必要な労力」、「カード ソートの実行方法」、「カード ソートのツール」です。",
+                        // Korean
+                        "한국인": "카드 정렬은 사람들이 사물에 대해 어떻게 생각하고 연관시키는지 이해하고, 서로 관련된 항목을 그룹화하는 데 사용되는 방법입니다. 이 장에서는 주로 '어떤 카드 정렬이 좋은지', '어떤 카드 정렬이 좋지 않은지', '카드 정렬을 사용해야 하는 경우', '하이브리드 테스트를 수행하는 경우', '반복 카드 정렬을 수행하는 경우', ' 이런 연구를 하기 위해서는 노력이 필요하다', '카드 분류 방법', '카드 분류 도구' 등이 있다.",
+                        // Spanish
+                        "Español": "La clasificación de tarjetas es un método utilizado para comprender cómo las personas piensan y asocian las cosas, agrupando elementos que están relacionados entre sí. Los temas principales de este capítulo son 'Para qué es buena la clasificación de tarjetas', 'Para qué no es buena la clasificación de tarjetas', 'Cuándo utilizar la clasificación de tarjetas', 'Cuándo realizar pruebas híbridas', 'Cuándo realizar la clasificación de tarjetas iterativa', Esfuerzo necesario para realizar este tipo de investigación', 'Cómo clasificar tarjetas' y 'Herramientas para clasificar tarjetas'.",
+                        // Hindi
+                        "हिंदी": "कार्ड सॉर्टिंग एक ऐसी विधि है जिसका उपयोग यह समझने के लिए किया जाता है कि लोग किस तरह से चीजों के बारे में सोचते हैं और उन्हें जोड़ते हैं, एक दूसरे से संबंधित वस्तुओं को समूहीकृत करते हैं। इस अध्याय के मुख्य विषय हैं 'कार्ड सॉर्टिंग किसके लिए अच्छी है', 'कार्ड सॉर्टिंग किसके लिए अच्छी नहीं है', 'कार्ड सॉर्टिंग का उपयोग कब करें', 'हाइब्रिड परीक्षण कब करें', 'पुनरावृत्त कार्ड सॉर्टिंग कब करें', 'इस तरह के शोध को करने के लिए आवश्यक प्रयास', 'कार्ड सॉर्टिंग कैसे करें', और 'कार्ड सॉर्टिंग के लिए उपकरण'।",
+                        // Portuguese
+                        "Português": "Card sorting é um método usado para entender como as pessoas pensam e associam as coisas, agrupando itens que estão relacionados entre si. Os principais tópicos deste capítulo são 'Para que a classificação de cartões é boa', 'Para que a classificação de cartões não é boa', 'Quando usar a classificação de cartões', 'Quando fazer testes híbridos', 'Quando fazer a classificação iterativa de cartões', ' Esforço necessário para fazer este tipo de pesquisa', 'Como fazer a classificação de cartões' e 'Ferramentas para classificação de cartões'.",
+                        // Bengali
+                        "বাংলা": "কার্ড বাছাই করা একটি পদ্ধতি যা বোঝার জন্য ব্যবহৃত হয় যে লোকেরা কীভাবে জিনিসগুলি সম্পর্কে চিন্তা করে এবং যুক্ত করে, একে অপরের সাথে সম্পর্কিত আইটেমগুলিকে গোষ্ঠীবদ্ধ করে। এই অধ্যায়ে প্রধানত বিষয়গুলি হল 'কিসের জন্য কার্ড বাছাই করা ভাল', 'কীসের জন্য কার্ড সাজানো ভাল নয়', 'কখন কার্ড বাছাই ব্যবহার করতে হবে', 'হাইব্রিড টেস্টিং কখন করতে হবে', 'কখন পুনরাবৃত্তিমূলক কার্ড বাছাই করতে হবে', ' এই ধরনের গবেষণা করার জন্য প্রচেষ্টা প্রয়োজন, 'কার্ড সাজানোর পদ্ধতি', এবং 'কার্ড সাজানোর সরঞ্জাম'।",
+                        // Arabic
+                        "عَرَبِيّ": "فرز البطاقات هو أسلوب يستخدم لفهم كيفية تفكير الأشخاص في الأشياء وربطها، وتجميع العناصر المرتبطة ببعضها البعض. موضوعات هذا الفصل بشكل أساسي هي 'ما هو فرز البطاقات المناسب'، 'ما هو فرز البطاقات غير الجيد'، 'متى يتم استخدام فرز البطاقات'، 'متى يتم إجراء اختبار مختلط'، 'متى يتم فرز البطاقات التكراري'، '' الجهد المطلوب للقيام بهذا النوع من البحث، و'كيفية فرز البطاقات'، و'أدوات فرز البطاقات'.",
+                        // Persian
+                        "فارسی": "مرتب‌سازی کارت روشی است که برای درک اینکه مردم چگونه در مورد چیزها فکر می‌کنند و آنها را مرتبط می‌کنند، گروه‌بندی اقلام مرتبط با یکدیگر استفاده می‌شود. این فصل عمدتاً عناوین «مرتب‌سازی کارت برای چه چیزهایی خوب است»، «مرتب‌سازی کارت برای چه مواردی خوب نیست»، «زمان استفاده از مرتب‌سازی کارت»، «زمان انجام آزمایش ترکیبی»، «زمان انجام مرتب‌سازی کارت تکراری»، برای انجام این نوع تحقیق، «چگونه مرتب‌سازی کارت» و «ابزار مرتب‌سازی کارت» انجام شود، تلاش لازم است.",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Surveys: how to gauge a widespread user response",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'Surveys' mainly talks about the surveys and how to gauge a widespread user response. the talked topics are 'What are surveys?', 'What surveys are good for', 'What surveys are not good for', 'When to do a survey', 'Effort required to do this kind of research', 'How to do surveys', and 'Survey tools'.",
+                        // German
+                        "Deutsch": "Im Kapitel „Umfragen“ geht es hauptsächlich um Umfragen und darum, wie sich eine breite Benutzerreaktion messen lässt. Die besprochenen Themen sind „Was sind Umfragen?“, „Wofür sind Umfragen gut?“, „Wofür sind Umfragen nicht gut?“, „Wann sollte man eine Umfrage durchführen?“, „Welcher Aufwand ist für diese Art von Untersuchung erforderlich?“, „Wie führt man Umfragen durch?“ und „Umfrage-Tools“.",
+                        // Chinese
+                        "中国人": "“调查”一章主要讨论调查以及如何衡量广泛的用户反应。讨论的主题包括“什么是调查？”，“调查有什么用”，“调查有什么用”，“何时进行调查”，“进行此类研究所需的努力”，“如何进行调查”和“调查工具”。",
+                        // Russian
+                        "Русский": "В главе «Опросы» в основном говорится об опросах и о том, как оценить широкую реакцию пользователей. обсуждаемые темы: «Что такое опросы?», «Для чего опросы хороши», «Для чего опросы не подходят», «Когда проводить опрос», «Усилия, необходимые для проведения такого рода исследований», «Как проводить опросы» и «Инструменты опросов».",
+                        // French
+                        "Français": "Le chapitre « Enquêtes » parle principalement des enquêtes et de la manière d'évaluer une réponse généralisée des utilisateurs. les sujets abordés sont « Que sont les enquêtes ? », « À quoi servent les enquêtes », « À quoi servent les enquêtes ? », « Quand faire une enquête », « Effort requis pour faire ce type de recherche », « Comment faire des enquêtes » et « Outils d'enquête ».",
+                        // Japanese
+                        "日本語": "「調査」の章では、主に調査と、幅広いユーザーの反応を測定する方法について説明します。取り上げるトピックは、「調査とは何か」、「調査が適しているもの」、「調査が適していないもの」、「調査を実施するタイミング」、「この種の調査を行うために必要な労力」、「調査の実施方法」、「調査ツール」です。",
+                        // Korean
+                        "한국인": "'설문조사' 장에서는 주로 설문조사와 광범위한 사용자 반응을 측정하는 방법에 대해 설명합니다. 화제의 주제는 '설문조사란 무엇인가?', '어떤 설문조사가 좋은가', '어떤 설문조사가 좋지 않은가', '설문조사는 언제 해야 하는가', '이런 연구를 하려면 어떤 노력이 필요한가', '어떻게 해야 하는가' 등이다. 설문조사를 하세요', '설문조사 도구'를 선택하세요.",
+                        // Spanish
+                        "Español": "El capítulo 'Encuestas' habla principalmente sobre las encuestas y cómo medir una respuesta generalizada de los usuarios. los temas tratados son '¿Qué son las encuestas?', '¿Para qué son buenas las encuestas', 'Para qué no son buenas las encuestas', 'Cuándo hacer una encuesta', 'Esfuerzo requerido para hacer este tipo de investigación', 'Cómo hacer encuestas' y 'Herramientas de encuestas'.",
+                        // Hindi
+                        "हिंदी": "'सर्वेक्षण' अध्याय मुख्य रूप से सर्वेक्षणों के बारे में और व्यापक उपयोगकर्ता प्रतिक्रिया को मापने के तरीके के बारे में चर्चा करता है। चर्चा किए गए विषय हैं 'सर्वेक्षण क्या हैं?', 'किस काम के लिए सर्वेक्षण अच्छे हैं', 'किस काम के लिए सर्वेक्षण अच्छे नहीं हैं', 'सर्वेक्षण कब करें', 'इस तरह के शोध करने के लिए आवश्यक प्रयास', 'सर्वेक्षण कैसे करें', और 'सर्वेक्षण उपकरण'।",
+                        // Portuguese
+                        "Português": "O capítulo 'Pesquisas' fala principalmente sobre as pesquisas e como avaliar uma resposta generalizada do usuário. os tópicos abordados são 'O que são pesquisas?', 'Para que servem as pesquisas', 'Para que servem as pesquisas', 'Quando fazer uma pesquisa', 'Esforço necessário para fazer este tipo de pesquisa', 'Como fazer fazer pesquisas' e 'Ferramentas de pesquisa'.",
+                        // Bengali
+                        "বাংলা": "'জরিপ' অধ্যায়টি প্রধানত সমীক্ষা এবং ব্যবহারকারীর ব্যাপক প্রতিক্রিয়া কীভাবে পরিমাপ করা যায় সে সম্পর্কে আলোচনা করে। আলোচিত বিষয়গুলি হল 'জরিপগুলি কী?', 'কোন সমীক্ষার জন্য ভাল', 'কোন সমীক্ষার জন্য ভাল নয়', 'কখন একটি সমীক্ষা করতে হবে', 'এই ধরনের গবেষণা করার জন্য প্রচেষ্টা প্রয়োজন', 'কীভাবে করতে হবে' সার্ভে করুন', এবং 'জরিপ সরঞ্জাম'।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث فصل 'الاستطلاعات' بشكل أساسي عن الاستطلاعات وكيفية قياس استجابة المستخدم واسعة النطاق. المواضيع التي تم تناولها هي 'ما هي الاستطلاعات؟'، 'ما هي الاستطلاعات الجيدة'، 'ما هي الاستطلاعات غير الجيدة'، 'متى يجب إجراء المسح'، 'الجهد المطلوب للقيام بهذا النوع من البحث'، 'كيفية إجراء المسح' إجراء المسوحات، و'أدوات المسح'.",
+                        // Persian
+                        "فارسی": "فصل 'نظرسنجی ها' عمدتاً در مورد نظرسنجی ها و چگونگی سنجش پاسخ گسترده کاربران صحبت می کند. موضوعات مورد بحث عبارتند از «نظرسنجی چیست؟»، «نظرسنجی برای چه چیزی خوب است»، «نظرسنجی برای چه چیزی خوب نیست»، «چه زمانی باید نظرسنجی انجام داد»، «تلاش لازم برای انجام این نوع تحقیق»، «چگونه انجام نظرسنجی» و «ابزارهای نظرسنجی».",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "User interviews: understanding people's experience through talking to them",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'User interview' mainly talks about understanding people's experience through talking to them. The topics talked about are 'What are user interviews?', 'What user interviews are good for', 'What user interviews are not good for', 'When to do user interviews', 'Effort required to do this kind of research', 'How to do user interviews', and 'Interview tools'.",
+                        // German
+                        "Deutsch": "Im Kapitel „Benutzerinterview“ geht es hauptsächlich darum, die Erfahrungen von Menschen durch Gespräche zu verstehen. Die behandelten Themen sind „Was sind Benutzerinterviews?“, „Wofür sind Benutzerinterviews gut?“, „Wofür sind Benutzerinterviews nicht gut?“, „Wann sollten Benutzerinterviews durchgeführt werden?“, „Aufwand für diese Art von Forschung“, „Wie werden Benutzerinterviews durchgeführt?“ und „Interview-Tools“.",
+                        // Chinese
+                        "中国人": "“用户访谈”一章主要讨论通过与人们交谈来了解他们的体验。讨论的主题包括“什么是用户访谈？”，“用户访谈有什么好处？”，“用户访谈有什么坏处？”，“何时进行用户访谈？”，“进行此类研究所需的努力？”，“如何进行用户访谈”和“访谈工具”。",
+                        // Russian
+                        "Русский": "В главе «Интервью с пользователем» в основном говорится о понимании опыта людей посредством общения с ними. Обсуждаемые темы: «Что такое интервью с пользователями?», «Для чего нужны интервью с пользователями», «Для чего интервью с пользователями не подходят», «Когда проводить интервью с пользователями», «Усилия, необходимые для проведения такого рода исследований». , «Как проводить интервью с пользователями» и «Инструменты для проведения интервью».",
+                        // French
+                        "Français": "Le chapitre « Entretien avec les utilisateurs » parle principalement de comprendre l'expérience des gens en leur parlant. Les sujets abordés sont « Que sont les entretiens avec les utilisateurs ? », « À quoi servent les entretiens avec les utilisateurs », « À quoi servent les entretiens avec les utilisateurs », « Quand réaliser les entretiens avec les utilisateurs », « Effort requis pour faire ce type de recherche ». , « Comment réaliser des entretiens avec les utilisateurs » et « Outils d'entretien ».",
+                        // Japanese
+                        "日本語": "「ユーザー インタビュー」の章では、主に人々と話すことを通じて人々の経験を理解することについて説明しています。取り上げられているトピックは、「ユーザー インタビューとは何か」、「ユーザー インタビューが適している点」、「ユーザー インタビューが適していない点」、「ユーザー インタビューをいつ行うか」、「この種の調査を行うために必要な労力」、「ユーザー インタビューの実施方法」、「インタビュー ツール」です。",
+                        // Korean
+                        "한국인": "'사용자 인터뷰' 장에서는 주로 사람들과 대화를 통해 사람들의 경험을 이해하는 것에 대해 이야기합니다. '사용자 인터뷰란 무엇인가?', '어떤 사용자 인터뷰가 좋은가', '어떤 사용자 인터뷰가 좋지 않은가', '사용자 인터뷰는 언제 해야 하는가', '이런 연구를 하려면 어떤 노력이 필요한가' 등이 이야기를 나눴다. , '사용자 인터뷰 방법', '인터뷰 도구'.",
+                        // Spanish
+                        "Español": "El capítulo 'Entrevista con el usuario' habla principalmente de comprender la experiencia de las personas hablando con ellas. Los temas que se tratan son '¿Qué son las entrevistas con usuarios?', 'Para qué son buenas las entrevistas con usuarios', 'Para qué no son buenas las entrevistas con usuarios', 'Cuándo realizar entrevistas con usuarios', 'Esfuerzo necesario para realizar este tipo de investigación'. , 'Cómo realizar entrevistas a usuarios' y 'Herramientas de entrevista'.",
+                        // Hindi
+                        "हिंदी": "'यूजर इंटरव्यू' अध्याय में मुख्य रूप से लोगों से बातचीत करके उनके अनुभव को समझने के बारे में बताया गया है। जिन विषयों पर चर्चा की गई है, वे हैं 'यूजर इंटरव्यू क्या हैं?', 'यूजर इंटरव्यू किस लिए अच्छे हैं', 'यूजर इंटरव्यू किस लिए अच्छे नहीं हैं', 'यूजर इंटरव्यू कब करें', 'इस तरह के शोध करने के लिए आवश्यक प्रयास', 'यूजर इंटरव्यू कैसे करें' और 'इंटरव्यू टूल'।",
+                        // Portuguese
+                        "Português": "O capítulo 'Entrevista com o usuário' fala principalmente sobre a compreensão da experiência das pessoas conversando com elas. Os tópicos abordados são 'O que são entrevistas com usuários?', 'Para que servem as entrevistas com usuários', 'Para que servem as entrevistas com usuários', 'Quando fazer entrevistas com usuários', 'Esforço necessário para fazer este tipo de pesquisa' , 'Como fazer entrevistas com usuários' e 'Ferramentas de entrevista'.",
+                        // Bengali
+                        "বাংলা": "'ব্যবহারকারীর সাক্ষাৎকার' অধ্যায়টি মূলত তাদের সাথে কথা বলার মাধ্যমে মানুষের অভিজ্ঞতা বোঝার কথা বলে। যে বিষয়গুলি নিয়ে আলোচনা করা হয়েছে তা হল 'ব্যবহারকারীর সাক্ষাত্কার কী?', 'কোন ব্যবহারকারীর সাক্ষাত্কারের জন্য ভাল', 'ব্যবহারকারীর সাক্ষাৎকারগুলি কীসের জন্য ভাল নয়', 'ব্যবহারকারীর সাক্ষাত্কার কখন করতে হবে', 'এই ধরণের গবেষণা করার জন্য প্রচেষ্টা প্রয়োজন' , 'কিভাবে ইউজার ইন্টারভিউ করবেন', এবং 'ইন্টারভিউ টুলস'।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث فصل 'مقابلة المستخدم' بشكل أساسي عن فهم تجربة الأشخاص من خلال التحدث إليهم. المواضيع التي تم تناولها هي 'ما هي مقابلات المستخدمين؟'، 'ما هي مقابلات المستخدمين المفيدة'، 'ما هي مقابلات المستخدمين غير الجيدة'، 'متى يتم إجراء مقابلات مع المستخدمين'، 'الجهد المطلوب للقيام بهذا النوع من البحث' و'كيفية إجراء المقابلات مع المستخدمين' و'أدوات المقابلة'.",
+                        // Persian
+                        "فارسی": "فصل 'مصاحبه کاربر' عمدتاً در مورد درک تجربه افراد از طریق صحبت با آنها صحبت می کند. موضوعاتی که در مورد آنها صحبت شد عبارتند از: 'مصاحبه با کاربر چیست؟'، 'مصاحبه با کاربر برای چه چیزی خوب است'، 'مصاحبه با کاربر برای چه چیزی خوب نیست'، 'زمان انجام مصاحبه با کاربر'، 'تلاش لازم برای انجام این نوع تحقیق' است. ، 'نحوه انجام مصاحبه با کاربر' و 'ابزارهای مصاحبه'.",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Diary studies: how to capture user research data over time",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter focuses on Diary studies and how to capture user research data over time. The main topics are 'What are diary studies?', 'What diary studies are good for', 'What diary studies are not good for', 'When to do a diary study', 'Effort required to do this kind of research', 'How to do a diary study', and 'Diary study tools'.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es um Tagebuchstudien und darum, wie man im Laufe der Zeit Daten aus der Benutzerforschung erfasst. Die Hauptthemen sind „Was sind Tagebuchstudien?“, „Wofür sind Tagebuchstudien gut?“, „Wofür sind Tagebuchstudien nicht gut?“, „Wann sollte man eine Tagebuchstudie durchführen?“, „Aufwand für diese Art von Forschung“, „Wie führt man eine Tagebuchstudie durch?“ und „Tools für Tagebuchstudien“.",
+                        // Chinese
+                        "中国人": "本章重点介绍日记研究以及如何随时间捕获用户研究数据。主要主题包括“什么是日记研究？”，“日记研究有什么用处”，“日记研究有什么用处”，“何时进行日记研究”，“进行此类研究所需的努力”，“如何进行日记研究”和“日记研究工具”。",
+                        // Russian
+                        "Русский": "В этой главе основное внимание уделяется дневниковым исследованиям и тому, как собирать данные исследований пользователей с течением времени. Основные темы: «Что такое дневниковые исследования?», «Для чего полезны дневниковые исследования», «Для чего вредны дневниковые исследования», «Когда проводить дневниковое исследование», «Усилия, необходимые для проведения такого рода исследований». , «Как вести дневник» и «Инструменты для изучения дневника».",
+                        // French
+                        "Français": "Ce chapitre se concentre sur les études de journal et sur la façon de capturer les données de recherche des utilisateurs au fil du temps. Les principaux sujets sont « Que sont les études de journal ? », « À quoi servent les études de journal ? », « À quoi servent les études de journal ? », « Quand faire une étude de journal », « Effort requis pour faire ce type de recherche ». , « Comment réaliser une étude de journal » et « Outils d'étude de journal ».",
+                        // Japanese
+                        "日本語": "この章では、日記調査と、時間の経過に伴うユーザー調査データの収集方法に焦点を当てます。主なトピックは、「日記調査とは何か」、「日記調査が適している用途」、「日記調査が適していない用途」、「日記調査を実施するタイミング」、「この種の調査に必要な労力」、「日記調査の実施方法」、「日記調査ツール」です。",
+                        // Korean
+                        "한국인": "이 장에서는 일기 연구와 시간 경과에 따른 사용자 연구 데이터를 수집하는 방법에 중점을 둡니다. 주요 주제는 '일기공부란 무엇인가?', '일기공부는 무엇에 좋은가', '일기공부는 무엇에 적합하지 않은가', '일기공부는 언제 해야 하는가', '이런 연구를 하려면 필요한 노력'이다. , '일기 공부 방법', '일기 공부 도구' 등이 있습니다.",
+                        // Spanish
+                        "Español": "Este capítulo se centra en los estudios de diarios y en cómo capturar datos de investigación de usuarios a lo largo del tiempo. Los temas principales son '¿Qué son los estudios de diarios?', 'Para qué son buenos los estudios de diarios', 'Para qué no son buenos los estudios de diarios', 'Cuándo realizar un estudio de diarios', 'Esfuerzo necesario para realizar este tipo de investigación'. , 'Cómo hacer un estudio de diario' y 'Herramientas de estudio de diario'.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय डायरी अध्ययन और समय के साथ उपयोगकर्ता अनुसंधान डेटा को कैप्चर करने के तरीके पर केंद्रित है। मुख्य विषय हैं 'डायरी अध्ययन क्या हैं?', 'डायरी अध्ययन किसके लिए अच्छे हैं', 'डायरी अध्ययन किसके लिए अच्छे नहीं हैं', 'डायरी अध्ययन कब करना चाहिए', 'इस तरह के शोध को करने के लिए आवश्यक प्रयास', 'डायरी अध्ययन कैसे करें', और 'डायरी अध्ययन उपकरण'।",
+                        // Portuguese
+                        "Português": "Este capítulo se concentra nos estudos do Diário e em como capturar dados de pesquisa do usuário ao longo do tempo. Os tópicos principais são 'O que são estudos de diário?', 'Para que servem os estudos de diário', 'Para que estudos de diário não são bons', 'Quando fazer um estudo de diário', 'Esforço necessário para fazer este tipo de pesquisa' , 'Como fazer um estudo diário' e 'Ferramentas de estudo diário'.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি ডায়েরি অধ্যয়ন এবং সময়ের সাথে সাথে ব্যবহারকারীর গবেষণা ডেটা কীভাবে ক্যাপচার করা যায় তার উপর ফোকাস করে। প্রধান বিষয়গুলি হল 'ডায়েরি স্টাডিজ কী?', 'ডায়েরি স্টাডিজ কীসের জন্য ভাল', 'ডায়েরি স্টাডিজ কীসের জন্য ভাল নয়', 'কখন ডায়েরি স্টাডি করতে হবে', 'এই ধরনের গবেষণা করার জন্য প্রচেষ্টা প্রয়োজন' , 'কীভাবে একটি ডায়েরি স্টাডি করতে হয়', এবং 'ডায়েরি অধ্যয়নের সরঞ্জাম'।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل على دراسات اليوميات وكيفية التقاط بيانات بحث المستخدم مع مرور الوقت. المواضيع الرئيسية هي 'ما هي دراسات المذكرات؟'، 'ما هي دراسات المذكرات المفيدة'، 'ما هي دراسات المذكرات غير الجيدة'، 'متى يجب إجراء دراسة المذكرات'، 'الجهد المطلوب للقيام بهذا النوع من البحث' و'كيفية إجراء دراسة اليوميات' و'أدوات دراسة اليوميات'.",
+                        // Persian
+                        "فارسی": "این فصل بر مطالعات دفترچه خاطرات و چگونگی جمع‌آوری داده‌های تحقیقاتی کاربر در طول زمان تمرکز دارد. موضوعات اصلی عبارتند از: «مطالعات خاطرات روزانه چیست؟»، «مطالعات روزانه برای چه چیزهایی خوب هستند»، «مطالعات روزانه برای چه چیزهایی خوب نیستند»، «چه زمانی باید مطالعه روزانه انجام داد»، «تلاش لازم برای انجام این نوع تحقیقات» ، 'چگونه یک مطالعه خاطرات انجام دهیم' و 'ابزارهای مطالعه خاطرات'.",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Information architecture validation through tree testing: does the structure of your information work for your users ?",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'Information architecture validation through tree testing' and checking 'Does the structure of your information work for your users?'. And main topics are 'What is information architecture?', 'What tree testing is good for', 'What tree testing is not good for', 'When to do tree testing', 'Effort required to do this kind of research', 'How to do a tree test', and 'Tree testing tools'.",
+                        // German
+                        "Deutsch": "Das Kapitel „Validierung der Informationsarchitektur durch Tree-Tests“ und die Überprüfung „Funktioniert die Struktur Ihrer Informationen für Ihre Benutzer?“. Die Hauptthemen sind „Was ist Informationsarchitektur?“, „Wofür Tree-Tests gut sind“, „Wofür Tree-Tests nicht gut sind“, „Wann Tree-Tests durchgeführt werden sollten“, „Aufwand für diese Art von Forschung“, „Wie man Tree-Tests durchführt“ und „Tree-Testing-Tools“.",
+                        // Chinese
+                        "中国人": "本章“通过树测试进行信息架构验证”和检查“您的信息结构是否适合您的用户？”。主要主题是“什么是信息架构？”，“树测试有什么好处”，“树测试有什么坏处”，“何时进行树测试”，“进行此类研究所需的努力”，“如何进行树测试”和“树测试工具”。",
+                        // Russian
+                        "Русский": "Глава «Проверка информационной архитектуры посредством тестирования дерева» и проверка «Подходит ли структура вашей информации для ваших пользователей?». Основные темы: «Что такое информационная архитектура?», «Для чего полезно тестирование деревьев», «Для чего тестирование деревьев не годится», «Когда проводить тестирование деревьев», «Усилия, необходимые для проведения такого рода исследований». «Как выполнить тест дерева» и «Инструменты тестирования дерева».",
+                        // French
+                        "Français": "Le chapitre 'Validation de l'architecture de l'information via des tests d'arborescence' et la vérification 'La structure de vos informations fonctionne-t-elle pour vos utilisateurs ?'. Et les principaux sujets sont « Qu'est-ce que l'architecture de l'information ? », « À quoi servent les tests d'arbres », « À quoi servent les tests d'arbres », « Quand faire des tests d'arbres », « Effort requis pour faire ce type de recherche », « Comment faire un test d'arbre » et « Outils de test d'arbre ».",
+                        // Japanese
+                        "日本語": "「ツリー テストによる情報アーキテクチャの検証」の章では、「情報の構造はユーザーにとって有効か?」をチェックします。主なトピックは、「情報アーキテクチャとは何か?」、「ツリー テストが適しているもの」、「ツリー テストが適していないもの」、「ツリー テストを実行するタイミング」、「この種の調査に必要な労力」、「ツリー テストの実行方法」、「ツリー テスト ツール」です。",
+                        // Korean
+                        "한국인": "'트리 테스트를 통한 정보 아키텍처 검증' 장과 '귀하의 정보 구조가 사용자에게 적합한가?'를 확인합니다. 그리고 주요 주제는 '정보 아키텍처란 무엇인가?', '트리 테스팅은 무엇에 좋은가', '트리 테스팅은 무엇이 좋지 않은가', '트리 테스팅은 언제 해야 하는가', '이런 연구를 하려면 어떤 노력이 필요한가' 등이다. '트리 테스트 방법', '트리 테스트 도구'.",
+                        // Spanish
+                        "Español": "El capítulo 'Validación de la arquitectura de la información mediante pruebas de árbol' y la comprobación '¿La estructura de su información funciona para sus usuarios?'. Y los temas principales son '¿Qué es la arquitectura de la información?', 'Para qué son buenas las pruebas de árboles', 'Para qué no son buenas las pruebas de árboles', 'Cuándo realizar pruebas de árboles', 'Esfuerzo necesario para realizar este tipo de investigación'. 'Cómo hacer una prueba de árbol' y 'Herramientas de prueba de árbol'.",
+                        // Hindi
+                        "हिंदी": "अध्याय 'वृक्ष परीक्षण के माध्यम से सूचना वास्तुकला सत्यापन' और जाँच 'क्या आपकी सूचना की संरचना आपके उपयोगकर्ताओं के लिए काम करती है?'। और मुख्य विषय हैं 'सूचना वास्तुकला क्या है?', 'वृक्ष परीक्षण किसके लिए अच्छा है', 'वृक्ष परीक्षण किसके लिए अच्छा नहीं है', 'वृक्ष परीक्षण कब करना चाहिए', 'इस तरह के शोध करने के लिए आवश्यक प्रयास', 'वृक्ष परीक्षण कैसे करें', और 'वृक्ष परीक्षण उपकरण'।",
+                        // Portuguese
+                        "Português": "O capítulo 'Validação da arquitetura da informação por meio de testes em árvore' e verificação 'A estrutura da sua informação funciona para seus usuários?'. E os tópicos principais são 'O que é arquitetura de informação?', 'Para que testes em árvores são bons', 'Para que testes em árvores não são bons', 'Quando fazer testes em árvores', 'Esforço necessário para fazer este tipo de pesquisa', 'Como fazer um teste de árvore' e 'Ferramentas de teste de árvore'.",
+                        // Bengali
+                        "বাংলা": "অধ্যায় 'বৃক্ষ পরীক্ষার মাধ্যমে তথ্য আর্কিটেকচার বৈধতা' এবং 'আপনার তথ্যের কাঠামো আপনার ব্যবহারকারীদের জন্য কাজ করে?'। এবং প্রধান বিষয়গুলি হল 'তথ্য স্থাপত্য কী?', 'কী গাছের পরীক্ষা ভাল', 'কোন গাছের পরীক্ষা ভাল নয়', 'গাছ পরীক্ষা কখন করতে হবে', 'এই ধরণের গবেষণা করার জন্য প্রচেষ্টা প্রয়োজন', 'কীভাবে একটি গাছ পরীক্ষা করতে হয়', এবং 'বৃক্ষ পরীক্ষার সরঞ্জাম'।",
+                        // Arabic
+                        "عَرَبِيّ": "الفصل 'التحقق من صحة بنية المعلومات من خلال اختبار الشجرة' والتحقق من 'هل تعمل بنية معلوماتك مع المستخدمين؟'. والموضوعات الرئيسية هي 'ما هي هندسة المعلومات؟'، 'ما هو اختبار الشجرة المناسب'، 'ما هو اختبار الشجرة غير الجيد'، 'متى يتم إجراء اختبار الشجرة'، 'الجهد المطلوب للقيام بهذا النوع من البحث'، 'كيفية إجراء اختبار الشجرة'، و'أدوات اختبار الشجرة'.",
+                        // Persian
+                        "فارسی": "فصل 'اعتبار سنجی معماری اطلاعات از طریق آزمایش درخت' و بررسی 'آیا ساختار اطلاعات شما برای کاربران شما کار می کند؟' و موضوعات اصلی عبارتند از «معماری اطلاعات چیست؟»، «آزمایش درخت برای چه چیزی خوب است»، «تست درختی برای چه چیزی خوب نیست»، «چه زمانی آزمایش درخت انجام شود»، «تلاش لازم برای انجام این نوع تحقیقات»، 'چگونه آزمایش درخت انجام دهیم' و 'ابزارهای تست درخت'.",
+                    },
                 },
                 // 14
                 {
                     "ChapterName": "Ethnography: observing how people behave in the real world",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'Ethnography' mainly talks about observing how people behave in the real world. Sub topics which are explained are 'What is traditional ethnography?', 'What ethnography is good for', 'What ethnography is not good for', 'When to use ethnography', 'Effort required to do this kind of research', 'How to do ethnography', 'Extending your ethnographic reach with mobile devices', and 'Ethnography tools'.",
+                        // German
+                        "Deutsch": "Im Kapitel „Ethnographie“ geht es hauptsächlich darum, zu beobachten, wie sich Menschen in der realen Welt verhalten. Unterthemen, die erläutert werden, sind „Was ist traditionelle Ethnographie?“, „Wofür ist Ethnographie gut?“, „Wofür ist Ethnographie nicht gut?“, „Wann wird Ethnographie eingesetzt?“, „Aufwand für diese Art von Forschung“, „Wie betreibt man Ethnographie?“, „Erweitern Sie Ihre ethnographische Reichweite mit mobilen Geräten“ und „Ethnographische Werkzeuge“.",
+                        // Chinese
+                        "中国人": "“民族志”一章主要讨论观察人们在现实世界中的行为方式。其中解释的子主题包括“什么是传统民族志？”，“民族志有什么用处”，“民族志有什么用处”，“何时使用民族志”，“进行此类研究所需的努力”，“如何进行民族志”，“使用移动设备扩展您的民族志范围”和“民族志工具”。",
+                        // Russian
+                        "Русский": "В главе «Этнография» в основном говорится о наблюдении за поведением людей в реальном мире. Объясняются следующие подтемы: «Что такое традиционная этнография?», «Для чего хороша этнография», «Для чего этнография не годится», «Когда использовать этнографию», «Усилия, необходимые для проведения такого рода исследований», « Как заниматься этнографией», «Расширение этнографических возможностей с помощью мобильных устройств» и «Инструменты этнографии».",
+                        // French
+                        "Français": "Le chapitre « Ethnographie » parle principalement de l'observation du comportement des gens dans le monde réel. Les sous-thèmes expliqués sont « Qu'est-ce que l'ethnographie traditionnelle ? », « À quoi sert l'ethnographie », « À quoi sert l'ethnographie n'est-elle pas bonne », « Quand utiliser l'ethnographie », « Effort requis pour faire ce type de recherche », « Comment faire de l'ethnographie », « Étendre votre portée ethnographique avec des appareils mobiles » et « Outils d'ethnographie ».",
+                        // Japanese
+                        "日本語": "「民族誌」の章では、主に現実世界で人々がどのように行動するかを観察することについて説明しています。説明されているサブトピックは、「伝統的な民族誌とは何か」、「民族誌が適しているもの」、「民族誌が適していないもの」、「民族誌を使用するタイミング」、「この種の調査を行うために必要な労力」、「民族誌の実施方法」、「モバイルデバイスを使用して民族誌の範囲を拡大する」、「民族誌ツール」です。",
+                        // Korean
+                        "한국인": "'민족지학' 장에서는 주로 사람들이 현실 세계에서 어떻게 행동하는지 관찰하는 방법에 대해 설명합니다. 설명된 하위 주제는 '전통적 민족지학이란 무엇인가?', '민족지학은 무엇에 좋은가', '민족지는 무엇에 적합하지 않은가', '민족지학은 언제 사용해야 하는가', '이런 연구를 하려면 노력이 필요하다', ' 민족지학 수행 방법', '모바일 기기로 민족지학 범위 확장', '민족지학 도구'.",
+                        // Spanish
+                        "Español": "El capítulo 'Etnografía' habla principalmente de observar cómo se comportan las personas en el mundo real. Los subtemas que se explican son '¿Qué es la etnografía tradicional?', 'Para qué es buena la etnografía', 'Para qué no es buena la etnografía', 'Cuándo usar la etnografía', 'Esfuerzo requerido para realizar este tipo de investigación', ' Cómo hacer etnografía', 'Ampliando su alcance etnográfico con dispositivos móviles' y 'Herramientas de etnografía'.",
+                        // Hindi
+                        "हिंदी": "अध्याय 'नृवंशविज्ञान' मुख्य रूप से यह देखने के बारे में बात करता है कि लोग वास्तविक दुनिया में कैसे व्यवहार करते हैं। जिन उप-विषयों को समझाया गया है, वे हैं 'पारंपरिक नृवंशविज्ञान क्या है?', 'नृवंशविज्ञान किसके लिए अच्छा है', 'नृवंशविज्ञान किसके लिए अच्छा नहीं है', 'नृवंशविज्ञान का उपयोग कब करें', 'इस तरह के शोध करने के लिए आवश्यक प्रयास', 'नृवंशविज्ञान कैसे करें', 'मोबाइल उपकरणों के साथ अपनी नृवंशविज्ञान पहुंच का विस्तार करना', और 'नृवंशविज्ञान उपकरण'।",
+                        // Portuguese
+                        "Português": "O capítulo 'Etnografia' fala principalmente sobre a observação de como as pessoas se comportam no mundo real. Os subtópicos explicados são 'O que é etnografia tradicional?', 'Para que serve a etnografia', 'Para que serve a etnografia', 'Quando usar a etnografia', 'Esforço necessário para fazer este tipo de pesquisa', ' Como fazer etnografia', 'Ampliando seu alcance etnográfico com dispositivos móveis' e 'Ferramentas de etnografia'.",
+                        // Bengali
+                        "বাংলা": "'এথনোগ্রাফি' অধ্যায়টি মূলত বাস্তব জগতে মানুষ কীভাবে আচরণ করে তা পর্যবেক্ষণ করার কথা বলে। যে উপ-বিষয়গুলি ব্যাখ্যা করা হয়েছে তা হল 'প্রথাগত নৃতাত্ত্বিকতা কী?', 'কোন নৃতত্ত্বের জন্য ভাল', 'কোন নৃতত্ত্বের জন্য ভাল নয়', 'কখন নৃতত্ত্ব ব্যবহার করতে হবে', 'এই ধরণের গবেষণা করার জন্য প্রচেষ্টা প্রয়োজন', ' কীভাবে নৃতাত্ত্বিক কাজ করবেন', 'মোবাইল ডিভাইসের মাধ্যমে আপনার নৃতাত্ত্বিক প্রাপ্তি প্রসারিত করা', এবং 'এথনোগ্রাফি সরঞ্জাম'।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث فصل 'الإثنوغرافيا' بشكل أساسي عن ملاحظة كيفية تصرف الناس في العالم الحقيقي. المواضيع الفرعية التي تم شرحها هي 'ما هي الإثنوغرافيا التقليدية؟'، 'ما هي الإثنوغرافيا الجيدة؟'، 'ما هي الإثنوغرافيا غير الجيدة'، 'متى تستخدم الإثنوغرافيا'، 'الجهد المطلوب للقيام بهذا النوع من البحث'، ' 'كيفية القيام بالإثنوغرافيا'، و'توسيع نطاق وصولك الإثنوغرافي باستخدام الأجهزة المحمولة'، و'أدوات الإثنوغرافيا'.",
+                        // Persian
+                        "فارسی": "فصل «اتنوگرافی» عمدتاً در مورد مشاهده نحوه رفتار مردم در دنیای واقعی صحبت می کند. عناوین فرعی که توضیح داده می شوند عبارتند از: «مردم نگاری سنتی چیست؟»، «مردم نگاری برای چه چیزی خوب است»، «مردم نگاری برای چه چیزی خوب نیست»، «زمان استفاده از مردم نگاری»، «تلاش لازم برای انجام این نوع پژوهش»، چگونه مردم نگاری انجام دهیم، «توسعه دسترسی مردم نگاری خود را با دستگاه های تلفن همراه»، و «ابزارهای مردم نگاری».",
+                    },
                 },
                 // 15
                 {
                     "ChapterName": "Contextual inquiry: interviewing people in their own environment",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "Chapter 'Contextual inquiry' is dedicated to interviewing people in their own environment. It talks about 'What is contextual inquiry?', 'What contextual inquiry is good for', 'What contextual inquiry is not good for', 'When to use contextual inquiry' and a case study, 'Effort required to do this kind of research', 'How to do contextual inquiry', and 'Tools'. ",
+                        // German
+                        "Deutsch": "Das Kapitel „Kontextuelle Untersuchung“ ist der Befragung von Personen in ihrem eigenen Umfeld gewidmet. Es behandelt die Themen „Was ist kontextuelle Untersuchung?“, „Wofür ist kontextuelle Untersuchung gut?“, „Wofür ist kontextuelle Untersuchung nicht gut?“, „Wann sollte kontextuelle Untersuchung verwendet werden?“ und eine Fallstudie, „Aufwand für diese Art von Forschung“, „Wie wird kontextuelle Untersuchung durchgeführt?“ und „Tools“.",
+                        // Chinese
+                        "中国人": "“情境调查”一章专门用于在人们自己的环境中对他们进行采访。它讨论了“什么是情境调查？”，“情境调查有什么用处”，“情境调查有什么用处”，“何时使用情境调查”和案例研究，“进行这种研究所需的努力”，“如何进行情境调查”和“工具”。",
+                        // Russian
+                        "Русский": "Глава «Контекстное исследование» посвящена интервьюированию людей в их собственном окружении. В нем говорится о том, «Что такое контекстное исследование?», «Для чего полезно контекстное исследование», «Для чего контекстное исследование не годится», «Когда использовать контекстное исследование», а также приводится тематическое исследование «Усилия, необходимые для выполнения такого рода исследования». исследования», «Как проводить контекстуальные исследования» и «Инструменты».",
+                        // French
+                        "Français": "Le chapitre « Enquête contextuelle » est consacré aux entretiens avec des personnes dans leur propre environnement. Il parle de « Qu'est-ce que l'enquête contextuelle ? », « À quoi sert l'enquête contextuelle », « À quoi sert l'enquête contextuelle ? », « Quand utiliser l'enquête contextuelle » et une étude de cas, « Effort requis pour faire ce genre d'enquête ». recherche », « Comment mener une enquête contextuelle » et « Outils ».",
+                        // Japanese
+                        "日本語": "「文脈的調査」の章は、人々をそれぞれの環境でインタビューすることに焦点を当てています。この章では、「文脈的調査とは何か」、「文脈的調査が適しているもの」、「文脈的調査が適していないもの」、「文脈的調査をいつ使用するか」とケーススタディ、「この種の調査を行うために必要な労力」、「文脈的調査の実施方法」、「ツール」について説明します。",
+                        // Korean
+                        "한국인": "'상황별 탐구' 장은 자신의 환경에서 사람들을 인터뷰하는 데 전념합니다. '맥락 탐구란 무엇인가?', '맥락 탐구는 무엇에 좋은가', '맥락 탐구는 무엇이 좋지 않은가', '맥락 탐구는 언제 사용해야 하는가', 그리고 '이런 일을 하기 위해 필요한 노력'에 대해 사례 연구로 이야기하고 있다. 연구', '맥락적 탐구를 수행하는 방법', '도구'입니다.",
+                        // Spanish
+                        "Español": "El capítulo 'Investigación contextual' está dedicado a entrevistar a personas en su propio entorno. Habla sobre '¿Qué es la investigación contextual?', '¿Para qué es buena la investigación contextual?', '¿Para qué no es buena la investigación contextual?', 'Cuándo usar la investigación contextual' y un estudio de caso, 'Esfuerzo requerido para hacer este tipo de investigación'. investigación', 'Cómo realizar una investigación contextual' y 'Herramientas'.",
+                        // Hindi
+                        "हिंदी": "अध्याय 'संदर्भगत जांच' लोगों से उनके अपने परिवेश में साक्षात्कार करने के लिए समर्पित है। इसमें 'संदर्भगत जांच क्या है?', 'संदर्भगत जांच किसके लिए अच्छी है', 'संदर्भगत जांच किसके लिए अच्छी नहीं है', 'संदर्भगत जांच का उपयोग कब करें' और एक केस स्टडी, 'इस तरह के शोध को करने के लिए आवश्यक प्रयास', 'संदर्भगत जांच कैसे करें' और 'उपकरण' के बारे में बात की गई है।",
+                        // Portuguese
+                        "Português": "O capítulo 'Investigação contextual' é dedicado a entrevistar pessoas no seu próprio ambiente. Ele fala sobre 'O que é a investigação contextual?', 'Para que a investigação contextual é boa', 'Para que a investigação contextual não é boa', 'Quando usar a investigação contextual' e um estudo de caso, 'Esforço necessário para fazer este tipo de pesquisa', 'Como fazer investigação contextual' e 'Ferramentas'.",
+                        // Bengali
+                        "বাংলা": "অধ্যায় 'প্রসঙ্গিক অনুসন্ধান' তাদের নিজস্ব পরিবেশে লোকেদের সাক্ষাৎকারের জন্য নিবেদিত। এটি 'প্রসঙ্গগত তদন্ত কী?', 'প্রসঙ্গিক অনুসন্ধান কীসের জন্য ভাল', 'কোন প্রাসঙ্গিক অনুসন্ধানের জন্য ভাল নয়', 'কখন প্রাসঙ্গিক অনুসন্ধান ব্যবহার করতে হবে' এবং একটি কেস স্টাডি, 'এই ধরনের কাজ করার জন্য প্রচেষ্টার প্রয়োজন' সম্পর্কে কথা বলে। গবেষণা', 'কীভাবে প্রাসঙ্গিক অনুসন্ধান করতে হয়', এবং 'সরঞ্জাম'।",
+                        // Arabic
+                        "عَرَبِيّ": "الفصل 'الاستقصاء السياقي' مخصص لإجراء مقابلات مع الأشخاص في بيئتهم الخاصة. يتحدث عن 'ما هو الاستقصاء السياقي؟'، 'ما هو الاستقصاء السياقي المناسب؟'، 'ما الاستقصاء السياقي الذي لا يناسبه'، 'متى يتم استخدام الاستقصاء السياقي' ودراسة الحالة، 'الجهد المطلوب للقيام بهذا النوع من الاستقصاء'. البحث'، و'كيفية إجراء الاستقصاء السياقي'، و'الأدوات'.",
+                        // Persian
+                        "فارسی": "فصل «پژوهش زمینه‌ای» به مصاحبه با افراد در محیط خودشان اختصاص دارد. در مورد «پرسش زمینه‌ای چیست؟»، «پرسش زمینه‌ای برای چه چیزی خوب است»، «جستجوی زمینه‌ای برای چه چیزی خوب نیست»، «زمان استفاده از تحقیق زمینه‌ای» و یک مطالعه موردی، «تلاش لازم برای انجام این نوع کارها» صحبت می‌کند. تحقیق، «چگونگی انجام تحقیق زمینه ای» و «ابزار».",
+                    },
                 },
                 // 16
                 {
                     "ChapterName": "A/B testing: a technique to compare options",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "In chapter 'A/B testing' teaches the A/B testing technique which is a good choice for comparing options. The related sub-topics are 'What is A/B testing?', 'What A/B testing is good for', 'What A/B testing is not good for', 'When to use A/B testing', 'Effort required to do this kind of research', 'How to do A/B testing', and 'Tools for A/B testing'.",
+                        // German
+                        "Deutsch": "Im Kapitel „A/B-Tests“ wird die A/B-Testtechnik gelehrt, die sich gut zum Vergleichen von Optionen eignet. Die zugehörigen Unterthemen sind „Was sind A/B-Tests?“, „Wofür sind A/B-Tests gut?“, „Wofür sind A/B-Tests nicht gut?“, „Wann werden A/B-Tests verwendet?“, „Aufwand für diese Art von Forschung“, „Wie werden A/B-Tests durchgeführt?“ und „Tools für A/B-Tests“.",
+                        // Chinese
+                        "中国人": "“A/B 测试”一章讲授了 A/B 测试技术，这是比较选项的不错选择。相关子主题包括“什么是 A/B 测试？”，“A/B 测试有什么用处”，“A/B 测试有什么用处”，“何时使用 A/B 测试”，“进行此类研究所需的努力”，“如何进行 A/B 测试”和“A/B 测试工具”。",
+                        // Russian
+                        "Русский": "В главе «A/B-тестирование» рассказывается о технике A/B-тестирования, которая является хорошим выбором для сравнения вариантов. Связанные подтемы: «Что такое A/B-тестирование?», «Для чего A/B-тестирование полезно», «Для чего A/B-тестирование не подходит», «Когда использовать A/B-тестирование», Усилия, необходимые для проведения такого рода исследований», «Как проводить A/B-тестирование» и «Инструменты для A/B-тестирования».",
+                        // French
+                        "Français": "Le chapitre « Tests A/B » enseigne la technique de test A/B qui constitue un bon choix pour comparer les options. Les sous-thèmes associés sont « Qu'est-ce que les tests A/B ? », « À quoi servent les tests A/B », « À quoi servent les tests A/B », « Quand utiliser les tests A/B », « Effort requis pour effectuer ce type de recherche », « Comment effectuer des tests A/B » et « Outils pour les tests A/B ».",
+                        // Japanese
+                        "日本語": "「A/B テスト」の章では、オプションを比較するのに適した A/B テスト手法について学習します。関連するサブトピックは、「A/B テストとは何か」、「A/B テストが適しているもの」、「A/B テストが適していないもの」、「A/B テストを使用するタイミング」、「この種の調査に必要な労力」、「A/B テストの実施方法」、「A/B テストのツール」です。",
+                        // Korean
+                        "한국인": "'A/B 테스트' 장에서는 옵션을 비교하는 데 적합한 A/B 테스트 기술을 가르칩니다. 관련 하위 주제로는 'A/B 테스팅이란 무엇인가?', 'A/B 테스팅이 좋은 점', 'A/B 테스팅이 좋지 않은 점', 'A/B 테스팅을 언제 사용해야 하는가', ' 이런 연구를 하기 위해서는 노력이 필요하다', 'A/B 테스트를 하는 방법', 'A/B 테스트를 위한 도구'.",
+                        // Spanish
+                        "Español": "En el capítulo 'Pruebas A/B' se enseña la técnica de prueba A/B, que es una buena opción para comparar opciones. Los subtemas relacionados son '¿Qué son las pruebas A/B?', 'Para qué son buenas las pruebas A/B', 'Para qué no son buenas las pruebas A/B', 'Cuándo usar las pruebas A/B', ' Esfuerzo necesario para realizar este tipo de investigación', 'Cómo realizar pruebas A/B' y 'Herramientas para pruebas A/B'.",
+                        // Hindi
+                        "हिंदी": "अध्याय 'ए/बी परीक्षण' में ए/बी परीक्षण तकनीक सिखाई जाती है जो विकल्पों की तुलना करने के लिए एक अच्छा विकल्प है। संबंधित उप-विषय हैं 'ए/बी परीक्षण क्या है?', 'ए/बी परीक्षण किसके लिए अच्छा है', 'ए/बी परीक्षण किसके लिए अच्छा नहीं है', 'ए/बी परीक्षण का उपयोग कब करें', 'इस तरह के शोध करने के लिए आवश्यक प्रयास', 'ए/बी परीक्षण कैसे करें', और 'ए/बी परीक्षण के लिए उपकरण'।",
+                        // Portuguese
+                        "Português": "No capítulo 'Teste A/B' ensina a técnica de teste A/B que é uma boa escolha para comparar opções. Os subtópicos relacionados são 'O que é o teste A/B?', 'Para que o teste A/B é bom', 'Para que o teste A/B não é bom', 'Quando usar o teste A/B', ' Esforço necessário para fazer este tipo de pesquisa', 'Como fazer testes A/B' e 'Ferramentas para testes A/B'.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়ে 'A/B টেস্টিং' A/B পরীক্ষার কৌশল শেখায় যা বিকল্পগুলির তুলনা করার জন্য একটি ভাল পছন্দ। সম্পর্কিত উপ-বিষয়গুলি হল 'A/B টেস্টিং কী?', 'কীসের জন্য A/B পরীক্ষা ভাল', 'কীসের জন্য A/B পরীক্ষা ভাল নয়', 'A/B পরীক্ষা কখন ব্যবহার করবেন', ' এই ধরনের গবেষণা করার জন্য প্রয়োজনীয় প্রচেষ্টা', 'কীভাবে A/B টেস্টিং করতে হয়', এবং 'A/B পরীক্ষার জন্য টুলস'।",
+                        // Arabic
+                        "عَرَبِيّ": "في الفصل 'اختبار A/B' يتم تعليم تقنية اختبار A/B التي تعد خيارًا جيدًا لمقارنة الخيارات. المواضيع الفرعية ذات الصلة هي 'ما هو اختبار A/B؟'، 'ما هو اختبار A/B المناسب'، 'ما هو اختبار A/B غير الجيد'، 'متى يتم استخدام اختبار A/B'، ' الجهد المطلوب للقيام بهذا النوع من البحث، و'كيفية إجراء اختبار أ/ب'، و'أدوات اختبار أ/ب'.",
+                        // Persian
+                        "فارسی": "در فصل 'آزمایش A/B' تکنیک تست A/B را آموزش می‌دهد که انتخاب خوبی برای مقایسه گزینه‌ها است. موضوعات فرعی مرتبط عبارتند از: «تست A/B چیست؟»، «تست A/B برای چه چیزی خوب است»، «تست A/B برای چه چیزی خوب نیست»، «زمان استفاده از تست A/B»، « تلاش برای انجام این نوع تحقیقات، «چگونه تست A/B انجام دهیم» و «ابزار برای تست A/B» نیاز است.",
+                    },
                 },
                 // 17
                 {
                     "ChapterName": "Getting the best out of stakeholder workshops",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter, 'Getting the best out of stakeholder workshops', will explain the stakeholder workshop and tells what it is, what it is good for, what it is not good for, when it should be used, necessary efforts to do this kind of research, how to run a workshop, and tools which are necessary to do the face-to-face workshop.",
+                        // German
+                        "Deutsch": "In diesem Kapitel „Das Beste aus Stakeholder-Workshops herausholen“ werden Stakeholder-Workshops erläutert und beschrieben, was sie sind, wofür sie gut sind und wofür sie nicht gut sind, wann sie eingesetzt werden sollten, welcher Aufwand für diese Art von Forschung notwendig ist, wie ein Workshop durchgeführt wird und welche Tools für die Durchführung von Präsenzworkshops erforderlich sind.",
+                        // Chinese
+                        "中国人": "本章“充分利用利益相关者研讨会”将解释利益相关者研讨会，并说明它是什么、它有什么好处、它有什么坏处、什么时候应该使用、进行此类研究需要付出的努力、如何运行研讨会，以及进行面对面研讨会所需的工具。",
+                        // Russian
+                        "Русский": "В этой главе «Как получить максимальную отдачу от семинаров с заинтересованными сторонами» будут объяснены семинары с заинтересованными сторонами и рассказано, что это такое, для чего они хороши, для чего они не годятся, когда их следует использовать, какие усилия необходимо предпринять для проведения такого рода семинаров. исследование, как провести семинар и инструменты, необходимые для проведения очного семинара.",
+                        // French
+                        "Français": "Ce chapitre, « Tirer le meilleur parti des ateliers avec les parties prenantes », expliquera l'atelier des parties prenantes et indiquera ce que c'est, à quoi il sert, à quoi il ne sert pas, quand il doit être utilisé, les efforts nécessaires pour réaliser ce type d'atelier. recherche, comment animer un atelier et les outils nécessaires pour réaliser l'atelier en face à face.",
+                        // Japanese
+                        "日本語": "この章「ステークホルダー ワークショップを最大限に活用する」では、ステークホルダー ワークショップについて説明し、それが何であるか、何に適しているか、何に適しているわけではないか、いつ使用すべきか、この種の調査を行うために必要な取り組み、ワークショップの運営方法、対面ワークショップを行うために必要なツールについて説明します。",
+                        // Korean
+                        "한국인": "이번 장 '이해관계자 워크숍 최대한 활용하기'에서는 이해관계자 워크숍에 대해 설명하고 그것이 무엇이고, 무엇이 좋고, 무엇이 좋지 않은지, 언제 사용해야 하는지, 이러한 워크숍을 위해 필요한 노력을 알려줄 것입니다. 연구, 워크숍 운영 방법, 대면 워크숍을 수행하는 데 필요한 도구.",
+                        // Spanish
+                        "Español": "Este capítulo, 'Obtener lo mejor de los talleres de partes interesadas', explicará el taller de partes interesadas y dirá qué es, para qué es bueno, para qué no es bueno, cuándo se debe utilizar, los esfuerzos necesarios para realizar este tipo de talleres. investigación, cómo llevar a cabo un taller y herramientas necesarias para realizar el taller presencial.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय, 'हितधारक कार्यशालाओं से सर्वोत्तम लाभ प्राप्त करना', हितधारक कार्यशाला के बारे में बताएगा और बताएगा कि यह क्या है, यह किसके लिए अच्छा है, यह किसके लिए अच्छा नहीं है, इसका उपयोग कब किया जाना चाहिए, इस प्रकार के अनुसंधान करने के लिए आवश्यक प्रयास, कार्यशाला कैसे चलायी जाए, तथा आमने-सामने की कार्यशाला करने के लिए आवश्यक उपकरण।",
+                        // Portuguese
+                        "Português": "Este capítulo, 'Tirando o melhor proveito dos workshops das partes interessadas', explicará o workshop das partes interessadas e dirá o que é, para que serve, para que não serve, quando deve ser usado, os esforços necessários para fazer este tipo de pesquisa, como realizar um workshop e ferramentas necessárias para realizar o workshop presencial.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়, 'স্টেকহোল্ডার ওয়ার্কশপ থেকে সেরাটা পাওয়া', স্টেকহোল্ডার ওয়ার্কশপকে ব্যাখ্যা করবে এবং বলবে এটি কী, এটি কীসের জন্য ভাল, এটি কীসের জন্য ভাল নয়, কখন এটি ব্যবহার করা উচিত, এই ধরনের করার প্রয়োজনীয় প্রচেষ্টা গবেষণা, কিভাবে একটি ওয়ার্কশপ চালাতে হয়, এবং সামনাসামনি ওয়ার্কশপ করার জন্য প্রয়োজনীয় সরঞ্জামগুলি।",
+                        // Arabic
+                        "عَرَبِيّ": "هذا الفصل، 'الحصول على أفضل النتائج من ورش عمل أصحاب المصلحة'، سوف يشرح ورشة عمل أصحاب المصلحة ويخبرنا ما هي، وما هو جيد، وما هو غير جيد، ومتى يجب استخدامه، والجهود اللازمة للقيام بهذا النوع من البحث، وكيفية إدارة ورشة العمل، والأدوات اللازمة للقيام بورشة العمل وجهاً لوجه.",
+                        // Persian
+                        "فارسی": "این فصل، «بهره‌گیری از کارگاه‌های ذینفعان»، کارگاه ذینفعان را توضیح می‌دهد و می‌گوید که چیست، برای چه چیزی خوب است، برای چه چیزی خوب نیست، چه زمانی باید از آن استفاده کرد، تلاش‌های لازم برای انجام این نوع کارها. تحقیق، نحوه اجرای کارگاه و ابزارهای لازم برای انجام کارگاه حضوری.",
+                    },
                 },
                 // 18
                 {
                     "ChapterName": "Guerrilla research: running fast-paced research in the real world",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'Guerrilla research' is mainly focused on running fast-paced research in the real world. The book talks about what it is, what it is good for, what it is not good for, when it should be used, the required efforts to do this kind of research, how it should be done, and the necessary tools which could be used to do this kind of research.",
+                        // German
+                        "Deutsch": "Das Kapitel „Guerillaforschung“ konzentriert sich hauptsächlich auf die Durchführung von schnellem Forschungsbetrieb in der realen Welt. Das Buch spricht darüber, was Guerillaforschung ist, wofür sie gut ist, wofür sie nicht gut ist, wann sie eingesetzt werden sollte, welchen Aufwand diese Art von Forschung erfordert, wie sie durchgeführt werden sollte und welche notwendigen Werkzeuge für diese Art von Forschung verwendet werden könnten.",
+                        // Chinese
+                        "中国人": "“游击研究”一章主要关注在现实世界中进行快节奏的研究。本书讨论了它是什么、它有什么好处、它有什么坏处、什么时候应该使用它、进行这种研究所需的努力、应该如何进行，以及进行这种研究可以使用的必要工具。",
+                        // Russian
+                        "Русский": "Глава «Партизанские исследования» в основном посвящена проведению быстрых исследований в реальном мире. В книге рассказывается о том, что это такое, для чего оно полезно и для чего оно не годится, когда его следует использовать, какие усилия необходимы для проведения такого рода исследований, как их следует проводить, а также необходимые инструменты, которые можно было бы использовать. раньше проводил подобные исследования.",
+                        // French
+                        "Français": "Le chapitre « Recherche sur la guérilla » se concentre principalement sur la conduite de recherches rapides dans le monde réel. Le livre parle de ce qu'il est, de ce à quoi il est bon, de ce à quoi il ne l'est pas, du moment où il doit être utilisé, des efforts requis pour effectuer ce type de recherche, de la manière dont cela doit être effectué et des outils nécessaires qui pourraient être utilisés. j'avais l'habitude de faire ce genre de recherche.",
+                        // Japanese
+                        "日本語": "「ゲリラ研究」の章は、主に現実世界での急速な研究の実施に焦点を当てています。本書では、ゲリラ研究とは何か、何に適しているか、何に適していないか、いつ使用すべきか、この種の研究を行うために必要な努力、どのように行うべきか、この種の研究を行うために使用できる必要なツールについて説明しています。",
+                        // Korean
+                        "한국인": "'게릴라 연구' 장은 주로 현실 세계에서 빠르게 진행되는 연구를 진행하는 데 초점을 맞추고 있습니다. 이 책은 그것이 무엇인지, 무엇이 좋은지, 무엇이 좋지 않은지, 언제 사용해야 하는지, 이런 종류의 연구를 수행하는 데 필요한 노력, 어떻게 수행해야 하는지, 그리고 이를 수행하는 데 필요한 도구에 대해 이야기합니다. 이런 종류의 연구를 하곤 했죠.",
+                        // Spanish
+                        "Español": "El capítulo 'Investigación de guerrilla' se centra principalmente en realizar investigaciones de ritmo rápido en el mundo real. El libro habla de qué es, para qué sirve, para qué no sirve, cuándo debe utilizarse, los esfuerzos necesarios para realizar este tipo de investigación, cómo debe realizarse y las herramientas necesarias que podrían utilizarse. solía hacer este tipo de investigación.",
+                        // Hindi
+                        "हिंदी": "'गुरिल्ला रिसर्च' अध्याय मुख्य रूप से वास्तविक दुनिया में तेज़ गति से शोध करने पर केंद्रित है। पुस्तक इस बारे में बात करती है कि यह क्या है, यह किस काम के लिए अच्छा है, यह किस काम के लिए अच्छा नहीं है, इसका उपयोग कब किया जाना चाहिए, इस तरह के शोध को करने के लिए आवश्यक प्रयास, इसे कैसे किया जाना चाहिए, और इस तरह के शोध को करने के लिए आवश्यक उपकरण क्या हैं।",
+                        // Portuguese
+                        "Português": "O capítulo 'Pesquisa de Guerrilha' concentra-se principalmente na realização de pesquisas em ritmo acelerado no mundo real. O livro fala sobre o que é, para que serve, para que não serve, quando deve ser usado, os esforços necessários para fazer esse tipo de pesquisa, como deve ser feito e as ferramentas necessárias que podem ser costumava fazer esse tipo de pesquisa.",
+                        // Bengali
+                        "বাংলা": "'গেরিলা গবেষণা' অধ্যায়টি মূলত বাস্তব জগতে দ্রুত গতির গবেষণা চালানোর উপর দৃষ্টি নিবদ্ধ করে। বইটি এটি কী, এটি কীসের জন্য ভাল, কীসের জন্য এটি ভাল নয়, কখন এটি ব্যবহার করা উচিত, এই ধরণের গবেষণা করার প্রয়োজনীয় প্রচেষ্টা, এটি কীভাবে করা উচিত এবং প্রয়োজনীয় সরঞ্জামগুলি যা হতে পারে সে সম্পর্কে কথা বলে। এই ধরনের গবেষণা করতে ব্যবহৃত.",
+                        // Arabic
+                        "عَرَبِيّ": "يركز فصل 'أبحاث حرب العصابات' بشكل أساسي على إجراء أبحاث سريعة الخطى في العالم الحقيقي. ويتحدث الكتاب عن ماهيته، وما يصلح وما لا يصلح، ومتى يجب استخدامه، والجهود المطلوبة للقيام بهذا النوع من البحث، وكيف ينبغي القيام به، والأدوات اللازمة التي يمكن استخدامها. تستخدم للقيام بهذا النوع من البحوث.",
+                        // Persian
+                        "فارسی": "فصل 'تحقیقات چریکی' عمدتاً بر اجرای تحقیقات سریع در دنیای واقعی متمرکز است. کتاب در مورد چیستی آن، چه چیزی خوب است، چه چیزی خوب نیست، چه زمانی باید از آن استفاده کرد، تلاش های لازم برای انجام این نوع تحقیق، نحوه انجام آن و ابزارهای لازم که می تواند انجام شود، صحبت می کند. برای انجام این نوع تحقیقات استفاده می شود.",
+                    },
                 },
                 // 19
                 {
                     "ChapterName": "How to combine user research methodologies",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter is a kind of recap chapter that is focused on how to combine all previously learned user research methodologies. It talks about where you should start and when you should advocate user research, common research scenarios, and combining methodologies.",
+                        // German
+                        "Deutsch": "Dieses Kapitel ist eine Art Zusammenfassungskapitel, das sich darauf konzentriert, wie Sie alle zuvor erlernten Methoden der Benutzerforschung kombinieren können. Es geht darum, wo Sie beginnen sollten und wann Sie sich für Benutzerforschung einsetzen sollten, um gängige Forschungsszenarien und die Kombination von Methoden.",
+                        // Chinese
+                        "中国人": "本章是一种回顾性的章节，重点介绍如何结合之前学到的所有用户研究方法。它讨论了您应该从哪里开始以及何时应该提倡用户研究、常见的研究场景以及结合方法。",
+                        // Russian
+                        "Русский": "Эта глава представляет собой своего рода обзорную главу, посвященную тому, как объединить все ранее изученные методологии исследования пользователей. В нем говорится о том, с чего вам следует начать и когда следует пропагандировать исследования пользователей, общие сценарии исследований и комбинирование методологий.",
+                        // French
+                        "Français": "Ce chapitre est une sorte de chapitre récapitulatif qui se concentre sur la façon de combiner toutes les méthodologies de recherche d'utilisateurs précédemment apprises. Il explique par où commencer et quand préconiser la recherche sur les utilisateurs, les scénarios de recherche courants et la combinaison de méthodologies.",
+                        // Japanese
+                        "日本語": "この章は、これまでに学習したすべてのユーザー リサーチ方法論を組み合わせる方法に焦点を当てた、一種の要約章です。ユーザー リサーチをどこから開始し、いつ推進すべきか、一般的なリサーチ シナリオ、および方法論の組み合わせについて説明します。",
+                        // Korean
+                        "한국인": "이 장은 이전에 배운 모든 사용자 조사 방법론을 결합하는 방법에 초점을 맞춘 일종의 요약 장입니다. 어디에서 시작해야 하는지, 언제 사용자 연구, 일반적인 연구 시나리오 및 방법론 결합을 옹호해야 하는지에 대해 설명합니다.",
+                        // Spanish
+                        "Español": "Este capítulo es una especie de capítulo de resumen que se centra en cómo combinar todas las metodologías de investigación de usuarios aprendidas previamente. Habla sobre dónde debe comenzar y cuándo debe promover la investigación de usuarios, escenarios de investigación comunes y combinación de metodologías.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय एक तरह का पुनर्कथन अध्याय है जो इस बात पर केंद्रित है कि पहले से सीखी गई सभी उपयोगकर्ता शोध पद्धतियों को कैसे संयोजित किया जाए। यह इस बारे में बात करता है कि आपको कहां से शुरुआत करनी चाहिए और आपको उपयोगकर्ता शोध, सामान्य शोध परिदृश्यों और पद्धतियों को संयोजित करने की वकालत कब करनी चाहिए।",
+                        // Portuguese
+                        "Português": "Este capítulo é uma espécie de capítulo de recapitulação que se concentra em como combinar todas as metodologias de pesquisa de usuário aprendidas anteriormente. Ele fala sobre por onde você deve começar e quando deve defender a pesquisa de usuários, cenários de pesquisa comuns e combinação de metodologias.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি এক ধরনের রিক্যাপ অধ্যায় যা পূর্বে শেখা সমস্ত ব্যবহারকারীর গবেষণা পদ্ধতিগুলিকে একত্রিত করার উপর দৃষ্টি নিবদ্ধ করে। এটি আপনার কোথায় শুরু করা উচিত এবং কখন আপনার ব্যবহারকারীর গবেষণা, সাধারণ গবেষণার পরিস্থিতি এবং একত্রিত পদ্ধতির পরামর্শ দেওয়া উচিত সে সম্পর্কে কথা বলে।",
+                        // Arabic
+                        "عَرَبِيّ": "هذا الفصل هو نوع من الفصول الموجزة التي تركز على كيفية الجمع بين جميع منهجيات بحث المستخدم التي تم تعلمها مسبقًا. يتحدث عن المكان الذي يجب أن تبدأ فيه ومتى يجب عليك الدعوة إلى بحث المستخدم وسيناريوهات البحث الشائعة والجمع بين المنهجيات.",
+                        // Persian
+                        "فارسی": "این فصل نوعی فصل خلاصه است که بر نحوه ترکیب همه روش‌های تحقیق کاربر قبلاً آموخته شده متمرکز است. در مورد اینکه از کجا باید شروع کنید و چه زمانی باید از تحقیقات کاربر، سناریوهای تحقیقاتی رایج و ترکیب روش‌ها حمایت کنید صحبت می‌کند.",
+                    },
                 },
                 // 20
                 {
                     "ChapterName": "Content analysis: understanding your qualitative data",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter 'Content analysis' is highly focused on understanding your qualitative data. It talks about how you could code your qualitative data, how content analysis could be done, what advantages and disadvantages content analysis has, and the necessary tools for this type of analysis.",
+                        // German
+                        "Deutsch": "Das Kapitel „Inhaltsanalyse“ konzentriert sich stark auf das Verständnis Ihrer qualitativen Daten. Es geht darum, wie Sie Ihre qualitativen Daten kodieren können, wie eine Inhaltsanalyse durchgeführt werden kann, welche Vor- und Nachteile die Inhaltsanalyse hat und welche Werkzeuge für diese Art der Analyse erforderlich sind.",
+                        // Chinese
+                        "中国人": "“内容分析”一章主要关注于理解定性数据。它讨论了如何对定性数据进行编码、如何进行内容分析、内容分析有哪些优点和缺点以及此类分析所需的工具。",
+                        // Russian
+                        "Русский": "Глава «Контент-анализ» посвящена пониманию качественных данных. В нем говорится о том, как можно закодировать качественные данные, как можно провести контент-анализ, какие преимущества и недостатки имеет контент-анализ, а также необходимые инструменты для этого типа анализа.",
+                        // French
+                        "Français": "El capítulo 'Análisis de contenido' está muy centrado en comprender sus datos cualitativos. Habla de cómo podrías codificar tus datos cualitativos, cómo se podría hacer el análisis de contenido, qué ventajas y desventajas tiene el análisis de contenido y las herramientas necesarias para este tipo de análisis.",
+                        // Japanese
+                        "日本語": "「コンテンツ分析」の章では、質的データを理解することに重点を置いています。質的データをコード化する方法、コンテンツ分析を実行する方法、コンテンツ分析の利点と欠点、このタイプの分析に必要なツールについて説明します。",
+                        // Korean
+                        "한국인": "'콘텐츠 분석' 장에서는 정성적 데이터를 이해하는 데 중점을 둡니다. 정성적 데이터를 코딩하는 방법, 콘텐츠 분석을 수행하는 방법, 콘텐츠 분석의 장점과 단점, 이러한 유형의 분석에 필요한 도구에 대해 설명합니다.",
+                        // Spanish
+                        "Español": "El capítulo 'Análisis de contenido' está muy centrado en comprender sus datos cualitativos. Habla de cómo podrías codificar tus datos cualitativos, cómo se podría hacer el análisis de contenido, qué ventajas y desventajas tiene el análisis de contenido y las herramientas necesarias para este tipo de análisis.",
+                        // Hindi
+                        "हिंदी": "'सामग्री विश्लेषण' अध्याय आपके गुणात्मक डेटा को समझने पर अत्यधिक केंद्रित है। यह इस बारे में बात करता है कि आप अपने गुणात्मक डेटा को कैसे कोड कर सकते हैं, सामग्री विश्लेषण कैसे किया जा सकता है, सामग्री विश्लेषण के क्या फायदे और नुकसान हैं, और इस प्रकार के विश्लेषण के लिए आवश्यक उपकरण क्या हैं।",
+                        // Portuguese
+                        "Português": "O capítulo 'Análise de conteúdo' é altamente focado na compreensão de seus dados qualitativos. Ele fala sobre como você poderia codificar seus dados qualitativos, como a análise de conteúdo poderia ser feita, quais as vantagens e desvantagens da análise de conteúdo e as ferramentas necessárias para esse tipo de análise.",
+                        // Bengali
+                        "বাংলা": "অধ্যায় 'বিষয়বস্তু বিশ্লেষণ' আপনার গুণগত তথ্য বোঝার উপর অত্যন্ত মনোযোগী। আপনি কীভাবে আপনার গুণগত ডেটা কোড করতে পারেন, কীভাবে বিষয়বস্তু বিশ্লেষণ করা যেতে পারে, বিষয়বস্তু বিশ্লেষণের কী সুবিধা এবং অসুবিধা রয়েছে এবং এই ধরণের বিশ্লেষণের জন্য প্রয়োজনীয় সরঞ্জামগুলি সম্পর্কে এটি আলোচনা করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز فصل 'تحليل المحتوى' بشكل كبير على فهم بياناتك النوعية. يتحدث عن كيفية ترميز بياناتك النوعية، وكيف يمكن إجراء تحليل المحتوى، وما هي مزايا وعيوب تحليل المحتوى، والأدوات اللازمة لهذا النوع من التحليل.",
+                        // Persian
+                        "فارسی": "فصل 'تحلیل محتوا' به شدت بر درک داده های کیفی شما متمرکز است. در مورد اینکه چگونه می توانید داده های کیفی خود را کدنویسی کنید، تجزیه و تحلیل محتوا چگونه می تواند انجام شود، چه مزایا و معایبی دارد تجزیه و تحلیل محتوا و ابزارهای لازم برای این نوع تجزیه و تحلیل صحبت می کند.",
+                    },
                 },
                 // 21
                 {
                     "ChapterName": "Identifying themes through affinity diagramming",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "In this chapter, the author talks about how you can identify themes through affinity diagramming. It talks about how you could do affinity diagramming, and what advantages and disadvantages affinity diagramming has.",
+                        // German
+                        "Deutsch": "In diesem Kapitel spricht der Autor darüber, wie Sie Themen durch Affinitätsdiagramme identifizieren können. Es wird darüber gesprochen, wie Sie Affinitätsdiagramme erstellen können und welche Vor- und Nachteile Affinitätsdiagramme haben.",
+                        // Chinese
+                        "中国人": "在本章中，作者讨论了如何通过亲和图识别主题。它讨论了如何进行亲和图，以及亲和图有哪些优点和缺点。",
+                        // Russian
+                        "Русский": "В этой главе автор рассказывает о том, как можно идентифицировать темы с помощью диаграмм сходства. В нем рассказывается о том, как можно построить диаграмму сходства, а также какие преимущества и недостатки имеет построение диаграмм сходства.",
+                        // French
+                        "Français": "Dans ce chapitre, l'auteur explique comment identifier des thèmes grâce à des diagrammes d'affinité. Il explique comment créer des diagrammes d'affinité et quels sont les avantages et les inconvénients des diagrammes d'affinité.",
+                        // Japanese
+                        "日本語": "この章では、著者は親和図法を通じてテーマを特定する方法について説明します。親和図法をどのように実行できるか、また親和図法にはどのような利点と欠点があるかについて説明します。",
+                        // Korean
+                        "한국인": "이 장에서 저자는 어피니티 다이어그램을 통해 테마를 식별하는 방법에 대해 설명합니다. 어피니티 다이어그램을 수행하는 방법과 어피니티 다이어그램의 장점과 단점에 대해 설명합니다.",
+                        // Spanish
+                        "Español": "En este capítulo, el autor habla sobre cómo identificar temas mediante diagramas de afinidad. Habla sobre cómo se pueden hacer diagramas de afinidad y qué ventajas y desventajas tienen los diagramas de afinidad.",
+                        // Hindi
+                        "हिंदी": "इस अध्याय में, लेखक इस बारे में बात करता है कि आप आत्मीयता आरेखण के माध्यम से विषयों की पहचान कैसे कर सकते हैं। यह इस बारे में बात करता है कि आप आत्मीयता आरेखण कैसे कर सकते हैं, और आत्मीयता आरेखण के क्या फायदे और नुकसान हैं।",
+                        // Portuguese
+                        "Português": "Neste capítulo, o autor fala sobre como você pode identificar temas por meio de diagramas de afinidade. Ele fala sobre como você pode fazer a diagramação de afinidades e quais vantagens e desvantagens a diagramação de afinidades tem.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ে, লেখক কীভাবে আপনি অ্যাফিনিটি ডায়াগ্রামিংয়ের মাধ্যমে থিমগুলি সনাক্ত করতে পারেন সে সম্পর্কে কথা বলেছেন। আপনি কীভাবে অ্যাফিনিটি ডায়াগ্রামিং করতে পারেন এবং অ্যাফিনিটি ডায়াগ্রামিংয়ের কী কী সুবিধা এবং অসুবিধা রয়েছে সে সম্পর্কে এটি আলোচনা করে।",
+                        // Arabic
+                        "عَرَبِيّ": "في هذا الفصل، يتحدث المؤلف عن كيفية تحديد المواضيع من خلال مخططات التقارب. يتحدث عن كيفية عمل مخططات التقارب، وما هي مزايا وعيوب مخططات التقارب.",
+                        // Persian
+                        "فارسی": "در این فصل، نویسنده در مورد چگونگی شناسایی مضامین از طریق نمودارهای وابستگی صحبت می کند. در مورد اینکه چگونه می توانید نمودار میل ترکیبی را انجام دهید، و مزایا و معایب نمودار میل ترکیبی را بیان می کند.",
+                    },
                 },
                 // 22
                 {
                     "ChapterName": "Thematic analysis: going beyond initial analysis",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This short chapter talks about thematic analysis shortly and how you can go beyond initial analysis. It gives you a summary of this kind of analysis method, an example of how you can structure a thematic analysis, and it prepares the useful references to be used for further research.",
+                        // German
+                        "Deutsch": "In diesem kurzen Kapitel geht es kurz um die thematische Analyse und wie Sie über die anfängliche Analyse hinausgehen können. Es gibt Ihnen eine Zusammenfassung dieser Art von Analysemethode, ein Beispiel, wie Sie eine thematische Analyse strukturieren können, und es bereitet die nützlichen Referenzen vor, die für weitere Recherchen verwendet werden können.",
+                        // Chinese
+                        "中国人": "本章简短地介绍了主题分析以及如何超越初步分析。它总结了这种分析方法，并提供了一个如何构建主题分析的示例，还准备了可用于进一步研究的有用参考资料。",
+                        // Russian
+                        "Русский": "В этой короткой главе кратко рассказывается о тематическом анализе и о том, как можно выйти за рамки первоначального анализа. Он дает вам краткое изложение этого метода анализа, пример того, как можно структурировать тематический анализ, а также подготавливает полезные ссылки для использования в дальнейших исследованиях.",
+                        // French
+                        "Français": "Ce court chapitre parle brièvement de l’analyse thématique et de la manière dont vous pouvez aller au-delà de l’analyse initiale. Il vous donne une synthèse de ce type de méthode d'analyse, un exemple de la façon dont vous pouvez structurer une analyse thématique et prépare les références utiles à utiliser pour des recherches ultérieures.",
+                        // Japanese
+                        "日本語": "この短い章では、テーマ分析について簡単に説明し、初期分析を超える方法について説明します。この種類の分析方法の概要、テーマ分析を構成する方法の例を示し、さらに調査を行うために役立つ参考資料を用意します。",
+                        // Korean
+                        "한국인": "이 짧은 장에서는 주제별 분석에 대해 간단히 설명하고 초기 분석을 넘어서는 방법에 대해 설명합니다. 이는 이러한 종류의 분석 방법에 대한 요약, 주제별 분석을 구성하는 방법에 대한 예를 제공하고 추가 연구에 사용할 유용한 참고 자료를 준비합니다.",
+                        // Spanish
+                        "Español": "Este breve capítulo habla brevemente sobre el análisis temático y cómo puede ir más allá del análisis inicial. Le brinda un resumen de este tipo de método de análisis, un ejemplo de cómo se puede estructurar un análisis temático y prepara referencias útiles que se utilizarán en futuras investigaciones.",
+                        // Hindi
+                        "हिंदी": "यह छोटा सा अध्याय विषयगत विश्लेषण के बारे में संक्षेप में बात करता है और बताता है कि आप प्रारंभिक विश्लेषण से आगे कैसे जा सकते हैं। यह आपको इस तरह की विश्लेषण पद्धति का सारांश देता है, एक उदाहरण देता है कि आप विषयगत विश्लेषण कैसे संरचित कर सकते हैं, और यह आगे के शोध के लिए उपयोग किए जाने वाले उपयोगी संदर्भ तैयार करता है।",
+                        // Portuguese
+                        "Português": "Este breve capítulo fala brevemente sobre análise temática e como você pode ir além da análise inicial. Ele fornece um resumo desse tipo de método de análise, um exemplo de como você pode estruturar uma análise temática e prepara as referências úteis a serem usadas em pesquisas futuras.",
+                        // Bengali
+                        "বাংলা": "এই সংক্ষিপ্ত অধ্যায়টি থিম্যাটিক বিশ্লেষণ সম্পর্কে শীঘ্রই কথা বলে এবং কিভাবে আপনি প্রাথমিক বিশ্লেষণের বাইরে যেতে পারেন। এটি আপনাকে এই ধরণের বিশ্লেষণ পদ্ধতির একটি সারাংশ দেয়, আপনি কীভাবে একটি বিষয়ভিত্তিক বিশ্লেষণ গঠন করতে পারেন তার একটি উদাহরণ, এবং এটি আরও গবেষণার জন্য ব্যবহার করার জন্য দরকারী রেফারেন্স প্রস্তুত করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث هذا الفصل القصير عن التحليل المواضيعي باختصار وكيف يمكنك تجاوز التحليل الأولي. فهو يوفر لك ملخصًا لهذا النوع من أساليب التحليل، ومثالًا لكيفية هيكلة التحليل الموضوعي، كما يقوم بإعداد المراجع المفيدة لاستخدامها في مزيد من البحث.",
+                        // Persian
+                        "فارسی": "این فصل کوتاه در مورد تجزیه و تحلیل موضوعی و چگونگی فراتر رفتن از تحلیل اولیه صحبت می کند. خلاصه ای از این نوع روش تحلیل را به شما ارائه می دهد، نمونه ای از اینکه چگونه می توانید یک تحلیل موضوعی را ساختار دهید، و منابع مفیدی را برای استفاده برای تحقیقات بیشتر آماده می کند.",
+                    },
                 },
                 // 23
                 {
                     "ChapterName": "Agile analysis",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter is highly focused on agile analysis. It gives you a summary of this method, face-to-face synchronous, the advantages and disadvantages of this method, and the rainbow spreadsheet method.",
+                        // German
+                        "Deutsch": "Dieses Kapitel konzentriert sich stark auf die agile Analyse. Es bietet Ihnen eine Zusammenfassung dieser Methode, Face-to-Face-Synchronisation, die Vor- und Nachteile dieser Methode und die Rainbow-Tabellenkalkulationsmethode.",
+                        // Chinese
+                        "中国人": "本章重点介绍敏捷分析。它为您提供了此方法的摘要、面对面同步、此方法的优点和缺点以及彩虹电子表格方法。",
+                        // Russian
+                        "Русский": "Эта глава посвящена гибкому анализу. В нем дается краткое изложение этого метода, очная синхронизация, преимущества и недостатки этого метода, а также метода радужных электронных таблиц.",
+                        // French
+                        "Français": "Ce chapitre est fortement axé sur l’analyse agile. Il vous donne une synthèse de cette méthode, en face-à-face synchrone, les avantages et inconvénients de cette méthode, ainsi que la méthode du tableur arc-en-ciel.",
+                        // Japanese
+                        "日本語": "この章では、アジャイル分析に重点を置いています。この方法、対面同期、この方法の長所と短所、レインボー スプレッドシート メソッドの概要を説明します。",
+                        // Korean
+                        "한국인": "이 장에서는 애자일 분석에 중점을 두고 있습니다. 이 방법, 대면 동기식, 이 방법의 장점과 단점, 레인보우 스프레드시트 방법에 대한 요약을 제공합니다.",
+                        // Spanish
+                        "Español": "Este capítulo está muy centrado en el análisis ágil. Le brinda un resumen de este método, sincrónico cara a cara, las ventajas y desventajas de este método y el método de hoja de cálculo arcoíris.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय एजाइल विश्लेषण पर अत्यधिक केंद्रित है। यह आपको इस विधि, आमने-सामने सिंक्रोनस, इस विधि के फायदे और नुकसान, और रेनबो स्प्रेडशीट विधि का सारांश देता है।",
+                        // Portuguese
+                        "Português": "Este capítulo é altamente focado na análise ágil. Ele fornece um resumo desse método, síncrono presencial, as vantagens e desvantagens desse método e do método de planilha arco-íris.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি অত্যন্ত চটপটে বিশ্লেষণের উপর দৃষ্টি নিবদ্ধ করা হয়েছে। এটি আপনাকে এই পদ্ধতির একটি সারসংক্ষেপ দেয়, মুখোমুখি সিঙ্ক্রোনাস, এই পদ্ধতির সুবিধা এবং অসুবিধা এবং রেইনবো স্প্রেডশীট পদ্ধতি।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل بشكل كبير على التحليل الرشيق. ويقدم لك ملخصًا لهذه الطريقة، والتزامن وجهًا لوجه، ومزايا وعيوب هذه الطريقة، وطريقة جداول بيانات قوس قزح.",
+                        // Persian
+                        "فارسی": "این فصل به شدت بر تحلیل چابک متمرکز است. خلاصه ای از این روش، همزمان رو در رو، مزایا و معایب این روش و روش صفحه گسترده رنگین کمان را در اختیار شما قرار می دهد.",
+                    },
                 },
                 // 24
                 {
                     "ChapterName": "Analysing usability data and cataloguing issues and needs",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter's focus is on analyzing usability data and cataloging issues and needs. It talks about cataloging issues from qualitative data, a step-by-step guide to identify issues or needs, a step-by-step guide to analyze journeys, user needs backlog and writing user needs, advantages and disadvantages of cataloging issues and user needs, and cataloging issues from qualitative data.",
+                        // German
+                        "Deutsch": "Der Schwerpunkt dieses Kapitels liegt auf der Analyse von Usability-Daten und der Katalogisierung von Problemen und Bedürfnissen. Es geht um die Katalogisierung von Problemen anhand qualitativer Daten, eine Schritt-für-Schritt-Anleitung zur Identifizierung von Problemen oder Bedürfnissen, eine Schritt-für-Schritt-Anleitung zur Analyse von Journeys, zum Rückstand bei Benutzerbedürfnissen und zum Schreiben von Benutzerbedürfnissen, die Vor- und Nachteile der Katalogisierung von Problemen und Benutzerbedürfnissen sowie die Katalogisierung von Problemen anhand qualitativer Daten.",
+                        // Chinese
+                        "中国人": "本章重点介绍如何分析可用性数据以及对问题和需求进行分类。本章讨论了如何从定性数据中对问题进行分类、如何一步一步识别问题或需求、如何一步一步分析旅程、用户需求积压和编写用户需求、对问题和用户需求进行分类的优缺点以及如何从定性数据中对问题进行分类。",
+                        // Russian
+                        "Русский": "Основное внимание в этой главе уделяется анализу данных об удобстве использования и каталогизации проблем и потребностей. В нем рассказывается о каталогизации проблем на основе качественных данных, пошаговом руководстве по выявлению проблем или потребностей, пошаговом руководстве по анализу поездок, отставании в потребностях пользователей и описании потребностей пользователей, преимуществах и недостатках каталогизации проблем и потребностей пользователей. и каталогизация проблем на основе качественных данных.",
+                        // French
+                        "Français": "Ce chapitre se concentre sur l'analyse des données d'utilisabilité et sur le catalogage des problèmes et des besoins. Il parle des problèmes de catalogage à partir de données qualitatives, d'un guide étape par étape pour identifier les problèmes ou les besoins, d'un guide étape par étape pour analyser les parcours, de l'arriéré des besoins des utilisateurs et de la rédaction des besoins des utilisateurs, des avantages et des inconvénients des problèmes de catalogage et des besoins des utilisateurs. , et le catalogage des problèmes à partir de données qualitatives.",
+                        // Japanese
+                        "日本語": "この章では、ユーザビリティ データの分析と、問題とニーズのカタログ化に焦点を当てています。定性データからの問題のカタログ化、問題またはニーズを特定するためのステップ バイ ステップ ガイド、ジャーニーを分析するためのステップ バイ ステップ ガイド、ユーザー ニーズ バックログとユーザー ニーズの記述、問題とユーザー ニーズをカタログ化することの長所と短所、定性データからの問題のカタログ化について説明します。",
+                        // Korean
+                        "한국인": "이 장에서는 유용성 데이터를 분석하고 문제와 요구 사항을 분류하는 데 중점을 둡니다. 질적 데이터에서 문제를 분류하는 방법, 문제나 요구 사항을 식별하기 위한 단계별 가이드, 여정 분석을 위한 단계별 가이드, 사용자 요구 백로그 및 사용자 요구 사항 작성, 문제 목록 작성과 사용자 요구 사항의 장점과 단점에 대해 설명합니다. , 질적 데이터에서 문제를 분류합니다.",
+                        // Spanish
+                        "Español": "El objetivo de este capítulo es analizar los datos de usabilidad y catalogar los problemas y necesidades. Habla sobre problemas de catalogación a partir de datos cualitativos, una guía paso a paso para identificar problemas o necesidades, una guía paso a paso para analizar recorridos, acumulación de necesidades de los usuarios y redacción de las necesidades de los usuarios, ventajas y desventajas de los problemas de catalogación y necesidades de los usuarios. y catalogación de problemas a partir de datos cualitativos.",
+                        // Hindi
+                        "हिंदी": "এই অধ্যায়ের ফোকাস ব্যবহারযোগ্যতা তথ্য বিশ্লেষণ এবং সমস্যা এবং প্রয়োজন তালিকাভুক্ত করা হয়. এটি গুণগত ডেটা থেকে সমস্যাগুলি ক্যাটালগ করার বিষয়ে কথা বলে, সমস্যা বা প্রয়োজনগুলি সনাক্ত করার জন্য একটি ধাপে ধাপে নির্দেশিকা, যাত্রা বিশ্লেষণ করার জন্য একটি ধাপে ধাপে নির্দেশিকা, ব্যবহারকারীর প্রয়োজন ব্যাকলগ এবং ব্যবহারকারীর চাহিদা লেখা, ক্যাটালগিং সমস্যাগুলির সুবিধা এবং অসুবিধা এবং ব্যবহারকারীর চাহিদাগুলি , এবং গুণগত তথ্য থেকে সমস্যা তালিকাভুক্ত করা।",
+                        // Portuguese
+                        "Português": "O foco deste capítulo está na análise de dados de usabilidade e na catalogação de problemas e necessidades. Ele fala sobre catalogação de problemas a partir de dados qualitativos, um guia passo a passo para identificar problemas ou necessidades, um guia passo a passo para analisar jornadas, backlog de necessidades do usuário e escrever as necessidades do usuário, vantagens e desvantagens de catalogar problemas e necessidades do usuário e catalogar questões a partir de dados qualitativos.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ের ফোকাস ব্যবহারযোগ্যতা তথ্য বিশ্লেষণ এবং সমস্যা এবং প্রয়োজন তালিকাভুক্ত করা হয়. এটি গুণগত ডেটা থেকে সমস্যাগুলি ক্যাটালগ করার বিষয়ে কথা বলে, সমস্যা বা প্রয়োজনগুলি সনাক্ত করার জন্য একটি ধাপে ধাপে নির্দেশিকা, যাত্রা বিশ্লেষণ করার জন্য একটি ধাপে ধাপে নির্দেশিকা, ব্যবহারকারীর প্রয়োজন ব্যাকলগ এবং ব্যবহারকারীর চাহিদা লেখা, ক্যাটালগিং সমস্যাগুলির সুবিধা এবং অসুবিধা এবং ব্যবহারকারীর চাহিদাগুলি , এবং গুণগত তথ্য থেকে সমস্যা তালিকাভুক্ত করা।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل على تحليل بيانات سهولة الاستخدام وفهرسة المشكلات والاحتياجات. يتحدث عن قضايا الفهرسة من البيانات النوعية، دليل خطوة بخطوة لتحديد القضايا أو الاحتياجات، دليل خطوة بخطوة لتحليل الرحلات، تراكم احتياجات المستخدم وكتابة احتياجات المستخدم، مزايا وعيوب قضايا الفهرسة واحتياجات المستخدم ، وقضايا الفهرسة من البيانات النوعية.",
+                        // Persian
+                        "فارسی": "تمرکز این فصل بر تجزیه و تحلیل داده های قابلیت استفاده و فهرست نویسی مسائل و نیازها است. در مورد فهرست نویسی مسائل از داده های کیفی، راهنمای گام به گام برای شناسایی مسائل یا نیازها، راهنمای گام به گام برای تجزیه و تحلیل سفرها، نیازهای کاربران و نوشتن نیازهای کاربر، مزایا و معایب مسائل فهرست نویسی و نیازهای کاربر صحبت می کند. ، و فهرست نویسی مسائل از داده های کیفی.",
+                    },
                 },
                 // 25
                 {
                     "ChapterName": "Analysing data to create personas to communicate user characteristics and behaviour",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter's main topic is highly focused on analyzing data to create personas to communicate user characteristics and behavior. It talks about a summary of the creating personas method, what personas are, what things should be included in your personas, how you should present your personas, a more advanced method: using activity theory to create your personas, and answering this question of how many personas.",
+                        // German
+                        "Deutsch": "Das Hauptthema dieses Kapitels konzentriert sich stark auf die Analyse von Daten zur Erstellung von Personas, um Benutzereigenschaften und -verhalten zu kommunizieren. Es enthält eine Zusammenfassung der Methode zur Erstellung von Personas, erklärt, was Personas sind, welche Dinge in Ihren Personas enthalten sein sollten, wie Sie Ihre Personas präsentieren sollten, eine fortgeschrittenere Methode: die Verwendung der Aktivitätstheorie zur Erstellung Ihrer Personas und die Beantwortung der Frage, wie viele Personas es gibt.",
+                        // Chinese
+                        "中国人": "本章主要讨论如何通过分析数据来创建人物角色，以传达用户特征和行为。它讨论了创建人物角色的方法的总结、人物角色是什么、人物角色中应该包含哪些内容、如何呈现人物角色、更高级的方法：使用活动理论来创建人物角色，并回答了需要多少人物角色的问题。",
+                        // Russian
+                        "Русский": "Основная тема этой главы сосредоточена на анализе данных с целью создания персонажей для передачи характеристик и поведения пользователей. В нем говорится о кратком изложении метода создания персон, что такое персоны, какие вещи должны быть включены в ваши персоны, как вы должны представлять свои персоны, более продвинутый метод: использование теории деятельности для создания ваших персон и ответ на вопрос о том, как много личностей.",
+                        // French
+                        "Français": "Le sujet principal de ce chapitre est fortement axé sur l'analyse des données pour créer des personnages afin de communiquer les caractéristiques et le comportement des utilisateurs. Il présente un résumé de la méthode de création de personas, ce que sont les personas, quelles choses doivent être incluses dans vos personas, comment présenter vos personas, une méthode plus avancée : utiliser la théorie de l'activité pour créer vos personas, et répondre à cette question de savoir comment de nombreux personnages.",
+                        // Japanese
+                        "日本語": "この章の主なトピックは、ユーザーの特性と行動を伝えるペルソナを作成するためのデータ分析に重点を置いています。ペルソナ作成方法の概要、ペルソナとは何か、ペルソナに何を含めるべきか、ペルソナをどのように提示すべきか、より高度な方法、つまり活動理論を使用してペルソナを作成する方法、そしてペルソナの数に関する質問への回答について説明します。",
+                        // Korean
+                        "한국인": "이 장의 주요 주제는 데이터를 분석하여 사용자 특성과 행동을 전달하는 페르소나를 만드는 데 중점을 둡니다. 페르소나 생성 방법에 대한 요약, 페르소나가 무엇인지, 페르소나에 어떤 항목이 포함되어야 하는지, 페르소나를 어떻게 표현해야 하는지, 더 고급 방법인 활동 이론을 사용하여 페르소나를 생성하고, 이 질문에 답하는 방법에 대해 설명합니다. 많은 페르소나.",
+                        // Spanish
+                        "Español": "El tema principal de este capítulo está muy centrado en el análisis de datos para crear personas que comuniquen las características y el comportamiento del usuario. Habla de un resumen del método de creación de personas, qué son las personas, qué cosas deben incluirse en tus personas, cómo debes presentar tus personas, un método más avanzado: usar la teoría de la actividad para crear tus personas y responder a esta pregunta de cómo muchas personas.",
+                        // Hindi
+                        "हिंदी": "इस अध्याय का मुख्य विषय उपयोगकर्ता की विशेषताओं और व्यवहार को संप्रेषित करने के लिए व्यक्तित्व बनाने के लिए डेटा का विश्लेषण करने पर अत्यधिक केंद्रित है। यह व्यक्तित्व बनाने की विधि के सारांश के बारे में बात करता है, व्यक्तित्व क्या हैं, आपके व्यक्तित्व में कौन सी चीजें शामिल होनी चाहिए, आपको अपने व्यक्तित्व को कैसे प्रस्तुत करना चाहिए, एक अधिक उन्नत विधि: अपने व्यक्तित्व बनाने के लिए गतिविधि सिद्धांत का उपयोग करना, और इस सवाल का जवाब देना कि कितने व्यक्तित्व हैं।",
+                        // Portuguese
+                        "Português": "O tópico principal deste capítulo é altamente focado na análise de dados para criar personas para comunicar características e comportamento do usuário. Ele fala sobre um resumo do método de criação de personas, o que são personas, o que deve ser incluído em suas personas, como você deve apresentar suas personas, um método mais avançado: usar a teoria da atividade para criar suas personas, e responder essa pergunta de como muitas personas.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ের মূল বিষয়টি ব্যবহারকারীর বৈশিষ্ট্য এবং আচরণের সাথে যোগাযোগ করার জন্য ব্যক্তিত্ব তৈরি করতে ডেটা বিশ্লেষণের উপর অত্যন্ত নিবদ্ধ। এটি ব্যক্তিত্ব তৈরির পদ্ধতির সংক্ষিপ্তসার সম্পর্কে কথা বলে, ব্যক্তিত্বগুলি কী, আপনার ব্যক্তিত্বগুলিতে কী কী জিনিস অন্তর্ভুক্ত করা উচিত, আপনার ব্যক্তিত্বগুলি কীভাবে উপস্থাপন করা উচিত, একটি আরও উন্নত পদ্ধতি: আপনার ব্যক্তিত্ব তৈরি করতে কার্যকলাপ তত্ত্ব ব্যবহার করে এবং কীভাবে এই প্রশ্নের উত্তর দেওয়া হয় অনেক ব্যক্তিত্ব।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز الموضوع الرئيسي لهذا الفصل بشكل كبير على تحليل البيانات لإنشاء شخصيات لتوصيل خصائص المستخدم وسلوكه. يتحدث عن ملخص لطريقة إنشاء الشخصيات، وما هي الشخصيات، وما هي الأشياء التي يجب تضمينها في شخصياتك، وكيف يجب أن تقدم شخصياتك، وطريقة أكثر تقدمًا: استخدام نظرية النشاط لإنشاء شخصياتك، والإجابة على هذا السؤال حول كيفية إنشاء الشخصيات. العديد من الشخصيات.",
+                        // Persian
+                        "فارسی": "موضوع اصلی این فصل به شدت بر تجزیه و تحلیل داده ها برای ایجاد شخصیت ها برای برقراری ارتباط با ویژگی ها و رفتار کاربر متمرکز است. این کتاب در مورد خلاصه‌ای از روش ایجاد پرسونا، چیستی پرسوناها، چه چیزهایی باید در پرسونای شما گنجانده شود، چگونه باید پرسوناهای خود را ارائه دهید، یک روش پیشرفته‌تر: استفاده از تئوری فعالیت برای ایجاد پرسونای خود و پاسخ به این سوال صحبت می‌کند. بسیاری از شخصیت ها",
+                    },
                 },
                 // 26
                 {
                     "ChapterName": "Analysing data to create mental models: visualizing how user think and identify opportunities",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter as its title says itself, it talks about analyzing data to create mental models and visualizing how user think and identify opportunities. It starts with a summary of this method and then it talks about how you should create your mental model in versions one and two way.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es, wie der Titel schon sagt, um die Analyse von Daten zur Erstellung mentaler Modelle und die Visualisierung der Denkweise und der Erkennung von Chancen durch Benutzer. Es beginnt mit einer Zusammenfassung dieser Methode und erläutert dann, wie Sie Ihr mentales Modell in den Versionen eins und zwei erstellen sollten.",
+                        // Chinese
+                        "中国人": "正如其标题所示，本章讨论了如何分析数据以创建心理模型，以及可视化用户如何思考和识别机会。本章首先总结了这种方法，然后讨论了如何以第一和第二种方式创建心理模型。",
+                        // Russian
+                        "Русский": "В этой главе, как следует из названия, говорится об анализе данных для создания ментальных моделей и визуализации того, как пользователь думает, и выявляет возможности. Он начинается с краткого изложения этого метода, а затем рассказывается о том, как вам следует создать свою ментальную модель в первой и второй версиях.",
+                        // French
+                        "Français": "Ce chapitre, comme son titre l'indique lui-même, parle de l'analyse des données pour créer des modèles mentaux et de visualiser la façon dont l'utilisateur pense et identifie les opportunités. Il commence par un résumé de cette méthode, puis explique comment créer votre modèle mental dans les versions un et deux.",
+                        // Japanese
+                        "日本語": "この章では、タイトルの通り、データを分析してメンタル モデルを作成し、ユーザーがどのように考え、機会を特定するかを視覚化する方法について説明します。この方法の概要から始まり、次にバージョン 1 とバージョン 2 でメンタル モデルを作成する方法について説明します。",
+                        // Korean
+                        "한국인": "이 장은 제목에서 알 수 있듯이 데이터를 분석하여 정신 모델을 만들고 사용자가 어떻게 생각하고 기회를 식별하는지 시각화하는 방법에 대해 설명합니다. 이 방법의 요약으로 시작한 다음 버전 1과 두 가지 방법으로 멘탈 모델을 생성하는 방법에 대해 설명합니다.",
+                        // Spanish
+                        "Español": "Este capítulo, como su título lo dice, habla sobre el análisis de datos para crear modelos mentales y visualizar cómo piensa el usuario e identifica oportunidades. Comienza con un resumen de este método y luego habla sobre cómo debes crear tu modelo mental en las versiones de una y dos vías.",
+                        // Hindi
+                        "हिंदी": "जैसा कि इसके शीर्षक से ही पता चलता है, यह अध्याय मानसिक मॉडल बनाने के लिए डेटा का विश्लेषण करने और उपयोगकर्ता कैसे सोचते हैं और अवसरों की पहचान करते हैं, इसकी कल्पना करने के बारे में बात करता है। यह इस पद्धति के सारांश से शुरू होता है और फिर यह बताता है कि आपको अपने मानसिक मॉडल को संस्करण एक और दो में कैसे बनाना चाहिए।",
+                        // Portuguese
+                        "Português": "Este capítulo, como o próprio título diz, fala sobre a análise de dados para criar modelos mentais e visualizar como o usuário pensa e identifica oportunidades. Começa com um resumo deste método e depois fala sobre como você deve criar seu modelo mental nas versões um e dois sentidos.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি এর শিরোনাম হিসাবে নিজেই বলে, এটি মানসিক মডেল তৈরি করার জন্য ডেটা বিশ্লেষণ এবং ব্যবহারকারী কীভাবে চিন্তা করে এবং সুযোগগুলি সনাক্ত করে তা কল্পনা করে। এটি এই পদ্ধতির সংক্ষিপ্তসার দিয়ে শুরু হয় এবং তারপরে এটি এক এবং দুই উপায়ে আপনার মানসিক মডেল কীভাবে তৈরি করা উচিত সে সম্পর্কে কথা বলে।",
+                        // Arabic
+                        "عَرَبِيّ": "هذا الفصل، كما يقول عنوانه، يتحدث عن تحليل البيانات لإنشاء نماذج ذهنية وتصور كيفية تفكير المستخدم وتحديد الفرص. يبدأ بملخص لهذه الطريقة ثم يتحدث عن كيفية إنشاء نموذجك العقلي في الإصدارين الأول والثاني.",
+                        // Persian
+                        "فارسی": "این فصل همانطور که عنوانش خودش می گوید، در مورد تجزیه و تحلیل داده ها برای ایجاد مدل های ذهنی و تجسم نحوه تفکر کاربر و شناسایی فرصت ها صحبت می کند. با خلاصه ای از این روش شروع می شود و سپس در مورد نحوه ایجاد مدل ذهنی خود در نسخه های یک و دو صحبت می کند.",
+                    },
                 },
                 // 27
                 {
                     "ChapterName": "Turning findings into insights",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "In this chapter, you learn how to turn findings into insights simply. It talks about what actionable insights are, what atomic research is, and some examples of this kind of research.",
+                        // German
+                        "Deutsch": "In diesem Kapitel erfahren Sie, wie Sie Erkenntnisse einfach in Erkenntnisse umwandeln. Es wird erläutert, was umsetzbare Erkenntnisse sind, was atomare Forschung ist und einige Beispiele für diese Art der Forschung.",
+                        // Chinese
+                        "中国人": "在本章中，您将学习如何简单地将发现转化为见解。它讨论了什么是可操作的见解、什么是原子研究，以及此类研究的一些示例。",
+                        // Russian
+                        "Русский": "В этой главе вы узнаете, как просто превратить полученные результаты в идеи. В нем говорится о том, что такое действенные идеи, что такое атомные исследования, а также о некоторых примерах такого рода исследований.",
+                        // French
+                        "Français": "Dans ce chapitre, vous apprendrez comment transformer simplement les résultats en informations. Il explique ce que sont les connaissances exploitables, ce qu'est la recherche atomique et quelques exemples de ce type de recherche.",
+                        // Japanese
+                        "日本語": "この章では、発見事項を簡単に洞察に変える方法を学びます。実用的な洞察とは何か、原子研究とは何か、そしてこの種の研究のいくつかの例について説明します。",
+                        // Korean
+                        "한국인": "이 장에서는 결과를 간단하게 통찰력으로 전환하는 방법을 배웁니다. 실행 가능한 통찰력이 무엇인지, 원자 연구가 무엇인지, 그리고 이러한 종류의 연구에 대한 몇 가지 예에 대해 설명합니다.",
+                        // Spanish
+                        "Español": "En este capítulo, aprenderá cómo convertir los hallazgos en conocimientos de forma sencilla. Habla sobre qué son los conocimientos prácticos, qué es la investigación atómica y algunos ejemplos de este tipo de investigación.",
+                        // Hindi
+                        "हिंदी": "इस अध्याय में, आप सीखेंगे कि निष्कर्षों को सरलता से अंतर्दृष्टि में कैसे बदला जाए। इसमें बताया गया है कि कार्रवाई योग्य अंतर्दृष्टि क्या है, परमाणु अनुसंधान क्या है, और इस तरह के अनुसंधान के कुछ उदाहरण क्या हैं।",
+                        // Portuguese
+                        "Português": "Neste capítulo, você aprenderá como transformar descobertas em insights de maneira simples. Ele fala sobre o que são insights acionáveis, o que é pesquisa atômica e alguns exemplos desse tipo de pesquisa.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ে, আপনি কীভাবে অনুসন্ধানগুলিকে সহজভাবে অন্তর্দৃষ্টিতে পরিণত করবেন তা শিখবেন। এটি অ্যাকশনযোগ্য অন্তর্দৃষ্টি কী, পারমাণবিক গবেষণা কী এবং এই ধরণের গবেষণার কিছু উদাহরণ সম্পর্কে কথা বলে।",
+                        // Arabic
+                        "عَرَبِيّ": "ستتعلم في هذا الفصل كيفية تحويل النتائج إلى رؤى بكل بساطة. ويتحدث عن ماهية الرؤى القابلة للتنفيذ، وما هو البحث الذري، وبعض الأمثلة على هذا النوع من الأبحاث.",
+                        // Persian
+                        "فارسی": "در این فصل، یاد می گیرید که چگونه یافته ها را به سادگی به بینش تبدیل کنید. در مورد اینکه بینش های عملی چیست، تحقیق اتمی چیست و نمونه هایی از این نوع تحقیقات صحبت می کند.",
+                    },
                 },
                 // 28
                 {
                     "ChapterName": "Making recommendations: how to make your research findings actionable",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter briefly talks about how to make recommendations, how to make your research findings actionable, and what kind of things you can recommend.",
+                        // German
+                        "Deutsch": "In diesem Kapitel wird kurz erläutert, wie Sie Empfehlungen abgeben, wie Sie Ihre Forschungsergebnisse umsetzbar machen und welche Dinge Sie empfehlen können.",
+                        // Chinese
+                        "中国人": "本章简要讨论了如何提出建议、如何使您的研究结果可行以及您可以推荐什么样的事情。",
+                        // Russian
+                        "Русский": "В этой главе кратко рассказывается о том, как давать рекомендации, как сделать результаты вашего исследования действенными и что вы можете порекомендовать.",
+                        // French
+                        "Français": "Ce chapitre explique brièvement comment formuler des recommandations, comment rendre les résultats de votre recherche exploitables et quel genre de choses vous pouvez recommander.",
+                        // Japanese
+                        "日本語": "この章では、推奨事項を作成する方法、調査結果を実用的なものにする方法、およびどのようなことを推奨できるかについて簡単に説明します。",
+                        // Korean
+                        "한국인": "이 장에서는 권장 사항을 작성하는 방법, 연구 결과를 실행 가능하게 만드는 방법, 권장할 수 있는 항목의 종류에 대해 간략하게 설명합니다.",
+                        // Spanish
+                        "Español": "Este capítulo habla brevemente sobre cómo hacer recomendaciones, cómo hacer que los resultados de su investigación sean viables y qué tipo de cosas puede recomendar.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय संक्षेप में इस बारे में चर्चा करता है कि सिफारिशें कैसे की जाएं, अपने शोध निष्कर्षों को कार्यान्वयन योग्य कैसे बनाया जाए, तथा आप किस प्रकार की चीजों की सिफारिश कर सकते हैं।",
+                        // Portuguese
+                        "Português": "Este capítulo fala brevemente sobre como fazer recomendações, como tornar as descobertas de sua pesquisa acionáveis ​​e que tipo de coisas você pode recomendar.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ে সংক্ষিপ্তভাবে কিভাবে সুপারিশ করতে হয়, কিভাবে আপনার গবেষণার ফলাফলগুলিকে কার্যকর করা যায় এবং আপনি কি ধরনের জিনিস সুপারিশ করতে পারেন সে সম্পর্কে আলোচনা করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث هذا الفصل بإيجاز عن كيفية تقديم التوصيات، وكيفية جعل نتائج بحثك قابلة للتنفيذ، ونوع الأشياء التي يمكنك التوصية بها.",
+                        // Persian
+                        "فارسی": "این فصل به طور خلاصه در مورد نحوه ارائه توصیه ها، نحوه عملی کردن یافته های تحقیقاتی و نوع چیزهایی که می توانید توصیه کنید صحبت می کند.",
+                    },
                 },
                 // 29
                 {
                     "ChapterName": "Creating executive summaries and detailed reports to present results",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter briefly talks about how to create executive summaries and detailed reports to present results. It gives a summary table about the method. It gives a total picture of report structure, executive summaries, participant details, how to read the report, and how to order your findings and recommendations.",
+                        // German
+                        "Deutsch": "In diesem Kapitel wird kurz erläutert, wie Sie Zusammenfassungen und ausführliche Berichte zur Präsentation von Ergebnissen erstellen. Es enthält eine Übersichtstabelle zur Methode. Es bietet einen Gesamtüberblick über die Berichtsstruktur, Zusammenfassungen, Teilnehmerdetails, wie der Bericht zu lesen ist und wie Sie Ihre Ergebnisse und Empfehlungen ordnen.",
+                        // Chinese
+                        "中国人": "本章简要介绍了如何创建执行摘要和详细报告来呈现结果。它提供了有关该方法的摘要表。它全面介绍了报告结构、执行摘要、参与者详细信息、如何阅读报告以及如何整理您的发现和建议。",
+                        // Russian
+                        "Русский": "В этой главе кратко рассказывается о том, как создавать краткие обзоры и подробные отчеты для представления результатов. Приведена сводная таблица метода. Он дает общее представление о структуре отчета, его резюме, сведениях об участниках, о том, как читать отчет и как упорядочить результаты и рекомендации.",
+                        // French
+                        "Français": "Ce chapitre explique brièvement comment créer des résumés et des rapports détaillés pour présenter les résultats. Il donne un tableau récapitulatif de la méthode. Il donne une image complète de la structure du rapport, des résumés, des détails sur les participants, comment lire le rapport et comment classer vos conclusions et recommandations.",
+                        // Japanese
+                        "日本語": "この章では、結果を提示するためのエグゼクティブ サマリーと詳細レポートの作成方法について簡単に説明します。この方法についての概要表を示します。レポートの構造、エグゼクティブ サマリー、参加者の詳細、レポートの読み方、調査結果と推奨事項の順序付け方法の全体像を示します。",
+                        // Korean
+                        "한국인": "이 장에서는 결과를 제시하기 위한 요약 및 세부 보고서를 작성하는 방법에 대해 간략하게 설명합니다. 방법에 대한 요약표를 제공합니다. 보고서 구조, 요약, 참가자 세부 정보, 보고서를 읽는 방법, 결과 및 권장 사항을 정렬하는 방법에 대한 전체 그림을 제공합니다.",
+                        // Spanish
+                        "Español": "Este capítulo habla brevemente sobre cómo crear resúmenes ejecutivos e informes detallados para presentar los resultados. Proporciona una tabla resumen sobre el método. Ofrece una imagen total de la estructura del informe, resúmenes ejecutivos, detalles de los participantes, cómo leer el informe y cómo ordenar sus hallazgos y recomendaciones.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय संक्षेप में बताता है कि परिणाम प्रस्तुत करने के लिए कार्यकारी सारांश और विस्तृत रिपोर्ट कैसे बनाई जाती है। यह विधि के बारे में सारांश तालिका देता है। यह रिपोर्ट संरचना, कार्यकारी सारांश, प्रतिभागी विवरण, रिपोर्ट को कैसे पढ़ा जाए, और अपने निष्कर्षों और सिफारिशों को कैसे क्रमबद्ध किया जाए, इसकी पूरी तस्वीर देता है।",
+                        // Portuguese
+                        "Português": "Este capítulo fala brevemente sobre como criar resumos executivos e relatórios detalhados para apresentar resultados. Fornece uma tabela resumida sobre o método. Fornece uma visão geral da estrutura do relatório, resumos executivos, detalhes dos participantes, como ler o relatório e como ordenar suas conclusões e recomendações.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়ে সংক্ষিপ্তভাবে ফলাফল উপস্থাপনের জন্য কার্যনির্বাহী সারাংশ এবং বিশদ প্রতিবেদনগুলি কীভাবে তৈরি করা যায় সে সম্পর্কে কথা বলা হয়েছে। এটি পদ্ধতি সম্পর্কে একটি সংক্ষিপ্ত সারণী দেয়। এটি প্রতিবেদনের কাঠামো, কার্যনির্বাহী সারাংশ, অংশগ্রহণকারীদের বিশদ বিবরণ, কীভাবে প্রতিবেদনটি পড়তে হয় এবং কীভাবে আপনার অনুসন্ধান এবং সুপারিশগুলি অর্ডার করতে হয় তার একটি মোট চিত্র দেয়।",
+                        // Arabic
+                        "عَرَبِيّ": "يتحدث هذا الفصل بإيجاز عن كيفية إنشاء الملخصات التنفيذية والتقارير التفصيلية لعرض النتائج. ويعطي جدول ملخص حول الطريقة. فهو يعطي صورة كاملة عن هيكل التقرير، والملخصات التنفيذية، وتفاصيل المشاركين، وكيفية قراءة التقرير، وكيفية ترتيب النتائج والتوصيات.",
+                        // Persian
+                        "فارسی": "این فصل به طور خلاصه در مورد چگونگی ایجاد خلاصه های اجرایی و گزارش های دقیق برای ارائه نتایج صحبت می کند. یک جدول خلاصه در مورد روش ارائه می دهد. این یک تصویر کلی از ساختار گزارش، خلاصه های اجرایی، جزئیات شرکت کنندگان، نحوه خواندن گزارش و نحوه سفارش یافته ها و توصیه های خود را ارائه می دهد.",
+                    },
                 },
                 // 30
                 {
                     "ChapterName": "Using video playback to present your research results",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter mainly focuses on how to use video playback to present your research results. It gives you a summary of the method, how to edit your user research video, and what things should be included in your video.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es hauptsächlich darum, wie Sie die Videowiedergabe zur Präsentation Ihrer Forschungsergebnisse nutzen können. Es gibt Ihnen einen Überblick über die Methode, wie Sie Ihr Benutzerforschungsvideo bearbeiten und welche Dinge in Ihrem Video enthalten sein sollten.",
+                        // Chinese
+                        "中国人": "本章主要讲解如何使用视频回放来展示你的研究成果。它为你总结了该方法，如何编辑你的用户研究视频，以及你的视频中应该包含哪些内容。",
+                        // Russian
+                        "Русский": "В этой главе основное внимание уделяется тому, как использовать воспроизведение видео для представления результатов вашего исследования. В нем содержится краткое описание метода, того, как редактировать видео, посвященное исследованию пользователей, и какие элементы следует включить в ваше видео.",
+                        // French
+                        "Français": "Ce chapitre se concentre principalement sur la façon d'utiliser la lecture vidéo pour présenter les résultats de votre recherche. Il vous donne un résumé de la méthode, comment éditer votre vidéo de recherche d'utilisateurs et quels éléments doivent être inclus dans votre vidéo.",
+                        // Japanese
+                        "日本語": "この章では、主にビデオ再生を使用して調査結果を提示する方法に焦点を当てています。方法の概要、ユーザー調査ビデオの編集方法、ビデオに含めるべき内容について説明します。",
+                        // Korean
+                        "한국인": "이 장에서는 주로 비디오 재생을 사용하여 연구 결과를 제시하는 방법에 중점을 둡니다. 방법, 사용자 조사 영상 편집 방법, 영상에 어떤 내용을 포함해야 하는지 요약해 드립니다.",
+                        // Spanish
+                        "Español": "Este capítulo se centra principalmente en cómo utilizar la reproducción de vídeo para presentar los resultados de su investigación. Le brinda un resumen del método, cómo editar su video de investigación de usuarios y qué cosas deben incluirse en su video.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय मुख्य रूप से इस बात पर केंद्रित है कि अपने शोध परिणामों को प्रस्तुत करने के लिए वीडियो प्लेबैक का उपयोग कैसे करें। यह आपको विधि का सारांश देता है, अपने उपयोगकर्ता शोध वीडियो को कैसे संपादित करें, और आपके वीडियो में क्या चीजें शामिल होनी चाहिए।",
+                        // Portuguese
+                        "Português": "Este capítulo se concentra principalmente em como usar a reprodução de vídeo para apresentar os resultados de sua pesquisa. Ele fornece um resumo do método, como editar seu vídeo de pesquisa de usuário e o que deve ser incluído em seu vídeo.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি মূলত কীভাবে আপনার গবেষণার ফলাফল উপস্থাপন করতে ভিডিও প্লেব্যাক ব্যবহার করতে হয় তার উপর ফোকাস করে। এটি আপনাকে পদ্ধতির একটি সারাংশ দেয়, কীভাবে আপনার ব্যবহারকারীর গবেষণা ভিডিও সম্পাদনা করতে হয় এবং আপনার ভিডিওতে কী কী জিনিস অন্তর্ভুক্ত করা উচিত।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل بشكل أساسي على كيفية استخدام تشغيل الفيديو لعرض نتائج بحثك. فهو يوفر لك ملخصًا للطريقة وكيفية تحرير فيديو بحث المستخدم الخاص بك والأشياء التي يجب تضمينها في الفيديو الخاص بك.",
+                        // Persian
+                        "فارسی": "این فصل عمدتاً بر نحوه استفاده از پخش ویدیو برای ارائه نتایج تحقیق خود تمرکز دارد. خلاصه ای از روش، نحوه ویرایش ویدیوی تحقیقاتی کاربر و مواردی که باید در ویدیوی شما گنجانده شود را به شما ارائه می دهد.",
+                    },
                 },
                 // 31
                 {
                     "ChapterName": "Using journey and experience maps to visualize user research data",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter mainly focuses on how to use journey and experience maps to visualize user research data, a summary of the method, how to create an experience map, map variations, and some method examples.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es hauptsächlich um die Verwendung von Journey- und Experience-Maps zur Visualisierung von Benutzerforschungsdaten, eine Zusammenfassung der Methode, die Erstellung einer Experience-Map, Map-Variationen und einige Methodenbeispiele.",
+                        // Chinese
+                        "中国人": "本章主要讲述如何使用旅程地图和体验地图来可视化用户研究数据，方法总结，如何创建体验地图，地图变体以及一些方法示例。",
+                        // Russian
+                        "Русский": "В этой главе основное внимание уделяется тому, как использовать карты путешествий и опыта для визуализации данных исследований пользователей, краткому изложению метода, созданию карты опыта, вариантам карт и некоторым примерам методов.",
+                        // French
+                        "Français": "Ce chapitre se concentre principalement sur la façon d'utiliser les cartes de parcours et d'expérience pour visualiser les données de recherche des utilisateurs, un résumé de la méthode, la façon de créer une carte d'expérience, les variantes de la carte et quelques exemples de méthodes.",
+                        // Japanese
+                        "日本語": "この章では、主に、ジャーニー マップとエクスペリエンス マップを使用してユーザー調査データを視覚化する方法、方法の概要、エクスペリエンス マップの作成方法、マップのバリエーション、およびいくつかの方法の例に焦点を当てています。",
+                        // Korean
+                        "한국인": "이 장에서는 주로 여정 및 경험 맵을 사용하여 사용자 연구 데이터를 시각화하는 방법, 방법 요약, 경험 맵을 만드는 방법, 지도 변형 및 몇 가지 방법 예제에 중점을 둡니다.",
+                        // Spanish
+                        "Español": "Este capítulo se centra principalmente en cómo utilizar mapas de viaje y experiencia para visualizar datos de investigación de usuarios, un resumen del método, cómo crear un mapa de experiencia, variaciones del mapa y algunos ejemplos de métodos.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय मुख्य रूप से उपयोगकर्ता अनुसंधान डेटा को दृश्यमान करने के लिए यात्रा और अनुभव मानचित्रों का उपयोग करने के तरीके, विधि का सारांश, अनुभव मानचित्र बनाने के तरीके, मानचित्र विविधताएं और कुछ विधि उदाहरणों पर केंद्रित है।",
+                        // Portuguese
+                        "Português": "Este capítulo se concentra principalmente em como usar mapas de jornada e experiência para visualizar dados de pesquisa do usuário, um resumo do método, como criar um mapa de experiência, variações do mapa e alguns exemplos de métodos.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি মূলত ব্যবহারকারীর গবেষণার ডেটা, পদ্ধতির সারসংক্ষেপ, কীভাবে একটি অভিজ্ঞতার মানচিত্র তৈরি করতে হয়, মানচিত্রের বৈচিত্র্য এবং কিছু পদ্ধতির উদাহরণ কল্পনা করতে কীভাবে ভ্রমণ এবং অভিজ্ঞতার মানচিত্র ব্যবহার করতে হয় তার উপর ফোকাস করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل بشكل أساسي على كيفية استخدام خرائط الرحلة والخبرة لتصور بيانات بحث المستخدم، وملخص الطريقة، وكيفية إنشاء خريطة تجربة، وأشكال الخريطة المختلفة، وبعض أمثلة الطريقة.",
+                        // Persian
+                        "فارسی": "این فصل عمدتاً بر نحوه استفاده از نقشه‌های سفر و تجربه برای تجسم داده‌های تحقیقاتی کاربر، خلاصه‌ای از روش، نحوه ایجاد یک نقشه تجربه، تغییرات نقشه و برخی مثال‌های روش تمرکز دارد.",
+                    },
                 },
                 // 32
                 {
                     "ChapterName": "Using scenarios and storyboards to represent the user journey",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter focuses on how to use scenarios and storyboards to represent the user journey, a short method summary, how to create scenarios, how to create storyboards, and what useful pointers are.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es um die Verwendung von Szenarien und Storyboards zur Darstellung der Benutzerreise, eine kurze Methodenübersicht, das Erstellen von Szenarien, das Erstellen von Storyboards und nützliche Hinweise.",
+                        // Chinese
+                        "中国人": "本章重点介绍如何使用场景和故事板来表示用户旅程、简短的方法摘要、如何创建场景、如何创建故事板以及有哪些有用的指针。",
+                        // Russian
+                        "Русский": "В этой главе основное внимание уделяется тому, как использовать сценарии и раскадровки для представления пути пользователя, краткому описанию методов, тому, как создавать сценарии, как создавать раскадровки, а также полезным указаниям.",
+                        // French
+                        "Français": "Ce chapitre se concentre sur la façon d'utiliser des scénarios et des storyboards pour représenter le parcours utilisateur, un bref résumé de la méthode, comment créer des scénarios, comment créer des storyboards et quels sont les pointeurs utiles.",
+                        // Japanese
+                        "日本語": "この章では、シナリオとストーリーボードを使用してユーザー ジャーニーを表現する方法、方法の簡単な概要、シナリオの作成方法、ストーリーボードの作成方法、役立つポインターについて説明します。",
+                        // Korean
+                        "한국인": "이 장에서는 시나리오와 스토리보드를 사용하여 사용자 여정을 표현하는 방법, 간단한 방법 요약, 시나리오를 만드는 방법, 스토리보드를 만드는 방법 및 유용한 포인터가 무엇인지 중점적으로 설명합니다.",
+                        // Spanish
+                        "Español": "Este capítulo se centra en cómo utilizar escenarios y guiones gráficos para representar el recorrido del usuario, un breve resumen del método, cómo crear escenarios, cómo crear guiones gráficos y cuáles son los consejos útiles.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय इस बात पर केंद्रित है कि उपयोगकर्ता की यात्रा को दर्शाने के लिए परिदृश्यों और स्टोरीबोर्ड का उपयोग कैसे करें, एक संक्षिप्त विधि सारांश, परिदृश्य कैसे बनाएं, स्टोरीबोर्ड कैसे बनाएं, और उपयोगी संकेत क्या हैं।",
+                        // Portuguese
+                        "Português": "Este capítulo se concentra em como usar cenários e storyboards para representar a jornada do usuário, um breve resumo do método, como criar cenários, como criar storyboards e quais são as dicas úteis.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি ব্যবহারকারীর যাত্রা, একটি সংক্ষিপ্ত পদ্ধতির সারাংশ, কীভাবে পরিস্থিতি তৈরি করতে হয়, কীভাবে স্টোরিবোর্ড তৈরি করতে হয় এবং কী কী দরকারী পয়েন্টারগুলি উপস্থাপন করতে পরিস্থিতি এবং স্টোরিবোর্ড ব্যবহার করতে হয় তার উপর ফোকাস করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل على كيفية استخدام السيناريوهات والقصص المصورة لتمثيل رحلة المستخدم، وملخص قصير للطريقة، وكيفية إنشاء السيناريوهات، وكيفية إنشاء القصص المصورة، وما هي المؤشرات المفيدة.",
+                        // Persian
+                        "فارسی": "این فصل بر نحوه استفاده از سناریوها و استوری‌بردها برای نشان دادن سفر کاربر، خلاصه روش کوتاه، نحوه ایجاد سناریو، نحوه ایجاد استوری‌برد و اشاره‌گرهای مفید تمرکز دارد.",
+                    },
                 },
                 // 33
                 {
                     "ChapterName": "Using infographics to translate numerical and statistical data",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter focuses on how to use infographics to translate numerical and statistical data, a short method summary, how to make effective infographics, how to make use of available tools, and some method examples.",
+                        // German
+                        "Deutsch": "In diesem Kapitel geht es um die Verwendung von Infografiken zur Darstellung numerischer und statistischer Daten, eine kurze Methodenzusammenfassung, die Erstellung wirkungsvoller Infografiken, die Verwendung verfügbarer Tools und einige Methodenbeispiele.",
+                        // Chinese
+                        "中国人": "本章重点介绍如何使用信息图表翻译数字和统计数据、简短的方法摘要、如何制作有效的信息图表、如何利用可用的工具以及一些方法示例。",
+                        // Russian
+                        "Русский": "В этой главе основное внимание уделяется тому, как использовать инфографику для перевода числовых и статистических данных, краткому описанию методов, тому, как создавать эффективную инфографику, использованию доступных инструментов и некоторым примерам методов.",
+                        // French
+                        "Français": "Ce chapitre se concentre sur la façon d'utiliser les infographies pour traduire des données numériques et statistiques, un bref résumé de la méthode, comment créer des infographies efficaces, comment utiliser les outils disponibles et quelques exemples de méthodes.",
+                        // Japanese
+                        "日本語": "この章では、インフォグラフィックを使用して数値データや統計データを変換する方法、方法の簡単な概要、効果的なインフォグラフィックを作成する方法、利用可能なツールを活用する方法、およびいくつかの方法の例に焦点を当てます。",
+                        // Korean
+                        "한국인": "이 장에서는 수치 및 통계 데이터를 변환하기 위해 인포그래픽을 사용하는 방법, 간단한 방법 요약, 효과적인 인포그래픽을 만드는 방법, 사용 가능한 도구를 활용하는 방법 및 몇 가지 방법 예시에 중점을 둡니다.",
+                        // Spanish
+                        "Español": "Este capítulo se centra en cómo utilizar infografías para traducir datos numéricos y estadísticos, un breve resumen del método, cómo hacer infografías efectivas, cómo utilizar las herramientas disponibles y algunos ejemplos de métodos.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय संख्यात्मक और सांख्यिकीय डेटा का अनुवाद करने के लिए इन्फोग्राफिक्स का उपयोग करने के तरीके, एक संक्षिप्त विधि सारांश, प्रभावी इन्फोग्राफिक्स बनाने के तरीके, उपलब्ध उपकरणों का उपयोग करने के तरीके और कुछ विधि उदाहरणों पर केंद्रित है।",
+                        // Portuguese
+                        "Português": "Este capítulo se concentra em como usar infográficos para traduzir dados numéricos e estatísticos, um breve resumo do método, como fazer infográficos eficazes, como usar as ferramentas disponíveis e alguns exemplos de métodos.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি সংখ্যাসূচক এবং পরিসংখ্যানগত ডেটা অনুবাদ করার জন্য কীভাবে ইনফোগ্রাফিক্স ব্যবহার করতে হয়, একটি সংক্ষিপ্ত পদ্ধতির সারাংশ, কীভাবে কার্যকর ইনফোগ্রাফিক্স তৈরি করা যায়, উপলব্ধ সরঞ্জামগুলি কীভাবে ব্যবহার করা যায় এবং কিছু পদ্ধতির উদাহরণের উপর আলোকপাত করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل على كيفية استخدام الرسوم البيانية لترجمة البيانات الرقمية والإحصائية، وملخص قصير للطريقة، وكيفية عمل الرسوم البيانية الفعالة، وكيفية الاستفادة من الأدوات المتاحة، وبعض الأمثلة على الطرق.",
+                        // Persian
+                        "فارسی": "این فصل بر نحوه استفاده از اینفوگرافیک برای ترجمه داده های عددی و آماری، خلاصه روش کوتاه، نحوه ساخت اینفوگرافیک موثر، نحوه استفاده از ابزارهای موجود و چند مثال روش تمرکز دارد.",
+                    },
                 },
                 // 34
                 {
                     "ChapterName": "How to recommend changes to visual, interaction and information design",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This chapter focuses on how to recommend changes to visual, interaction, and information design, a short method summary, and useful tools.",
+                        // German
+                        "Deutsch": "In diesem Kapitel liegt der Schwerpunkt auf der Empfehlung von Änderungen am visuellen Design sowie am Interaktions- und Informationsdesign und bietet eine kurze Methodenzusammenfassung sowie nützliche Tools.",
+                        // Chinese
+                        "中国人": "本章重点介绍如何建议对视觉、交互和信息设计的变更、简短的方法摘要和有用的工具。",
+                        // Russian
+                        "Русский": "В этой главе основное внимание уделяется тому, как рекомендовать изменения в визуальном, интерактивном и информационном дизайне, а также краткому описанию методов и полезным инструментам.",
+                        // French
+                        "Français": "Ce chapitre se concentre sur la façon de recommander des modifications à la conception visuelle, d'interaction et d'information, un bref résumé de la méthode et des outils utiles.",
+                        // Japanese
+                        "日本語": "この章では、ビジュアル、インタラクション、情報デザインの変更を推奨する方法、方法の簡単な概要、便利なツールに焦点を当てます。",
+                        // Korean
+                        "한국인": "이 장에서는 시각적, 상호 작용 및 정보 디자인에 대한 변경 사항을 권장하는 방법, 간단한 방법 요약 및 유용한 도구에 중점을 둡니다.",
+                        // Spanish
+                        "Español": "Este capítulo se centra en cómo recomendar cambios en el diseño visual, de interacción y de información, un breve resumen del método y herramientas útiles.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय दृश्य, अंतःक्रिया और सूचना डिजाइन में परिवर्तन की सिफारिश करने, संक्षिप्त विधि सारांश और उपयोगी उपकरणों पर केंद्रित है।",
+                        // Portuguese
+                        "Português": "Este capítulo se concentra em como recomendar mudanças no design visual, de interação e de informação, um breve resumo do método e ferramentas úteis.",
+                        // Bengali
+                        "বাংলা": "এই অধ্যায়টি দৃষ্টি, মিথস্ক্রিয়া, এবং তথ্য নকশা, একটি সংক্ষিপ্ত পদ্ধতির সারাংশ এবং দরকারী সরঞ্জামগুলিতে পরিবর্তনগুলি কীভাবে সুপারিশ করতে হয় তার উপর ফোকাস করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يركز هذا الفصل على كيفية التوصية بالتغييرات في التصميم المرئي والتفاعلي وتصميم المعلومات، وملخص قصير للطريقة، وأدوات مفيدة.",
+                        // Persian
+                        "فارسی": "این فصل بر چگونگی توصیه تغییرات در طراحی بصری، تعامل و اطلاعات، خلاصه روش کوتاه و ابزارهای مفید تمرکز دارد.",
+                    },
                 },
                 // 35
                 {
                     "ChapterName": "Conclusion",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "This section is the final overview and the book talks about conclusions.",
+                        // German
+                        "Deutsch": "Dieser Abschnitt bietet den abschließenden Überblick und das Buch enthält Schlussfolgerungen.",
+                        // Chinese
+                        "中国人": "本节是最后的概述，本书讨论的是结论。",
+                        // Russian
+                        "Русский": "Этот раздел представляет собой окончательный обзор, и в книге говорится о выводах.",
+                        // French
+                        "Français": "Cette section est l'aperçu final et le livre parle de conclusions.",
+                        // Japanese
+                        "日本語": "このセクションは最終の概要であり、本書では結論について説明しています。",
+                        // Korean
+                        "한국인": "이 섹션은 최종 개요이며 책에서는 결론에 대해 설명합니다.",
+                        // Spanish
+                        "Español": "Esta sección es la descripción general final y el libro habla de las conclusiones.",
+                        // Hindi
+                        "हिंदी": "यह खंड अंतिम अवलोकन है और पुस्तक निष्कर्षों के बारे में बात करती है।",
+                        // Portuguese
+                        "Português": "Esta seção é a visão geral final e o livro fala sobre conclusões.",
+                        // Bengali
+                        "বাংলা": "এই বিভাগটি চূড়ান্ত ওভারভিউ এবং বইটি উপসংহার সম্পর্কে কথা বলে।",
+                        // Arabic
+                        "عَرَبِيّ": "هذا القسم هو النظرة العامة النهائية ويتحدث الكتاب عن الاستنتاجات.",
+                        // Persian
+                        "فارسی": "این بخش مروری نهایی است و کتاب در مورد نتیجه گیری صحبت می کند.",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -1374,67 +2211,418 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Don't make me think!",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter emphasizes the criticality of intuitive web design, advocating for self-evident and self-explanatory pages to minimize cognitive strain. It underscores how confusing webpage elements can frustrate users and diminish their engagement. Central to this is Krug’s First Law of Usability, “Don’t make me think,” which champions user-friendly design as essential for improving user experience and ensuring they remain on the site. This principle serves as a guiding philosophy for creating straightforward and navigable web interfaces.",
+                        // German
+                        "Deutsch": "Das Kapitel betont die Bedeutung intuitiven Webdesigns und plädiert für selbstverständliche und selbsterklärende Seiten, um die kognitive Belastung zu minimieren. Es unterstreicht, wie verwirrende Webseitenelemente Benutzer frustrieren und ihr Engagement mindern können. Im Mittelpunkt steht dabei Krugs erstes Gesetz der Benutzerfreundlichkeit: „Lass mich nicht nachdenken“, das benutzerfreundliches Design als wesentlich für die Verbesserung der Benutzererfahrung und das Verweilen auf der Website anerkennt. Dieses Prinzip dient als Leitphilosophie für die Erstellung unkomplizierter und navigierbarer Weboberflächen.",
+                        // Chinese
+                        "中国人": "本章强调了直观的网页设计的重要性，提倡使用不言自明和不言自明的页面来最大限度地减少认知压力。它强调了令人困惑的网页元素如何让用户感到沮丧并降低他们的参与度。其中的核心是克鲁格的可用性第一定律“不要让我思考”，它主张用户友好的设计对于改善用户体验和确保他们留在网站上至关重要。这一原则是创建简单易用的网页界面的指导理念。",
+                        // Russian
+                        "Русский": "В главе подчеркивается важность интуитивно понятного веб-дизайна, пропагандируется использование самоочевидных и понятных страниц для минимизации когнитивного напряжения. Это подчеркивает, как запутанные элементы веб-страницы могут расстраивать пользователей и снижать их вовлеченность. Центральное место в этом занимает Первый закон юзабилити Круга «Не заставляйте меня думать», который утверждает, что удобный дизайн необходим для улучшения пользовательского опыта и обеспечения того, чтобы они оставались на сайте. Этот принцип служит руководящей философией для создания простых и удобных для навигации веб-интерфейсов.",
+                        // French
+                        "Français": "Le chapitre met l'accent sur l'importance d'une conception Web intuitive, en préconisant des pages évidentes et explicites pour minimiser la tension cognitive. Cela souligne à quel point les éléments confus des pages Web peuvent frustrer les utilisateurs et diminuer leur engagement. Au cœur de cette démarche se trouve la première loi de convivialité de Krug, « Ne me faites pas réfléchir », qui considère la conception conviviale comme essentielle pour améliorer l'expérience utilisateur et garantir qu'il reste sur le site. Ce principe sert de philosophie directrice pour créer des interfaces Web simples et navigables.",
+                        // Japanese
+                        "日本語": "この章では、直感的な Web デザインの重要性を強調し、認知的負担を最小限に抑えるために、自明で説明のいらないページを推奨しています。また、わかりにくい Web ページの要素がユーザーを苛立たせ、エンゲージメントを低下させる可能性があることを強調しています。その中心にあるのは、Krug のユーザビリティの第一法則「考えさせない」です。これは、ユーザー エクスペリエンスを向上させ、ユーザーがサイトに留まるようにするためには、ユーザー フレンドリーなデザインが不可欠であると主張しています。この原則は、わかりやすくナビゲートしやすい Web インターフェイスを作成するための指針となる哲学です。",
+                        // Korean
+                        "한국인": "이 장에서는 인지적 부담을 최소화하기 위해 자명하고 자명한 페이지를 옹호하면서 직관적인 웹 디자인의 중요성을 강조합니다. 이는 혼란스러운 웹페이지 요소가 사용자를 좌절시키고 참여를 감소시킬 수 있음을 강조합니다. 이것의 핵심은 Krug의 사용성 제1법칙인 “생각하게 만들지 마세요”입니다. 이는 사용자 경험을 개선하고 사이트에 머물도록 보장하는 데 필수적인 사용자 친화적인 디자인을 옹호합니다. 이 원칙은 간단하고 탐색 가능한 웹 인터페이스를 만들기 위한 지침 철학으로 사용됩니다.",
+                        // Spanish
+                        "Español": "El capítulo enfatiza la importancia del diseño web intuitivo, abogando por páginas evidentes y autoexplicativas para minimizar la tensión cognitiva. Subraya cómo los elementos confusos de una página web pueden frustrar a los usuarios y disminuir su participación. Para esto es fundamental la Primera Ley de Usabilidad de Krug, “No me hagas pensar”, que defiende el diseño fácil de usar como esencial para mejorar la experiencia del usuario y garantizar que permanezca en el sitio. Este principio sirve como filosofía rectora para crear interfaces web sencillas y navegables.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय सहज ज्ञान युक्त वेब डिज़ाइन की महत्ता पर ज़ोर देता है, संज्ञानात्मक तनाव को कम करने के लिए स्व-स्पष्ट और स्व-व्याख्यात्मक पृष्ठों की वकालत करता है। यह रेखांकित करता है कि कैसे भ्रमित करने वाले वेबपेज तत्व उपयोगकर्ताओं को निराश कर सकते हैं और उनकी सहभागिता को कम कर सकते हैं। इसके केंद्र में क्रुग का प्रयोज्यता का पहला नियम है, “मुझे सोचने पर मजबूर न करें”, जो उपयोगकर्ता के अनुकूल डिज़ाइन को उपयोगकर्ता अनुभव को बेहतर बनाने और यह सुनिश्चित करने के लिए आवश्यक मानता है कि वे साइट पर बने रहें। यह सिद्धांत सीधे और नेविगेट करने योग्य वेब इंटरफेस बनाने के लिए एक मार्गदर्शक दर्शन के रूप में कार्य करता है।",
+                        // Portuguese
+                        "Português": "O capítulo enfatiza a importância do web design intuitivo, defendendo páginas evidentes e autoexplicativas para minimizar a tensão cognitiva. Isso ressalta como elementos confusos de páginas da web podem frustrar os usuários e diminuir seu envolvimento. No centro disso está a Primeira Lei de Usabilidade de Krug, “Não me faça pensar”, que defende o design amigável como essencial para melhorar a experiência do usuário e garantir que ele permaneça no site. Este princípio serve como filosofia orientadora para a criação de interfaces web simples e navegáveis.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি স্বজ্ঞাত ওয়েব ডিজাইনের সমালোচনার উপর জোর দেয়, জ্ঞানীয় চাপ কমাতে স্ব-স্পষ্ট এবং স্ব-ব্যাখ্যামূলক পৃষ্ঠাগুলির পক্ষে সমর্থন করে। এটি আন্ডারস্কোর করে কিভাবে বিভ্রান্তিকর ওয়েবপৃষ্ঠা উপাদান ব্যবহারকারীদের হতাশ করতে পারে এবং তাদের ব্যস্ততা হ্রাস করতে পারে। এর কেন্দ্রবিন্দু হল ক্রুগের ব্যবহারযোগ্যতার প্রথম আইন, “আমাকে ভাবতে বাধ্য করবেন না”, যা ব্যবহারকারীর অভিজ্ঞতার উন্নতির জন্য এবং তারা সাইটে থাকা নিশ্চিত করার জন্য ব্যবহারকারী-বান্ধব ডিজাইনকে অপরিহার্য হিসাবে চ্যাম্পিয়ন করে। এই নীতিটি সহজবোধ্য এবং নেভিগেবল ওয়েব ইন্টারফেস তৈরির জন্য একটি পথনির্দেশক দর্শন হিসাবে কাজ করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يؤكد هذا الفصل على أهمية تصميم الويب البديهي، ويدعو إلى صفحات واضحة وواضحة بذاتها لتقليل الضغط المعرفي. إنه يسلط الضوء على كيف يمكن لعناصر صفحة الويب المربكة أن تحبط المستخدمين وتقلل من تفاعلهم. ومن الأمور المركزية في ذلك قانون كروج الأول لسهولة الاستخدام، ”لا تجعلني أفكر“، والذي يدعم التصميم سهل الاستخدام باعتباره ضروريًا لتحسين تجربة المستخدم وضمان بقائه على الموقع. يعد هذا المبدأ بمثابة فلسفة إرشادية لإنشاء واجهات ويب واضحة وقابلة للتنقل.",
+                        // Persian
+                        "فارسی": "این فصل بر اهمیت طراحی وب بصری تأکید می کند و از صفحات بدیهی و خود توضیحی برای به حداقل رساندن فشارهای شناختی حمایت می کند. این نشان می دهد که چگونه عناصر گیج کننده صفحه وب می توانند کاربران را ناامید کرده و تعامل آنها را کاهش دهند. محور اصلی این قانون اولین قانون کاربردی Krug است، ”مرا مجبور نکنید فکر کنم“، که از طراحی کاربرپسند به عنوان ضروری برای بهبود تجربه کاربر و اطمینان از ماندن آنها در سایت حمایت می کند. این اصل به عنوان یک فلسفه راهنما برای ایجاد رابط های وب ساده و قابل پیمایش عمل می کند.",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "How we really use the Web",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter outlines the typical behaviors of users on the web, noting that they tend to scan rather than read in detail, click on links that immediately grab their attention, and navigate through technology with a limited understanding of its workings. Consequently, it advises designers to craft web pages that are scannable, contain engaging content to quickly capture interest, and feature intuitive interfaces that accommodate the common user practice of muddling through without full comprehension, thus enhancing the overall user experience.",
+                        // German
+                        "Deutsch": "Das Kapitel beschreibt das typische Verhalten von Benutzern im Internet und stellt fest, dass sie dazu neigen, den Inhalt zu überfliegen, anstatt ihn im Detail zu lesen, auf Links zu klicken, die sofort ihre Aufmerksamkeit erregen, und sich durch die Technologie zu bewegen, ohne deren Funktionsweise zu verstehen. Daher wird Designern empfohlen, Webseiten zu erstellen, die überfliegbar sind, ansprechende Inhalte enthalten, um schnell das Interesse zu wecken, und intuitive Benutzeroberflächen zu bieten, die dem üblichen Benutzerverhalten entgegenkommen, sich ohne vollständiges Verständnis durchzuwursteln, und so das allgemeine Benutzererlebnis zu verbessern.",
+                        // Chinese
+                        "中国人": "本章概述了网络用户的典型行为，指出他们倾向于浏览而不是详细阅读，点击立即引起他们注意的链接，并在对其工作原理了解有限的情况下浏览技术。因此，它建议设计师制作易于浏览的网页，包含引人入胜的内容以快速吸引兴趣，并具有直观的界面，以适应用户在没有完全理解的情况下摸索的常见做法，从而增强整体用户体验。",
+                        // Russian
+                        "Русский": "В главе описывается типичное поведение пользователей в сети, отмечая, что они склонны скорее просматривать, чем читать подробно, нажимать на ссылки, которые сразу привлекают их внимание, и перемещаться по технологиям с ограниченным пониманием того, как они работают. Следовательно, он советует дизайнерам создавать веб-страницы, которые можно сканировать, содержать привлекательный контент, чтобы быстро привлечь интерес, и иметь интуитивно понятные интерфейсы, которые учитывают обычную пользовательскую практику, связанную с путаницей без полного понимания, тем самым улучшая общий пользовательский опыт.",
+                        // French
+                        "Français": "Le chapitre décrit les comportements typiques des utilisateurs sur le Web, notant qu'ils ont tendance à scanner plutôt qu'à lire en détail, à cliquer sur des liens qui attirent immédiatement leur attention et à naviguer dans la technologie avec une compréhension limitée de son fonctionnement. Par conséquent, il conseille aux concepteurs de créer des pages Web numérisables, contenant un contenu attrayant pour capter rapidement l'intérêt et présentant des interfaces intuitives qui s'adaptent à la pratique courante des utilisateurs consistant à se débrouiller sans compréhension complète, améliorant ainsi l'expérience utilisateur globale.",
+                        // Japanese
+                        "日本語": "この章では、Web 上のユーザーの典型的な行動について概説し、ユーザーは詳細を読むよりもざっと目を通す傾向があり、すぐに注意を引くリンクをクリックし、その仕組みをあまり理解せずにテクノロジーをナビゲートする傾向があることを指摘しています。したがって、デザイナーは、ざっと目を通すことができ、すぐに興味を引く魅力的なコンテンツを含み、完全に理解せずに混乱しながら読み進めるという一般的なユーザーの習慣に対応する直感的なインターフェイスを備えた Web ページを作成し、全体的なユーザー エクスペリエンスを向上させることを推奨しています。",
+                        // Korean
+                        "한국인": "이 장에서는 웹 사용자의 일반적인 행동을 간략히 설명합니다. 사용자는 자세히 읽기보다는 훑어보고, 즉시 관심을 끄는 링크를 클릭하고, 작동 방식에 대한 제한된 이해만으로 기술을 탐색하는 경향이 있다는 점을 지적합니다. 결과적으로, 이는 디자이너에게 스캔 가능하고, 빠르게 관심을 끌 수 있는 매력적인 콘텐츠를 포함하며, 완전한 이해 없이 혼란스러워하는 일반적인 사용자 관행을 수용하는 직관적인 인터페이스를 특징으로 하는 웹 페이지를 제작하여 전반적인 사용자 경험을 향상하도록 조언합니다.",
+                        // Spanish
+                        "Español": "El capítulo describe los comportamientos típicos de los usuarios en la web, señalando que tienden a escanear en lugar de leer en detalle, hacer clic en enlaces que captan inmediatamente su atención y navegar a través de la tecnología con una comprensión limitada de su funcionamiento. En consecuencia, aconseja a los diseñadores crear páginas web que se puedan escanear, que contengan contenido atractivo para captar rápidamente el interés y que presenten interfaces intuitivas que se adapten a la práctica común del usuario de salir del paso sin una comprensión completa, mejorando así la experiencia general del usuario.",
+                        // Hindi
+                        "हिंदी": "अध्याय वेब पर उपयोगकर्ताओं के विशिष्ट व्यवहारों को रेखांकित करता है, जिसमें बताया गया है कि वे विस्तार से पढ़ने के बजाय स्कैन करते हैं, उन लिंक पर क्लिक करते हैं जो तुरंत उनका ध्यान आकर्षित करते हैं, और प्रौद्योगिकी के कामकाज की सीमित समझ के साथ नेविगेट करते हैं। नतीजतन, यह डिजाइनरों को ऐसे वेब पेज बनाने की सलाह देता है जो स्कैन करने योग्य हों, जिनमें रुचि को तुरंत आकर्षित करने के लिए आकर्षक सामग्री हो, और सहज ज्ञान युक्त इंटरफेस हों जो बिना पूरी समझ के उलझे रहने के सामान्य उपयोगकर्ता अभ्यास को समायोजित करते हों, इस प्रकार समग्र उपयोगकर्ता अनुभव को बढ़ाते हैं।",
+                        // Portuguese
+                        "Português": "O capítulo descreve os comportamentos típicos dos usuários na web, observando que eles tendem a escanear em vez de ler em detalhes, clicar em links que imediatamente chamam sua atenção e navegar pela tecnologia com uma compreensão limitada de seu funcionamento. Conseqüentemente, ele aconselha os designers a criarem páginas da web que sejam digitalizáveis, contenham conteúdo envolvente para capturar rapidamente o interesse e apresentem interfaces intuitivas que acomodem a prática comum do usuário de navegar sem compreensão total, melhorando assim a experiência geral do usuário.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি ওয়েবে ব্যবহারকারীদের সাধারণ আচরণের রূপরেখা দেয়, উল্লেখ করে যে তারা বিশদভাবে পড়ার পরিবর্তে স্ক্যান করার প্রবণতা দেখায়, লিঙ্কগুলিতে ক্লিক করুন যা অবিলম্বে তাদের মনোযোগ আকর্ষণ করে এবং প্রযুক্তির কাজের সীমিত বোঝার সাথে নেভিগেট করে। ফলস্বরূপ, এটি ডিজাইনারদের এমন ওয়েব পৃষ্ঠাগুলি তৈরি করার পরামর্শ দেয় যা স্ক্যানযোগ্য, দ্রুত আগ্রহ ক্যাপচার করার জন্য আকর্ষক বিষয়বস্তু ধারণ করে, এবং স্বজ্ঞাত ইন্টারফেসগুলি বৈশিষ্ট্যযুক্ত করে যা সম্পূর্ণ উপলব্ধি ছাড়াই সাধারণ ব্যবহারকারীর অভ্যাসকে মিটমাট করে, এইভাবে সামগ্রিক ব্যবহারকারীর অভিজ্ঞতা বৃদ্ধি করে৷",
+                        // Arabic
+                        "عَرَبِيّ": "يوضح الفصل السلوكيات النموذجية للمستخدمين على الويب، مع الإشارة إلى أنهم يميلون إلى المسح بدلاً من القراءة بالتفصيل، والنقر على الروابط التي تجذب انتباههم على الفور، والتنقل عبر التكنولوجيا بفهم محدود لطريقة عملها. وبالتالي، تنصح المصممين بصياغة صفحات ويب قابلة للمسح الضوئي، وتحتوي على محتوى جذاب لجذب الاهتمام بسرعة، وتتميز بواجهات بديهية تستوعب ممارسة المستخدم الشائعة المتمثلة في التشويش دون الفهم الكامل، وبالتالي تعزيز تجربة المستخدم الشاملة.",
+                        // Persian
+                        "فارسی": "این فصل به تشریح رفتارهای معمول کاربران در وب می‌پردازد، و خاطرنشان می‌کند که آنها تمایل دارند به جای خواندن جزئیات، اسکن کنند، روی پیوندهایی کلیک کنند که فوراً توجه آنها را جلب می‌کند، و با درک محدودی از عملکرد فناوری در میان آنها حرکت می‌کنند. در نتیجه، به طراحان توصیه می‌کند تا صفحات وب را بسازند که قابل اسکن هستند، حاوی محتوای جذاب برای جلب سریع علاقه‌مندی‌ها هستند، و دارای رابط‌های بصری هستند که با روش معمول کاربر در آشفتگی بدون درک کامل سازگار است، بنابراین تجربه کلی کاربر را بهبود می‌بخشد.",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Billboard Design 101",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter provides a comprehensive guide to effective web design, underscoring the balance between usability and creativity. It emphasizes the need for clear, rather than consistent, design choices and the creation of visual hierarchies to aid user comprehension. Tips on enhancing visual prominence, establishing logical relationships, and proper content nesting are highlighted to structure content clearly. Additionally, it advocates for adhering to established web design conventions to maintain user familiarity, while also encouraging innovation that contributes substantial value or clarity, thereby benefiting the overall user experience.",
+                        // German
+                        "Deutsch": "Das Kapitel bietet eine umfassende Anleitung für effektives Webdesign und betont die Balance zwischen Benutzerfreundlichkeit und Kreativität. Es betont die Notwendigkeit klarer, nicht einheitlicher Designentscheidungen und der Schaffung visueller Hierarchien, um das Verständnis des Benutzers zu unterstützen. Es werden Tipps zur Verbesserung der visuellen Hervorhebung, zum Aufbau logischer Beziehungen und zur richtigen Verschachtelung von Inhalten hervorgehoben, um Inhalte klar zu strukturieren. Darüber hinaus wird empfohlen, etablierte Webdesignkonventionen einzuhalten, um die Vertrautheit des Benutzers aufrechtzuerhalten, und gleichzeitig Innovationen zu fördern, die einen wesentlichen Mehrwert oder eine erhebliche Klarheit bieten und so das allgemeine Benutzererlebnis verbessern.",
+                        // Chinese
+                        "中国人": "本章提供了有效网页设计的全面指南，强调了可用性和创造力之间的平衡。它强调需要清晰而非一致的设计选择，并创建视觉层次结构以帮助用户理解。重点介绍了增强视觉突出性、建立逻辑关系和正确内容嵌套的技巧，以使内容结构清晰。此外，它提倡遵守既定的网页设计惯例以保持用户熟悉度，同时也鼓励提供实质性价值或清晰度的创新，从而有利于整体用户体验。",
+                        // Russian
+                        "Русский": "В этой главе представлено подробное руководство по эффективному веб-дизайну, подчеркивающее баланс между удобством использования и креативностью. Он подчеркивает необходимость четкого, а не последовательного выбора дизайна и создания визуальных иерархий для облегчения понимания пользователем. Советы по повышению визуальной заметности, установлению логических связей и правильному вложению контента выделены для четкой структуризации контента. Кроме того, он выступает за соблюдение установленных конвенций веб-дизайна для поддержания знакомства пользователей, а также поощряет инновации, которые приносят существенную ценность или ясность, тем самым улучшая общий пользовательский опыт.",
+                        // French
+                        "Français": "Le chapitre fournit un guide complet pour une conception Web efficace, soulignant l'équilibre entre convivialité et créativité. Il souligne la nécessité de choix de conception clairs plutôt que cohérents et de création de hiérarchies visuelles pour faciliter la compréhension de l'utilisateur. Des conseils pour améliorer la proéminence visuelle, établir des relations logiques et imbriquer correctement le contenu sont mis en évidence pour structurer clairement le contenu. En outre, il préconise le respect des conventions de conception Web établies pour maintenir la familiarité des utilisateurs, tout en encourageant l'innovation qui apporte une valeur ou une clarté substantielle, bénéficiant ainsi à l'expérience utilisateur globale.",
+                        // Japanese
+                        "日本語": "この章では、効果的な Web デザインに関する包括的なガイドを提供し、使いやすさと創造性のバランスを強調しています。一貫性よりも明確なデザイン選択と、ユーザーの理解を助ける視覚的な階層の作成の必要性を強調しています。視覚的な目立ち度を高める、論理的な関係を確立する、適切なコンテンツのネストに関するヒントを強調して、コンテンツを明確に構造化します。さらに、確立された Web デザインの慣例を順守してユーザーの親しみやすさを維持すると同時に、大きな価値や明確さをもたらす革新を奨励し、それによって全体的なユーザー エクスペリエンスを向上させることを提唱しています。",
+                        // Korean
+                        "한국인": "이 장에서는 유용성과 창의성 사이의 균형을 강조하면서 효과적인 웹 디자인에 대한 포괄적인 가이드를 제공합니다. 일관성보다는 명확한 디자인 선택과 사용자 이해를 돕기 위한 시각적 계층 구조 생성의 필요성을 강조합니다. 시각적 중요성 강화, 논리적 관계 설정, 적절한 콘텐츠 중첩에 대한 팁을 강조하여 콘텐츠를 명확하게 구성합니다. 또한 이는 사용자 친숙성을 유지하기 위해 확립된 웹 디자인 규칙을 준수하는 동시에 실질적인 가치나 명확성에 기여하여 전반적인 사용자 경험에 도움이 되는 혁신을 장려하는 것을 옹호합니다.",
+                        // Spanish
+                        "Español": "El capítulo proporciona una guía completa para un diseño web eficaz, subrayando el equilibrio entre usabilidad y creatividad. Enfatiza la necesidad de opciones de diseño claras, en lugar de consistentes, y la creación de jerarquías visuales para ayudar a la comprensión del usuario. Se destacan consejos para mejorar la prominencia visual, establecer relaciones lógicas y anidar el contenido de forma adecuada para estructurar el contenido con claridad. Además, aboga por adherirse a las convenciones de diseño web establecidas para mantener la familiaridad del usuario, al mismo tiempo que fomenta la innovación que aporta valor o claridad sustancial, beneficiando así la experiencia general del usuario.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय प्रभावी वेब डिज़ाइन के लिए एक व्यापक मार्गदर्शिका प्रदान करता है, जो प्रयोज्यता और रचनात्मकता के बीच संतुलन को रेखांकित करता है। यह उपयोगकर्ता की समझ में सहायता करने के लिए सुसंगत, डिज़ाइन विकल्पों के बजाय स्पष्ट, और दृश्य पदानुक्रमों के निर्माण की आवश्यकता पर जोर देता है। दृश्य प्रमुखता बढ़ाने, तार्किक संबंध स्थापित करने और उचित सामग्री नेस्टिंग पर सुझाव स्पष्ट रूप से सामग्री को संरचित करने के लिए हाइलाइट किए गए हैं। इसके अतिरिक्त, यह उपयोगकर्ता की परिचितता बनाए रखने के लिए स्थापित वेब डिज़ाइन सम्मेलनों का पालन करने की वकालत करता है, साथ ही ऐसे नवाचार को प्रोत्साहित करता है जो पर्याप्त मूल्य या स्पष्टता में योगदान देता है, जिससे समग्र उपयोगकर्ता अनुभव को लाभ होता है।",
+                        // Portuguese
+                        "Português": "O capítulo fornece um guia completo para web design eficaz, ressaltando o equilíbrio entre usabilidade e criatividade. Ele enfatiza a necessidade de escolhas de design claras, em vez de consistentes, e a criação de hierarquias visuais para ajudar na compreensão do usuário. Dicas sobre como melhorar o destaque visual, estabelecer relações lógicas e aninhar adequadamente o conteúdo são destacadas para estruturar o conteúdo com clareza. Além disso, defende a adesão às convenções de web design estabelecidas para manter a familiaridade do utilizador, ao mesmo tempo que incentiva a inovação que contribui com valor ou clareza substancial, beneficiando assim a experiência geral do utilizador.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি কার্যকর ওয়েব ডিজাইনের জন্য একটি ব্যাপক নির্দেশিকা প্রদান করে, ব্যবহারযোগ্যতা এবং সৃজনশীলতার মধ্যে ভারসাম্যকে আন্ডারস্কোর করে। এটি ব্যবহারকারীর বোধগম্যতাকে সহায়তা করার জন্য সুসংগত, নকশা পছন্দের পরিবর্তে পরিষ্কারের প্রয়োজনীয়তার উপর জোর দেয় এবং ভিজ্যুয়াল শ্রেণিবিন্যাস তৈরি করে। চাক্ষুষ বিশিষ্টতা বাড়ানো, যৌক্তিক সম্পর্ক স্থাপন এবং সঠিক বিষয়বস্তু নেস্টিং বিষয়বস্তুকে পরিষ্কারভাবে গঠন করার জন্য টিপস হাইলাইট করা হয়েছে। উপরন্তু, এটি ব্যবহারকারীর পরিচিতি বজায় রাখার জন্য প্রতিষ্ঠিত ওয়েব ডিজাইন কনভেনশনগুলি মেনে চলার পক্ষে সমর্থন করে, পাশাপাশি উদ্ভাবনকে উত্সাহিত করে যা যথেষ্ট মূল্য বা স্পষ্টতা অবদান রাখে, যার ফলে সামগ্রিক ব্যবহারকারীর অভিজ্ঞতা লাভবান হয়।",
+                        // Arabic
+                        "عَرَبِيّ": "يقدم هذا الفصل دليلاً شاملاً لتصميم الويب الفعال، مع التركيز على التوازن بين سهولة الاستخدام والإبداع. إنه يؤكد على الحاجة إلى خيارات تصميم واضحة، وليست متسقة، وإنشاء تسلسلات هرمية مرئية لمساعدة المستخدم على الفهم. يتم تسليط الضوء على النصائح حول تعزيز البروز البصري، وإقامة علاقات منطقية، وتداخل المحتوى المناسب لتنظيم المحتوى بشكل واضح. بالإضافة إلى ذلك، فهو يدعو إلى الالتزام باتفاقيات تصميم الويب المعمول بها للحفاظ على معرفة المستخدم، مع تشجيع الابتكار الذي يساهم بقيمة كبيرة أو وضوح، وبالتالي يفيد تجربة المستخدم الشاملة.",
+                        // Persian
+                        "فارسی": "این فصل راهنمای جامعی برای طراحی موثر وب ارائه می دهد که بر تعادل بین قابلیت استفاده و خلاقیت تأکید می کند. بر نیاز به انتخاب‌های طراحی واضح و نه ثابت و ایجاد سلسله مراتب بصری برای کمک به درک کاربر تأکید می‌کند. نکاتی در مورد افزایش برجستگی بصری، ایجاد روابط منطقی، و تودرتوی مناسب محتوا برای ساختاربندی واضح محتوا برجسته شده است. علاوه بر این، از پایبندی به قراردادهای طراحی وب سایت برای حفظ آشنایی کاربر حمایت می کند، در حالی که همچنین نوآوری را تشویق می کند که ارزش یا وضوح قابل توجهی را ایجاد می کند، در نتیجه از تجربه کلی کاربر سود می برد.",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Animal, Vegetable, or Mineral ?",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter delves into the concept of user-friendly website navigation, emphasizing that users favor effortless decision-making, preferring the simplicity of clicking to the quantity of clicks. It advocates for clear, informative links that guide users intuitively, akin to the straightforward choices in the game Twenty Questions. The text also suggests providing timely guidance for complex decisions, drawing parallels to the effectiveness of London’s street signs, underscoring the importance of making choices on websites as mindless as possible to ensure optimal usability.",
+                        // German
+                        "Deutsch": "Das Kapitel befasst sich eingehend mit dem Konzept der benutzerfreundlichen Website-Navigation und betont, dass Benutzer mühelose Entscheidungsfindung bevorzugen und die Einfachheit des Klickens der Anzahl der Klicks vorziehen. Es plädiert für klare, informative Links, die Benutzer intuitiv leiten, ähnlich den unkomplizierten Entscheidungen im Spiel „Zwanzig Fragen“. Der Text schlägt auch vor, zeitnahe Anleitungen für komplexe Entscheidungen bereitzustellen, zieht Parallelen zur Wirksamkeit der Londoner Straßenschilder und unterstreicht, wie wichtig es ist, Entscheidungen auf Websites so gedankenlos wie möglich zu treffen, um eine optimale Benutzerfreundlichkeit zu gewährleisten.",
+                        // Chinese
+                        "中国人": "本章深入探讨了用户友好型网站导航的概念，强调用户喜欢轻松的决策，他们更喜欢点击的简单性而不是点击的数量。它提倡清晰、信息丰富的链接，以直观的方式引导用户，类似于游戏“二十个问题”中的直接选择。文本还建议为复杂的决策提供及时的指导，与伦敦街道标志的有效性相提并论，强调在网站上做出选择尽可能轻松以确保最佳可用性的重要性。",
+                        // Russian
+                        "Русский": "В главе подробно рассматривается концепция удобной навигации по веб-сайту, подчеркивая, что пользователи предпочитают легкость принятия решений, предпочитая простоту нажатия количеству кликов. Он выступает за четкие, информативные ссылки, которые интуитивно ведут пользователей, подобно простому выбору в игре «Двадцать вопросов». В тексте также предлагается предоставить своевременное руководство для принятия сложных решений, провести параллели с эффективностью уличных знаков Лондона и подчеркнуть важность того, чтобы выбор на веб-сайтах был как можно более бездумным, чтобы обеспечить оптимальное удобство использования.",
+                        // French
+                        "Français": "Le chapitre approfondit le concept de navigation conviviale sur un site Web, en soulignant que les utilisateurs privilégient une prise de décision sans effort, préférant la simplicité du clic à la quantité de clics. Il préconise des liens clairs et informatifs qui guident les utilisateurs de manière intuitive, à l’instar des choix simples du jeu Twenty Questions. Le texte suggère également de fournir des conseils opportuns pour les décisions complexes, en établissant des parallèles avec l’efficacité des panneaux de signalisation de Londres, en soulignant l’importance de faire des choix sur les sites Web aussi inconsidérés que possible pour garantir une convivialité optimale.",
+                        // Japanese
+                        "日本語": "この章では、ユーザーフレンドリーなウェブサイトナビゲーションの概念を掘り下げ、ユーザーはクリック回数よりもクリックのシンプルさを重視し、楽な意思決定を好むことを強調しています。また、ゲーム「20の質問」の簡単な選択に似た、ユーザーを直感的に導く明確で情報豊富なリンクを推奨しています。また、複雑な決定に対してタイムリーなガイダンスを提供することを提案し、ロンドンの道路標識の有効性に例え、ウェブサイトでの選択をできるだけ無意識に行うことが最適なユーザビリティを確保する上で重要であることを強調しています。",
+                        // Korean
+                        "한국인": "이 장에서는 사용자 친화적인 웹 사이트 탐색 개념을 자세히 살펴보며 사용자는 클릭 수보다 클릭의 단순성을 선호하고 손쉬운 의사 결정을 선호한다는 점을 강조합니다. 이는 20가지 질문 게임의 간단한 선택과 유사하게 사용자를 직관적으로 안내하는 명확하고 유익한 링크를 옹호합니다. 또한 이 텍스트는 복잡한 결정을 위한 시기적절한 지침을 제공하고 런던의 거리 표지판의 효율성과 유사하며 최적의 사용성을 보장하기 위해 웹사이트에서 가능한 한 아무 생각 없이 선택하는 것이 중요하다는 점을 강조합니다.",
+                        // Spanish
+                        "Español": "El capítulo profundiza en el concepto de navegación web fácil de usar, enfatizando que los usuarios prefieren la toma de decisiones sin esfuerzo, prefiriendo la simplicidad de hacer clic a la cantidad de clics. Aboga por enlaces claros e informativos que guíen a los usuarios de forma intuitiva, similares a las opciones sencillas del juego Twenty questions. El texto también sugiere proporcionar orientación oportuna para decisiones complejas, estableciendo paralelismos con la efectividad de las señales de tráfico de Londres, subrayando la importancia de tomar decisiones en los sitios web lo más inconscientes posible para garantizar una usabilidad óptima.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय उपयोगकर्ता-अनुकूल वेबसाइट नेविगेशन की अवधारणा पर गहराई से चर्चा करता है, इस बात पर जोर देता है कि उपयोगकर्ता सहज निर्णय लेने के पक्ष में हैं, वे क्लिक की मात्रा के बजाय क्लिक करने की सरलता को प्राथमिकता देते हैं। यह स्पष्ट, सूचनात्मक लिंक की वकालत करता है जो उपयोगकर्ताओं को सहज रूप से मार्गदर्शन करते हैं, खेल ट्वेंटी क्वेश्चन में सीधे विकल्पों के समान। पाठ जटिल निर्णयों के लिए समय पर मार्गदर्शन प्रदान करने का भी सुझाव देता है, लंदन के सड़क संकेतों की प्रभावशीलता के समानांतर, इष्टतम उपयोगिता सुनिश्चित करने के लिए वेबसाइटों पर यथासंभव बिना सोचे-समझे चुनाव करने के महत्व को रेखांकित करता है।",
+                        // Portuguese
+                        "Português": "O capítulo aprofunda o conceito de navegação amigável no site, enfatizando que os usuários favorecem a tomada de decisões sem esforço, preferindo a simplicidade de clicar à quantidade de cliques. Ele defende links claros e informativos que guiam os usuários de forma intuitiva, semelhante às escolhas diretas do jogo Twenty Questions. O texto também sugere fornecer orientação oportuna para decisões complexas, traçando paralelos com a eficácia dos sinais de trânsito de Londres, sublinhando a importância de fazer escolhas em websites da forma mais estúpida possível para garantir uma usabilidade ideal.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি ব্যবহারকারী-বান্ধব ওয়েবসাইট নেভিগেশনের ধারণার উপর আলোকপাত করে, জোর দেয় যে ব্যবহারকারীরা ক্লিকের পরিমাণে ক্লিক করার সরলতাকে পছন্দ করে অনায়াসে সিদ্ধান্ত নেওয়ার পক্ষে। এটি স্পষ্ট, তথ্যপূর্ণ লিঙ্কগুলির পক্ষে সমর্থন করে যা ব্যবহারকারীদের স্বজ্ঞাতভাবে গাইড করে, গেম টোয়েন্টি প্রশ্নে সহজবোধ্য পছন্দগুলির মতো। পাঠ্যটি জটিল সিদ্ধান্তের জন্য সময়োপযোগী নির্দেশনা প্রদানের পরামর্শ দেয়, লন্ডনের রাস্তার চিহ্নগুলির কার্যকারিতার সমান্তরাল অঙ্কন করে, সর্বোত্তম ব্যবহারযোগ্যতা নিশ্চিত করার জন্য যতটা সম্ভব নির্বোধ ওয়েবসাইটগুলিতে পছন্দ করার গুরুত্বের উপর জোর দেয়।",
+                        // Arabic
+                        "عَرَبِيّ": "يتعمق الفصل في مفهوم التنقل السهل في موقع الويب، مع التركيز على أن المستخدمين يفضلون اتخاذ القرار دون عناء، ويفضلون بساطة النقر على كمية النقرات. فهو يدعو إلى وجود روابط واضحة وغنية بالمعلومات ترشد المستخدمين بشكل بديهي، على غرار الاختيارات المباشرة في لعبة Twenty Questions. يقترح النص أيضًا توفير التوجيه في الوقت المناسب لاتخاذ القرارات المعقدة، ورسم أوجه التشابه مع فعالية لافتات الشوارع في لندن، والتأكيد على أهمية اتخاذ الاختيارات على مواقع الويب بشكل طائش قدر الإمكان لضمان سهولة الاستخدام الأمثل.",
+                        // Persian
+                        "فارسی": "این فصل به مفهوم ناوبری وب سایت کاربر پسند می پردازد و تأکید می کند که کاربران تصمیم گیری بدون زحمت را ترجیح می دهند و سادگی کلیک را به تعداد کلیک ها ترجیح می دهند. این از پیوندهای روشن و آموزنده ای حمایت می کند که به طور مستقیم کاربران را راهنمایی می کند، شبیه به انتخاب های ساده در بازی بیست سؤال. این متن همچنین ارائه راهنمایی به موقع برای تصمیم گیری های پیچیده، ترسیم موازی با اثربخشی علائم خیابان های لندن، تاکید بر اهمیت انتخاب در وب سایت ها تا حد امکان بدون فکر برای اطمینان از قابلیت استفاده بهینه را پیشنهاد می کند.",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Omit needless words",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter advocates for the reduction of ‘happy talk’ and superfluous instructions on websites to streamline user experience, drawing on E. B. White’s principle of omitting needless words for succinctness and clarity. It argues that removing extraneous content can decrease distractions, accentuate vital information, and increase user-friendliness. A practical example demonstrates that concise instructions, such as those in a questionnaire, can be made clearer by eliminating unnecessary verbiage. Looking ahead, the book promises to explore web design challenges, with a particular emphasis on navigation and the design of the Home page, to further enhance website usability and user engagement.",
+                        // German
+                        "Deutsch": "Das Kapitel plädiert für die Reduzierung von „Schöntext“ und überflüssigen Anweisungen auf Websites, um die Benutzererfahrung zu optimieren. Dabei stützt es sich auf E. B. Whites Prinzip, unnötige Wörter wegzulassen, um Prägnanz und Klarheit zu erreichen. Es argumentiert, dass das Entfernen irrelevanter Inhalte Ablenkungen verringern, wichtige Informationen hervorheben und die Benutzerfreundlichkeit erhöhen kann. Ein praktisches Beispiel zeigt, dass prägnante Anweisungen, wie sie in einem Fragebogen vorkommen, durch das Weglassen unnötiger Formulierungen klarer gemacht werden können. Mit Blick auf die Zukunft verspricht das Buch, Herausforderungen des Webdesigns zu untersuchen, mit besonderem Schwerpunkt auf der Navigation und dem Design der Homepage, um die Benutzerfreundlichkeit der Website und die Benutzereinbindung weiter zu verbessern.",
+                        // Chinese
+                        "中国人": "本章提倡减少网站上的“花言巧语”和多余的说明，以简化用户体验，借鉴 E. B. White 的原则，即为了简洁和清晰而省略不必要的单词。它认为删除无关紧要的内容可以减少干扰，突出重要信息并提高用户友好度。一个实际的例子表明，通过消除不必要的冗长文字，可以使简明的说明（例如问卷中的说明）更加清晰。展望未来，本书承诺探索网页设计挑战，特别强调导航和主页设计，以进一步提高网站的可用性和用户参与度。",
+                        // Russian
+                        "Русский": "В этой главе содержится призыв сократить количество «веселых разговоров» и лишних инструкций на веб-сайтах для оптимизации пользовательского опыта, опираясь на принцип Э. Б. Уайта о пропуске ненужных слов для краткости и ясности. В нем утверждается, что удаление постороннего контента может уменьшить отвлекающие факторы, подчеркнуть важную информацию и повысить удобство использования. Практический пример показывает, что краткие инструкции, например, в вопроснике, можно сделать более понятными, исключив ненужное словоблудие. Заглядывая в будущее, книга обещает изучить проблемы веб-дизайна с особым упором на навигацию и дизайн домашней страницы, чтобы еще больше повысить удобство использования веб-сайта и повысить вовлеченность пользователей.",
+                        // French
+                        "Français": "Le chapitre préconise la réduction des « paroles joyeuses » et des instructions superflues sur les sites Web afin de rationaliser l’expérience utilisateur, en s’appuyant sur le principe d’E. B. White consistant à omettre les mots inutiles par souci de concision et de clarté. Il soutient que la suppression du contenu superflu peut réduire les distractions, accentuer les informations vitales et accroître la convivialité. Un exemple pratique démontre que des instructions concises, telles que celles d’un questionnaire, peuvent être rendues plus claires en éliminant le verbiage inutile. Pour l’avenir, le livre promet d’explorer les défis de la conception Web, avec un accent particulier sur la navigation et la conception de la page d’accueil, afin d’améliorer encore la convivialité du site Web et l’engagement des utilisateurs.",
+                        // Japanese
+                        "日本語": "この章では、E. B. ホワイトの「簡潔で明瞭な表現のために不要な言葉を省く」という原則に倣い、ウェブサイト上の「ハッピートーク」や余分な説明を減らしてユーザーエクスペリエンスを合理化することを提唱しています。また、無関係なコンテンツを削除すると、気が散る要素が減り、重要な情報が強調され、ユーザーフレンドリーさが増すと主張しています。実例で、アンケートなどの簡潔な説明は、不要な言葉を排除することでより明確にできることを示しています。今後、この本では、ナビゲーションとホームページのデザインに特に重点を置き、ウェブサイトの使いやすさとユーザーエンゲージメントをさらに向上させるウェブデザインの課題を探究する予定です。",
+                        // Korean
+                        "한국인": "이 장에서는 간결함과 명확성을 위해 불필요한 단어를 생략하는 E. B. White의 원칙을 바탕으로 사용자 경험을 간소화하기 위해 웹사이트에서 '행복한 대화'와 불필요한 지침을 줄일 것을 옹호합니다. 관련 없는 콘텐츠를 제거하면 주의가 산만해지는 것을 줄이고, 중요한 정보를 강조하며, 사용자 친화성을 높일 수 있다고 주장합니다. 실제 사례에서는 설문지와 같은 간결한 지침이 불필요한 장황한 말을 제거함으로써 더욱 명확해질 수 있음을 보여줍니다. 앞으로 이 책에서는 탐색과 홈 페이지 디자인에 특히 중점을 두고 웹 디자인 과제를 탐구하여 웹 사이트 유용성과 사용자 참여를 더욱 향상시킬 것을 약속합니다.",
+                        // Spanish
+                        "Español": "El capítulo aboga por la reducción de las “charlas alegres” y las instrucciones superfluas en los sitios web para optimizar la experiencia del usuario, basándose en el principio de E. B. White de omitir palabras innecesarias para mayor concisión y claridad. Sostiene que eliminar contenido superfluo puede disminuir las distracciones, acentuar la información vital y aumentar la facilidad de uso. Un ejemplo práctico demuestra que instrucciones concisas, como las de un cuestionario, pueden aclararse eliminando palabrería innecesaria. De cara al futuro, el libro promete explorar los desafíos del diseño web, con especial énfasis en la navegación y el diseño de la página de inicio, para mejorar aún más la usabilidad del sitio web y la participación del usuario.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय उपयोगकर्ता अनुभव को सुव्यवस्थित करने के लिए वेबसाइटों पर ‘खुशहाल बातचीत’ और अनावश्यक निर्देशों को कम करने की वकालत करता है, जो संक्षिप्तता और स्पष्टता के लिए अनावश्यक शब्दों को छोड़ने के ई.बी. व्हाइट के सिद्धांत पर आधारित है। यह तर्क देता है कि बाहरी सामग्री को हटाने से विकर्षण कम हो सकता है, महत्वपूर्ण जानकारी को उभारा जा सकता है और उपयोगकर्ता-मित्रता को बढ़ाया जा सकता है। एक व्यावहारिक उदाहरण दर्शाता है कि संक्षिप्त निर्देश, जैसे कि प्रश्नावली में, अनावश्यक शब्दाडंबर को हटाकर स्पष्ट किया जा सकता है। आगे देखते हुए, पुस्तक वेबसाइट की उपयोगिता और उपयोगकर्ता जुड़ाव को और बढ़ाने के लिए नेविगेशन और होम पेज के डिजाइन पर विशेष जोर देते हुए वेब डिज़ाइन चुनौतियों का पता लगाने का वादा करती है।",
+                        // Portuguese
+                        "Português": "O capítulo defende a redução de “conversas felizes” e instruções supérfluas em sites para simplificar a experiência do usuário, baseando-se no princípio de E. B. White de omitir palavras desnecessárias para obter sucinta e clareza. Argumenta que a remoção de conteúdo estranho pode diminuir as distrações, acentuar informações vitais e aumentar a facilidade de uso. Um exemplo prático demonstra que instruções concisas, como as de um questionário, podem ser tornadas mais claras eliminando palavreado desnecessário. Olhando para o futuro, o livro promete explorar os desafios do web design, com especial ênfase na navegação e no design da página inicial, para melhorar ainda mais a usabilidade do website e o envolvimento do utilizador.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি ব্যবহারকারীর অভিজ্ঞতাকে স্ট্রীমলাইন করার জন্য ওয়েবসাইটগুলিতে 'হ্যাপি টক' এবং অতিরিক্ত নির্দেশাবলী হ্রাস করার পক্ষে সমর্থন করে, সংক্ষিপ্ততা এবং স্বচ্ছতার জন্য অপ্রয়োজনীয় শব্দগুলি বাদ দেওয়ার ই.বি. হোয়াইটের নীতির উপর আঁকে। এটি যুক্তি দেয় যে বহিরাগত বিষয়বস্তু অপসারণ বিভ্রান্তি হ্রাস করতে পারে, গুরুত্বপূর্ণ তথ্যকে উচ্চারণ করতে পারে এবং ব্যবহারকারী-বন্ধুত্ব বাড়াতে পারে। একটি ব্যবহারিক উদাহরণ দেখায় যে সংক্ষিপ্ত নির্দেশাবলী, যেমন একটি প্রশ্নাবলীর মতো, অপ্রয়োজনীয় শব্দচয়ন দূর করে আরও স্পষ্ট করা যেতে পারে। সামনের দিকে তাকিয়ে, বইটি ওয়েবসাইট ব্যবহারযোগ্যতা এবং ব্যবহারকারীর ব্যস্ততাকে আরও উন্নত করতে, নেভিগেশন এবং হোম পেজের ডিজাইনের উপর বিশেষ জোর দিয়ে ওয়েব ডিজাইন চ্যালেঞ্জগুলি অন্বেষণ করার প্রতিশ্রুতি দেয়।",
+                        // Arabic
+                        "عَرَبِيّ": "يدعو هذا الفصل إلى الحد من 'الحديث السعيد' والتعليمات غير الضرورية على مواقع الويب لتبسيط تجربة المستخدم، بالاعتماد على مبدأ إي بي وايت المتمثل في حذف الكلمات التي لا داعي لها من أجل الإيجاز والوضوح. ويجادل بأن إزالة المحتوى الدخيل يمكن أن يقلل من عوامل التشتيت، ويبرز المعلومات الحيوية، ويزيد من سهولة الاستخدام. يوضح المثال العملي أن التعليمات الموجزة، مثل تلك الموجودة في الاستبيان، يمكن أن تكون أكثر وضوحًا من خلال التخلص من الإسهاب غير الضروري. وبالنظر إلى المستقبل، يعد الكتاب باستكشاف تحديات تصميم الويب، مع التركيز بشكل خاص على التنقل وتصميم الصفحة الرئيسية، لزيادة تعزيز سهولة استخدام موقع الويب ومشاركة المستخدم.",
+                        // Persian
+                        "فارسی": "این فصل از کاهش «حرف‌های شاد» و دستورالعمل‌های اضافی در وب‌سایت‌ها برای ساده‌سازی تجربه کاربر، با تکیه بر اصل E.B. White مبنی بر حذف کلمات بی‌ضرور برای موجز و وضوح حمایت می‌کند. این استدلال می کند که حذف محتوای اضافی می تواند حواس پرتی را کاهش دهد، اطلاعات حیاتی را برجسته کند و کاربر پسندی را افزایش دهد. یک مثال عملی نشان می‌دهد که دستورالعمل‌های مختصر، مانند دستورالعمل‌های موجود در پرسش‌نامه، می‌توانند با حذف حرف‌های غیرضروری واضح‌تر شوند. با نگاهی به آینده، این کتاب وعده می دهد که چالش های طراحی وب را با تأکید ویژه بر ناوبری و طراحی صفحه اصلی بررسی کند تا قابلیت استفاده وب سایت و تعامل کاربر را بیشتر افزایش دهد.",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Street signs and Breadcrumbs",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter discusses the essentials of web navigation, likening it to navigating physical spaces and emphasizing the need for clear markers like street signs, breadcrumbs, and consistent page names. It highlights common issues such as the neglect of third-level navigation and the lack of scale perception on websites, stressing the importance of structured navigation for a positive user experience. Additionally, it points out the utility of tab dividers in providing straightforward access to different sections, advocating for simplicity and clarity in design to facilitate ease of use and intuitive exploration of web content.",
+                        // German
+                        "Deutsch": "Das Kapitel befasst sich mit den Grundlagen der Webnavigation, vergleicht sie mit der Navigation in physischen Räumen und betont die Notwendigkeit klarer Markierungen wie Straßenschilder, Brotkrümelnavigation und konsistenter Seitennamen. Es hebt häufige Probleme hervor, wie die Vernachlässigung der Navigation auf dritter Ebene und die fehlende Maßstabswahrnehmung auf Websites, und betont die Bedeutung einer strukturierten Navigation für ein positives Benutzererlebnis. Darüber hinaus wird auf die Nützlichkeit von Tab-Trennern hingewiesen, die einen direkten Zugriff auf verschiedene Abschnitte ermöglichen, und für Einfachheit und Klarheit im Design plädiert, um die Benutzerfreundlichkeit und intuitive Erkundung von Webinhalten zu erleichtern.",
+                        // Chinese
+                        "中国人": "本章讨论了网络导航的基本要素，将其比作在物理空间中导航，并强调需要清晰的标记，如路牌、面包屑和一致的页面名称。它强调了常见问题，例如忽视第三级导航和网站缺乏规模感知，强调结构化导航对于获得积极的用户体验的重要性。此外，它还指出了标签分隔符在提供对不同部分的直接访问方面的实用性，提倡设计简单明了，以方便使用和直观地探索网络内容。",
+                        // Russian
+                        "Русский": "В главе обсуждаются основы веб-навигации, сравнивая ее с навигацией по физическому пространству и подчеркивая необходимость в четких маркерах, таких как уличные знаки, хлебные крошки и последовательные названия страниц. В нем освещаются общие проблемы, такие как пренебрежение навигацией третьего уровня и отсутствие восприятия масштаба на веб-сайтах, подчеркивая важность структурированной навигации для положительного пользовательского опыта. Кроме того, он указывает на полезность разделителей вкладок в обеспечении прямого доступа к различным разделам, выступает за простоту и ясность дизайна, чтобы облегчить использование и интуитивное исследование веб-контента.",
+                        // French
+                        "Français": "Le chapitre aborde les éléments essentiels de la navigation Web, en la comparant à la navigation dans des espaces physiques et en soulignant la nécessité de marqueurs clairs tels que des panneaux de signalisation, un fil d'Ariane et des noms de page cohérents. Il met en évidence des problèmes courants tels que la négligence de la navigation de troisième niveau et le manque de perception de l'échelle sur les sites Web, soulignant l'importance d'une navigation structurée pour une expérience utilisateur positive. De plus, il souligne l'utilité des séparateurs d'onglets pour fournir un accès simple aux différentes sections, plaidant pour la simplicité et la clarté de la conception afin de faciliter l'utilisation et l'exploration intuitive du contenu Web.",
+                        // Japanese
+                        "日本語": "この章では、Web ナビゲーションの基本について説明し、それを物理的な空間のナビゲーションに例え、道路標識、パンくずリスト、一貫したページ名などの明確なマーカーの必要性を強調しています。また、第 3 レベルのナビゲーションの軽視や Web サイトでのスケール認識の欠如などの一般的な問題に焦点を当て、ポジティブなユーザー エクスペリエンスを実現するには構造化されたナビゲーションが重要であることを強調しています。さらに、さまざまなセクションに簡単にアクセスできるタブ区切りの有用性を指摘し、Web コンテンツの使いやすさと直感的な探索を促進するために、デザインのシンプルさと明瞭さを推奨しています。",
+                        // Korean
+                        "한국인": "이 장에서는 웹 탐색의 필수 사항을 논의하고 이를 물리적 공간 탐색에 비유하고 거리 표지판, 이동 경로 및 일관된 페이지 이름과 같은 명확한 표시의 필요성을 강조합니다. 이는 3단계 탐색 무시, 웹 사이트의 규모 인식 부족과 같은 일반적인 문제를 강조하고 긍정적인 사용자 경험을 위한 구조화된 탐색의 중요성을 강조합니다. 또한 다양한 섹션에 대한 직접적인 액세스를 제공하는 탭 구분선의 유용성을 지적하고 웹 콘텐츠의 사용 편의성과 직관적인 탐색을 촉진하기 위해 디자인의 단순성과 명확성을 옹호합니다.",
+                        // Spanish
+                        "Español": "El capítulo analiza los aspectos esenciales de la navegación web, comparándola con la navegación en espacios físicos y enfatizando la necesidad de marcadores claros como señales de tráfico, rutas de navegación y nombres de páginas consistentes. Destaca problemas comunes como el descuido de la navegación de tercer nivel y la falta de percepción de escala en los sitios web, destacando la importancia de la navegación estructurada para una experiencia de usuario positiva. Además, señala la utilidad de los divisores de pestañas para proporcionar un acceso directo a diferentes secciones, abogando por la simplicidad y claridad en el diseño para facilitar el uso y la exploración intuitiva del contenido web.",
+                        // Hindi
+                        "हिंदी": "अध्याय में वेब नेविगेशन की अनिवार्यताओं पर चर्चा की गई है, इसे भौतिक स्थानों पर नेविगेट करने के समान बताया गया है और सड़क के संकेतों, ब्रेडक्रंब और सुसंगत पृष्ठ नामों जैसे स्पष्ट मार्करों की आवश्यकता पर जोर दिया गया है। यह तीसरे स्तर के नेविगेशन की उपेक्षा और वेबसाइटों पर पैमाने की धारणा की कमी जैसे सामान्य मुद्दों पर प्रकाश डालता है, सकारात्मक उपयोगकर्ता अनुभव के लिए संरचित नेविगेशन के महत्व पर जोर देता है। इसके अतिरिक्त, यह विभिन्न अनुभागों तक सीधी पहुँच प्रदान करने में टैब डिवाइडर की उपयोगिता को इंगित करता है, उपयोग में आसानी और वेब सामग्री की सहज खोज को सुविधाजनक बनाने के लिए डिज़ाइन में सरलता और स्पष्टता की वकालत करता है।",
+                        // Portuguese
+                        "Português": "O capítulo discute os fundamentos da navegação na web, comparando-a à navegação em espaços físicos e enfatizando a necessidade de marcadores claros, como placas de rua, trilhas de navegação e nomes de páginas consistentes. Destaca questões comuns como a negligência da navegação de terceiro nível e a falta de percepção de escala nos websites, sublinhando a importância da navegação estruturada para uma experiência positiva do utilizador. Além disso, destaca a utilidade dos divisores de abas no fornecimento de acesso direto a diferentes seções, defendendo a simplicidade e clareza no design para facilitar a facilidade de uso e a exploração intuitiva do conteúdo da web.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি ওয়েব নেভিগেশনের প্রয়োজনীয়তা নিয়ে আলোচনা করে, এটিকে ভৌত স্পেস নেভিগেট করার সাথে তুলনা করে এবং রাস্তার চিহ্ন, ব্রেডক্রাম্ব এবং সামঞ্জস্যপূর্ণ পৃষ্ঠার নামগুলির মতো স্পষ্ট মার্কারগুলির প্রয়োজনীয়তার উপর জোর দেয়। এটি তৃতীয়-স্তরের নেভিগেশনের অবহেলা এবং ওয়েবসাইটগুলিতে স্কেল উপলব্ধির অভাবের মতো সাধারণ সমস্যাগুলিকে হাইলাইট করে, একটি ইতিবাচক ব্যবহারকারীর অভিজ্ঞতার জন্য কাঠামোগত নেভিগেশনের গুরুত্বের উপর জোর দেয়। উপরন্তু, এটি বিভিন্ন বিভাগে সহজবোধ্য অ্যাক্সেস প্রদানের ক্ষেত্রে ট্যাব ডিভাইডারগুলির উপযোগিতা নির্দেশ করে, ব্যবহারের সহজতা এবং ওয়েব সামগ্রীর স্বজ্ঞাত অন্বেষণের সুবিধার্থে ডিজাইনে সরলতা এবং স্বচ্ছতার পক্ষে সমর্থন করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يناقش الفصل أساسيات التنقل عبر الويب، ويشبهه بالتنقل في المساحات المادية ويؤكد على الحاجة إلى علامات واضحة مثل لافتات الشوارع وفتات الخبز وأسماء الصفحات المتسقة. وهو يسلط الضوء على المشكلات الشائعة مثل إهمال التنقل من المستوى الثالث ونقص إدراك الحجم على مواقع الويب، مع التركيز على أهمية التنقل المنظم للحصول على تجربة مستخدم إيجابية. بالإضافة إلى ذلك، يشير إلى فائدة مقسمات علامات التبويب في توفير الوصول المباشر إلى أقسام مختلفة، والدعوة إلى البساطة والوضوح في التصميم لتسهيل الاستخدام والاستكشاف البديهي لمحتوى الويب.",
+                        // Persian
+                        "فارسی": "در این فصل اصول ناوبری وب مورد بحث قرار می گیرد، آن را به پیمایش فضاهای فیزیکی تشبیه می کند و بر نیاز به نشانگرهای واضح مانند علائم خیابان، خرده نان، و نام صفحات ثابت تاکید می کند. این موضوع موضوعات رایجی مانند نادیده گرفتن ناوبری سطح سوم و عدم درک مقیاس در وب سایت ها را برجسته می کند و بر اهمیت ناوبری ساختاریافته برای تجربه کاربری مثبت تأکید می کند. علاوه بر این، به کاربرد تقسیم‌کننده‌های برگه در ارائه دسترسی مستقیم به بخش‌های مختلف، حمایت از سادگی و وضوح در طراحی برای تسهیل سهولت استفاده و کاوش بصری محتوای وب اشاره می‌کند.",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "The Big Bang Theory of Web Design",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter highlights the pivotal role of home pages in shaping user perceptions and guiding behavior, stressing the importance of addressing both concrete needs—such as displaying essential content and providing registration links—and abstract goals like directing users to desired content and building credibility. It underscores the necessity for taglines to articulate the site’s value propositions succinctly and for the home page to communicate the site’s purpose efficiently within a confined space. The text also cautions that compromises in home page design may result in the omission of significant elements, potentially leading to user confusion and a diminished user experience.",
+                        // German
+                        "Deutsch": "Das Kapitel hebt die zentrale Rolle von Homepages bei der Gestaltung der Benutzerwahrnehmung und der Verhaltenssteuerung hervor und betont, wie wichtig es ist, sowohl konkrete Bedürfnisse – wie die Anzeige wichtiger Inhalte und die Bereitstellung von Registrierungslinks – als auch abstrakte Ziele wie die Weiterleitung von Benutzern zu gewünschten Inhalten und den Aufbau von Glaubwürdigkeit zu erfüllen. Es unterstreicht die Notwendigkeit von Slogans, die die Wertversprechen der Site prägnant zum Ausdruck bringen, und von Homepages, die den Zweck der Site auf begrenztem Raum effizient kommunizieren. Der Text warnt auch davor, dass Kompromisse beim Design von Homepages zum Weglassen wichtiger Elemente führen können, was möglicherweise zu Verwirrung bei den Benutzern und einer beeinträchtigten Benutzererfahrung führt.",
+                        // Chinese
+                        "中国人": "本章强调了主页在塑造用户认知和引导行为方面的关键作用，强调了满足具体需求（例如显示基本内容和提供注册链接）和抽象目标（例如引导用户找到所需内容和建立信誉）的重要性。它强调了标语必须简洁地表达网站的价值主张，主页必须在有限的空间内有效地传达网站的目的。本文还警告说，主页设计中的妥协可能会导致重要元素的遗漏，从而可能导致用户困惑和用户体验下降。",
+                        // Russian
+                        "Русский": "В главе подчеркивается ключевая роль домашних страниц в формировании восприятия пользователей и управлении поведением, подчеркивая важность удовлетворения как конкретных потребностей, таких как отображение необходимого контента и предоставление ссылок для регистрации, так и абстрактных целей, таких как направление пользователей к желаемому контенту и создание доверия. Это подчеркивает необходимость того, чтобы слоганы лаконично формулировали ценностные предложения сайта, а главная страница эффективно сообщала о цели сайта в ограниченном пространстве. В тексте также предупреждается, что компромиссы в дизайне домашней страницы могут привести к пропуску важных элементов, что потенциально может привести к путанице пользователей и ухудшению пользовательского опыта.",
+                        // French
+                        "Français": "Le chapitre met en évidence le rôle central des pages d'accueil dans la formation des perceptions des utilisateurs et l'orientation de leur comportement, en soulignant l'importance de répondre à la fois aux besoins concrets (tels que l'affichage du contenu essentiel et la fourniture de liens d'inscription) et aux objectifs abstraits tels que diriger les utilisateurs vers le contenu souhaité et renforcer la crédibilité. Cela souligne la nécessité que les slogans articulent succinctement les propositions de valeur du site et que la page d’accueil communique efficacement l’objectif du site dans un espace confiné. Le texte met également en garde contre le fait que des compromis dans la conception de la page d'accueil peuvent entraîner l'omission d'éléments importants, ce qui pourrait entraîner une confusion chez l'utilisateur et une expérience utilisateur réduite.",
+                        // Japanese
+                        "日本語": "この章では、ホームページがユーザーの認識を形成し、行動を導く上で極めて重要な役割を果たしていることを強調し、重要なコンテンツの表示や登録リンクの提供などの具体的なニーズと、ユーザーを希望のコンテンツに誘導したり信頼性を構築したりするなどの抽象的な目標の両方に対応することの重要性を強調しています。また、タグラインでサイトの価値提案を簡潔に表現し、ホームページで限られたスペース内でサイトの目的を効率的に伝えることの必要性を強調しています。また、ホームページのデザインを妥協すると重要な要素が省略され、ユーザーの混乱やユーザー エクスペリエンスの低下につながる可能性があると警告しています。",
+                        // Korean
+                        "한국인": "이 장에서는 사용자 인식을 형성하고 행동을 안내하는 데 있어 홈 페이지의 중추적인 역할을 강조하고, 필수 콘텐츠 표시 및 등록 링크 제공과 같은 구체적인 요구 사항과 사용자를 원하는 콘텐츠로 안내하고 신뢰도 구축과 같은 추상적인 목표를 모두 해결하는 것의 중요성을 강조합니다. 이는 사이트의 가치 제안을 간결하게 표현하는 태그라인과 제한된 공간 내에서 사이트의 목적을 효율적으로 전달하는 홈 페이지의 필요성을 강조합니다. 또한 이 텍스트는 홈 페이지 디자인의 타협으로 인해 중요한 요소가 누락되어 잠재적으로 사용자 혼란과 사용자 경험 저하를 초래할 수 있다고 경고합니다.",
+                        // Spanish
+                        "Español": "El capítulo destaca el papel fundamental de las páginas de inicio a la hora de moldear las percepciones de los usuarios y guiar el comportamiento, destacando la importancia de abordar tanto necesidades concretas (como mostrar contenido esencial y proporcionar enlaces de registro) como objetivos abstractos como dirigir a los usuarios al contenido deseado y generar credibilidad. Subraya la necesidad de que los lemas articulen las propuestas de valor del sitio de manera sucinta y que la página de inicio comunique el propósito del sitio de manera eficiente dentro de un espacio reducido. El texto también advierte que los compromisos en el diseño de la página de inicio pueden resultar en la omisión de elementos importantes, lo que podría generar confusión en el usuario y una experiencia de usuario disminuida.",
+                        // Hindi
+                        "हिंदी": "अध्याय उपयोगकर्ता की धारणाओं को आकार देने और व्यवहार को निर्देशित करने में होम पेजों की महत्वपूर्ण भूमिका पर प्रकाश डालता है, जिसमें ठोस ज़रूरतों - जैसे कि आवश्यक सामग्री प्रदर्शित करना और पंजीकरण लिंक प्रदान करना - और उपयोगकर्ताओं को वांछित सामग्री पर निर्देशित करने और विश्वसनीयता बनाने जैसे अमूर्त लक्ष्यों को संबोधित करने के महत्व पर बल दिया गया है। यह टैगलाइन के लिए साइट के मूल्य प्रस्तावों को संक्षेप में व्यक्त करने और होम पेज के लिए सीमित स्थान के भीतर साइट के उद्देश्य को कुशलतापूर्वक संप्रेषित करने की आवश्यकता को रेखांकित करता है। पाठ यह भी चेतावनी देता है कि होम पेज डिज़ाइन में समझौता करने से महत्वपूर्ण तत्वों की कमी हो सकती है, जिससे संभावित रूप से उपयोगकर्ता भ्रम और कम उपयोगकर्ता अनुभव हो सकता है।",
+                        // Portuguese
+                        "Português": "O capítulo destaca o papel fundamental das páginas iniciais na formação das percepções dos utilizadores e na orientação do comportamento, sublinhando a importância de abordar tanto as necessidades concretas – como a exibição de conteúdos essenciais e o fornecimento de links de registo – como os objectivos abstratos, como direcionar os utilizadores para o conteúdo desejado e construir credibilidade. Ele ressalta a necessidade de que os slogans articulem as propostas de valor do site de forma sucinta e que a página inicial comunique o propósito do site de forma eficiente dentro de um espaço confinado. O texto também alerta que compromissos no design da página inicial podem resultar na omissão de elementos significativos, potencialmente levando à confusão do usuário e à diminuição da experiência do usuário.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি ব্যবহারকারীর উপলব্ধি গঠনে এবং নির্দেশিকা আচরণের ক্ষেত্রে হোম পৃষ্ঠাগুলির প্রধান ভূমিকাকে হাইলাইট করে, উভয় কংক্রিট চাহিদাগুলিকে মোকাবেলার গুরুত্বের উপর জোর দেয়—যেমন অপরিহার্য বিষয়বস্তু প্রদর্শন করা এবং নিবন্ধন লিঙ্ক প্রদান করা—এবং ব্যবহারকারীদের পছন্দসই বিষয়বস্তুর দিকে পরিচালিত করা এবং বিশ্বাসযোগ্যতা তৈরি করার মতো বিমূর্ত লক্ষ্যগুলি। এটি সাইটের মান প্রস্তাবগুলিকে সংক্ষিপ্তভাবে প্রকাশ করার জন্য ট্যাগলাইনগুলির প্রয়োজনীয়তা এবং হোম পেজের জন্য একটি সীমিত স্থানের মধ্যে দক্ষতার সাথে সাইটের উদ্দেশ্য যোগাযোগের জন্য প্রয়োজনীয়তার উপর আন্ডারস্কোর করে৷ পাঠ্যটি আরও সতর্ক করে যে হোম পেজ ডিজাইনে আপস করার ফলে উল্লেখযোগ্য উপাদানগুলি বাদ পড়তে পারে, সম্ভাব্যভাবে ব্যবহারকারীর বিভ্রান্তি এবং ব্যবহারকারীর অভিজ্ঞতা হ্রাস পেতে পারে।",
+                        // Arabic
+                        "عَرَبِيّ": "يسلط الفصل الضوء على الدور المحوري للصفحات الرئيسية في تشكيل تصورات المستخدم وتوجيه السلوك، مع التركيز على أهمية تلبية الاحتياجات الملموسة - مثل عرض المحتوى الأساسي وتوفير روابط التسجيل - والأهداف المجردة مثل توجيه المستخدمين إلى المحتوى المطلوب وبناء المصداقية. إنه يؤكد على ضرورة أن توضح الخطوط الوصفية مقترحات القيمة الخاصة بالموقع بإيجاز وأن تقوم الصفحة الرئيسية بتوصيل غرض الموقع بكفاءة داخل مساحة محدودة. يحذر النص أيضًا من أن التنازلات في تصميم الصفحة الرئيسية قد تؤدي إلى إغفال عناصر مهمة، مما قد يؤدي إلى ارتباك المستخدم وتقليل تجربة المستخدم.",
+                        // Persian
+                        "فارسی": "این فصل نقش محوری صفحات اصلی را در شکل دادن به ادراکات کاربر و هدایت رفتار برجسته می‌کند و بر اهمیت پرداختن به نیازهای ملموس - مانند نمایش محتوای ضروری و ارائه پیوندهای ثبت نام - و اهداف انتزاعی مانند هدایت کاربران به محتوای مورد نظر و ایجاد اعتبار تأکید می‌کند. این امر بر ضرورت تشریح شعارهای پیشنهادی ارزش سایت به طور خلاصه و برای صفحه اصلی برای انتقال موثر هدف سایت در یک فضای محدود تاکید می کند. متن همچنین هشدار می دهد که سازش در طراحی صفحه اصلی ممکن است منجر به حذف عناصر مهم شود که به طور بالقوه منجر به سردرگمی کاربر و کاهش تجربه کاربر می شود.",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "'The Farmer and the Cowman Should Be Friends'",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter discusses the diversity of user reactions to web design elements, debunking the myth of the ‘Average User’ and highlighting the importance of usability testing to identify effective design strategies. It explores the challenges web teams face in making usability decisions, often influenced by personal and professional biases. The text emphasizes that usability testing is essential for resolving design debates, advocating for a focus on creating a positive user experience over individual preferences.",
+                        // German
+                        "Deutsch": "Das Kapitel befasst sich mit der Vielfalt der Benutzerreaktionen auf Webdesignelemente, entlarvt den Mythos des „durchschnittlichen Benutzers“ und unterstreicht die Bedeutung von Usability-Tests zur Ermittlung wirksamer Designstrategien. Es untersucht die Herausforderungen, denen sich Webteams bei der Entscheidungsfindung zur Benutzerfreundlichkeit gegenübersehen, die oft von persönlichen und beruflichen Vorurteilen beeinflusst werden. Der Text betont, dass Usability-Tests für die Lösung von Designdebatten von wesentlicher Bedeutung sind, und plädiert dafür, den Schwerpunkt auf die Schaffung einer positiven Benutzererfahrung statt auf individuelle Vorlieben zu legen.",
+                        // Chinese
+                        "中国人": "本章讨论了用户对网页设计元素的多种反应，揭穿了“普通用户”的神话，并强调了可用性测试对于确定有效设计策略的重要性。它探讨了网络团队在做出可用性决策时面临的挑战，这些挑战通常受到个人和专业偏见的影响。本文强调可用性测试对于解决设计争论至关重要，主张将重点放在创造积极的用户体验上，而不是个人偏好上。",
+                        // Russian
+                        "Русский": "В главе обсуждается разнообразие реакций пользователей на элементы веб-дизайна, развенчивается миф о «среднем пользователе» и подчеркивается важность тестирования юзабилити для определения эффективных стратегий дизайна. В нем исследуются проблемы, с которыми сталкиваются веб-команды при принятии решений об удобстве использования, на которые часто влияют личные и профессиональные предубеждения. В тексте подчеркивается, что тестирование юзабилити имеет важное значение для разрешения споров о дизайне, и пропагандируется акцент на создании положительного пользовательского опыта, а не на индивидуальных предпочтениях.",
+                        // French
+                        "Français": "Le chapitre aborde la diversité des réactions des utilisateurs aux éléments de conception Web, démystifiant le mythe de « l'utilisateur moyen » et soulignant l'importance des tests d'utilisabilité pour identifier des stratégies de conception efficaces. Il explore les défis auxquels les équipes Web sont confrontées pour prendre des décisions en matière d'utilisabilité, souvent influencées par des préjugés personnels et professionnels. Le texte souligne que les tests d'utilisabilité sont essentiels pour résoudre les débats sur la conception, plaidant pour une concentration sur la création d'une expérience utilisateur positive plutôt que sur les préférences individuelles.",
+                        // Japanese
+                        "日本語": "この章では、Web デザインの要素に対するユーザーの反応の多様性について説明し、「平均的なユーザー」という神話を覆し、効果的なデザイン戦略を特定するためのユーザビリティ テストの重要性を強調しています。また、個人的および職業的な偏見に左右されることが多い、ユーザビリティの決定を行う際に Web チームが直面する課題についても取り上げています。テキストでは、ユーザビリティ テストがデザインに関する議論を解決するために不可欠であることを強調し、個人の好みよりも肯定的なユーザー エクスペリエンスを作成することに重点を置くことを提唱しています。",
+                        // Korean
+                        "한국인": "이 장에서는 웹 디자인 요소에 대한 사용자 반응의 다양성을 논의하고 '평균 사용자'에 대한 통념을 폭로하며 효과적인 디자인 전략을 식별하기 위한 사용성 테스트의 중요성을 강조합니다. 이는 웹 팀이 사용성 결정을 내릴 때 직면하는 어려움을 탐구하며, 종종 개인적 및 직업적 편견의 영향을 받습니다. 이 텍스트는 사용성 테스트가 디자인 논쟁을 해결하는 데 필수적이라는 점을 강조하고 개인 선호도보다 긍정적인 사용자 경험을 만드는 데 중점을 둘 것을 옹호합니다.",
+                        // Spanish
+                        "Español": "El capítulo analiza la diversidad de reacciones de los usuarios a los elementos de diseño web, desacreditando el mito del 'usuario promedio' y destacando la importancia de las pruebas de usabilidad para identificar estrategias de diseño efectivas. Explora los desafíos que enfrentan los equipos web al tomar decisiones de usabilidad, a menudo influenciados por prejuicios personales y profesionales. El texto enfatiza que las pruebas de usabilidad son esenciales para resolver los debates sobre el diseño, abogando por centrarse en crear una experiencia de usuario positiva por encima de las preferencias individuales.",
+                        // Hindi
+                        "हिंदी": "अध्याय में वेब डिज़ाइन तत्वों के प्रति उपयोगकर्ता प्रतिक्रियाओं की विविधता पर चर्चा की गई है, ‘औसत उपयोगकर्ता’ के मिथक को खारिज किया गया है और प्रभावी डिज़ाइन रणनीतियों की पहचान करने के लिए प्रयोज्यता परीक्षण के महत्व पर प्रकाश डाला गया है। यह प्रयोज्यता निर्णय लेने में वेब टीमों के सामने आने वाली चुनौतियों का पता लगाता है, जो अक्सर व्यक्तिगत और व्यावसायिक पूर्वाग्रहों से प्रभावित होते हैं। पाठ इस बात पर जोर देता है कि डिज़ाइन बहस को हल करने के लिए प्रयोज्यता परीक्षण आवश्यक है, व्यक्तिगत प्राथमिकताओं पर सकारात्मक उपयोगकर्ता अनुभव बनाने पर ध्यान केंद्रित करने की वकालत करता है।",
+                        // Portuguese
+                        "Português": "O capítulo discute a diversidade de reações dos usuários aos elementos de web design, desmascarando o mito do “usuário médio” e destacando a importância dos testes de usabilidade para identificar estratégias de design eficazes. Ele explora os desafios que as equipes web enfrentam na tomada de decisões sobre usabilidade, muitas vezes influenciadas por preconceitos pessoais e profissionais. O texto enfatiza que os testes de usabilidade são essenciais para resolver debates sobre design, defendendo o foco na criação de uma experiência de usuário positiva em detrimento das preferências individuais.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি ওয়েব ডিজাইনের উপাদানগুলির প্রতি ব্যবহারকারীর প্রতিক্রিয়ার বৈচিত্র্য নিয়ে আলোচনা করে, 'গড় ব্যবহারকারী'-এর মিথকে ডিবাঙ্ক করে এবং কার্যকর ডিজাইনের কৌশলগুলি সনাক্ত করতে ব্যবহারযোগ্যতা পরীক্ষার গুরুত্ব তুলে ধরে। এটি ব্যবহারযোগ্যতার সিদ্ধান্ত নেওয়ার ক্ষেত্রে ওয়েব দলগুলি যে চ্যালেঞ্জগুলির মুখোমুখি হয় তা অন্বেষণ করে, প্রায়শই ব্যক্তিগত এবং পেশাদার পক্ষপাত দ্বারা প্রভাবিত হয়। পাঠ্যটি জোর দেয় যে ডিজাইন বিতর্কগুলি সমাধানের জন্য ব্যবহারযোগ্যতা পরীক্ষা অপরিহার্য, ব্যক্তিগত পছন্দগুলির উপর একটি ইতিবাচক ব্যবহারকারীর অভিজ্ঞতা তৈরিতে ফোকাস করার পক্ষে সমর্থন করে৷",
+                        // Arabic
+                        "عَرَبِيّ": "يناقش الفصل تنوع ردود فعل المستخدم تجاه عناصر تصميم الويب، ويكشف زيف أسطورة 'المستخدم العادي' ويسلط الضوء على أهمية اختبار قابلية الاستخدام لتحديد استراتيجيات التصميم الفعالة. وهو يستكشف التحديات التي تواجهها فرق الويب في اتخاذ قرارات قابلية الاستخدام، والتي غالبًا ما تتأثر بالتحيزات الشخصية والمهنية. يؤكد النص على أن اختبار قابلية الاستخدام ضروري لحل مناقشات التصميم، ويدعو إلى التركيز على خلق تجربة مستخدم إيجابية على التفضيلات الفردية.",
+                        // Persian
+                        "فارسی": "این فصل تنوع واکنش های کاربر به عناصر طراحی وب را مورد بحث قرار می دهد، افسانه «کاربر متوسط» را از بین می برد و اهمیت تست قابلیت استفاده برای شناسایی استراتژی های طراحی موثر را برجسته می کند. این چالش‌ها را بررسی می‌کند که تیم‌های وب در تصمیم‌گیری در مورد قابلیت استفاده با آن‌ها مواجه هستند، که اغلب تحت تأثیر تعصبات شخصی و حرفه‌ای قرار دارند. متن تاکید می کند که تست قابلیت استفاده برای حل و فصل بحث های طراحی ضروری است و از تمرکز بر ایجاد یک تجربه کاربری مثبت بر ترجیحات فردی حمایت می کند.",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Usability testing on 10 cents a day",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter conveys that effective usability testing does not require participants with a specific profile, making it accessible and practical for identifying issues on websites with usability flaws. It advocates for the cost-effectiveness and simplicity of DIY usability testing, as detailed in the recommended book 'Rocket Surgery Made Easy'. For optimal results, it suggests a regular testing schedule with three users each month to consistently identify and resolve problems, emphasizing the approachability and efficiency of this method in improving website usability.",
+                        // German
+                        "Deutsch": "Das Kapitel vermittelt, dass effektive Usability-Tests keine Teilnehmer mit einem bestimmten Profil erfordern, was sie zugänglich und praktisch macht, um Probleme auf Websites mit Usability-Mängeln zu identifizieren. Es plädiert für die Kosteneffizienz und Einfachheit von DIY-Usability-Tests, wie sie im empfohlenen Buch „Rocket Surgery Made Easy“ ausführlich beschrieben werden. Für optimale Ergebnisse wird ein regelmäßiger Testplan mit drei Benutzern pro Monat vorgeschlagen, um Probleme konsequent zu identifizieren und zu lösen, und betont die Zugänglichkeit und Effizienz dieser Methode bei der Verbesserung der Website-Usability.",
+                        // Chinese
+                        "中国人": "本章表明，有效的可用性测试不需要具有特定个人资料的参与者，因此它对于识别存在可用性缺陷的网站上的问题来说既方便又实用。它提倡 DIY 可用性测试的成本效益和简单性，正如推荐书《火箭手术变得简单》中详细介绍的那样。为了获得最佳效果，它建议每月与三个用户进行定期测试，以持续识别和解决问题，强调这种方法在提高网站可用性方面的可行性和效率。",
+                        // Russian
+                        "Русский": "В главе говорится, что эффективное тестирование юзабилити не требует участия участников с определенным профилем, что делает его доступным и практичным для выявления проблем на веб-сайтах с недостатками юзабилити. Он выступает за экономичность и простоту тестирования удобства использования своими руками, как подробно описано в рекомендуемой книге «Ракетная хирургия стала проще». Для достижения оптимальных результатов предлагается проводить регулярное тестирование с тремя пользователями каждый месяц для последовательного выявления и решения проблем, подчеркивая доступность и эффективность этого метода для улучшения удобства использования веб-сайта.",
+                        // French
+                        "Français": "Le chapitre indique qu'un test d'utilisabilité efficace ne nécessite pas de participants ayant un profil spécifique, ce qui le rend accessible et pratique pour identifier les problèmes sur les sites Web présentant des défauts d'utilisabilité. Il plaide en faveur de la rentabilité et de la simplicité des tests d'utilisabilité DIY, comme détaillé dans le livre recommandé « Rocket Surgery Made Easy ». Pour des résultats optimaux, il suggère un programme de tests réguliers avec trois utilisateurs chaque mois pour identifier et résoudre systématiquement les problèmes, en mettant l'accent sur l'accessibilité et l'efficacité de cette méthode pour améliorer la convivialité du site Web.",
+                        // Japanese
+                        "日本語": "この章では、効果的なユーザビリティ テストには特定のプロファイルを持つ参加者は必要なく、ユーザビリティに欠陥のある Web サイトの問題を特定するためにアクセスしやすく実用的であるということを伝えています。推奨書籍「Rocket Surgery Made Easy」で詳しく説明されているように、DIY ユーザビリティ テストのコスト効率とシンプルさを推奨しています。最適な結果を得るには、毎月 3 人のユーザーによる定期的なテスト スケジュールを提案し、一貫して問題を特定して解決することを提案し、Web サイトのユーザビリティを向上させるこの方法のアプローチしやすさと効率性を強調しています。",
+                        // Korean
+                        "한국인": "이 장에서는 효과적인 사용성 테스트에는 참가자에게 특정 프로필이 필요하지 않으므로 사용성 결함이 있는 웹 사이트의 문제를 식별하는 데 접근 가능하고 실용적이라는 점을 전달합니다. 추천 도서 'Rocket Surgery Made Easy'에 자세히 설명된 대로 DIY 유용성 테스트의 비용 효율성과 단순성을 옹호합니다. 최적의 결과를 얻으려면 매월 3명의 사용자를 대상으로 정기적인 테스트 일정을 제안하여 지속적으로 문제를 식별하고 해결하며, 웹 사이트 사용성을 향상시키는 데 있어 이 방법의 접근성과 효율성을 강조합니다.",
+                        // Spanish
+                        "Español": "El capítulo transmite que las pruebas de usabilidad efectivas no requieren participantes con un perfil específico, lo que las hace accesibles y prácticas para identificar problemas en sitios web con fallas de usabilidad. Aboga por la rentabilidad y la simplicidad de las pruebas de usabilidad hechas por usted mismo, como se detalla en el libro recomendado 'Rocket Surgery Made Easy'. Para obtener resultados óptimos, sugiere un programa de pruebas regular con tres usuarios cada mes para identificar y resolver problemas de manera consistente, enfatizando la accesibilidad y eficiencia de este método para mejorar la usabilidad del sitio web.",
+                        // Hindi
+                        "हिंदी": "अध्याय बताता है कि प्रभावी प्रयोज्यता परीक्षण के लिए किसी विशिष्ट प्रोफ़ाइल वाले प्रतिभागियों की आवश्यकता नहीं होती है, जिससे प्रयोज्यता दोषों वाली वेबसाइटों पर समस्याओं की पहचान करने के लिए यह सुलभ और व्यावहारिक हो जाता है। यह DIY प्रयोज्यता परीक्षण की लागत-प्रभावशीलता और सरलता की वकालत करता है, जैसा कि अनुशंसित पुस्तक 'रॉकेट सर्जरी मेड ईज़ी' में विस्तृत है। इष्टतम परिणामों के लिए, यह समस्याओं की लगातार पहचान करने और उन्हें हल करने के लिए हर महीने तीन उपयोगकर्ताओं के साथ एक नियमित परीक्षण कार्यक्रम का सुझाव देता है, वेबसाइट प्रयोज्यता में सुधार करने में इस पद्धति की पहुंच और दक्षता पर जोर देता है।",
+                        // Portuguese
+                        "Português": "O capítulo transmite que testes de usabilidade eficazes não requerem participantes com perfil específico, tornando-os acessíveis e práticos para identificar problemas em sites com falhas de usabilidade. Ele defende a relação custo-benefício e a simplicidade dos testes de usabilidade DIY, conforme detalhado no livro recomendado 'Rocket Surgery Made Easy'. Para obter os melhores resultados, sugere um cronograma regular de testes com três usuários por mês para identificar e resolver problemas de forma consistente, enfatizando a acessibilidade e eficiência deste método na melhoria da usabilidade do site.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি বোঝায় যে কার্যকর ব্যবহারযোগ্যতা পরীক্ষার জন্য একটি নির্দিষ্ট প্রোফাইল সহ অংশগ্রহণকারীদের প্রয়োজন হয় না, এটি ব্যবহারযোগ্যতা ত্রুটিযুক্ত ওয়েবসাইটগুলিতে সমস্যাগুলি সনাক্ত করার জন্য এটি অ্যাক্সেসযোগ্য এবং ব্যবহারিক করে তোলে। এটি DIY ব্যবহারযোগ্যতা পরীক্ষার ব্যয়-কার্যকারিতা এবং সরলতার পক্ষে সমর্থন করে, যেমনটি প্রস্তাবিত বই 'রকেট সার্জারি মেড ইজি'-তে বিশদ বিবরণ দেওয়া হয়েছে। সর্বোত্তম ফলাফলের জন্য, এটি প্রতি মাসে তিনজন ব্যবহারকারীর সাথে নিয়মিত পরীক্ষার সময়সূচী প্রস্তাব করে যাতে সমস্যাগুলি চিহ্নিত করা যায় এবং সমাধান করা যায়, ওয়েবসাইটের ব্যবহারযোগ্যতা উন্নত করার ক্ষেত্রে এই পদ্ধতির ব্যবহারযোগ্যতা এবং দক্ষতার উপর জোর দেওয়া হয়।",
+                        // Arabic
+                        "عَرَبِيّ": "يشير الفصل إلى أن اختبار قابلية الاستخدام الفعال لا يتطلب من المشاركين ملف تعريف محدد، مما يجعله سهل الوصول إليه وعمليًا لتحديد المشكلات على مواقع الويب التي بها عيوب في قابلية الاستخدام. وهو يدعو إلى فعالية التكلفة وبساطة اختبار سهولة الاستخدام الذي يتم تنفيذه بنفسك، كما هو مفصل في الكتاب الموصى به 'جراحة الصواريخ أصبحت سهلة'. للحصول على أفضل النتائج، يقترح جدول اختبار منتظم مع ثلاثة مستخدمين كل شهر لتحديد المشكلات وحلها باستمرار، مع التركيز على سهولة الوصول إلى هذه الطريقة وكفاءتها في تحسين سهولة استخدام موقع الويب.",
+                        // Persian
+                        "فارسی": "این فصل بیان می‌کند که آزمایش قابلیت استفاده مؤثر به شرکت‌کنندگانی با مشخصات خاصی نیاز ندارد، و آن را برای شناسایی مشکلات در وب‌سایت‌های دارای نقص قابلیت استفاده در دسترس و کاربردی می‌سازد. این از مقرون به صرفه بودن و سادگی تست قابلیت استفاده DIY حمایت می کند، همانطور که در کتاب توصیه شده 'راکت جراحی آسان شده' توضیح داده شده است. برای نتایج بهینه، یک برنامه آزمایشی منظم با سه کاربر در هر ماه برای شناسایی و حل مشکلات به طور مداوم پیشنهاد می‌کند و بر قابلیت دسترسی و کارایی این روش در بهبود قابلیت استفاده وب‌سایت تأکید می‌کند.",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Mobile: It's not just a city in Alabama anymore",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter discusses the unique challenges and opportunities in mobile usability, emphasizing the need for thoughtful design decisions due to limited screen size and the potential pitfalls of flat design on user affordance perception. It highlights the importance of balancing feature-rich apps with learnability, advocating for clear instructions to aid user comprehension. The complexity of setting up usability tests for mobile devices is acknowledged, with a call to consider the nuances of participant device usage and observer requirements. Looking forward, the chapter underscores the immense potential for enhancing user experience through mobile devices, while reinforcing the critical role of usability testing in achieving successful app design.",
+                        // German
+                        "Deutsch": "Das Kapitel erörtert die einzigartigen Herausforderungen und Chancen der mobilen Benutzerfreundlichkeit und betont die Notwendigkeit durchdachter Designentscheidungen aufgrund der begrenzten Bildschirmgröße und der potenziellen Fallstricke des flachen Designs hinsichtlich der Wahrnehmung der Benutzerfreundlichkeit. Es hebt die Bedeutung der Balance zwischen funktionsreichen Apps und Lernbarkeit hervor und plädiert für klare Anweisungen, um das Verständnis des Benutzers zu unterstützen. Die Komplexität der Einrichtung von Usability-Tests für mobile Geräte wird anerkannt und dazu aufgerufen, die Nuancen der Gerätenutzung der Teilnehmer und der Anforderungen der Beobachter zu berücksichtigen. Mit Blick auf die Zukunft unterstreicht das Kapitel das immense Potenzial zur Verbesserung der Benutzererfahrung durch mobile Geräte und bekräftigt gleichzeitig die entscheidende Rolle von Usability-Tests für ein erfolgreiches App-Design.",
+                        // Chinese
+                        "中国人": "本章讨论了移动可用性方面的独特挑战和机遇，强调由于屏幕尺寸有限以及扁平设计对用户感知的潜在缺陷，需要深思熟虑的设计决策。它强调了平衡功能丰富的应用程序与易学性的重要性，提倡使用清晰的说明来帮助用户理解。承认为移动设备设置可用性测试的复杂性，并呼吁考虑参与者设备使用和观察者要求的细微差别。展望未来，本章强调了通过移动设备增强用户体验的巨大潜力，同时强调了可用性测试在实现成功的应用程序设计中的关键作用。",
+                        // Russian
+                        "Русский": "В главе обсуждаются уникальные проблемы и возможности мобильного юзабилити, подчеркивается необходимость продуманных дизайнерских решений из-за ограниченного размера экрана и потенциальных ошибок плоского дизайна для восприятия возможностей пользователя. Он подчеркивает важность баланса между многофункциональными приложениями и обучаемостью, а также призывает к четким инструкциям, которые облегчат понимание пользователем. Признается сложность настройки юзабилити-тестов для мобильных устройств с призывом учитывать нюансы использования устройств участников и требования к наблюдателям. Заглядывая в будущее, в этой главе подчеркивается огромный потенциал улучшения пользовательского опыта с помощью мобильных устройств, а также подчеркивается решающая роль юзабилити-тестирования в достижении успешного дизайна приложений.",
+                        // French
+                        "Français": "Le chapitre aborde les défis et opportunités uniques en matière d'utilisabilité mobile, en soulignant la nécessité de décisions de conception réfléchies en raison de la taille limitée de l'écran et des pièges potentiels du design plat sur la perception des moyens par l'utilisateur. Il souligne l’importance d’équilibrer les applications riches en fonctionnalités avec la facilité d’apprentissage, en préconisant des instructions claires pour faciliter la compréhension de l’utilisateur. La complexité de la mise en place de tests d'utilisabilité pour les appareils mobiles est reconnue, avec un appel à prendre en compte les nuances d'utilisation des appareils des participants et les exigences des observateurs. Pour l’avenir, le chapitre souligne l’immense potentiel d’amélioration de l’expérience utilisateur via les appareils mobiles, tout en renforçant le rôle essentiel des tests d’utilisabilité dans la réussite de la conception d’applications.",
+                        // Japanese
+                        "日本語": "この章では、モバイル ユーザビリティの特有の課題と機会について説明し、画面サイズが限られているため、設計上の決定を慎重に行う必要があること、およびフラット デザインがユーザーのアフォーダンス認識に与える潜在的な落とし穴について強調しています。また、機能豊富なアプリと学習しやすさのバランスをとることの重要性を強調し、ユーザーの理解を助ける明確な指示を推奨しています。モバイル デバイスのユーザビリティ テストの設定の複雑さが認識されており、参加者のデバイス使用状況と観察者の要件の微妙な違いを考慮するよう呼びかけています。将来を見据えて、この章では、モバイル デバイスによるユーザー エクスペリエンスの向上の大きな可能性を強調するとともに、アプリ設計を成功させる上でのユーザビリティ テストの重要な役割を強調しています。",
+                        // Korean
+                        "한국인": "이 장에서는 제한된 화면 크기로 인한 사려 깊은 디자인 결정의 필요성과 사용자 어포던스 인식에 대한 플랫 디자인의 잠재적 함정을 강조하면서 모바일 사용성에 대한 고유한 과제와 기회에 대해 논의합니다. 이는 기능이 풍부한 앱과 학습 가능성의 균형을 맞추는 것의 중요성을 강조하고 사용자 이해를 돕기 위한 명확한 지침을 옹호합니다. 모바일 장치에 대한 유용성 테스트 설정의 복잡성은 참가자 장치 사용 및 관찰자 요구 사항의 미묘한 차이를 고려하라는 요청과 함께 인정됩니다. 앞으로 이 장에서는 성공적인 앱 디자인을 달성하는 데 있어 사용성 테스트의 중요한 역할을 강화하는 동시에 모바일 장치를 통해 사용자 경험을 향상시킬 수 있는 엄청난 잠재력을 강조합니다.",
+                        // Spanish
+                        "Español": "El capítulo analiza los desafíos y oportunidades únicos en la usabilidad móvil, enfatizando la necesidad de tomar decisiones de diseño bien pensadas debido al tamaño limitado de la pantalla y los peligros potenciales del diseño plano en la percepción de asequibilidad del usuario. Destaca la importancia de equilibrar las aplicaciones ricas en funciones con la capacidad de aprendizaje, abogando por instrucciones claras para ayudar a la comprensión del usuario. Se reconoce la complejidad de configurar pruebas de usabilidad para dispositivos móviles, con un llamado a considerar los matices del uso de los dispositivos de los participantes y los requisitos de los observadores. De cara al futuro, el capítulo subraya el inmenso potencial para mejorar la experiencia del usuario a través de dispositivos móviles, al tiempo que refuerza el papel fundamental de las pruebas de usabilidad para lograr un diseño exitoso de aplicaciones.",
+                        // Hindi
+                        "हिंदी": "अध्याय मोबाइल प्रयोज्यता में अद्वितीय चुनौतियों और अवसरों पर चर्चा करता है, सीमित स्क्रीन आकार के कारण विचारशील डिजाइन निर्णयों की आवश्यकता और उपयोगकर्ता की सामर्थ्य धारणा पर फ्लैट डिजाइन के संभावित नुकसान पर जोर देता है। यह उपयोगकर्ता की समझ में सहायता करने के लिए स्पष्ट निर्देशों की वकालत करते हुए, सीखने की क्षमता के साथ सुविधा संपन्न ऐप्स को संतुलित करने के महत्व पर प्रकाश डालता है। मोबाइल उपकरणों के लिए प्रयोज्यता परीक्षण स्थापित करने की जटिलता को स्वीकार किया जाता है, जिसमें प्रतिभागी डिवाइस उपयोग और पर्यवेक्षक आवश्यकताओं की बारीकियों पर विचार करने का आह्वान किया जाता है। आगे देखते हुए, अध्याय मोबाइल उपकरणों के माध्यम से उपयोगकर्ता अनुभव को बढ़ाने की अपार संभावनाओं को रेखांकित करता है, जबकि सफल ऐप डिज़ाइन प्राप्त करने में प्रयोज्यता परीक्षण की महत्वपूर्ण भूमिका को सुदृढ़ करता है।",
+                        // Portuguese
+                        "Português": "O capítulo discute os desafios e oportunidades únicos na usabilidade móvel, enfatizando a necessidade de decisões de design bem pensadas devido ao tamanho limitado da tela e às possíveis armadilhas do design plano na percepção de recursos do usuário. Ele destaca a importância de equilibrar aplicativos ricos em recursos com capacidade de aprendizagem, defendendo instruções claras para ajudar na compreensão do usuário. A complexidade da configuração de testes de usabilidade para dispositivos móveis é reconhecida, com um apelo para considerar as nuances do uso dos dispositivos dos participantes e os requisitos do observador. Olhando para o futuro, o capítulo sublinha o imenso potencial para melhorar a experiência do utilizador através de dispositivos móveis, ao mesmo tempo que reforça o papel crítico dos testes de usabilidade na obtenção de um design de aplicações bem-sucedido.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি মোবাইল ব্যবহারযোগ্যতার অনন্য চ্যালেঞ্জ এবং সুযোগগুলি নিয়ে আলোচনা করে, সীমিত স্ক্রীনের আকারের কারণে এবং ব্যবহারকারীর সামর্থ্য উপলব্ধিতে ফ্ল্যাট ডিজাইনের সম্ভাব্য ত্রুটিগুলির কারণে চিন্তাশীল ডিজাইনের সিদ্ধান্তের প্রয়োজনীয়তার উপর জোর দেয়। এটি শেখার যোগ্যতার সাথে বৈশিষ্ট্য-সমৃদ্ধ অ্যাপগুলির ভারসাম্য বজায় রাখার গুরুত্ব তুলে ধরে, ব্যবহারকারীর বোঝার জন্য সাহায্য করার জন্য স্পষ্ট নির্দেশাবলীর পক্ষে কথা বলে। অংশগ্রহণকারী ডিভাইসের ব্যবহার এবং পর্যবেক্ষকের প্রয়োজনীয়তার সূক্ষ্মতা বিবেচনা করার জন্য একটি কল সহ মোবাইল ডিভাইসের জন্য ব্যবহারযোগ্যতা পরীক্ষা সেট আপ করার জটিলতা স্বীকার করা হয়। সামনের দিকে তাকিয়ে, অধ্যায়টি মোবাইল ডিভাইসের মাধ্যমে ব্যবহারকারীর অভিজ্ঞতা বাড়ানোর অপার সম্ভাবনাকে আন্ডারস্কোর করে, পাশাপাশি সফল অ্যাপ ডিজাইন অর্জনে ব্যবহারযোগ্যতা পরীক্ষার গুরুত্বপূর্ণ ভূমিকাকে শক্তিশালী করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يناقش الفصل التحديات والفرص الفريدة في سهولة الاستخدام على الأجهزة المحمولة، مع التركيز على الحاجة إلى قرارات تصميم مدروسة نظرًا لحجم الشاشة المحدود والمزالق المحتملة للتصميم المسطح على تصور المستخدم للقدرة على تحمل التكاليف. وهو يسلط الضوء على أهمية الموازنة بين التطبيقات الغنية بالميزات وقابلية التعلم، ويدعو إلى تعليمات واضحة لمساعدة المستخدم على الفهم. تم الاعتراف بتعقيد إعداد اختبارات قابلية الاستخدام للأجهزة المحمولة، مع دعوة للنظر في الفروق الدقيقة في استخدام جهاز المشارك ومتطلبات المراقب. وبالنظر إلى المستقبل، يؤكد الفصل على الإمكانات الهائلة لتعزيز تجربة المستخدم من خلال الأجهزة المحمولة، مع تعزيز الدور الحاسم لاختبار قابلية الاستخدام في تحقيق تصميم ناجح للتطبيق.",
+                        // Persian
+                        "فارسی": "این فصل چالش‌ها و فرصت‌های منحصربه‌فرد در قابلیت استفاده از تلفن همراه را مورد بحث قرار می‌دهد، و بر نیاز به تصمیم‌گیری‌های طراحی متفکرانه به دلیل اندازه محدود صفحه نمایش و مشکلات بالقوه طراحی مسطح بر درک استطاعت کاربر تأکید می‌کند. اهمیت تعادل برنامه های غنی از ویژگی با قابلیت یادگیری را برجسته می کند و از دستورالعمل های واضح برای کمک به درک کاربر حمایت می کند. پیچیدگی راه‌اندازی تست‌های قابلیت استفاده برای دستگاه‌های تلفن همراه با فراخوانی برای در نظر گرفتن تفاوت‌های ظریف استفاده از دستگاه شرکت‌کننده و الزامات ناظر تأیید شده است. با نگاه به آینده، این فصل بر پتانسیل بسیار زیاد برای افزایش تجربه کاربر از طریق دستگاه های تلفن همراه تاکید می کند، در حالی که نقش مهم تست قابلیت استفاده در دستیابی به طراحی موفق برنامه را تقویت می کند.",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "Usability as common courtesy",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter underscores the concept of a ‘Reservoir of Goodwill’ that users have towards websites, which can diminish with negative experiences. It posits that usability equates to courtesy, suggesting that websites should anticipate and answer frequently asked questions, offer comfort features, and streamline processes to improve the user experience. The essence of considerate design is highlighted, emphasizing the importance of providing clear information, minimizing user effort, and investing in a thoughtful user experience as key factors in the success of a website.",
+                        // German
+                        "Deutsch": "Das Kapitel unterstreicht das Konzept eines „Reservoirs an Wohlwollen“, das Benutzer gegenüber Websites haben und das durch negative Erfahrungen schwinden kann. Es geht davon aus, dass Benutzerfreundlichkeit gleichbedeutend mit Höflichkeit ist, und schlägt vor, dass Websites häufig gestellte Fragen vorwegnehmen und beantworten, Komfortfunktionen bieten und Prozesse optimieren sollten, um das Benutzererlebnis zu verbessern. Das Wesentliche eines durchdachten Designs wird hervorgehoben und die Bedeutung der Bereitstellung klarer Informationen, der Minimierung des Benutzeraufwands und der Investition in ein durchdachtes Benutzererlebnis als Schlüsselfaktoren für den Erfolg einer Website hervorgehoben.",
+                        // Chinese
+                        "中国人": "本章强调了用户对网站“善意储备”的概念，这种善意会因负面体验而减少。它认为可用性等同于礼貌，建议网站应预测和回答常见问题、提供舒适功能并简化流程以改善用户体验。本章强调了体贴设计的本质，强调提供清晰信息、最大限度地减少用户工作量以及投资周到的用户体验是网站成功的关键因素。",
+                        // Russian
+                        "Русский": "В этой главе подчеркивается концепция «резервуара доброй воли» пользователей по отношению к веб-сайтам, который может уменьшаться в результате негативного опыта. Он утверждает, что удобство использования приравнивается к вежливости, предполагая, что веб-сайты должны предвидеть и отвечать на часто задаваемые вопросы, предлагать функции комфорта и оптимизировать процессы для улучшения пользовательского опыта. Выделена суть продуманного дизайна, подчеркивая важность предоставления четкой информации, минимизации усилий пользователя и инвестирования в продуманный пользовательский опыт как ключевые факторы успеха веб-сайта.",
+                        // French
+                        "Français": "Le chapitre souligne le concept de « réservoir de bonne volonté » dont disposent les utilisateurs envers les sites Web, et qui peut diminuer avec les expériences négatives. Il postule que la convivialité équivaut à la courtoisie, suggérant que les sites Web doivent anticiper et répondre aux questions fréquemment posées, offrir des fonctionnalités de confort et rationaliser les processus pour améliorer l'expérience utilisateur. L'essence d'une conception réfléchie est mise en évidence, en soulignant l'importance de fournir des informations claires, de minimiser les efforts de l'utilisateur et d'investir dans une expérience utilisateur réfléchie en tant que facteurs clés du succès d'un site Web.",
+                        // Japanese
+                        "日本語": "この章では、ユーザーがウェブサイトに対して抱く「善意の蓄積」という概念を強調しています。この善意は、ネガティブな体験によって減少する可能性があります。この章では、使いやすさは礼儀正しさに等しいと仮定し、ウェブサイトはよくある質問を予測して回答し、快適な機能を提供し、プロセスを合理化してユーザー エクスペリエンスを向上させる必要があると示唆しています。思慮深いデザインの本質が強調され、明確な情報を提供すること、ユーザーの労力を最小限に抑えること、思慮深いユーザー エクスペリエンスに投資することが、ウェブサイトの成功の鍵となる要素であることを強調しています。",
+                        // Korean
+                        "한국인": "이 장에서는 사용자가 웹사이트에 대해 가지고 있는 '선의의 저장소'라는 개념을 강조하며, 이는 부정적인 경험으로 인해 줄어들 수 있습니다. 이는 유용성이 예의와 동일하다고 가정하여 웹사이트가 자주 묻는 질문을 예측하고 답변하며, 편안한 기능을 제공하고, 프로세스를 간소화하여 사용자 경험을 개선해야 한다고 제안합니다. 웹 사이트 성공의 핵심 요소로서 명확한 정보 제공, 사용자 노력 최소화, 사려 깊은 사용자 경험에 대한 투자의 중요성을 강조하면서 사려 깊은 디자인의 본질을 강조합니다.",
+                        // Spanish
+                        "Español": "El capítulo subraya el concepto de una “reserva de buena voluntad” que los usuarios tienen hacia los sitios web, que puede disminuir con experiencias negativas. Plantea que la usabilidad equivale a cortesía, lo que sugiere que los sitios web deben anticipar y responder las preguntas frecuentes, ofrecer funciones cómodas y agilizar los procesos para mejorar la experiencia del usuario. Se destaca la esencia del diseño considerado, enfatizando la importancia de proporcionar información clara, minimizar el esfuerzo del usuario e invertir en una experiencia de usuario reflexiva como factores clave para el éxito de un sitio web.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय वेबसाइटों के प्रति उपयोगकर्ताओं की ‘सद्भावना के भंडार’ की अवधारणा को रेखांकित करता है, जो नकारात्मक अनुभवों के साथ कम हो सकता है। यह मानता है कि प्रयोज्यता शिष्टाचार के बराबर है, यह सुझाव देते हुए कि वेबसाइटों को अक्सर पूछे जाने वाले प्रश्नों का अनुमान लगाना चाहिए और उनका उत्तर देना चाहिए, आरामदायक सुविधाएँ प्रदान करनी चाहिए, और उपयोगकर्ता अनुभव को बेहतर बनाने के लिए प्रक्रियाओं को सुव्यवस्थित करना चाहिए। विचारशील डिज़ाइन का सार उजागर किया गया है, स्पष्ट जानकारी प्रदान करने, उपयोगकर्ता के प्रयास को कम करने और एक वेबसाइट की सफलता में महत्वपूर्ण कारकों के रूप में एक विचारशील उपयोगकर्ता अनुभव में निवेश करने के महत्व पर जोर दिया गया है।",
+                        // Portuguese
+                        "Português": "O capítulo sublinha o conceito de “reservatório de boa vontade” que os utilizadores têm em relação aos websites, que pode diminuir com experiências negativas. Ele postula que usabilidade equivale a cortesia, sugerindo que os sites devem antecipar e responder às perguntas mais frequentes, oferecer recursos de conforto e agilizar processos para melhorar a experiência do usuário. A essência do design atencioso é destacada, enfatizando a importância de fornecer informações claras, minimizar o esforço do usuário e investir em uma experiência de usuário criteriosa como fatores-chave para o sucesso de um site.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি একটি 'গুডউইলের জলাধার' এর ধারণাকে আন্ডারস্কোর করে যা ব্যবহারকারীদের ওয়েবসাইটগুলির প্রতি রয়েছে, যা নেতিবাচক অভিজ্ঞতার সাথে হ্রাস পেতে পারে। এটি বিশ্বাস করে যে ব্যবহারযোগ্যতা সৌজন্যের সমান, পরামর্শ দেয় যে ওয়েবসাইটগুলিকে প্রায়শই জিজ্ঞাসিত প্রশ্নের উত্তর দেওয়া উচিত, আরামের বৈশিষ্ট্যগুলি অফার করা উচিত এবং ব্যবহারকারীর অভিজ্ঞতা উন্নত করার জন্য প্রক্রিয়াগুলিকে স্ট্রিমলাইন করা উচিত৷ বিবেচ্য ডিজাইনের সারমর্ম হাইলাইট করা হয়েছে, স্পষ্ট তথ্য প্রদানের গুরুত্বের উপর জোর দেওয়া, ব্যবহারকারীর প্রচেষ্টাকে ন্যূনতম করা, এবং একটি ওয়েবসাইটের সাফল্যের মূল কারণ হিসেবে চিন্তাশীল ব্যবহারকারীর অভিজ্ঞতায় বিনিয়োগ করা।",
+                        // Arabic
+                        "عَرَبِيّ": "ويؤكد هذا الفصل على مفهوم 'خزان النوايا الحسنة' لدى المستخدمين تجاه مواقع الويب، والذي يمكن أن يتضاءل مع التجارب السلبية. ويفترض أن سهولة الاستخدام تعادل المجاملة، مما يشير إلى أن مواقع الويب يجب أن تتوقع الأسئلة المتداولة وتجيب عليها، وتوفر ميزات الراحة، وتبسيط العمليات لتحسين تجربة المستخدم. يتم تسليط الضوء على جوهر التصميم المراعي، مع التأكيد على أهمية توفير معلومات واضحة، وتقليل جهد المستخدم، والاستثمار في تجربة مستخدم مدروسة كعوامل رئيسية في نجاح موقع الويب.",
+                        // Persian
+                        "فارسی": "این فصل بر مفهوم «مخزن حسن نیت» که کاربران نسبت به وب‌سایت‌ها دارند، تأکید می‌کند که می‌تواند با تجارب منفی کاهش یابد. این فرض می‌کند که قابلیت استفاده برابر با حسن نیت است، و نشان می‌دهد که وب‌سایت‌ها باید سؤالات متداول را پیش‌بینی کرده و به آنها پاسخ دهند، ویژگی‌های راحتی ارائه دهند و فرآیندها را برای بهبود تجربه کاربر ساده‌تر کنند. ماهیت طراحی دقیق برجسته شده است، با تاکید بر اهمیت ارائه اطلاعات واضح، به حداقل رساندن تلاش کاربر، و سرمایه گذاری در تجربه کاربری متفکرانه به عنوان عوامل کلیدی در موفقیت یک وب سایت.",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Accessibility and you",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter emphasizes the significance of website accessibility, acknowledging the apprehensions of designers and developers about the additional effort and complexity it entails. It discusses the daunting nature of accessibility validation, often hindered by unclear warnings and extensive checklists. Insights reveal that screen-reader users engage with content by scanning swiftly and listening selectively, highlighting the need for practical measures such as adding alternative text to images, using headings appropriately, and selecting accessible templates. Despite these challenges, the chapter conveys a hopeful message, asserting that the advantages of accessibility extend to all users and advocating for its prioritization in web design.",
+                        // German
+                        "Deutsch": "Das Kapitel unterstreicht das Konzept eines „Reservoirs an Wohlwollen“, das Benutzer gegenüber Websites haben und das durch negative Erfahrungen schwinden kann. Es geht davon aus, dass Benutzerfreundlichkeit gleichbedeutend mit Höflichkeit ist, und schlägt vor, dass Websites häufig gestellte Fragen vorwegnehmen und beantworten, Komfortfunktionen bieten und Prozesse optimieren sollten, um das Benutzererlebnis zu verbessern. Das Wesentliche eines durchdachten Designs wird hervorgehoben und die Bedeutung der Bereitstellung klarer Informationen, der Minimierung des Benutzeraufwands und der Investition in ein durchdachtes Benutzererlebnis als Schlüsselfaktoren für den Erfolg einer Website hervorgehoben.",
+                        // Chinese
+                        "中国人": "本章强调了网站可访问性的重要性，承认设计师和开发人员对其需要付出的额外努力和复杂性的担忧。它讨论了可访问性验证的艰巨性，这种验证通常受到不明确的警告和冗长的检查表的阻碍。洞察表明，屏幕阅读器用户通过快速扫描和有选择地收听来与内容互动，这突出了采取实际措施的必要性，例如为图像添加替代文本、适当使用标题和选择可访问的模板。尽管存在这些挑战，但本章传达了一个充满希望的信息，声称可访问性的优势扩展到所有用户，并主张在网页设计中优先考虑可访问性。",
+                        // Russian
+                        "Русский": "В главе подчеркивается важность доступности веб-сайтов, признавая опасения дизайнеров и разработчиков по поводу дополнительных усилий и сложностей, которые это влечет за собой. В нем обсуждается сложная природа проверки доступности, которой часто мешают неясные предупреждения и обширные контрольные списки. Исследования показывают, что пользователи программ чтения с экрана взаимодействуют с контентом, быстро просматривая и выборочно прослушивая, что подчеркивает необходимость практических мер, таких как добавление альтернативного текста к изображениям, правильное использование заголовков и выбор доступных шаблонов. Несмотря на эти проблемы, глава несет обнадеживающий посыл, утверждая, что преимущества доступности распространяются на всех пользователей, и пропагандируя ее приоритетность в веб-дизайне.",
+                        // French
+                        "Français": "Le chapitre met l'accent sur l'importance de l'accessibilité des sites Web, reconnaissant les appréhensions des concepteurs et des développeurs quant aux efforts supplémentaires et à la complexité que cela implique. Il aborde la nature intimidante de la validation de l'accessibilité, souvent entravée par des avertissements peu clairs et des listes de contrôle détaillées. Les analyses révèlent que les utilisateurs de lecteurs d'écran interagissent avec le contenu en numérisant rapidement et en écoutant de manière sélective, soulignant la nécessité de mesures pratiques telles que l'ajout de texte alternatif aux images, l'utilisation appropriée des titres et la sélection de modèles accessibles. Malgré ces défis, le chapitre transmet un message d’espoir, affirmant que les avantages de l’accessibilité s’étendent à tous les utilisateurs et plaidant pour qu’elle soit prioritaire dans la conception Web.",
+                        // Japanese
+                        "日本語": "この章では、Web サイトのアクセシビリティの重要性を強調し、それに伴う追加の労力と複雑さに対するデザイナーや開発者の懸念を認めています。また、不明瞭な警告や膨大なチェックリストによって妨げられることが多いアクセシビリティ検証の困難な性質についても説明しています。洞察により、スクリーン リーダーのユーザーは、コンテンツをすばやくスキャンして選択的に聞くことで操作していることが明らかになり、画像に代替テキストを追加する、見出しを適切に使用する、アクセス可能なテンプレートを選択するなどの実用的な対策の必要性が強調されています。これらの課題にもかかわらず、この章では希望に満ちたメッセージを伝え、アクセシビリティの利点はすべてのユーザーに及ぶと主張し、Web デザインでアクセシビリティを優先することを提唱しています。",
+                        // Korean
+                        "한국인": "이 장에서는 웹 사이트 접근성의 중요성을 강조하고 디자이너와 개발자가 수반하는 추가 노력과 복잡성에 대해 우려하고 있음을 인정합니다. 불분명한 경고와 광범위한 체크리스트로 인해 종종 방해가 되는 접근성 검증의 어려운 성격에 대해 논의합니다. 통찰력에 따르면 화면 판독기 사용자는 신속하게 스캔하고 선택적으로 청취함으로써 콘텐츠에 참여하며, 이미지에 대체 텍스트 추가, 적절한 제목 사용, 액세스 가능한 템플릿 선택과 같은 실용적인 조치의 필요성이 강조됩니다. 이러한 어려움에도 불구하고 이 장은 접근성의 이점이 모든 사용자에게 확장된다는 점을 주장하고 웹 디자인에서 접근성의 우선순위를 옹호하면서 희망적인 메시지를 전달합니다.",
+                        // Spanish
+                        "Español": "El capítulo enfatiza la importancia de la accesibilidad del sitio web, reconociendo las aprensiones de los diseñadores y desarrolladores sobre el esfuerzo adicional y la complejidad que implica. Se analiza la naturaleza desalentadora de la validación de la accesibilidad, a menudo obstaculizada por advertencias poco claras y listas de verificación extensas. Los conocimientos revelan que los usuarios de lectores de pantalla interactúan con el contenido escaneando rápidamente y escuchando selectivamente, lo que destaca la necesidad de medidas prácticas como agregar texto alternativo a las imágenes, usar encabezados apropiadamente y seleccionar plantillas accesibles. A pesar de estos desafíos, el capítulo transmite un mensaje esperanzador, afirmando que las ventajas de la accesibilidad se extienden a todos los usuarios y abogando por su priorización en el diseño web.",
+                        // Hindi
+                        "हिंदी": "यह अध्याय वेबसाइट एक्सेसिबिलिटी के महत्व पर जोर देता है, डिजाइनरों और डेवलपर्स की अतिरिक्त मेहनत और जटिलता के बारे में आशंकाओं को स्वीकार करता है। यह एक्सेसिबिलिटी वैलिडेशन की भयावह प्रकृति पर चर्चा करता है, जो अक्सर अस्पष्ट चेतावनियों और व्यापक चेकलिस्ट द्वारा बाधित होती है। अंतर्दृष्टि से पता चलता है कि स्क्रीन-रीडर उपयोगकर्ता तेजी से स्कैन करके और चुनिंदा रूप से सुनकर सामग्री से जुड़ते हैं, जो छवियों में वैकल्पिक पाठ जोड़ने, शीर्षकों का उचित उपयोग करने और सुलभ टेम्पलेट्स का चयन करने जैसे व्यावहारिक उपायों की आवश्यकता पर प्रकाश डालता है। इन चुनौतियों के बावजूद, अध्याय एक आशावादी संदेश देता है, जिसमें जोर दिया गया है कि एक्सेसिबिलिटी के लाभ सभी उपयोगकर्ताओं तक फैले हुए हैं और वेब डिज़ाइन में इसे प्राथमिकता देने की वकालत की गई है।",
+                        // Portuguese
+                        "Português": "O capítulo enfatiza a importância da acessibilidade dos websites, reconhecendo as apreensões dos designers e desenvolvedores sobre o esforço adicional e a complexidade que isso acarreta. Discute a natureza assustadora da validação de acessibilidade, muitas vezes dificultada por avisos pouco claros e extensas listas de verificação. Os insights revelam que os usuários de leitores de tela se envolvem com o conteúdo escaneando rapidamente e ouvindo seletivamente, destacando a necessidade de medidas práticas, como adicionar texto alternativo às imagens, usar títulos adequadamente e selecionar modelos acessíveis. Apesar destes desafios, o capítulo transmite uma mensagem de esperança, afirmando que as vantagens da acessibilidade se estendem a todos os utilizadores e defendendo a sua priorização no web design.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি ওয়েবসাইট অ্যাক্সেসিবিলিটির তাত্পর্যের উপর জোর দেয়, ডিজাইনার এবং ডেভেলপারদের অতিরিক্ত প্রচেষ্টা এবং জটিলতা সম্পর্কে আশংকা স্বীকার করে। এটি অ্যাক্সেসযোগ্যতা যাচাইকরণের ভয়ঙ্কর প্রকৃতি নিয়ে আলোচনা করে, প্রায়শই অস্পষ্ট সতর্কতা এবং বিস্তৃত চেকলিস্ট দ্বারা বাধাপ্রাপ্ত হয়। অন্তর্দৃষ্টি প্রকাশ করে যে স্ক্রিন-রিডার ব্যবহারকারীরা দ্রুত স্ক্যান করে এবং বেছে বেছে শুনে, চিত্রগুলিতে বিকল্প পাঠ্য যোগ করা, শিরোনামগুলি যথাযথভাবে ব্যবহার করা এবং অ্যাক্সেসযোগ্য টেমপ্লেটগুলি নির্বাচন করার মতো ব্যবহারিক ব্যবস্থাগুলির প্রয়োজনীয়তা তুলে ধরে বিষয়বস্তুর সাথে জড়িত হন৷ এই চ্যালেঞ্জগুলি সত্ত্বেও, অধ্যায়টি একটি আশাব্যঞ্জক বার্তা প্রদান করে, জোর দিয়ে যে অ্যাক্সেসযোগ্যতার সুবিধাগুলি সমস্ত ব্যবহারকারীর জন্য প্রসারিত এবং ওয়েব ডিজাইনে এর অগ্রাধিকারের পক্ষে সমর্থন করে।",
+                        // Arabic
+                        "عَرَبِيّ": "يؤكد هذا الفصل على أهمية إمكانية الوصول إلى موقع الويب، مع الاعتراف بمخاوف المصممين والمطورين بشأن الجهد الإضافي والتعقيد الذي ينطوي عليه ذلك. ويناقش الطبيعة الشاقة للتحقق من إمكانية الوصول، والتي غالبًا ما تعوقها التحذيرات غير الواضحة وقوائم المراجعة الشاملة. تكشف الرؤى أن مستخدمي قارئ الشاشة يتفاعلون مع المحتوى عن طريق المسح السريع والاستماع بشكل انتقائي، مما يسلط الضوء على الحاجة إلى اتخاذ تدابير عملية مثل إضافة نص بديل للصور، واستخدام العناوين بشكل مناسب، واختيار قوالب يمكن الوصول إليها. وعلى الرغم من هذه التحديات، ينقل الفصل رسالة مفعمة بالأمل، مؤكدا أن مزايا إمكانية الوصول تمتد إلى جميع المستخدمين ويدعو إلى إعطاء الأولوية لها في تصميم الويب.",
+                        // Persian
+                        "فارسی": "این فصل بر اهمیت دسترسی به وب‌سایت تأکید می‌کند و نگرانی طراحان و توسعه‌دهندگان را در مورد تلاش و پیچیدگی اضافی که مستلزم آن است، تأیید می‌کند. این ماهیت دلهره آور اعتبار سنجی دسترسی را مورد بحث قرار می دهد که اغلب با هشدارهای نامشخص و چک لیست های گسترده مانع می شود. بینش‌ها نشان می‌دهد که کاربران صفحه‌خوان با اسکن سریع و گوش دادن انتخابی، با تأکید بر نیاز به اقدامات عملی مانند افزودن متن جایگزین به تصاویر، استفاده مناسب از سرفصل‌ها و انتخاب الگوهای قابل دسترس، با محتوا درگیر می‌شوند. علی‌رغم این چالش‌ها، این فصل پیام امیدوارکننده‌ای را منتقل می‌کند و ادعا می‌کند که مزایای دسترسی به همه کاربران گسترش می‌یابد و از اولویت‌بندی آن در طراحی وب حمایت می‌کند.",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Guide for the perplexed",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "The chapter underscores the vital role of live usability testing in providing impactful insights, advocating for direct involvement to grasp user experiences genuinely. It emphasizes a hands-on approach to usability work, prioritizing learning, testing, and iterative improvements over mere job titles. To gain management support, it suggests demonstrating the return on investment through data and encouraging executives to witness usability tests firsthand. The narrative also highlights the importance of empathy towards decision-makers to enhance communication and collaboration, framing usability as a field where attitude and practical skills are paramount for success.",
+                        // German
+                        "Deutsch": "Das Kapitel unterstreicht die entscheidende Rolle von Live-Usability-Tests für die Bereitstellung aussagekräftiger Erkenntnisse und plädiert für eine direkte Beteiligung, um die Benutzererfahrungen wirklich zu erfassen. Es betont einen praktischen Ansatz für die Usability-Arbeit und priorisiert Lernen, Testen und iterative Verbesserungen gegenüber bloßen Berufsbezeichnungen. Um die Unterstützung des Managements zu gewinnen, schlägt es vor, den Return on Investment anhand von Daten nachzuweisen und Führungskräfte zu ermutigen, Usability-Tests aus erster Hand mitzuerleben. Der Bericht unterstreicht auch die Bedeutung von Empathie gegenüber Entscheidungsträgern, um Kommunikation und Zusammenarbeit zu verbessern, und stellt Usability als ein Feld dar, in dem Einstellung und praktische Fähigkeiten für den Erfolg von größter Bedeutung sind.",
+                        // Chinese
+                        "中国人": "本章强调了实时可用性测试在提供有影响力的见解方面的重要作用，提倡直接参与以真正掌握用户体验。它强调以亲身实践的方式进行可用性工作，优先考虑学习、测试和迭代改进，而不是单纯的职位头衔。为了获得管理层的支持，它建议通过数据展示投资回报，并鼓励高管亲眼见证可用性测试。叙述还强调了对决策者的同理心对加强沟通和协作的重要性，将可用性定义为一个态度和实践技能对成功至关重要的领域。",
+                        // Russian
+                        "Русский": "В этой главе подчеркивается жизненно важная роль живого юзабилити-тестирования в предоставлении действенной информации, а также пропагандируется прямое участие для подлинного понимания пользовательского опыта. Он подчеркивает практический подход к работе над удобством использования, отдавая приоритет обучению, тестированию и итеративным улучшениям, а не простым названиям должностей. Чтобы заручиться поддержкой руководства, он предлагает продемонстрировать окупаемость инвестиций с помощью данных и побудить руководителей лично стать свидетелями тестов юзабилити. В повествовании также подчеркивается важность сочувствия к лицам, принимающим решения, для улучшения общения и сотрудничества, рассматривая удобство использования как область, в которой отношение и практические навыки имеют первостепенное значение для успеха.",
+                        // French
+                        "Français": "Le chapitre souligne le rôle essentiel des tests d'utilisabilité en direct dans la fourniture d'informations percutantes, en plaidant pour une implication directe pour appréhender véritablement les expériences des utilisateurs. Il met l'accent sur une approche pratique du travail d'utilisabilité, en donnant la priorité à l'apprentissage, aux tests et aux améliorations itératives par rapport aux simples titres de poste. Pour obtenir le soutien de la direction, il suggère de démontrer le retour sur investissement grâce aux données et d'encourager les dirigeants à assister directement aux tests d'utilisabilité. Le récit souligne également l'importance de l'empathie envers les décideurs pour améliorer la communication et la collaboration, en présentant la convivialité comme un domaine où l'attitude et les compétences pratiques sont primordiales pour réussir.",
+                        // Japanese
+                        "日本語": "この章では、ライブ ユーザビリティ テストが、影響力のある洞察を提供する上で果たす重要な役割を強調し、ユーザー エクスペリエンスを真に理解するために直接関与することを推奨しています。また、ユーザビリティ作業への実践的なアプローチを強調し、単なる役職名よりも学習、テスト、反復的な改善を優先しています。経営陣の支持を得るには、データを通じて投資収益率を実証し、幹部にユーザビリティ テストを直接目撃するよう奨励することを提案しています。また、コミュニケーションとコラボレーションを強化するために意思決定者への共感の重要性を強調し、ユーザビリティを、成功のために姿勢と実践的なスキルが最も重要である分野として位置付けています。",
+                        // Korean
+                        "한국인": "이 장에서는 영향력 있는 통찰력을 제공하고 사용자 경험을 진정으로 파악하기 위한 직접적인 참여를 옹호하는 실시간 사용성 테스트의 중요한 역할을 강조합니다. 단순한 직위보다 학습, 테스트 및 반복적 개선에 우선순위를 두고 유용성 작업에 대한 실무적인 접근 방식을 강조합니다. 경영진의 지원을 얻으려면 데이터를 통해 투자 수익을 입증하고 경영진이 사용성 테스트를 직접 목격하도록 권장합니다. 내러티브는 또한 의사소통과 협업을 강화하기 위해 의사결정자에 대한 공감의 중요성을 강조하고, 유용성을 성공을 위해 태도와 실무 기술이 가장 중요한 분야로 규정합니다.",
+                        // Spanish
+                        "Español": "El capítulo subraya el papel vital de las pruebas de usabilidad en vivo a la hora de proporcionar conocimientos impactantes, abogando por la participación directa para captar genuinamente las experiencias de los usuarios. Enfatiza un enfoque práctico para el trabajo de usabilidad, priorizando el aprendizaje, las pruebas y las mejoras iterativas sobre los meros títulos de trabajo. Para obtener el apoyo de la dirección, sugiere demostrar el retorno de la inversión a través de datos y alentar a los ejecutivos a presenciar de primera mano las pruebas de usabilidad. La narrativa también destaca la importancia de la empatía hacia los tomadores de decisiones para mejorar la comunicación y la colaboración, enmarcando la usabilidad como un campo donde la actitud y las habilidades prácticas son primordiales para el éxito.",
+                        // Hindi
+                        "हिंदी": "अध्याय प्रभावशाली अंतर्दृष्टि प्रदान करने में लाइव प्रयोज्यता परीक्षण की महत्वपूर्ण भूमिका को रेखांकित करता है, उपयोगकर्ता के अनुभवों को वास्तव में समझने के लिए प्रत्यक्ष भागीदारी की वकालत करता है। यह प्रयोज्यता कार्य के लिए व्यावहारिक दृष्टिकोण पर जोर देता है, केवल नौकरी के शीर्षकों पर सीखने, परीक्षण और पुनरावृत्त सुधारों को प्राथमिकता देता है। प्रबंधन का समर्थन प्राप्त करने के लिए, यह डेटा के माध्यम से निवेश पर वापसी का प्रदर्शन करने और अधिकारियों को प्रयोज्यता परीक्षणों को प्रत्यक्ष रूप से देखने के लिए प्रोत्साहित करने का सुझाव देता है। कथा संचार और सहयोग को बढ़ाने के लिए निर्णय लेने वालों के प्रति सहानुभूति के महत्व पर भी प्रकाश डालती है, प्रयोज्यता को एक ऐसे क्षेत्र के रूप में प्रस्तुत करती है जहाँ सफलता के लिए दृष्टिकोण और व्यावहारिक कौशल सर्वोपरि हैं।",
+                        // Portuguese
+                        "Português": "O capítulo destaca o papel vital dos testes de usabilidade ao vivo no fornecimento de insights impactantes, defendendo o envolvimento direto para compreender genuinamente as experiências do usuário. Ele enfatiza uma abordagem prática para o trabalho de usabilidade, priorizando aprendizado, testes e melhorias iterativas em vez de meros cargos. Para obter apoio da gestão, sugere demonstrar o retorno do investimento através de dados e incentivar os executivos a testemunhar testes de usabilidade em primeira mão. A narrativa também destaca a importância da empatia para com os decisores para melhorar a comunicação e a colaboração, enquadrando a usabilidade como um campo onde a atitude e as competências práticas são fundamentais para o sucesso.",
+                        // Bengali
+                        "বাংলা": "অধ্যায়টি প্রভাবশালী অন্তর্দৃষ্টি প্রদানে লাইভ ব্যবহারযোগ্যতা পরীক্ষার গুরুত্বপূর্ণ ভূমিকার ওপর জোর দেয়, ব্যবহারকারীর অভিজ্ঞতাকে প্রকৃতভাবে উপলব্ধি করার জন্য সরাসরি সম্পৃক্ততার পক্ষে কথা বলে। এটি শুধুমাত্র কাজের শিরোনামের চেয়ে শিক্ষা, পরীক্ষা এবং পুনরাবৃত্তিমূলক উন্নতিকে অগ্রাধিকার দিয়ে ব্যবহারযোগ্য কাজের জন্য একটি হাত-অনুষ্ঠানের উপর জোর দেয়। ম্যানেজমেন্ট সাপোর্ট পাওয়ার জন্য, এটি ডেটার মাধ্যমে বিনিয়োগের উপর রিটার্ন প্রদর্শনের পরামর্শ দেয় এবং এক্সিকিউটিভদের সরাসরি ব্যবহারযোগ্যতা পরীক্ষাগুলি দেখতে উৎসাহিত করে। আখ্যানটি যোগাযোগ এবং সহযোগিতা বাড়ানোর জন্য সিদ্ধান্ত গ্রহণকারীদের প্রতি সহানুভূতির গুরুত্বকেও তুলে ধরে, ব্যবহারযোগ্যতাকে এমন একটি ক্ষেত্র হিসাবে তৈরি করে যেখানে মনোভাব এবং ব্যবহারিক দক্ষতা সাফল্যের জন্য সর্বাগ্রে।",
+                        // Arabic
+                        "عَرَبِيّ": "يؤكد الفصل على الدور الحيوي لاختبار قابلية الاستخدام المباشر في توفير رؤى مؤثرة، والدعوة إلى المشاركة المباشرة لفهم تجارب المستخدم بشكل حقيقي. وهو يؤكد على النهج العملي في العمل المتعلق بقابلية الاستخدام، وتحديد أولويات التعلم والاختبار والتحسينات التكرارية على مجرد المسميات الوظيفية. للحصول على دعم الإدارة، يقترح إظهار العائد على الاستثمار من خلال البيانات وتشجيع المديرين التنفيذيين على مشاهدة اختبارات قابلية الاستخدام بشكل مباشر. يسلط السرد أيضًا الضوء على أهمية التعاطف مع صناع القرار لتعزيز التواصل والتعاون، وتأطير قابلية الاستخدام كمجال تكون فيه المواقف والمهارات العملية ذات أهمية قصوى لتحقيق النجاح.",
+                        // Persian
+                        "فارسی": "این فصل بر نقش حیاتی تست قابلیت استفاده زنده در ارائه بینش تاثیرگذار تاکید می کند و از مشارکت مستقیم برای درک واقعی تجربیات کاربر حمایت می کند. این بر رویکرد عملی به کار با قابلیت استفاده، اولویت دادن به یادگیری، آزمایش و بهبودهای تکراری نسبت به عناوین شغلی صرف تأکید دارد. برای به دست آوردن پشتیبانی مدیریت، نشان دادن بازگشت سرمایه از طریق داده‌ها و تشویق مدیران برای مشاهده آزمایش‌های قابلیت استفاده از نزدیک را پیشنهاد می‌کند. این روایت همچنین بر اهمیت همدلی با تصمیم‌گیرندگان برای افزایش ارتباطات و همکاری تاکید می‌کند و قابلیت استفاده را به عنوان زمینه‌ای که در آن نگرش و مهارت‌های عملی برای موفقیت مهم هستند، قاب‌بندی می‌کند.",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -1572,132 +2760,834 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Welcome",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Variables and data types",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Control flow and functions",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Classes",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Inheritance and Exceptions",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Generics and Collections",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Asynchronous programming",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Coding principles with Dart",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Basics of Flutter",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Building UIs in Flutter",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "State Management",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Routes and navigation",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Localization and internationalization",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 14
                 {
                     "ChapterName": "Animation",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 15
                 {
                     "ChapterName": "Working with JSON and other formats",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 16
                 {
                     "ChapterName": "Testing and profiling apps",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 17
                 {
                     "ChapterName": "Networking",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 18
                 {
                     "ChapterName": "Assets, images, and multimedia",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 19
                 {
                     "ChapterName": "Forms and gestures",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 20
                 {
                     "ChapterName": "Interacting with the device",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 21
                 {
                     "ChapterName": "Widgets showcase",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 22
                 {
                     "ChapterName": "Using Firebase with Flutter",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 23
                 {
                     "ChapterName": "Publishing packages and apps",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 24
                 {
                     "ChapterName": "Complete Flutter project example",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 25
                 {
                     "ChapterName": "Dart Appendix",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 26
                 {
                     "ChapterName": "Flutter Appendix",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -1832,97 +3722,610 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Getting Started",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Hello, Flutter",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Basic Widgets",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Understanding Widgets",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Scrollable Widgets",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Interactive Widgets",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Routes & Navigation",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Deep Links & Web URLs",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Handling Shared Preferences",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Serialization With JSON",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "Networking in Flutter",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Using a Network Library",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Managing State",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 14
                 {
                     "ChapterName": "Working With Streams",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 15
                 {
                     "ChapterName": "Saving Data With SQLite",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 16
                 {
                     "ChapterName": "Platform-Specific App Assets",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 17
                 {
                     "ChapterName": "Build & Release an Android App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 18
                 {
                     "ChapterName": "Build & Release an iOS App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 19
                 {
                     "ChapterName": "Firebase Cloud Firestore",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -2060,117 +4463,738 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Introduction to Computers, the Internet and Visual C#",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Introduction to Visual Studio and Visual Programming",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Introduction to C# App Programming",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Introduction to Classes, Objects, Methods and String",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Algorithm Development and Control Statements: Part 1",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Control Statements: Part 2",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Methods: A Deeper Look",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Arrays; Introduction to Exception Handling",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Introduction to LINQ and the List Collection",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Classes and Objects: A Deeper Look",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "Object-Oriented Programming: Inheritance",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "OOP: Polymorphism and Interfaces",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Exception Handling: A Deeper Look",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 14
                 {
                     "ChapterName": "Graphical User Interfaces with Windows Forms: Part 1",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 15
                 {
                     "ChapterName": "Graphical User Interfaces with Windows Forms: Part 2",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 16
                 {
                     "ChapterName": "Strings and Characters: A Deeper Look",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 17
                 {
                     "ChapterName": "Files and Streams",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 18
                 {
                     "ChapterName": "Searching and Sorting",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 19
                 {
                     "ChapterName": "Custom Linked Data Structures",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 20
                 {
                     "ChapterName": "Generics",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 21
                 {
                     "ChapterName": "Generic Collections; Functional Programming with LINQ/PLINQ",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 22
                 {
                     "ChapterName": "Databases and LINQ",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 23
                 {
                     "ChapterName": "Asynchronous Programming with async and await",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -2305,42 +5329,258 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Beginning Git: Get Going with Git",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Branching Out: Multiple Trains of Thought",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Looking Around: Investigating Your Git Repository",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Undoing: Fixing Your Mistakes",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Collaborating with Git - Part I: Remote Work",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Collaborating with Git - Part II: Go, Team, Go!",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Searching Git Repositories: Git a Grep",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Making your life Easier with Git: #ProTips",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -2475,27 +5715,162 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "HTML and CSS",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Introduction to JavaScript",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "How to Mobile Optimize a Website",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Introduction to Python Programming",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Django",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -2630,92 +6005,578 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Introduction",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Initial Set Up",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Hello World App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Pages App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Message Board App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Blog App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Forms",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "User Accounts",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Custom User Model",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "User Authentication",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "Bootstrap",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Password Change and Reset",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Email",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 14
                 {
                     "ChapterName": "Newspaper App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 15
                 {
                     "ChapterName": "Permissions and Authorization",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 16
                 {
                     "ChapterName": "Comments",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 17
                 {
                     "ChapterName": "Deployment",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 18
                 {
                     "ChapterName": "Conclusion",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -2853,112 +6714,706 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Introduction to Android",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Welcome App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Tip Calculator App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Flag Quiz App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Doodlz App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Cannon Game App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Weather Viewer App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Twitter Searches App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Address Book App",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Google Play and App Business Issues",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "Introduction to Java Applications",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Introduction to Classes, Objects, Methods and Strings",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Control Statements",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 14
                 {
                     "ChapterName": "Methods: A Deeper Look",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 15
                 {
                     "ChapterName": "Arrays and ArrayLists",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 16
                 {
                     "ChapterName": "Classes and Objects: A Deeper Look",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 17
                 {
                     "ChapterName": "Object-Oriented Programming: Inheritance and Polymorphism",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 18
                 {
                     "ChapterName": "Exception Handling: A Deeper Look",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 19
                 {
                     "ChapterName": "GUI Components and Event Handling",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 20
                 {
                     "ChapterName": "Other Java Topics",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 21
                 {
                     "ChapterName": "Operator Precedence Chart",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 22
                 {
                     "ChapterName": "Primitive Types",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -3096,42 +7551,258 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "Foundation",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Fundamentals",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Deep Learning from Scratch",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Extensions",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Convolutional Neural Networks",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Recurrent Neural Networks",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "PyTorch",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Deep Dives",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -3269,107 +7940,674 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "SOLIDWORKS 2020 User Interface",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "System Options",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Document Templates",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Basic Solid Modeling - Extrude Options",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Basic Solid Modeling - Extrude and Revolve",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Revolve Parts",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Rib & Shell Features",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "Patterns",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Part Configurations",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Modeling Threads",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "Bottom Up Assembly",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Using Advanced Mates",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 13
                 {
                     "ChapterName": "Layout Assembly",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 14
                 {
                     "ChapterName": "PhotoView360 Basics",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 15
                 {
                     "ChapterName": "Drawing Preparations",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 16
                 {
                     "ChapterName": "Assembly Drawings",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 17
                 {
                     "ChapterName": "Drawing Views",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 18
                 {
                     "ChapterName": "Detailing - Machined Block Details",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 19
                 {
                     "ChapterName": "Sheet Metal Drawings",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 20
                 {
                     "ChapterName": "Configurations",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 21
                 {
                     "ChapterName": "Design Tables",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
 
             ],
@@ -3508,62 +8746,386 @@ var BooksReadForEachSkillStaticContainer = {
                 // 1
                 {
                     "ChapterName": "The Foundation of Self-Driving Cars",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 2
                 {
                     "ChapterName": "Dive Deep into Deep Neural Networks",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 3
                 {
                     "ChapterName": "Implementing a Deep Learning Model Using Keras",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 4
                 {
                     "ChapterName": "Computer Vision for Self-Driving Cars",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 5
                 {
                     "ChapterName": "Finding Road Markings Using OpenCV",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 6
                 {
                     "ChapterName": "Improving the Image Classifier with CNN",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 7
                 {
                     "ChapterName": "Road Sign Detection Using Deep Learning",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 8
                 {
                     "ChapterName": "The Principles and Foundations of Semantic Segmentation",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 9
                 {
                     "ChapterName": "Implementing Semantic Segmentation",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 10
                 {
                     "ChapterName": "Behavioral Cloning Using Deep Learning",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 11
                 {
                     "ChapterName": "Vehicle Detection Using OpenCV and Deep Learning",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
                 // 12
                 {
                     "ChapterName": "Next Steps",
-                    "ShortDescriptionAboutChapter": "",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
                 },
             ],
             "TotalDescriptionAboutTheBook": [
@@ -4036,59 +9598,7 @@ function ResponsiveAdaptive() {
         document.getElementById('first-view-div-element-for-short-description-just').style.marginRight = "5vw";
 
         // Second View
-        // - > Section
-        document.getElementById('secon-d-section-of-book-list-to-show').style.height = "365vw";
-        // - > Book Cover Image
-        document.getElementById('Book-image-second-view').style.width = "70vw";
-        document.getElementById('Book-image-second-view').style.height = "auto";
-        document.getElementById('Book-image-second-view').style.boxShadow = "0px 0px 20px 20px rgba(0, 0, 0, 0.08)"; // First: X, Second: Y, Third: Blur, Fourth: Spread, Fifth: Color
-        // - > Book Cover Image column
-        document.getElementById('Book-image-second-view-column').style.height = "120vw";
-        // - > Text Staff column
-        document.getElementById('short-information-couloumn-all-text-staffs').style.marginRight = "5vw";
-        document.getElementById('short-information-couloumn-all-text-staffs').style.marginLeft = "5vw";
-        document.getElementById('short-information-couloumn-all-text-staffs').style.marginBottom = "105vw";
-        // - > Book Name
-        document.getElementById('Book-name').style.fontSize = "8vw";
-        document.getElementById('Book-name').style.marginBottom = "4vw";
-        // - > Tag Texts
-        document.querySelectorAll('#tag-name-that-means-what-is-this-property').forEach(
-            function (item) {
-                item.style.fontSize = "5vw";
-                // item.style.marginTop = "5vw";
-            }
-        );
-        // - > Author Name
-        document.getElementById('author-name-that-should-be-replaced').style.fontSize = "5vw";
-        // - > Edition Number
-        document.getElementById('edition-number-name-that-should-be-replaced').style.fontSize = "5vw";
-        // - > Publisher Name
-        document.getElementById('publisher-name-that-should-be-replaced').style.fontSize = "5vw";
-        // - > ISBN Number
-        document.getElementById('isbn-number-name-that-should-be-replaced').style.fontSize = "5vw";
-        // - > Year Number
-        document.getElementById('year-number-name-that-should-be-replaced').style.fontSize = "5vw";
-        // - > Page Number
-        document.getElementById('Page-number-name-that-should-be-replaced').style.fontSize = "5vw";
-        // - > Short Description
-        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontSize = "5vw";
-        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontFamily = "'Roboto', sans-serif";
-        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontWeight = "300";
-        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.marginTop = "3vw";
-        document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.width = "85vw";
-        document.getElementById('text-staff-container-jsut-short-description-paragraph').className = "container-fluid d-xxl-flex justify-content-start align-items-start align-items-xxl-start";
-        document.getElementById('text-staff-container-jsut-short-description-paragraph').style.marginTop = "3vw";
-        document.getElementById('text-staff-container-jsut-short-description-paragraph').style.marginBottom = "3vw";
-        // - > See More
-        document.getElementById('see-more-button-to-go-to-the-book-details').style.fontSize = "5vw";
-        document.getElementById('see-more-button-to-go-to-the-book-details').style.margin = "auto";
-        // - > Margin Staff just for spacing
-        document.querySelectorAll('#text-staff-container-jsut').forEach(
-            function (item) {
-                item.style.marginTop = "3vw";
-                item.style.marginBottom = "3vw";
-            }
-        );
+        ReadBooksListCallFunctionFunctionality(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected);
 
         // Contact Information Section
         // Fourth View
@@ -4156,6 +9666,93 @@ function ResponsiveAdaptive() {
     } else {
 
     }
+}
+
+// Documentation
+// This function will handle the Read Book List functionlaity
+function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
+
+    // Next Book Slides Buttons Indicator - Paginations
+    if ((SkillName === "") || (SkillName === " ") || (SkillName == null)) {
+        // Leave the page default
+    } else {
+        if (BooksReadForEachSkillStaticContainer[SkillName].length <= 3) {
+            // Add 1 Button
+        } else if ((BooksReadForEachSkillStaticContainer[SkillName].length <= 6) && (BooksReadForEachSkillStaticContainer[SkillName].length >= 4)) {
+            
+            // Add 2 Button
+            var parent = document.getElementById('pagination-section-to-show-other-books');
+            var SecondButton = document.createElement('a');
+            SecondButton.id = "second-page-current-paginateion-first-button";
+            SecondButton.href = "#";
+            SecondButton.style.fontFamily = "'Lilita One', serif";
+            SecondButton.style.borderColor = "rgba(70, 69, 68, 0)";
+            SecondButton.style.background = "linear-gradient(#393939, #393939)";
+            SecondButton.style.color = "rgb(255, 255, 255)";
+            SecondButton.textContent = "2";
+            parent.appendChild(SecondButton);
+
+        } else if ((BooksReadForEachSkillStaticContainer[SkillName].length <= 9) && (BooksReadForEachSkillStaticContainer[SkillName].length >= 7)) {
+            // Add 3 Button
+        } else if (BooksReadForEachSkillStaticContainer[SkillName].length >= 10) {
+            // Add ... Button
+        }
+    }
+
+    // Second View
+    // - > Section
+    document.getElementById('secon-d-section-of-book-list-to-show').style.height = "365vw";
+    // - > Book Cover Image
+    document.getElementById('Book-image-second-view').style.width = "70vw";
+    document.getElementById('Book-image-second-view').style.height = "auto";
+    document.getElementById('Book-image-second-view').style.boxShadow = "0px 0px 20px 20px rgba(0, 0, 0, 0.08)"; // First: X, Second: Y, Third: Blur, Fourth: Spread, Fifth: Color
+    // - > Book Cover Image column
+    document.getElementById('Book-image-second-view-column').style.height = "120vw";
+    // - > Text Staff column
+    document.getElementById('short-information-couloumn-all-text-staffs').style.marginRight = "5vw";
+    document.getElementById('short-information-couloumn-all-text-staffs').style.marginLeft = "5vw";
+    document.getElementById('short-information-couloumn-all-text-staffs').style.marginBottom = "105vw";
+    // - > Book Name
+    document.getElementById('Book-name').style.fontSize = "8vw";
+    document.getElementById('Book-name').style.marginBottom = "4vw";
+    // - > Tag Texts
+    document.querySelectorAll('#tag-name-that-means-what-is-this-property').forEach(
+        function (item) {
+            item.style.fontSize = "5vw";
+            // item.style.marginTop = "5vw";
+        }
+    );
+    // - > Author Name
+    document.getElementById('author-name-that-should-be-replaced').style.fontSize = "5vw";
+    // - > Edition Number
+    document.getElementById('edition-number-name-that-should-be-replaced').style.fontSize = "5vw";
+    // - > Publisher Name
+    document.getElementById('publisher-name-that-should-be-replaced').style.fontSize = "5vw";
+    // - > ISBN Number
+    document.getElementById('isbn-number-name-that-should-be-replaced').style.fontSize = "5vw";
+    // - > Year Number
+    document.getElementById('year-number-name-that-should-be-replaced').style.fontSize = "5vw";
+    // - > Page Number
+    document.getElementById('Page-number-name-that-should-be-replaced').style.fontSize = "5vw";
+    // - > Short Description
+    document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontSize = "5vw";
+    document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontFamily = "'Roboto', sans-serif";
+    document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.fontWeight = "300";
+    document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.marginTop = "3vw";
+    document.getElementById('short-description-text-paragraph-name-that-should-be-replaced').style.width = "85vw";
+    document.getElementById('text-staff-container-jsut-short-description-paragraph').className = "container-fluid d-xxl-flex justify-content-start align-items-start align-items-xxl-start";
+    document.getElementById('text-staff-container-jsut-short-description-paragraph').style.marginTop = "3vw";
+    document.getElementById('text-staff-container-jsut-short-description-paragraph').style.marginBottom = "3vw";
+    // - > See More
+    document.getElementById('see-more-button-to-go-to-the-book-details').style.fontSize = "5vw";
+    document.getElementById('see-more-button-to-go-to-the-book-details').style.margin = "auto";
+    // - > Margin Staff just for spacing
+    document.querySelectorAll('#text-staff-container-jsut').forEach(
+        function (item) {
+            item.style.marginTop = "3vw";
+            item.style.marginBottom = "3vw";
+        }
+    );
 }
 
 // Documentation
