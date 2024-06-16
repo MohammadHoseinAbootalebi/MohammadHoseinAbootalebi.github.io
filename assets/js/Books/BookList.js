@@ -9676,10 +9676,63 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
     if ((SkillName === "") || (SkillName === " ") || (SkillName == null)) {
         // Leave the page default
     } else {
-        if (BooksReadForEachSkillStaticContainer[SkillName].length <= 3) {
+        if ((BooksReadForEachSkillStaticContainer[SkillName].length <= 3) && (document.getElementById('pagination-section-to-show-other-books').childNodes.length == 0)) {
+
             // Add 1 Button
-        } else if ((BooksReadForEachSkillStaticContainer[SkillName].length <= 6) && (BooksReadForEachSkillStaticContainer[SkillName].length >= 4)) {
+            var parent = document.getElementById('pagination-section-to-show-other-books');
+            var FirstButton = document.createElement('a');
+            FirstButton.id = "active-current-paginateion-first-button";
+            FirstButton.className = "pagination-item active";
+            FirstButton.href = "#";
+            FirstButton.style.fontFamily = "'Lilita One', serif";
+            FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
+            FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
+            FirstButton.style.color = "rgb(255, 255, 255)";
+            FirstButton.style.borderRadius = "8px";
+            FirstButton.textContent = "1";
+            parent.appendChild(FirstButton);
             
+        } else if ((BooksReadForEachSkillStaticContainer[SkillName].length <= 6) && (BooksReadForEachSkillStaticContainer[SkillName].length >= 4)) {
+
+            // Add Previous Button
+            var parent = document.getElementById('pagination-section-to-show-other-books');
+            var PreviousButton = document.createElement('a');
+            PreviousButton.className = "pagination-item disabled";
+            PreviousButton.id = "previous-page-paginateion-zero-button";
+            PreviousButton.href = "#";
+            PreviousButton.style.background = "linear-gradient(#000000, #000000)";
+            var SVGIconPreviousButton = document.createElementNS("", 'svg');
+            SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
+            SVGIconPreviousButton.className = "bi bi-caret-left-fill";
+            SVGIconPreviousButton.xmlns = "http://www.w3.org/2000/svg";
+            SVGIconPreviousButton.width = "1em";
+            SVGIconPreviousButton.height = "1em";
+            SVGIconPreviousButton.fill = "currentColor";
+            SVGIconPreviousButton.viewBox = "0 0 16 16";
+            SVGIconPreviousButton.style = "font-size: 25px";
+            var PathSVGOfPreviousButton = document.createElementNS("", 'path');
+            PathSVGOfPreviousButton.d = "m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z";
+            SVGIconPreviousButton.appendChild(PathSVGOfPreviousButton);
+            PreviousButton.appendChild(SVGIconPreviousButton);
+            var SpanPreviousButton = document.createElement('span');
+            SpanPreviousButton.style.fontFamily = "'Lilita One', serif";
+            SpanPreviousButton.textContent = "Previous";
+            PreviousButton.appendChild(SpanPreviousButton);
+            parent.appendChild(PreviousButton);
+
+            // Add 1 Button
+            var parent = document.getElementById('pagination-section-to-show-other-books');
+            var FirstButton = document.createElement('a');
+            FirstButton.id = "active-current-paginateion-first-button";
+            FirstButton.className = "pagination-item active";
+            FirstButton.href = "#";
+            FirstButton.style.fontFamily = "'Lilita One', serif";
+            FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
+            FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
+            FirstButton.style.color = "rgb(255, 255, 255)";
+            FirstButton.textContent = "1";
+            parent.appendChild(FirstButton);
+
             // Add 2 Button
             var parent = document.getElementById('pagination-section-to-show-other-books');
             var SecondButton = document.createElement('a');
@@ -9691,6 +9744,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
             SecondButton.style.color = "rgb(255, 255, 255)";
             SecondButton.textContent = "2";
             parent.appendChild(SecondButton);
+
+            // Next Button
+            var parent = document.getElementById('pagination-section-to-show-other-books');
+            var nextAnchorLink = document.createElement('a');
+            nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
+            nextAnchorLink.href = "#";
+            nextAnchorLink.style.background = "linear-gradient(#fca311 0%, #fca311)";
+            var SpanNextText = document.createElement('span');
+            SpanNextText.style.fontFamily = "'Lilita One', serif";
+            SpanNextText.style.color = "rgb(0, 0, 0)";
+            SpanNextText.textContent = "Next";
+            nextAnchorLink.appendChild(SpanNextText);
+            var svgIconNextButton = document.createElementNS("", 'svg');
+            svgIconNextButton.className = "bi bi-caret-right-fill";
+            svgIconNextButton.xmlns = "http://www.w3.org/2000/svg";
+            svgIconNextButton.width = "1em";
+            svgIconNextButton.height = "1em";
+            svgIconNextButton.fill = "currentColor";
+            svgIconNextButton.viewBox = "0 0 16 16";
+            svgIconNextButton.style = "font-size: 25px; color: rgb(0, 0, 0)";
+            var pathOfSVGNextButton = document.createElementNS("", 'path');
+            pathOfSVGNextButton.d = "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z";
+            svgIconNextButton.appendChild(pathOfSVGNextButton);
+            nextAnchorLink.appendChild(svgIconNextButton);
+            parent.appendChild(nextAnchorLink);
 
         } else if ((BooksReadForEachSkillStaticContainer[SkillName].length <= 9) && (BooksReadForEachSkillStaticContainer[SkillName].length >= 7)) {
             // Add 3 Button
