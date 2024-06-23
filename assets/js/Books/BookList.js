@@ -17352,7 +17352,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
             if (BooksReadForEachSkillStaticContainer[SkillName].length < 3) {
 
                 // Creating the book records which has one or two books
-                for (var index = 0; index < BooksReadForEachSkillStaticContainer[SkillName].length; ++index) { // Till this part ...
+                for (var index = 0; index < BooksReadForEachSkillStaticContainer[SkillName].length; ++index) {
 
                     // Row
                     var parent = document.getElementById("secon-d-section-of-book-list-to-show");
@@ -18815,94 +18815,94 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > - > Short Description - > h5 - > Styling
                     if (window.innerWidth >= 1300) {
 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
                 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     } else {
 
-                        ShortDescriptionRow_h5.style.fontFamily = "'Lilita One', serif";
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "1vw";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
                 
                     }
                     var ShortDescriptionRow_h5_strong = document.createElement("strong");
@@ -19137,9 +19137,1867 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
             } else {
 
                 // Creating the book records which has more than 3 books
-                for (var index = 0; index < 3; ++index) { // Till this part ...
+                // Creating the book records which has one or two books
+                for (var index = 0; index < 3; ++index) {
 
-                }
+                    // Row
+                    var parent = document.getElementById("secon-d-section-of-book-list-to-show");
+                    var rowBook = document.createElement("div");
+                    rowBook.id = "Book-record-for-styling";
+                    rowBook.className = "row";
+                    // - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    } else {
+
+                        rowBook.style.paddingBottom = "5vw";
+                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
+                        rowBook.style.width = "100%";
+                        rowBook.style.marginRight = "0px";
+                        rowBook.style.marginLeft = "0px";
+                
+                    }
+                    parent.appendChild(rowBook);
+
+                    // Image Column
+                    var parent = document.getElementById("secon-d-section-of-book-list-to-show");
+                    var ImageColumn = document.createElement("div");
+                    ImageColumn.id = "Book-image-second-view-column";
+                    ImageColumn.className = "col-xxl-2 d-flex d-xl-flex d-xxl-flex justify-content-center align-items-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center";
+                    // Image Column - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ImageColumn.style.height = "120vw";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ImageColumn.style.height = "100vh";
+                
+                    } else {
+
+                        ImageColumn.style.height = "100vh";
+                
+                    }
+                    var Image_column = document.createElement("img");
+                    Image_column.id = "Book-image-second-view";
+                    Image_column.className = "img-fluid";
+                    Image_column.src = BooksReadForEachSkillStaticContainer[SkillName][index]["BookCoverImagePath"];
+                    // - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    } else {
+
+                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
+                        Image_column.style.height = "auto";
+                        Image_column.style.width = "75vw";
+                
+                    }
+                    ImageColumn.appendChild(Image_column);
+                    parent.appendChild(ImageColumn);
+
+                    // Book Short Information Row
+                    var parent = document.getElementById("secon-d-section-of-book-list-to-show");
+                    var ShortInformationRow = document.createElement("div");
+                    ShortInformationRow.id = "short-information-couloumn-all-text-staffs";
+                    ShortInformationRow.className = "col d-flex d-xxl-flex flex-column align-items-xxl-start";
+                    // - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    } else {
+
+                        ShortInformationRow.style.height = "auto";
+                        ShortInformationRow.style.marginLeft = "5vw";
+                
+                    }
+                    // - > - > Book Name Title
+                    var BookNameTitle = document.createElement("h1");
+                    BookNameTitle.id = "Book-name";
+                    BookNameTitle.className = "flex-shrink-0";
+                    // - > - > Book Name Title - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    } else {
+
+                        BookNameTitle.style.fontFamily = "'Lilita One', serif";
+                        BookNameTitle.style.color = "rgb(252, 163, 17)";
+                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.marginTop = "20px";
+                
+                    }
+                    BookNameTitle.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]["BookName"];
+                    ShortInformationRow.appendChild(BookNameTitle);
+
+                    // - > - > Author Tag Row
+                    var AuthorNameRow = document.createElement("div");
+                    AuthorNameRow.id = "text-staff-container-jsut";
+                    AuthorNameRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-start align-items-xxl-center";
+                    // - > - > Author Tag Row - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        AuthorNameRow.style.paddingLeft = "0px";
+                        AuthorNameRow.style.marginTop = "10px";
+                        AuthorNameRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > Author Tag Row - > Span
+                    var AuthorNameTagSpan = document.createElement("span");
+                    AuthorNameTagSpan.id = "tag-name-that-means-what-is-this-property";
+                    AuthorNameTagSpan.className = "d-flex flex-shrink-0 align-items-start";
+                    AuthorNameTagSpan.style.fontFamily = "Roboto, sans-serif";
+                    if (BooksReadForEachSkillStaticContainer[SkillName][index]['Gender'] == "F") {
+                        AuthorNameTagSpan.textContent = boorRecordsShortInformationTags["AuthorTagName"][Language]["Female"];
+                    } else {
+                        AuthorNameTagSpan.textContent = boorRecordsShortInformationTags["AuthorTagName"][Language]["Male"];
+                    }
+                    AuthorNameRow.appendChild(AuthorNameTagSpan);
+                    // - > - > Author Tag Row - > h5
+                    var AuthorNameTagH5 = document.createElement("h5");
+                    AuthorNameTagH5.id = "author-name-that-should-be-replaced";
+                    AuthorNameTagH5.className = "d-flex align-items-start";
+                    AuthorNameTagH5.style.fontFamily = "'Lilita One', serif";
+                    // - > - > Author Tag Row - > h5 - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    } else {
+
+                        AuthorNameTagH5.style.marginBottom = "0px";
+                
+                    }
+                    AuthorNameTagH5.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]['AuthorName'];
+                    AuthorNameRow.appendChild(AuthorNameTagH5);
+                    ShortInformationRow.appendChild(AuthorNameRow);
+
+                    // - > - > Edition Number
+                    var EditionNumberRow = document.createElement("div");
+                    EditionNumberRow.id = "text-staff-container-jsut";
+                    EditionNumberRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-start align-items-xxl-center";
+                    // - > - > Edition Number - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        EditionNumberRow.style.paddingLeft = "0px";
+                        EditionNumberRow.style.marginTop = "10px";
+                        EditionNumberRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > Edition Number Span
+                    var EditionNumberRowSpan = document.createElement("span");
+                    EditionNumberRowSpan.id = "tag-name-that-means-what-is-this-property";
+                    EditionNumberRowSpan.className = "d-flex flex-shrink-0 align-items-start";
+                    EditionNumberRowSpan.style.fontFamily = "Roboto, sans-serif";
+                    EditionNumberRowSpan.textContent = boorRecordsShortInformationTags["EditionNumberTag"][Language];
+                    EditionNumberRow.appendChild(EditionNumberRowSpan);
+                    
+                    // - > - > Edition Number h5
+                    var EditionNumberRowH5 = document.createElement("h5");
+                    EditionNumberRowH5.id = "edition-number-name-that-should-be-replaced";
+                    EditionNumberRowH5.className = "d-flex align-items-start";
+                    EditionNumberRowH5.style.fontFamily = "'Lilita One', serif";
+                    // - > - > Edition Number h5 - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    } else {
+
+                        EditionNumberRowH5.style.marginBottom = "0px";
+                
+                    }
+                    EditionNumberRowH5.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]['EditionNumber'];
+                    EditionNumberRow.appendChild(EditionNumberRowH5);
+                    ShortInformationRow.appendChild(EditionNumberRow);
+
+                    // - > - > Publisher Row
+                    var PublisherRow = document.createElement("div");
+                    PublisherRow.id = "text-staff-container-jsut";
+                    PublisherRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-start align-items-xxl-center";
+                    // - > - > Publisher Row - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        PublisherRow.style.paddingLeft = "0px";
+                        PublisherRow.style.marginTop = "10px";
+                        PublisherRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > Publisher - > Span
+                    var PublisherRow_Span = document.createElement("span");
+                    PublisherRow_Span.id = "tag-name-that-means-what-is-this-property";
+                    PublisherRow_Span.className = "d-flex flex-shrink-0 align-items-start";
+                    PublisherRow_Span.style.fontFamily = "Roboto, sans-serif";
+                    PublisherRow_Span.textContent = boorRecordsShortInformationTags["PublisherNameTag"][Language];
+                    PublisherRow.appendChild(PublisherRow_Span);
+
+                    // - > - > Publisher - > h5
+                    var PublisherRow_h5 = document.createElement("h5");
+                    PublisherRow_h5.id = "publisher-name-that-should-be-replaced";
+                    PublisherRow_h5.className = "d-flex align-items-start";
+                    PublisherRow_h5.style.fontFamily = "'Lilita One', serif";
+                    // - > - > Publisher - > h5 - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    } else {
+
+                        PublisherRow_h5.style.marginBottom = "0px";
+                
+                    }
+                    PublisherRow_h5.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]["PublisherName"];
+                    PublisherRow.appendChild(PublisherRow_h5);
+                    ShortInformationRow.appendChild(PublisherRow);
+
+                    // - > - > ISBN
+                    var ISBNRow = document.createElement("div");
+                    ISBNRow.id = "text-staff-container-jsut";
+                    ISBNRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-start align-items-xxl-center";
+                    // - > - > ISBN - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        ISBNRow.style.paddingLeft = "0px";
+                        ISBNRow.style.marginTop = "10px";
+                        ISBNRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > ISBN - > span
+                    var ISBNRow_span = document.createElement("span");
+                    ISBNRow_span.id = "tag-name-that-means-what-is-this-property";
+                    ISBNRow_span.className = "d-flex flex-shrink-0 align-items-start";
+                    ISBNRow_span.style.fontFamily = "Roboto, sans-serif";
+                    ISBNRow_span.textContent = "ISBN : ";
+                    ISBNRow.appendChild(ISBNRow_span);
+
+                    // - > - > ISBN - > h5
+                    var ISBNRow_h5 = document.createElement("h5");
+                    ISBNRow_h5.id = "isbn-number-name-that-should-be-replaced";
+                    ISBNRow_h5.className = "d-flex align-items-start";
+                    ISBNRow_h5.style.fontFamily = "'Lilita One', serif";
+                    // - > - > ISBN - > h5 - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    } else {
+
+                        ISBNRow_h5.style.marginBottom = "0px";
+                
+                    }
+                    ISBNRow_h5.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]["ISBN"];
+                    ISBNRow.appendChild(ISBNRow_h5);
+                    ShortInformationRow.appendChild(ISBNRow);
+
+                    // - > - > Year
+                    var YearNumberRow = document.createElement("div");
+                    YearNumberRow.id = "text-staff-container-jsut";
+                    YearNumberRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-start align-items-xxl-center";
+                    // - > - > Year - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        YearNumberRow.style.paddingLeft = "0px";
+                        YearNumberRow.style.marginTop = "10px";
+                        YearNumberRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > Year - > span
+                    var YearNumberRow_span = document.createElement("span");
+                    YearNumberRow_span.id = "tag-name-that-means-what-is-this-property";
+                    YearNumberRow_span.className = "d-flex flex-shrink-0 align-items-start";
+                    YearNumberRow_span.style.fontFamily = "Roboto, sans-serif";
+                    YearNumberRow_span.textContent = boorRecordsShortInformationTags["YearNumberTag"][Language];
+                    YearNumberRow.appendChild(YearNumberRow_span);
+                    // - > - > Year - > h5
+                    var YearNumberRow_h5 = document.createElement("h5");
+                    YearNumberRow_h5.id = "year-number-name-that-should-be-replaced";
+                    YearNumberRow_h5.className = "d-flex align-items-start";
+                    YearNumberRow_h5.style.fontFamily = "'Lilita One', serif";
+                    // - > - > Year - > h5 - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else {
+
+                        YearNumberRow_h5.style.marginBottom = "0px";
+                
+                    }
+                    YearNumberRow_h5.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]["YearNumber"];
+                    YearNumberRow.appendChild(YearNumberRow_h5);
+                    ShortInformationRow.appendChild(YearNumberRow);
+
+                    // - > - > Page Number
+                    var PageNumberRow = document.createElement("div");
+                    PageNumberRow.id = "text-staff-container-jsut";
+                    PageNumberRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-start align-items-xxl-center";
+                    // - > - > Page Number - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        PageNumberRow.style.paddingLeft = "0px";
+                        PageNumberRow.style.marginTop = "10px";
+                        PageNumberRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > Page Number - > span
+                    var PageNumberRow_span = document.createElement("span");
+                    PageNumberRow_span.id = "tag-name-that-means-what-is-this-property";
+                    PageNumberRow_span.className = "d-flex flex-shrink-0 align-items-start";
+                    PageNumberRow_span.style.fontFamily = "Roboto, sans-serif";
+                    PageNumberRow_span.textContent = boorRecordsShortInformationTags["PageNumberTag"][Language];
+                    PageNumberRow.appendChild(PageNumberRow_span);
+                    // - > - > Page Number - > h5
+                    var PageNumberRow_h5 = document.createElement("h5");
+                    PageNumberRow_h5.id = "Page-number-name-that-should-be-replaced";
+                    PageNumberRow_h5.className = "d-flex align-items-start";
+                    PageNumberRow_h5.style.fontFamily = "'Lilita One', serif";
+                    // - > - > Page Number - > h5 - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    } else {
+
+                        PageNumberRow_h5.style.marginBottom = "0px";
+                
+                    }
+                    PageNumberRow_h5.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]["PagesNumber"];
+                    PageNumberRow.appendChild(PageNumberRow_h5);
+                    ShortInformationRow.appendChild(PageNumberRow);
+
+                    // - > - > Short Description
+                    var ShortDescriptionRow = document.createElement("div");
+                    ShortDescriptionRow.id = "text-staff-container-jsut-short-description-paragraph";
+                    ShortDescriptionRow.className = "container-fluid d-xxl-flex justify-content-start align-items-start align-items-xxl-start";
+                    // - > - > Short Description - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        ShortDescriptionRow.style.paddingLeft = "0px";
+                        ShortDescriptionRow.style.marginTop = "10px";
+                        ShortDescriptionRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > Short Description - > span
+                    var ShortDescriptionRow_span = document.createElement("span");
+                    ShortDescriptionRow_span.id = "tag-name-that-means-what-is-this-property";
+                    ShortDescriptionRow_span.className = "d-flex flex-shrink-0 flex-fill align-items-start";
+                    // - > - > Short Description - > span - > Styling
+                    ShortDescriptionRow_span.style.fontFamily = "Roboto, sans-serif";
+                    if (window.innerWidth >= 1300) {
+
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    } else {
+
+                        ShortDescriptionRow_span.style.width = "auto";
+                
+                    }
+                    ShortDescriptionRow_span.textContent = boorRecordsShortInformationTags["ShortDescriptionTag"][Language];
+                    ShortDescriptionRow.appendChild(ShortDescriptionRow_span);
+                    // - > - > Short Description - > h5
+                    var ShortDescriptionRow_h5 = document.createElement("h5");
+                    ShortDescriptionRow_h5.id = "short-description-text-paragraph-name-that-should-be-replaced";
+                    ShortDescriptionRow_h5.className = "d-flex";
+                    // - > - > Short Description - > h5 - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    } else {
+
+                        ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
+                        ShortDescriptionRow_h5.style.marginBottom = "0px";
+                        ShortDescriptionRow_h5.style.borderStyle = "none";
+                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                
+                    }
+                    var ShortDescriptionRow_h5_strong = document.createElement("strong");
+                    var ShortDescriptionRow_h5_strong_span = document.createElement("span");
+                    ShortDescriptionRow_h5_strong_span.style.color = "rgb(56, 58, 66)";
+                    ShortDescriptionRow_h5_strong_span.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]["shortDescriptionsForPageBookReviewing"][Language];
+                    ShortDescriptionRow_h5_strong.appendChild(ShortDescriptionRow_h5_strong_span);
+                    ShortDescriptionRow_h5.appendChild(ShortDescriptionRow_h5_strong);
+                    ShortDescriptionRow.appendChild(ShortDescriptionRow_h5);
+                    ShortInformationRow.appendChild(ShortDescriptionRow);
+
+                    // - > - > See More Anchor Link
+                    var SeeMoreRow = document.createElement("a");
+                    SeeMoreRow.id = "text-staff-container-jsut";
+                    SeeMoreRow.href = "#end-section-of-page";
+                    // - > - > See More Anchor Link - > styling
+                    if (window.innerWidth >= 1300) {
+
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    } else {
+
+                        SeeMoreRow.style.marginTop = "10px";
+                        SeeMoreRow.style.marginBottom = "auto";
+                
+                    }
+                    // - > - > See More Anchor Link - > Button
+                    var SeeMoreRow_button = document.createElement("button");
+                    SeeMoreRow_button.id = "see-more-button-to-go-to-the-book-details";
+                    SeeMoreRow_button.className = "btn btn-primary";
+                    SeeMoreRow_button.dataset.bsToggle = "tooltip";
+                    SeeMoreRow_button.dataset.bsPlacement = "bottom";
+                    SeeMoreRow_button.type = "button";
+                    // - > - > See More Anchor Link - > Button - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    } else {
+
+                        SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
+                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
+                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.marginLeft = "0px";
+                        SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
+                        SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                
+                    }
+                    SeeMoreRow_button.title = "My Contact Information";
+                    SeeMoreRow_button.dataset.bsTarget = '"end-section-of-page"';
+                    SeeMoreRow_button.textContent = boorRecordsShortInformationTags["SeeMoreRowTag"][Language];
+                    SeeMoreRow.appendChild(SeeMoreRow_button);
+                    ShortInformationRow.appendChild(SeeMoreRow);
+                    rowBook.appendChild(ImageColumn);
+                    rowBook.appendChild(ShortInformationRow);
+
+                } // End Book Row Creator
 
             }
 
