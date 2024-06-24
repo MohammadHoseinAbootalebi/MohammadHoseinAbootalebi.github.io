@@ -20538,78 +20538,91 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else {
 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
                         ShortDescriptionRow.style.marginBottom = "auto";
+                        ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     }
                     // - > - > Short Description - > span
@@ -20672,6 +20685,60 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 
                     }
                     ShortDescriptionRow_span.textContent = boorRecordsShortInformationTags["ShortDescriptionTag"][Language];
+                    // - > - > Short Description Span - > Styling
+                    if (window.innerWidth >= 1300) {
+
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+                
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    } else {
+
+                        ShortDescriptionRow_span.style.marginBottom = "10px";
+                
+                    }
                     ShortDescriptionRow.appendChild(ShortDescriptionRow_span);
                     // - > - > Short Description - > h5
                     var ShortDescriptionRow_h5 = document.createElement("h5");
