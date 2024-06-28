@@ -16617,11 +16617,42 @@ function ResponsiveAdaptive() {
     if (window.innerWidth >= 1300) {
 
         // First View
-        // - > Top Indicator
+        // - > Mouse Scroll Indicator
+        document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "1";
+        document.getElementById('Column-of-mouse-indicator-to-scrolling').style.paddingBottom = "5vw";
+        // - > Top Location Indicator
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "3vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "3vw";
+        // - > Text Staff Column
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.paddingLeft = "-30vw";
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.marginLeft = "0px";
+        // - > Skill Title Indicator
+        document.getElementById('first-view-skill-name-heading-introduction').style.fontSize = "10vw";
+        document.getElementById('first-view-skill-name-heading-introduction').style.width = "45vw";
+        // - > Skill Image
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.width = "30vw";
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.height = "auto";
+        document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
+        // - > Skill Title
+        document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "3vw";
+        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        // - > Skill first Intro short paragraph
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "1.5vw";
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
+        // - > Skill first Intro short paragraph - > Padding
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingLeft = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.marginBottom = "3vw";
+        // - > Row of Image and Skill Title
+        document.getElementById("First-view-title-skill-short-intro-text-staff").style.width = "40%";
+        document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.width = "40%";
+        document.getElementById("First-Row-of-introduction-showingtheSkills").className = "d-xxl-flex justify-content-xxl-center";
 
-
+        // Second View
+        // - > Pagination Row
+        document.getElementById("pagination-section-to-show-other-books").style.paddingBottom = "3vw";
 
         // Contact Section
         // Fourth View
@@ -16632,13 +16663,40 @@ function ResponsiveAdaptive() {
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
         // - > Contact information buttons
         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = (window.innerWidth * 0.03) + 'px';
+            item.style.fontSize = (window.innerWidth * 0.02) + 'px';
             item.style.width = '75vw';
         });
 
     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
 
-
+        // First View
+        // - > Mouse Scroll Indicator
+        document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "1";
+        // - > Top Location Indicator
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "10vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "4vw";
+        // - > Text Staff Column
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.paddingLeft = "-30vw";
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.marginLeft = "0px";
+        // - > Skill Title Indicator
+        document.getElementById('first-view-skill-name-heading-introduction').style.fontSize = "10vw";
+        document.getElementById('first-view-skill-name-heading-introduction').style.width = "90vw";
+        // - > Skill Image
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.width = "30vw";
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.height = "auto";
+        document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
+        // - > Skill Title
+        document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "3vw";
+        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        // - > Skill first Intro short paragraph
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "2vw";
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
+        // - > Skill first Intro short paragraph - > Padding
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingLeft = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.marginBottom = "3vw";
 
         // Contact Section
         // Fourth View
@@ -16655,7 +16713,34 @@ function ResponsiveAdaptive() {
 
     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
 
-
+        // First View
+        // - > Mouse Scroll Indicator
+        document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "1";
+        // - > Top Location Indicator
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "13vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        // - > Text Staff Column
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.paddingLeft = "-30vw";
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.marginLeft = "0px";
+        // - > Skill Title Indicator
+        document.getElementById('first-view-skill-name-heading-introduction').style.fontSize = "10vw";
+        document.getElementById('first-view-skill-name-heading-introduction').style.width = "90vw";
+        // - > Skill Image
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.width = "40vw";
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.height = "auto";
+        document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
+        // - > Skill Title
+        document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "4vw";
+        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        // - > Skill first Intro short paragraph
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
+        // - > Skill first Intro short paragraph - > Padding
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingLeft = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.marginBottom = "3vw";
 
 
         // Contact Section Information
@@ -16673,7 +16758,34 @@ function ResponsiveAdaptive() {
 
     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
 
-
+        // First View
+        // - > Mouse Scroll Indicator
+        document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "1";
+        // - > Top Location Indicator
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "13vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        // - > Text Staff Column
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.paddingLeft = "-30vw";
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.marginLeft = "0px";
+        // - > Skill Title Indicator
+        document.getElementById('first-view-skill-name-heading-introduction').style.fontSize = "10vw";
+        document.getElementById('first-view-skill-name-heading-introduction').style.width = "90vw";
+        // - > Skill Image
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.width = "40vw";
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.height = "auto";
+        document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
+        // - > Skill Title
+        document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "4vw";
+        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        // - > Skill first Intro short paragraph
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
+        // - > Skill first Intro short paragraph - > Padding
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingLeft = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.marginBottom = "3vw";
 
 
         // Contact Information Section
@@ -16691,8 +16803,32 @@ function ResponsiveAdaptive() {
 
     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
 
-
-
+        // First View
+        // - > Mouse Scroll Indicator
+        document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "0";
+        // - > Top Location Indicator
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "15vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
+        // - > Text Staff Column
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.paddingLeft = "-30vw";
+        document.getElementById('First-view-title-skill-short-intro-text-staff').style.marginLeft = "0px";
+        // - > Skill Title Indicator
+        document.getElementById('first-view-skill-name-heading-introduction').style.fontSize = "10vw";
+        document.getElementById('first-view-skill-name-heading-introduction').style.width = "90vw";
+        // - > Skill Image
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.width = "40vw";
+        document.getElementById("first-view-card-image-intro-skill-book-page").style.height = "auto";
+        document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
+        // - > Skill Title
+        document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "4vw";
+        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        // - > Skill first Intro short paragraph
+        document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
+        // - > Skill first Intro short paragraph - > Padding
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingLeft = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
+        document.getElementById("first-view-div-element-for-short-description-just").style.paddingRight = "10vw";
 
         // Contact Information Section
         // Fourth View
@@ -19259,7 +19395,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         rowBook.style.paddingBottom = "5vw";
-                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.paddingTop = "1vw";
                         rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
                         rowBook.style.width = "100%";
                         rowBook.style.marginRight = "0px";
@@ -19268,7 +19404,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         rowBook.style.paddingBottom = "5vw";
-                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.paddingTop = "1vw";
                         rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
                         rowBook.style.width = "100%";
                         rowBook.style.marginRight = "0px";
@@ -19277,7 +19413,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         rowBook.style.paddingBottom = "5vw";
-                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.paddingTop = "1vw";
                         rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
                         rowBook.style.width = "100%";
                         rowBook.style.marginRight = "0px";
@@ -19286,7 +19422,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         rowBook.style.paddingBottom = "5vw";
-                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.paddingTop = "1vw";
                         rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
                         rowBook.style.width = "100%";
                         rowBook.style.marginRight = "0px";
@@ -19295,7 +19431,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         rowBook.style.paddingBottom = "5vw";
-                        rowBook.style.paddingTop = "5vw";
+                        rowBook.style.paddingTop = "1vw";
                         rowBook.style.background = "linear-gradient(rgba(0, 102, 255, 0), #0066ff00)";
                         rowBook.style.width = "100%";
                         rowBook.style.marginRight = "0px";
@@ -19384,23 +19520,34 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // Image Column - > Styling
                     if (window.innerWidth >= 1300) {
 
-                        ImageColumn.style.height = "100vh";
+                        ImageColumn.style.height = "auto";
+                        ImageColumn.style.width = "40vw";
+                        ImageColumn.style.paddingTop = "3vw";
+                        ImageColumn.style.paddingBottom = "5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        ImageColumn.style.height = "100vh";
+                        ImageColumn.style.height = "auto";
+                        ImageColumn.style.paddingTop = "3vw";
+                        ImageColumn.style.paddingBottom = "5vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        ImageColumn.style.height = "100vh";
+                        ImageColumn.style.height = "auto";
+                        ImageColumn.style.paddingTop = "3vw";
+                        ImageColumn.style.paddingBottom = "5vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        ImageColumn.style.height = "100vh";
+                        ImageColumn.style.height = "auto";
+                        ImageColumn.style.paddingTop = "3vw";
+                        ImageColumn.style.paddingBottom = "5vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        ImageColumn.style.height = "100vh";
+                        ImageColumn.style.height = "auto";
+                        ImageColumn.style.paddingTop = "3vw";
+                        ImageColumn.style.paddingBottom = "5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -19454,38 +19601,38 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > Styling
                     if (window.innerWidth >= 1300) {
 
-                        Image_column.style.borderRadius = "30px";
+                        Image_column.style.borderRadius = "40px";
                         Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
                         Image_column.style.height = "auto";
-                        Image_column.style.width = "75vw";
+                        Image_column.style.width = "30vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         Image_column.style.borderRadius = "30px";
                         Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
                         Image_column.style.height = "auto";
-                        Image_column.style.width = "75vw";
+                        Image_column.style.width = "50vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         Image_column.style.borderRadius = "30px";
                         Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
                         Image_column.style.height = "auto";
-                        Image_column.style.width = "75vw";
+                        Image_column.style.width = "50vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         Image_column.style.borderRadius = "30px";
                         Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
                         Image_column.style.height = "auto";
-                        Image_column.style.width = "75vw";
+                        Image_column.style.width = "50vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         Image_column.style.borderRadius = "30px";
                         Image_column.style.boxShadow = "0px 0px 40px 30px rgba(0, 0, 0, 0.15)";
                         Image_column.style.height = "auto";
-                        Image_column.style.width = "75vw";
+                        Image_column.style.width = "50vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -19556,27 +19703,33 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         ShortInformationRow.style.height = "auto";
-                        ShortInformationRow.style.marginLeft = "5vw";
+                        ShortInformationRow.style.width = "40vw";
+                        ShortInformationRow.style.marginLeft = "2vw";
+                        ShortInformationRow.style.marginRight = "2vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         ShortInformationRow.style.height = "auto";
-                        ShortInformationRow.style.marginLeft = "5vw";
+                        ShortInformationRow.style.marginLeft = "10vw";
+                        ShortInformationRow.style.marginRight = "10vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         ShortInformationRow.style.height = "auto";
-                        ShortInformationRow.style.marginLeft = "5vw";
+                        ShortInformationRow.style.marginLeft = "10vw";
+                        ShortInformationRow.style.marginRight = "10vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         ShortInformationRow.style.height = "auto";
-                        ShortInformationRow.style.marginLeft = "5vw";
+                        ShortInformationRow.style.marginLeft = "10vw";
+                        ShortInformationRow.style.marginRight = "10vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         ShortInformationRow.style.height = "auto";
-                        ShortInformationRow.style.marginLeft = "5vw";
+                        ShortInformationRow.style.marginLeft = "10vw";
+                        ShortInformationRow.style.marginRight = "10vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -19632,35 +19785,35 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         BookNameTitle.style.fontFamily = "'Lilita One', serif";
                         BookNameTitle.style.color = "rgb(252, 163, 17)";
-                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.fontSize = "2vw";
                         BookNameTitle.style.marginTop = "20px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         BookNameTitle.style.fontFamily = "'Lilita One', serif";
                         BookNameTitle.style.color = "rgb(252, 163, 17)";
-                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.fontSize = "4vw";
                         BookNameTitle.style.marginTop = "20px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         BookNameTitle.style.fontFamily = "'Lilita One', serif";
                         BookNameTitle.style.color = "rgb(252, 163, 17)";
-                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.fontSize = "4vw";
                         BookNameTitle.style.marginTop = "20px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         BookNameTitle.style.fontFamily = "'Lilita One', serif";
                         BookNameTitle.style.color = "rgb(252, 163, 17)";
-                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.fontSize = "4vw";
                         BookNameTitle.style.marginTop = "20px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         BookNameTitle.style.fontFamily = "'Lilita One', serif";
                         BookNameTitle.style.color = "rgb(252, 163, 17)";
-                        BookNameTitle.style.fontSize = "auto";
+                        BookNameTitle.style.fontSize = "4vw";
                         BookNameTitle.style.marginTop = "20px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
@@ -19732,31 +19885,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         AuthorNameRow.style.paddingLeft = "0px";
                         AuthorNameRow.style.marginTop = "10px";
-                        AuthorNameRow.style.marginBottom = "auto";
+                        AuthorNameRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         AuthorNameRow.style.paddingLeft = "0px";
                         AuthorNameRow.style.marginTop = "10px";
-                        AuthorNameRow.style.marginBottom = "auto";
+                        AuthorNameRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         AuthorNameRow.style.paddingLeft = "0px";
                         AuthorNameRow.style.marginTop = "10px";
-                        AuthorNameRow.style.marginBottom = "auto";
+                        AuthorNameRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         AuthorNameRow.style.paddingLeft = "0px";
                         AuthorNameRow.style.marginTop = "10px";
-                        AuthorNameRow.style.marginBottom = "auto";
+                        AuthorNameRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         AuthorNameRow.style.paddingLeft = "0px";
                         AuthorNameRow.style.marginTop = "10px";
-                        AuthorNameRow.style.marginBottom = "auto";
+                        AuthorNameRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -19815,23 +19968,23 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > - > Author Tag Row - > Span - > Styling
                     if (window.innerWidth >= 1300) {
 
-                        AuthorNameTagSpan.style.fontSize = "6vw";
+                        AuthorNameTagSpan.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        AuthorNameTagSpan.style.fontSize = "6vw";
+                        AuthorNameTagSpan.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        AuthorNameTagSpan.style.fontSize = "6vw";
+                        AuthorNameTagSpan.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        AuthorNameTagSpan.style.fontSize = "6vw";
+                        AuthorNameTagSpan.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        AuthorNameTagSpan.style.fontSize = "6vw";
+                        AuthorNameTagSpan.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -19882,22 +20035,27 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         AuthorNameTagH5.style.marginBottom = "0px";
+                        AuthorNameTagH5.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         AuthorNameTagH5.style.marginBottom = "0px";
+                        AuthorNameTagH5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         AuthorNameTagH5.style.marginBottom = "0px";
+                        AuthorNameTagH5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         AuthorNameTagH5.style.marginBottom = "0px";
+                        AuthorNameTagH5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         AuthorNameTagH5.style.marginBottom = "0px";
+                        AuthorNameTagH5.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -19952,31 +20110,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         EditionNumberRow.style.paddingLeft = "0px";
                         EditionNumberRow.style.marginTop = "10px";
-                        EditionNumberRow.style.marginBottom = "auto";
+                        EditionNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         EditionNumberRow.style.paddingLeft = "0px";
                         EditionNumberRow.style.marginTop = "10px";
-                        EditionNumberRow.style.marginBottom = "auto";
+                        EditionNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         EditionNumberRow.style.paddingLeft = "0px";
                         EditionNumberRow.style.marginTop = "10px";
-                        EditionNumberRow.style.marginBottom = "auto";
+                        EditionNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         EditionNumberRow.style.paddingLeft = "0px";
                         EditionNumberRow.style.marginTop = "10px";
-                        EditionNumberRow.style.marginBottom = "auto";
+                        EditionNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         EditionNumberRow.style.paddingLeft = "0px";
                         EditionNumberRow.style.marginTop = "10px";
-                        EditionNumberRow.style.marginBottom = "auto";
+                        EditionNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20035,23 +20193,23 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > - > Edition Number Span - > Styling
                     if (window.innerWidth >= 1300) {
 
-                        EditionNumberRowSpan.style.fontSize = "6vw";
+                        EditionNumberRowSpan.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        EditionNumberRowSpan.style.fontSize = "6vw";
+                        EditionNumberRowSpan.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        EditionNumberRowSpan.style.fontSize = "6vw";
+                        EditionNumberRowSpan.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        EditionNumberRowSpan.style.fontSize = "6vw";
+                        EditionNumberRowSpan.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        EditionNumberRowSpan.style.fontSize = "6vw";
+                        EditionNumberRowSpan.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20098,22 +20256,27 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         EditionNumberRowH5.style.marginBottom = "0px";
+                        EditionNumberRowH5.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         EditionNumberRowH5.style.marginBottom = "0px";
+                        EditionNumberRowH5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         EditionNumberRowH5.style.marginBottom = "0px";
+                        EditionNumberRowH5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         EditionNumberRowH5.style.marginBottom = "0px";
+                        EditionNumberRowH5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         EditionNumberRowH5.style.marginBottom = "0px";
+                        EditionNumberRowH5.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20168,31 +20331,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         PublisherRow.style.paddingLeft = "0px";
                         PublisherRow.style.marginTop = "10px";
-                        PublisherRow.style.marginBottom = "auto";
+                        PublisherRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         PublisherRow.style.paddingLeft = "0px";
                         PublisherRow.style.marginTop = "10px";
-                        PublisherRow.style.marginBottom = "auto";
+                        PublisherRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         PublisherRow.style.paddingLeft = "0px";
                         PublisherRow.style.marginTop = "10px";
-                        PublisherRow.style.marginBottom = "auto";
+                        PublisherRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         PublisherRow.style.paddingLeft = "0px";
                         PublisherRow.style.marginTop = "10px";
-                        PublisherRow.style.marginBottom = "auto";
+                        PublisherRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         PublisherRow.style.paddingLeft = "0px";
                         PublisherRow.style.marginTop = "10px";
-                        PublisherRow.style.marginBottom = "auto";
+                        PublisherRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20251,23 +20414,23 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > - > Publisher - > Span - > styling
                     if (window.innerWidth >= 1300) {
 
-                        PublisherRow_Span.style.fontSize = "6vw";
+                        PublisherRow_Span.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        PublisherRow_Span.style.fontSize = "6vw";
+                        PublisherRow_Span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        PublisherRow_Span.style.fontSize = "6vw";
+                        PublisherRow_Span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        PublisherRow_Span.style.fontSize = "6vw";
+                        PublisherRow_Span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        PublisherRow_Span.style.fontSize = "6vw";
+                        PublisherRow_Span.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20314,22 +20477,27 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         PublisherRow_h5.style.marginBottom = "0px";
+                        PublisherRow_h5.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         PublisherRow_h5.style.marginBottom = "0px";
+                        PublisherRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         PublisherRow_h5.style.marginBottom = "0px";
+                        PublisherRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         PublisherRow_h5.style.marginBottom = "0px";
+                        PublisherRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         PublisherRow_h5.style.marginBottom = "0px";
+                        PublisherRow_h5.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20384,31 +20552,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         ISBNRow.style.paddingLeft = "0px";
                         ISBNRow.style.marginTop = "10px";
-                        ISBNRow.style.marginBottom = "auto";
+                        ISBNRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         ISBNRow.style.paddingLeft = "0px";
                         ISBNRow.style.marginTop = "10px";
-                        ISBNRow.style.marginBottom = "auto";
+                        ISBNRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         ISBNRow.style.paddingLeft = "0px";
                         ISBNRow.style.marginTop = "10px";
-                        ISBNRow.style.marginBottom = "auto";
+                        ISBNRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         ISBNRow.style.paddingLeft = "0px";
                         ISBNRow.style.marginTop = "10px";
-                        ISBNRow.style.marginBottom = "auto";
+                        ISBNRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         ISBNRow.style.paddingLeft = "0px";
                         ISBNRow.style.marginTop = "10px";
-                        ISBNRow.style.marginBottom = "auto";
+                        ISBNRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20467,23 +20635,23 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > - > ISBN - > span - > Styling
                     if (window.innerWidth >= 1300) {
 
-                        ISBNRow_span.style.fontSize = "6vw";
+                        ISBNRow_span.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        ISBNRow_span.style.fontSize = "6vw";
+                        ISBNRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        ISBNRow_span.style.fontSize = "6vw";
+                        ISBNRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        ISBNRow_span.style.fontSize = "6vw";
+                        ISBNRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        ISBNRow_span.style.fontSize = "6vw";
+                        ISBNRow_span.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20530,22 +20698,27 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         ISBNRow_h5.style.marginBottom = "0px";
+                        ISBNRow_h5.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         ISBNRow_h5.style.marginBottom = "0px";
+                        ISBNRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         ISBNRow_h5.style.marginBottom = "0px";
+                        ISBNRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         ISBNRow_h5.style.marginBottom = "0px";
+                        ISBNRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         ISBNRow_h5.style.marginBottom = "0px";
+                        ISBNRow_h5.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20600,31 +20773,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         YearNumberRow.style.paddingLeft = "0px";
                         YearNumberRow.style.marginTop = "10px";
-                        YearNumberRow.style.marginBottom = "auto";
+                        YearNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         YearNumberRow.style.paddingLeft = "0px";
                         YearNumberRow.style.marginTop = "10px";
-                        YearNumberRow.style.marginBottom = "auto";
+                        YearNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         YearNumberRow.style.paddingLeft = "0px";
                         YearNumberRow.style.marginTop = "10px";
-                        YearNumberRow.style.marginBottom = "auto";
+                        YearNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         YearNumberRow.style.paddingLeft = "0px";
                         YearNumberRow.style.marginTop = "10px";
-                        YearNumberRow.style.marginBottom = "auto";
+                        YearNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         YearNumberRow.style.paddingLeft = "0px";
                         YearNumberRow.style.marginTop = "10px";
-                        YearNumberRow.style.marginBottom = "auto";
+                        YearNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20683,23 +20856,23 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > - > Year - > span - > styling
                     if (window.innerWidth >= 1300) {
 
-                        YearNumberRow_span.style.fontSize = "6vw";
+                        YearNumberRow_span.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        YearNumberRow_span.style.fontSize = "6vw";
+                        YearNumberRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        YearNumberRow_span.style.fontSize = "6vw";
+                        YearNumberRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        YearNumberRow_span.style.fontSize = "6vw";
+                        YearNumberRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        YearNumberRow_span.style.fontSize = "6vw";
+                        YearNumberRow_span.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20746,22 +20919,27 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         YearNumberRow_h5.style.marginBottom = "0px";
+                        YearNumberRow_h5.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         YearNumberRow_h5.style.marginBottom = "0px";
+                        YearNumberRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         YearNumberRow_h5.style.marginBottom = "0px";
+                        YearNumberRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         YearNumberRow_h5.style.marginBottom = "0px";
+                        YearNumberRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         YearNumberRow_h5.style.marginBottom = "0px";
+                        YearNumberRow_h5.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20816,31 +20994,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         PageNumberRow.style.paddingLeft = "0px";
                         PageNumberRow.style.marginTop = "10px";
-                        PageNumberRow.style.marginBottom = "auto";
+                        PageNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         PageNumberRow.style.paddingLeft = "0px";
                         PageNumberRow.style.marginTop = "10px";
-                        PageNumberRow.style.marginBottom = "auto";
+                        PageNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         PageNumberRow.style.paddingLeft = "0px";
                         PageNumberRow.style.marginTop = "10px";
-                        PageNumberRow.style.marginBottom = "auto";
+                        PageNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         PageNumberRow.style.paddingLeft = "0px";
                         PageNumberRow.style.marginTop = "10px";
-                        PageNumberRow.style.marginBottom = "auto";
+                        PageNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         PageNumberRow.style.paddingLeft = "0px";
                         PageNumberRow.style.marginTop = "10px";
-                        PageNumberRow.style.marginBottom = "auto";
+                        PageNumberRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20899,23 +21077,23 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     // - > - > Page Number - > span - > Styling
                     if (window.innerWidth >= 1300) {
 
-                        PageNumberRow_span.style.fontSize = "6vw";
+                        PageNumberRow_span.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
-                        PageNumberRow_span.style.fontSize = "6vw";
+                        PageNumberRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
-                        PageNumberRow_span.style.fontSize = "6vw";
+                        PageNumberRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
-                        PageNumberRow_span.style.fontSize = "6vw";
+                        PageNumberRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
-                        PageNumberRow_span.style.fontSize = "6vw";
+                        PageNumberRow_span.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -20962,22 +21140,27 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         PageNumberRow_h5.style.marginBottom = "0px";
+                        PageNumberRow_h5.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         PageNumberRow_h5.style.marginBottom = "0px";
+                        PageNumberRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         PageNumberRow_h5.style.marginBottom = "0px";
+                        PageNumberRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         PageNumberRow_h5.style.marginBottom = "0px";
+                        PageNumberRow_h5.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         PageNumberRow_h5.style.marginBottom = "0px";
+                        PageNumberRow_h5.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -21032,35 +21215,30 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
-                        ShortDescriptionRow.style.marginBottom = "auto";
                         ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
-                        ShortDescriptionRow.style.marginBottom = "auto";
                         ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
-                        ShortDescriptionRow.style.marginBottom = "auto";
                         ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
-                        ShortDescriptionRow.style.marginBottom = "auto";
                         ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         ShortDescriptionRow.style.paddingLeft = "0px";
                         ShortDescriptionRow.style.marginTop = "10px";
-                        ShortDescriptionRow.style.marginBottom = "auto";
                         ShortDescriptionRow.style.paddingBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
@@ -21126,26 +21304,31 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
 
                         ShortDescriptionRow_span.style.width = "auto";
                         ShortDescriptionRow_span.style.marginBottom = "10px";
+                        ShortDescriptionRow_span.style.fontSize = "1.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         ShortDescriptionRow_span.style.width = "auto";
                         ShortDescriptionRow_span.style.marginBottom = "10px";
+                        ShortDescriptionRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         ShortDescriptionRow_span.style.width = "auto";
                         ShortDescriptionRow_span.style.marginBottom = "10px";
+                        ShortDescriptionRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         ShortDescriptionRow_span.style.width = "auto";
                         ShortDescriptionRow_span.style.marginBottom = "10px";
+                        ShortDescriptionRow_span.style.fontSize = "3vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         ShortDescriptionRow_span.style.width = "auto";
                         ShortDescriptionRow_span.style.marginBottom = "10px";
+                        ShortDescriptionRow_span.style.fontSize = "3.5vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -21207,35 +21390,40 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                         ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                        ShortDescriptionRow_h5.style.fontSize = "1.5vw";
+                        ShortDescriptionRow_h5.style.lineHeight = "45px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                        ShortDescriptionRow_h5.style.fontSize = "3vw";
+                        ShortDescriptionRow_h5.style.lineHeight = "50px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                        ShortDescriptionRow_h5.style.fontSize = "3vw";
+                        ShortDescriptionRow_h5.style.lineHeight = "45px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                        ShortDescriptionRow_h5.style.fontSize = "3vw";
+                        ShortDescriptionRow_h5.style.lineHeight = "45px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         ShortDescriptionRow_h5.style.fontFamily = "Roboto, sans-serif";
                         ShortDescriptionRow_h5.style.marginBottom = "0px";
                         ShortDescriptionRow_h5.style.borderStyle = "none";
-                        ShortDescriptionRow_h5.style.fontSize = "5vw";
+                        ShortDescriptionRow_h5.style.fontSize = "3vw";
+                        ShortDescriptionRow_h5.style.lineHeight = "40px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -21318,27 +21506,27 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         SeeMoreRow.style.marginTop = "10px";
-                        SeeMoreRow.style.marginBottom = "auto";
+                        SeeMoreRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         SeeMoreRow.style.marginTop = "10px";
-                        SeeMoreRow.style.marginBottom = "auto";
+                        SeeMoreRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         SeeMoreRow.style.marginTop = "10px";
-                        SeeMoreRow.style.marginBottom = "auto";
+                        SeeMoreRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         SeeMoreRow.style.marginTop = "10px";
-                        SeeMoreRow.style.marginBottom = "auto";
+                        SeeMoreRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         SeeMoreRow.style.marginTop = "10px";
-                        SeeMoreRow.style.marginBottom = "auto";
+                        SeeMoreRow.style.marginBottom = "10px";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
@@ -21392,52 +21580,72 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                     if (window.innerWidth >= 1300) {
 
                         SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
-                        SeeMoreRow_button.style.borderRadius = "10px";
+                        SeeMoreRow_button.style.borderRadius = "14px";
                         SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
-                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.fontSize = "1.5vw";
                         SeeMoreRow_button.style.marginLeft = "0px";
                         SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
                         SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                        SeeMoreRow_button.style.paddingLeft = "2vw";
+                        SeeMoreRow_button.style.paddingRight = "2vw";
+                        SeeMoreRow_button.style.paddingTop = "0.5vw";
+                        SeeMoreRow_button.style.paddingBottom = "0.5vw";
                 
                     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
                 
                         SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
                         SeeMoreRow_button.style.borderRadius = "10px";
                         SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
-                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.fontSize = "2vw";
                         SeeMoreRow_button.style.marginLeft = "0px";
                         SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
                         SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                        SeeMoreRow_button.style.paddingLeft = "3vw";
+                        SeeMoreRow_button.style.paddingRight = "3vw";
+                        SeeMoreRow_button.style.paddingTop = "1vw";
+                        SeeMoreRow_button.style.paddingBottom = "1vw";
                 
                     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
                 
                         SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
                         SeeMoreRow_button.style.borderRadius = "10px";
                         SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
-                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.fontSize = "2vw";
                         SeeMoreRow_button.style.marginLeft = "0px";
                         SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
                         SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                        SeeMoreRow_button.style.paddingLeft = "3vw";
+                        SeeMoreRow_button.style.paddingRight = "3vw";
+                        SeeMoreRow_button.style.paddingTop = "1vw";
+                        SeeMoreRow_button.style.paddingBottom = "1vw";
                 
                     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
                 
                         SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
                         SeeMoreRow_button.style.borderRadius = "10px";
                         SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
-                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.fontSize = "2vw";
                         SeeMoreRow_button.style.marginLeft = "0px";
                         SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
                         SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                        SeeMoreRow_button.style.paddingLeft = "3vw";
+                        SeeMoreRow_button.style.paddingRight = "3vw";
+                        SeeMoreRow_button.style.paddingTop = "1vw";
+                        SeeMoreRow_button.style.paddingBottom = "1vw";
                 
                     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
                 
                         SeeMoreRow_button.style.background = "rgb(252, 163, 17)";
                         SeeMoreRow_button.style.borderRadius = "10px";
                         SeeMoreRow_button.style.fontFamily = "'Lilita One', serif";
-                        SeeMoreRow_button.style.fontSize = "14px";
+                        SeeMoreRow_button.style.fontSize = "2vw";
                         SeeMoreRow_button.style.marginLeft = "0px";
                         SeeMoreRow_button.style.borderColor = "rgba(255, 255, 255, 0)";
                         SeeMoreRow_button.style.color = "rgb(0, 0, 0)";
+                        SeeMoreRow_button.style.paddingLeft = "3vw";
+                        SeeMoreRow_button.style.paddingRight = "3vw";
+                        SeeMoreRow_button.style.paddingTop = "1vw";
+                        SeeMoreRow_button.style.paddingBottom = "1vw";
                 
                     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
                 
