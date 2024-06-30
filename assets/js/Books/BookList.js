@@ -16607,6 +16607,107 @@ var BooksReadForEachSkillStaticContainer = {
     ],
 };
 
+// Documentation
+// This variable will be used for translation fonts
+var longTextParagraphsIntros = {
+    // English
+    'English': {
+        'fontFamily': "'Roboto Condensed', sans-serif",
+    },
+    // German
+    'Deutsch': {
+        'fontFamily': "'Roboto Condensed', sans-serif",
+    },
+    // Chinese
+    '中国人': {
+        'fontFamily': "'Ma Shan Zheng', serif",
+    },
+    // Russian
+    'Русский': {
+        'fontFamily': "'Roboto Condensed', sans-serif",
+    },
+    // French
+    'Français': {
+        'fontFamily': "'Roboto Condensed', sans-serif",
+    },
+    // Japanese
+    '日本語': {
+        'fontFamily': "'Hina Mincho', serif",
+    },
+    // Korean
+    '한국인': {
+        'fontFamily': "'Gowun Batang', serif",
+    },
+    // Spanish
+    'Español': {
+        'fontFamily': "'Roboto Condensed', sans-serif",
+    },
+    // Hindi
+    'हिंदी': {
+        'fontFamily': "'Roboto Condensed', sans-serif",
+    },
+    // Portuguese
+    'Português': {
+        'fontFamily': "'Roboto Condensed', sans-serif",
+    },
+    // Bengali
+    'বাংলা': {
+        'fontFamily': "'Noto Serif Bengali', serif",
+    },
+    // Arabic
+    'عَرَبِيّ': {
+        'fontFamily': "Amiri, serif",
+    },
+    // Persian
+    'فارسی': {
+        'fontFamily': "'B Nazanin'",
+    },
+};
+
+// Documentation
+// This variable will be used for h1 font styles
+var downloadMyResumeTranslations = {
+    'English': {
+        'fontFamily': "'Lilita One', serif",
+    },
+    'Deutsch': {
+        'fontFamily': "'Lilita One', serif",
+    },
+    '中国人': {
+        'fontFamily': "'Ma Shan Zheng', serif",
+    },
+    'Русский': {
+        'fontFamily': "'Lilita One', serif",
+    },
+    'Français': {
+        'fontFamily': "'Lilita One', serif",
+    },
+    '日本語': {
+        'fontFamily': "'Dela Gothic One', serif",
+    },
+    '한국인': {
+        'fontFamily': "'Black Han Sans'",
+    },
+    'Español': {
+        'fontFamily': "'Lilita One', serif",
+    },
+    'हिंदी': {
+        'fontFamily': "'Lilita One', serif",
+    },
+    'Português': {
+        'fontFamily': "'Lilita One', serif",
+    },
+    'বাংলা': {
+        'fontFamily': "'Galada', serif",
+    },
+    'عَرَبِيّ': {
+        'fontFamily': "'Lalezar', serif",
+    },
+    'فارسی': {
+        'fontFamily': "'Lalezar', serif",
+    },
+};
+
 // --------------------- ↑ Static Informations for Individual Skills Page ↑ ---------------------
 
 // ---------------------------------------- ↓ Functions ↓ ----------------------------------------
@@ -16636,7 +16737,13 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "3vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "15vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
+        
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "1.5vw";
         document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
@@ -16688,7 +16795,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "3vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "2vw";
         document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
@@ -16732,7 +16844,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "4vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
         document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
@@ -16777,7 +16894,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "4vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3.5vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
         document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
@@ -16822,7 +16944,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "4vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
         // - > Skill first Intro short paragraph - > Padding
@@ -16864,7 +16991,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "4vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
         // - > Skill first Intro short paragraph - > Padding
@@ -16926,7 +17058,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "5vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
         // - > Skill first Intro short paragraph - > Padding
@@ -16988,7 +17125,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "5vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "3vw";
         // - > Skill first Intro short paragraph - > Padding
@@ -17052,7 +17194,12 @@ function ResponsiveAdaptive() {
         document.getElementById("column-of-image-first-view-container-of-skill-card-image").style.paddingBottom = "3vw";
         // - > Skill Title
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "7vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "3vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
+        }
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "4vw";
         // - > Skill first Intro short paragraph - > Padding
@@ -17121,7 +17268,12 @@ function ResponsiveAdaptive() {
         document.getElementById('first-view-div-element-for-short-description-just').style.marginRight = "5vw";
         // Skill Introduction First View
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "7vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "5vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "5vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "5vw";
+        }
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "5vw";
         document.getElementById("first-view-div-element-for-short-description-just").style.marginLeft = "10vw";
         document.getElementById("first-view-div-element-for-short-description-just").style.marginRight = "10vw";
@@ -17185,7 +17337,12 @@ function ResponsiveAdaptive() {
         document.getElementById('first-view-div-element-for-short-description-just').style.marginRight = "5vw";
         // Skill Introduction First View
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "8vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "5vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "5vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "5vw";
+        }
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "6vw";
         document.getElementById("first-view-div-element-for-short-description-just").style.marginLeft = "10vw";
         document.getElementById("first-view-div-element-for-short-description-just").style.marginRight = "10vw";
@@ -17243,7 +17400,12 @@ function ResponsiveAdaptive() {
         document.getElementById('Column-of-mouse-indicator-to-scrolling').style.opacity = "0";
         // Skill Introduction First View
         document.getElementById("first-view-skill-name-heading-introduction").style.fontSize = "8vw";
-        document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "5vw";
+        if ((neededProperties.Currrent_Language_Selected == "فارسی") || (neededProperties.Currrent_Language_Selected == "عَرَبِيّ")) {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "0vw";
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingRight = "5vw";
+        } else {
+            document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "5vw";
+        }
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "6vw";
         document.getElementById("first-view-div-element-for-short-description-just").style.marginLeft = "5vw";
         document.getElementById("first-view-div-element-for-short-description-just").style.marginRight = "5vw";
@@ -17766,6 +17928,11 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         // - > - > Author Tag Row
         var AuthorNameRow = document.createElement("div");
+        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+            AuthorNameRow.dir = "rtl";
+        } else {
+            AuthorNameRow.dir = "ltr";
+        }
         AuthorNameRow.id = "text-staff-container-jsut-AuthorRowTag";
         AuthorNameRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-center align-items-xxl-center";
         // - > - > Author Tag Row - > Styling
@@ -17913,6 +18080,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
         } else {
             AuthorNameTagSpan.textContent = boorRecordsShortInformationTags["AuthorTagName"][Language]["Male"];
         }
+        AuthorNameTagSpan.style.fontFamily = longTextParagraphsIntros[Language]["fontFamily"];
         AuthorNameRow.appendChild(AuthorNameTagSpan);
         // - > - > Author Tag Row - > h5
         var AuthorNameTagH5 = document.createElement("h5");
@@ -17991,6 +18159,11 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         // - > - > Edition Number
         var EditionNumberRow = document.createElement("div");
+        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+            EditionNumberRow.dir = "rtl";
+        } else {
+            EditionNumberRow.dir = "ltr";
+        }
         EditionNumberRow.id = "text-staff-container-jsut-EditionRowTag";
         EditionNumberRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-center align-items-xxl-center";
         // - > - > Edition Number - > Styling
@@ -18133,6 +18306,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         }
         EditionNumberRowSpan.textContent = boorRecordsShortInformationTags["EditionNumberTag"][Language];
+        EditionNumberRowSpan.style.fontFamily = longTextParagraphsIntros[Language]["fontFamily"];
         EditionNumberRow.appendChild(EditionNumberRowSpan);
 
         // - > - > Edition Number h5
@@ -18212,6 +18386,11 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         // - > - > Publisher Row
         var PublisherRow = document.createElement("div");
+        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+            PublisherRow.dir = "rtl";
+        } else {
+            PublisherRow.dir = "ltr";
+        }
         PublisherRow.id = "text-staff-container-jsut";
         PublisherRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-center align-items-xxl-center";
         // - > - > Publisher Row - > Styling
@@ -18354,6 +18533,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         }
         PublisherRow_Span.textContent = boorRecordsShortInformationTags["PublisherNameTag"][Language];
+        PublisherRow_Span.style.fontFamily = longTextParagraphsIntros[Language]["fontFamily"];
         PublisherRow.appendChild(PublisherRow_Span);
 
         // - > - > Publisher - > h5
@@ -18433,6 +18613,11 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         // - > - > ISBN
         var ISBNRow = document.createElement("div");
+        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+            ISBNRow.dir = "rtl";
+        } else {
+            ISBNRow.dir = "ltr";
+        }
         ISBNRow.id = "text-staff-container-jsut";
         ISBNRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-center align-items-xxl-center";
         // - > - > ISBN - > Styling
@@ -18654,6 +18839,11 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         // - > - > Year
         var YearNumberRow = document.createElement("div");
+        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+            YearNumberRow.dir = "rtl";
+        } else {
+            YearNumberRow.dir = "ltr";
+        }
         YearNumberRow.id = "text-staff-container-jsut";
         YearNumberRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-center align-items-xxl-center";
         // - > - > Year - > Styling
@@ -18797,6 +18987,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
         }
 
         YearNumberRow_span.textContent = boorRecordsShortInformationTags["YearNumberTag"][Language];
+        YearNumberRow_span.style.fontFamily = longTextParagraphsIntros[Language]["fontFamily"];
         YearNumberRow.appendChild(YearNumberRow_span);
         // - > - > Year - > h5
         var YearNumberRow_h5 = document.createElement("h5");
@@ -18875,6 +19066,11 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         // - > - > Page Number
         var PageNumberRow = document.createElement("div");
+        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+            PageNumberRow.dir = "rtl";
+        } else {
+            PageNumberRow.dir = "ltr";
+        }
         PageNumberRow.id = "text-staff-container-jsut";
         PageNumberRow.className = "container-fluid d-inline-flex d-xxl-flex align-items-center align-items-xxl-center";
         // - > - > Page Number - > Styling
@@ -19018,6 +19214,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
         }
 
         PageNumberRow_span.textContent = boorRecordsShortInformationTags["PageNumberTag"][Language];
+        PageNumberRow_span.style.fontFamily = longTextParagraphsIntros[Language]["fontFamily"];
         PageNumberRow.appendChild(PageNumberRow_span);
         // - > - > Page Number - > h5
         var PageNumberRow_h5 = document.createElement("h5");
@@ -19096,6 +19293,11 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         // - > - > Short Description
         var ShortDescriptionRow = document.createElement("div");
+        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+            ShortDescriptionRow.dir = "rtl";
+        } else {
+            ShortDescriptionRow.dir = "ltr";
+        }
         ShortDescriptionRow.id = "text-staff-container-jsut-short-description-paragraph";
         ShortDescriptionRow.className = "container-fluid d-xxl-flex justify-content-start align-items-start align-items-xxl-start";
         // - > - > Short Description - > Styling
@@ -19267,6 +19469,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
 
         }
         ShortDescriptionRow_span.textContent = boorRecordsShortInformationTags["ShortDescriptionTag"][Language];
+        ShortDescriptionRow_span.style.fontFamily = longTextParagraphsIntros[Language]["fontFamily"];
         ShortDescriptionRow.appendChild(ShortDescriptionRow_span);
         // - > - > Short Description - > h5
         var ShortDescriptionRow_h5 = document.createElement("h5");
@@ -19381,6 +19584,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
         var ShortDescriptionRow_h5_strong_span = document.createElement("span");
         ShortDescriptionRow_h5_strong_span.style.color = "rgb(56, 58, 66)";
         ShortDescriptionRow_h5_strong_span.textContent = BooksReadForEachSkillStaticContainer[SkillName][index]["shortDescriptionsForPageBookReviewing"][Language];
+        ShortDescriptionRow_h5_strong_span.style.fontFamily = longTextParagraphsIntros[Language]["fontFamily"];
         ShortDescriptionRow_h5_strong.appendChild(ShortDescriptionRow_h5_strong_span);
         ShortDescriptionRow_h5.appendChild(ShortDescriptionRow_h5_strong);
         ShortDescriptionRow.appendChild(ShortDescriptionRow_h5);
@@ -19639,6 +19843,7 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
         SeeMoreRow_button.title = "My Contact Information";
         SeeMoreRow_button.dataset.bsTarget = '"end-section-of-page"';
         SeeMoreRow_button.textContent = boorRecordsShortInformationTags["SeeMoreRowTag"][Language];
+        SeeMoreRow_button.style.fontFamily = downloadMyResumeTranslations[Language]["fontFamily"];
         SeeMoreRow.appendChild(SeeMoreRow_button);
         ShortInformationRow.appendChild(SeeMoreRow);
         rowBook.appendChild(ImageColumn);
@@ -20129,6 +20334,8 @@ var neededProperties = {
         while (PaginationRowDiv.firstChild) {
             PaginationRowDiv.removeChild(PaginationRowDiv.lastChild);
         }
+
+        ResponsiveAdaptive();
     },
 
     // ---------------------------------------- ↑ Language Set and Get ↑ ----------------------------------------
