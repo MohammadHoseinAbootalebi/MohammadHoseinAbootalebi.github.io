@@ -19883,13 +19883,14 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 // Add Previous Button
                 var parent = document.getElementById('pagination-section-to-show-other-books');
                 var PreviousButton = document.createElement('a');
-                PreviousButton.className = "pagination-item disabled";
+                PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
                 PreviousButton.href = "#";
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
                 SVGIconPreviousButton.className = "bi bi-caret-left-fill";
+                SVGIconPreviousButton.setAttribute("color", "white");
                 SVGIconPreviousButton.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 SVGIconPreviousButton.setAttribute("width", "1em");
                 SVGIconPreviousButton.setAttribute("height", "1em");
@@ -19903,6 +19904,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var SpanPreviousButton = document.createElement('span');
                 SpanPreviousButton.style.fontFamily = "'Lilita One', serif";
                 SpanPreviousButton.textContent = "Previous";
+                SpanPreviousButton.style.color = "white";
                 PreviousButton.appendChild(SpanPreviousButton);
                 parent.appendChild(PreviousButton);
 
@@ -19935,28 +19937,24 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 // Next Button
                 var parent = document.getElementById('pagination-section-to-show-other-books');
                 var nextAnchorLink = document.createElement('a');
+                nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
                 nextAnchorLink.href = "#";
-                nextAnchorLink.style.background = "linear-gradient(#fca311 0%, #fca311)";
+                nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
-                SpanNextText.style.color = "rgb(0, 0, 0)";
+                SpanNextText.style.color = "white";
                 SpanNextText.textContent = "Next";
                 nextAnchorLink.appendChild(SpanNextText);
                 var svgIconNextButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 svgIconNextButton.className = "bi bi-caret-right-fill";
                 svgIconNextButton.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-                // svgIconNextButton.style.xmlns = "http://www.w3.org/2000/svg";
+                svgIconNextButton.setAttribute("color", "white");
                 svgIconNextButton.setAttribute("width", "1em");
-                // svgIconNextButton.width = "1em";
                 svgIconNextButton.setAttribute("height", "1em");
-                // svgIconNextButton.height = "1em";
                 svgIconNextButton.setAttribute("fill", "currentColor");
-                // svgIconNextButton.fill = "currentColor";
                 svgIconNextButton.setAttribute("viewBox", "0 0 16 16");
-                // svgIconNextButton.viewBox = "0 0 16 16";
-                svgIconNextButton.setAttribute("style", "font-size: 25px; color: rgb(0, 0, 0)");
-                // svgIconNextButton.style = "font-size: 25px; color: rgb(0, 0, 0)";
+                svgIconNextButton.setAttribute("style", "font-size: 25px;");
                 var pathOfSVGNextButton = document.createElementNS("http://www.w3.org/2000/svg", 'path');
                 pathOfSVGNextButton.setAttribute("d", "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z");
                 // pathOfSVGNextButton.style.d = "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z";
@@ -19969,13 +19967,14 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 // Add Previous Button
                 var parent = document.getElementById('pagination-section-to-show-other-books');
                 var PreviousButton = document.createElement('a');
-                PreviousButton.className = "pagination-item disabled";
+                PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
                 PreviousButton.href = "#";
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
                 SVGIconPreviousButton.className = "bi bi-caret-left-fill";
+                SVGIconPreviousButton.setAttribute("color", "white");
                 SVGIconPreviousButton.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 SVGIconPreviousButton.setAttribute("width", "1em");
                 SVGIconPreviousButton.setAttribute("height", "1em");
@@ -19989,6 +19988,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var SpanPreviousButton = document.createElement('span');
                 SpanPreviousButton.style.fontFamily = "'Lilita One', serif";
                 SpanPreviousButton.textContent = "Previous";
+                SpanPreviousButton.style.color = "white";
                 PreviousButton.appendChild(SpanPreviousButton);
                 parent.appendChild(PreviousButton);
 
@@ -20034,31 +20034,26 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 // Next Button
                 var parent = document.getElementById('pagination-section-to-show-other-books');
                 var nextAnchorLink = document.createElement('a');
+                nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
                 nextAnchorLink.href = "#";
-                nextAnchorLink.style.background = "linear-gradient(#fca311 0%, #fca311)";
+                nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
-                SpanNextText.style.color = "rgb(0, 0, 0)";
+                SpanNextText.style.color = "white";
                 SpanNextText.textContent = "Next";
                 nextAnchorLink.appendChild(SpanNextText);
                 var svgIconNextButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 svgIconNextButton.className = "bi bi-caret-right-fill";
                 svgIconNextButton.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-                // svgIconNextButton.style.xmlns = "http://www.w3.org/2000/svg";
+                svgIconNextButton.setAttribute("color", "white");
                 svgIconNextButton.setAttribute("width", "1em");
-                // svgIconNextButton.width = "1em";
                 svgIconNextButton.setAttribute("height", "1em");
-                // svgIconNextButton.height = "1em";
                 svgIconNextButton.setAttribute("fill", "currentColor");
-                // svgIconNextButton.fill = "currentColor";
                 svgIconNextButton.setAttribute("viewBox", "0 0 16 16");
-                // svgIconNextButton.viewBox = "0 0 16 16";
-                svgIconNextButton.setAttribute("style", "font-size: 25px; color: rgb(0, 0, 0)");
-                // svgIconNextButton.style = "font-size: 25px; color: rgb(0, 0, 0)";
+                svgIconNextButton.setAttribute("style", "font-size: 25px;");
                 var pathOfSVGNextButton = document.createElementNS("http://www.w3.org/2000/svg", 'path');
                 pathOfSVGNextButton.setAttribute("d", "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z");
-                // pathOfSVGNextButton.style.d = "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z";
                 svgIconNextButton.appendChild(pathOfSVGNextButton);
                 nextAnchorLink.appendChild(svgIconNextButton);
                 parent.appendChild(nextAnchorLink);
@@ -20068,13 +20063,14 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 // Add Previous Button
                 var parent = document.getElementById('pagination-section-to-show-other-books');
                 var PreviousButton = document.createElement('a');
-                PreviousButton.className = "pagination-item disabled";
+                PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
                 PreviousButton.href = "#";
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
                 SVGIconPreviousButton.className = "bi bi-caret-left-fill";
+                SVGIconPreviousButton.setAttribute("color", "white");
                 SVGIconPreviousButton.setAttribute("xmlns", "http://www.w3.org/2000/svg");
                 SVGIconPreviousButton.setAttribute("width", "1em");
                 SVGIconPreviousButton.setAttribute("height", "1em");
@@ -20088,6 +20084,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var SpanPreviousButton = document.createElement('span');
                 SpanPreviousButton.style.fontFamily = "'Lilita One', serif";
                 SpanPreviousButton.textContent = "Previous";
+                SpanPreviousButton.style.color = "white";
                 PreviousButton.appendChild(SpanPreviousButton);
                 parent.appendChild(PreviousButton);
 
@@ -20144,31 +20141,26 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 // Next Button
                 var parent = document.getElementById('pagination-section-to-show-other-books');
                 var nextAnchorLink = document.createElement('a');
+                nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
                 nextAnchorLink.href = "#";
-                nextAnchorLink.style.background = "linear-gradient(#fca311 0%, #fca311)";
+                nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
-                SpanNextText.style.color = "rgb(0, 0, 0)";
+                SpanNextText.style.color = "white";
                 SpanNextText.textContent = "Next";
                 nextAnchorLink.appendChild(SpanNextText);
                 var svgIconNextButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 svgIconNextButton.className = "bi bi-caret-right-fill";
                 svgIconNextButton.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-                // svgIconNextButton.style.xmlns = "http://www.w3.org/2000/svg";
+                svgIconNextButton.setAttribute("color", "white");
                 svgIconNextButton.setAttribute("width", "1em");
-                // svgIconNextButton.width = "1em";
                 svgIconNextButton.setAttribute("height", "1em");
-                // svgIconNextButton.height = "1em";
                 svgIconNextButton.setAttribute("fill", "currentColor");
-                // svgIconNextButton.fill = "currentColor";
                 svgIconNextButton.setAttribute("viewBox", "0 0 16 16");
-                // svgIconNextButton.viewBox = "0 0 16 16";
-                svgIconNextButton.setAttribute("style", "font-size: 25px; color: rgb(0, 0, 0)");
-                // svgIconNextButton.style = "font-size: 25px; color: rgb(0, 0, 0)";
+                svgIconNextButton.setAttribute("style", "font-size: 25px;");
                 var pathOfSVGNextButton = document.createElementNS("http://www.w3.org/2000/svg", 'path');
                 pathOfSVGNextButton.setAttribute("d", "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z");
-                // pathOfSVGNextButton.style.d = "m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z";
                 svgIconNextButton.appendChild(pathOfSVGNextButton);
                 nextAnchorLink.appendChild(svgIconNextButton);
                 parent.appendChild(nextAnchorLink);
@@ -20603,6 +20595,56 @@ document.addEventListener('click', function () {
 
 // --------------------- ↓ Pagination of Book List Buttons ↓ ---------------------
 
+// 1st State
+// If there are just one set of three book, There is no need for any functionality
+
+// 2nd State
+// There are two set of three rows of Book
+// - > Next Button
+document.getElementById("Next-button-pagination-to-go-the-next-rows").addEventListener("click", function () {
+    var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
+    if (Pagination_3_Button == null) {
+
+        // There are two set of three rows of Book
+        document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+        document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+        // Removing current book rows
+        var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+        while (BookRowSection.firstChild) {
+            BookRowSection.removeChild(BookRowSection.lastChild);
+        }
+        // Recreating the Book Rows
+        BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 3, BooksReadForEachSkillStaticContainer[neededProperties.Currrent_Skill_Selected].length);
+        document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+            behavior: "smooth",
+        });
+
+    }
+});
+// - > Previous Button
+document.getElementById("previous-page-paginateion-zero-button").addEventListener("click", function () {
+    var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
+    if (Pagination_3_Button == null) {
+
+        // There are two set of three rows of Book
+        document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+        document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+        // Removing current book rows
+        var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+        while (BookRowSection.firstChild) {
+            BookRowSection.removeChild(BookRowSection.lastChild);
+        }
+        // Recreating the Book Rows
+        BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 0, 3);
+        document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+            behavior: "smooth",
+        });
+
+    }
+});
+
+// 3rd State
+// When there are three set of Three Books Rows, 1,2 and 3 button is exsited and ... button is not existed
 // Till this part ...
 
 // --------------------- ↑ Pagination of Book List Buttons ↑ ---------------------
