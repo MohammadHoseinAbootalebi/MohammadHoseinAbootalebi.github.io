@@ -16743,7 +16743,7 @@ function ResponsiveAdaptive() {
         } else {
             document.getElementById("first-view-skill-name-heading-introduction").style.paddingLeft = "10vw";
         }
-        
+
         // - > Skill first Intro short paragraph
         document.getElementById("first-view-intro-short-description-text-paragraph").style.fontSize = "1.5vw";
         document.getElementById("first-view-intro-short-description-text-paragraph").style.marginBottom = "3vw";
@@ -19885,7 +19885,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var PreviousButton = document.createElement('a');
                 PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
-                PreviousButton.href = "#";
+                PreviousButton.href = "javascript:pagination_functionality();";
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
@@ -19913,7 +19913,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var FirstButton = document.createElement('a');
                 FirstButton.id = "active-current-paginateion-first-button";
                 FirstButton.className = "pagination-item active";
-                FirstButton.href = "#";
+                FirstButton.href = "javascript:pagination_functionality();";
                 FirstButton.style.fontFamily = "'Lilita One', serif";
                 FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
                 FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
@@ -19926,7 +19926,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var SecondButton = document.createElement('a');
                 SecondButton.id = "second-page-current-paginateion-first-button";
                 SecondButton.className = "pagination-item";
-                SecondButton.href = "#";
+                SecondButton.href = "javascript:pagination_functionality();";
                 SecondButton.style.fontFamily = "'Lilita One', serif";
                 SecondButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 SecondButton.style.background = "linear-gradient(#393939, #393939)";
@@ -19939,7 +19939,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var nextAnchorLink = document.createElement('a');
                 nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
-                nextAnchorLink.href = "#";
+                nextAnchorLink.href = "javascript:pagination_functionality();";
                 nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
@@ -19969,7 +19969,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var PreviousButton = document.createElement('a');
                 PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
-                PreviousButton.href = "#";
+                PreviousButton.href = "javascript:pagination_functionality();";
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
@@ -19997,7 +19997,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var FirstButton = document.createElement('a');
                 FirstButton.id = "active-current-paginateion-first-button";
                 FirstButton.className = "pagination-item active";
-                FirstButton.href = "#";
+                FirstButton.href = "javascript:pagination_functionality();";
                 FirstButton.style.fontFamily = "'Lilita One', serif";
                 FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
                 FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
@@ -20010,7 +20010,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var SecondButton = document.createElement('a');
                 SecondButton.id = "second-page-current-paginateion-first-button";
                 SecondButton.className = "pagination-item";
-                SecondButton.href = "#";
+                SecondButton.href = "javascript:pagination_functionality();";
                 SecondButton.style.fontFamily = "'Lilita One', serif";
                 SecondButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 SecondButton.style.background = "linear-gradient(#393939, #393939)";
@@ -20023,7 +20023,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var ThirdButton = document.createElement("a");
                 ThirdButton.id = "third-page-current-paginateion-first-button";
                 ThirdButton.className = "pagination-item";
-                ThirdButton.href = "#";
+                ThirdButton.href = "javascript:pagination_functionality();";
                 ThirdButton.style.fontFamily = "'Lilita One', serif";
                 ThirdButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 ThirdButton.style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
@@ -20036,7 +20036,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var nextAnchorLink = document.createElement('a');
                 nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
-                nextAnchorLink.href = "#";
+                nextAnchorLink.href = "javascript:pagination_functionality();";
                 nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
@@ -20065,7 +20065,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var PreviousButton = document.createElement('a');
                 PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
-                PreviousButton.href = "#";
+                PreviousButton.href = "javascript:pagination_functionality();";
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
@@ -20093,7 +20093,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var FirstButton = document.createElement('a');
                 FirstButton.id = "active-current-paginateion-first-button";
                 FirstButton.className = "pagination-item active";
-                FirstButton.href = "#";
+                FirstButton.href = "javascript:pagination_functionality();";
                 FirstButton.style.fontFamily = "'Lilita One', serif";
                 FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
                 FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
@@ -20106,7 +20106,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var SecondButton = document.createElement('a');
                 SecondButton.id = "second-page-current-paginateion-first-button";
                 SecondButton.className = "pagination-item";
-                SecondButton.href = "#";
+                SecondButton.href = "javascript:pagination_functionality();";
                 SecondButton.style.fontFamily = "'Lilita One', serif";
                 SecondButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 SecondButton.style.background = "linear-gradient(#393939, #393939)";
@@ -20119,7 +20119,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var ThirdButton = document.createElement("a");
                 ThirdButton.id = "third-page-current-paginateion-first-button";
                 ThirdButton.className = "pagination-item";
-                ThirdButton.href = "#";
+                ThirdButton.href = "javascript:pagination_functionality();";
                 ThirdButton.style.fontFamily = "'Lilita One', serif";
                 ThirdButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 ThirdButton.style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
@@ -20132,7 +20132,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var FourthButton = document.createElement("a");
                 FourthButton.id = "more-page-current-paginateion-first-button-to-update";
                 FourthButton.className = "pagination-item";
-                FourthButton.href = "#";
+                FourthButton.href = "javascript:pagination_functionality();";
                 FourthButton.style.fontFamily = "'Lilita One', serif";
                 FourthButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 FourthButton.textContent = "...";
@@ -20143,7 +20143,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 var nextAnchorLink = document.createElement('a');
                 nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
-                nextAnchorLink.href = "#";
+                nextAnchorLink.href = "javascript:pagination_functionality();";
                 nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
@@ -20228,6 +20228,106 @@ function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugume
             item.style = "font-family: Roboto, sans-serif;font-size: 80%;";
         }
     });
+}
+
+// Documentation
+// This function will handle the pagination functionality
+function pagination_functionality() {
+    // 1st State
+    // If there are just one set of three book, There is no need for any functionality
+
+    // 2nd State
+    // There are two set of three rows of Book
+    // - > Next Button
+    document.getElementById("Next-button-pagination-to-go-the-next-rows").addEventListener("click", function () {
+        var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
+        if (Pagination_3_Button == null) {
+
+            // There are two set of three rows of Book
+            document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+            document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 3, BooksReadForEachSkillStaticContainer[neededProperties.Currrent_Skill_Selected].length);
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+            console.log("Next Clicked");
+
+        }
+    });
+    // 2 Button Pressed
+    document.getElementById("second-page-current-paginateion-first-button").addEventListener("click", function () {
+        var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
+        if (Pagination_3_Button == null) {
+
+            // There are two set of three rows of Book
+            document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+            document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 3, BooksReadForEachSkillStaticContainer[neededProperties.Currrent_Skill_Selected].length);
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+            console.log("Next Clicked");
+
+        }
+    });
+    // - > Previous Button
+    document.getElementById("previous-page-paginateion-zero-button").addEventListener("click", function () {
+        var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
+        if (Pagination_3_Button == null) {
+
+            // There are two set of three rows of Book
+            document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+            document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 0, 3);
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+
+        }
+    });
+    // 1 Button Pressed
+    document.getElementById("active-current-paginateion-first-button").addEventListener("click", function () {
+        var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
+        if (Pagination_3_Button == null) {
+
+            // There are two set of three rows of Book
+            document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+            document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 0, 3);
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+
+        }
+    });
+
+    // 3rd State
+    // When there are three set of Three Books Rows, 1,2 and 3 button is exsited and ... button is not existed
+    // Till this part ...
 }
 
 // ---------------------------------------- ↑ Functions ↑ ----------------------------------------
@@ -20464,6 +20564,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Calling the Responsive Function
     ResponsiveAdaptive();
+    // Calling pagination function
+    pagination_functionality();
 });
 
 // Documentation
@@ -20592,59 +20694,3 @@ document.addEventListener('click', function () {
 });
 
 // --------------------- ↑ Togging the Drop Down to Being Smooth ↑ ---------------------
-
-// --------------------- ↓ Pagination of Book List Buttons ↓ ---------------------
-
-// 1st State
-// If there are just one set of three book, There is no need for any functionality
-
-// 2nd State
-// There are two set of three rows of Book
-// - > Next Button
-document.getElementById("Next-button-pagination-to-go-the-next-rows").addEventListener("click", function () {
-    var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
-    if (Pagination_3_Button == null) {
-
-        // There are two set of three rows of Book
-        document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
-        document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
-        // Removing current book rows
-        var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
-        while (BookRowSection.firstChild) {
-            BookRowSection.removeChild(BookRowSection.lastChild);
-        }
-        // Recreating the Book Rows
-        BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 3, BooksReadForEachSkillStaticContainer[neededProperties.Currrent_Skill_Selected].length);
-        document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
-            behavior: "smooth",
-        });
-
-    }
-});
-// - > Previous Button
-document.getElementById("previous-page-paginateion-zero-button").addEventListener("click", function () {
-    var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
-    if (Pagination_3_Button == null) {
-
-        // There are two set of three rows of Book
-        document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
-        document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
-        // Removing current book rows
-        var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
-        while (BookRowSection.firstChild) {
-            BookRowSection.removeChild(BookRowSection.lastChild);
-        }
-        // Recreating the Book Rows
-        BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 0, 3);
-        document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
-            behavior: "smooth",
-        });
-
-    }
-});
-
-// 3rd State
-// When there are three set of Three Books Rows, 1,2 and 3 button is exsited and ... button is not existed
-// Till this part ...
-
-// --------------------- ↑ Pagination of Book List Buttons ↑ ---------------------
