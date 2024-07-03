@@ -14047,6 +14047,2258 @@ var BooksReadForEachSkillStaticContainer = {
                 "فارسی": "راهنمای گام به گام ساخت برنامه های وب با پایتون و جنگو 4.0. ایجاد، آزمایش و استقرار 5 وب سایت به تدریج پیچیده تر از جمله یک برنامه پیام برد، یک برنامه وبلاگ با حساب های کاربری، و یک برنامه روزنامه قوی با نظرات خواننده و یک جریان کامل ثبت نام کاربر. در طول مسیر، ویژگی‌های اصلی جنگو و بهترین روش‌ها را در مورد مدل‌ها، نماها، قالب‌ها، آدرس‌های اینترنتی، مدل‌های کاربر سفارشی، مجوزها، مجوزها، ثبت نام کاربر، آزمایش و استقرار خواهید آموخت.",
             },
         },
+        // Visual C# How to Program
+        {
+            "BookName": "Visual C# How to Program",
+            "AuthorName": "Paul Deitel, Harvey Deitel",
+            "Gender": "M", // F: Female, M: Male
+            "EditionNumber": "6th",
+            "PublisherName": "Pearson",
+            "ISBN": "978 0 1346 0154 0",
+            "YearNumber": "2017",
+            "PagesNumber": "2840",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Introduction to Computers, the Internet and Visual C#",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 2
+                {
+                    "ChapterName": "Introduction to Visual Studio and Visual Programming",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 3
+                {
+                    "ChapterName": "Introduction to C# App Programming",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 4
+                {
+                    "ChapterName": "Introduction to Classes, Objects, Methods and String",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 5
+                {
+                    "ChapterName": "Algorithm Development and Control Statements: Part 1",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 6
+                {
+                    "ChapterName": "Control Statements: Part 2",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 7
+                {
+                    "ChapterName": "Methods: A Deeper Look",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 8
+                {
+                    "ChapterName": "Arrays; Introduction to Exception Handling",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 9
+                {
+                    "ChapterName": "Introduction to LINQ and the List Collection",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 10
+                {
+                    "ChapterName": "Classes and Objects: A Deeper Look",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 11
+                {
+                    "ChapterName": "Object-Oriented Programming: Inheritance",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 12
+                {
+                    "ChapterName": "OOP: Polymorphism and Interfaces",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 13
+                {
+                    "ChapterName": "Exception Handling: A Deeper Look",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 14
+                {
+                    "ChapterName": "Graphical User Interfaces with Windows Forms: Part 1",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 15
+                {
+                    "ChapterName": "Graphical User Interfaces with Windows Forms: Part 2",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 16
+                {
+                    "ChapterName": "Strings and Characters: A Deeper Look",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 17
+                {
+                    "ChapterName": "Files and Streams",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 18
+                {
+                    "ChapterName": "Searching and Sorting",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 19
+                {
+                    "ChapterName": "Custom Linked Data Structures",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 20
+                {
+                    "ChapterName": "Generics",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 21
+                {
+                    "ChapterName": "Generic Collections; Functional Programming with LINQ/PLINQ",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 22
+                {
+                    "ChapterName": "Databases and LINQ",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 23
+                {
+                    "ChapterName": "Asynchronous Programming with async and await",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "“Visual C# How to Program” 6th edition by Paul and Harvey Deitel is a comprehensive guide that introduces readers to the world of desktop, mobile, and web app development using Microsoft’s Visual C# programming language. This edition is particularly notable for its integrated coverage of C# 6 and its clear, example-driven presentation of programming fundamentals. Readers will benefit from the Deitel’s signature “live-code approach,” which presents concepts in the context of complete working programs, followed by sample executions. This approach helps to solidify understanding and enables readers to see the practical application of the code they are learning.",
+                    // German
+                    "Deutsch": "„Visual C# How to Program“ 6. Auflage von Paul und Harvey Deitel ist ein umfassender Leitfaden, der Leser in die Welt der Entwicklung von Desktop-, Mobil- und Web-Apps mit der Programmiersprache Visual C# von Microsoft einführt. Diese Auflage ist besonders bemerkenswert für ihre integrierte Abdeckung von C# 6 und ihre klare, beispielbasierte Präsentation der Programmiergrundlagen. Leser profitieren von Deitels charakteristischem „Live-Code-Ansatz“, der Konzepte im Kontext vollständiger Arbeitsprogramme präsentiert, gefolgt von Beispielausführungen. Dieser Ansatz trägt dazu bei, das Verständnis zu festigen und ermöglicht es den Lesern, die praktische Anwendung des Codes zu sehen, den sie lernen.",
+                    // Chinese
+                    "中国人": "Paul 和 Harvey Deitel 编写的《Visual C# 编程指南》第 6 版是一本全面的指南，向读者介绍了使用 Microsoft Visual C# 编程语言进行桌面、移动和 Web 应用程序开发的世界。此版本尤其值得注意的是它全面介绍了 C# 6，并以示例为主导清晰地介绍了编程基础知识。读者将受益于 Deitel 的标志性“实时代码方法”，该方法在完整的工作程序环境中介绍概念，然后执行示例。这种方法有助于巩固理解，并使读者能够看到他们正在学习的代码的实际应用。",
+                    // Russian
+                    "Русский": "«Как программировать на Visual C#», 6-е издание Пола и Харви Дейтелов, представляет собой комплексное руководство, знакомящее читателей с миром разработки настольных, мобильных и веб-приложений с использованием языка программирования Microsoft Visual C#. Это издание особенно примечательно комплексным освещением C# 6 и четким, основанным на примерах представлением основ программирования. Читателям будет полезен фирменный «подход Дейтеля с живым кодом», который представляет концепции в контексте законченных рабочих программ с последующими примерами выполнения. Такой подход помогает укрепить понимание и позволяет читателям увидеть практическое применение изучаемого кода.",
+                    // French
+                    "Français": "« Visual C# How to Program » 6e édition de Paul et Harvey Deitel est un guide complet qui présente aux lecteurs le monde du développement d'applications de bureau, mobiles et Web à l'aide du langage de programmation Visual C# de Microsoft. Cette édition se distingue particulièrement par sa couverture intégrée de C# 6 et sa présentation claire et basée sur des exemples des principes fondamentaux de la programmation. Les lecteurs bénéficieront de « l’approche live-code », signature de Deitel, qui présente les concepts dans le contexte de programmes de travail complets, suivis d’exemples d’exécution. Cette approche contribue à consolider la compréhension et permet aux lecteurs de voir l’application pratique du code qu’ils apprennent.",
+                    // Japanese
+                    "日本語": "Paul および Harvey Deitel 著の「Visual C# プログラミング方法」第 6 版は、Microsoft の Visual C# プログラミング言語を使用したデスクトップ、モバイル、および Web アプリ開発の世界を読者に紹介する総合ガイドです。この版は、C# 6 を総合的にカバーし、プログラミングの基礎をわかりやすく例を交えて提示していることが特に注目に値します。読者は、Deitel の特徴である「ライブ コード アプローチ」の恩恵を受けるでしょう。このアプローチでは、概念を完全な動作プログラムのコンテキストで提示し、その後にサンプル実行が続きます。このアプローチは理解を強固にするのに役立ち、読者は学習しているコードの実際の適用方法を確認できます。",
+                    // Korean
+                    "한국인": "Paul Deitel과 Harvey Deitel이 쓴 “Visual C# 프로그래밍 방법” 6판은 Microsoft의 Visual C# 프로그래밍 언어를 사용하여 독자에게 데스크톱, 모바일 및 웹 앱 개발의 세계를 소개하는 포괄적인 가이드입니다. 이 버전은 C# 6에 대한 통합된 내용과 프로그래밍 기본 사항에 대한 명확하고 예제 중심의 프레젠테이션으로 특히 주목할 만합니다. 독자들은 완전한 작업 프로그램의 맥락에서 개념을 제시하고 이어서 샘플을 실행하는 Deitel의 대표적인 “라이브 코드 접근 방식”의 이점을 누릴 수 있습니다. 이 접근 방식은 이해를 확고히 하는 데 도움이 되며 독자가 학습 중인 코드의 실제 적용을 볼 수 있게 해줍니다.",
+                    // Spanish
+                    "Español": "“Visual C# How to Program”, sexta edición de Paul y Harvey Deitel es una guía completa que presenta a los lectores el mundo del desarrollo de aplicaciones de escritorio, móviles y web utilizando el lenguaje de programación Visual C# de Microsoft. Esta edición es particularmente notable por su cobertura integrada de C# 6 y su presentación clara, basada en ejemplos, de los fundamentos de la programación. Los lectores se beneficiarán del “enfoque de código en vivo” característico de Deitel, que presenta conceptos en el contexto de programas de trabajo completos, seguidos de ejecuciones de muestra. Este enfoque ayuda a solidificar la comprensión y permite a los lectores ver la aplicación práctica del código que están aprendiendo.",
+                    // Hindi
+                    "हिंदी": "पॉल और हार्वे डीटेल द्वारा लिखित “विजुअल C# हाउ टू प्रोग्राम” का छठा संस्करण एक व्यापक गाइड है जो पाठकों को Microsoft की Visual C# प्रोग्रामिंग भाषा का उपयोग करके डेस्कटॉप, मोबाइल और वेब ऐप डेवलपमेंट की दुनिया से परिचित कराता है। यह संस्करण C# 6 के अपने एकीकृत कवरेज और प्रोग्रामिंग की बुनियादी बातों की स्पष्ट, उदाहरण-संचालित प्रस्तुति के लिए विशेष रूप से उल्लेखनीय है। पाठकों को डीटेल के सिग्नेचर “लाइव-कोड दृष्टिकोण” से लाभ होगा, जो पूर्ण कार्यशील कार्यक्रमों के संदर्भ में अवधारणाओं को प्रस्तुत करता है, उसके बाद नमूना निष्पादन होता है। यह दृष्टिकोण समझ को मजबूत करने में मदद करता है और पाठकों को उनके द्वारा सीखे जा रहे कोड के व्यावहारिक अनुप्रयोग को देखने में सक्षम बनाता है।",
+                    // Portuguese
+                    "Português": "“Visual C# How to Program” 6ª edição de Paul e Harvey Deitel é um guia abrangente que apresenta aos leitores o mundo do desenvolvimento de aplicativos para desktop, dispositivos móveis e web usando a linguagem de programação Visual C# da Microsoft. Esta edição é particularmente notável por sua cobertura integrada do C# 6 e por sua apresentação clara e baseada em exemplos dos fundamentos da programação. Os leitores se beneficiarão da “abordagem de código ao vivo” exclusiva da Deitel, que apresenta conceitos no contexto de programas de trabalho completos, seguidos por exemplos de execuções. Essa abordagem ajuda a solidificar a compreensão e permite que os leitores vejam a aplicação prática do código que estão aprendendo.",
+                    // Bengali
+                    "বাংলা": "পল এবং হার্ভে ডিটেলের “ভিজ্যুয়াল সি# হাউ টু প্রোগ্রাম” 6 তম সংস্করণ হল একটি বিস্তৃত নির্দেশিকা যা মাইক্রোসফ্টের ভিজ্যুয়াল সি# প্রোগ্রামিং ভাষা ব্যবহার করে পাঠকদের ডেস্কটপ, মোবাইল এবং ওয়েব অ্যাপ ডেভেলপমেন্টের জগতে পরিচিত করে। এই সংস্করণটি C# 6 এর সমন্বিত কভারেজ এবং প্রোগ্রামিং মৌলিক বিষয়গুলির স্পষ্ট, উদাহরণ-চালিত উপস্থাপনার জন্য বিশেষভাবে উল্লেখযোগ্য। পাঠকরা Deitel-এর স্বাক্ষর “লাইভ-কোড পদ্ধতি” থেকে উপকৃত হবেন, যা সম্পূর্ণ কার্যকারী প্রোগ্রামের প্রেক্ষাপটে ধারণাগুলি উপস্থাপন করে, যার পরে নমুনা কার্যকর করা হয়। এই পদ্ধতিটি বোঝার দৃঢ় করতে সাহায্য করে এবং পাঠকদের তারা যে কোডটি শিখছে তার ব্যবহারিক প্রয়োগ দেখতে সক্ষম করে।",
+                    // Arabic
+                    "عَرَبِيّ": "“Visual C# How to Program” الإصدار السادس من تأليف Paul وHarvey Deitel هو دليل شامل يقدم للقراء عالم تطوير تطبيقات سطح المكتب والجوال وتطبيقات الويب باستخدام لغة البرمجة Visual C# من Microsoft. تتميز هذه الطبعة بشكل خاص بتغطيتها المتكاملة لـ C# 6 وعرضها الواضح والمبني على الأمثلة لأساسيات البرمجة. سيستفيد القراء من “نهج الكود المباشر” الخاص بشركة Deitel، والذي يقدم المفاهيم في سياق برامج العمل الكاملة، تليها نماذج من التنفيذ. يساعد هذا الأسلوب على ترسيخ الفهم ويمكّن القراء من رؤية التطبيق العملي للكود الذي يتعلمونه.",
+                    // Persian
+                    "فارسی": "“Visual C# How to Program” ویرایش ششم توسط Paul and Harvey Deitel یک راهنمای جامع است که خوانندگان را با دنیای توسعه دسکتاپ، موبایل و برنامه های وب با استفاده از زبان برنامه نویسی Visual C# مایکروسافت آشنا می کند. این نسخه به ویژه به دلیل پوشش یکپارچه C# 6 و ارائه واضح و مثال محور اصول برنامه نویسی قابل توجه است. خوانندگان از «رویکرد کد زنده» امضای Deitel بهره مند خواهند شد که مفاهیم را در چارچوب برنامه های کاری کامل و به دنبال آن اجراهای نمونه ارائه می کند. این رویکرد به تقویت درک کمک می کند و خوانندگان را قادر می سازد تا کاربرد عملی کدهایی را که یاد می گیرند ببینند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "One of the key advantages of this book is its rich coverage of essential programming concepts such as classes, objects, inheritance, polymorphism, and interfaces. The early introduction to LINQ and generic collections, as well as PLINQ (Parallel LINQ) for multicore performance, prepares readers for modern programming challenges. Additionally, the asynchronous programming with async and await is covered, which is crucial for writing responsive applications. By the end of the book, readers will have a strong foundation in C# and be equipped with the skills to build robust applications for a variety of platforms.",
+                    // German
+                    "Deutsch": "Einer der Hauptvorteile dieses Buches ist die umfassende Abdeckung wesentlicher Programmierkonzepte wie Klassen, Objekte, Vererbung, Polymorphismus und Schnittstellen. Die frühe Einführung in LINQ und generische Sammlungen sowie PLINQ (Parallel LINQ) für Multicore-Leistung bereitet die Leser auf moderne Programmierherausforderungen vor. Darüber hinaus wird die asynchrone Programmierung mit Async und Await behandelt, die für das Schreiben reaktionsfähiger Anwendungen von entscheidender Bedeutung ist. Am Ende des Buches verfügen die Leser über solide Grundlagen in C# und sind mit den Fähigkeiten ausgestattet, robuste Anwendungen für eine Vielzahl von Plattformen zu erstellen.",
+                    // Chinese
+                    "中国人": "本书的主要优势之一是它涵盖了类、对象、继承、多态性和接口等基本编程概念。本书对 LINQ 和泛型集合以及用于多核性能的 PLINQ（并行 LINQ）进行了早期介绍，帮助读者应对现代编程挑战。此外，本书还介绍了使用 async 和 await 的异步编程，这对于编写响应式应用程序至关重要。读完本书后，读者将拥有扎实的 C# 基础，并具备为各种平台构建强大应用程序的技能。",
+                    // Russian
+                    "Русский": "Одним из ключевых преимуществ этой книги является богатое освещение основных концепций программирования, таких как классы, объекты, наследование, полиморфизм и интерфейсы. Раннее знакомство с LINQ и универсальными коллекциями, а также с PLINQ (Parallel LINQ) для многоядерной производительности готовит читателей к современным задачам программирования. Кроме того, рассматривается асинхронное программирование с использованием async и await, что крайне важно для написания адаптивных приложений. К концу книги читатели получат прочные знания C# и навыки создания надежных приложений для различных платформ.",
+                    // French
+                    "Français": "L'un des principaux avantages de ce livre est sa riche couverture des concepts de programmation essentiels tels que les classes, les objets, l'héritage, le polymorphisme et les interfaces. L'introduction précoce à LINQ et aux collections génériques, ainsi qu'à PLINQ (Parallel LINQ) pour les performances multicœurs, prépare les lecteurs aux défis de programmation modernes. De plus, la programmation asynchrone avec async et wait est couverte, ce qui est crucial pour l'écriture d'applications réactives. À la fin du livre, les lecteurs auront de solides bases en C# et seront dotés des compétences nécessaires pour créer des applications robustes pour une variété de plates-formes.",
+                    // Japanese
+                    "日本語": "この本の主な利点の 1 つは、クラス、オブジェクト、継承、ポリモーフィズム、インターフェイスなどの基本的なプログラミング概念を豊富にカバーしていることです。LINQ とジェネリック コレクション、およびマルチコア パフォーマンスのための PLINQ (Parallel LINQ) を早期に紹介することで、読者は最新のプログラミングの課題に備えることができます。さらに、応答性の高いアプリケーションを作成するために不可欠な、async と await を使用した非同期プログラミングについても取り上げています。この本を読み終える頃には、読者は C# の強固な基礎を身に付け、さまざまなプラットフォーム向けの堅牢なアプリケーションを構築するスキルを身に付けているでしょう。",
+                    // Korean
+                    "한국인": "이 책의 주요 장점 중 하나는 클래스, 객체, 상속, 다형성 및 인터페이스와 같은 필수 프로그래밍 개념을 풍부하게 다루고 있다는 것입니다. LINQ 및 일반 컬렉션과 멀티코어 성능을 위한 PLINQ(Parallel LINQ)에 대한 초기 소개를 통해 독자는 최신 프로그래밍 과제에 대비할 수 있습니다. 또한 반응형 애플리케이션을 작성하는 데 중요한 async 및 Wait를 사용한 비동기 프로그래밍도 다룹니다. 책이 끝날 무렵 독자들은 C#에 대한 탄탄한 기초를 갖추고 다양한 플랫폼을 위한 강력한 애플리케이션을 구축할 수 있는 기술을 갖추게 될 것입니다.",
+                    // Spanish
+                    "Español": "Una de las ventajas clave de este libro es su rica cobertura de conceptos esenciales de programación como clases, objetos, herencia, polimorfismo e interfaces. La introducción temprana a LINQ y colecciones genéricas, así como a PLINQ (Parallel LINQ) para rendimiento multinúcleo, prepara a los lectores para los desafíos de programación modernos. Además, se cubre la programación asincrónica con async y await, que es crucial para escribir aplicaciones responsivas. Al final del libro, los lectores tendrán una base sólida en C# y estarán equipados con las habilidades para crear aplicaciones sólidas para una variedad de plataformas.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक का एक मुख्य लाभ यह है कि इसमें क्लास, ऑब्जेक्ट, इनहेरिटेंस, पॉलीमॉर्फिज्म और इंटरफेस जैसी आवश्यक प्रोग्रामिंग अवधारणाओं का विस्तृत विवरण दिया गया है। LINQ और जेनेरिक कलेक्शन के साथ-साथ मल्टीकोर परफॉरमेंस के लिए PLINQ (पैरेलल LINQ) का प्रारंभिक परिचय पाठकों को आधुनिक प्रोग्रामिंग चुनौतियों के लिए तैयार करता है। इसके अतिरिक्त, async और await के साथ एसिंक्रोनस प्रोग्रामिंग को कवर किया गया है, जो रिस्पॉन्सिव एप्लिकेशन लिखने के लिए महत्वपूर्ण है। पुस्तक के अंत तक, पाठकों के पास C# में एक मजबूत आधार होगा और वे विभिन्न प्लेटफ़ॉर्म के लिए मजबूत एप्लिकेशन बनाने के कौशल से लैस होंगे।",
+                    // Portuguese
+                    "Português": "Uma das principais vantagens deste livro é sua rica cobertura de conceitos essenciais de programação, como classes, objetos, herança, polimorfismo e interfaces. A introdução antecipada ao LINQ e às coleções genéricas, bem como ao PLINQ (Parallel LINQ) para desempenho multicore, prepara os leitores para os desafios modernos de programação. Além disso, é abordada a programação assíncrona com async e await, o que é crucial para escrever aplicativos responsivos. Ao final do livro, os leitores terão uma base sólida em C# e estarão equipados com as habilidades necessárias para criar aplicativos robustos para diversas plataformas.",
+                    // Bengali
+                    "বাংলা": "এই বইটির অন্যতম প্রধান সুবিধা হল ক্লাস, অবজেক্ট, উত্তরাধিকার, পলিমরফিজম এবং ইন্টারফেসের মতো প্রয়োজনীয় প্রোগ্রামিং ধারণাগুলির সমৃদ্ধ কভারেজ। LINQ এবং জেনেরিক সংগ্রহের প্রাথমিক পরিচিতি, সেইসাথে মাল্টিকোর পারফরম্যান্সের জন্য PLINQ (সমান্তরাল LINQ), পাঠকদের আধুনিক প্রোগ্রামিং চ্যালেঞ্জের জন্য প্রস্তুত করে। উপরন্তু, async এবং await সহ অ্যাসিঙ্ক্রোনাস প্রোগ্রামিং কভার করা হয়েছে, যা প্রতিক্রিয়াশীল অ্যাপ্লিকেশন লেখার জন্য অত্যন্ত গুরুত্বপূর্ণ। বইয়ের শেষ নাগাদ, পাঠকদের C# এর একটি শক্তিশালী ভিত্তি থাকবে এবং তারা বিভিন্ন প্ল্যাটফর্মের জন্য শক্তিশালী অ্যাপ্লিকেশন তৈরি করার দক্ষতার সাথে সজ্জিত হবে।",
+                    // Arabic
+                    "عَرَبِيّ": "إحدى المزايا الرئيسية لهذا الكتاب هي تغطيته الغنية لمفاهيم البرمجة الأساسية مثل الفئات والكائنات والميراث وتعدد الأشكال والواجهات. إن المقدمة المبكرة لـ LINQ والمجموعات العامة، بالإضافة إلى PLINQ (Parallel LINQ) للأداء متعدد النواة، تعمل على إعداد القراء لمواجهة تحديات البرمجة الحديثة. بالإضافة إلى ذلك، تمت تغطية البرمجة غير المتزامنة مع المزامنة والانتظار، وهو أمر بالغ الأهمية لكتابة التطبيقات المستجيبة. بحلول نهاية الكتاب، سيكون لدى القراء أساس قوي في لغة C# وسيكونون مجهزين بالمهارات اللازمة لبناء تطبيقات قوية لمجموعة متنوعة من المنصات.",
+                    // Persian
+                    "فارسی": "یکی از مزایای کلیدی این کتاب، پوشش غنی آن از مفاهیم اساسی برنامه نویسی مانند کلاس ها، اشیاء، وراثت، چندشکلی و رابط ها است. معرفی اولیه LINQ و مجموعه های عمومی، و همچنین PLINQ (LINQ موازی) برای عملکرد چند هسته ای، خوانندگان را برای چالش های برنامه نویسی مدرن آماده می کند. علاوه بر این، برنامه‌نویسی ناهمزمان با async و await پوشش داده شده است که برای نوشتن برنامه‌های واکنش‌گرا بسیار مهم است. در پایان کتاب، خوانندگان پایه ای قوی در C# خواهند داشت و به مهارت هایی برای ساخت برنامه های کاربردی قوی برای پلتفرم های مختلف مجهز خواهند شد.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "Moreover, the book is designed to be informative, engaging, challenging, and entertaining, making the learning process enjoyable. It is suitable for all basic-to-intermediate level courses in Visual C# programming. The broad range of example programs and exercises included in the book come from diverse fields such as computer science, business, education, and many other areas, ensuring that readers gain a well-rounded perspective on programming with C#. With this book, readers will not only learn the syntax of the C# language but also how to apply it effectively to solve real-world problems.",
+                    // German
+                    "Deutsch": "Darüber hinaus ist das Buch so konzipiert, dass es informativ, spannend, herausfordernd und unterhaltsam ist, sodass der Lernprozess Spaß macht. Es eignet sich für alle Kurse in Visual C#-Programmierung auf Grund- bis Mittelstufenniveau. Die große Auswahl an Beispielprogrammen und Übungen im Buch stammt aus unterschiedlichen Bereichen wie Informatik, Wirtschaft, Bildung und vielen anderen Bereichen und stellt sicher, dass die Leser eine umfassende Perspektive auf die Programmierung mit C# erhalten. Mit diesem Buch lernen die Leser nicht nur die Syntax der Sprache C#, sondern auch, wie sie diese effektiv anwenden können, um reale Probleme zu lösen.",
+                    // Chinese
+                    "中国人": "此外，本书内容丰富、引人入胜、富有挑战性和娱乐性，让学习过程变得愉快。它适用于 Visual C# 编程的所有基础到中级课程。本书包含的大量示例程序和练习来自计算机科学、商业、教育和许多其他领域等不同领域，确保读者对使用 C# 进行编程有一个全面的了解。通过本书，读者不仅可以学习 C# 语言的语法，还可以学习如何有效地应用它来解决实际问题。",
+                    // Russian
+                    "Русский": "Более того, книга призвана быть информативной, увлекательной, сложной и увлекательной, что делает процесс обучения приятным. Он подходит для всех курсов программирования Visual C# от базового до среднего уровня. Широкий спектр примеров программ и упражнений, включенных в книгу, взят из различных областей, таких как информатика, бизнес, образование и многие другие области, что гарантирует читателям всестороннее представление о программировании на C#. С помощью этой книги читатели не только изучат синтаксис языка C#, но и научатся эффективно его применять для решения реальных задач.",
+                    // French
+                    "Français": "De plus, le livre est conçu pour être informatif, engageant, stimulant et divertissant, rendant le processus d'apprentissage agréable. Il convient à tous les cours de programmation Visual C# de niveau basique à intermédiaire. Le large éventail d'exemples de programmes et d'exercices inclus dans le livre proviennent de divers domaines tels que l'informatique, les affaires, l'éducation et bien d'autres domaines, garantissant aux lecteurs une perspective complète sur la programmation avec C#. Avec ce livre, les lecteurs apprendront non seulement la syntaxe du langage C#, mais aussi comment l'appliquer efficacement pour résoudre des problèmes du monde réel.",
+                    // Japanese
+                    "日本語": "さらに、この本は、情報に富み、興味をそそり、やりがいがあり、楽しく、学習プロセスが楽しくなるように作られています。Visual C# プログラミングの初級から中級レベルのすべてのコースに適しています。この本に含まれる幅広いサンプル プログラムと演習は、コンピューター サイエンス、ビジネス、教育など、さまざまな分野から提供されており、読者が C# プログラミングについて幅広い視点を身に付けることができます。この本では、読者は C# 言語の構文だけでなく、それを効果的に適用して実際の問題を解決する方法も学習できます。",
+                    // Korean
+                    "한국인": "더욱이 이 책은 유익하고, 흥미롭고, 도전적이고, 재미있도록 구성되어 학습 과정을 즐겁게 만듭니다. Visual C# 프로그래밍의 모든 기초부터 중급 수준 과정에 적합합니다. 이 책에 포함된 광범위한 예제 프로그램과 연습 문제는 컴퓨터 과학, 비즈니스, 교육 및 기타 여러 분야와 같은 다양한 분야에서 제공되므로 독자는 C#을 사용한 프로그래밍에 대한 균형 잡힌 관점을 얻을 수 있습니다. 이 책을 통해 독자는 C# 언어의 구문뿐만 아니라 이를 효과적으로 적용하여 실제 문제를 해결하는 방법도 배울 수 있습니다.",
+                    // Spanish
+                    "Español": "Además, el libro está diseñado para ser informativo, atractivo, desafiante y entretenido, haciendo que el proceso de aprendizaje sea agradable. Es adecuado para todos los cursos de nivel básico a intermedio en programación en Visual C#. La amplia gama de programas de ejemplo y ejercicios incluidos en el libro provienen de diversos campos, como la informática, los negocios, la educación y muchas otras áreas, lo que garantiza que los lectores obtengan una perspectiva completa sobre la programación con C#. Con este libro, los lectores no sólo aprenderán la sintaxis del lenguaje C# sino también cómo aplicarlo de manera efectiva para resolver problemas del mundo real.",
+                    // Hindi
+                    "हिंदी": "इसके अलावा, पुस्तक को जानकारीपूर्ण, आकर्षक, चुनौतीपूर्ण और मनोरंजक बनाने के लिए डिज़ाइन किया गया है, जिससे सीखने की प्रक्रिया आनंददायक हो जाती है। यह Visual C# प्रोग्रामिंग में सभी बुनियादी से लेकर मध्यवर्ती स्तर के पाठ्यक्रमों के लिए उपयुक्त है। पुस्तक में शामिल उदाहरण कार्यक्रमों और अभ्यासों की विस्तृत श्रृंखला कंप्यूटर विज्ञान, व्यवसाय, शिक्षा और कई अन्य क्षेत्रों जैसे विविध क्षेत्रों से आती है, यह सुनिश्चित करते हुए कि पाठकों को C# के साथ प्रोग्रामिंग पर एक अच्छी तरह से गोल परिप्रेक्ष्य प्राप्त होता है। इस पुस्तक के साथ, पाठक न केवल C# भाषा के वाक्यविन्यास को सीखेंगे, बल्कि वास्तविक दुनिया की समस्याओं को हल करने के लिए इसे प्रभावी ढंग से लागू करना भी सीखेंगे।",
+                    // Portuguese
+                    "Português": "Além disso, o livro foi projetado para ser informativo, envolvente, desafiador e divertido, tornando o processo de aprendizagem agradável. É adequado para todos os cursos de nível básico a intermediário em programação Visual C#. A ampla gama de exemplos de programas e exercícios incluídos no livro vem de diversos campos, como ciência da computação, negócios, educação e muitas outras áreas, garantindo que os leitores obtenham uma perspectiva completa sobre programação com C#. Com este livro, os leitores aprenderão não apenas a sintaxe da linguagem C#, mas também como aplicá-la de maneira eficaz para resolver problemas do mundo real.",
+                    // Bengali
+                    "বাংলা": "অধিকন্তু, বইটি তথ্যপূর্ণ, আকর্ষক, চ্যালেঞ্জিং এবং বিনোদনমূলক, শেখার প্রক্রিয়াটিকে আনন্দদায়ক করার জন্য ডিজাইন করা হয়েছে। এটি ভিজ্যুয়াল C# প্রোগ্রামিং-এর সমস্ত মৌলিক থেকে মধ্যবর্তী স্তরের কোর্সের জন্য উপযুক্ত। বইটিতে অন্তর্ভুক্ত উদাহরণ প্রোগ্রাম এবং অনুশীলনের বিস্তৃত পরিসর বিভিন্ন ক্ষেত্র যেমন কম্পিউটার বিজ্ঞান, ব্যবসা, শিক্ষা এবং অন্যান্য অনেক ক্ষেত্র থেকে আসে, এটি নিশ্চিত করে যে পাঠকরা C# এর সাথে প্রোগ্রামিং সম্পর্কে একটি সুসংহত দৃষ্টিভঙ্গি অর্জন করে। এই বইটির মাধ্যমে, পাঠকরা শুধুমাত্র C# ভাষার সিনট্যাক্স শিখবে না বরং বাস্তব-বিশ্বের সমস্যা সমাধানের জন্য কীভাবে এটি কার্যকরভাবে প্রয়োগ করা যায় তাও শিখবে।",
+                    // Arabic
+                    "عَرَبِيّ": "علاوة على ذلك، تم تصميم الكتاب ليكون مفيدًا وجذابًا وصعبًا ومسليًا، مما يجعل عملية التعلم ممتعة. إنها مناسبة لجميع دورات المستوى الأساسي إلى المتوسط ​​في برمجة Visual C#. تأتي المجموعة الواسعة من أمثلة البرامج والتمارين المتضمنة في الكتاب من مجالات متنوعة مثل علوم الكمبيوتر والأعمال والتعليم والعديد من المجالات الأخرى، مما يضمن حصول القراء على منظور شامل حول البرمجة باستخدام C#. مع هذا الكتاب، لن يتعلم القراء بناء جملة لغة C# فحسب، بل سيتعلمون أيضًا كيفية تطبيقها بفعالية لحل مشكلات العالم الحقيقي.",
+                    // Persian
+                    "فارسی": "علاوه بر این، کتاب به گونه ای طراحی شده است که آموزنده، جذاب، چالش برانگیز و سرگرم کننده باشد و فرآیند یادگیری را لذت بخش کند. برای تمام دوره های پایه تا متوسط ​​برنامه نویسی ویژوال سی شارپ مناسب است. طیف وسیعی از برنامه‌ها و تمرین‌های نمونه موجود در این کتاب از زمینه‌های متنوعی مانند علوم کامپیوتر، تجارت، آموزش و بسیاری از زمینه‌های دیگر می‌آیند و اطمینان می‌دهند که خوانندگان دیدگاهی جامع در مورد برنامه‌نویسی با سی شارپ به دست می‌آورند. با این کتاب، خوانندگان نه تنها نحو زبان سی شارپ را یاد خواهند گرفت، بلکه نحوه به کارگیری موثر آن برای حل مشکلات دنیای واقعی را نیز یاد خواهند گرفت.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Deitel_and_Deitel_C_Sharp_How_to_Program.webp",
+            "shortDescriptionsForPageBookReviewing": {
+                // English
+                "English": "For all basic-to-intermediate level courses in Visual C# programming. An informative, engaging, challenging and entertaining introduction to Visual C# Created by world-renowned programming instructors Paul and Harvey Deitel, Visual C# How to Program, Sixth Edition introduces students to the world of desktop, mobile and web app development with Microsoft’s Visual C# programming language.",
+                // German
+                "Deutsch": "Für alle Kurse in Visual C#-Programmierung auf Grund- und Mittelstufenniveau. Eine informative, spannende, anspruchsvolle und unterhaltsame Einführung in Visual C#. „Visual C# How to Program“, 6. Ausgabe, wurde von den weltbekannten Programmierlehrern Paul und Harvey Deitel entwickelt und führt Schüler in die Welt der Entwicklung von Desktop-, Mobil- und Web-Apps mit der Programmiersprache Visual C# von Microsoft ein.",
+                // Chinese
+                "中国人": "适用于所有 Visual C# 编程基础到中级课程。内容丰富、引人入胜、富有挑战性和趣味性的 Visual C# 入门书由世界知名的编程讲师 Paul 和 Harvey Deitel 编写，《Visual C# 编程指南第六版》向学生介绍了使用 Microsoft 的 Visual C# 编程语言进行桌面、移动和 Web 应用程序开发的世界。",
+                // Russian
+                "Русский": "Для всех курсов по программированию на Visual C# от базового до среднего уровня. Информативное, увлекательное, сложное и увлекательное введение в Visual C#. Книга «Как программировать на Visual C#», шестое издание, созданная всемирно известными преподавателями программирования Полом и Харви Дейтелами, знакомит студентов с миром разработки настольных, мобильных и веб-приложений с помощью программирования Microsoft Visual C#. язык.",
+                // French
+                "Français": "Pour tous les cours de niveau basique à intermédiaire en programmation Visual C#. Une introduction informative, engageante, stimulante et divertissante à Visual C#. Créée par les instructeurs de programmation de renommée mondiale Paul et Harvey Deitel, Visual C# How to Program, Sixth Edition présente aux étudiants le monde du développement d'applications de bureau, mobiles et Web avec la programmation Visual C# de Microsoft. langue.",
+                // Japanese
+                "日本語": "Visual C# プログラミングの基礎から中級レベルのすべてのコース向け。情報満載で、魅力的で、やりがいがあり、楽しい Visual C# 入門書。世界的に有名なプログラミング インストラクターの Paul と Harvey Deitel が作成した「Visual C# How to Program, Sixth Edition」は、学生に Microsoft の Visual C# プログラミング言語を使用したデスクトップ、モバイル、Web アプリ開発の世界を紹介します。",
+                // Korean
+                "한국인": "Visual C# 프로그래밍의 모든 기초부터 중급 수준 과정에 적합합니다. 유익하고 흥미롭고 도전적이며 재미있는 Visual C# 소개 세계적으로 유명한 프로그래밍 강사인 Paul Deitel과 Harvey Deitel이 만든 Visual C# 프로그래밍 방법, 6판은 학생들에게 Microsoft의 Visual C# 프로그래밍을 사용하여 데스크톱, 모바일 및 웹 앱 개발의 세계를 소개합니다. 언어.",
+                // Spanish
+                "Español": "Para todos los cursos de nivel básico a intermedio en programación en Visual C#. Una introducción informativa, atractiva, desafiante y entretenida a Visual C# Creado por los instructores de programación de renombre mundial Paul y Harvey Deitel, Visual C# Cómo programar, sexta edición presenta a los estudiantes el mundo del desarrollo de aplicaciones de escritorio, móviles y web con la programación Visual C# de Microsoft. idioma.",
+                // Hindi
+                "हिंदी": "विज़ुअल C# प्रोग्रामिंग में सभी बेसिक से इंटरमीडिएट स्तर के पाठ्यक्रमों के लिए। विज़ुअल C# का एक जानकारीपूर्ण, आकर्षक, चुनौतीपूर्ण और मनोरंजक परिचय विश्व-प्रसिद्ध प्रोग्रामिंग प्रशिक्षकों पॉल और हार्वे डीटेल द्वारा निर्मित, विज़ुअल C# हाउ टू प्रोग्राम, छठा संस्करण छात्रों को Microsoft की विज़ुअल C# प्रोग्रामिंग भाषा के साथ डेस्कटॉप, मोबाइल और वेब ऐप डेवलपमेंट की दुनिया से परिचित कराता है।",
+                // Portuguese
+                "Português": "Para todos os cursos de nível básico a intermediário em programação Visual C#. Uma introdução informativa, envolvente, desafiadora e divertida ao Visual C# Criado pelos instrutores de programação de renome mundial Paul e Harvey Deitel, Visual C# How to Program, Sexta Edição apresenta aos alunos o mundo do desenvolvimento de aplicativos para desktop, dispositivos móveis e web com a programação Visual C# da Microsoft linguagem.",
+                // Bengali
+                "বাংলা": "ভিজ্যুয়াল C# প্রোগ্রামিং-এর সমস্ত মৌলিক থেকে মধ্যবর্তী স্তরের কোর্সের জন্য। বিশ্ববিখ্যাত প্রোগ্রামিং প্রশিক্ষক পল এবং হার্ভে ডিটেল দ্বারা তৈরি ভিজ্যুয়াল C#-এর একটি তথ্যপূর্ণ, আকর্ষক, চ্যালেঞ্জিং এবং বিনোদনমূলক ভূমিকা, ভিজ্যুয়াল C# How to Program, ষষ্ঠ সংস্করণ মাইক্রোসফ্টের ভিজ্যুয়াল C# প্রোগ্রামিংয়ের সাথে শিক্ষার্থীদের ডেস্কটপ, মোবাইল এবং ওয়েব অ্যাপ বিকাশের জগতে পরিচিত করে। ভাষা.",
+                // Arabic
+                "عَرَبِيّ": "لجميع دورات المستوى الأساسي إلى المتوسط ​​في برمجة Visual C#. مقدمة غنية بالمعلومات وجذابة ومليئة بالتحديات ومسلية لـ Visual C# تم إنشاؤها بواسطة مدرسي البرمجة المشهورين عالميًا بول وهارفي ديتل، Visual C# كيفية البرمجة، الإصدار السادس يقدم للطلاب عالم تطوير تطبيقات سطح المكتب والهاتف المحمول والويب باستخدام برمجة Visual C# من Microsoft لغة.",
+                // Persian
+                "فارسی": "برای تمام دوره های پایه تا متوسط ​​برنامه نویسی ویژوال سی شارپ. مقدمه ای آموزنده، جذاب، چالش برانگیز و سرگرم کننده برای ویژوال سی شارپ که توسط مدرسان برنامه نویسی مشهور جهان پل و هاروی دیتل ایجاد شده است، ویژوال سی شارپ چگونه برنامه ریزی کنیم، ویرایش ششم دانش آموزان را با دنیای توسعه دسکتاپ، موبایل و برنامه های وب با برنامه نویسی Visual C مایکروسافت آشنا می کند. زبان",
+            },
+        },
+        // Head First Git
+        {
+            "BookName": "Head First Git",
+            "AuthorName": "Raju Gandhi",
+            "Gender": "M", // F: Female, M: Male
+            "EditionNumber": "1st",
+            "PublisherName": "O'REILLY",
+            "ISBN": "978 1 4920 9251 3",
+            "YearNumber": "2022",
+            "PagesNumber": "873",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Beginning Git: Get Going with Git",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 2
+                {
+                    "ChapterName": "Branching Out: Multiple Trains of Thought",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 3
+                {
+                    "ChapterName": "Looking Around: Investigating Your Git Repository",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 4
+                {
+                    "ChapterName": "Undoing: Fixing Your Mistakes",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 5
+                {
+                    "ChapterName": "Collaborating with Git - Part I: Remote Work",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 6
+                {
+                    "ChapterName": "Collaborating with Git - Part II: Go, Team, Go!",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 7
+                {
+                    "ChapterName": "Searching Git Repositories: Git a Grep",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 8
+                {
+                    "ChapterName": "Making your life Easier with Git: #ProTips",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "“Head First Git” by Raju Gandhi is a comprehensive guide designed to help readers understand Git from the inside out. The book is part of the well-known “Head First” series, which is celebrated for its visually rich format and engaging, conversational style that aligns with how the brain learns best. By reading this book, learners will move beyond merely following ‘recipes’ or commands found online, to truly grasping the underlying mechanics of Git. This deeper understanding enables them to navigate tight spots and complex situations with confidence.",
+                    // German
+                    "Deutsch": "„Head First Git“ von Raju Gandhi ist ein umfassender Leitfaden, der den Lesern helfen soll, Git von Grund auf zu verstehen. Das Buch ist Teil der bekannten „Head First“-Reihe, die für ihr visuell ansprechendes Format und ihren ansprechenden, gesprächigen Stil bekannt ist, der sich an der Art und Weise orientiert, wie das Gehirn am besten lernt. Durch die Lektüre dieses Buches werden Lernende nicht nur „Rezepte“ oder Befehle befolgen, die sie online finden, sondern die zugrunde liegende Mechanik von Git wirklich verstehen. Dieses tiefere Verständnis ermöglicht es ihnen, schwierige Situationen und komplexe Situationen souverän zu meistern.",
+                    // Chinese
+                    "中国人": "Raju Gandhi 的《Head First Git》是一本全面的指南，旨在帮助读者从内到外了解 Git。这本书是著名的“Head First”系列的一部分，该系列以其丰富的视觉格式和引人入胜的对话风格而闻名，与大脑的最佳学习方式相一致。通过阅读这本书，学习者将不再仅仅遵循在线找到的“食谱”或命令，而是真正掌握 Git 的底层机制。这种更深入的理解使他们能够自信地应对困境和复杂情况。",
+                    // Russian
+                    "Русский": "«Head First Git» Раджу Ганди — это подробное руководство, призванное помочь читателям понять Git изнутри. Книга входит в известную серию «Head First», которая славится своим визуально богатым форматом и увлекательным разговорным стилем, который соответствует тому, как мозг лучше всего учится. Прочитав эту книгу, учащиеся перейдут от простого следования «рецептам» или командам, найденным в Интернете, к настоящему пониманию основной механики Git. Это более глубокое понимание позволяет им уверенно ориентироваться в трудных ситуациях и сложных ситуациях.",
+                    // French
+                    "Français": "« Head First Git » de Raju Gandhi est un guide complet conçu pour aider les lecteurs à comprendre Git de l'intérieur. Le livre fait partie de la célèbre série « Head First », célèbre pour son format visuellement riche et son style de conversation engageant qui correspond à la façon dont le cerveau apprend le mieux. En lisant ce livre, les apprenants ne se contenteront pas de suivre des « recettes » ou des commandes trouvées en ligne, mais comprendront véritablement les mécanismes sous-jacents de Git. Cette compréhension plus approfondie leur permet de naviguer en toute confiance dans des situations difficiles et complexes.",
+                    // Japanese
+                    "日本語": "Raju Gandhi 著の「Head First Git」は、読者が Git を隅々まで理解できるように設計された総合ガイドです。この本は、視覚的に豊かな形式と、脳の学習に最適な魅力的な会話スタイルで定評のある「Head First」シリーズの一部です。この本を読むことで、学習者は単にオンラインで見つかった「レシピ」やコマンドに従うだけでなく、Git の基本的な仕組みを真に理解できるようになります。この深い理解により、困難な状況や複雑な状況にも自信を持って対処できるようになります。",
+                    // Korean
+                    "한국인": "Raju Gandhi가 쓴 “Head First Git”은 독자가 Git을 내부적으로 이해할 수 있도록 고안된 포괄적인 가이드입니다. 이 책은 시각적으로 풍부한 형식과 뇌가 가장 잘 학습하는 방식에 부합하는 매력적인 대화 스타일로 유명한 “Head First” 시리즈의 일부입니다. 이 책을 읽으면 학습자는 단순히 온라인에서 찾을 수 있는 '레시피'나 명령을 따르는 것 이상으로 Git의 기본 메커니즘을 진정으로 이해할 수 있습니다. 이러한 깊은 이해를 통해 그들은 어려운 지점과 복잡한 상황을 자신있게 탐색할 수 있습니다.",
+                    // Spanish
+                    "Español": "“Head First Git” de Raju Gandhi es una guía completa diseñada para ayudar a los lectores a comprender Git desde adentro hacia afuera. El libro es parte de la conocida serie “Head First”, que se celebra por su formato visualmente rico y su estilo conversacional atractivo que se alinea con la forma en que el cerebro aprende mejor. Al leer este libro, los estudiantes irán más allá de simplemente seguir “recetas” o comandos encontrados en línea, para comprender verdaderamente la mecánica subyacente de Git. Esta comprensión más profunda les permite navegar por momentos difíciles y situaciones complejas con confianza.",
+                    // Hindi
+                    "हिंदी": "राजू गांधी द्वारा लिखित “हेड फर्स्ट गिट” एक व्यापक गाइड है जिसे पाठकों को गिट को अंदर से बाहर तक समझने में मदद करने के लिए डिज़ाइन किया गया है। यह पुस्तक प्रसिद्ध “हेड फर्स्ट” श्रृंखला का हिस्सा है, जिसे इसके विज़ुअल समृद्ध प्रारूप और आकर्षक, संवादात्मक शैली के लिए जाना जाता है जो मस्तिष्क के सीखने के तरीके से सबसे अच्छी तरह मेल खाती है। इस पुस्तक को पढ़कर, शिक्षार्थी केवल ऑनलाइन पाए जाने वाले ‘नुस्खे’ या आदेशों का पालन करने से आगे बढ़कर, गिट के अंतर्निहित यांत्रिकी को वास्तव में समझ पाएंगे। यह गहरी समझ उन्हें मुश्किल परिस्थितियों और जटिल परिस्थितियों को आत्मविश्वास के साथ नेविगेट करने में सक्षम बनाती है।",
+                    // Portuguese
+                    "Português": "“Head First Git” de Raju Gandhi é um guia completo projetado para ajudar os leitores a entender o Git de dentro para fora. O livro faz parte da conhecida série “Head First”, que é celebrada por seu formato visualmente rico e estilo conversacional envolvente que se alinha com a forma como o cérebro aprende melhor. Ao ler este livro, os alunos irão além de apenas seguir “receitas” ou comandos encontrados online, para realmente compreenderem a mecânica subjacente do Git. Essa compreensão mais profunda lhes permite navegar em situações difíceis e complexas com confiança.",
+                    // Bengali
+                    "বাংলা": "রাজু গান্ধীর “হেড ফার্স্ট গিট” হল একটি বিস্তৃত নির্দেশিকা যা পাঠকদের গিটকে ভেতর থেকে বুঝতে সাহায্য করার জন্য ডিজাইন করা হয়েছে। বইটি সুপরিচিত “হেড ফার্স্ট” সিরিজের অংশ, যা এর দৃশ্যত সমৃদ্ধ বিন্যাস এবং আকর্ষক, কথোপকথন শৈলীর জন্য পালিত হয় যা মস্তিষ্ক কীভাবে সবচেয়ে ভাল শেখে তার সাথে সারিবদ্ধ করে। এই বইটি পড়ার মাধ্যমে, শিক্ষার্থীরা গিটের অন্তর্নিহিত মেকানিক্সকে সত্যিকার অর্থে উপলব্ধি করতে, অনলাইনে পাওয়া ‘রেসিপি’ বা কমান্ডগুলি অনুসরণ করার বাইরে চলে যাবে। এই গভীর উপলব্ধি তাদের আঁটসাঁট দাগ এবং জটিল পরিস্থিতিতে আত্মবিশ্বাসের সাথে নেভিগেট করতে সক্ষম করে।",
+                    // Arabic
+                    "عَرَبِيّ": "“Head First Git” بقلم Raju Gandhi هو دليل شامل مصمم لمساعدة القراء على فهم Git من الداخل إلى الخارج. يعد الكتاب جزءًا من سلسلة “Head First” الشهيرة، والتي يتم الاحتفال بها لشكلها الغني بصريًا وأسلوب المحادثة الجذاب الذي يتماشى مع كيفية تعلم الدماغ بشكل أفضل. من خلال قراءة هذا الكتاب، سينتقل المتعلمون إلى ما هو أبعد من مجرد اتباع “الوصفات” أو الأوامر الموجودة عبر الإنترنت، إلى فهم الآليات الأساسية لـ Git حقًا. وهذا الفهم الأعمق يمكّنهم من التنقل في النقاط الصعبة والمواقف المعقدة بثقة.",
+                    // Persian
+                    "فارسی": "“Head First Git” توسط راجو گاندی یک راهنمای جامع است که برای کمک به خوانندگان برای درک Git از درون به بیرون طراحی شده است. این کتاب بخشی از مجموعه معروف “Head First” است که به دلیل قالب بصری غنی و سبک مکالمه جذاب و جذاب که با نحوه یادگیری مغز به بهترین شکل مطابقت دارد، تحسین شده است. با خواندن این کتاب، فراگیران فراتر از پیروی از «دستورالعمل‌ها» یا دستورات موجود در اینترنت می‌روند تا مکانیک زیربنایی Git را درک کنند. این درک عمیق‌تر آنها را قادر می‌سازد تا نقاط تنگ و موقعیت‌های پیچیده را با اعتماد به نفس طی کنند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "Readers of “Head First Git” will gain a mastery of Git’s fundamental concepts, such as branches, merges, commit messages, search, and utilities. The book emphasizes not just the ‘how’ but also the ‘why’ behind Git’s operations, providing a more intuitive understanding of the tool. Additionally, it covers best practices for collaborative work, allowing readers to unlock the full potential of Git in team settings. The hands-on approach, with numerous exercises, ensures that readers don’t just passively consume information but actively engage with the material.",
+                    // German
+                    "Deutsch": "Leser von „Head First Git“ erlernen die grundlegenden Konzepte von Git, wie z. B. Branches, Merges, Commit-Nachrichten, Suche und Dienstprogramme. Das Buch betont nicht nur das „Wie“, sondern auch das „Warum“ hinter den Vorgängen von Git und vermittelt so ein intuitiveres Verständnis des Tools. Darüber hinaus behandelt es Best Practices für die Zusammenarbeit, sodass Leser das volle Potenzial von Git in Teamumgebungen ausschöpfen können. Der praktische Ansatz mit zahlreichen Übungen stellt sicher, dass Leser Informationen nicht nur passiv aufnehmen, sondern sich aktiv mit dem Material auseinandersetzen.",
+                    // Chinese
+                    "中国人": "《Head First Git》的读者将掌握 Git 的基本概念，例如分支、合并、提交消息、搜索和实用程序。本书不仅强调 Git 操作背后的“如何”而且强调“为什么”，从而更直观地了解该工具。此外，它还涵盖了协作工作的最佳实践，使读者能够在团队环境中充分发挥 Git 的潜力。实践方法和大量练习确保读者不仅仅是被动地获取信息，而是积极地参与材料。",
+                    // Russian
+                    "Русский": "Читатели «Head First Git» познакомятся с фундаментальными концепциями Git, такими как ветвления, слияния, сообщения фиксации, поиск и утилиты. В книге подчеркивается не только «как», но и «почему», лежащая в основе операций Git, обеспечивая более интуитивное понимание этого инструмента. Кроме того, в нем рассматриваются лучшие практики совместной работы, что позволяет читателям раскрыть весь потенциал Git в командной работе. Практический подход с многочисленными упражнениями гарантирует, что читатели не просто пассивно потребляют информацию, а активно взаимодействуют с материалом.",
+                    // French
+                    "Français": "Les lecteurs de « Head First Git » acquerront une maîtrise des concepts fondamentaux de Git, tels que les branches, les fusions, les messages de validation, la recherche et les utilitaires. Le livre met l’accent non seulement sur le « comment », mais également sur le « pourquoi » des opérations de Git, offrant ainsi une compréhension plus intuitive de l’outil. De plus, il couvre les meilleures pratiques en matière de travail collaboratif, permettant aux lecteurs de libérer tout le potentiel de Git en équipe. L’approche pratique, avec de nombreux exercices, garantit que les lecteurs ne se contentent pas de consommer passivement les informations mais s’engagent activement dans le matériel.",
+                    // Japanese
+                    "日本語": "「Head First Git」の読者は、ブランチ、マージ、コミット メッセージ、検索、ユーティリティなどの Git の基本概念を習得できます。本書では、Git の操作の「方法」だけでなく「理由」にも重点を置いており、ツールをより直感的に理解できます。さらに、共同作業のベスト プラクティスも取り上げており、チーム設定で Git の潜在能力を最大限に引き出すことができます。多数の演習を含む実践的なアプローチにより、読者は受動的に情報を消費するのではなく、資料に積極的に関与できます。",
+                    // Korean
+                    "한국인": "“Head First Git”의 독자는 분기, 병합, 커밋 메시지, 검색 및 유틸리티와 같은 Git의 기본 개념을 숙지하게 됩니다. 이 책은 Git의 운영 이면에 있는 '어떻게'뿐만 아니라 '이유'도 강조하여 도구에 대한 보다 직관적인 이해를 제공합니다. 또한 공동 작업에 대한 모범 사례를 다루므로 독자는 팀 설정에서 Git의 잠재력을 최대한 활용할 수 있습니다. 수많은 연습을 통한 실습 접근 방식을 통해 독자는 정보를 수동적으로 소비할 뿐만 아니라 자료에 적극적으로 참여할 수 있습니다.",
+                    // Spanish
+                    "Español": "Los lectores de “Head First Git” dominarán los conceptos fundamentales de Git, como ramas, fusiones, mensajes de confirmación, búsqueda y utilidades. El libro enfatiza no sólo el “cómo” sino también el “por qué” detrás de las operaciones de Git, proporcionando una comprensión más intuitiva de la herramienta. Además, cubre las mejores prácticas para el trabajo colaborativo, lo que permite a los lectores desbloquear todo el potencial de Git en entornos de equipo. El enfoque práctico, con numerosos ejercicios, garantiza que los lectores no solo consuman información pasivamente sino que interactúen activamente con el material.",
+                    // Hindi
+                    "हिंदी": "“हेड फर्स्ट गिट” के पाठकों को गिट की मूलभूत अवधारणाओं, जैसे कि शाखाएँ, मर्ज, कमिट संदेश, खोज और उपयोगिताओं में महारत हासिल होगी। पुस्तक न केवल ‘कैसे’ बल्कि गिट के संचालन के पीछे ‘क्यों’ पर भी जोर देती है, जिससे टूल की अधिक सहज समझ मिलती है। इसके अतिरिक्त, यह सहयोगी कार्य के लिए सर्वोत्तम प्रथाओं को शामिल करता है, जिससे पाठकों को टीम सेटिंग में गिट की पूरी क्षमता को अनलॉक करने की अनुमति मिलती है। कई अभ्यासों के साथ व्यावहारिक दृष्टिकोण यह सुनिश्चित करता है कि पाठक केवल निष्क्रिय रूप से जानकारी का उपभोग न करें बल्कि सामग्री के साथ सक्रिय रूप से जुड़ें।",
+                    // Portuguese
+                    "Português": "Os leitores de “Head First Git” ganharão domínio dos conceitos fundamentais do Git, como ramificações, mesclagens, mensagens de commit, pesquisa e utilitários. O livro enfatiza não apenas o “como”, mas também o “porquê” por trás das operações do Git, proporcionando uma compreensão mais intuitiva da ferramenta. Além disso, aborda as melhores práticas para trabalho colaborativo, permitindo aos leitores desbloquear todo o potencial do Git em ambientes de equipe. A abordagem prática, com vários exercícios, garante que os leitores não apenas consumam informações passivamente, mas também se envolvam ativamente com o material.",
+                    // Bengali
+                    "বাংলা": "“হেড ফার্স্ট গিট”-এর পাঠকরা গিট-এর মৌলিক ধারণা যেমন শাখা, একত্রীকরণ, কমিট মেসেজ, অনুসন্ধান এবং ইউটিলিটিগুলির উপর দক্ষতা অর্জন করবে। বইটি শুধু 'কীভাবে' নয় বরং Git-এর ক্রিয়াকলাপগুলির পিছনে 'কেন'-কেও জোর দেয়, সরঞ্জামটির আরও স্বজ্ঞাত বোঝার ব্যবস্থা করে। উপরন্তু, এটি সহযোগী কাজের জন্য সর্বোত্তম অনুশীলনগুলিকে কভার করে, পাঠকদের দল সেটিংসে গিট-এর সম্পূর্ণ সম্ভাবনা আনলক করতে দেয়। হ্যান্ডস-অন পদ্ধতি, অসংখ্য অনুশীলনের সাথে, নিশ্চিত করে যে পাঠকরা কেবল নিষ্ক্রিয়ভাবে তথ্য গ্রহণ করে না বরং সক্রিয়ভাবে উপাদানের সাথে জড়িত থাকে।",
+                    // Arabic
+                    "عَرَبِيّ": "سوف يكتسب قراء “Head First Git” إتقانًا لمفاهيم Git الأساسية، مثل الفروع والدمج ورسائل الالتزام والبحث والأدوات المساعدة. لا يركز الكتاب على ”كيف“ فحسب، بل أيضًا على ”لماذا“ وراء عمليات Git، مما يوفر فهمًا أكثر سهولة للأداة. بالإضافة إلى ذلك، فإنه يغطي أفضل الممارسات للعمل التعاوني، مما يسمح للقراء بإطلاق العنان للإمكانات الكاملة لـ Git في إعدادات الفريق. يضمن النهج العملي، مع العديد من التمارين، أن القراء لا يستهلكون المعلومات بشكل سلبي فحسب، بل يتفاعلون بشكل نشط مع المادة.",
+                    // Persian
+                    "فارسی": "خوانندگان «Head First Git» بر مفاهیم اساسی Git مانند شاخه‌ها، ادغام‌ها، commit پیام‌ها، جستجو و برنامه‌های کاربردی تسلط خواهند داشت. این کتاب نه تنها بر 'چگونه' بلکه بر 'چرا' پشت عملیات Git نیز تأکید می کند و درک شهودی تری از ابزار ارائه می دهد. علاوه بر این، بهترین شیوه‌های کار مشترک را پوشش می‌دهد و به خوانندگان اجازه می‌دهد تا پتانسیل کامل Git را در تنظیمات تیم باز کنند. رویکرد عملی، با تمرین‌های متعدد، تضمین می‌کند که خوانندگان نه تنها اطلاعات را منفعلانه مصرف نمی‌کنند، بلکه فعالانه با مطالب درگیر می‌شوند.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "The advantages of reading “Head First Git” are manifold. Firstly, the book’s unique teaching methodology makes learning about Git an enjoyable and effective experience. The use of stories, analogies, and visual aids helps in retaining complex information. Secondly, the practical exercises included in the book offer real-world applicability, ensuring that readers can apply their knowledge immediately. Lastly, the book’s approach to explaining the ‘why’ behind the ‘how’ equips readers with a problem-solving mindset, making them more adept at overcoming challenges they may encounter while using Git.",
+                    // German
+                    "Deutsch": "Die Vorteile der Lektüre von „Head First Git“ sind vielfältig. Erstens macht die einzigartige Lehrmethode des Buches das Lernen über Git zu einer unterhaltsamen und effektiven Erfahrung. Die Verwendung von Geschichten, Analogien und visuellen Hilfsmitteln hilft dabei, komplexe Informationen zu behalten. Zweitens bieten die im Buch enthaltenen praktischen Übungen praktische Anwendbarkeit und stellen sicher, dass die Leser ihr Wissen sofort anwenden können. Schließlich vermittelt der Ansatz des Buches, das „Warum“ hinter dem „Wie“ zu erklären, den Lesern eine Problemlösungsmentalität, sodass sie die Herausforderungen, denen sie bei der Verwendung von Git begegnen können, besser bewältigen können.",
+                    // Chinese
+                    "中国人": "阅读《Head First Git》的好处是多方面的。首先，本书独特的教学方法使学习 Git 成为一种愉快而有效的体验。故事、类比和视觉辅助的使用有助于保留复杂的信息。其次，本书包含的实践练习提供了现实世界的适用性，确保读者可以立即应用他们的知识。最后，本书解释“如何”背后的“为什么”的方法使读者具备解决问题​​的心态，使他们更善于克服使用 Git 时可能遇到的挑战。",
+                    // Russian
+                    "Русский": "Преимущества чтения «Head First Git» многочисленны. Во-первых, уникальная методика преподавания книги делает изучение Git приятным и эффективным занятием. Использование историй, аналогий и наглядных пособий помогает запомнить сложную информацию. Во-вторых, практические упражнения, включенные в книгу, предлагают применимость в реальной жизни, гарантируя, что читатели смогут немедленно применить свои знания. Наконец, подход книги к объяснению «почему» за «как» дает читателям мышление, позволяющее решать проблемы, делая их более умелыми в преодолении проблем, с которыми они могут столкнуться при использовании Git.",
+                    // French
+                    "Français": "Les avantages de lire « Head First Git » sont multiples. Premièrement, la méthodologie pédagogique unique du livre fait de l’apprentissage de Git une expérience agréable et efficace. L'utilisation d'histoires, d'analogies et d'aides visuelles aide à conserver des informations complexes. Deuxièmement, les exercices pratiques inclus dans le livre sont applicables dans le monde réel, garantissant que les lecteurs peuvent appliquer leurs connaissances immédiatement. Enfin, l’approche du livre consistant à expliquer le « pourquoi » derrière le « comment » donne aux lecteurs un état d’esprit de résolution de problèmes, les rendant plus aptes à surmonter les défis qu’ils peuvent rencontrer lors de l’utilisation de Git.",
+                    // Japanese
+                    "日本語": "「Head First Git」を読むことの利点は多岐にわたります。まず、この本のユニークな教授法によって、Git の学習が楽しく効果的なものになります。ストーリー、アナロジー、視覚的な補助の使用により、複雑な情報を記憶しやすくなります。次に、この本に含まれる実践的な演習は現実世界での応用性を提供し、読者が知識をすぐに応用できるようにします。最後に、この本は「方法」の背後にある「理由」を説明するアプローチを採用しているため、読者は問題解決の考え方を身に付け、Git の使用中に遭遇する可能性のある課題をより上手に克服できるようになります。",
+                    // Korean
+                    "한국인": "“Head First Git”을 읽는 것의 장점은 다양합니다. 첫째, 이 책의 독특한 교육 방법론은 Git에 대한 학습을 ​​즐겁고 효과적인 경험으로 만듭니다. 이야기, 비유, 시각적 자료를 사용하면 복잡한 정보를 유지하는 데 도움이 됩니다. 둘째, 책에 포함된 실습은 실제 적용 가능성을 제공하므로 독자가 지식을 즉시 적용할 수 있습니다. 마지막으로, '어떻게' 뒤에 있는 '이유'를 설명하는 이 책의 접근 방식은 독자가 문제 해결 사고방식을 갖도록 하여 Git을 사용하는 동안 직면할 수 있는 문제를 극복하는 데 더 능숙하게 만듭니다.",
+                    // Spanish
+                    "Español": "Las ventajas de leer “Head First Git” son múltiples. En primer lugar, la metodología de enseñanza única del libro hace que aprender sobre Git sea una experiencia agradable y eficaz. El uso de historias, analogías y ayudas visuales ayuda a retener información compleja. En segundo lugar, los ejercicios prácticos incluidos en el libro ofrecen aplicabilidad en el mundo real, lo que garantiza que los lectores puedan aplicar sus conocimientos de inmediato. Por último, el enfoque del libro para explicar el “por qué” detrás del “cómo” dota a los lectores de una mentalidad de resolución de problemas, haciéndolos más hábiles para superar los desafíos que pueden encontrar al usar Git.",
+                    // Hindi
+                    "हिंदी": "“हेड फर्स्ट गिट” पढ़ने के कई फायदे हैं। सबसे पहले, पुस्तक की अनूठी शिक्षण पद्धति गिट के बारे में सीखना एक सुखद और प्रभावी अनुभव बनाती है। कहानियों, उपमाओं और दृश्य सहायता का उपयोग जटिल जानकारी को बनाए रखने में मदद करता है। दूसरे, पुस्तक में शामिल व्यावहारिक अभ्यास वास्तविक दुनिया की प्रयोज्यता प्रदान करते हैं, यह सुनिश्चित करते हुए कि पाठक अपने ज्ञान को तुरंत लागू कर सकते हैं। अंत में, ‘कैसे’ के पीछे ‘क्यों’ को समझाने के लिए पुस्तक का दृष्टिकोण पाठकों को समस्या-समाधान मानसिकता से लैस करता है, जिससे वे गिट का उपयोग करते समय आने वाली चुनौतियों पर काबू पाने में अधिक कुशल बन जाते हैं।",
+                    // Portuguese
+                    "Português": "As vantagens de ler “Head First Git” são múltiplas. Em primeiro lugar, a metodologia de ensino exclusiva do livro torna o aprendizado sobre Git uma experiência agradável e eficaz. O uso de histórias, analogias e recursos visuais ajuda a reter informações complexas. Em segundo lugar, os exercícios práticos incluídos no livro oferecem aplicabilidade no mundo real, garantindo que os leitores possam aplicar os seus conhecimentos imediatamente. Por último, a abordagem do livro para explicar o “porquê” por trás do “como” equipa os leitores com uma mentalidade de resolução de problemas, tornando-os mais aptos a superar os desafios que podem encontrar ao usar o Git.",
+                    // Bengali
+                    "বাংলা": "“হেড ফার্স্ট গিট” পড়ার সুবিধা বহুগুণ। প্রথমত, বইটির অনন্য শিক্ষণ পদ্ধতি গিট সম্পর্কে শেখাকে একটি উপভোগ্য এবং কার্যকর অভিজ্ঞতা করে তোলে। গল্প, উপমা এবং ভিজ্যুয়াল এইডস ব্যবহার জটিল তথ্য ধরে রাখতে সাহায্য করে। দ্বিতীয়ত, বইটিতে অন্তর্ভুক্ত ব্যবহারিক অনুশীলনগুলি বাস্তব-বিশ্বের প্রযোজ্যতা প্রদান করে, যাতে পাঠকরা অবিলম্বে তাদের জ্ঞান প্রয়োগ করতে পারে তা নিশ্চিত করে। অবশেষে, 'কীভাবে' এর পিছনে 'কেন' ব্যাখ্যা করার জন্য বইটির পদ্ধতি পাঠকদের একটি সমস্যা-সমাধানের মানসিকতার সাথে সজ্জিত করে, তাদের গিট ব্যবহার করার সময় তারা যে চ্যালেঞ্জগুলির সম্মুখীন হতে পারে তা কাটিয়ে উঠতে তাদের আরও দক্ষ করে তোলে।",
+                    // Arabic
+                    "عَرَبِيّ": "مزايا قراءة “Head First Git” متعددة. أولاً، منهجية التدريس الفريدة للكتاب تجعل تعلم Git تجربة ممتعة وفعالة. يساعد استخدام القصص والقياسات والوسائل البصرية في الاحتفاظ بالمعلومات المعقدة. ثانيًا، توفر التمارين العملية المضمنة في الكتاب قابلية التطبيق في العالم الحقيقي، مما يضمن أن يتمكن القراء من تطبيق معرفتهم على الفور. وأخيرًا، فإن منهج الكتاب في شرح 'السبب' وراء 'الكيفية' يزود القراء بعقلية حل المشكلات، مما يجعلهم أكثر مهارة في التغلب على التحديات التي قد يواجهونها أثناء استخدام Git.",
+                    // Persian
+                    "فارسی": "مزایای خواندن “Head First Git” بسیار زیاد است. اولاً، روش تدریس منحصر به فرد کتاب، یادگیری در مورد Git را به تجربه ای لذت بخش و مؤثر تبدیل می کند. استفاده از داستان ها، تشبیه ها و وسایل کمک بصری به حفظ اطلاعات پیچیده کمک می کند. ثانیاً، تمرین‌های عملی موجود در کتاب قابلیت کاربرد در دنیای واقعی را ارائه می‌دهند و اطمینان می‌دهند که خوانندگان می‌توانند فوراً دانش خود را به کار گیرند. در نهایت، رویکرد کتاب برای توضیح «چرا» پشت «چگونه»، خوانندگان را با طرز فکر حل مسئله مجهز می‌کند و آنها را در غلبه بر چالش‌هایی که ممکن است در حین استفاده از Git با آن‌ها مواجه شوند، ماهرتر می‌کند.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Head_First_Git.webp",
+            "shortDescriptionsForPageBookReviewing": {
+                // English
+                "English": "Many people who use Git rely on recipes--basic copy-paste commands--without understanding how this version control system actually works. But what do you do if you find yourself in a tight spot? You can't simply wing it. With this unique hands-on guide, you'll learn valuable ways to use Git in many different situations.",
+                // German
+                "Deutsch": "Viele Git-Benutzer verlassen sich auf Rezepte – einfache Kopier- und Einfügebefehle – ohne zu verstehen, wie dieses Versionskontrollsystem tatsächlich funktioniert. Aber was tun Sie, wenn Sie in der Klemme stecken? Sie können nicht einfach improvisieren. Mit diesem einzigartigen praktischen Leitfaden lernen Sie wertvolle Möglichkeiten, Git in vielen verschiedenen Situationen zu verwenden.",
+                // Chinese
+                "中国人": "许多使用 Git 的人都依赖于配方（基本的复制粘贴命令），而不了解这个版本控制系统的实际工作原理。但是，如果你发现自己陷入困境，该怎么办？你不能简单地即兴发挥。通过这本独特的实践指南，你将学到在许多不同情况下使用 Git 的宝贵方法。",
+                // Russian
+                "Русский": "Многие люди, использующие Git, полагаются на рецепты — базовые команды копирования и вставки — не понимая, как на самом деле работает эта система контроля версий. Но что делать, если вы оказались в затруднительном положении? Вы не можете просто так это сделать. Благодаря этому уникальному практическому руководству вы узнаете ценные способы использования Git в самых разных ситуациях.",
+                // French
+                "Français": "De nombreuses personnes qui utilisent Git s'appuient sur des recettes (des commandes de base copier-coller) sans comprendre comment fonctionne réellement ce système de contrôle de version. Mais que faire si vous vous trouvez dans une situation difficile ? Vous ne pouvez pas simplement le piloter. Avec ce guide pratique unique, vous découvrirez de précieuses façons d’utiliser Git dans de nombreuses situations différentes.",
+                // Japanese
+                "日本語": "Git を使用する多くの人は、このバージョン管理システムが実際にどのように機能するかを理解せずに、レシピ (基本的なコピー アンド ペースト コマンド) に頼っています。しかし、窮地に陥ったらどうすればよいでしょうか? 単に場当たり的に対処することはできません。この独自の実践ガイドでは、さまざまな状況で Git を使用するための貴重な方法を学びます。",
+                // Korean
+                "한국인": "Git을 사용하는 많은 사람들은 이 버전 제어 시스템이 실제로 어떻게 작동하는지 이해하지 못한 채 레시피(기본 복사-붙여넣기 명령)에 의존합니다. 하지만 만약 당신이 빡빡한 상황에 처해 있다면 어떻게 하시겠습니까? 단순히 날개를 달 수는 없습니다. 이 독특한 실습 가이드를 통해 다양한 상황에서 Git을 사용하는 귀중한 방법을 배울 수 있습니다.",
+                // Spanish
+                "Español": "Muchas personas que usan Git dependen de recetas (comandos básicos de copiar y pegar) sin comprender cómo funciona realmente este sistema de control de versiones. Pero, ¿qué haces si te encuentras en una situación difícil? No puedes simplemente improvisar. Con esta guía práctica única, aprenderá formas valiosas de utilizar Git en muchas situaciones diferentes.",
+                // Hindi
+                "हिंदी": "Git का उपयोग करने वाले बहुत से लोग रेसिपी पर निर्भर रहते हैं - बुनियादी कॉपी-पेस्ट कमांड - बिना यह समझे कि यह संस्करण नियंत्रण प्रणाली वास्तव में कैसे काम करती है। लेकिन अगर आप खुद को मुश्किल स्थिति में पाते हैं तो आप क्या करेंगे? आप इसे आसानी से नहीं कर सकते। इस अनूठी व्यावहारिक मार्गदर्शिका के साथ, आप कई अलग-अलग स्थितियों में Git का उपयोग करने के मूल्यवान तरीके सीखेंगे।",
+                // Portuguese
+                "Português": "Muitas pessoas que usam Git confiam em receitas – comandos básicos de copiar e colar – sem entender como esse sistema de controle de versão realmente funciona. Mas o que você faz se se encontrar em uma situação difícil? Você não pode simplesmente improvisar. Com este guia prático exclusivo, você aprenderá maneiras valiosas de usar o Git em muitas situações diferentes.",
+                // Bengali
+                "বাংলা": "অনেক লোক যারা গিট ব্যবহার করে রেসিপিগুলির উপর নির্ভর করে - মৌলিক কপি-পেস্ট কমান্ডগুলি - এই সংস্করণ নিয়ন্ত্রণ সিস্টেমটি আসলে কীভাবে কাজ করে তা না বুঝে। কিন্তু আপনি যদি নিজেকে একটি আঁটসাঁট জায়গায় খুঁজে পান তবে আপনি কী করবেন? আপনি কেবল এটি উইং করতে পারবেন না. এই অনন্য হ্যান্ডস-অন গাইডের সাহায্যে, আপনি বিভিন্ন পরিস্থিতিতে গিট ব্যবহার করার মূল্যবান উপায় শিখবেন।",
+                // Arabic
+                "عَرَبِيّ": "يعتمد العديد من الأشخاص الذين يستخدمون Git على الوصفات - أوامر النسخ واللصق الأساسية - دون فهم كيفية عمل نظام التحكم في الإصدار هذا فعليًا. ولكن ماذا تفعل إذا وجدت نفسك في موقف صعب؟ لا يمكنك ببساطة الجناح. باستخدام هذا الدليل العملي الفريد، ستتعلم طرقًا قيمة لاستخدام Git في العديد من المواقف المختلفة.",
+                // Persian
+                "فارسی": "بسیاری از افرادی که از Git استفاده می کنند به دستور العمل ها - دستورات اصلی کپی پیست - تکیه می کنند بدون اینکه بفهمند این سیستم کنترل نسخه واقعاً چگونه کار می کند. اما اگر در تنگنا قرار گرفتید چه کار می کنید؟ شما نمی توانید به سادگی آن را بال کنید. با این راهنمای عملی منحصربفرد، روش‌های ارزشمندی را برای استفاده از Git در موقعیت‌های مختلف یاد خواهید گرفت.",
+            },
+        },
+        // Learn Django in 24 Hours
+        {
+            "BookName": "Learn Django in 24 Hours",
+            "AuthorName": "S. Basu",
+            "Gender": "M", // F: Female, M: Male
+            "EditionNumber": "1st",
+            "PublisherName": "Independently Published",
+            "ISBN": "979 8 5040 8230 1",
+            "YearNumber": "2021",
+            "PagesNumber": "181",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "HTML and CSS",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 2
+                {
+                    "ChapterName": "Introduction to JavaScript",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 3
+                {
+                    "ChapterName": "How to Mobile Optimize a Website",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 4
+                {
+                    "ChapterName": "Introduction to Python Programming",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 5
+                {
+                    "ChapterName": "Django",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "'Learn Django in 24 Hours' by S. Basu is a beginner-friendly guide that promises to equip readers with the knowledge to build web applications using HTML, CSS, JavaScript, Python, and the Django Web Framework. The book is structured to be a simple, concise, and easy guide, making it accessible to individuals who are new to web development or those looking to transition into using Django for their projects. It's designed to make the learning process enjoyable, informative, and interesting, with thorough examples and codes to support the concepts presented.",
+                    // German
+                    "Deutsch": "„Learn Django in 24 Hours“ von S. Basu ist ein anfängerfreundlicher Leitfaden, der den Lesern das Wissen vermittelt, um Webanwendungen mit HTML, CSS, JavaScript, Python und dem Django Web Framework zu erstellen. Das Buch ist als einfacher, prägnanter und leicht verständlicher Leitfaden aufgebaut und somit für Personen zugänglich, die neu in der Webentwicklung sind oder für diejenigen, die für ihre Projekte auf Django umsteigen möchten. Es ist so konzipiert, dass der Lernprozess unterhaltsam, informativ und interessant ist, mit ausführlichen Beispielen und Codes zur Unterstützung der vorgestellten Konzepte.",
+                    // Chinese
+                    "中国人": "S. Basu 撰写的《24 小时学会 Django》是一本适合初学者的指南，承诺让读者掌握使用 HTML、CSS、JavaScript、Python 和 Django Web 框架构建 Web 应用程序的知识。本书结构简洁、简明易懂，适合刚接触 Web 开发或希望过渡到使用 Django 进行项目开发的个人。它旨在让学习过程变得愉快、信息丰富且有趣，并提供详尽的示例和代码来支持所提出的概念。",
+                    // Russian
+                    "Русский": "«Изучите Django за 24 часа» С. Басу — это руководство для начинающих, которое обещает дать читателям знания по созданию веб-приложений с использованием HTML, CSS, JavaScript, Python и Django Web Framework. Книга построена так, чтобы представлять собой простое, краткое и легкое руководство, делающее ее доступной для людей, которые плохо знакомы с веб-разработкой или тех, кто хочет перейти на использование Django в своих проектах. Он разработан, чтобы сделать процесс обучения приятным, информативным и интересным, с подробными примерами и кодами, подтверждающими представленные концепции.",
+                    // French
+                    "Français": "« Apprenez Django en 24 heures » de S. Basu est un guide convivial pour les débutants qui promet de doter les lecteurs des connaissances nécessaires pour créer des applications Web en utilisant HTML, CSS, JavaScript, Python et Django Web Framework. Le livre est structuré pour être un guide simple, concis et facile, le rendant accessible aux personnes qui débutent dans le développement Web ou à celles qui cherchent à utiliser Django pour leurs projets. Il est conçu pour rendre le processus d'apprentissage agréable, informatif et intéressant, avec des exemples et des codes détaillés pour soutenir les concepts présentés.",
+                    // Japanese
+                    "日本語": "S. Basu 著の「Learn Django in 24 Hours」は、HTML、CSS、JavaScript、Python、Django Web Framework を使用して Web アプリケーションを構築するための知識を読者に提供することを約束する初心者向けのガイドです。この本は、Web 開発の初心者や、プロジェクトで Django の使用に移行しようとしている人にとって理解しやすい、シンプルで簡潔、かつわかりやすいガイドとして構成されています。提示された概念をサポートする詳細な例とコードを使用して、学習プロセスを楽しく、有益で興味深いものにするように設計されています。",
+                    // Korean
+                    "한국인": "S. Basu의 '24시간 안에 Django 배우기'는 HTML, CSS, JavaScript, Python 및 Django 웹 프레임워크를 사용하여 웹 애플리케이션을 구축하는 데 필요한 지식을 독자에게 제공하는 초보자 친화적인 가이드입니다. 이 책은 간단하고 간결하며 쉬운 가이드로 구성되어 웹 개발이 처음이거나 프로젝트에 Django를 사용하려는 사람들이 쉽게 접근할 수 있습니다. 제시된 개념을 뒷받침하는 철저한 예제와 코드를 통해 학습 과정을 즐겁고 유익하며 흥미롭게 만들도록 설계되었습니다.",
+                    // Spanish
+                    "Español": "'Aprenda Django en 24 horas' de S. Basu es una guía para principiantes que promete equipar a los lectores con el conocimiento para crear aplicaciones web utilizando HTML, CSS, JavaScript, Python y Django Web Framework. El libro está estructurado para ser una guía simple, concisa y fácil, haciéndolo accesible a personas que son nuevas en el desarrollo web o aquellos que buscan hacer la transición al uso de Django para sus proyectos. Está diseñado para hacer que el proceso de aprendizaje sea agradable, informativo e interesante, con ejemplos y códigos completos para respaldar los conceptos presentados.",
+                    // Hindi
+                    "हिंदी": "एस. बसु द्वारा लिखित '24 घंटे में Django सीखें' एक शुरुआती-अनुकूल मार्गदर्शिका है जो पाठकों को HTML, CSS, JavaScript, Python और Django वेब फ्रेमवर्क का उपयोग करके वेब एप्लिकेशन बनाने के ज्ञान से लैस करने का वादा करती है। पुस्तक को एक सरल, संक्षिप्त और आसान मार्गदर्शिका के रूप में संरचित किया गया है, जो इसे उन व्यक्तियों के लिए सुलभ बनाता है जो वेब विकास के लिए नए हैं या जो अपनी परियोजनाओं के लिए Django का उपयोग करना चाहते हैं। इसे सीखने की प्रक्रिया को सुखद, जानकारीपूर्ण और दिलचस्प बनाने के लिए डिज़ाइन किया गया है, जिसमें प्रस्तुत अवधारणाओं का समर्थन करने के लिए विस्तृत उदाहरण और कोड हैं।",
+                    // Portuguese
+                    "Português": "'Aprenda Django em 24 horas' de S. Basu é um guia para iniciantes que promete equipar os leitores com o conhecimento para construir aplicativos da web usando HTML, CSS, JavaScript, Python e Django Web Framework. O livro está estruturado para ser um guia simples, conciso e fácil, tornando-o acessível para indivíduos que são novos no desenvolvimento web ou para aqueles que desejam fazer a transição para o uso do Django em seus projetos. Ele foi projetado para tornar o processo de aprendizagem agradável, informativo e interessante, com exemplos e códigos completos para apoiar os conceitos apresentados.",
+                    // Bengali
+                    "বাংলা": "এস. বসুর '24 ঘন্টায় জ্যাঙ্গো শিখুন' হল একটি শিক্ষানবিস-বান্ধব গাইড যা পাঠকদের এইচটিএমএল, সিএসএস, জাভাস্ক্রিপ্ট, পাইথন এবং জ্যাঙ্গো ওয়েব ফ্রেমওয়ার্ক ব্যবহার করে ওয়েব অ্যাপ্লিকেশন তৈরি করার জ্ঞান দিয়ে সজ্জিত করার প্রতিশ্রুতি দেয়। বইটি একটি সহজ, সংক্ষিপ্ত এবং সহজ নির্দেশিকা হিসাবে গঠন করা হয়েছে, যা ওয়েব ডেভেলপমেন্টে নতুন বা যারা তাদের প্রজেক্টের জন্য জ্যাঙ্গো ব্যবহার করতে চান তাদের জন্য এটি অ্যাক্সেসযোগ্য করে তোলে। উপস্থাপিত ধারণাগুলিকে সমর্থন করার জন্য পুঙ্খানুপুঙ্খ উদাহরণ এবং কোড সহ শেখার প্রক্রিয়াটিকে উপভোগ্য, তথ্যপূর্ণ এবং আকর্ষণীয় করার জন্য এটি ডিজাইন করা হয়েছে।",
+                    // Arabic
+                    "عَرَبِيّ": "'تعلم Django في 24 ساعة' بقلم S. Basu هو دليل مناسب للمبتدئين يعد بتزويد القراء بالمعرفة اللازمة لبناء تطبيقات الويب باستخدام HTML وCSS وJavaScript وPython وDjango Web Framework. تم تصميم الكتاب ليكون دليلًا بسيطًا وموجزًا ​​وسهلاً، مما يجعله في متناول الأفراد الجدد في مجال تطوير الويب أو أولئك الذين يتطلعون إلى الانتقال إلى استخدام Django في مشاريعهم. لقد تم تصميمه لجعل عملية التعلم ممتعة وغنية بالمعلومات ومثيرة للاهتمام، مع أمثلة وأكواد شاملة لدعم المفاهيم المقدمة.",
+                    // Persian
+                    "فارسی": "'یادگیری جنگو در 24 ساعت' توسط S. Basu یک راهنمای مبتدی است که قول می دهد خوانندگان را با دانش ساخت برنامه های وب با استفاده از HTML، CSS، جاوا اسکریپت، پایتون، و چارچوب وب جنگو مجهز کند. این کتاب به گونه‌ای طراحی شده است که راهنمای ساده، مختصر و آسانی باشد، که آن را برای افرادی که تازه در توسعه وب هستند یا کسانی که به دنبال استفاده از جنگو برای پروژه‌های خود هستند قابل دسترسی است. این طراحی شده است تا فرآیند یادگیری را لذت بخش، آموزنده و جالب کند، با مثال ها و کدهای کامل برای پشتیبانی از مفاهیم ارائه شده.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "One of the key advantages of reading 'Learn Django in 24 Hours' is its approach to teaching. The author, S. Basu, has laid out the content in a manner that allows for a quick yet comprehensive understanding of Django. This is particularly beneficial for readers who are short on time but want to gain a solid grasp of building web applications. The book's format is also conducive to learning, with its focus on practical examples that readers can follow along and implement themselves.",
+                    // German
+                    "Deutsch": "Einer der Hauptvorteile der Lektüre von „Learn Django in 24 Hours“ ist sein Lehransatz. Der Autor, S. Basu, hat den Inhalt so angelegt, dass ein schnelles und dennoch umfassendes Verständnis von Django möglich ist. Dies ist besonders für Leser von Vorteil, die wenig Zeit haben, aber ein solides Verständnis für die Erstellung von Webanwendungen erlangen möchten. Das Format des Buches fördert das Lernen ebenfalls, da es sich auf praktische Beispiele konzentriert, die die Leser nachvollziehen und selbst umsetzen können.",
+                    // Chinese
+                    "中国人": "阅读《24 小时学会 Django》的主要优势之一是其教学方法。作者 S. Basu 以一种允许快速而全面地了解 Django 的方式安排内容。这对于时间紧迫但想要扎实掌握构建 Web 应用程序的读者尤其有益。本书的格式也有利于学习，重点关注读者可以跟随并自己实现的实际示例。",
+                    // Russian
+                    "Русский": "Одним из ключевых преимуществ книги «Изучите Django за 24 часа» является ее подход к преподаванию. Автор, С. Басу, изложил содержание таким образом, чтобы обеспечить быстрое, но полное понимание Django. Это особенно полезно для читателей, у которых мало времени, но которые хотят получить четкое представление о создании веб-приложений. Формат книги также способствует обучению, поскольку в ней основное внимание уделяется практическим примерам, которым читатели могут следовать и применять самостоятельно.",
+                    // French
+                    "Français": "L'un des principaux avantages de la lecture de « Apprenez Django en 24 heures » est son approche pédagogique. L'auteur, S. Basu, a présenté le contenu de manière à permettre une compréhension rapide mais complète de Django. Ceci est particulièrement bénéfique pour les lecteurs qui manquent de temps mais souhaitent acquérir une solide maîtrise de la création d’applications Web. Le format du livre est également propice à l'apprentissage, en mettant l'accent sur des exemples pratiques que les lecteurs peuvent suivre et mettre en œuvre eux-mêmes.",
+                    // Japanese
+                    "日本語": "「24 時間で Django を学ぶ」を読むことの大きな利点の 1 つは、その指導方法です。著者の S. Basu は、Django を素早くかつ包括的に理解できるようにコンテンツを作成しました。これは、時間があまりないが Web アプリケーションの構築をしっかりと理解したい読者にとって特に有益です。この本の形式も学習に役立ち、読者が従って自分で実装できる実用的な例に重点を置いています。",
+                    // Korean
+                    "한국인": "'24시간 안에 Django 배우기'를 읽는 주요 이점 중 하나는 교육에 대한 접근 방식입니다. 저자 S. Basu는 Django를 빠르고 포괄적으로 이해할 수 있도록 내용을 구성했습니다. 이는 시간이 부족하지만 웹 애플리케이션 구축에 대한 확실한 이해를 원하는 독자에게 특히 유용합니다. 이 책의 형식은 독자가 직접 따라하고 구현할 수 있는 실제 사례에 중점을 두어 학습에도 도움이 됩니다.",
+                    // Spanish
+                    "Español": "Una de las ventajas clave de leer 'Aprende Django en 24 horas' es su enfoque de enseñanza. El autor, S. Basu, ha presentado el contenido de una manera que permite una comprensión rápida pero completa de Django. Esto es particularmente beneficioso para los lectores que tienen poco tiempo pero desean obtener una comprensión sólida de la creación de aplicaciones web. El formato del libro también favorece el aprendizaje, ya que se centra en ejemplos prácticos que los lectores pueden seguir e implementar por sí mismos.",
+                    // Hindi
+                    "हिंदी": "'24 घंटे में Django सीखें' पढ़ने का एक मुख्य लाभ यह है कि इसे पढ़ाना बहुत आसान है। लेखक एस. बसु ने इस पुस्तक की विषय-वस्तु को इस तरह से प्रस्तुत किया है कि Django को जल्दी से जल्दी और व्यापक रूप से समझा जा सके। यह उन पाठकों के लिए विशेष रूप से लाभदायक है जिनके पास समय की कमी है, लेकिन वे वेब एप्लिकेशन बनाने की ठोस समझ हासिल करना चाहते हैं। पुस्तक का प्रारूप भी सीखने के लिए अनुकूल है, जिसमें व्यावहारिक उदाहरणों पर ध्यान केंद्रित किया गया है, जिनका पाठक अनुसरण कर सकते हैं और उन्हें स्वयं लागू कर सकते हैं।",
+                    // Portuguese
+                    "Português": "Uma das principais vantagens de ler 'Aprenda Django em 24 horas' é a sua abordagem de ensino. O autor, S. Basu, expôs o conteúdo de uma maneira que permite uma compreensão rápida, porém abrangente, do Django. Isso é particularmente benéfico para leitores que têm pouco tempo, mas desejam obter uma compreensão sólida da construção de aplicativos da web. O formato do livro também favorece o aprendizado, com foco em exemplos práticos que os leitores podem acompanhar e implementar por conta própria.",
+                    // Bengali
+                    "বাংলা": "'24 ঘন্টার মধ্যে জ্যাঙ্গো শিখুন' পড়ার মূল সুবিধাগুলির মধ্যে একটি হল এটি শেখানোর পদ্ধতি। লেখক, এস. বসু, বিষয়বস্তুটি এমনভাবে সাজিয়েছেন যা জ্যাঙ্গো সম্পর্কে দ্রুত কিন্তু ব্যাপক বোঝার অনুমতি দেয়। এটি পাঠকদের জন্য বিশেষভাবে উপকারী যারা সময় কম কিন্তু ওয়েব অ্যাপ্লিকেশন তৈরির বিষয়ে একটি দৃঢ় উপলব্ধি অর্জন করতে চান। বইটির বিন্যাস শেখার জন্যও উপযোগী, ব্যবহারিক উদাহরণের উপর ফোকাস সহ যা পাঠকরা অনুসরণ করতে পারে এবং নিজেদের বাস্তবায়ন করতে পারে।",
+                    // Arabic
+                    "عَرَبِيّ": "إحدى المزايا الرئيسية لقراءة «تعلم جانغو في 24 ساعة» هي أسلوبها في التدريس. لقد وضع المؤلف، S. Basu، المحتوى بطريقة تسمح بفهم سريع وشامل لـ Django. يعد هذا مفيدًا بشكل خاص للقراء الذين ليس لديهم الوقت الكافي ولكنهم يريدون اكتساب فهم قوي لبناء تطبيقات الويب. كما أن شكل الكتاب يساعد أيضًا على التعلم، مع تركيزه على الأمثلة العملية التي يمكن للقراء متابعتها وتنفيذها بأنفسهم.",
+                    // Persian
+                    "فارسی": "یکی از مزایای کلیدی خواندن «یادگیری جنگو در 24 ساعت» رویکرد آن به آموزش است. نویسنده، S. Basu، محتوا را به گونه ای تنظیم کرده است که امکان درک سریع و در عین حال جامع جنگو را فراهم می کند. این به ویژه برای خوانندگانی مفید است که زمان کمی دارند اما می‌خواهند درک کاملی از ساخت برنامه‌های وب کسب کنند. قالب کتاب نیز با تمرکز بر مثال‌های عملی که خوانندگان می‌توانند آن‌ها را دنبال کرده و خودشان پیاده‌سازی کنند، برای یادگیری مفید است.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "After reading this book, learners will gain the confidence to start their own Django projects from scratch. They will have a foundational understanding of web application development and the ability to use Django's features effectively. Additionally, the book's emphasis on a hands-on approach means that readers will not only learn theoretical aspects but also apply what they've learned in real-world scenarios, thereby solidifying their knowledge and skills.",
+                    // German
+                    "Deutsch": "Nach der Lektüre dieses Buches werden die Lernenden das Selbstvertrauen haben, ihre eigenen Django-Projekte von Grund auf zu starten. Sie werden ein grundlegendes Verständnis für die Entwicklung von Webanwendungen haben und in der Lage sein, die Funktionen von Django effektiv zu nutzen. Darüber hinaus bedeutet der Schwerpunkt des Buches auf einem praktischen Ansatz, dass die Leser nicht nur theoretische Aspekte lernen, sondern das Gelernte auch in realen Szenarien anwenden und so ihr Wissen und ihre Fähigkeiten festigen.",
+                    // Chinese
+                    "中国人": "读完本书后，学习者将有信心从头开始创建自己的 Django 项目。他们将对 Web 应用程序开发有基本的了解，并能够有效地使用 Django 的功能。此外，本书强调实践方法，这意味着读者不仅可以学习理论知识，还可以将所学知识应用于实际场景，从而巩固他们的知识和技能。",
+                    // Russian
+                    "Русский": "Прочитав эту книгу, учащиеся обретут уверенность в том, что смогут начать свои собственные проекты Django с нуля. У них будет базовое понимание разработки веб-приложений и способность эффективно использовать функции Django. Кроме того, упор в книге на практический подход означает, что читатели будут не только изучать теоретические аспекты, но и применять полученные знания в реальных сценариях, тем самым закрепляя свои знания и навыки.",
+                    // French
+                    "Français": "Après avoir lu ce livre, les apprenants gagneront en confiance pour démarrer leurs propres projets Django à partir de zéro. Ils auront une compréhension fondamentale du développement d’applications Web et la capacité d’utiliser efficacement les fonctionnalités de Django. De plus, l'accent mis par le livre sur une approche pratique signifie que les lecteurs apprendront non seulement les aspects théoriques, mais appliqueront également ce qu'ils ont appris dans des scénarios du monde réel, renforçant ainsi leurs connaissances et leurs compétences.",
+                    // Japanese
+                    "日本語": "この本を読んだ後、学習者は自信を得て、ゼロから独自の Django プロジェクトを開始できるようになります。Web アプリケーション開発の基礎を理解し、Django の機能を効果的に使用できるようになります。さらに、本書では実践的なアプローチを重視しているため、読者は理論的な側面を学ぶだけでなく、学んだことを実際のシナリオに適用して、知識とスキルを固めることができます。",
+                    // Korean
+                    "한국인": "이 책을 읽고 나면 학습자는 처음부터 자신만의 Django 프로젝트를 시작할 수 있다는 자신감을 얻게 될 것입니다. 그들은 웹 애플리케이션 개발에 대한 기초적인 이해와 Django의 기능을 효과적으로 사용할 수 있는 능력을 갖추게 됩니다. 또한 이 책에서 실습 접근 방식을 강조한다는 것은 독자가 이론적 측면을 배울 뿐만 아니라 배운 내용을 실제 시나리오에 적용하여 지식과 기술을 확고히 한다는 것을 의미합니다.",
+                    // Spanish
+                    "Español": "Después de leer este libro, los estudiantes ganarán la confianza para comenzar sus propios proyectos Django desde cero. Tendrán un conocimiento básico del desarrollo de aplicaciones web y la capacidad de utilizar las funciones de Django de forma eficaz. Además, el énfasis del libro en un enfoque práctico significa que los lectores no sólo aprenderán aspectos teóricos sino que también aplicarán lo que han aprendido en escenarios del mundo real, solidificando así sus conocimientos y habilidades.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने के बाद, शिक्षार्थियों को अपने Django प्रोजेक्ट को शुरू से शुरू करने का आत्मविश्वास मिलेगा। उन्हें वेब एप्लिकेशन डेवलपमेंट की मूलभूत समझ होगी और Django की विशेषताओं का प्रभावी ढंग से उपयोग करने की क्षमता होगी। इसके अतिरिक्त, पुस्तक में व्यावहारिक दृष्टिकोण पर जोर दिया गया है, जिसका अर्थ है कि पाठक न केवल सैद्धांतिक पहलुओं को सीखेंगे, बल्कि वास्तविक दुनिया के परिदृश्यों में जो उन्होंने सीखा है उसे लागू भी करेंगे, जिससे उनका ज्ञान और कौशल मजबूत होगा।",
+                    // Portuguese
+                    "Português": "Depois de ler este livro, os alunos ganharão confiança para iniciar seus próprios projetos Django do zero. Eles terão uma compreensão básica do desenvolvimento de aplicações web e a capacidade de usar os recursos do Django de forma eficaz. Além disso, a ênfase do livro em uma abordagem prática significa que os leitores não apenas aprenderão aspectos teóricos, mas também aplicarão o que aprenderam em cenários do mundo real, solidificando assim seus conhecimentos e habilidades.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার পর, শিক্ষার্থীরা স্ক্র্যাচ থেকে তাদের নিজস্ব জ্যাঙ্গো প্রকল্প শুরু করার আত্মবিশ্বাস অর্জন করবে। তাদের ওয়েব অ্যাপ্লিকেশন ডেভেলপমেন্ট এবং জ্যাঙ্গোর বৈশিষ্ট্যগুলি কার্যকরভাবে ব্যবহার করার ক্ষমতা সম্পর্কে একটি মৌলিক ধারণা থাকবে। অতিরিক্তভাবে, বইটির হাতে-কলমে জোর দেওয়ার অর্থ হল পাঠকরা কেবল তাত্ত্বিক দিকগুলিই শিখবে না বরং বাস্তব-বিশ্বের পরিস্থিতিতে তারা যা শিখেছে তা প্রয়োগ করবে, যার ফলে তাদের জ্ঞান এবং দক্ষতা দৃঢ় হবে।",
+                    // Arabic
+                    "عَرَبِيّ": "بعد قراءة هذا الكتاب، سيكتسب المتعلمون الثقة لبدء مشاريع جانغو الخاصة بهم من الصفر. سيكون لديهم فهم أساسي لتطوير تطبيقات الويب والقدرة على استخدام ميزات Django بشكل فعال. بالإضافة إلى ذلك، فإن تركيز الكتاب على النهج العملي يعني أن القراء لن يتعلموا الجوانب النظرية فحسب، بل سيطبقون أيضًا ما تعلموه في سيناريوهات العالم الحقيقي، وبالتالي تعزيز معارفهم ومهاراتهم.",
+                    // Persian
+                    "فارسی": "پس از خواندن این کتاب، زبان آموزان اعتماد به نفس پیدا می کنند تا پروژه های جنگو خود را از ابتدا شروع کنند. آنها درک اساسی از توسعه برنامه های کاربردی وب و توانایی استفاده موثر از ویژگی های جنگو خواهند داشت. علاوه بر این، تأکید کتاب بر رویکرد عملی به این معنی است که خوانندگان نه تنها جنبه‌های نظری را یاد می‌گیرند، بلکه آنچه را که آموخته‌اند در سناریوهای دنیای واقعی نیز به کار می‌گیرند و در نتیجه دانش و مهارت‌های خود را تقویت می‌کنند.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Learn_Django_In_24_Hours.webp",
+            "shortDescriptionsForPageBookReviewing": {
+                // English
+                "English": "This book is a BEGINNER’s guide to building a web application using HTML, CSS, Javascript, Python and Django Web framework. I have explained all the topics in a simple, concise and easy language with thorough examples, codes and have tried my best to make the learning process fun, informative and interesting at the same time. If you want to gain an in-depth understanding, it is quite a simple book for the job.",
+                // German
+                "Deutsch": "Dieses Buch ist ein Leitfaden für ANFÄNGER zum Erstellen einer Webanwendung mit HTML, CSS, Javascript, Python und dem Django-Webframework. Ich habe alle Themen in einer einfachen, prägnanten und verständlichen Sprache mit ausführlichen Beispielen und Codes erklärt und mein Bestes getan, um den Lernprozess unterhaltsam, informativ und gleichzeitig interessant zu gestalten. Wenn Sie ein tiefgreifendes Verständnis erlangen möchten, ist dies ein recht einfaches Buch für diese Aufgabe.",
+                // Chinese
+                "中国人": "本书是初学者使用 HTML、CSS、Javascript、Python 和 Django Web 框架构建 Web 应用程序的指南。我用简单、简洁、易懂的语言解释了所有主题，并提供了详尽的示例和代码，并尽我所能使学习过程既有趣又有信息量。如果你想深入了解，这是一本相当简单的书。",
+                // Russian
+                "Русский": "Эта книга представляет собой руководство для НАЧИНАЮЩИХ по созданию веб-приложений с использованием HTML, CSS, Javascript, Python и веб-фреймворка Django. Я объяснил все темы простым, лаконичным и понятным языком с подробными примерами, кодами и постарался сделать процесс обучения увлекательным, информативным и интересным одновременно. Если вы хотите получить более глубокое понимание, это довольно простая книга для работы.",
+                // French
+                "Français": "Ce livre est un guide du DÉBUTANT pour créer une application Web à l'aide du framework Web HTML, CSS, Javascript, Python et Django. J'ai expliqué tous les sujets dans un langage simple, concis et facile avec des exemples et des codes détaillés et j'ai fait de mon mieux pour rendre le processus d'apprentissage amusant, informatif et intéressant à la fois. Si vous souhaitez acquérir une compréhension approfondie, c’est un livre assez simple pour le travail.",
+                // Japanese
+                "日本語": "この本は、HTML、CSS、Javascript、Python、Django Web フレームワークを使用して Web アプリケーションを構築するための初心者向けガイドです。すべてのトピックを、詳細な例とコードを使用して、シンプルで簡潔でわかりやすい言葉で説明し、学習プロセスを楽しく、有益で、興味深いものにするために最善を尽くしました。深い理解を得たい場合、これは目的に適した非常にシンプルな本です。",
+                // Korean
+                "한국인": "이 책은 HTML, CSS, Javascript, Python 및 Django 웹 프레임워크를 사용하여 웹 애플리케이션을 구축하기 위한 초보자 가이드입니다. 나는 철저한 예와 코드를 통해 간단하고 간결하며 쉬운 언어로 모든 주제를 설명했으며 동시에 학습 과정을 재미 있고 유익하며 흥미롭게 만들기 위해 최선을 다했습니다. 심층적인 이해를 얻고 싶다면 이 책은 업무에 아주 간단한 책입니다.",
+                // Spanish
+                "Español": "Este libro es una guía para PRINCIPIANTES sobre la creación de una aplicación web utilizando HTML, CSS, Javascript, Python y el marco web Django. He explicado todos los temas en un lenguaje simple, conciso y fácil con ejemplos y códigos completos y he hecho todo lo posible para que el proceso de aprendizaje sea divertido, informativo e interesante al mismo tiempo. Si desea obtener una comprensión profunda, es un libro bastante sencillo para este trabajo.",
+                // Hindi
+                "हिंदी": "यह पुस्तक HTML, CSS, Javascript, Python और Django वेब फ्रेमवर्क का उपयोग करके वेब एप्लिकेशन बनाने के लिए एक शुरुआती मार्गदर्शिका है। मैंने सभी विषयों को एक सरल, संक्षिप्त और आसान भाषा में विस्तृत उदाहरणों, कोडों के साथ समझाया है और सीखने की प्रक्रिया को मज़ेदार, जानकारीपूर्ण और एक ही समय में दिलचस्प बनाने की पूरी कोशिश की है। यदि आप गहराई से समझना चाहते हैं, तो यह काम के लिए काफी सरल पुस्तक है।",
+                // Portuguese
+                "Português": "Este livro é um guia para iniciantes na construção de uma aplicação web usando HTML, CSS, Javascript, Python e Django Web framework. Expliquei todos os tópicos em uma linguagem simples, concisa e fácil, com exemplos e códigos completos e tentei o meu melhor para tornar o processo de aprendizagem divertido, informativo e interessante ao mesmo tempo. Se você deseja obter uma compreensão profunda, é um livro bastante simples para o trabalho.",
+                // Bengali
+                "বাংলা": "এই বইটি HTML, CSS, Javascript, Python এবং Django ওয়েব ফ্রেমওয়ার্ক ব্যবহার করে একটি ওয়েব অ্যাপ্লিকেশন তৈরি করার জন্য একটি BEGINNER-এর গাইড। আমি পুঙ্খানুপুঙ্খ উদাহরণ, কোড সহ একটি সহজ, সংক্ষিপ্ত এবং সহজ ভাষায় সমস্ত বিষয় ব্যাখ্যা করেছি এবং একই সাথে শেখার প্রক্রিয়াটিকে মজাদার, তথ্যপূর্ণ এবং আকর্ষণীয় করার জন্য আমার যথাসাধ্য চেষ্টা করেছি। আপনি যদি গভীরভাবে বুঝতে চান তবে এটি কাজের জন্য বেশ সহজ বই।",
+                // Arabic
+                "عَرَبِيّ": "هذا الكتاب هو دليل المبتدئين لبناء تطبيق ويب باستخدام HTML وCSS وJavascript وPython وDjango Web Framework. لقد شرحت جميع المواضيع بلغة بسيطة وموجزة وسهلة مع أمثلة ورموز شاملة وحاولت قصارى جهدي لجعل عملية التعلم ممتعة وغنية بالمعلومات ومثيرة للاهتمام في نفس الوقت. إذا كنت ترغب في الحصول على فهم متعمق، فهو كتاب بسيط جدًا لهذه المهمة.",
+                // Persian
+                "فارسی": "این کتاب یک راهنمای مبتدی برای ساختن یک برنامه وب با استفاده از HTML، CSS، جاوا اسکریپت، پایتون و چارچوب وب جنگو است. تمام مباحث را به زبانی ساده، مختصر و آسان با مثال‌ها، کدهای کامل توضیح داده‌ام و تمام تلاش خود را کرده‌ام که فرآیند یادگیری را سرگرم‌کننده، آموزنده و در عین حال جالب کنم. اگر می خواهید درک عمیقی به دست آورید، کتاب بسیار ساده ای برای این کار است.",
+            },
+        },
+        // Django for Beginners
+        {
+            "BookName": "Django for Beginners",
+            "AuthorName": "William S. Vincent",
+            "Gender": "M", // F: Female, M: Male
+            "EditionNumber": "4th",
+            "PublisherName": "Learnpub",
+            "ISBN": "978 1 9831 7266 3",
+            "YearNumber": "2022",
+            "PagesNumber": "306",
+            "TableOfContents": [
+                // 1
+                {
+                    "ChapterName": "Introduction",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 2
+                {
+                    "ChapterName": "Initial Set Up",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 3
+                {
+                    "ChapterName": "Hello World App",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 4
+                {
+                    "ChapterName": "Pages App",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 5
+                {
+                    "ChapterName": "Message Board App",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 6
+                {
+                    "ChapterName": "Blog App",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 7
+                {
+                    "ChapterName": "Forms",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 8
+                {
+                    "ChapterName": "User Accounts",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 9
+                {
+                    "ChapterName": "Custom User Model",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 10
+                {
+                    "ChapterName": "User Authentication",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 11
+                {
+                    "ChapterName": "Bootstrap",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 12
+                {
+                    "ChapterName": "Password Change and Reset",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 13
+                {
+                    "ChapterName": "Email",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 14
+                {
+                    "ChapterName": "Newspaper App",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 15
+                {
+                    "ChapterName": "Permissions and Authorization",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 16
+                {
+                    "ChapterName": "Comments",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 17
+                {
+                    "ChapterName": "Deployment",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+                // 18
+                {
+                    "ChapterName": "Conclusion",
+                    "ShortDescriptionAboutChapter": {
+                        // English
+                        "English": "",
+                        // German
+                        "Deutsch": "",
+                        // Chinese
+                        "中国人": "",
+                        // Russian
+                        "Русский": "",
+                        // French
+                        "Français": "",
+                        // Japanese
+                        "日本語": "",
+                        // Korean
+                        "한국인": "",
+                        // Spanish
+                        "Español": "",
+                        // Hindi
+                        "हिंदी": "",
+                        // Portuguese
+                        "Português": "",
+                        // Bengali
+                        "বাংলা": "",
+                        // Arabic
+                        "عَرَبِيّ": "",
+                        // Persian
+                        "فارسی": "",
+                    },
+                },
+            ],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "Django for Beginners is a book that teaches web development with Python and Django, a popular and powerful web framework. The book covers the core concepts and best practices of Django, such as models, views, templates, urls, forms, authentication, testing, and deployment. The book also guides the reader through building five progressively more complex web applications, including a message board, a blog, and a newspaper site.",
+                    // German
+                    "Deutsch": "„Django für Anfänger“ ist ein Buch, das Webentwicklung mit Python und Django lehrt, einem beliebten und leistungsstarken Web-Framework. Das Buch behandelt die Kernkonzepte und Best Practices von Django, wie Modelle, Ansichten, Vorlagen, URLs, Formulare, Authentifizierung, Tests und Bereitstellung. Das Buch führt den Leser auch durch die Erstellung von fünf zunehmend komplexeren Webanwendungen, darunter ein Message Board, ein Blog und eine Zeitungsseite.",
+                    // Chinese
+                    "中国人": "《Django for Beginners》是一本教你如何使用 Python 和 Django（一种流行且强大的 Web 框架）进行 Web 开发的书。本书涵盖了 Django 的核心概念和最佳实践，例如模型、视图、模板、URL、表单、身份验证、测试和部署。本书还指导读者构建五个逐渐复杂的 Web 应用程序，包括留言板、博客和报纸网站。",
+                    // Russian
+                    "Русский": "«Джанго для начинающих» — это книга, в которой обучают веб-разработке с использованием Python и Django, популярного и мощного веб-фреймворка. В книге рассматриваются основные концепции и лучшие практики Django, такие как модели, представления, шаблоны, URL-адреса, формы, аутентификация, тестирование и развертывание. Книга также помогает читателю создать пять все более сложных веб-приложений, включая доску объявлений, блог и газетный сайт.",
+                    // French
+                    "Français": "Django for Beginners est un livre qui enseigne le développement Web avec Python et Django, un framework Web populaire et puissant. Le livre couvre les concepts de base et les meilleures pratiques de Django, tels que les modèles, les vues, les modèles, les URL, les formulaires, l'authentification, les tests et le déploiement. Le livre guide également le lecteur dans la création de cinq applications Web de plus en plus complexes, notamment un forum de discussion, un blog et un site de journal.",
+                    // Japanese
+                    "日本語": "Django for Beginners は、人気があり強力な Web フレームワークである Django と Python を使用した Web 開発を教える本です。この本では、モデル、ビュー、テンプレート、URL、フォーム、認証、テスト、デプロイメントなど、Django のコア概念とベスト プラクティスを取り上げています。また、メッセージ ボード、ブログ、新聞サイトなど、徐々に複雑化する 5 つの Web アプリケーションの構築方法についても説明しています。",
+                    // Korean
+                    "한국인": "초보자를 위한 Django는 Python과 인기 있고 강력한 웹 프레임워크인 Django를 사용하여 웹 개발을 가르치는 책입니다. 이 책은 모델, 뷰, 템플릿, URL, 양식, 인증, 테스트 및 배포와 같은 Django의 핵심 개념과 모범 사례를 다루고 있습니다. 또한 이 책은 메시지 보드, 블로그, 신문 사이트를 포함하여 점점 더 복잡해지는 5개의 웹 애플리케이션을 구축하는 과정을 독자에게 안내합니다.",
+                    // Spanish
+                    "Español": "Django para principiantes es un libro que enseña desarrollo web con Python y Django, un marco web potente y popular. El libro cubre los conceptos centrales y las mejores prácticas de Django, como modelos, vistas, plantillas, URL, formularios, autenticación, pruebas e implementación. El libro también guía al lector a través de la creación de cinco aplicaciones web progresivamente más complejas, incluido un tablero de mensajes, un blog y un sitio de periódico.",
+                    // Hindi
+                    "हिंदी": "Django for Beginners एक ऐसी किताब है जो Python और Django के साथ वेब डेवलपमेंट सिखाती है, जो एक लोकप्रिय और शक्तिशाली वेब फ्रेमवर्क है। यह किताब Django की मुख्य अवधारणाओं और सर्वोत्तम प्रथाओं को कवर करती है, जैसे मॉडल, व्यू, टेम्प्लेट, यूआरएल, फॉर्म, प्रमाणीकरण, परीक्षण और परिनियोजन। यह किताब पाठक को संदेश बोर्ड, ब्लॉग और समाचार पत्र साइट सहित पाँच उत्तरोत्तर अधिक जटिल वेब एप्लिकेशन बनाने के माध्यम से भी मार्गदर्शन करती है।",
+                    // Portuguese
+                    "Português": "Django para Iniciantes é um livro que ensina desenvolvimento web com Python e Django, um framework web popular e poderoso. O livro cobre os principais conceitos e práticas recomendadas do Django, como modelos, visualizações, modelos, URLs, formulários, autenticação, teste e implantação. O livro também orienta o leitor na construção de cinco aplicações web cada vez mais complexas, incluindo um quadro de mensagens, um blog e um site de jornal.",
+                    // Bengali
+                    "বাংলা": "Django for Beginners হল একটি বই যা Python এবং Django এর সাথে ওয়েব ডেভেলপমেন্ট শেখায়, একটি জনপ্রিয় এবং শক্তিশালী ওয়েব ফ্রেমওয়ার্ক। বইটিতে জ্যাঙ্গোর মূল ধারণা এবং সর্বোত্তম অনুশীলন যেমন মডেল, ভিউ, টেমপ্লেট, ইউআরএল, ফর্ম, প্রমাণীকরণ, পরীক্ষা এবং স্থাপনা রয়েছে। বইটি একটি বার্তা বোর্ড, একটি ব্লগ এবং একটি সংবাদপত্রের সাইট সহ আরও পাঁচটি ক্রমান্বয়ে জটিল ওয়েব অ্যাপ্লিকেশন তৈরির মাধ্যমে পাঠককে গাইড করে৷",
+                    // Arabic
+                    "عَرَبِيّ": "Django للمبتدئين هو كتاب يعلمك تطوير الويب باستخدام Python وDjango، وهو إطار ويب مشهور وقوي. يغطي الكتاب المفاهيم الأساسية وأفضل ممارسات Django، مثل النماذج وطرق العرض والقوالب وعناوين URL والنماذج والمصادقة والاختبار والنشر. يرشد الكتاب أيضًا القارئ من خلال بناء خمسة تطبيقات ويب أكثر تعقيدًا بشكل تدريجي، بما في ذلك لوحة الرسائل، والمدونة، وموقع الصحيفة.",
+                    // Persian
+                    "فارسی": "Django for Beginners کتابی است که توسعه وب را با پایتون و جنگو، یک چارچوب وب محبوب و قدرتمند، آموزش می‌دهد. این کتاب مفاهیم اصلی و بهترین شیوه‌های جنگو، مانند مدل‌ها، نماها، قالب‌ها، آدرس‌های اینترنتی، فرم‌ها، احراز هویت، آزمایش و استقرار را پوشش می‌دهد. این کتاب همچنین خواننده را از طریق ساخت پنج برنامه کاربردی وب به تدریج پیچیده تر، از جمله یک تابلوی پیام، یک وبلاگ، و یک سایت روزنامه راهنمایی می کند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "The advantages of reading this book are that the reader will learn how to create dynamic and interactive websites with Django, using a clear and step-by-step approach. The reader will also learn how to use Django's built-in features and third-party packages to enhance the functionality and security of their web applications. The reader will also gain practical experience and confidence in developing and deploying web applications with Django.",
+                    // German
+                    "Deutsch": "Die Vorteile dieses Buches liegen darin, dass der Leser lernt, wie man mit Django dynamische und interaktive Websites erstellt, und zwar mit einem klaren und schrittweisen Ansatz. Der Leser lernt auch, wie man die integrierten Funktionen und Pakete von Drittanbietern von Django nutzt, um die Funktionalität und Sicherheit seiner Webanwendungen zu verbessern. Der Leser gewinnt außerdem praktische Erfahrung und Selbstvertrauen bei der Entwicklung und Bereitstellung von Webanwendungen mit Django.",
+                    // Chinese
+                    "中国人": "阅读本书的好处在于，读者将学习如何使用 Django 以清晰、循序渐进的方式创建动态和交互式网站。读者还将学习如何使用 Django 的内置功能和第三方包来增强其 Web 应用程序的功能和安全性。读者还将获得使用 Django 开发和部署 Web 应用程序的实践经验和信心。",
+                    // Russian
+                    "Русский": "Преимущества чтения этой книги заключаются в том, что читатель узнает, как создавать динамические и интерактивные веб-сайты с помощью Django, используя ясный и пошаговый подход. Читатель также узнает, как использовать встроенные функции Django и сторонние пакеты для повышения функциональности и безопасности своих веб-приложений. Читатель также получит практический опыт и уверенность в разработке и развертывании веб-приложений с помощью Django.",
+                    // French
+                    "Français": "Les avantages de la lecture de ce livre sont que le lecteur apprendra à créer des sites Web dynamiques et interactifs avec Django, en utilisant une approche claire et étape par étape. Le lecteur apprendra également comment utiliser les fonctionnalités intégrées de Django et les packages tiers pour améliorer les fonctionnalités et la sécurité de leurs applications Web. Le lecteur acquerra également une expérience pratique et une confiance dans le développement et le déploiement d'applications Web avec Django.",
+                    // Japanese
+                    "日本語": "この本を読むことの利点は、読者が明確で段階的なアプローチを使用して、Django で動的でインタラクティブな Web サイトを作成する方法を学べることです。また、読者は Django の組み込み機能とサードパーティ パッケージを使用して Web アプリケーションの機能とセキュリティを強化する方法も学べます。さらに、読者は Django を使用した Web アプリケーションの開発と展開に関する実践的な経験と自信も得られます。",
+                    // Korean
+                    "한국인": "이 책을 읽으면 독자가 명확하고 단계별 접근 방식을 사용하여 Django를 사용하여 역동적이고 대화형 웹사이트를 만드는 방법을 배울 수 있다는 장점이 있습니다. 독자는 또한 Django의 내장 기능과 타사 패키지를 사용하여 웹 애플리케이션의 기능과 보안을 강화하는 방법을 배우게 됩니다. 독자는 또한 Django를 사용하여 웹 애플리케이션을 개발하고 배포하는 데 대한 실질적인 경험과 자신감을 얻게 될 것입니다.",
+                    // Spanish
+                    "Español": "Las ventajas de leer este libro son que el lector aprenderá cómo crear sitios web dinámicos e interactivos con Django, utilizando un enfoque claro y paso a paso. El lector también aprenderá cómo utilizar las funciones integradas de Django y los paquetes de terceros para mejorar la funcionalidad y seguridad de sus aplicaciones web. El lector también obtendrá experiencia práctica y confianza en el desarrollo e implementación de aplicaciones web con Django.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने के लाभ यह हैं कि पाठक सीखेंगे कि Django के साथ गतिशील और इंटरैक्टिव वेबसाइट कैसे बनाई जाती है, एक स्पष्ट और चरण-दर-चरण दृष्टिकोण का उपयोग करके। पाठक यह भी सीखेंगे कि Django की अंतर्निहित सुविधाओं और तृतीय-पक्ष पैकेजों का उपयोग करके अपने वेब अनुप्रयोगों की कार्यक्षमता और सुरक्षा को कैसे बढ़ाया जाए। पाठक को Django के साथ वेब अनुप्रयोगों को विकसित करने और तैनात करने में व्यावहारिक अनुभव और आत्मविश्वास भी मिलेगा।",
+                    // Portuguese
+                    "Português": "As vantagens de ler este livro é que o leitor aprenderá como criar sites dinâmicos e interativos com Django, utilizando uma abordagem clara e passo a passo. O leitor também aprenderá como usar os recursos integrados do Django e pacotes de terceiros para aprimorar a funcionalidade e a segurança de suas aplicações web. O leitor também ganhará experiência prática e confiança no desenvolvimento e implantação de aplicações web com Django.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার সুবিধা হল যে পাঠক শিখবে কিভাবে Django এর সাথে গতিশীল এবং ইন্টারেক্টিভ ওয়েবসাইট তৈরি করতে হয়, একটি পরিষ্কার এবং ধাপে ধাপে পদ্ধতি ব্যবহার করে। পাঠক তাদের ওয়েব অ্যাপ্লিকেশনগুলির কার্যকারিতা এবং নিরাপত্তা বাড়াতে জ্যাঙ্গোর অন্তর্নির্মিত বৈশিষ্ট্য এবং তৃতীয় পক্ষের প্যাকেজগুলি কীভাবে ব্যবহার করবেন তাও শিখবেন। পাঠক জ্যাঙ্গোর সাথে ওয়েব অ্যাপ্লিকেশনগুলি বিকাশ এবং স্থাপনে ব্যবহারিক অভিজ্ঞতা এবং আস্থা অর্জন করবে।",
+                    // Arabic
+                    "عَرَبِيّ": "تتمثل مزايا قراءة هذا الكتاب في أن القارئ سيتعلم كيفية إنشاء مواقع ويب ديناميكية وتفاعلية باستخدام Django، باستخدام منهج واضح وتدريجي. سوف يتعلم القارئ أيضًا كيفية استخدام ميزات Django المضمنة وحزم الجهات الخارجية لتعزيز وظائف وأمان تطبيقات الويب الخاصة به. سوف يكتسب القارئ أيضًا خبرة عملية وثقة في تطوير ونشر تطبيقات الويب باستخدام Django.",
+                    // Persian
+                    "فارسی": "از مزایای خواندن این کتاب این است که خواننده یاد می گیرد که چگونه با استفاده از یک رویکرد واضح و گام به گام، وب سایت های پویا و تعاملی با جنگو ایجاد کند. خواننده همچنین می‌آموزد که چگونه از ویژگی‌های داخلی جنگو و بسته‌های شخص ثالث برای افزایش عملکرد و امنیت برنامه‌های وب خود استفاده کند. خواننده همچنین تجربه عملی و اعتماد به نفس در توسعه و استقرار برنامه های کاربردی وب با جنگو به دست خواهد آورد.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "The reader will gain many skills and knowledge after reading this book, such as: 1. How to set up a development environment and install Django, 2. How to use Django's ORM to interact with databases, 3. How to create and customize Django's views and templates, 4. How to handle user input and validation with Django's forms, 5. How to implement user authentication and authorization with Django's auth system, 6. How to write tests for Django applications and use test-driven development, 7. How to deploy Django applications to various platforms, such as Heroku, 8. How to use Django's admin interface and shell, 9. How to use Django's REST framework to create APIs, 10. How to use Bootstrap to style Django applications.",
+                    // German
+                    "Deutsch": "Der Leser wird nach der Lektüre dieses Buches viele Fähigkeiten und Kenntnisse erwerben, wie zum Beispiel: 1. Wie man eine Entwicklungsumgebung einrichtet und Django installiert, 2. Wie man Djangos ORM verwendet, um mit Datenbanken zu interagieren, 3. Wie man Djangos Ansichten und Vorlagen erstellt und anpasst, 4. Wie man Benutzereingaben und Validierung mit Djangos Formularen handhabt, 5. Wie man Benutzerauthentifizierung und -autorisierung mit Djangos Authentifizierungssystem implementiert, 6. Wie man Tests für Django-Anwendungen schreibt und testgetriebene Entwicklung verwendet, 7. Wie man Django-Anwendungen auf verschiedenen Plattformen bereitstellt, wie zum Beispiel Heroku, 8. Wie man Djangos Admin-Schnittstelle und Shell verwendet, 9. Wie man Djangos REST-Framework verwendet, um APIs zu erstellen, 10. Wie man Bootstrap verwendet, um Django-Anwendungen zu gestalten.",
+                    // Chinese
+                    "中国人": "阅读本书后，读者将获得很多技能和知识，比如：1. 如何设置开发环境并安装 Django，2. 如何使用 Django 的 ORM 与数据库交互，3. 如何创建和自定义 Django 的视图和模板，4. 如何使用 Django 的表单处理用户输入和验证，5. 如何使用 Django 的身份验证系统实现用户身份验证和授权，6. 如何为 Django 应用程序编写测试并使用测试驱动开发，7. 如何将 Django 应用程序部署到各种平台，例如 Heroku，8. 如何使用 Django 的管理界面和 shell，9. 如何使用 Django 的 REST 框架创建 API，10. 如何使用 Bootstrap 来设计 Django 应用程序的样式。",
+                    // Russian
+                    "Русский": "После прочтения этой книги читатель приобретет множество навыков и знаний, таких как: 1. Как настроить среду разработки и установить Django, 2. Как использовать ORM Django для взаимодействия с базами данных, 3. Как создавать и настраивать представления Django. и шаблоны, 4. Как обрабатывать пользовательский ввод и проверку с помощью форм Django, 5. Как реализовать аутентификацию и авторизацию пользователей с помощью системы аутентификации Django, 6. Как писать тесты для приложений Django и использовать разработку через тестирование, 7. Как развертывать приложения Django на различных платформах, таких как Heroku, 8. Как использовать интерфейс администратора и оболочку Django, 9. Как использовать среду REST Django для создания API, 10. Как использовать Bootstrap для стилизации приложений Django.",
+                    // French
+                    "Français": "Le lecteur acquerra de nombreuses compétences et connaissances après la lecture de ce livre, telles que : 1. Comment configurer un environnement de développement et installer Django, 2. Comment utiliser l'ORM de Django pour interagir avec les bases de données, 3. Comment créer et personnaliser les vues de Django. et modèles, 4. Comment gérer la saisie et la validation des utilisateurs avec les formulaires de Django, 5. Comment implémenter l'authentification et l'autorisation des utilisateurs avec le système d'authentification de Django, 6. Comment écrire des tests pour les applications Django et utiliser le développement piloté par les tests, 7. Comment déployer des applications Django sur diverses plates-formes, telles que Heroku, 8. Comment utiliser l'interface d'administration et le shell de Django, 9. Comment utiliser le framework REST de Django pour créer des API, 10. Comment utiliser Bootstrap pour styliser les applications Django.",
+                    // Japanese
+                    "日本語": "この本を読んだ後、読者は次のような多くのスキルと知識を身に付けることができます。1. 開発環境をセットアップして Django をインストールする方法、2. Django の ORM を使用してデータベースを操作する方法、3. Django のビューとテンプレートを作成してカスタマイズする方法、4. Django のフォームでユーザー入力と検証を処理する方法、5. Django の認証システムを使用してユーザー認証と承認を実装する方法、6. Django アプリケーションのテストを作成し、テスト駆動開発を使用する方法、7. Heroku などのさまざまなプラットフォームに Django アプリケーションをデプロイする方法、8. Django の管理インターフェイスとシェルを使用する方法、9. Django の REST フレームワークを使用して API を作成する方法、10. Bootstrap を使用して Django アプリケーションをスタイル設定する方法。",
+                    // Korean
+                    "한국인": "독자는 이 책을 읽고 나면 다음과 같은 많은 기술과 지식을 얻게 될 것입니다. 1. 개발 환경을 설정하고 Django를 설치하는 방법, 2. Django의 ORM을 사용하여 데이터베이스와 상호 작용하는 방법, 3. Django의 뷰를 만들고 사용자 정의하는 방법 및 템플릿, 4. Django의 양식으로 사용자 입력 및 유효성 검사를 처리하는 방법, 5. Django의 인증 시스템으로 사용자 인증 및 권한 부여를 구현하는 방법, 6. Django 애플리케이션에 대한 테스트를 작성하고 테스트 중심 개발을 사용하는 방법, 7. 방법 Django 애플리케이션을 Heroku와 같은 다양한 플랫폼에 배포하는 방법, 8. Django의 관리 인터페이스 및 셸을 사용하는 방법, 9. Django의 REST 프레임워크를 사용하여 API를 만드는 방법, 10. Bootstrap을 사용하여 Django 애플리케이션 스타일을 지정하는 방법.",
+                    // Spanish
+                    "Español": "El lector obtendrá muchas habilidades y conocimientos después de leer este libro, tales como: 1. Cómo configurar un entorno de desarrollo e instalar Django, 2. Cómo usar el ORM de Django para interactuar con bases de datos, 3. Cómo crear y personalizar las vistas de Django. y plantillas, 4. Cómo manejar la entrada y validación del usuario con los formularios de Django, 5. Cómo implementar la autenticación y autorización del usuario con el sistema de autenticación de Django, 6. Cómo escribir pruebas para aplicaciones de Django y utilizar el desarrollo basado en pruebas, 7. Cómo implementar aplicaciones Django en varias plataformas, como Heroku, 8. Cómo usar la interfaz de administración y el shell de Django, 9. Cómo usar el marco REST de Django para crear API, 10. Cómo usar Bootstrap para diseñar aplicaciones Django.",
+                    // Hindi
+                    "हिंदी": "इस पुस्तक को पढ़ने के बाद पाठक को कई कौशल और ज्ञान प्राप्त होंगे, जैसे: 1. विकास का वातावरण कैसे सेट करें और Django को कैसे स्थापित करें, 2. डेटाबेस के साथ बातचीत करने के लिए Django के ORM का उपयोग कैसे करें, 3. Django के दृश्य और टेम्पलेट्स कैसे बनाएं और अनुकूलित करें, 4. Django के फ़ॉर्म के साथ उपयोगकर्ता इनपुट और सत्यापन को कैसे संभालें, 5. Django के प्रमाणीकरण प्रणाली के साथ उपयोगकर्ता प्रमाणीकरण और प्राधिकरण कैसे लागू करें, 6. Django अनुप्रयोगों के लिए परीक्षण कैसे लिखें और परीक्षण-संचालित विकास का उपयोग करें, 7. Django अनुप्रयोगों को विभिन्न प्लेटफार्मों पर कैसे तैनात करें, जैसे Heroku, 8. Django के व्यवस्थापक इंटरफ़ेस और शेल का उपयोग कैसे करें, 9. API बनाने के लिए Django के REST फ्रेमवर्क का उपयोग कैसे करें, 10. Django अनुप्रयोगों को स्टाइल करने के लिए बूटस्ट्रैप का उपयोग कैसे करें।",
+                    // Portuguese
+                    "Português": "O leitor ganhará muitas habilidades e conhecimentos após a leitura deste livro, tais como: 1. Como configurar um ambiente de desenvolvimento e instalar o Django, 2. Como usar o ORM do Django para interagir com bancos de dados, 3. Como criar e personalizar as visualizações do Django e modelos, 4. Como lidar com a entrada e validação do usuário com os formulários do Django, 5. Como implementar autenticação e autorização do usuário com o sistema de autenticação do Django, 6. Como escrever testes para aplicativos Django e usar desenvolvimento orientado a testes, 7. Como implantar aplicativos Django em várias plataformas, como Heroku, 8. Como usar a interface de administração e shell do Django, 9. Como usar a estrutura REST do Django para criar APIs, 10. Como usar Bootstrap para estilizar aplicativos Django.",
+                    // Bengali
+                    "বাংলা": "এই বইটি পড়ার পরে পাঠক অনেক দক্ষতা এবং জ্ঞান অর্জন করবে, যেমন: 1. কীভাবে একটি উন্নয়ন পরিবেশ সেট আপ করতে হয় এবং জ্যাঙ্গো ইনস্টল করতে হয়, 2. ডাটাবেসের সাথে যোগাযোগ করতে জ্যাঙ্গোর ওআরএম কীভাবে ব্যবহার করতে হয়, 3. কীভাবে জ্যাঙ্গোর ভিউ তৈরি এবং কাস্টমাইজ করতে হয় এবং টেমপ্লেটগুলি, 4. জ্যাঙ্গোর ফর্মগুলির সাথে কীভাবে ব্যবহারকারীর ইনপুট এবং বৈধতা পরিচালনা করবেন, 5. কীভাবে জ্যাঙ্গোর প্রমাণীকরণ সিস্টেমের সাথে ব্যবহারকারীর প্রমাণীকরণ এবং অনুমোদন কার্যকর করবেন, 6. কীভাবে জ্যাঙ্গো অ্যাপ্লিকেশনগুলির জন্য পরীক্ষা লিখবেন এবং পরীক্ষা-চালিত বিকাশ ব্যবহার করবেন, 7. কীভাবে করবেন জ্যাঙ্গো অ্যাপ্লিকেশনগুলিকে বিভিন্ন প্ল্যাটফর্মে স্থাপন করুন, যেমন হেরোকু, 8. কীভাবে জ্যাঙ্গোর অ্যাডমিন ইন্টারফেস এবং শেল ব্যবহার করবেন, 9. API তৈরি করতে জ্যাঙ্গোর REST ফ্রেমওয়ার্ক কীভাবে ব্যবহার করবেন, 10. জ্যাঙ্গো অ্যাপ্লিকেশনগুলিকে স্টাইল করতে বুটস্ট্র্যাপ কীভাবে ব্যবহার করবেন।",
+                    // Arabic
+                    "عَرَبِيّ": "سوف يكتسب القارئ العديد من المهارات والمعرفة بعد قراءة هذا الكتاب، مثل: ١. كيفية إعداد بيئة تطوير وتثبيت Django، ٢. كيفية استخدام ORM الخاص بـ Django للتفاعل مع قواعد البيانات، ٣. كيفية إنشاء وتخصيص عروض Django والقوالب، ٤. كيفية التعامل مع إدخال المستخدم والتحقق من صحته باستخدام نماذج جانغو، ٥. كيفية تنفيذ مصادقة المستخدم والترخيص باستخدام نظام مصادقة جانغو، ٦. كيفية كتابة اختبارات لتطبيقات جانغو واستخدام التطوير القائم على الاختبار، ٧. كيفية نشر تطبيقات Django على منصات مختلفة، مثل Heroku، ٨. كيفية استخدام واجهة إدارة Django وshell، ٩. كيفية استخدام إطار عمل REST الخاص بـ Django لإنشاء واجهات برمجة التطبيقات، ١٠. كيفية استخدام Bootstrap لتصميم تطبيقات Django.",
+                    // Persian
+                    "فارسی": "خواننده پس از مطالعه این کتاب مهارت ها و دانش های زیادی را به دست خواهد آورد، مانند: ١. نحوه راه اندازی یک محیط توسعه و نصب جنگو، ٢. نحوه استفاده از ORM جنگو برای تعامل با پایگاه های داده، ٣. نحوه ایجاد و شخصی سازی نماهای جنگو. و الگوها، ٤. نحوه مدیریت ورودی و اعتبارسنجی کاربر با فرم‌های جنگو، ٥. نحوه اجرای احراز هویت و مجوز کاربر با سیستم احراز هویت جنگو، ٦. نحوه نوشتن تست‌ها برای برنامه‌های جنگو و استفاده از توسعه مبتنی بر تست، ٧. نحوه اجرای استقرار برنامه های جنگو در پلتفرم های مختلف، مانند Heroku، ٨. نحوه استفاده از رابط مدیریت و پوسته جنگو، ٩. نحوه استفاده از چارچوب REST جنگو برای ایجاد API، ١٠. نحوه استفاده از Bootstrap برای استایل دادن به برنامه های جنگو.",
+                },
+            ],
+            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Django_For_Beginners_Build_Websites_with_Python_and_Django.webp",
+            "shortDescriptionsForPageBookReviewing": {
+                // English
+                "English": "A step-by-step guide to building web applications with Python and Django 4.0. Create, test, and deploy 5 progressively more complex websites including a Message Board app, a Blog app with user accounts, and a robust Newspaper app with reader comments and a complete user registration flow. Along the way you'll learn core Django features and best practices around models, views, templates, urls, custom user models, permissions, authorizations, user registration, testing, and deployment.",
+                // German
+                "Deutsch": "Eine Schritt-für-Schritt-Anleitung zum Erstellen von Webanwendungen mit Python und Django 4.0. Erstellen, testen und implementieren Sie 5 zunehmend komplexere Websites, darunter eine Message Board-App, eine Blog-App mit Benutzerkonten und eine robuste Zeitungs-App mit Leserkommentaren und einem vollständigen Benutzerregistrierungsablauf. Dabei lernen Sie die wichtigsten Django-Funktionen und Best Practices zu Modellen, Ansichten, Vorlagen, URLs, benutzerdefinierten Benutzermodellen, Berechtigungen, Autorisierungen, Benutzerregistrierung, Tests und Implementierung kennen.",
+                // Chinese
+                "中国人": "使用 Python 和 Django 4.0 构建 Web 应用程序的分步指南。创建、测试和部署 5 个逐渐复杂的网站，包括留言板应用程序、带有用户帐户的博客应用程序以及带有读者评论和完整用户注册流程的强大报纸应用程序。在此过程中，您将学习有关模型、视图、模板、URL、自定义用户模型、权限、授权、用户注册、测试和部署的核心 Django 功能和最佳实践。",
+                // Russian
+                "Русский": "Пошаговое руководство по созданию веб-приложений с помощью Python и Django 4.0. Создайте, протестируйте и разверните 5 все более сложных веб-сайтов, включая приложение «Доска объявлений», приложение «Блог» с учетными записями пользователей и надежное приложение «Газета» с комментариями читателей и полным процессом регистрации пользователей. Попутно вы изучите основные функции Django и лучшие практики в отношении моделей, представлений, шаблонов, URL-адресов, пользовательских моделей пользователей, разрешений, авторизации, регистрации пользователей, тестирования и развертывания.",
+                // French
+                "Français": "Un guide étape par étape pour créer des applications Web avec Python et Django 4.0. Créez, testez et déployez 5 sites Web de plus en plus complexes, notamment une application Message Board, une application Blog avec des comptes d'utilisateurs et une application de journal robuste avec des commentaires de lecteurs et un flux complet d'enregistrement des utilisateurs. En cours de route, vous découvrirez les fonctionnalités de base de Django et les meilleures pratiques concernant les modèles, les vues, les modèles, les URL, les modèles d'utilisateur personnalisés, les autorisations, les autorisations, l'enregistrement des utilisateurs, les tests et le déploiement.",
+                // Japanese
+                "日本語": "Python と Django 4.0 を使用して Web アプリケーションを構築するためのステップバイステップ ガイドです。メッセージ ボード アプリ、ユーザー アカウントを備えたブログ アプリ、読者のコメントと完全なユーザー登録フローを備えた堅牢な新聞アプリなど、段階的に複雑化する 5 つの Web サイトを作成、テスト、およびデプロイします。その過程で、モデル、ビュー、テンプレート、URL、カスタム ユーザー モデル、権限、承認、ユーザー登録、テスト、およびデプロイに関する Django のコア機能とベスト プラクティスを学習します。",
+                // Korean
+                "한국인": "Python 및 Django 4.0을 사용하여 웹 애플리케이션을 구축하는 방법에 대한 단계별 가이드입니다. 메시지 보드 앱, 사용자 계정이 있는 블로그 앱, 독자 댓글과 전체 사용자 등록 흐름이 포함된 강력한 신문 앱을 포함하여 점점 더 복잡해지는 5개의 웹 사이트를 생성, 테스트 및 배포합니다. 그 과정에서 모델, 보기, 템플릿, URL, 사용자 정의 사용자 모델, 권한, 권한 부여, 사용자 등록, 테스트 및 배포에 관한 핵심 Django 기능과 모범 사례를 배우게 됩니다.",
+                // Spanish
+                "Español": "Una guía paso a paso para crear aplicaciones web con Python y Django 4.0. Cree, pruebe e implemente cinco sitios web cada vez más complejos, incluida una aplicación de tablero de mensajes, una aplicación de blog con cuentas de usuario y una aplicación de periódico sólida con comentarios de lectores y un flujo completo de registro de usuarios. A lo largo del camino, aprenderá las características principales de Django y las mejores prácticas en torno a modelos, vistas, plantillas, URL, modelos de usuario personalizados, permisos, autorizaciones, registro de usuarios, pruebas e implementación.",
+                // Hindi
+                "हिंदी": "पायथन और Django 4.0 के साथ वेब एप्लिकेशन बनाने के लिए चरण-दर-चरण मार्गदर्शिका। मैसेज बोर्ड ऐप, उपयोगकर्ता खातों के साथ एक ब्लॉग ऐप और पाठक टिप्पणियों और एक पूर्ण उपयोगकर्ता पंजीकरण प्रवाह के साथ एक मजबूत समाचार पत्र ऐप सहित 5 उत्तरोत्तर अधिक जटिल वेबसाइट बनाएं, परीक्षण करें और तैनात करें। इस दौरान आप मॉडल, दृश्य, टेम्पलेट, यूआरएल, कस्टम उपयोगकर्ता मॉडल, अनुमतियाँ, प्राधिकरण, उपयोगकर्ता पंजीकरण, परीक्षण और परिनियोजन के बारे में कोर Django सुविधाएँ और सर्वोत्तम अभ्यास सीखेंगे।",
+                // Portuguese
+                "Português": "Um guia passo a passo para construir aplicações web com Python e Django 4.0. Crie, teste e implante cinco sites cada vez mais complexos, incluindo um aplicativo de quadro de mensagens, um aplicativo de blog com contas de usuário e um aplicativo robusto de jornal com comentários de leitores e um fluxo completo de registro de usuários. Ao longo do caminho, você aprenderá os principais recursos e práticas recomendadas do Django sobre modelos, visualizações, modelos, URLs, modelos de usuário personalizados, permissões, autorizações, registro de usuário, testes e implantação.",
+                // Bengali
+                "বাংলা": "পাইথন এবং জ্যাঙ্গো 4.0 সহ ওয়েব অ্যাপ্লিকেশন তৈরি করার জন্য একটি ধাপে ধাপে নির্দেশিকা। একটি মেসেজ বোর্ড অ্যাপ, ব্যবহারকারীর অ্যাকাউন্ট সহ একটি ব্লগ অ্যাপ এবং পাঠকের মন্তব্য এবং সম্পূর্ণ ব্যবহারকারীর নিবন্ধন প্রবাহ সহ একটি শক্তিশালী সংবাদপত্র অ্যাপ সহ 5টি ক্রমান্বয়ে আরও জটিল ওয়েবসাইট তৈরি করুন, পরীক্ষা করুন এবং স্থাপন করুন৷ পথ ধরে আপনি মডেল, ভিউ, টেমপ্লেট, ইউআরএল, কাস্টম ব্যবহারকারী মডেল, অনুমতি, অনুমোদন, ব্যবহারকারী নিবন্ধন, পরীক্ষা এবং স্থাপনার আশেপাশে মূল জ্যাঙ্গো বৈশিষ্ট্য এবং সেরা অনুশীলনগুলি শিখবেন।",
+                // Arabic
+                "عَرَبِيّ": "دليل خطوة بخطوة لبناء تطبيقات الويب باستخدام Python وDjango 4.0. قم بإنشاء واختبار ونشر 5 مواقع ويب أكثر تعقيدًا بشكل تدريجي بما في ذلك تطبيق لوحة الرسائل وتطبيق المدونة مع حسابات المستخدمين وتطبيق الصحف القوي مع تعليقات القراء وتدفق كامل لتسجيل المستخدم. على طول الطريق، ستتعلم ميزات Django الأساسية وأفضل الممارسات حول النماذج وطرق العرض والقوالب وعناوين URL ونماذج المستخدم المخصصة والأذونات والتراخيص وتسجيل المستخدم والاختبار والنشر.",
+                // Persian
+                "فارسی": "راهنمای گام به گام ساخت برنامه های وب با پایتون و جنگو 4.0. ایجاد، آزمایش و استقرار 5 وب سایت به تدریج پیچیده تر از جمله یک برنامه پیام برد، یک برنامه وبلاگ با حساب های کاربری، و یک برنامه روزنامه قوی با نظرات خواننده و یک جریان کامل ثبت نام کاربر. در طول مسیر، ویژگی‌های اصلی جنگو و بهترین روش‌ها را در مورد مدل‌ها، نماها، قالب‌ها، آدرس‌های اینترنتی، مدل‌های کاربر سفارشی، مجوزها، مجوزها، ثبت نام کاربر، آزمایش و استقرار خواهید آموخت.",
+            },
+        },
     ],
     // Android Developer
     "Android Developer": [
@@ -20241,7 +22493,8 @@ function pagination_functionality() {
     // - > Next Button
     document.getElementById("Next-button-pagination-to-go-the-next-rows").addEventListener("click", function () {
         var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
-        if (Pagination_3_Button == null) {
+        var Pagination_3D_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if ((Pagination_3_Button == null) && (Pagination_3D_Button == null)) {
 
             // There are two set of three rows of Book
             document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
@@ -20263,7 +22516,8 @@ function pagination_functionality() {
     // 2 Button Pressed
     document.getElementById("second-page-current-paginateion-first-button").addEventListener("click", function () {
         var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
-        if (Pagination_3_Button == null) {
+        var Pagination_3D_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if ((Pagination_3_Button == null) && (Pagination_3D_Button == null)) {
 
             // There are two set of three rows of Book
             document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
@@ -20285,7 +22539,8 @@ function pagination_functionality() {
     // - > Previous Button
     document.getElementById("previous-page-paginateion-zero-button").addEventListener("click", function () {
         var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
-        if (Pagination_3_Button == null) {
+        var Pagination_3D_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if ((Pagination_3_Button == null) && (Pagination_3D_Button == null)) {
 
             // There are two set of three rows of Book
             document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
@@ -20306,7 +22561,8 @@ function pagination_functionality() {
     // 1 Button Pressed
     document.getElementById("active-current-paginateion-first-button").addEventListener("click", function () {
         var Pagination_3_Button = document.getElementById("third-page-current-paginateion-first-button");
-        if (Pagination_3_Button == null) {
+        var Pagination_3D_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if ((Pagination_3_Button == null) && (Pagination_3D_Button == null)) {
 
             // There are two set of three rows of Book
             document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
@@ -20327,7 +22583,120 @@ function pagination_functionality() {
 
     // 3rd State
     // When there are three set of Three Books Rows, 1,2 and 3 button is exsited and ... button is not existed
-    // Till this part ...
+    // - > Next Button
+    document.getElementById("Next-button-pagination-to-go-the-next-rows").addEventListener("click", function () {
+        var Pagination_3Dot_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if (Pagination_3Dot_Button == null) {
+
+            // Checking which one of 1 or two are currently active
+            // - > 1 Button is active
+            if ((document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
+                // Changing the backgrounds
+                document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+                document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+                document.getElementById("third-page-current-paginateion-first-button").style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
+
+                // Removing current book rows
+                var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+                while (BookRowSection.firstChild) {
+                    BookRowSection.removeChild(BookRowSection.lastChild);
+                }
+
+                // Recreating the Book Rows
+                BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 3, 6);
+
+                // Scroll to the top of the section
+                document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+            // - > 2 Button is active
+            else if ((document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
+                // Changing the backgrounds
+                document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+                document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
+                document.getElementById("third-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+
+                // Removing current book rows
+                var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+                while (BookRowSection.firstChild) {
+                    BookRowSection.removeChild(BookRowSection.lastChild);
+                }
+
+                // Recreating the Book Rows
+                BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 6, BooksReadForEachSkillStaticContainer[neededProperties.Currrent_Skill_Selected].length);
+
+                // Scroll to the top of the section
+                document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+            // - > 3 Button is active
+            else if ((document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
+                // Do nothing because there is no any other next buttons which the next button navigate to
+            }
+
+        }
+    });
+    // - > Previous Button
+    document.getElementById("previous-page-paginateion-zero-button").addEventListener("click", function () {
+        var Pagination_3Dot_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if (Pagination_3Dot_Button == null) {
+
+            // Checking which one of 1 or two are currently active
+            // - > 1 Button is active
+            if ((document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
+                // Do nothing because there is no any other previous buttons which the Previous button navigate to
+            }
+            // - > 2 Button is active
+            else if ((document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
+                // Changing the backgrounds
+                document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+                document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+                document.getElementById("third-page-current-paginateion-first-button").style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
+
+                // Removing current book rows
+                var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+                while (BookRowSection.firstChild) {
+                    BookRowSection.removeChild(BookRowSection.lastChild);
+                }
+
+                // Recreating the Book Rows
+                BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 0, 3);
+
+                // Scroll to the top of the section
+                document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+            // - > 3 Button is active
+            else if ((document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
+                // Changing the backgrounds
+                document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+                document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+                document.getElementById("third-page-current-paginateion-first-button").style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
+
+                // Removing current book rows
+                var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+                while (BookRowSection.firstChild) {
+                    BookRowSection.removeChild(BookRowSection.lastChild);
+                }
+
+                // Recreating the Book Rows
+                BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 3, 6);
+
+                // Scroll to the top of the section
+                document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+
+        }
+    });
+
+    // 4th state
+    // There is the ... Button which the books are more than 9 books
+
 }
 
 // ---------------------------------------- ↑ Functions ↑ ----------------------------------------
@@ -20632,6 +23001,7 @@ document.getElementById('ForToggling').addEventListener("click", function () {
 
             stylingCurrentSelectedOptionInDropDown('languagesssss-drop-down-menu-items', neededProperties.Currrent_Language_Selected);
 
+            pagination_functionality();
         });
     });
 });
@@ -20670,6 +23040,7 @@ document.getElementById('DropDownValueShowingSkills').addEventListener('click', 
             neededProperties.CurrentSkillSelectedMethod = this.textContent;
 
             ReadBooksListCallFunctionFunctionality(neededProperties.CurrentSkillSelectedMethod, neededProperties.CurrentLanguageSelectedMethod);
+            pagination_functionality();
         });
     });
 });
