@@ -22484,7 +22484,10 @@ function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugume
 
 // Documentation
 // This function will handle the pagination functionality
-function pagination_functionality() {
+function pagination_functionality(event) {
+
+    event.preventDefault();
+
     // 1st State
     // If there are just one set of three book, There is no need for any functionality
 
@@ -22589,6 +22592,7 @@ function pagination_functionality() {
         if (Pagination_3Dot_Button == null) {
 
             // Checking which one of 1 or two are currently active
+
             // - > 1 Button is active
             if ((document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
                 // Changing the backgrounds
@@ -22934,7 +22938,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Calling the Responsive Function
     ResponsiveAdaptive();
     // Calling pagination function
-    pagination_functionality();
+    pagination_functionality(event);
 });
 
 // Documentation
@@ -23001,7 +23005,7 @@ document.getElementById('ForToggling').addEventListener("click", function () {
 
             stylingCurrentSelectedOptionInDropDown('languagesssss-drop-down-menu-items', neededProperties.Currrent_Language_Selected);
 
-            pagination_functionality();
+            pagination_functionality(event);
         });
     });
 });
@@ -23040,7 +23044,7 @@ document.getElementById('DropDownValueShowingSkills').addEventListener('click', 
             neededProperties.CurrentSkillSelectedMethod = this.textContent;
 
             ReadBooksListCallFunctionFunctionality(neededProperties.CurrentSkillSelectedMethod, neededProperties.CurrentLanguageSelectedMethod);
-            pagination_functionality();
+            pagination_functionality(event);
         });
     });
 });
