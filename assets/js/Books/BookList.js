@@ -22642,6 +22642,87 @@ function pagination_functionality(event) {
 
         }
     });
+    // 1 Button Pressed
+    document.getElementById("active-current-paginateion-first-button").addEventListener("click", function () {
+        var Pagination_3Dot_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if (Pagination_3Dot_Button == null) {
+
+            // Checking which one of 1 or two are currently active
+            // - > 1 Button is active
+            // Changing the backgrounds
+            document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+            document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+            document.getElementById("third-page-current-paginateion-first-button").style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
+
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 0, 3);
+
+            // Scroll to the top of the section
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+        }
+    });
+    // 2 Button Pressed
+    document.getElementById("second-page-current-paginateion-first-button").addEventListener("click", function () {
+        var Pagination_3Dot_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if (Pagination_3Dot_Button == null) {
+
+            // Checking which one of 1 or two are currently active
+            // - > 2 Button is active
+            // Changing the backgrounds
+            document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+            document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+            document.getElementById("third-page-current-paginateion-first-button").style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
+
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 3, 6);
+
+            // Scroll to the top of the section
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+        }
+    });
+    // 3 Button Pressed
+    document.getElementById("third-page-current-paginateion-first-button").addEventListener("click", function () {
+        var Pagination_3Dot_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if (Pagination_3Dot_Button == null) {
+
+            // Checking which one of 1 or two are currently active
+            // - > 2 Button is active
+            // Changing the backgrounds
+            document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
+            document.getElementById("second-page-current-paginateion-first-button").style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
+            document.getElementById("third-page-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
+
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, 6, BooksReadForEachSkillStaticContainer[neededProperties.Currrent_Skill_Selected].length);
+
+            // Scroll to the top of the section
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+        }
+    });
     // - > Previous Button
     document.getElementById("previous-page-paginateion-zero-button").addEventListener("click", function () {
         var Pagination_3Dot_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
