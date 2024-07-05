@@ -22781,6 +22781,87 @@ function pagination_functionality(event) {
 
     // 4th state
     // There is the ... Button which the books are more than 9 books
+    document.getElementById("more-page-current-paginateion-first-button-to-update").addEventListener("click", function () {
+
+        var Pagination_3Dot_Button = document.getElementById("more-page-current-paginateion-first-button-to-update");
+        if (Pagination_3Dot_Button != null) {
+
+            // Getting the number of Books
+            var BookNumbers = BooksReadForEachSkillStaticContainer[neededProperties.Currrent_Skill_Selected].length;
+
+            // Calculating the number of Buttons Rows
+            var ButtonsRows = Math.floor(BookNumbers / 3);
+
+            if (BookNumbers % 3 == 0) {
+                // It is added in floor
+            } else {
+                ButtonsRows = ButtonsRows + 1;
+            }
+
+            // Increment the button numbers
+            if (document.getElementById("pagination-section-to-show-other-books").children[4].id == "more-page-current-paginateion-first-button-to-update") {
+
+                document.getElementById("active-current-paginateion-first-button").textContent = (parseInt(document.getElementById("active-current-paginateion-first-button").textContent) + 3).toString();
+                document.getElementById("second-page-current-paginateion-first-button").textContent = (parseInt(document.getElementById("second-page-current-paginateion-first-button").textContent) + 3).toString();
+                document.getElementById("third-page-current-paginateion-first-button").textContent = (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent) + 3).toString();
+
+            } else if (document.getElementById("pagination-section-to-show-other-books").children[1].id == "more-page-current-paginateion-first-button-to-update") {
+
+                document.getElementById("active-current-paginateion-first-button").textContent = (parseInt(document.getElementById("active-current-paginateion-first-button").textContent) - 3).toString();
+                document.getElementById("second-page-current-paginateion-first-button").textContent = (parseInt(document.getElementById("second-page-current-paginateion-first-button").textContent) - 3).toString();
+                document.getElementById("third-page-current-paginateion-first-button").textContent = (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent) - 3).toString();
+
+            }
+
+
+            // Checking the boundaries
+            if (parseInt(document.getElementById("second-page-current-paginateion-first-button").textContent) > ButtonsRows) {
+            
+                // Hide the buttons
+                document.getElementById("second-page-current-paginateion-first-button").style.display = "none";
+                document.getElementById("third-page-current-paginateion-first-button").style.display = "none";
+
+                // Change the ... button to the first of the w3-row
+                document.getElementById("pagination-section-to-show-other-books").insertBefore(document.getElementById("more-page-current-paginateion-first-button-to-update"), document.getElementById("pagination-section-to-show-other-books").children[1]);
+            
+            } else if (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent) > ButtonsRows) {
+            
+                // Hide the buttons
+                document.getElementById("third-page-current-paginateion-first-button").style.display = "none";
+
+                // Change the ... button to the first of the w3-row
+                document.getElementById("pagination-section-to-show-other-books").insertBefore(document.getElementById("more-page-current-paginateion-first-button-to-update"), document.getElementById("pagination-section-to-show-other-books").children[1]);
+            
+            } else if (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent) < ButtonsRows) {
+            
+                // Show the buttons
+                document.getElementById("second-page-current-paginateion-first-button").style.display = "";
+                document.getElementById("third-page-current-paginateion-first-button").style.display = "";
+
+                // Change the ... button to the first of the w3-row
+                document.getElementById("pagination-section-to-show-other-books").insertBefore(document.getElementById("more-page-current-paginateion-first-button-to-update"), document.getElementById("pagination-section-to-show-other-books").children[4]);
+                document.getElementById("pagination-section-to-show-other-books").insertBefore(document.getElementById("second-page-current-paginateion-first-button"), document.getElementById("pagination-section-to-show-other-books").children[2]);
+                document.getElementById("pagination-section-to-show-other-books").insertBefore(document.getElementById("third-page-current-paginateion-first-button"), document.getElementById("pagination-section-to-show-other-books").children[3]);
+            
+            }
+
+            // Removing current book rows
+            var BookRowSection = document.getElementById("secon-d-section-of-book-list-to-show");
+            while (BookRowSection.firstChild) {
+                BookRowSection.removeChild(BookRowSection.lastChild);
+            }
+
+            // Recreating the Book Rows
+            BookListRowCreator(neededProperties.Currrent_Skill_Selected, neededProperties.Currrent_Language_Selected, parseInt(document.getElementById("active-current-paginateion-first-button").textContent) * 3 - 3, parseInt(document.getElementById("active-current-paginateion-first-button").textContent) * 3);
+
+            // Scroll to the top of the section
+            document.getElementById("secon-d-section-of-book-list-to-show").scrollIntoView({
+                behavior: "smooth",
+            });
+
+        }
+
+    });
 
 }
 
