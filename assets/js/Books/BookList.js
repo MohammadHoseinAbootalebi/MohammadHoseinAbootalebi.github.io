@@ -22138,6 +22138,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
                 PreviousButton.href = "javascript:pagination_functionality();";
+                PreviousButton.setAttribute("onclick", "pagination_functionality(event)");
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
@@ -22166,6 +22167,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 FirstButton.id = "active-current-paginateion-first-button";
                 FirstButton.className = "pagination-item active";
                 FirstButton.href = "javascript:pagination_functionality();";
+                FirstButton.setAttribute("onclick", "pagination_functionality(event)");
                 FirstButton.style.fontFamily = "'Lilita One', serif";
                 FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
                 FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
@@ -22179,6 +22181,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 SecondButton.id = "second-page-current-paginateion-first-button";
                 SecondButton.className = "pagination-item";
                 SecondButton.href = "javascript:pagination_functionality();";
+                SecondButton.setAttribute("onclick", "pagination_functionality(event)");
                 SecondButton.style.fontFamily = "'Lilita One', serif";
                 SecondButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 SecondButton.style.background = "linear-gradient(#393939, #393939)";
@@ -22192,6 +22195,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
                 nextAnchorLink.href = "javascript:pagination_functionality();";
+                nextAnchorLink.setAttribute("onclick", "pagination_functionality(event)");
                 nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
@@ -22222,6 +22226,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
                 PreviousButton.href = "javascript:pagination_functionality();";
+                PreviousButton.setAttribute("onclick", "pagination_functionality(event)");
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
@@ -22250,6 +22255,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 FirstButton.id = "active-current-paginateion-first-button";
                 FirstButton.className = "pagination-item active";
                 FirstButton.href = "javascript:pagination_functionality();";
+                FirstButton.setAttribute("onclick", "pagination_functionality(event)");
                 FirstButton.style.fontFamily = "'Lilita One', serif";
                 FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
                 FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
@@ -22263,6 +22269,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 SecondButton.id = "second-page-current-paginateion-first-button";
                 SecondButton.className = "pagination-item";
                 SecondButton.href = "javascript:pagination_functionality();";
+                SecondButton.setAttribute("onclick", "pagination_functionality(event)");
                 SecondButton.style.fontFamily = "'Lilita One', serif";
                 SecondButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 SecondButton.style.background = "linear-gradient(#393939, #393939)";
@@ -22276,6 +22283,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 ThirdButton.id = "third-page-current-paginateion-first-button";
                 ThirdButton.className = "pagination-item";
                 ThirdButton.href = "javascript:pagination_functionality();";
+                ThirdButton.setAttribute("onclick", "pagination_functionality(event)");
                 ThirdButton.style.fontFamily = "'Lilita One', serif";
                 ThirdButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 ThirdButton.style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
@@ -22289,6 +22297,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
                 nextAnchorLink.href = "javascript:pagination_functionality();";
+                nextAnchorLink.setAttribute("onclick", "pagination_functionality(event)");
                 nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
@@ -22318,6 +22327,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 PreviousButton.className = "pagination-item";
                 PreviousButton.id = "previous-page-paginateion-zero-button";
                 PreviousButton.href = "javascript:pagination_functionality();";
+                PreviousButton.setAttribute("onclick", "pagination_functionality(event)");
                 PreviousButton.style.background = "linear-gradient(#000000, #000000)";
                 var SVGIconPreviousButton = document.createElementNS("http://www.w3.org/2000/svg", 'svg');
                 SVGIconPreviousButton.id = "previous-button-book-pagination-icon";
@@ -22346,6 +22356,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 FirstButton.id = "active-current-paginateion-first-button";
                 FirstButton.className = "pagination-item active";
                 FirstButton.href = "javascript:pagination_functionality();";
+                FirstButton.setAttribute("onclick", "pagination_functionality(event)");
                 FirstButton.style.fontFamily = "'Lilita One', serif";
                 FirstButton.style.borderColor = "rgba(244, 130, 32, 0)";
                 FirstButton.style.background = "linear-gradient(#fca311, #fca311)";
@@ -22359,6 +22370,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 SecondButton.id = "second-page-current-paginateion-first-button";
                 SecondButton.className = "pagination-item";
                 SecondButton.href = "javascript:pagination_functionality();";
+                SecondButton.setAttribute("onclick", "pagination_functionality(event)");
                 SecondButton.style.fontFamily = "'Lilita One', serif";
                 SecondButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 SecondButton.style.background = "linear-gradient(#393939, #393939)";
@@ -22372,6 +22384,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 ThirdButton.id = "third-page-current-paginateion-first-button";
                 ThirdButton.className = "pagination-item";
                 ThirdButton.href = "javascript:pagination_functionality();";
+                ThirdButton.setAttribute("onclick", "pagination_functionality(event)");
                 ThirdButton.style.fontFamily = "'Lilita One', serif";
                 ThirdButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 ThirdButton.style.background = "linear-gradient(#5e5e5e, #5e5e5e 100%)";
@@ -22385,6 +22398,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 FourthButton.id = "more-page-current-paginateion-first-button-to-update";
                 FourthButton.className = "pagination-item";
                 FourthButton.href = "javascript:pagination_functionality();";
+                FourthButton.setAttribute("onclick", "pagination_functionality(event)");
                 FourthButton.style.fontFamily = "'Lilita One', serif";
                 FourthButton.style.borderColor = "rgba(70, 69, 68, 0)";
                 FourthButton.textContent = "...";
@@ -22396,6 +22410,7 @@ function ReadBooksListCallFunctionFunctionality(SkillName, Language) {
                 nextAnchorLink.id = "Next-button-pagination-to-go-the-next-rows";
                 nextAnchorLink.className = "d-xxl-flex align-items-xxl-center pagination-item";
                 nextAnchorLink.href = "javascript:pagination_functionality();";
+                nextAnchorLink.setAttribute("onclick", "pagination_functionality(event)");
                 nextAnchorLink.style.background = "linear-gradient(#000000, #000000)";
                 var SpanNextText = document.createElement('span');
                 SpanNextText.style.fontFamily = "'Lilita One', serif";
@@ -22882,7 +22897,7 @@ function pagination_functionality(event) {
 
             if ((document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
 
-                if (parseInt(document.getElementById("active-current-paginateion-first-button").textContent + 1) < ButtonsRows) {
+                if (parseInt(document.getElementById("active-current-paginateion-first-button").textContent) + 1 < ButtonsRows) {
 
                     // Chaningg the colors
                     document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
@@ -22907,7 +22922,7 @@ function pagination_functionality(event) {
 
             } else if ((document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
 
-                if (parseInt(document.getElementById("second-page-current-paginateion-first-button").textContent + 1) < ButtonsRows) {
+                if (parseInt(document.getElementById("second-page-current-paginateion-first-button").textContent) + 1 < ButtonsRows) {
 
                     // Chaningg the colors
                     document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
@@ -22932,7 +22947,7 @@ function pagination_functionality(event) {
 
             } else if ((document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
 
-                if (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent + 1) < ButtonsRows) {
+                if (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent) + 1 <= ButtonsRows) {
 
                     if ((ButtonsRows - parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent)) % 3 == 0) {
 
@@ -23080,7 +23095,7 @@ function pagination_functionality(event) {
 
             if ((document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("active-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
 
-                if (parseInt(document.getElementById("active-current-paginateion-first-button").textContent - 1) < ButtonsRows) {
+                if (parseInt(document.getElementById("active-current-paginateion-first-button").textContent) - 1 < ButtonsRows) {
 
                     // Chaningg the colors
                     document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#393939, #393939)";
@@ -23121,7 +23136,7 @@ function pagination_functionality(event) {
 
             } else if ((document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("second-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
 
-                if (parseInt(document.getElementById("second-page-current-paginateion-first-button").textContent - 1) < ButtonsRows) {
+                if (parseInt(document.getElementById("second-page-current-paginateion-first-button").textContent) - 1 < ButtonsRows) {
 
                     // Chaningg the colors
                     document.getElementById("active-current-paginateion-first-button").style.background = "linear-gradient(#fca311, #fca311)";
@@ -23184,7 +23199,7 @@ function pagination_functionality(event) {
 
             } else if ((document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(#fca311, #fca311)') || (document.getElementById("third-page-current-paginateion-first-button").style.background == 'linear-gradient(rgb(252, 163, 17), rgb(252, 163, 17))')) {
 
-                if (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent - 1) < ButtonsRows) {
+                if (parseInt(document.getElementById("third-page-current-paginateion-first-button").textContent) - 1 < ButtonsRows) {
 
                         // Three buttons which are 1, 2, and 3 are existed
 
