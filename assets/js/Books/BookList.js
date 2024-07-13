@@ -361,14 +361,14 @@ var BoldFirstHeireachyFont = {
         'fontFamily': "'Lalezar', serif",
     },
     'FirstViewSkillImageCardImage': {
-        "UI & UX Designer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/UI - UX Designer.jpg",
-        "Flutter Developer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/Flutter Card.jpg",
-        "Full Stack Developer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/Full Stack Developer.jpg",
-        "Android Developer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/Android Developer.jpg",
-        "AI Engineer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/AI Engineer.jpeg",
-        "Industrial Designer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/Industrial Designer.jpg",
-        "Self-Driving Automobile Engineer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/SDC Engineer.jpeg",
-        "Mechanical Engineer": "../../assets/img/Book Covers/FirstViewCardSkillsImages/Mechanical Engineer Simulation.png",
+        "UI & UX Designer": "../assets/img/Book Covers/FirstViewCardSkillsImages/UI - UX Designer.jpg",
+        "Flutter Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Flutter Card.jpg",
+        "Full Stack Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Full Stack Developer.jpg",
+        "Android Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Android Developer.jpg",
+        "AI Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/AI Engineer.jpeg",
+        "Industrial Designer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Industrial Designer.jpg",
+        "Self-Driving Automobile Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/SDC Engineer.jpeg",
+        "Mechanical Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Mechanical Engineer Simulation.png",
     },
 };
 
@@ -2318,7 +2318,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "تحقیقات کاربر منبع ارزشمندی برای هر کسی است که می خواهد بیاموزد که چگونه تحقیقات کاربر را به طور مؤثر و کارآمد انجام دهد. این برای مبتدیانی که می خواهند با تحقیقات کاربر شروع کنند، و همچنین برای پزشکان با تجربه که می خواهند دانش و مهارت های خود را تازه کنند، مناسب است. با خواندن این کتاب، دید کلی جامعی در مورد چگونگی تبدیل شدن به یک کاربر محقق عالی و نحوه طراحی محصولات و خدمات بهتری که نیازها و انتظارات کاربران خود را برآورده می کند، به دست خواهید آورد.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/UIAndUXDesigner/User_Research_2nd_Edition_Stephanie_Marsh_Improve_Product_and_Service_Design_and_Enhance_Your_UX_Research.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/UIAndUXDesigner/User_Research_2nd_Edition_Stephanie_Marsh_Improve_Product_and_Service_Design_and_Enhance_Your_UX_Research.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Despite businesses often being based on creating desirable experiences, products and services for consumers, many fail to consider the end user in their planning and development processes. This book is here to change that.",
@@ -2347,6 +2347,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "علیرغم اینکه کسب و کارها اغلب مبتنی بر ایجاد تجربیات، محصولات و خدمات مطلوب برای مصرف کنندگان هستند، بسیاری از آنها در برنامه ریزی و فرآیندهای توسعه خود، کاربر نهایی را در نظر نمی گیرند. این کتاب اینجاست تا آن را تغییر دهد.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BRs/UI and UX designing/2 - User Research 2nd Edition stephanie Marsh/2 - User Research 2nd Edition stephanie Marsh.html",
         },
         // Don't make me think Steve Krug
         {
@@ -2865,7 +2866,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "یکی دیگر از مزیت های مطالعه این کتاب این است که برای کاربران وب سایت هایی که بر اساس دستورالعمل های کتاب طراحی و توسعه یافته اند، مفید است. کاربران با بازدید از وب سایتی که استفاده و درک آن آسان است، تجربه بهتری خواهند داشت و احتمال بازگشت، توصیه یا اعتماد به وب سایت بیشتر خواهد بود. کاربران همچنین با استفاده از وب سایتی که مطابق با نیازها و انتظارات آنها طراحی شده است در زمان و تلاش خود صرفه جویی می کنند و از وب سایت رضایت و رضایت بیشتری خواهند داشت.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/UIAndUXDesigner/Dont_Make_Me_Think_Steve_Krug_Revisited.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/UIAndUXDesigner/Dont_Make_Me_Think_Steve_Krug_Revisited.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Since Don’t Make Me Think was first published in 2000, over 400,000 Web designers and developers have relied on Steve Krug’s guide to help them understand the principles of intuitive navigation and information design.",
@@ -2894,6 +2895,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "از زمانی که Don't Me Think برای اولین بار در سال 2000 منتشر شد، بیش از 400000 طراح و توسعه دهنده وب به راهنمای استیو کروگ برای کمک به درک اصول ناوبری بصری و طراحی اطلاعات تکیه کرده اند.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BRs/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
     ],
     // Flutter Developer
@@ -3831,7 +3833,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "این کتاب به شما کمک می کند تا درک کاملی از فلاتر و بهترین شیوه های آن به دست آورید. همچنین مزایای استفاده از Flutter مانند توسعه سریعتر، عملکرد بومی، بارگذاری مجدد داغ و راه اندازی مجدد داغ و یک جامعه پر جنب و جوش را خواهید دید. چه در فلاتر تازه کار باشید و چه تجربه ای در این زمینه داشته باشید، این کتاب به شما کمک می کند تا مهارت ها و دانش لازم برای تبدیل شدن به یک توسعه دهنده موفق فلاتر را به دست آورید.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Flutter Development/Flutter_complete_reference_2.0.jpg",
+            "BookCoverImagePath": "../assets/img/Book Covers/Flutter Development/Flutter_complete_reference_2.0.jpg",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Flutter is Google's UI toolkit for creating beautiful and native applications for mobile, desktop and web from a single Dart codebase. In this book we cover in detail the Dart programming language and the Flutter framework.",
@@ -3860,6 +3862,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "Flutter ابزار UI گوگل برای ایجاد برنامه های زیبا و بومی برای موبایل، دسکتاپ و وب از یک پایگاه کد دارت است. در این کتاب به طور مفصل به زبان برنامه نویسی دارت و چارچوب فلاتر می پردازیم.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
         // Flutter Apprentice
         {
@@ -4570,7 +4573,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "با خواندن این کتاب، درک کاملی از فلاتر و بهترین شیوه های آن به دست خواهید آورد. همچنین مزایای استفاده از Flutter مانند توسعه سریعتر، عملکرد بومی، بارگذاری مجدد داغ و راه اندازی مجدد داغ و یک جامعه پر جنب و جوش را خواهید دید. چه در فلاتر تازه کار باشید و چه تجربه ای در این زمینه داشته باشید، این کتاب به شما کمک می کند تا مهارت ها و دانش لازم برای تبدیل شدن به یک توسعه دهنده موفق فلاتر را به دست آورید.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Flutter Development/Flutter_Apprentice_Third_Edition_Learn_to_Build_Cross_Platform_Apps.jpg",
+            "BookCoverImagePath": "../assets/img/Book Covers/Flutter Development/Flutter_Apprentice_Third_Edition_Learn_to_Build_Cross_Platform_Apps.jpg",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Flutter is an exciting development toolkit that lets you build apps for iOS, Android and even web and desktop, all from a single codebase. It uses a declarative approach to UI development. You can 'hot reload' code while developing, and apps will perform at native speed thanks to its custom rendering engine. With Flutter and Flutter Apprentice, you can achieve the dream of building fast applications, faster.",
@@ -4599,6 +4602,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "Flutter یک جعبه ابزار توسعه هیجان انگیز است که به شما امکان می دهد برنامه هایی را برای iOS، Android و حتی وب و دسکتاپ بسازید، همه از یک پایگاه کد واحد. از یک رویکرد اعلامی برای توسعه UI استفاده می کند. هنگام توسعه می‌توانید کد را «بارگذاری مجدد» کنید، و برنامه‌ها به لطف موتور رندر سفارشی آن، با سرعت اصلی کار خواهند کرد. با Flutter و Flutter Apprentice، می توانید به رویای ساخت برنامه های سریع و سریعتر دست یابید.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
     ],
     // Full Stack Developer
@@ -5440,7 +5444,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "علاوه بر این، کتاب به گونه ای طراحی شده است که آموزنده، جذاب، چالش برانگیز و سرگرم کننده باشد و فرآیند یادگیری را لذت بخش کند. برای تمام دوره های پایه تا متوسط ​​برنامه نویسی ویژوال سی شارپ مناسب است. طیف وسیعی از برنامه‌ها و تمرین‌های نمونه موجود در این کتاب از زمینه‌های متنوعی مانند علوم کامپیوتر، تجارت، آموزش و بسیاری از زمینه‌های دیگر می‌آیند و اطمینان می‌دهند که خوانندگان دیدگاهی جامع در مورد برنامه‌نویسی با سی شارپ به دست می‌آورند. با این کتاب، خوانندگان نه تنها نحو زبان سی شارپ را یاد خواهند گرفت، بلکه نحوه به کارگیری موثر آن برای حل مشکلات دنیای واقعی را نیز یاد خواهند گرفت.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Deitel_and_Deitel_C_Sharp_How_to_Program.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Deitel_and_Deitel_C_Sharp_How_to_Program.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "For all basic-to-intermediate level courses in Visual C# programming. An informative, engaging, challenging and entertaining introduction to Visual C# Created by world-renowned programming instructors Paul and Harvey Deitel, Visual C# How to Program, Sixth Edition introduces students to the world of desktop, mobile and web app development with Microsoft’s Visual C# programming language.",
@@ -5469,6 +5473,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "برای تمام دوره های پایه تا متوسط ​​برنامه نویسی ویژوال سی شارپ. مقدمه ای آموزنده، جذاب، چالش برانگیز و سرگرم کننده برای ویژوال سی شارپ که توسط مدرسان برنامه نویسی مشهور جهان پل و هاروی دیتل ایجاد شده است، ویژوال سی شارپ چگونه برنامه ریزی کنیم، ویرایش ششم دانش آموزان را با دنیای توسعه دسکتاپ، موبایل و برنامه های وب با برنامه نویسی Visual C مایکروسافت آشنا می کند. زبان",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
         // Head First Git
         {
@@ -5827,7 +5832,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "مزایای خواندن “Head First Git” بسیار زیاد است. اولاً، روش تدریس منحصر به فرد کتاب، یادگیری در مورد Git را به تجربه ای لذت بخش و مؤثر تبدیل می کند. استفاده از داستان ها، تشبیه ها و وسایل کمک بصری به حفظ اطلاعات پیچیده کمک می کند. ثانیاً، تمرین‌های عملی موجود در کتاب قابلیت کاربرد در دنیای واقعی را ارائه می‌دهند و اطمینان می‌دهند که خوانندگان می‌توانند فوراً دانش خود را به کار گیرند. در نهایت، رویکرد کتاب برای توضیح «چرا» پشت «چگونه»، خوانندگان را با طرز فکر حل مسئله مجهز می‌کند و آنها را در غلبه بر چالش‌هایی که ممکن است در حین استفاده از Git با آن‌ها مواجه شوند، ماهرتر می‌کند.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Head_First_Git.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Head_First_Git.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Many people who use Git rely on recipes--basic copy-paste commands--without understanding how this version control system actually works. But what do you do if you find yourself in a tight spot? You can't simply wing it. With this unique hands-on guide, you'll learn valuable ways to use Git in many different situations.",
@@ -5856,6 +5861,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "بسیاری از افرادی که از Git استفاده می کنند به دستور العمل ها - دستورات اصلی کپی پیست - تکیه می کنند بدون اینکه بفهمند این سیستم کنترل نسخه واقعاً چگونه کار می کند. اما اگر در تنگنا قرار گرفتید چه کار می کنید؟ شما نمی توانید به سادگی آن را بال کنید. با این راهنمای عملی منحصربفرد، روش‌های ارزشمندی را برای استفاده از Git در موقعیت‌های مختلف یاد خواهید گرفت.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
         // Learn Django in 24 Hours
         {
@@ -6118,7 +6124,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "پس از خواندن این کتاب، زبان آموزان اعتماد به نفس پیدا می کنند تا پروژه های جنگو خود را از ابتدا شروع کنند. آنها درک اساسی از توسعه برنامه های کاربردی وب و توانایی استفاده موثر از ویژگی های جنگو خواهند داشت. علاوه بر این، تأکید کتاب بر رویکرد عملی به این معنی است که خوانندگان نه تنها جنبه‌های نظری را یاد می‌گیرند، بلکه آنچه را که آموخته‌اند در سناریوهای دنیای واقعی نیز به کار می‌گیرند و در نتیجه دانش و مهارت‌های خود را تقویت می‌کنند.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Learn_Django_In_24_Hours.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Learn_Django_In_24_Hours.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "This book is a BEGINNER’s guide to building a web application using HTML, CSS, Javascript, Python and Django Web framework. I have explained all the topics in a simple, concise and easy language with thorough examples, codes and have tried my best to make the learning process fun, informative and interesting at the same time. If you want to gain an in-depth understanding, it is quite a simple book for the job.",
@@ -6147,6 +6153,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "این کتاب یک راهنمای مبتدی برای ساختن یک برنامه وب با استفاده از HTML، CSS، جاوا اسکریپت، پایتون و چارچوب وب جنگو است. تمام مباحث را به زبانی ساده، مختصر و آسان با مثال‌ها، کدهای کامل توضیح داده‌ام و تمام تلاش خود را کرده‌ام که فرآیند یادگیری را سرگرم‌کننده، آموزنده و در عین حال جالب کنم. اگر می خواهید درک عمیقی به دست آورید، کتاب بسیار ساده ای برای این کار است.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
         // Django for Beginners
         {
@@ -6825,7 +6832,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "خواننده پس از مطالعه این کتاب مهارت ها و دانش های زیادی را به دست خواهد آورد، مانند: ١. نحوه راه اندازی یک محیط توسعه و نصب جنگو، ٢. نحوه استفاده از ORM جنگو برای تعامل با پایگاه های داده، ٣. نحوه ایجاد و شخصی سازی نماهای جنگو. و الگوها، ٤. نحوه مدیریت ورودی و اعتبارسنجی کاربر با فرم‌های جنگو، ٥. نحوه اجرای احراز هویت و مجوز کاربر با سیستم احراز هویت جنگو، ٦. نحوه نوشتن تست‌ها برای برنامه‌های جنگو و استفاده از توسعه مبتنی بر تست، ٧. نحوه اجرای استقرار برنامه های جنگو در پلتفرم های مختلف، مانند Heroku، ٨. نحوه استفاده از رابط مدیریت و پوسته جنگو، ٩. نحوه استفاده از چارچوب REST جنگو برای ایجاد API، ١٠. نحوه استفاده از Bootstrap برای استایل دادن به برنامه های جنگو.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Full Stack Development/Django_For_Beginners_Build_Websites_with_Python_and_Django.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Django_For_Beginners_Build_Websites_with_Python_and_Django.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "A step-by-step guide to building web applications with Python and Django 4.0. Create, test, and deploy 5 progressively more complex websites including a Message Board app, a Blog app with user accounts, and a robust Newspaper app with reader comments and a complete user registration flow. Along the way you'll learn core Django features and best practices around models, views, templates, urls, custom user models, permissions, authorizations, user registration, testing, and deployment.",
@@ -6854,6 +6861,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "راهنمای گام به گام ساخت برنامه های وب با پایتون و جنگو 4.0. ایجاد، آزمایش و استقرار 5 وب سایت به تدریج پیچیده تر از جمله یک برنامه پیام برد، یک برنامه وبلاگ با حساب های کاربری، و یک برنامه روزنامه قوی با نظرات خواننده و یک جریان کامل ثبت نام کاربر. در طول مسیر، ویژگی‌های اصلی جنگو و بهترین روش‌ها را در مورد مدل‌ها، نماها، قالب‌ها، آدرس‌های اینترنتی، مدل‌های کاربر سفارشی، مجوزها، مجوزها، ثبت نام کاربر، آزمایش و استقرار خواهید آموخت.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
     ],
     // Android Developer
@@ -7663,7 +7671,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "با خواندن «نحوه برنامه‌نویسی اندروید»، زبان‌آموزان تجربه عملی با طیف گسترده‌ای از APIهای ضروری اندروید به دست خواهند آورد. این کتاب به گونه‌ای طراحی شده است که به خوانندگان کمک کند از ابتدا مانند توسعه‌دهندگان فکر کنند، و درک عمیقی از توسعه برنامه‌ها را که فراتر از برنامه‌نویسی سطحی است، تقویت می‌کند.با توضیحات واضح و راهنمایی گام به گام، خوانندگان برای مقابله با چالش های توسعه برنامه اندروید به خوبی مجهز خواهند شد و آماده خواهند شد تا برنامه های نوآورانه خود را ایجاد کنند.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Android Development/Android_How_to_Program.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/Android Development/Android_How_to_Program.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "The Deitels' App-Driven, Live Code Approach is simply the best way to master Android programming! The Deitels teach Android programming through sixteen complete, working Android Apps. Each chapter presents new concepts through a single App. The authors first discuss what the App does, show screen shots, test drive the App, and present an overview of the technologies and architecture used to build it. Next, the authors walk through building the App, presenting complete code and providing a detailed 'Live Code' walkthrough. As part of the code walkthrough, they discuss essential programming concepts, and demonstrate the functionality of relevant Android 2.x APIs. Readers will gain hands-on experience with a wide spectrum of essential Android APIs. The book also has an extensive introduction to programming using the Java language, making this book appropriate for Java courses that want to add an app-programming flavor.",
@@ -7692,6 +7700,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "رویکرد کد زنده و مبتنی بر برنامه Deitels به سادگی بهترین راه برای تسلط بر برنامه نویسی اندروید است! Deitel ها برنامه نویسی اندروید را از طریق شانزده برنامه کامل و کارآمد اندروید آموزش می دهند. هر فصل مفاهیم جدیدی را از طریق یک برنامه ارائه می دهد. نویسندگان ابتدا درباره کارهایی که برنامه انجام می دهد بحث می کنند، عکس های صفحه نمایش را نشان می دهند، برنامه را آزمایش می کنند و مروری بر فناوری ها و معماری استفاده شده برای ساخت آن ارائه می دهند. در مرحله بعد، نویسندگان در ساخت برنامه قدم می زنند، کد کامل را ارائه می دهند و یک راهنمای دقیق 'Live Code' ارائه می دهند. به عنوان بخشی از راهنمای کد، آنها مفاهیم اساسی برنامه نویسی را مورد بحث قرار می دهند و عملکرد API های مربوط به Android 2.x را نشان می دهند. خوانندگان با طیف گسترده ای از API های ضروری اندروید تجربه عملی کسب خواهند کرد. این کتاب همچنین دارای یک مقدمه گسترده برای برنامه نویسی با استفاده از زبان جاوا است که این کتاب را برای دوره های جاوا که می خواهند طعم برنامه نویسی را اضافه کنند مناسب می کند.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
     ],
     // AI Engineer
@@ -8053,7 +8062,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "با خواندن 'یادگیری عمیق از ابتدا' خوانندگان اعتماد به نفس ایجاد شبکه های عصبی خود و استفاده از چارچوب هایی مانند PyTorch را با درک کامل از هر مرحله به دست می آورند. محتوای کتاب به شیوه‌ای غیر ترسناک تنظیم شده است و نویسنده اصطلاحات پیچیده را به سادگی و با تجسم‌های مفید توضیح می‌دهد.این کتاب را به منبعی عالی برای کسانی تبدیل می‌کند که می‌خواهند در اعماق یادگیری عمیق کاوش کنند و پایه‌ای قوی فراهم کند که یادگیری موضوعات پیچیده مرتبط را آسان‌تر می‌کند.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/AI Engineering/Deep_Learning_From_Scratch.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/AI Engineering/Deep_Learning_From_Scratch.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "With the resurgence of neural networks in the 2010s, deep learning has become essential for machine learning practitioners and even many software engineers. This book provides a comprehensive introduction for data scientists and software engineers with machine learning experience. You will start with deep learning basics and move quickly to the details of important advanced architectures, implementing everything from scratch along the way. Author Seth Weidman shows you how neural networks work using a first principles approach. You will learn how to apply multilayer neural networks, convolutional neural networks, and recurrent neural networks from the ground up. With a thorough understanding of how neural networks work mathematically, computationally, and conceptually, you will be set up for success on all future deep learning projects.",
@@ -8082,6 +8091,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "با ظهور مجدد شبکه های عصبی در دهه 2010، یادگیری عمیق برای متخصصان یادگیری ماشین و حتی بسیاری از مهندسان نرم افزار ضروری شده است. این کتاب مقدمه ای جامع برای دانشمندان داده و مهندسان نرم افزار با تجربه یادگیری ماشین ارائه می دهد. شما با اصول یادگیری عمیق شروع می‌کنید و به سرعت به جزئیات معماری‌های پیشرفته مهم می‌روید و همه چیز را از ابتدا در طول مسیر پیاده‌سازی می‌کنید. نویسنده ست ویدمن به شما نشان می دهد که چگونه شبکه های عصبی با استفاده از رویکرد اصول اولیه کار می کنند. شما یاد خواهید گرفت که چگونه شبکه های عصبی چندلایه، شبکه های عصبی کانولوشن و شبکه های عصبی مکرر را از پایه اعمال کنید. با درک کامل نحوه عملکرد شبکه های عصبی از نظر ریاضی، محاسباتی و مفهومی، برای موفقیت در تمام پروژه های یادگیری عمیق آینده آماده خواهید شد.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
     ],
     // Industrial Designer
@@ -8860,7 +8870,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "پس از خواندن این کتاب، خواننده پایه محکمی از دانش و مهارت های SOLIDWORKS خواهد داشت که می تواند در پروژه ها و طرح های خود اعمال کند. او همچنین برای رفتن به سطح بعدی یادگیری SOLIDWORKS آماده خواهد بود، زیرا این کتاب بخشی از یک مجموعه سه کتاب است که موضوعات متوسط ​​و پیشرفته را پوشش می دهد. این کتاب یک منبع عالی برای هر کسی است که می خواهد شروع به یادگیری SOLIDWORKS کند یا مهارت های موجود خود را بهبود بخشد.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/Industrial Designing/SOLIDWORKS_2020_Basic_Tools_Getting_Started_with_Parts_Assemblies_and_Drawings.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/Industrial Designing/SOLIDWORKS_2020_Basic_Tools_Getting_Started_with_Parts_Assemblies_and_Drawings.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "SOLIDWORKS 2020 Basic Tools is the first book in a three part series. It introduces new users to the SOLIDWORKS interface, SOLIDWORKS tools and basic modeling techniques. It provides you with a strong understanding of SOLIDWORKS and covers the creation of parts, assemblies and drawings. Every lesson and exercise in this book was created based on real world projects. Each of these projects has been broken down and developed into easy and comprehensible steps. Furthermore, at the end of every chapter there are self test questionnaires to ensure that you have gained sufficient knowledge from each section before moving on to more advanced lessons. This book takes the approach that in order to understand SOLIDWORKS, inside and out, you should create everything from the beginning and take it step by step.",
@@ -8889,6 +8899,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "SOLIDWORKS 2020 Basic Tools اولین کتاب از مجموعه سه قسمتی است. کاربران جدید را با رابط SOLIDWORKS، ابزار SOLIDWORKS و تکنیک های مدل سازی اولیه آشنا می کند. درک قوی از SOLIDWORKS برای شما فراهم می کند و ایجاد قطعات، مجموعه ها و نقشه ها را پوشش می دهد. هر درس و تمرین در این کتاب بر اساس پروژه های دنیای واقعی ایجاد شده است. هر یک از این پروژه ها به مراحل آسان و قابل درک تقسیم شده اند. علاوه بر این، در پایان هر فصل پرسشنامه‌های خودآزمایی وجود دارد تا اطمینان حاصل شود که قبل از رفتن به درس‌های پیشرفته‌تر، دانش کافی از هر بخش به دست آورده‌اید. این کتاب این رویکرد را دارد که برای درک SOLIDWORKS، درون و بیرون، باید همه چیز را از ابتدا ایجاد کنید و آن را گام به گام پیش ببرید.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
     ],
     // Self-Driving Automobile Engineer
@@ -9378,7 +9389,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "کاربر نیز از خواندن این کتاب مزایای بسیاری را به دست خواهد آورد. کاربر می‌تواند از پیشرفت‌های فعلی و روندهای آینده در تحقیق و توسعه خودروهای خودران قدردانی کند. کاربر می‌تواند پیامدهای اخلاقی، اجتماعی و قانونی خودروهای خودران و اینکه چگونه می‌توانند به سیستم حمل‌ونقل ایمن‌تر و کارآمدتر کمک کنند را کشف کند. کاربر می‌تواند دانش و مهارت‌های خود را در حوزه‌ها و برنامه‌های کاربردی دیگری که شامل یادگیری عمیق و بینایی رایانه‌ای هستند، مانند رباتیک، مراقبت‌های بهداشتی و امنیت، به کار گیرد. کاربر می تواند به جامعه رو به رشد علاقه مندان و متخصصان خودروهای خودران بپیوندد و در مسابقات و پروژه های مختلف شرکت کند.",
                 },
             ],
-            "BookCoverImagePath": "../../assets/img/Book Covers/SDC Engineering/Applied_Deep_Learning_and_Computer_Vision_for_Self_Driving_Cars.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/SDC Engineering/Applied_Deep_Learning_and_Computer_Vision_for_Self_Driving_Cars.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Starting with the basics of self-driving cars (SDCs), this book will take you through the deep neural network techniques required to get up and running with building your autonomous vehicle. Once you are comfortable with the basics, you'll delve into advanced computer vision techniques and learn how to use deep learning methods to perform a variety of computer vision tasks such as finding lane lines, improving image classification, and so on. You will explore the basic structure and working of a semantic segmentation model and get to grips with detecting cars using semantic segmentation. The book also covers advanced applications such as behavior-cloning and vehicle detection using OpenCV, transfer learning, and deep learning methodologies to train SDCs to mimic human driving.",
@@ -9407,6 +9418,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "این کتاب که با اصول اولیه ماشین‌های خودران (SDC) شروع می‌شود، شما را با تکنیک‌های شبکه عصبی عمیق مورد نیاز برای راه‌اندازی و راه‌اندازی با ساخت وسیله نقلیه خودران آشنا می‌کند. هنگامی که با اصول اولیه راحت شدید، به تکنیک های پیشرفته بینایی کامپیوتری می پردازید و یاد می گیرید که چگونه از روش های یادگیری عمیق برای انجام انواع وظایف بینایی کامپیوتری مانند یافتن خطوط خطوط، بهبود طبقه بندی تصاویر و غیره استفاده کنید. شما ساختار اساسی و عملکرد یک مدل تقسیم بندی معنایی را بررسی خواهید کرد و با تشخیص خودروها با استفاده از تقسیم بندی معنایی مقابله خواهید کرد. این کتاب همچنین کاربردهای پیشرفته‌ای مانند شبیه‌سازی رفتار و تشخیص وسیله نقلیه با استفاده از OpenCV، یادگیری انتقال، و روش‌های یادگیری عمیق را برای آموزش SDCها برای تقلید از رانندگی انسان پوشش می‌دهد.",
             },
+            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
         },
     ],
     // Mechanical Engineer
@@ -12409,7 +12421,8 @@ function BookListRowCreator(SkillName, Language, StartIndex, EndIndex) {
         // - > - > See More Anchor Link
         var SeeMoreRow = document.createElement("a");
         SeeMoreRow.id = "text-staff-container-jsut";
-        SeeMoreRow.href = "#end-section-of-page";
+        SeeMoreRow.href = BooksReadForEachSkillStaticContainer[SkillName][index]["DetailPageScreenToShowEachBookDetails"];
+        SeeMoreRow.target = "_blank"
         // - > - > See More Anchor Link - > styling
         if (window.innerWidth >= 1300) {
 

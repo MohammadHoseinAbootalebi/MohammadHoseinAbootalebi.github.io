@@ -2036,7 +2036,7 @@ var neededProperties = {
 
         // -------------------------------------- ↓ Links ↓ --------------------------------------
 
-        document.getElementById('books-button-to-go-to-the-book-list').href = "../BooksCoursesProjects/Books/BookList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
+        document.getElementById('books-button-to-go-to-the-book-list').href = "../Books/BookList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
 
         // -------------------------------------- ↑ Links ↑ --------------------------------------
     },
@@ -2206,7 +2206,7 @@ var neededProperties = {
 
         // -------------------------------------- ↓ Links ↓ --------------------------------------
 
-        document.getElementById('books-button-to-go-to-the-book-list').href = "../BooksCoursesProjects/Books/BookList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
+        document.getElementById('books-button-to-go-to-the-book-list').href = "../Books/BookList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
 
         // -------------------------------------- ↑ Links ↑ --------------------------------------
 
