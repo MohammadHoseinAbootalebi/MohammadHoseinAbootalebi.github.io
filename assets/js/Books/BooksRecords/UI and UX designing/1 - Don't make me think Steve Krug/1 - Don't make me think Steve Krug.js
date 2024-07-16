@@ -12,7 +12,228 @@
 
 // --------------------- ↓ Static Informations for Individual Skills Page ↓ ---------------------
 
-// Add variables here, What do you think ?
+// Documentation
+// This dictionary contains all bold font text contents
+var BoldFirstHeireachyFont = {
+    // English
+    'English': {
+        'DownloadMyResumeButtonTopNavigationBar': 'Download My Resume',
+        'HomeButtonLinkTopNavigationBar': 'Home',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "UI & UX Designer",
+            "Flutter Developer": "Flutter Developer",
+            "Full Stack Developer": "Full Stack Developer",
+            "Android Developer": "Android Developer",
+            "AI Engineer": "AI Engineer",
+            "Industrial Designer": "Industrial Designer",
+            "Self-Driving Automobile Engineer": "Self-Driving Automobile Engineer",
+            "Mechanical Engineer": "Mechanical Engineer",
+        },
+        'fontFamily': "'Lilita One', serif",
+    },
+    // German
+    'Deutsch': {
+        'DownloadMyResumeButtonTopNavigationBar': 'Laden Sie meinen Lebenslauf herunter',
+        'HomeButtonLinkTopNavigationBar': 'Heim',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "UI & UX Designer",
+            "Flutter Developer": "Flutter-Entwickler",
+            "Full Stack Developer": "Full-Stack-Entwickler",
+            "Android Developer": "Android-Entwickler",
+            "AI Engineer": "KI-Ingenieur",
+            "Industrial Designer": "Industriedesigner",
+            "Self-Driving Automobile Engineer": "Ingenieur für selbstfahrende Automobile",
+            "Mechanical Engineer": "Maschinenbauingenieur",
+        },
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Chinese
+    '中国人': {
+        'DownloadMyResumeButtonTopNavigationBar': '下载我的简历',
+        'HomeButtonLinkTopNavigationBar': '家',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "UI 和 UX 设计师",
+            "Flutter Developer": "Flutter 开发人员",
+            "Full Stack Developer": "全栈开发人员",
+            "Android Developer": "Android 开发者",
+            "AI Engineer": "AI工程师",
+            "Industrial Designer": "工业设计师",
+            "Self-Driving Automobile Engineer": "自动驾驶汽车工程师",
+            "Mechanical Engineer": "机械工程师",
+        },
+        'fontFamily': "'Ma Shan Zheng', serif",
+    },
+    // Russian
+    'Русский': {
+        'DownloadMyResumeButtonTopNavigationBar': 'Скачать мое резюме',
+        'HomeButtonLinkTopNavigationBar': 'Дом',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "UI и UX дизайнер",
+            "Flutter Developer": "Разработчик Flutter",
+            "Full Stack Developer": "Полный стек разработчик",
+            "Android Developer": "Android-разработчик",
+            "AI Engineer": "Инженер по искусственному интеллекту",
+            "Industrial Designer": "Промышленный дизайнер",
+            "Self-Driving Automobile Engineer": "Инженер по беспилотным автомобилям",
+            "Mechanical Engineer": "Инженер-механик",
+        },
+        'fontFamily': "'Lilita One', serif",
+    },
+    // French
+    'Français': {
+        'DownloadMyResumeButtonTopNavigationBar': 'Télécharger mon CV',
+        'HomeButtonLinkTopNavigationBar': 'Maison',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "Concepteur UI et UX",
+            "Flutter Developer": "Développeur Flutter",
+            "Full Stack Developer": "Développeur Full Stack",
+            "Android Developer": "Développeur Android",
+            "AI Engineer": "Ingénieur IA",
+            "Industrial Designer": "Designer industriel",
+            "Self-Driving Automobile Engineer": "Ingénieur automobile autonome",
+            "Mechanical Engineer": "Ingénieur mécanique",
+        },
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Japanese
+    '日本語': {
+        'DownloadMyResumeButtonTopNavigationBar': '履歴書をダウンロード',
+        'HomeButtonLinkTopNavigationBar': '家',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "UI & UX デザイナー",
+            "Flutter Developer": "フラッター開発者",
+            "Full Stack Developer": "フルスタック開発者",
+            "Android Developer": "Android 開発者",
+            "AI Engineer": "AIエンジニア",
+            "Industrial Designer": "工業デザイナー",
+            "Self-Driving Automobile Engineer": "自動運転自動車エンジニア",
+            "Mechanical Engineer": "機械工学士",
+        },
+        'fontFamily': "'Dela Gothic One', serif",
+    },
+    // Korean
+    '한국인': {
+        'DownloadMyResumeButtonTopNavigationBar': '내 이력서 다운로드',
+        'HomeButtonLinkTopNavigationBar': '집',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "UI & UX 디자이너",
+            "Flutter Developer": "Flutter 개발자",
+            "Full Stack Developer": "풀스택 개발자",
+            "Android Developer": "안드로이드 개발자",
+            "AI Engineer": "AI 엔지니어",
+            "Industrial Designer": "산업 디자이너",
+            "Self-Driving Automobile Engineer": "자율주행 자동차 엔지니어",
+            "Mechanical Engineer": "기계 엔지니어",
+        },
+        'fontFamily': "'Black Han Sans'",
+    },
+    // Spanish
+    'Español': {
+        'DownloadMyResumeButtonTopNavigationBar': 'Descargar mi currículum',
+        'HomeButtonLinkTopNavigationBar': 'Hogar',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "Diseñador de interfaz de usuario y UX",
+            "Flutter Developer": "Desarrollador Flutter",
+            "Full Stack Developer": "Desarrollador de pila completa",
+            "Android Developer": "Desarrollador de Android",
+            "AI Engineer": "Ingeniero de inteligencia artificial",
+            "Industrial Designer": "Diseñador industrial",
+            "Self-Driving Automobile Engineer": "Ingeniero de automóviles autónomos",
+            "Mechanical Engineer": "Ingeniero mecanico",
+        },
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Hindi
+    'हिंदी': {
+        'DownloadMyResumeButtonTopNavigationBar': 'मेरा बायोडाटा डाउनलोड करें',
+        'HomeButtonLinkTopNavigationBar': 'घर',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "यूआई और यूएक्स डिजाइनर",
+            "Flutter Developer": "फ़्लटर डेवलपर",
+            "Full Stack Developer": "पूरी स्टैक बनानेवाला",
+            "Android Developer": "एंड्रॉइड डेवलपर",
+            "AI Engineer": "एआई इंजीनियर",
+            "Industrial Designer": "इंडस्ट्रियल डिजाइनर",
+            "Self-Driving Automobile Engineer": "स्व-चालित ऑटोमोबाइल इंजीनियर",
+            "Mechanical Engineer": "यांत्रिक इंजीनियर",
+        },
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Portuguese
+    'Português': {
+        'DownloadMyResumeButtonTopNavigationBar': 'Baixe meu currículo',
+        'HomeButtonLinkTopNavigationBar': 'Lar',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "Designer de UI e UX",
+            "Flutter Developer": "Desenvolvedor Flutter",
+            "Full Stack Developer": "Desenvolvedor Full Stack",
+            "Android Developer": "Desenvolvedor Android",
+            "AI Engineer": "Engenheiro de IA",
+            "Industrial Designer": "Designer industrial",
+            "Self-Driving Automobile Engineer": "Engenheiro de automóveis autônomo",
+            "Mechanical Engineer": "Engenheiro mecânico",
+        },
+        'fontFamily': "'Lilita One', serif",
+    },
+    // Bengali
+    'বাংলা': {
+        'DownloadMyResumeButtonTopNavigationBar': 'আমার জীবনবৃত্তান্ত ডাউনলোড করুন',
+        'HomeButtonLinkTopNavigationBar': 'বাড়ি',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "UI এবং UX ডিজাইনার",
+            "Flutter Developer": "ফ্লটার ডেভেলপার",
+            "Full Stack Developer": "সম্পূর্ণ স্ট্যাক ডেভেলপার",
+            "Android Developer": "অ্যান্ড্রয়েড ডেভেলপার",
+            "AI Engineer": "এআই ইঞ্জিনিয়ার",
+            "Industrial Designer": "ইন্ডাস্ট্রিয়াল ডিজাইনার",
+            "Self-Driving Automobile Engineer": "স্ব-ড্রাইভিং অটোমোবাইল ইঞ্জিনিয়ার",
+            "Mechanical Engineer": "যন্ত্র কৌশলী",
+        },
+        'fontFamily': "'Galada', serif",
+    },
+    // Arabic
+    'عَرَبِيّ': {
+        'DownloadMyResumeButtonTopNavigationBar': 'تحميل سيرتي الذاتية',
+        'HomeButtonLinkTopNavigationBar': 'بيت',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "مصمم واجهة المستخدم وتجربة المستخدم",
+            "Flutter Developer": "مطور الرفرفة",
+            "Full Stack Developer": "مطور مكدس كامل",
+            "Android Developer": "الروبوت المطور",
+            "AI Engineer": "مهندس الذكاء الاصطناعي",
+            "Industrial Designer": "المصمم الصناعي",
+            "Self-Driving Automobile Engineer": "مهندس سيارات ذاتية القيادة",
+            "Mechanical Engineer": "مهندس ميكانيكي",
+        },
+        'fontFamily': "'Lalezar', serif",
+    },
+    // Persian
+    'فارسی': {
+        'DownloadMyResumeButtonTopNavigationBar': 'دانلود رزومه من',
+        'HomeButtonLinkTopNavigationBar': 'صفحه اصلی',
+        'FirstViewIntroductionHeadingWhichSkillIsSelected': {
+            "UI & UX Designer": "طراح رابطه و تجربه کاربری",
+            "Flutter Developer": "توسعه دهنده فلاتر",
+            "Full Stack Developer": "توسعه دهنده فول استک",
+            "Android Developer": "توسعه دهنده اندروید",
+            "AI Engineer": "مهندس هوش مصنوعی",
+            "Industrial Designer": "طراح صنعتی",
+            "Self-Driving Automobile Engineer": "مهندس خودروی خودران",
+            "Mechanical Engineer": "مهندس مکانیک",
+        },
+        'fontFamily': "'Lalezar', serif",
+    },
+    'FirstViewSkillImageCardImage': {
+        "UI & UX Designer": "../assets/img/Book Covers/FirstViewCardSkillsImages/UI - UX Designer.jpg",
+        "Flutter Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Flutter Card.jpg",
+        "Full Stack Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Full Stack Developer.jpg",
+        "Android Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Android Developer.jpg",
+        "AI Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/AI Engineer.jpeg",
+        "Industrial Designer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Industrial Designer.jpg",
+        "Self-Driving Automobile Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/SDC Engineer.jpeg",
+        "Mechanical Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Mechanical Engineer Simulation.png",
+    },
+};
 
 // --------------------- ↑ Static Informations for Individual Skills Page ↑ ---------------------
 
@@ -29,9 +250,64 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "3vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "3vw";
 
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+        
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "50px";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach(item => {
+            // - > - > Height
+            item.style.height = "auto";
+        });
+        document.querySelectorAll("#div-row-section-each-text-container").forEach(item => {
+            // - > - > Paddings
+            item.paddingTop = "10vw";
+            item.paddingBottom = "10vw";
+        });
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
+
         // Contact Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -51,7 +327,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -71,7 +347,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Section Information
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -91,7 +367,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -111,7 +387,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -131,7 +407,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -171,7 +447,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -212,7 +488,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -304,7 +580,7 @@ function BaseResponsiveAdaptiveFunctionality() {
         
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -352,7 +628,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -396,7 +672,7 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -409,6 +685,11 @@ function BaseResponsiveAdaptiveFunctionality() {
     } else {
 
     }
+
+    // Adding the indicator link
+    document.getElementById("Going-to-the-books-row-table").href = "../../../BookList.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
+    // Adding the indicator link
+    document.getElementById("link-button-to-go-the-individual-skill-page-top-indicatotor").href = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
 }
 
 // Documentation
@@ -469,6 +750,10 @@ var neededProperties = {
 
         // Saving the current language
         this.Currrent_Language_Selected = newLanguage;
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+        document.title = "MHA - " + "Don't Make Me Think";
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         BaseResponsiveAdaptiveFunctionality();
     },
@@ -534,22 +819,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Calling the Responsive Function
-    ResponsiveAdaptive();
-    // Calling pagination function
-    pagination_functionality(event);
+    BaseResponsiveAdaptiveFunctionality();
 });
 
 // Documentation
 // This section is for when the page is resized
-document.addEventListener('resize', function () {
-    // Calling the Responsive Function
-    ResponsiveAdaptive();
-});
 window.addEventListener('resize', function () {
     // Calling the Responsive Function
-    ResponsiveAdaptive();
+    BaseResponsiveAdaptiveFunctionality();
 });
-ResponsiveAdaptive();
+BaseResponsiveAdaptiveFunctionality();
 
 // Documentation
 // This section is used to handle the clicking behavior of language drop down
@@ -595,15 +874,11 @@ document.getElementById('ForToggling').addEventListener("click", function () {
             dropdownToggle.style.fontFamily = BoldFirstHeireachyFont[this.textContent]['fontFamily'];
             neededProperties.CurrentLanguageSelectedMethod = this.textContent;
 
-            ReadBooksListCallFunctionFunctionality(neededProperties.CurrentSkillSelectedMethod, neededProperties.CurrentLanguageSelectedMethod);
-
             document.addEventListener('click', function () {
                 closeDropdownOnClickOutside(event, 'Main-Intro-language-individual-skills-drop-down-change-languages', 'ForToggling');
             });
 
             stylingCurrentSelectedOptionInDropDown('languagesssss-drop-down-menu-items', neededProperties.Currrent_Language_Selected);
-
-            pagination_functionality(event);
         });
     });
 });
@@ -669,10 +944,6 @@ document.addEventListener('click', function () {
 // --------------------- ↑ Togging the Drop Down to Being Smooth ↑ ---------------------
 
 // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Base each book row functionlaity ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
-
-
-// Other parts here
-
 
 //##############################################################################################################################################################
 //##############################################################################################################################################################
