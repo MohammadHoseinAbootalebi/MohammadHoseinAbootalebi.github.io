@@ -910,9 +910,83 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "4vw";
 
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "40px";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingBottom = "3vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "1.5vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "10vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "1.5vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "15px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "30px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "30px";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
+
         // Contact Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 90vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -930,9 +1004,83 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
 
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "40px";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingBottom = "3vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "1.5vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "10vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "1.5vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "15px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "30px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "30px";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
+
         // Contact Section Information
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 90vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -946,13 +1094,88 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // First View
         // - > Top Location Indicator
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "13vw";
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "12vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "6vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "40px";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "1.5vw";
+            item.style.paddingLeft = "4vw";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.5vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingBottom = "3vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "1.5vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "12vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "1.5vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "15px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 90vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -966,13 +1189,92 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // First View
         // - > Top Location Indicator
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "15vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "12vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "30px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "40vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "1.7vw";
+            item.style.paddingLeft = "4vw";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingBottom = "3vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "1.7vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "12vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "1.7vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "15px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 90vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -986,13 +1288,92 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // First View
         // - > Top Location Indicator
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "15vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "13vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "30px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "40vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "1.7vw";
+            item.style.paddingLeft = "4vw";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "1.7vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingBottom = "3vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "1.7vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "12vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "1.7vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "15px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 90vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -1030,9 +1411,89 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
 
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "30px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "40vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "2vw";
+            item.style.paddingLeft = "0px";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingTop = "3vw";
+                item.style.paddingBottom = "3vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "2vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "12vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "2vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
+
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 90vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -1068,12 +1529,92 @@ function BaseResponsiveAdaptiveFunctionality() {
         // - > Top Location Indicator
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
 
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "25px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "45vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "2.5vw";
+            item.style.paddingLeft = "0px";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2.5vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2.5vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2.5vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "2.5vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingTop = "3vw";
+                item.style.paddingBottom = "3vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "2.5vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "15vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "2.5vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.marginLeft = "-3vw";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 90vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -1093,11 +1634,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         // - > language Drop Down
         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = "10vw";
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = "8vw";
         // - > Skill Drop Down
         document.getElementById('Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
-        document.getElementById('Skills-Drop-Down-top-nav-bar').style.height = "10vw";
+        document.getElementById('Skills-Drop-Down-top-nav-bar').style.height = "8vw";
         // - > Download the resume
         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
@@ -1107,13 +1648,98 @@ function BaseResponsiveAdaptiveFunctionality() {
 
         // First View
         // - > Top Location Indicator
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "6vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
-        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
+        document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "28px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "60vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "3.3vw";
+            item.style.paddingLeft = "0px";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+            item.style.paddingLeft = "5vw";
+            item.style.paddingRight = "5vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingTop = "3vw";
+                item.style.paddingBottom = "3vw";
+                item.style.paddingLeft = "9vw";
+                item.style.paddingRight = "0vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "3.3vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "20vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "3.3vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.marginLeft = "-3vw";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '4vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -1337,6 +1963,10 @@ var neededProperties = {
 
         // Saving the current language
         this.Currrent_Language_Selected = newLanguage;
+
+        // Download My Resume Link
+        document.getElementById("download-my-resume-pdf-id-tag-button-link").textContent = BoldFirstHeireachyFont[newLanguage]["DownloadMyResumeButtonTopNavigationBar"];
+        document.getElementById("download-my-resume-pdf-id-tag-button-link").style.fontFamily = BoldFirstHeireachyFont[newLanguage]["fontFamily"];
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
