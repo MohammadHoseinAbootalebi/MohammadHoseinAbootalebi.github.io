@@ -1780,14 +1780,91 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById("Books-top-navigation-just-for-containingg").style.fontSize = "4vw";
         document.getElementById("right-arrow-book-navigation-bar-icon").style.fontSize = "4vw";
         document.getElementById("link-button-to-go-the-individual-skill-page-top-indicatotor").style.fontSize = "4vw";
-        // - > Skill Image
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.width = "70vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.borderRadius = "40px";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginTop = "5vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginBottom = "10vw";
-        // - > Short Description Paragraph
-        document.getElementById('first-view-div-element-for-short-description-just').style.marginLeft = "5vw";
-        document.getElementById('first-view-div-element-for-short-description-just').style.marginRight = "5vw";
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "28px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "60vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "3.3vw";
+            item.style.paddingLeft = "0px";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "3.3vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "1vw";
+            item.style.paddingBottom = "1vw";
+            item.style.paddingLeft = "5vw";
+            item.style.paddingRight = "5vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingTop = "3vw";
+                item.style.paddingBottom = "3vw";
+                item.style.paddingLeft = "9vw";
+                item.style.paddingRight = "0vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "3.3vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "20vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "3.3vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.marginLeft = "-3vw";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
@@ -2105,6 +2182,45 @@ window.addEventListener('resize', function () {
 BaseResponsiveAdaptiveFunctionality();
 
 // Documentation
+// This section is used to handle the skill click action behavior - Skill Drop Down Change
+document.getElementById('DropDownValueShowingSkills').addEventListener('click', function () {
+    // Get the dropdown toggle button by its ID
+    var dropdownToggle = document.getElementById('DropDownValueShowingSkills');
+
+    // Get the dropdown menu container
+    var dropdownMenu = dropdownToggle.nextElementSibling;
+
+    // Get all the dropdown items within the dropdown menu
+    var dropdownItems = dropdownMenu.getElementsByClassName('dropdown-item');
+
+    // Convert HTMLCollection to an array to use forEach
+    Array.from(dropdownItems).forEach(function (item) {
+        // Add click event listener to each dropdown item
+        item.addEventListener('click', function (event) {
+            // Prevent the default anchor click behavior
+            event.preventDefault();
+
+            // Close the dropdown menu by removing 'show' class from the 'dropdown-menu' and 'dropdown'
+            var dropdownElement = this.closest('.dropdown');
+            if (dropdownElement) {
+                var dropdownMenu = dropdownElement.querySelector('.dropdown-menu');
+                if (dropdownMenu.classList.contains('show')) {
+                    dropdownMenu.classList.remove('show');
+                    dropdownElement.classList.remove('show');
+                }
+            }
+
+            // Update the dropdown toggle button text with the clicked item's text
+            dropdownToggle.textContent = this.textContent;
+            neededProperties.CurrentSkillSelectedMethod = this.textContent;
+
+            ReadBooksListCallFunctionFunctionality(neededProperties.CurrentSkillSelectedMethod, neededProperties.CurrentLanguageSelectedMethod);
+            pagination_functionality(event);
+        });
+    });
+});
+
+// Documentation
 // This section is used to handle the clicking behavior of language drop down
 document.getElementById('ForToggling').addEventListener("click", function () {
     // Listen to changing the language of the page
@@ -2153,45 +2269,6 @@ document.getElementById('ForToggling').addEventListener("click", function () {
             });
 
             stylingCurrentSelectedOptionInDropDown('languagesssss-drop-down-menu-items', neededProperties.Currrent_Language_Selected);
-        });
-    });
-});
-
-// Documentation
-// This section is used to handle the skill click action behavior - Skill Drop Down Change
-document.getElementById('DropDownValueShowingSkills').addEventListener('click', function () {
-    // Get the dropdown toggle button by its ID
-    var dropdownToggle = document.getElementById('DropDownValueShowingSkills');
-
-    // Get the dropdown menu container
-    var dropdownMenu = dropdownToggle.nextElementSibling;
-
-    // Get all the dropdown items within the dropdown menu
-    var dropdownItems = dropdownMenu.getElementsByClassName('dropdown-item');
-
-    // Convert HTMLCollection to an array to use forEach
-    Array.from(dropdownItems).forEach(function (item) {
-        // Add click event listener to each dropdown item
-        item.addEventListener('click', function (event) {
-            // Prevent the default anchor click behavior
-            event.preventDefault();
-
-            // Close the dropdown menu by removing 'show' class from the 'dropdown-menu' and 'dropdown'
-            var dropdownElement = this.closest('.dropdown');
-            if (dropdownElement) {
-                var dropdownMenu = dropdownElement.querySelector('.dropdown-menu');
-                if (dropdownMenu.classList.contains('show')) {
-                    dropdownMenu.classList.remove('show');
-                    dropdownElement.classList.remove('show');
-                }
-            }
-
-            // Update the dropdown toggle button text with the clicked item's text
-            dropdownToggle.textContent = this.textContent;
-            neededProperties.CurrentSkillSelectedMethod = this.textContent;
-
-            ReadBooksListCallFunctionFunctionality(neededProperties.CurrentSkillSelectedMethod, neededProperties.CurrentLanguageSelectedMethod);
-            pagination_functionality(event);
         });
     });
 });
