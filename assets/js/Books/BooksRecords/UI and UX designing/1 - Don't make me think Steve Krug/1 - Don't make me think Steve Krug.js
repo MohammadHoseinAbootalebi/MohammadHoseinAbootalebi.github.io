@@ -245,7 +245,7 @@ var BoldFirstHeireachyFont = {
             "Self-Driving Automobile Engineer": "مهندس خودروی خودران",
             "Mechanical Engineer": "مهندس مکانیک",
         },
-        'RequestForPDFForVerification': "لطفاً فایل PDF این کتاب را برای تأیید درخواست کنید.",
+        'RequestForPDFForVerification': "لطفاً فایل PDF این کتاب را برای راستی آزمایی، درخواست کنید.",
         "BackToGoTheBooksRows": "بازگشت",
         'fontFamily': "'Lalezar', serif",
     },
@@ -1855,7 +1855,7 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "3.3vw";
 
         // Back button link
-        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "20vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "30vw";
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "3.3vw";
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "10px";
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
@@ -1906,13 +1906,91 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "5vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.width = "70vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.borderRadius = "40px";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginTop = "5vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginBottom = "10vw";
-        // - > Short Description Paragraph
-        document.getElementById('first-view-div-element-for-short-description-just').style.marginLeft = "5vw";
-        document.getElementById('first-view-div-element-for-short-description-just').style.marginRight = "5vw";
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "28px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "60vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "4vw";
+            item.style.paddingLeft = "0px";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "30vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "4vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "4vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "4vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "4vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "5vw";
+            item.style.paddingBottom = "5vw";
+            item.style.paddingLeft = "5vw";
+            item.style.paddingRight = "5vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingTop = "3vw";
+                item.style.paddingBottom = "3vw";
+                item.style.paddingLeft = "9vw";
+                item.style.paddingRight = "0vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "4vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "30vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "4vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "20px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.marginLeft = "-3vw";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
@@ -1938,9 +2016,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         // - > language Drop Down
         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-40vw";
         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = "20vw";
         // - > Skill Drop Down
         document.getElementById('Skills-Drop-Down-top-nav-bar').style.marginLeft = "-40vw";
         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "87vw";
+        document.getElementById('Skills-Drop-Down-top-nav-bar').style.height = "20vw";
         // - > Download the resume
         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-40vw";
         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "3vw";
@@ -1953,10 +2033,91 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "5vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.width = "70vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.borderRadius = "20px";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginTop = "10vw";
-        document.getElementById('first-view-card-image-intro-skill-book-page').style.marginBottom = "10vw";
+
+        // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
+
+        // Image container
+        // - > - > Height
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.height = "auto";
+        // - > - > Padding top
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingTop = "1vw";
+        // - > - > Padding bottom 
+        document.getElementById("book-image-cover-div-element-container-of-book-cover").style.paddingBottom = "3vw";
+
+        // Image of Book
+        // - > - > Border radius
+        document.getElementById("book-image-cover-detail-cover").style.borderRadius = "15px";
+        // - > - > Image width
+        document.getElementById("book-image-cover-detail-cover").style.width = "60vw";
+        // - > - > Image height
+        document.getElementById("book-image-cover-detail-cover").style.height = "auto";
+        // - > - > Box Shadow
+        document.getElementById("book-image-cover-detail-cover").style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 0px 30px 20px"; // Color - X direction - Y direction - Blur - Spread
+
+        // Description Tags
+        document.querySelectorAll("#information-tag").forEach(item => {
+            // - > - > Font Size
+            item.style.fontSize = "5vw";
+            item.style.paddingLeft = "0px";
+        });
+        // - > Left Columns
+        document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
+            item.style.width = "70vw";
+        });
+        // - > - > Chapter titles
+        document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "5vw";
+        });
+        // - > - > Chapter descriptions
+        document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "5vw";
+        });
+        // - > - > Description section
+        document.querySelectorAll("#Chapter-information-short-description-paragraph-end-discription").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "5vw";
+        });
+        // - > - > Short description sections earlier
+        document.querySelectorAll("#short-description-and-some-numbers").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "5vw";
+        });
+
+        // All Div elements used for rows
+        document.querySelectorAll("#div-row-section-each-text-container").forEach((item, index) => {
+            // - > - > Height
+            item.style.height = "auto";
+            // - > - > Paddings
+            item.style.paddingTop = "5vw";
+            item.style.paddingBottom = "5vw";
+            item.style.paddingLeft = "5vw";
+            item.style.paddingRight = "5vw";
+
+            // Add more padding bottom for back button
+            if (index == document.querySelectorAll("#div-row-section-each-text-container").length - 1) {
+                item.style.paddingTop = "3vw";
+                item.style.paddingBottom = "3vw";
+                item.style.paddingLeft = "9vw";
+                item.style.paddingRight = "0vw";
+            }
+        });
+
+        // Please request text
+        document.getElementById("please-request-the-pdf-of-this-book-for-verification").style.fontSize = "5vw";
+
+        // Back button link
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "45vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "5vw";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.borderRadius = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingTop = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingBottom = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingLeft = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.paddingRight = "10px";
+        document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.marginLeft = "-3vw";
+
+        // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         // Contact Information Section
         // - > Background
@@ -1977,7 +2138,7 @@ function BaseResponsiveAdaptiveFunctionality() {
     // Adding the indicator link
     document.getElementById("Going-to-the-books-row-table").href = "../../../BookList.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
     // Back button link
-    document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").href = "../../../BookList.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
+    document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents-linkkkkkkkks").href = "../../../BookList.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
     // Adding the indicator link
     document.getElementById("link-button-to-go-the-individual-skill-page-top-indicatotor").href = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
 }
@@ -2171,6 +2332,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Calling the Responsive Function
     BaseResponsiveAdaptiveFunctionality();
+
+    // Adding the all necessary links to the skill drop down menu items
+    document.querySelectorAll("#skill-name-drop-down-menu-item").forEach((item, index) => {
+        item.href = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(item.textContent) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
+    });
 });
 
 // Documentation
