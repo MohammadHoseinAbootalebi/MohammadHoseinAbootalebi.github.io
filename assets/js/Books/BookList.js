@@ -2926,31 +2926,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Welcome",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter of the book introduces Dart and Flutter, highlighting Dart as a client-optimized, garbage-collected, OOP language for creating fast apps on any platform. It discusses the flexibility of Dart across different environments and its package system available on pub.dev. The chapter also delves into Flutter as an UI toolkit for building natively compiled applications for mobile, desktop, and web with a single codebase, emphasizing its unique rendering capabilities and the reasons behind choosing Dart as its language. Additionally, it mentions key figures in the Flutter/Dart community who have contributed significantly to the development and maintenance of related libraries and frameworks.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel des Buches stellt Dart und Flutter vor und hebt Dart als clientoptimierte, Garbage-Collected-OOP-Sprache zum Erstellen schneller Apps auf jeder Plattform hervor. Es erörtert die Flexibilität von Dart in verschiedenen Umgebungen und sein auf pub.dev verfügbares Paketsystem. Das Kapitel befasst sich auch mit Flutter als UI-Toolkit zum Erstellen nativ kompilierter Anwendungen für Mobilgeräte, Desktops und das Web mit einer einzigen Codebasis und betont seine einzigartigen Rendering-Funktionen und die Gründe für die Wahl von Dart als Sprache. Darüber hinaus werden Schlüsselfiguren der Flutter/Dart-Community erwähnt, die maßgeblich zur Entwicklung und Wartung verwandter Bibliotheken und Frameworks beigetragen haben.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本书的这一章介绍了 Dart 和 Flutter，重点介绍了 Dart 是一种针对客户端优化、具有垃圾收集功能的 OOP 语言，可用于在任何平台上创建快速应用程序。它讨论了 Dart 在不同环境中的灵活性以及它在 pub.dev 上提供的软件包系统。本章还深入探讨了 Flutter 作为 UI 工具包，用于使用单一代码库为移动、桌面和 Web 构建本机编译的应用程序，强调了其独特的渲染功能以及选择 Dart 作为其语言的原因。此外，它还提到了 Flutter/Dart 社区中为相关库和框架的开发和维护做出重大贡献的关键人物。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе книги представлены Dart и Flutter, в которых Dart рассматривается как оптимизированный для клиента ООП-язык со сборкой мусора для создания быстрых приложений на любой платформе. В нем обсуждается гибкость Dart в различных средах и его система пакетов, доступная на pub.dev. В главе также рассматривается Flutter как набор инструментов пользовательского интерфейса для создания скомпилированных в собственном коде приложений для мобильных устройств, настольных компьютеров и Интернета с единой кодовой базой, подчеркиваются его уникальные возможности рендеринга и причины выбора Dart в качестве языка. Кроме того, в нем упоминаются ключевые фигуры сообщества Flutter/Dart, которые внесли значительный вклад в разработку и поддержку соответствующих библиотек и фреймворков.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre du livre présente Dart et Flutter, mettant en avant Dart en tant que langage POO optimisé pour le client et collecté pour la création d'applications rapides sur n'importe quelle plate-forme. Il discute de la flexibilité de Dart dans différents environnements et de son système de packages disponible sur pub.dev. Le chapitre aborde également Flutter en tant que boîte à outils d'interface utilisateur permettant de créer des applications compilées nativement pour les mobiles, les ordinateurs de bureau et le Web avec une seule base de code, en soulignant ses capacités de rendu uniques et les raisons qui ont motivé le choix de Dart comme langage. De plus, il mentionne des personnalités clés de la communauté Flutter/Dart qui ont contribué de manière significative au développement et à la maintenance de bibliothèques et de frameworks associés.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では Dart と Flutter を紹介し、あらゆるプラットフォームで高速なアプリを作成するための、クライアントに最適化され、ガベージ コレクションされた OOP 言語としての Dart に焦点を当てています。さまざまな環境にわたる Dart の柔軟性と、pub.dev で利用できるパッケージ システムについて説明します。また、この章では、モバイル、デスクトップ、Web 用のネイティブ コンパイル アプリケーションを単一のコードベースで構築するための UI ツールキットとしての Flutter についても詳しく説明し、その独自のレンダリング機能と、言語として Dart を選択した理由を強調しています。さらに、関連するライブラリとフレームワークの開発と保守に大きく貢献した Flutter/Dart コミュニティの主要人物についても触れています。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "책의 이 장에서는 Dart와 Flutter를 소개하며 모든 플랫폼에서 빠른 앱을 만들기 위한 클라이언트 최적화, 가비지 수집 OOP 언어인 Dart를 강조합니다. 다양한 환경에 걸친 Dart의 유연성과 pub.dev에서 사용할 수 있는 패키지 시스템에 대해 논의합니다. 또한 이 장에서는 단일 코드베이스로 모바일, 데스크톱 및 웹용으로 기본적으로 컴파일된 애플리케이션을 구축하기 위한 UI 툴킷인 Flutter에 대해 자세히 알아보고 Flutter의 고유한 렌더링 기능과 Dart를 언어로 선택한 이유를 강조합니다. 또한 관련 라이브러리 및 프레임워크의 개발 및 유지 관리에 크게 기여한 Flutter/Dart 커뮤니티의 주요 인물을 언급합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo del libro presenta Dart y Flutter, destacando a Dart como un lenguaje OOP optimizado para el cliente y con recolección de basura para crear aplicaciones rápidas en cualquier plataforma. Analiza la flexibilidad de Dart en diferentes entornos y su sistema de paquetes disponible en pub.dev. El capítulo también profundiza en Flutter como un conjunto de herramientas de interfaz de usuario para crear aplicaciones compiladas de forma nativa para dispositivos móviles, de escritorio y web con una única base de código, enfatizando sus capacidades de representación únicas y las razones detrás de elegir Dart como su lenguaje. Además, menciona figuras clave de la comunidad Flutter/Dart que han contribuido significativamente al desarrollo y mantenimiento de bibliotecas y marcos relacionados.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "पुस्तक का यह अध्याय डार्ट और फ़्लटर का परिचय देता है, डार्ट को किसी भी प्लेटफ़ॉर्म पर तेज़ ऐप बनाने के लिए क्लाइंट-अनुकूलित, कचरा-संग्रहित, OOP भाषा के रूप में उजागर करता है। यह विभिन्न वातावरणों में डार्ट की लचीलेपन और pub.dev पर उपलब्ध इसके पैकेज सिस्टम पर चर्चा करता है। यह अध्याय फ़्लटर को एक UI टूलकिट के रूप में भी बताता है, जो मोबाइल, डेस्कटॉप और वेब के लिए एकल कोडबेस के साथ मूल रूप से संकलित एप्लिकेशन बनाने के लिए है, इसकी अनूठी रेंडरिंग क्षमताओं और डार्ट को अपनी भाषा के रूप में चुनने के पीछे के कारणों पर ज़ोर देता है। इसके अतिरिक्त, यह फ़्लटर/डार्ट समुदाय के प्रमुख व्यक्तियों का उल्लेख करता है जिन्होंने संबंधित पुस्तकालयों और फ़्रेमवर्क के विकास और रखरखाव में महत्वपूर्ण योगदान दिया है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo do livro apresenta o Dart e o Flutter, destacando o Dart como uma linguagem OOP otimizada para o cliente e com recolha de lixo para criar aplicações rápidas em qualquer plataforma. Discute a flexibilidade do Dart em diferentes ambientes e o seu sistema de pacotes disponível em pub.dev. O capítulo também aprofunda o Flutter como um kit de ferramentas de UI para construir aplicações compiladas nativamente para dispositivos móveis, desktop e web com uma única base de código, enfatizando as suas capacidades únicas de renderização e as razões por detrás da escolha do Dart como linguagem . Além disso, menciona figuras-chave da comunidade Flutter/Dart que contribuíram significativamente para o desenvolvimento e manutenção de bibliotecas e estruturas relacionadas.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "বইটির এই অধ্যায়টি ডার্ট এবং ফ্লটারের পরিচয় দেয়, যেকোন প্ল্যাটফর্মে দ্রুত অ্যাপ তৈরি করার জন্য ডার্টকে একটি ক্লায়েন্ট-অপ্টিমাইজ করা, আবর্জনা-সংগৃহীত, OOP ভাষা হিসাবে হাইলাইট করে। এটি বিভিন্ন পরিবেশে ডার্টের নমনীয়তা এবং pub.dev এ উপলব্ধ এর প্যাকেজ সিস্টেম নিয়ে আলোচনা করে। অধ্যায়টি মোবাইল, ডেস্কটপ এবং ওয়েবের জন্য একটি একক কোডবেস সহ স্থানীয়ভাবে সংকলিত অ্যাপ্লিকেশনগুলি তৈরি করার জন্য একটি UI টুলকিট হিসাবে ফ্লাটার সম্পর্কেও আলোচনা করে, এর অনন্য রেন্ডারিং ক্ষমতা এবং ডার্টকে এর ভাষা হিসাবে বেছে নেওয়ার কারণগুলির উপর জোর দেয়। উপরন্তু, এটি ফ্লাটার/ডার্ট সম্প্রদায়ের গুরুত্বপূর্ণ ব্যক্তিদের উল্লেখ করে যারা সম্পর্কিত লাইব্রেরি এবং কাঠামোর উন্নয়ন এবং রক্ষণাবেক্ষণে উল্লেখযোগ্যভাবে অবদান রেখেছে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل من الكتاب Dart وFlutter، ويسلط الضوء على Dart كلغة OOP محسنة للعميل ومجمعة للقمامة لإنشاء تطبيقات سريعة على أي نظام أساسي. ويناقش مرونة Dart عبر بيئات مختلفة ونظام الحزم الخاص بها المتوفر على pub.dev. يتعمق الفصل أيضًا في Flutter كمجموعة أدوات لواجهة المستخدم لبناء تطبيقات مجمعة محليًا للجوال وسطح المكتب والويب بقاعدة تعليمات برمجية واحدة، مع التركيز على قدرات العرض الفريدة والأسباب وراء اختيار Dart كلغتها. بالإضافة إلى ذلك، فإنه يذكر الشخصيات الرئيسية في مجتمع Flutter/Dart الذين ساهموا بشكل كبير في تطوير وصيانة المكتبات والأطر ذات الصلة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل از کتاب دارت و فلاتر را معرفی می‌کند و دارت را به‌عنوان یک زبان OOP بهینه‌شده برای مشتری و جمع‌آوری زباله برای ایجاد برنامه‌های سریع در هر پلتفرمی برجسته می‌کند. در مورد انعطاف Dart در محیط های مختلف و سیستم بسته آن که در pub.dev موجود است بحث می کند. این فصل همچنین به Flutter به عنوان یک ابزار UI برای ساخت برنامه‌های کامپایل‌شده بومی برای موبایل، دسک‌تاپ و وب با یک پایگاه کد می‌پردازد و بر قابلیت‌های رندر منحصربه‌فرد آن و دلایل انتخاب دارت به‌عنوان زبان آن تأکید می‌کند. به‌علاوه، از چهره‌های کلیدی در جامعه فلاتر/دارت نام می‌برد که سهم قابل توجهی در توسعه و نگهداری کتابخانه‌ها و چارچوب‌های مرتبط داشته‌اند.",
                     },
                 },
                 // 2
@@ -2958,31 +2958,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Variables and data types",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "In this chapter of Dart programming, the focus is on variables and data types. It covers the use of for type inference, for immutability, and for flexibility. The chapter explains the different types of numbers in Dart, and introduces enumerated types. It also delves into operators like arithmetic, relational, type test, logical, and bitwise operators. Overall, the chapter provides a comprehensive overview of variables, data types, and operators in Dart programming.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel der Dart-Programmierung liegt der Schwerpunkt auf Variablen und Datentypen. Es behandelt die Verwendung von für Typinferenz, für Unveränderlichkeit und für Flexibilität. Das Kapitel erklärt die verschiedenen Zahlentypen in Dart und führt aufgezählte Typen ein. Es befasst sich auch mit Operatoren wie arithmetischen, relationalen, Typtest-, logischen und bitweisen Operatoren. Insgesamt bietet das Kapitel einen umfassenden Überblick über Variablen, Datentypen und Operatoren in der Dart-Programmierung.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "在 Dart 编程的这一章中，重点介绍变量和数据类型。它涵盖了类型推断、不变性和灵活性的用法。本章解释了 Dart 中的不同类型的数字，并介绍了枚举类型。它还深入研究了算术、关系、类型测试、逻辑和位运算符等运算符。总体而言，本章全面概述了 Dart 编程中的变量、数据类型和运算符。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе программирования на Dart основное внимание уделяется переменным и типам данных. Он охватывает использование для вывода типа, неизменяемости и гибкости. В главе объясняются различные типы чисел в Dart и знакомятся с перечисляемыми типами. Он также углубляется в такие операторы, как арифметические, реляционные, тестовые, логические и побитовые операторы. В целом, в главе представлен полный обзор переменных, типов данных и операторов в программировании на Dart.",
                         // French
-                        "Français": "",
+                        "Français": "Dans ce chapitre de programmation Dart, l'accent est mis sur les variables et les types de données. Il couvre l'utilisation de pour l'inférence de type, pour l'immuabilité et pour la flexibilité. Le chapitre explique les différents types de nombres dans Dart et présente les types énumérés. Il se penche également sur les opérateurs tels que les opérateurs arithmétiques, relationnels, de test de type, logiques et au niveau du bit. Dans l'ensemble, le chapitre fournit un aperçu complet des variables, des types de données et des opérateurs dans la programmation Dart.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "Dart プログラミングのこの章では、変数とデータ型に焦点を当てています。型推論、不変性、柔軟性のための の使用について説明します。この章では、Dart のさまざまな数値型について説明し、列挙型を紹介します。また、算術演算子、関係演算子、型テスト演算子、論理演算子、ビット演算子などの演算子についても詳しく説明します。全体として、この章では Dart プログラミングの変数、データ型、演算子の包括的な概要を提供します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "Dart 프로그래밍의 이 장에서는 변수와 데이터 유형에 중점을 둡니다. 유형 추론, 불변성 및 유연성을 위한 사용을 다룹니다. 이 장에서는 Dart의 다양한 숫자 유형을 설명하고 열거 유형을 소개합니다. 또한 산술, 관계형, 유형 테스트, 논리 및 비트 연산자와 같은 연산자를 자세히 살펴봅니다. 전반적으로 이 장에서는 Dart 프로그래밍의 변수, 데이터 유형 및 연산자에 대한 포괄적인 개요를 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo de programación de Dart, la atención se centra en las variables y los tipos de datos. Cubre el uso de para inferencia de tipos, para inmutabilidad y para flexibilidad. El capítulo explica los diferentes tipos de números en Dart e introduce los tipos enumerados. También profundiza en operadores como aritméticos, relacionales, de prueba de tipo, lógicos y bit a bit. En general, el capítulo proporciona una descripción general completa de las variables, tipos de datos y operadores en la programación de Dart.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "डार्ट प्रोग्रामिंग के इस अध्याय में, चर और डेटा प्रकारों पर ध्यान केंद्रित किया गया है। यह प्रकार अनुमान, अपरिवर्तनीयता और लचीलेपन के लिए उपयोग को कवर करता है। अध्याय डार्ट में संख्याओं के विभिन्न प्रकारों की व्याख्या करता है, और गणना किए गए प्रकारों का परिचय देता है। यह अंकगणित, संबंधपरक, प्रकार परीक्षण, तार्किक और बिटवाइज़ ऑपरेटरों जैसे ऑपरेटरों पर भी गहराई से चर्चा करता है। कुल मिलाकर, अध्याय डार्ट प्रोग्रामिंग में चर, डेटा प्रकारों और ऑपरेटरों का एक व्यापक अवलोकन प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Neste capítulo da programação Dart, o foco está nas variáveis ​​e nos tipos de dados. Abrange o uso de para inferência de tipos, para imutabilidade e para flexibilidade. O capítulo explica os diferentes tipos de números no Dart e apresenta os tipos enumerados. Também se aprofunda em operadores como operadores aritméticos, relacionais, de teste de tipo, lógicos e bit a bit. No geral, o capítulo fornece uma visão geral abrangente das variáveis, tipos de dados e operadores na programação Dart.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "ডার্ট প্রোগ্রামিংয়ের এই অধ্যায়ে, ভেরিয়েবল এবং ডেটা প্রকারের উপর ফোকাস করা হয়। এটি টাইপের অনুমানের জন্য, অপরিবর্তনীয়তার জন্য এবং নমনীয়তার জন্য ব্যবহারকে কভার করে। অধ্যায়টি ডার্টে বিভিন্ন ধরণের সংখ্যা ব্যাখ্যা করে এবং গণনাকৃত প্রকারের পরিচয় দেয়। এটি পাটিগণিত, রিলেশনাল, টাইপ টেস্ট, লজিক্যাল এবং বিটওয়াইজ অপারেটরগুলির মতো অপারেটরগুলির মধ্যেও তলিয়ে যায়। সামগ্রিকভাবে, অধ্যায়টি ডার্ট প্রোগ্রামিং-এ ভেরিয়েবল, ডেটা টাইপ এবং অপারেটরগুলির একটি ব্যাপক ওভারভিউ প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "في هذا الفصل من برمجة Dart، يتم التركيز على المتغيرات وأنواع البيانات. ويغطي استخدام الاستدلال على النوع والثبات والمرونة. يشرح الفصل الأنواع المختلفة من الأرقام في Dart، ويقدم الأنواع التي تم تعدادها. كما أنه يتعمق في العوامل مثل العوامل الحسابية والعلائقية واختبار النوع والعوامل المنطقية ومعامل البت. بشكل عام، يقدم الفصل نظرة شاملة للمتغيرات وأنواع البيانات والمشغلين في برمجة Dart.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "در این فصل از برنامه نویسی دارت، تمرکز بر متغیرها و انواع داده ها است. استفاده از استنتاج نوع، تغییرناپذیری و انعطاف پذیری را پوشش می دهد. این فصل انواع مختلف اعداد را در دارت توضیح می دهد و انواع برشمرده شده را معرفی می کند. همچنین به عملگرهایی مانند عملگرهای حسابی، رابطه ای، نوع تست، منطقی و عملگرهای بیتی می پردازد. به طور کلی، این فصل یک مرور کلی از متغیرها، انواع داده ها و عملگرها در برنامه نویسی دارت ارائه می دهد.",
                     },
                 },
                 // 3
@@ -2990,31 +2990,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Control flow and functions",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter on Control Flow and Functions in Dart covers essential programming concepts such as if statements, conditional expressions, good practices for readability, switch statements, loops, assertions, functions, optional parameters, nested functions, and typedefs. It emphasizes the importance of clear code structure, efficient condition handling, and the use of shorthand syntax for concise expressions. The chapter provides practical examples and recommendations to enhance code readability and maintainability, making it a comprehensive guide for mastering control flow and function implementation in Dart programming.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel über Kontrollfluss und Funktionen in Dart behandelt wichtige Programmierkonzepte wie if-Anweisungen, bedingte Ausdrücke, bewährte Methoden zur Lesbarkeit, Switch-Anweisungen, Schleifen, Behauptungen, Funktionen, optionale Parameter, verschachtelte Funktionen und Typdefinitionen. Es betont die Bedeutung einer klaren Codestruktur, einer effizienten Bedingungsbehandlung und der Verwendung einer Kurzsyntax für prägnante Ausdrücke. Das Kapitel enthält praktische Beispiele und Empfehlungen zur Verbesserung der Lesbarkeit und Wartbarkeit des Codes und ist somit ein umfassender Leitfaden zur Beherrschung des Kontrollflusses und der Funktionsimplementierung in der Dart-Programmierung.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章“Dart 中的控制流和函数”涵盖了基本的编程概念，例如 if 语句、条件表达式、可读性良好实践、switch 语句、循环、断言、函数、可选参数、嵌套函数和 typedef。它强调了清晰的代码结构、高效的条件处理以及使用简写语法来表达简洁表达式的重要性。本章提供了实际的示例和建议，以提高代码的可读性和可维护性，使其成为掌握 Dart 编程中的控制流和函数实现的全面指南。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе, посвященной потоку управления и функциям в Dart, рассматриваются основные концепции программирования, такие как операторы if, условные выражения, передовые методы повышения читаемости, операторы переключения, циклы, утверждения, функции, необязательные параметры, вложенные функции и определения типов. Он подчеркивает важность четкой структуры кода, эффективной обработки условий и использования сокращенного синтаксиса для кратких выражений. В главе представлены практические примеры и рекомендации по повышению читаемости и удобства сопровождения кода, что делает ее всеобъемлющим руководством по освоению потока управления и реализации функций в программировании на Dart.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre sur le flux de contrôle et les fonctions dans Dart couvre les concepts de programmation essentiels tels que les instructions if, les expressions conditionnelles, les bonnes pratiques de lisibilité, les instructions switch, les boucles, les assertions, les fonctions, les paramètres facultatifs, les fonctions imbriquées et les typedefs. Il souligne l’importance d’une structure de code claire, d’une gestion efficace des conditions et de l’utilisation d’une syntaxe abrégée pour des expressions concises. Le chapitre fournit des exemples pratiques et des recommandations pour améliorer la lisibilité et la maintenabilité du code, ce qui en fait un guide complet pour maîtriser le flux de contrôle et la mise en œuvre des fonctions dans la programmation Dart.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "Dart の制御フローと関数に関するこの章では、if 文、条件式、読みやすさのためのベストプラクティス、switch 文、ループ、アサーション、関数、オプションパラメータ、ネストされた関数、typedef などの基本的なプログラミング概念について説明します。明確なコード構造、効率的な条件処理、簡潔な式のための省略構文の使用の重要性を強調しています。この章では、コードの読みやすさと保守性を高めるための実用的な例と推奨事項を示しており、Dart プログラミングにおける制御フローと関数の実装を習得するための包括的なガイドとなっています。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "Dart의 제어 흐름 및 함수에 관한 이 장에서는 if 문, 조건식, 가독성을 위한 모범 사례, 스위치 문, 루프, 어설션, 함수, 선택적 매개 변수, 중첩 함수 및 typedef와 같은 필수 프로그래밍 개념을 다룹니다. 명확한 코드 구조, 효율적인 조건 처리, 간결한 표현을 위한 단축 구문 사용의 중요성을 강조합니다. 이 장에서는 코드 가독성과 유지 관리성을 향상시키기 위한 실용적인 예제와 권장 사항을 제공하여 Dart 프로그래밍의 제어 흐름과 기능 구현을 마스터하기 위한 포괄적인 가이드가 됩니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo sobre flujo de control y funciones en Dart cubre conceptos de programación esenciales, como declaraciones if, expresiones condicionales, buenas prácticas de legibilidad, declaraciones de cambio, bucles, aserciones, funciones, parámetros opcionales, funciones anidadas y definiciones de tipos. Enfatiza la importancia de una estructura de código clara, un manejo eficiente de las condiciones y el uso de sintaxis abreviada para expresiones concisas. El capítulo proporciona ejemplos prácticos y recomendaciones para mejorar la legibilidad y el mantenimiento del código, lo que lo convierte en una guía completa para dominar el flujo de control y la implementación de funciones en la programación de Dart.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "डार्ट में कंट्रोल फ़्लो और फ़ंक्शन पर यह अध्याय आवश्यक प्रोग्रामिंग अवधारणाओं जैसे कि if स्टेटमेंट, कंडीशनल एक्सप्रेशन, पठनीयता के लिए अच्छे अभ्यास, स्विच स्टेटमेंट, लूप, अभिकथन, फ़ंक्शन, वैकल्पिक पैरामीटर, नेस्टेड फ़ंक्शन और टाइपडेफ़ को कवर करता है। यह स्पष्ट कोड संरचना, कुशल कंडीशन हैंडलिंग और संक्षिप्त अभिव्यक्तियों के लिए शॉर्टहैंड सिंटैक्स के उपयोग के महत्व पर जोर देता है। यह अध्याय कोड पठनीयता और रखरखाव को बढ़ाने के लिए व्यावहारिक उदाहरण और सिफारिशें प्रदान करता है, जिससे यह डार्ट प्रोग्रामिंग में नियंत्रण प्रवाह और फ़ंक्शन कार्यान्वयन में महारत हासिल करने के लिए एक व्यापक मार्गदर्शिका बन जाती है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo sobre o fluxo de controlo e funções no Dart aborda conceitos essenciais de programação, como instruções if, expressões condicionais, boas práticas para legibilidade, instruções switch, ciclos, asserções, funções, parâmetros opcionais, funções aninhadas e typedefs. Realça a importância de uma estrutura de código clara, do tratamento eficiente das condições e do uso de sintaxe abreviada para expressões concisas. O capítulo fornece exemplos práticos e recomendações para melhorar a legibilidade e a manutenção do código, tornando-o um guia abrangente para dominar o fluxo de controlo e a implementação de funções na programação Dart.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "কন্ট্রোল ফ্লো অ্যান্ড ফাংশন ইন ডার্টের এই অধ্যায়টি প্রয়োজনীয় প্রোগ্রামিং ধারণাগুলিকে কভার করে যেমন যদি স্টেটমেন্ট, কন্ডিশনাল এক্সপ্রেশন, পঠনযোগ্যতার জন্য ভাল অনুশীলন, সুইচ স্টেটমেন্ট, লুপ, দাবী, ফাংশন, ঐচ্ছিক প্যারামিটার, নেস্টেড ফাংশন এবং টাইপডেফ। এটি স্পষ্ট কোড গঠন, দক্ষ কন্ডিশন হ্যান্ডলিং, এবং সংক্ষিপ্ত অভিব্যক্তির জন্য শর্টহ্যান্ড সিনট্যাক্সের গুরুত্বের উপর জোর দেয়। অধ্যায়টি কোড পঠনযোগ্যতা এবং রক্ষণাবেক্ষণযোগ্যতা বাড়ানোর জন্য ব্যবহারিক উদাহরণ এবং সুপারিশ প্রদান করে, এটি ডার্ট প্রোগ্রামিং-এ নিয়ন্ত্রণ প্রবাহ এবং ফাংশন বাস্তবায়নের দক্ষতা অর্জনের জন্য একটি ব্যাপক নির্দেশিকা তৈরি করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يغطي هذا الفصل حول التحكم في التدفق والوظائف في Dart مفاهيم البرمجة الأساسية مثل عبارات if، والتعبيرات الشرطية، والممارسات الجيدة لسهولة القراءة، وعبارات التبديل، والحلقات، والتأكيدات، والوظائف، والمعلمات الاختيارية، والوظائف المتداخلة، وtypedefs. ويؤكد على أهمية بنية التعليمات البرمجية الواضحة، والتعامل الفعال مع الحالة، واستخدام بناء الجملة المختصرة للتعبيرات الموجزة. يقدم الفصل أمثلة عملية وتوصيات لتعزيز إمكانية قراءة التعليمات البرمجية وقابلية صيانتها، مما يجعله دليلاً شاملاً لإتقان تدفق التحكم وتنفيذ الوظائف في برمجة Dart.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل در مورد جریان کنترل و توابع در دارت مفاهیم اساسی برنامه نویسی مانند دستورات if، عبارات شرطی، شیوه های خوب برای خوانایی، عبارات سوئیچ، حلقه ها، ادعاها، توابع، پارامترهای اختیاری، توابع تو در تو، و typedefs را پوشش می دهد. این بر اهمیت ساختار کد واضح، مدیریت کارآمد شرایط و استفاده از نحو مختصر برای عبارات مختصر تأکید دارد. این فصل مثال‌های عملی و توصیه‌هایی را برای افزایش خوانایی و قابلیت نگهداری کد ارائه می‌کند و آن را به راهنمای جامعی برای تسلط بر جریان کنترل و اجرای عملکرد در برنامه‌نویسی دارت تبدیل می‌کند.",
                     },
                 },
                 // 4
@@ -3022,31 +3022,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Classes",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter discusses essential concepts related to classes in Dart programming. It covers best practices such as maintaining concise getters and setters for code readability, avoiding the use of the new keyword for object instantiation, and utilizing cascade notation for efficient object initialization. The chapter also emphasizes the importance of libraries for code organization and visibility, along with guidelines for constructors and operator overloading. Additionally, it highlights the significance of getters and setters in controlling access to class variables to prevent data corruption and the use of the method for creating deep copies of objects.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel werden wesentliche Konzepte im Zusammenhang mit Klassen in der Dart-Programmierung erörtert. Es behandelt bewährte Vorgehensweisen wie die Beibehaltung prägnanter Getter und Setter zur besseren Lesbarkeit des Codes, die Vermeidung der Verwendung des neuen Schlüsselworts zur Objektinstanziierung und die Verwendung der Kaskadennotation zur effizienten Objektinitialisierung. Das Kapitel betont auch die Bedeutung von Bibliotheken für die Organisation und Sichtbarkeit des Codes sowie Richtlinien für Konstruktoren und Operatorüberladung. Darüber hinaus wird die Bedeutung von Gettern und Settern bei der Steuerung des Zugriffs auf Klassenvariablen hervorgehoben, um Datenbeschädigungen zu verhindern, sowie die Verwendung der Methode zum Erstellen tiefer Kopien von Objekten.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章讨论了 Dart 编程中与类相关的基本概念。它涵盖了最佳实践，例如维护简洁的 getter 和 setter 以提高代码可读性、避免使用 new 关键字进行对象实例化以及利用级联表示法实现高效的对象初始化。本章还强调了库对于代码组织和可见性的重要性，以及构造函数和运算符重载的指南。此外，它还强调了 getter 和 setter 在控制对类变量的访问以防止数据损坏以及使用方法创建对象的深层副本方面的重要性。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе обсуждаются основные концепции, связанные с классами в программировании на Dart. В нем рассматриваются лучшие практики, такие как сохранение кратких методов получения и установки для удобства чтения кода, отказ от использования ключевого слова new для создания экземпляров объектов и использование каскадной нотации для эффективной инициализации объектов. В главе также подчеркивается важность библиотек для организации и наглядности кода, а также приводятся рекомендации по перегрузке конструкторов и операторов. Кроме того, подчеркивается значение геттеров и сеттеров в контроле доступа к переменным класса для предотвращения повреждения данных и использования метода создания глубоких копий объектов.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre aborde les concepts essentiels liés aux classes de programmation Dart. Il couvre les meilleures pratiques telles que le maintien de getters et setters concis pour la lisibilité du code, l'évitement de l'utilisation du nouveau mot-clé pour l'instanciation d'objet et l'utilisation de la notation en cascade pour une initialisation efficace des objets. Le chapitre souligne également l'importance des bibliothèques pour l'organisation et la visibilité du code, ainsi que des lignes directrices pour les constructeurs et la surcharge des opérateurs. De plus, il met en évidence l'importance des getters et des setters dans le contrôle de l'accès aux variables de classe afin d'éviter la corruption des données et l'utilisation de la méthode de création de copies complètes d'objets.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Dart プログラミングにおけるクラスに関連する重要な概念について説明します。コードの可読性を高めるために簡潔なゲッターとセッターを維持すること、オブジェクトのインスタンス化に new キーワードを使用しないこと、効率的なオブジェクト初期化のためにカスケード表記法を利用することなどのベスト プラクティスについて説明します。また、この章では、コードの編成と可視性のためのライブラリの重要性、およびコンストラクタと演算子のオーバーロードに関するガイドラインについても強調します。さらに、クラス変数へのアクセスを制御してデータの破損を防ぐためのゲッターとセッターの重要性、およびオブジェクトのディープ コピーを作成するためのメソッドの使用についても強調します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Dart 프로그래밍의 클래스와 관련된 필수 개념을 논의합니다. 코드 가독성을 위해 간결한 getter 및 setter 유지, 개체 인스턴스화에 새 키워드 사용 방지, 효율적인 개체 초기화를 위한 계단식 표기법 활용과 같은 모범 사례를 다룹니다. 또한 이 장에서는 생성자 및 연산자 오버로딩에 대한 지침과 함께 코드 구성 및 가시성을 위한 라이브러리의 중요성을 강조합니다. 또한 데이터 손상을 방지하기 위해 클래스 변수에 대한 액세스를 제어하고 객체의 전체 복사본을 생성하는 방법을 사용하는 데 있어서 getter 및 setter의 중요성을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo analiza conceptos esenciales relacionados con las clases de programación Dart. Cubre las mejores prácticas, como mantener captadores y definidores concisos para la legibilidad del código, evitar el uso de la nueva palabra clave para la creación de instancias de objetos y utilizar notación en cascada para una inicialización eficiente de objetos. El capítulo también enfatiza la importancia de las bibliotecas para la organización y visibilidad del código, junto con pautas para la sobrecarga de constructores y operadores. Además, destaca la importancia de los captadores y definidores para controlar el acceso a las variables de clase para evitar la corrupción de datos y el uso del método para crear copias profundas de objetos.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय डार्ट प्रोग्रामिंग में कक्षाओं से संबंधित आवश्यक अवधारणाओं पर चर्चा करता है। इसमें कोड पठनीयता के लिए संक्षिप्त गेटर्स और सेटर्स को बनाए रखने, ऑब्जेक्ट इंस्टेंटिएशन के लिए नए कीवर्ड के उपयोग से बचने और कुशल ऑब्जेक्ट इनिशियलाइज़ेशन के लिए कैस्केड नोटेशन का उपयोग करने जैसी सर्वोत्तम प्रथाओं को शामिल किया गया है। यह अध्याय कोड संगठन और दृश्यता के लिए लाइब्रेरी के महत्व पर भी जोर देता है, साथ ही कंस्ट्रक्टर और ऑपरेटर ओवरलोडिंग के लिए दिशा-निर्देश भी देता है। इसके अतिरिक्त, यह डेटा भ्रष्टाचार को रोकने के लिए क्लास वैरिएबल तक पहुँच को नियंत्रित करने और ऑब्जेक्ट की डीप कॉपी बनाने के लिए विधि के उपयोग में गेटर्स और सेटर्स के महत्व पर प्रकाश डालता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo discute conceitos essenciais relacionados com as aulas de programação Dart. Abrange as melhores práticas, como manter getters e setters concisos para facilitar a leitura do código, evitar o uso da palavra-chave new para instanciação de objetos e utilizar notação em cascata para uma inicialização eficiente de objetos. O capítulo também enfatiza a importância das bibliotecas para a organização e visibilidade do código, juntamente com as orientações para os construtores e a sobrecarga dos operadores. Além disso, destaca a importância dos getters e setters no controlo do acesso às variáveis ​​de classe para evitar a corrupção de dados e a utilização do método para criar cópias profundas de objetos.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে ডার্ট প্রোগ্রামিং এর ক্লাস সম্পর্কিত প্রয়োজনীয় ধারণা নিয়ে আলোচনা করা হয়েছে। এটি কোড পঠনযোগ্যতার জন্য সংক্ষিপ্ত গেটার এবং সেটার্স বজায় রাখা, অবজেক্ট ইনস্ট্যান্টেশনের জন্য নতুন কীওয়ার্ডের ব্যবহার এড়ানো এবং দক্ষ অবজেক্ট ইনিশিয়ালাইজেশনের জন্য ক্যাসকেড নোটেশন ব্যবহার করার মতো সেরা অনুশীলনগুলিকে কভার করে। অধ্যায়টি কন্সট্রাক্টর এবং অপারেটর ওভারলোডিংয়ের নির্দেশিকা সহ কোড সংগঠন এবং দৃশ্যমানতার জন্য লাইব্রেরির গুরুত্বের উপর জোর দেয়। উপরন্তু, এটি ডেটা দুর্নীতি প্রতিরোধ করতে এবং অবজেক্টের গভীর অনুলিপি তৈরি করার পদ্ধতির ব্যবহার রোধ করতে ক্লাস ভেরিয়েবলগুলিতে অ্যাক্সেস নিয়ন্ত্রণে গেটার এবং সেটারের তাত্পর্য তুলে ধরে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يناقش هذا الفصل المفاهيم الأساسية المتعلقة بالفصول الدراسية في برمجة Dart. ويغطي أفضل الممارسات مثل الحفاظ على الحروف المختصرة والمحددات لسهولة قراءة التعليمات البرمجية، وتجنب استخدام الكلمة الأساسية الجديدة لإنشاء مثيل للكائن، واستخدام التدوين المتتالي لتهيئة الكائن بكفاءة. يؤكد الفصل أيضًا على أهمية المكتبات لتنظيم التعليمات البرمجية ورؤيتها، بالإضافة إلى إرشادات للمنشئين والتحميل الزائد للمشغل. بالإضافة إلى ذلك، فإنه يسلط الضوء على أهمية الحروف والمحددات في التحكم في الوصول إلى متغيرات الفئة لمنع تلف البيانات واستخدام الأسلوب لإنشاء نسخ عميقة من الكائنات.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل مفاهیم اساسی مربوط به کلاس های برنامه نویسی دارت را مورد بحث قرار می دهد. بهترین روش‌ها مانند حفظ گیرنده‌ها و تنظیم‌کننده‌های مختصر برای خوانایی کد، اجتناب از استفاده از کلمه کلیدی جدید برای نمونه‌سازی شی، و استفاده از نشانه‌گذاری آبشاری برای اولیه‌سازی کارآمد شی را پوشش می‌دهد. این فصل همچنین بر اهمیت کتابخانه‌ها برای سازماندهی کد و قابل مشاهده بودن، همراه با دستورالعمل‌هایی برای سازندگان و بارگذاری بیش از حد اپراتورها تأکید می‌کند. به‌علاوه، اهمیت دریافت‌کننده‌ها و تنظیم‌کننده‌ها را در کنترل دسترسی به متغیرهای کلاس برای جلوگیری از خرابی داده‌ها و استفاده از روش برای ایجاد کپی‌های عمیق از اشیاء برجسته می‌کند.",
                     },
                 },
                 // 5

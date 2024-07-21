@@ -818,6 +818,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "3vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "3vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "1vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -909,6 +914,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "10vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "4vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "1vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1003,6 +1013,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "13vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "1vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1097,6 +1112,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "12vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "6vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "2vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1192,6 +1212,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "12vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "2vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1291,6 +1316,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "13vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "2vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1410,6 +1440,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "2vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1530,6 +1565,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "2vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1651,6 +1691,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "6vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "2vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1780,6 +1825,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById("Books-top-navigation-just-for-containingg").style.fontSize = "4vw";
         document.getElementById("right-arrow-book-navigation-bar-icon").style.fontSize = "4vw";
         document.getElementById("link-button-to-go-the-individual-skill-page-top-indicatotor").style.fontSize = "4vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "3vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -1906,6 +1956,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "3vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -2033,6 +2088,11 @@ function BaseResponsiveAdaptiveFunctionality() {
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingTop = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingBottom = "8vw";
         document.getElementById('top-indicatotor-div-to-show-which-skill-is-selected').style.paddingLeft = "5vw";
+        document.querySelectorAll("#right-arrow-book-navigation-bar-icon").forEach(
+            (item, index) => {
+                item.style.fontSize = "5vw";
+            }
+        );
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
