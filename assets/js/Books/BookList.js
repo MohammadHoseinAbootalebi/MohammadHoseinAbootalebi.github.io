@@ -3054,31 +3054,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Inheritance and Exceptions",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "In this Chapter, the focus is on inheritance, exceptions, and advanced concepts in Dart programming. It covers the use of extends for typical OOP inheritance, implements for defining APIs, and mixins for code reuse. Abstract classes are recommended for interfaces to avoid unnecessary empty bodies. The chapter also delves into exception handling, emphasizing the try-catch block and the importance of handling exceptions appropriately. Additionally, extension methods are introduced for adding functionalities to existing classes without altering their structure. Overall, the chapter provides insights into best practices for inheritance, exceptions, and object-oriented programming in Dart.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel liegt der Schwerpunkt auf Vererbung, Ausnahmen und fortgeschrittenen Konzepten der Dart-Programmierung. Es behandelt die Verwendung von Erweiterungen für typische OOP-Vererbung, Implementierungen zum Definieren von APIs und Mixins für die Wiederverwendung von Code. Abstrakte Klassen werden für Schnittstellen empfohlen, um unnötige leere Körper zu vermeiden. Das Kapitel befasst sich auch mit der Ausnahmebehandlung und betont den Try-Catch-Block und die Bedeutung der angemessenen Behandlung von Ausnahmen. Darüber hinaus werden Erweiterungsmethoden eingeführt, um vorhandenen Klassen Funktionen hinzuzufügen, ohne deren Struktur zu ändern. Insgesamt bietet das Kapitel Einblicke in Best Practices für Vererbung, Ausnahmen und objektorientierte Programmierung in Dart.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍 Dart 编程中的继承、异常和高级概念。它涵盖了使用 extends 进行典型的 OOP 继承、使用 implements 进行定义 API 以及使用 mixin 进行代码重用。建议使用抽象类作为接口，以避免不必要的空体。本章还深入探讨了异常处理，强调了 try-catch 块和适当处理异常的重要性。此外，还介绍了扩展方法，用于在不改变现有类结构的情况下为其添加功能。总体而言，本章深入介绍了 Dart 中继承、异常和面向对象编程的最佳实践。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется наследованию, исключениям и расширенным концепциям программирования на Dart. Он охватывает использование расширений для типичного наследования ООП, реализации для определения API и примесей для повторного использования кода. Для интерфейсов рекомендуется использовать абстрактные классы, чтобы избежать ненужных пустых тел. В главе также подробно рассматривается обработка исключений, в которой особое внимание уделяется блоку try-catch и важности правильной обработки исключений. Кроме того, представлены методы расширения для добавления функциональных возможностей к существующим классам без изменения их структуры. В целом, в главе представлены лучшие практики наследования, исключений и объектно-ориентированного программирования в Dart.",
                         // French
-                        "Français": "",
+                        "Français": "Dans ce chapitre, l'accent est mis sur l'héritage, les exceptions et les concepts avancés de la programmation Dart. Il couvre l'utilisation d'extensions pour l'héritage POO typique, les implémentations pour la définition des API et les mixins pour la réutilisation du code. Les classes abstraites sont recommandées pour les interfaces afin d'éviter les corps vides inutiles. Le chapitre aborde également la gestion des exceptions, en mettant l'accent sur le bloc try-catch et l'importance de gérer les exceptions de manière appropriée. De plus, des méthodes d'extension sont introduites pour ajouter des fonctionnalités aux classes existantes sans modifier leur structure. Dans l'ensemble, le chapitre fournit un aperçu des meilleures pratiques en matière d'héritage, d'exceptions et de programmation orientée objet dans Dart.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、継承、例外、および Dart プログラミングの高度な概念に焦点を当てています。一般的な OOP 継承のための extends の使用、API を定義するための implements、およびコード再利用のための mixin について説明します。不要な空の本体を回避するために、インターフェイスには抽象クラスが推奨されます。この章では例外処理についても詳しく説明し、try-catch ブロックと例外を適切に処理することの重要性を強調しています。さらに、既存のクラスの構造を変更せずに機能を追加するための拡張メソッドも紹介します。全体として、この章では Dart での継承、例外、およびオブジェクト指向プログラミングのベスト プラクティスについての洞察を提供します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Dart 프로그래밍의 상속, 예외 및 고급 개념에 중점을 둡니다. 일반적인 OOP 상속을 위한 확장 사용, API 정의를 위한 구현 및 코드 재사용을 위한 믹스인을 다룹니다. 불필요한 빈 본문을 피하기 위해 인터페이스에는 추상 클래스를 사용하는 것이 좋습니다. 또한 이 장에서는 예외 처리에 대해 자세히 알아보고 try-catch 블록과 예외를 적절하게 처리하는 것의 중요성을 강조합니다. 또한 구조를 변경하지 않고 기존 클래스에 기능을 추가하기 위한 확장 메서드가 도입되었습니다. 전반적으로 이 장에서는 Dart의 상속, 예외 및 객체 지향 프로그래밍에 대한 모범 사례에 대한 통찰력을 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo, la atención se centra en la herencia, las excepciones y los conceptos avanzados en la programación de Dart. Cubre el uso de extensiones para la herencia típica de programación orientada a objetos, implementos para definir API y mixins para la reutilización de código. Se recomiendan clases abstractas para interfaces para evitar cuerpos vacíos innecesarios. El capítulo también profundiza en el manejo de excepciones, enfatizando el bloque try-catch y la importancia de manejar las excepciones apropiadamente. Además, se introducen métodos de extensión para agregar funcionalidades a clases existentes sin alterar su estructura. En general, el capítulo proporciona información sobre las mejores prácticas para herencia, excepciones y programación orientada a objetos en Dart.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "इस अध्याय में, डार्ट प्रोग्रामिंग में विरासत, अपवाद और उन्नत अवधारणाओं पर ध्यान केंद्रित किया गया है। यह विशिष्ट OOP विरासत के लिए एक्सटेंड्स के उपयोग, API को परिभाषित करने के लिए कार्यान्वयन और कोड पुन: उपयोग के लिए मिक्सिन को कवर करता है। अनावश्यक खाली निकायों से बचने के लिए इंटरफ़ेस के लिए सार वर्गों की सिफारिश की जाती है। अध्याय अपवाद हैंडलिंग पर भी गहराई से चर्चा करता है, ट्राई-कैच ब्लॉक और अपवादों को उचित तरीके से संभालने के महत्व पर जोर देता है। इसके अतिरिक्त, मौजूदा कक्षाओं में उनकी संरचना में बदलाव किए बिना कार्यक्षमताओं को जोड़ने के लिए एक्सटेंशन विधियों को पेश किया गया है। कुल मिलाकर, अध्याय डार्ट में विरासत, अपवाद और ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग के लिए सर्वोत्तम प्रथाओं में अंतर्दृष्टि प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Neste capítulo, o foco está na herança, exceções e conceitos avançados em programação Dart. Abrange a utilização de extensões para herança OOP típica, implementos para definição de APIs e mixins para reutilização de código. As classes abstratas são recomendadas para interfaces para evitar corpos vazios desnecessários. O capítulo aprofunda também o tratamento das exceções, enfatizando o bloco try-catch e a importância de tratar as exceções de forma adequada. Além disso, são introduzidos métodos de extensão para adicionar funcionalidades às classes existentes sem alterar a sua estrutura. No geral, o capítulo fornece informações sobre as melhores práticas para herança, exceções e programação orientada a objetos no Dart.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে, ফোকাস উত্তরাধিকার, ব্যতিক্রম, এবং ডার্ট প্রোগ্রামিং এ উন্নত ধারণার উপর। এটি সাধারণ OOP উত্তরাধিকারের জন্য প্রসারিত ব্যবহার, APIs সংজ্ঞায়িত করার জন্য ইমপ্লিমেন্ট এবং কোড পুনঃব্যবহারের জন্য মিক্সিনের ব্যবহার কভার করে। অপ্রয়োজনীয় খালি বডি এড়াতে ইন্টারফেসের জন্য বিমূর্ত ক্লাসের সুপারিশ করা হয়। অধ্যায়টি ব্যতিক্রম হ্যান্ডলিং সম্পর্কেও আলোচনা করে, ট্রাই-ক্যাচ ব্লক এবং ব্যতিক্রমগুলি যথাযথভাবে পরিচালনা করার গুরুত্বের উপর জোর দেয়। অতিরিক্তভাবে, তাদের কাঠামো পরিবর্তন না করে বিদ্যমান ক্লাসে কার্যকারিতা যোগ করার জন্য এক্সটেনশন পদ্ধতি চালু করা হয়। সামগ্রিকভাবে, অধ্যায়টি ডার্টে উত্তরাধিকার, ব্যতিক্রম এবং অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিংয়ের জন্য সর্বোত্তম অনুশীলনের অন্তর্দৃষ্টি প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "ينصب التركيز في هذا الفصل على الوراثة والاستثناءات والمفاهيم المتقدمة في برمجة Dart. ويغطي استخدام الامتدادات لميراث OOP النموذجي، وتطبيقات تعريف واجهات برمجة التطبيقات، والخلطات لإعادة استخدام التعليمات البرمجية. يوصى باستخدام الفئات المجردة للواجهات لتجنب الأجسام الفارغة غير الضرورية. يتعمق الفصل أيضًا في معالجة الاستثناءات، مع التركيز على كتلة محاولة الالتقاط وأهمية التعامل مع الاستثناءات بشكل مناسب. بالإضافة إلى ذلك، تم تقديم طرق التمديد لإضافة وظائف إلى الفئات الموجودة دون تغيير بنيتها. بشكل عام، يقدم الفصل نظرة ثاقبة حول أفضل الممارسات المتعلقة بالميراث والاستثناءات والبرمجة الموجهة للكائنات في Dart.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "در این فصل، تمرکز بر وراثت، استثناها و مفاهیم پیشرفته در برنامه نویسی دارت است. این شامل استفاده از گسترش برای وراثت OOP معمولی، پیاده‌سازی برای تعریف APIها و میکس‌ها برای استفاده مجدد از کد می‌شود. کلاس‌های انتزاعی برای رابط‌ها توصیه می‌شوند تا از بدنه‌های خالی غیرضروری جلوگیری کنند. این فصل همچنین به مدیریت استثنا می پردازد و بر بلوک try-catch و اهمیت رسیدگی به استثناها به طور مناسب تأکید می کند. علاوه بر این، روش‌های توسعه برای افزودن قابلیت‌ها به کلاس‌های موجود بدون تغییر ساختار آنها معرفی شده‌اند. به طور کلی، این فصل بینش هایی در مورد بهترین شیوه ها برای وراثت، استثناها و برنامه نویسی شی گرا در دارت ارائه می دهد.",
                     },
                 },
                 // 6
@@ -3086,31 +3086,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Generics and Collections",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter on Generics and Collections in Dart emphasizes the importance of parameterized programming for type safety and code reusability. It introduces generic types like List and Set for efficient data handling, with methods such as add(), remove(), and spread operator for arrays. Good practices include using literal initialization, avoiding unnecessary casts, and overriding equality operators for proper comparisons. Transform methods like where(), map(), reduce(), and fold() are highlighted for streamlined data processing in collections, promoting efficient and type-safe coding practices in Dart programming.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Das Kapitel über Generika und Sammlungen in Dart betont die Bedeutung der parametrisierten Programmierung für Typsicherheit und Wiederverwendbarkeit von Code. Es führt generische Typen wie List und Set für eine effiziente Datenverarbeitung ein, mit Methoden wie add(), remove() und dem Spread-Operator für Arrays. Zu den bewährten Vorgehensweisen gehören die Verwendung der wörtlichen Initialisierung, das Vermeiden unnötiger Casts und das Überschreiben von Gleichheitsoperatoren für ordnungsgemäße Vergleiche. Transform-Methoden wie where(), map(), reduce() und fold() werden für eine optimierte Datenverarbeitung in Sammlungen hervorgehoben und fördern effiziente und typsichere Codierungspraktiken in der Dart-Programmierung.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "Dart 中的泛型和集合章节强调了参数化编程对于类型安全性和代码可重用性的重要性。它介绍了 List 和 Set 等泛型类型，以实现高效的数据处理，以及 add()、remove() 和数组扩展运算符等方法。良好做法包括使用文字初始化、避免不必要的强制类型转换以及重写相等运算符以进行正确的比较。重点介绍了 where()、map()、reduce() 和 fold() 等转换方法，以简化集合中的数据处理，促进 Dart 编程中高效且类型安全的编码实践。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе «Обобщенные шаблоны и коллекции в Dart» подчеркивается важность параметризованного программирования для обеспечения безопасности типов и возможности повторного использования кода. В нем представлены общие типы, такие как List и Set, для эффективной обработки данных, а также такие методы, как add(), Remove() и оператор расширения для массивов. Хорошие практики включают в себя использование буквальной инициализации, отказ от ненужного приведения и переопределение операторов равенства для правильного сравнения. Методы преобразования, такие какwhere(),map(),reduce() иfold(), выделены для упрощения обработки данных в коллекциях, что способствует эффективному и типобезопасному кодированию в Dart-программировании.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre sur les génériques et les collections dans Dart souligne l'importance de la programmation paramétrée pour la sécurité des types et la réutilisabilité du code. Il introduit des types génériques tels que List et Set pour une gestion efficace des données, avec des méthodes telles que add(), remove() et l'opérateur spread pour les tableaux. Les bonnes pratiques incluent l'utilisation de l'initialisation littérale, l'évitement des conversions inutiles et le remplacement des opérateurs d'égalité pour des comparaisons appropriées. Les méthodes de transformation telles que Where(), Map(), Reduction() et Fold() sont mises en avant pour rationaliser le traitement des données dans les collections, promouvant ainsi des pratiques de codage efficaces et sûres dans la programmation Dart.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "Dart のジェネリックとコレクションに関する章では、型の安全性とコードの再利用性のために、パラメータ化されたプログラミングの重要性を強調しています。効率的なデータ処理のために、List や Set などのジェネリック型と、配列の add()、remove()、スプレッド演算子などのメソッドを紹介します。リテラル初期化の使用、不要なキャストの回避、適切な比較のための等価演算子のオーバーライドなどの優れたプラクティスがあります。where()、map()、reduce()、fold() などの変換メソッドは、コレクション内のデータ処理を合理化するために強調されており、Dart プログラミングにおける効率的で型安全なコーディング プラクティスを促進します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "Dart의 제네릭 및 컬렉션에 관한 장에서는 유형 안전성과 코드 재사용성을 위한 매개변수화된 프로그래밍의 중요성을 강조합니다. 효율적인 데이터 처리를 위해 List 및 Set과 같은 일반 유형을 도입하고 add(), 제거() 및 배열용 스프레드 연산자와 같은 메소드를 사용합니다. 모범 사례에는 리터럴 초기화 사용, 불필요한 캐스트 방지, 적절한 비교를 위한 같음 연산자 재정의 등이 포함됩니다. where(), map(), Reduce() 및fold()와 같은 변환 메소드는 컬렉션의 간소화된 데이터 처리를 위해 강조되어 Dart 프로그래밍에서 효율적이고 유형이 안전한 코딩 방법을 촉진합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo sobre Genéricos y Colecciones en Dart enfatiza la importancia de la programación parametrizada para la seguridad de tipos y la reutilización del código. Introduce tipos genéricos como List y Set para un manejo eficiente de datos, con métodos como add(), remove() y operador de extensión para matrices. Las buenas prácticas incluyen el uso de inicialización literal, evitar conversiones innecesarias y anular operadores de igualdad para realizar comparaciones adecuadas. Los métodos de transformación como where(), map(), reduce() y fold() se destacan para optimizar el procesamiento de datos en las colecciones, promoviendo prácticas de codificación eficientes y con seguridad de tipos en la programación de Dart.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "डार्ट में जेनरिक और संग्रह पर अध्याय प्रकार सुरक्षा और कोड पुन: प्रयोज्यता के लिए पैरामीटरयुक्त प्रोग्रामिंग के महत्व पर जोर देता है। यह कुशल डेटा हैंडलिंग के लिए लिस्ट और सेट जैसे जेनेरिक प्रकारों का परिचय देता है, जिसमें add(), remove(), और सरणियों के लिए स्प्रेड ऑपरेटर जैसी विधियाँ शामिल हैं। अच्छे अभ्यासों में शाब्दिक आरंभीकरण का उपयोग करना, अनावश्यक कास्ट से बचना और उचित तुलना के लिए समानता ऑपरेटरों को ओवरराइड करना शामिल है। संग्रह में सुव्यवस्थित डेटा प्रोसेसिंग के लिए where(), map(), reduce(), और fold() जैसे ट्रांसफ़ॉर्म विधियों को हाइलाइट किया गया है, जो डार्ट प्रोग्रामिंग में कुशल और प्रकार-सुरक्षित कोडिंग प्रथाओं को बढ़ावा देता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo sobre Genéricos e Colecções no Dart enfatiza a importância da programação parametrizada para a segurança de tipos e reutilização de código. Apresenta tipos genéricos como List e Set para uma manipulação eficiente de dados, com métodos como add(), remove() e operador spread para arrays. As boas práticas incluem o uso de inicialização literal, evitando conversões desnecessárias e substituindo operadores de igualdade para comparações adequadas. Os métodos de transformação como where(), map(), reduce() e fold() são destacados para o processamento simplificado de dados em coleções, promovendo práticas de codificação eficientes e de tipo seguro na programação Dart.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "ডার্টে জেনেরিকস এবং কালেকশনের অধ্যায় টাইপ নিরাপত্তা এবং কোড পুনঃব্যবহারযোগ্যতার জন্য প্যারামিটারাইজড প্রোগ্রামিংয়ের গুরুত্বের উপর জোর দেয়। এটি অ্যারের জন্য অ্যাড(), রিমুভ(), এবং স্প্রেড অপারেটরের মতো পদ্ধতি সহ দক্ষ ডেটা পরিচালনার জন্য তালিকা এবং সেটের মতো জেনেরিক প্রকারের পরিচয় দেয়। ভাল অভ্যাসগুলির মধ্যে রয়েছে আক্ষরিক প্রারম্ভিকতা ব্যবহার করা, অপ্রয়োজনীয় কাস্ট এড়ানো এবং যথাযথ তুলনার জন্য সমতা অপারেটরদের অগ্রাহ্য করা। ডার্ট প্রোগ্রামিং-এ দক্ষ এবং টাইপ-নিরাপদ কোডিং অনুশীলনের প্রচার, সংগ্রহে সুবিন্যস্ত ডেটা প্রক্রিয়াকরণের জন্য where(), map(), reduce(), এবং fold() এর মত রূপান্তর পদ্ধতিগুলি হাইলাইট করা হয়েছে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يؤكد الفصل الخاص بالأدوية العامة والمجموعات في Dart على أهمية البرمجة ذات المعلمات لسلامة النوع وإمكانية إعادة استخدام التعليمات البرمجية. يقدم أنواعًا عامة مثل List وSet لمعالجة البيانات بكفاءة، باستخدام أساليب مثل add() وremove() وعامل الانتشار للمصفوفات. تتضمن الممارسات الجيدة استخدام التهيئة الحرفية، وتجنب عمليات التحويل غير الضرورية، وتجاوز عوامل المساواة لإجراء مقارنات مناسبة. يتم تمييز طرق التحويل مثل Where() وmap() وreduce() وfold() لمعالجة البيانات المبسطة في المجموعات، وتعزيز ممارسات الترميز الفعالة والآمنة للنوع في برمجة Dart.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "فصل Generics و Collections در Dart بر اهمیت برنامه ریزی پارامتری برای ایمنی نوع و قابلیت استفاده مجدد کد تأکید می کند. انواع عمومی مانند List و Set را برای مدیریت کارآمد داده ها با روش هایی مانند add()، remove() و spread operator برای آرایه ها معرفی می کند. شیوه های خوب شامل استفاده از مقداردهی اولیه تحت اللفظی، اجتناب از ریخته گری های غیر ضروری، و نادیده گرفتن عملگرهای برابری برای مقایسه های مناسب است. روش‌های تبدیل مانند Where()، map()، reduce() و fold() برای پردازش ساده داده‌ها در مجموعه‌ها برجسته می‌شوند و شیوه‌های کدگذاری کارآمد و ایمن در برنامه‌نویسی دارت را ترویج می‌کنند.",
                     },
                 },
                 // 7
@@ -3118,31 +3118,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Asynchronous programming",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter, delves into the realm of asynchronous programming in Dart, emphasizing the use of Futures and Streams for non-blocking operations. It introduces async/await as a more concise alternative to then() callbacks, enhancing code readability. The concept of isolates is explored for parallel computation, highlighting the absence of shared memory in Dart isolates. Additionally, StreamController is presented as a valuable tool for managing streams efficiently in Flutter applications. The chapter underscores the significance of asynchronous programming for maintaining app responsiveness and offers best practices such as favoring async/await over raw futures for improved code clarity.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel befasst sich mit dem Bereich der asynchronen Programmierung in Dart und betont die Verwendung von Futures und Streams für nicht blockierende Vorgänge. Es führt async/await als prägnantere Alternative zu then()-Rückrufen ein und verbessert so die Lesbarkeit des Codes. Das Konzept der Isolates wird für parallele Berechnungen untersucht und das Fehlen von gemeinsam genutztem Speicher in Dart-Isolates hervorgehoben. Darüber hinaus wird StreamController als wertvolles Tool zur effizienten Verwaltung von Streams in Flutter-Anwendungen vorgestellt. Das Kapitel unterstreicht die Bedeutung der asynchronen Programmierung für die Aufrechterhaltung der Reaktionsfähigkeit von Apps und bietet Best Practices wie die Bevorzugung von async/await gegenüber Raw Futures für eine verbesserte Codeübersichtlichkeit.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章深入探讨了 Dart 中的异步编程领域，强调了使用 Futures 和 Streams 进行非阻塞操作。它引入了 async/await 作为 then() 回调的更简洁替代方案，从而增强了代码的可读性。探索了隔离的概念以进行并行计算，强调了 Dart 隔离中没有共享内存。此外，StreamController 被介绍为在 Flutter 应用程序中有效管理流的宝贵工具。本章强调了异步编程对于保持应用程序响应能力的重要性，并提供了最佳实践，例如优先使用 async/await 而不是原始 Futures 以提高代码清晰度。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "Эта глава углубляется в область асинхронного программирования в Dart, уделяя особое внимание использованию Futures и Streams для неблокирующих операций. Он представляет async/await как более краткую альтернативу обратным вызовам then(), улучшая читаемость кода. Концепция изолятов исследуется для параллельных вычислений, подчеркивая отсутствие общей памяти в изолятах Dart. Кроме того, StreamController представлен как ценный инструмент для эффективного управления потоками в приложениях Flutter. В этой главе подчеркивается важность асинхронного программирования для обеспечения оперативности приложений и предлагаются лучшие практики, такие как предпочтение async/await перед необработанными фьючерсами для повышения ясности кода.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre explore le domaine de la programmation asynchrone dans Dart, en mettant l'accent sur l'utilisation de Futures et Streams pour les opérations non bloquantes. Il introduit async/await comme une alternative plus concise aux rappels then(), améliorant ainsi la lisibilité du code. Le concept d'isolats est exploré pour le calcul parallèle, mettant en évidence l'absence de mémoire partagée dans les isolats Dart. De plus, StreamController est présenté comme un outil précieux pour gérer efficacement les flux dans les applications Flutter. Le chapitre souligne l'importance de la programmation asynchrone pour maintenir la réactivité des applications et propose de bonnes pratiques telles que privilégier l'asynchrone/l'attente par rapport aux futurs bruts pour une meilleure clarté du code.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Dart の非同期プログラミングの領域を掘り下げ、非ブロッキング操作のための Future と Stream の使用に重点を置いています。then() コールバックのより簡潔な代替手段として async/await を導入し、コードの可読性を高めます。並列計算のための isolate の概念を探求し、Dart isolate には共有メモリがないことを強調します。さらに、StreamController は、Flutter アプリケーションでストリームを効率的に管理するための貴重なツールとして紹介されています。この章では、アプリの応答性を維持するための非同期プログラミングの重要性を強調し、コードの明瞭性を向上させるために raw future よりも async/await を優先するなどのベスト プラクティスを紹介します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 비차단 작업을 위한 Future와 Stream의 사용을 강조하면서 Dart의 비동기 프로그래밍 영역을 자세히 살펴봅니다. then() 콜백에 대한 보다 간결한 대안으로 async/await를 도입하여 코드 가독성을 높였습니다. 병렬 계산을 위해 격리의 개념을 탐구하여 Dart 격리에서 공유 메모리가 없음을 강조합니다. 또한 StreamController는 Flutter 애플리케이션에서 스트림을 효율적으로 관리하기 위한 귀중한 도구로 제공됩니다. 이 장에서는 앱 응답성을 유지하기 위한 비동기 프로그래밍의 중요성을 강조하고 향상된 코드 명확성을 위해 원시 future보다 async/await를 선호하는 등의 모범 사례를 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo profundiza en el ámbito de la programación asincrónica en Dart, enfatizando el uso de Futures y Streams para operaciones sin bloqueo. Introduce async/await como una alternativa más concisa a las devoluciones de llamada then(), mejorando la legibilidad del código. Se explora el concepto de aislados para el cálculo paralelo, destacando la ausencia de memoria compartida en los aislados de Dart. Además, StreamController se presenta como una herramienta valiosa para gestionar transmisiones de manera eficiente en aplicaciones Flutter. El capítulo subraya la importancia de la programación asincrónica para mantener la capacidad de respuesta de la aplicación y ofrece mejores prácticas, como favorecer async/await sobre futuros sin procesar para mejorar la claridad del código.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय, डार्ट में एसिंक्रोनस प्रोग्रामिंग के क्षेत्र में गहराई से जाता है, नॉन-ब्लॉकिंग ऑपरेशन के लिए फ्यूचर्स और स्ट्रीम्स के उपयोग पर जोर देता है। यह then() कॉलबैक के लिए अधिक संक्षिप्त विकल्प के रूप में async/await को पेश करता है, जो कोड पठनीयता को बढ़ाता है। समानांतर गणना के लिए आइसोलेट्स की अवधारणा का पता लगाया जाता है, जो डार्ट आइसोलेट्स में साझा मेमोरी की अनुपस्थिति को उजागर करता है। इसके अतिरिक्त, स्ट्रीमकंट्रोलर को फ़्लटर अनुप्रयोगों में स्ट्रीम को कुशलतापूर्वक प्रबंधित करने के लिए एक मूल्यवान उपकरण के रूप में प्रस्तुत किया जाता है। यह अध्याय ऐप की प्रतिक्रियाशीलता बनाए रखने के लिए एसिंक्रोनस प्रोग्रामिंग के महत्व को रेखांकित करता है और बेहतर कोड स्पष्टता के लिए रॉ फ्यूचर्स पर async/await को तरजीह देने जैसे सर्वोत्तम अभ्यास प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo aprofunda o domínio da programação assíncrona no Dart, enfatizando a utilização de Futures e Streams para operações sem bloqueio. Apresenta o async/await como uma alternativa mais concisa aos callbacks then(), melhorando a legibilidade do código. O conceito de isolados é explorado para computação paralela, destacando-se a ausência de memória partilhada nos isolados Dart. Além disso, o StreamController é apresentado como uma ferramenta valiosa para gerir fluxos de forma eficiente em aplicações Flutter. O capítulo sublinha a importância da programação assíncrona para manter a capacidade de resposta da aplicação e oferece práticas recomendadas, como favorecer o async/await em vez de futuros brutos para melhorar a clareza do código.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি, ডার্ট-এ অ্যাসিঙ্ক্রোনাস প্রোগ্রামিং-এর ক্ষেত্র নিয়ে আলোচনা করে, নন-ব্লকিং ক্রিয়াকলাপগুলির জন্য ফিউচার এবং স্ট্রিমগুলির ব্যবহারের উপর জোর দেয়। এটি কোড পঠনযোগ্যতা বৃদ্ধি করে তারপর() কলব্যাকের আরও সংক্ষিপ্ত বিকল্প হিসাবে async/await প্রবর্তন করে। আইসোলেটের ধারণাটি সমান্তরাল গণনার জন্য অন্বেষণ করা হয়, ডার্ট আইসোলেটে ভাগ করা মেমরির অনুপস্থিতিকে হাইলাইট করে। উপরন্তু, স্ট্রিমকন্ট্রোলারকে ফ্লাটার অ্যাপ্লিকেশনগুলিতে দক্ষতার সাথে স্ট্রিমগুলি পরিচালনা করার জন্য একটি মূল্যবান হাতিয়ার হিসাবে উপস্থাপন করা হয়েছে। অধ্যায়টি অ্যাপের প্রতিক্রিয়াশীলতা বজায় রাখার জন্য অ্যাসিঙ্ক্রোনাস প্রোগ্রামিংয়ের তাত্পর্যকে আন্ডারস্কোর করে এবং উন্নত কোড স্বচ্ছতার জন্য অসিঙ্ক/অপেক্ষা করার মতো সেরা অনুশীলনগুলি অফার করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يتعمق هذا الفصل في عالم البرمجة غير المتزامنة في Dart، مع التركيز على استخدام العقود الآجلة والتدفقات للعمليات غير المحظورة. يقدم async/await كبديل أكثر إيجازًا لردود الاتصالthen()، مما يعزز إمكانية قراءة التعليمات البرمجية. يتم استكشاف مفهوم العزلات للحساب المتوازي، وتسليط الضوء على غياب الذاكرة المشتركة في عزلات دارت. بالإضافة إلى ذلك، يتم تقديم StreamController كأداة قيمة لإدارة التدفقات بكفاءة في تطبيقات Flutter. يؤكد الفصل على أهمية البرمجة غير المتزامنة للحفاظ على استجابة التطبيق ويقدم أفضل الممارسات مثل تفضيل المزامنة/الانتظار على العقود الآجلة الأولية لتحسين وضوح التعليمات البرمجية.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل به قلمرو برنامه‌نویسی ناهمزمان در دارت می‌پردازد و بر استفاده از Futures و Streams برای عملیات غیرمسدود تأکید می‌کند. این برنامه async/await را به عنوان یک جایگزین مختصرتر برای callbacks های then() معرفی می کند و خوانایی کد را افزایش می دهد. مفهوم ایزوله برای محاسبات موازی مورد بررسی قرار می گیرد و عدم وجود حافظه مشترک در ایزوله های دارت را برجسته می کند. علاوه بر این، StreamController به عنوان یک ابزار ارزشمند برای مدیریت کارآمد جریان ها در برنامه های Flutter ارائه شده است. این فصل بر اهمیت برنامه‌نویسی ناهمزمان برای حفظ پاسخگویی برنامه تأکید می‌کند و بهترین روش‌ها مانند ترجیح async/wait را نسبت به آینده‌های خام برای وضوح بهتر کد ارائه می‌دهد.",
                     },
                 },
                 // 8
@@ -3150,31 +3150,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Coding principles with Dart",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter delves into coding principles with Dart, focusing on SOLID principles like SRP, OCP, LSP, ISP, and DIP. It emphasizes the importance of depending on abstractions rather than implementations for flexible and maintainable code. The discussion includes examples illustrating the application of these principles in Dart programming, highlighting the benefits of structuring code to adhere to these principles. Additionally, it touches on the concept of dependency injection and the advantages it offers in terms of decoupling components and improving code maintainability.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Das Kapitel befasst sich eingehend mit den Codierprinzipien von Dart und konzentriert sich dabei auf SOLID-Prinzipien wie SRP, OCP, LSP, ISP und DIP. Es betont, wie wichtig es ist, sich für flexiblen und wartbaren Code auf Abstraktionen statt auf Implementierungen zu verlassen. Die Diskussion umfasst Beispiele, die die Anwendung dieser Prinzipien in der Dart-Programmierung veranschaulichen und die Vorteile einer Strukturierung des Codes zur Einhaltung dieser Prinzipien hervorheben. Darüber hinaus wird auf das Konzept der Abhängigkeitsinjektion und die Vorteile eingegangen, die es hinsichtlich der Entkopplung von Komponenten und der Verbesserung der Wartbarkeit des Codes bietet.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章深入探讨了 Dart 的编码原则，重点关注 SRP、OCP、LSP、ISP 和 DIP 等 SOLID 原则。它强调了依赖抽象而不是实现来获得灵活且可维护的代码的重要性。讨论包括说明这些原则在 Dart 编程中的应用的示例，强调了构建代码以遵守这些原则的好处。此外，它还涉及依赖注入的概念及其在解耦组件和提高代码可维护性方面提供的优势。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе подробно рассматриваются принципы кодирования с помощью Dart, уделяя особое внимание принципам SOLID, таким как SRP, OCP, LSP, ISP и DIP. Он подчеркивает важность зависимости от абстракций, а не от реализации гибкого и удобного в сопровождении кода. В обсуждение включены примеры, иллюстрирующие применение этих принципов в программировании на Dart, подчеркивающие преимущества структурирования кода для соблюдения этих принципов. Кроме того, он затрагивает концепцию внедрения зависимостей и преимущества, которые она предлагает с точки зрения разделения компонентов и улучшения удобства сопровождения кода.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre aborde les principes de codage avec Dart, en se concentrant sur les principes SOLID tels que SRP, OCP, LSP, ISP et DIP. Il souligne l’importance de dépendre des abstractions plutôt que des implémentations pour un code flexible et maintenable. La discussion comprend des exemples illustrant l'application de ces principes dans la programmation Dart, soulignant les avantages de structurer le code pour adhérer à ces principes. De plus, il aborde le concept d'injection de dépendances et les avantages qu'elle offre en termes de découplage des composants et d'amélioration de la maintenabilité du code.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、SRP、OCP、LSP、ISP、DIP などの SOLID 原則に焦点を当て、Dart でのコーディング原則について詳しく説明します。柔軟で保守可能なコードのために、実装ではなく抽象化に依存することの重要性を強調します。この説明には、これらの原則を Dart プログラミングに適用する例が含まれており、これらの原則に準拠するようにコードを構造化する利点が強調されています。さらに、依存性注入の概念と、コンポーネントの分離とコードの保守性の向上に関して依存性注入がもたらす利点についても触れています。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 SRP, OCP, LSP, ISP 및 DIP와 같은 SOLID 원칙에 중점을 두고 Dart의 코딩 원칙을 탐구합니다. 유연하고 유지 관리 가능한 코드를 구현하기보다는 추상화에 의존하는 것이 중요하다는 점을 강조합니다. 토론에는 Dart 프로그래밍에서 이러한 원칙을 적용하는 방법을 설명하는 예제가 포함되어 있으며 이러한 원칙을 준수하도록 코드를 구성하는 것의 이점을 강조합니다. 또한 종속성 주입의 개념과 구성 요소 분리 및 코드 유지 관리 향상 측면에서 제공되는 이점에 대해 설명합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo profundiza en los principios de codificación con Dart, centrándose en principios SOLID como SRP, OCP, LSP, ISP y DIP. Enfatiza la importancia de depender de abstracciones en lugar de implementaciones para obtener un código flexible y mantenible. La discusión incluye ejemplos que ilustran la aplicación de estos principios en la programación de Dart, destacando los beneficios de estructurar el código para adherirse a estos principios. Además, aborda el concepto de inyección de dependencia y las ventajas que ofrece en términos de desacoplar componentes y mejorar la mantenibilidad del código.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय डार्ट के साथ कोडिंग सिद्धांतों पर गहराई से चर्चा करता है, जिसमें SRP, OCP, LSP, ISP और DIP जैसे SOLID सिद्धांतों पर ध्यान केंद्रित किया गया है। यह लचीले और रखरखाव योग्य कोड के लिए कार्यान्वयन के बजाय अमूर्तता पर निर्भर होने के महत्व पर जोर देता है। चर्चा में डार्ट प्रोग्रामिंग में इन सिद्धांतों के अनुप्रयोग को दर्शाने वाले उदाहरण शामिल हैं, जो इन सिद्धांतों का पालन करने के लिए कोड को संरचित करने के लाभों पर प्रकाश डालते हैं। इसके अतिरिक्त, यह निर्भरता इंजेक्शन की अवधारणा और घटकों को अलग करने और कोड रखरखाव में सुधार के संदर्भ में इसके द्वारा प्रदान किए जाने वाले लाभों को छूता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo aprofunda os princípios de codificação com Dart, com foco nos princípios SOLID como SRP, OCP, LSP, ISP e DIP. Realça a importância de depender de abstrações em vez de implementações para obter código flexível e de fácil manutenção. A discussão inclui exemplos que ilustram a aplicação destes princípios na programação Dart, destacando os benefícios da estruturação do código para aderir a estes princípios. Além disso, aborda o conceito de injeção de dependências e as vantagens que oferece em termos de desacoplamento de componentes e melhoria da capacidade de manutenção do código.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "অধ্যায়টি SRP, OCP, LSP, ISP, এবং DIP-এর মতো সলিড নীতিগুলির উপর ফোকাস করে, ডার্টের সাথে কোডিং নীতিগুলি নিয়ে আলোচনা করে৷ এটি নমনীয় এবং রক্ষণাবেক্ষণযোগ্য কোডের জন্য বাস্তবায়নের পরিবর্তে বিমূর্তকরণের উপর নির্ভর করার গুরুত্বের উপর জোর দেয়। আলোচনায় ডার্ট প্রোগ্রামিং-এ এই নীতিগুলির প্রয়োগের উদাহরণ, এই নীতিগুলি মেনে চলার জন্য স্ট্রাকচারিং কোডের সুবিধাগুলি তুলে ধরার উদাহরণ রয়েছে৷ অতিরিক্তভাবে, এটি নির্ভরতা ইনজেকশনের ধারণাকে স্পর্শ করে এবং উপাদানগুলি ডিকপলিং এবং কোড রক্ষণাবেক্ষণের উন্নতির ক্ষেত্রে এটি যে সুবিধাগুলি অফার করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يتعمق الفصل في مبادئ البرمجة باستخدام Dart، مع التركيز على مبادئ SOLID مثل SRP وOCP وLSP وISP وDIP. ويؤكد على أهمية الاعتماد على التجريدات بدلاً من التطبيقات من أجل تعليمات برمجية مرنة وقابلة للصيانة. تتضمن المناقشة أمثلة توضح تطبيق هذه المبادئ في برمجة Dart، مع تسليط الضوء على فوائد هيكلة التعليمات البرمجية للالتزام بهذه المبادئ. بالإضافة إلى ذلك، فإنه يتطرق إلى مفهوم حقن التبعية والمزايا التي يقدمها من حيث فصل المكونات وتحسين إمكانية صيانة التعليمات البرمجية.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل به اصول کدنویسی با Dart می پردازد و بر اصول SOLID مانند SRP، OCP، LSP، ISP و DIP تمرکز می کند. این بر اهمیت وابستگی به انتزاعات به جای پیاده سازی برای کد انعطاف پذیر و قابل نگهداری تأکید می کند. این بحث شامل مثال‌هایی است که کاربرد این اصول را در برنامه‌نویسی دارت نشان می‌دهد و مزایای ساختاردهی کد برای پایبندی به این اصول را برجسته می‌کند. علاوه بر این، مفهوم تزریق وابستگی و مزایایی را که از نظر جداسازی اجزا و بهبود قابلیت نگهداری کد ارائه می دهد، لمس می کند.",
                     },
                 },
                 // 9
@@ -3182,31 +3182,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Basics of Flutter",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter covers essential concepts such as the structure of Flutter layers, efficient widget updates, font handling with the package, the distinction between and , the importance of keys for widget identification, and development tips like using constants, linter rules, and hot reload for streamlined app development. Understanding these fundamentals is crucial for building effective and optimized Flutter applications.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel behandelt wichtige Konzepte wie die Struktur von Flutter-Ebenen, effiziente Widget-Updates, die Handhabung von Schriftarten mit dem Paket, den Unterschied zwischen und , die Bedeutung von Schlüsseln für die Widget-Identifizierung und Entwicklungstipps wie die Verwendung von Konstanten, Linter-Regeln und Hot Reload für eine optimierte App-Entwicklung. Das Verständnis dieser Grundlagen ist entscheidend für die Erstellung effektiver und optimierter Flutter-Anwendungen.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章涵盖了基本概念，例如 Flutter 层的结构、高效的小部件更新、使用软件包的字体处理、和 之间的区别、键对于小部件识别的重要性，以及开发技巧，例如使用常量、linter 规则和热重载来简化应用程序开发。了解这些基础知识对于构建有效且优化的 Flutter 应用程序至关重要。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматриваются основные понятия, такие как структура слоев Flutter, эффективные обновления виджетов, обработка шрифтов в пакете, различие между и , важность ключей для идентификации виджетов, а также советы по разработке, такие как использование констант, правил линтера и горячая перезагрузка для оптимизированная разработка приложений. Понимание этих основ имеет решающее значение для создания эффективных и оптимизированных приложений Flutter.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre couvre des concepts essentiels tels que la structure des couches Flutter, les mises à jour efficaces des widgets, la gestion des polices avec le package, la distinction entre et , l'importance des clés pour l'identification des widgets et des conseils de développement tels que l'utilisation de constantes, de règles linter et de rechargement à chaud pour développement d'applications rationalisé. Comprendre ces principes fondamentaux est crucial pour créer des applications Flutter efficaces et optimisées.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Flutter レイヤーの構造、効率的なウィジェットの更新、パッケージでのフォント処理、との違い、ウィジェット識別のためのキーの重要性、定数、リンター ルール、ホット リロードの使用など、効率的なアプリ開発のための開発のヒントなど、重要な概念について説明します。これらの基礎を理解することは、効果的で最適化された Flutter アプリケーションを構築するために不可欠です。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Flutter 레이어의 구조, 효율적인 위젯 업데이트, 패키지를 사용한 글꼴 처리, 및 의 구별, 위젯 식별을 위한 키의 중요성, 상수, 린터 규칙 및 핫 리로드 사용과 같은 개발 팁과 같은 필수 개념을 다룹니다. 간소화된 앱 개발. 효과적이고 최적화된 Flutter 애플리케이션을 구축하려면 이러한 기본 사항을 이해하는 것이 중요합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo cubre conceptos esenciales como la estructura de las capas de Flutter, actualizaciones eficientes de widgets, manejo de fuentes con el paquete, la distinción entre y, la importancia de las claves para la identificación de widgets y consejos de desarrollo como el uso de constantes, reglas de linter y recarga en caliente para desarrollo de aplicaciones optimizado. Comprender estos fundamentos es crucial para crear aplicaciones Flutter efectivas y optimizadas.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "इस अध्याय में फ़्लटर परतों की संरचना, कुशल विजेट अपडेट, पैकेज के साथ फ़ॉन्ट हैंडलिंग, और के बीच अंतर, विजेट पहचान के लिए कुंजियों का महत्व और सुव्यवस्थित ऐप विकास के लिए स्थिरांक, लिंटर नियम और हॉट रीलोड का उपयोग करने जैसी विकास युक्तियाँ जैसी आवश्यक अवधारणाएँ शामिल हैं। प्रभावी और अनुकूलित फ़्लटर एप्लिकेशन बनाने के लिए इन मूलभूत बातों को समझना महत्वपूर्ण है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo aborda conceitos essenciais como a estrutura das camadas Flutter, atualizações eficientes de widgets, manipulação de fontes com o pacote, a distinção entre e , a importância das chaves para a identificação de widgets e dicas de desenvolvimento como a utilização de constantes, regras de linter e recarga a quente para o desenvolvimento simplificado de aplicações. Compreender estes fundamentos é crucial para construir aplicações Flutter eficazes e otimizadas.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি প্রয়োজনীয় ধারণাগুলি কভার করে যেমন ফ্লটার স্তরগুলির গঠন, দক্ষ উইজেট আপডেট, প্যাকেজের সাথে ফন্ট পরিচালনা, এবং এর মধ্যে পার্থক্য, উইজেট সনাক্তকরণের জন্য কীগুলির গুরুত্ব এবং ধ্রুবক, লিন্টার নিয়ম এবং হট রিলোড ব্যবহার করার মতো বিকাশের টিপস। স্ট্রিমলাইনড অ্যাপ ডেভেলপমেন্ট। কার্যকরী এবং অপ্টিমাইজ করা ফ্লাটার অ্যাপ্লিকেশন তৈরির জন্য এই মৌলিক বিষয়গুলি বোঝা অত্যন্ত গুরুত্বপূর্ণ৷",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يغطي هذا الفصل المفاهيم الأساسية مثل بنية طبقات Flutter، وتحديثات عنصر واجهة المستخدم الفعالة، والتعامل مع الخطوط مع الحزمة، والتمييز بين و، وأهمية المفاتيح لتحديد عنصر واجهة المستخدم، ونصائح التطوير مثل استخدام الثوابت، وقواعد linter، وإعادة التحميل السريع لـ تطوير التطبيقات المبسطة. يعد فهم هذه الأساسيات أمرًا بالغ الأهمية لبناء تطبيقات Flutter الفعالة والمحسنة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل مفاهیم اساسی مانند ساختار لایه‌های Flutter، به‌روزرسانی‌های کارآمد ویجت، مدیریت فونت با بسته، تمایز بین و، اهمیت کلیدها برای شناسایی ویجت، و نکات توسعه مانند استفاده از ثابت‌ها، قوانین linter، و بارگذاری مجدد داغ را پوشش می‌دهد. توسعه برنامه کارآمد درک این اصول برای ایجاد برنامه های کاربردی فلاتر موثر و بهینه بسیار مهم است.",
                     },
                 },
                 // 10
