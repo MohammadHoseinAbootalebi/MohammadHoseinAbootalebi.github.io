@@ -3214,31 +3214,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Building UIs in Flutter",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter of the Flutter Complete Reference focuses on building UIs in Flutter, emphasizing the importance of responsive design and utilizing Material Design for Android and Cupertino for iOS. It discusses the use of widgets like Scaffold, CupertinoPageScaffold, and CupertinoTabScaffold to create visually appealing interfaces. The chapter highlights the significance of themes in maintaining consistent UI appearance throughout the app by using ThemeData and CupertinoThemeData. It also addresses scrolling and constraints issues with ListViews and Columns, providing solutions like Expanded and shrinkWrap. Overall, the chapter provides insights into creating dynamic and user-friendly UIs in Flutter.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel der Flutter Complete Reference konzentriert sich auf das Erstellen von Benutzeroberflächen in Flutter, betont die Bedeutung von Responsive Design und verwendet Material Design für Android und Cupertino für iOS. Es bespricht die Verwendung von Widgets wie Scaffold, CupertinoPageScaffold und CupertinoTabScaffold zum Erstellen optisch ansprechender Benutzeroberflächen. Das Kapitel hebt die Bedeutung von Designs hervor, um mithilfe von ThemeData und CupertinoThemeData ein einheitliches Erscheinungsbild der Benutzeroberfläche in der gesamten App beizubehalten. Es behandelt auch Scroll- und Einschränkungsprobleme mit ListViews und Columns und bietet Lösungen wie Expanded und shrinkWrap. Insgesamt bietet das Kapitel Einblicke in das Erstellen dynamischer und benutzerfreundlicher Benutzeroberflächen in Flutter.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "Flutter 完整参考的这一章重点介绍如何在 Flutter 中构建 UI，强调响应式设计的重要性，并利用 Android 的 Material Design 和 iOS 的 Cupertino。它讨论了如何使用 Scaffold、CupertinoPageScaffold 和 CupertinoTabScaffold 等小部件来创建视觉上吸引人的界面。本章强调了主题对于使用 ThemeData 和 CupertinoThemeData 在整个应用程序中保持一致的 UI 外观的重要性。它还解决了 ListViews 和 Columns 的滚动和约束问题，提供了 Expanded 和 shrinkWrap 等解决方案。总的来说，本章提供了在 Flutter 中创建动态且用户友好的 UI 的见解。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе «Полного справочника по Flutter» основное внимание уделяется созданию пользовательских интерфейсов во Flutter, подчеркиванию важности адаптивного дизайна и использованию Material Design для Android и Cupertino для iOS. В нем обсуждается использование виджетов, таких как Scaffold, CupertinoPageScaffold и CupertinoTabScaffold, для создания визуально привлекательных интерфейсов. В главе подчеркивается важность тем для поддержания единообразного внешнего вида пользовательского интерфейса во всем приложении с помощью ThemeData и CupertinoThemeData. Он также решает проблемы прокрутки и ограничений с помощью ListViews и Columns, предоставляя такие решения, как Expanded и ShrinkWrap. В целом, в главе дается представление о создании динамических и удобных пользовательских интерфейсов во Flutter.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre de Flutter Complete Reference se concentre sur la création d'interfaces utilisateur dans Flutter, en soulignant l'importance du design réactif et en utilisant Material Design pour Android et Cupertino pour iOS. Il traite de l'utilisation de widgets tels que Scaffold, CupertinoPageScaffold et CupertinoTabScaffold pour créer des interfaces visuellement attrayantes. Le chapitre met en évidence l'importance des thèmes pour maintenir une apparence cohérente de l'interface utilisateur dans toute l'application en utilisant ThemeData et CupertinoThemeData. Il résout également les problèmes de défilement et de contraintes avec les ListViews et les colonnes, en fournissant des solutions telles que Expanded et ShrinkWrap. Dans l'ensemble, le chapitre fournit des informations sur la création d'interfaces utilisateur dynamiques et conviviales dans Flutter.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "Flutter Complete Reference のこの章では、Flutter での UI の構築に焦点を当て、レスポンシブ デザインの重要性を強調し、Android および iOS の Cupertino のマテリアル デザインを活用します。視覚的に魅力的なインターフェースを作成するために、Scaffold、CupertinoPageScaffold、CupertinoTabScaffold などのウィジェットを使用する方法について説明します。この章では、ThemeData と CupertinoThemeData を使用して、アプリ全体で一貫した UI の外観を維持する上でのテーマの重要性を強調します。また、ListView と列のスクロールと制約の問題にも対処し、Expanded や shrinkWrap などのソリューションを提供します。全体として、この章では、Flutter で動的でユーザー フレンドリーな UI を作成するための洞察を提供します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "Flutter 전체 참조의 이 장에서는 Flutter에서 UI를 구축하는 데 중점을 두고 반응형 디자인의 중요성을 강조하며 Android용 머티리얼 디자인과 iOS용 Cupertino를 활용합니다. 시각적으로 매력적인 인터페이스를 만들기 위해 Scaffold, CupertinoPageScaffold 및 CupertinoTabScaffold와 같은 위젯을 사용하는 방법에 대해 설명합니다. 이 장에서는 ThemeData 및 CupertinoThemeData를 사용하여 앱 전체에서 일관된 UI 모양을 유지하는 데 있어서 테마의 중요성을 강조합니다. 또한 ListView 및 열의 스크롤 및 제약 조건 문제를 해결하여 Expanded 및 ShrinkWrap과 같은 솔루션을 제공합니다. 전반적으로 이 장에서는 Flutter에서 동적이고 사용자 친화적인 UI를 만드는 방법에 대한 통찰력을 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo de Flutter Complete Reference se centra en la creación de interfaces de usuario en Flutter, enfatizando la importancia del diseño responsivo y utilizando Material Design para Android y Cupertino para iOS. Analiza el uso de widgets como Scaffold, CupertinoPageScaffold y CupertinoTabScaffold para crear interfaces visualmente atractivas. El capítulo destaca la importancia de los temas para mantener una apariencia consistente de la interfaz de usuario en toda la aplicación mediante el uso de ThemeData y CupertinoThemeData. También aborda problemas de desplazamiento y restricciones con ListViews y Columns, proporcionando soluciones como Expanded y ShrinkWrap. En general, el capítulo proporciona información sobre cómo crear UI dinámicas y fáciles de usar en Flutter.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "फ़्लटर कम्प्लीट रेफरेंस का यह अध्याय फ़्लटर में UI बनाने पर केंद्रित है, जिसमें उत्तरदायी डिज़ाइन के महत्व पर ज़ोर दिया गया है और Android के लिए मटीरियल डिज़ाइन और iOS के लिए क्यूपर्टिनो का उपयोग किया गया है। यह विज़ुअली आकर्षक इंटरफ़ेस बनाने के लिए स्कैफ़ोल्ड, क्यूपर्टिनोपेजस्कैफ़ोल्ड और क्यूपर्टिनोटैबस्कैफ़ोल्ड जैसे विजेट के उपयोग पर चर्चा करता है। यह अध्याय थीमडेटा और क्यूपर्टिनोथीमडेटा का उपयोग करके पूरे ऐप में एक समान UI उपस्थिति बनाए रखने में थीम के महत्व पर प्रकाश डालता है। यह लिस्टव्यू और कॉलम के साथ स्क्रॉलिंग और बाधाओं के मुद्दों को भी संबोधित करता है, विस्तारित और श्रिंकरैप जैसे समाधान प्रदान करता है। कुल मिलाकर, यह अध्याय फ़्लटर में गतिशील और उपयोगकर्ता के अनुकूल UI बनाने में अंतर्दृष्टि प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo da Flutter Full Reference centra-se na construção de UIs no Flutter, enfatizando a importância do design responsivo e da utilização do Material Design para Android e Cupertino para iOS. Discute a utilização de widgets como o Scaffold, CupertinoPageScaffold e CupertinoTabScaffold para criar interfaces visualmente atraentes. O capítulo destaca a importância dos temas na manutenção da aparência consistente da IU em toda a aplicação utilizando o ThemeData e o CupertinoThemeData. Aborda também problemas de rolagem e restrições com ListViews e Columns, fornecendo soluções como Expanded e ShrinkWrap. No geral, o capítulo fornece informações sobre a criação de UIs dinâmicas e fáceis de utilizar no Flutter.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "ফ্লাটার কমপ্লিট রেফারেন্সের এই অধ্যায়টি ফ্লটারে UI তৈরির উপর দৃষ্টি নিবদ্ধ করে, প্রতিক্রিয়াশীল ডিজাইনের গুরুত্বের উপর জোর দেয় এবং Android এর জন্য মেটেরিয়াল ডিজাইন এবং iOS এর জন্য Cupertino ব্যবহার করে। এটি দৃশ্যমান আকর্ষণীয় ইন্টারফেস তৈরি করতে স্ক্যাফোল্ড, কিউপারটিনোপেজস্ক্যাফোল্ড এবং কিউপারটিনোট্যাবস্ক্যাফোল্ডের মতো উইজেটগুলির ব্যবহার নিয়ে আলোচনা করে। অধ্যায়টি ThemeData এবং CupertinoThemeData ব্যবহার করে অ্যাপ জুড়ে সামঞ্জস্যপূর্ণ UI উপস্থিতি বজায় রাখার ক্ষেত্রে থিমের তাৎপর্য তুলে ধরে। এটি লিস্টভিউ এবং কলামগুলির সাথে স্ক্রোলিং এবং সীমাবদ্ধতার সমস্যাগুলিকেও সম্বোধন করে, প্রসারিত এবং সঙ্কুচিত র‍্যাপের মতো সমাধান প্রদান করে। সামগ্রিকভাবে, অধ্যায়টি ফ্লটারে গতিশীল এবং ব্যবহারকারী-বান্ধব UI তৈরির অন্তর্দৃষ্টি প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل من Flutter Complete Reference على بناء واجهات المستخدم في Flutter، مع التركيز على أهمية التصميم سريع الاستجابة واستخدام التصميم متعدد الأبعاد لنظامي التشغيل Android وCupertino لنظام التشغيل iOS. ويناقش استخدام عناصر واجهة المستخدم مثل Scaffold وCupertinoPageScaffold وCupertinoTabScaffold لإنشاء واجهات جذابة بصريًا. يسلط الفصل الضوء على أهمية السمات في الحفاظ على مظهر واجهة المستخدم المتسق في جميع أنحاء التطبيق باستخدام ThemeData وCupertinoThemeData. كما أنه يعالج مشكلات التمرير والقيود في ListViews وColumns، ويوفر حلولاً مثل Expanded وShrinkWrap. بشكل عام، يقدم الفصل رؤى حول إنشاء واجهات مستخدم ديناميكية وسهلة الاستخدام في Flutter.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل از مرجع کامل Flutter بر ایجاد رابط‌های کاربری در Flutter تمرکز دارد و بر اهمیت طراحی واکنش‌گرا و استفاده از طراحی متریال برای اندروید و کوپرتینو برای iOS تأکید می‌کند. استفاده از ویجت‌هایی مانند Scaffold، CupertinoPageScaffold و CupertinoTabScaffold برای ایجاد رابط‌های بصری جذاب را مورد بحث قرار می‌دهد. این فصل با استفاده از ThemeData و CupertinoThemeData اهمیت تم ها را در حفظ ظاهر رابط کاربری ثابت در سراسر برنامه برجسته می کند. همچنین مشکلات اسکرول و محدودیت ها را با ListViews و Columns برطرف می کند و راه حل هایی مانند Expanded و ShrinkWrap را ارائه می دهد. به طور کلی، این فصل بینش هایی را در مورد ایجاد رابط های کاربری پویا و کاربر پسند در Flutter ارائه می دهد.",
                     },
                 },
                 // 11
@@ -3246,31 +3246,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "State Management",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter discusses state management in Flutter, emphasizing the importance of using Bloc for separating UI and business logic efficiently. It highlights the benefits of Provider for state management and recommends avoiding setState in favor of InheritedWidget or other state management solutions like bloc, Redux, or MobX. The chapter also covers best practices for widget state management, including the use of persisting state for widget updates. Overall, it provides insights on optimizing state management in Flutter applications for improved performance and code organization.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Das Kapitel befasst sich mit der Zustandsverwaltung in Flutter und betont die Bedeutung der Verwendung von Bloc für die effiziente Trennung von Benutzeroberfläche und Geschäftslogik. Es hebt die Vorteile von Provider für die Zustandsverwaltung hervor und empfiehlt, setState zugunsten von InheritedWidget oder anderen Zustandsverwaltungslösungen wie bloc, Redux oder MobX zu vermeiden. Das Kapitel behandelt auch Best Practices für die Widget-Zustandsverwaltung, einschließlich der Verwendung von persistentem Zustand für Widget-Updates. Insgesamt bietet es Einblicke in die Optimierung der Zustandsverwaltung in Flutter-Anwendungen für verbesserte Leistung und Codeorganisation.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章讨论了 Flutter 中的状态管理，强调了使用 Bloc 有效分离 UI 和业务逻辑的重要性。它强调了 Provider 对状态管理的好处，并建议避免使用 setState，而应使用 InheritedWidget 或其他状态管理解决方案，如 bloc、Redux 或 MobX。本章还介绍了小部件状态管理的最佳实践，包括使用持久状态进行小部件更新。总的来说，它提供了关于优化 Flutter 应用程序中的状态管理以提高性能和代码组织的见解。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе обсуждается управление состоянием во Flutter, подчеркивая важность использования Bloc для эффективного разделения пользовательского интерфейса и бизнес-логики. В нем подчеркиваются преимущества Provider для управления состоянием и рекомендуется избегать setState в пользу InheritedWidget или других решений для управления состоянием, таких как bloc, Redux или MobX. В главе также рассматриваются лучшие практики управления состоянием виджетов, включая использование постоянного состояния для обновлений виджетов. В целом, он дает представление об оптимизации управления состоянием в приложениях Flutter для повышения производительности и организации кода.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre traite de la gestion de l'état dans Flutter, en soulignant l'importance d'utiliser Bloc pour séparer efficacement l'interface utilisateur et la logique métier. Il met en évidence les avantages de Provider pour la gestion de l'état et recommande d'éviter setState au profit de InheritedWidget ou d'autres solutions de gestion d'état comme bloc, Redux ou MobX. Le chapitre couvre également les meilleures pratiques pour la gestion de l'état des widgets, y compris l'utilisation de l'état persistant pour les mises à jour des widgets. Dans l'ensemble, il fournit des informations sur l'optimisation de la gestion de l'état dans les applications Flutter pour améliorer les performances et l'organisation du code.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Flutter での状態管理について説明し、UI とビジネス ロジックを効率的に分離するために Bloc を使用することの重要性を強調しています。状態管理における Provider の利点を強調し、setState を避けて InheritedWidget または bloc、Redux、MobX などの他の状態管理ソリューションを使用することを推奨しています。この章では、ウィジェットの更新に永続的な状態を使用するなど、ウィジェットの状態管理のベスト プラクティスについても説明します。全体として、Flutter アプリケーションで状態管理を最適化してパフォーマンスとコード構成を改善するための洞察を提供します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Flutter의 상태 관리에 대해 논의하고 UI와 비즈니스 로직을 효율적으로 분리하기 위해 Bloc을 사용하는 것의 중요성을 강조합니다. 상태 관리를 위한 Provider의 이점을 강조하고 InheritedWidget이나 bloc, Redux 또는 MobX와 같은 기타 상태 관리 솔루션을 선호하여 setState를 피하도록 권장합니다. 또한 이 장에서는 위젯 업데이트를 위한 지속 상태 사용을 포함하여 위젯 상태 관리에 대한 모범 사례를 다룹니다. 전반적으로 성능 및 코드 구성 개선을 위해 Flutter 애플리케이션의 상태 관리 최적화에 대한 통찰력을 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo analiza la gestión del estado en Flutter y enfatiza la importancia de usar Bloc para separar la interfaz de usuario y la lógica empresarial de manera eficiente. Destaca los beneficios de Provider para la gestión estatal y recomienda evitar setState en favor de InheritedWidget u otras soluciones de gestión estatal como block, Redux o MobX. El capítulo también cubre las mejores prácticas para la gestión del estado de los widgets, incluido el uso de estados persistentes para las actualizaciones de los widgets. En general, proporciona información sobre cómo optimizar la gestión del estado en aplicaciones Flutter para mejorar el rendimiento y la organización del código.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "अध्याय फ़्लटर में स्टेट मैनेजमेंट पर चर्चा करता है, UI और व्यावसायिक तर्क को कुशलतापूर्वक अलग करने के लिए ब्लॉक का उपयोग करने के महत्व पर जोर देता है। यह स्टेट मैनेजमेंट के लिए प्रदाता के लाभों पर प्रकाश डालता है और इनहेरिटेडविजेट या ब्लॉक, रेडक्स या मोबएक्स जैसे अन्य स्टेट मैनेजमेंट समाधानों के पक्ष में सेटस्टेट से बचने की सलाह देता है। अध्याय विजेट स्टेट मैनेजमेंट के लिए सर्वोत्तम प्रथाओं को भी शामिल करता है, जिसमें विजेट अपडेट के लिए स्थायी स्टेट का उपयोग शामिल है। कुल मिलाकर, यह बेहतर प्रदर्शन और कोड संगठन के लिए फ़्लटर अनुप्रयोगों में स्टेट मैनेजमेंट को अनुकूलित करने पर अंतर्दृष्टि प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo discute a gestão de estado no Flutter, enfatizando a importância de utilizar o Bloc para separar a UI e a lógica de negócio de forma eficiente. Destaca os benefícios do Provider para a gestão de estado e recomenda evitar o setState em favor do InheritedWidget ou outras soluções de gestão de estado, como o bloc, Redux ou MobX. O capítulo aborda também as práticas recomendadas para a gestão do estado de widgets, incluindo a utilização de estado persistente para atualizações de widgets. No geral, fornece informações sobre como otimizar a gestão de estado nas aplicações Flutter para melhorar o desempenho e a organização do código.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "অধ্যায়টি ফ্লটারে রাষ্ট্র পরিচালনার বিষয়ে আলোচনা করে, UI এবং ব্যবসায়িক যুক্তিকে দক্ষতার সাথে আলাদা করার জন্য ব্লক ব্যবহার করার গুরুত্বের উপর জোর দেয়। এটি রাষ্ট্র পরিচালনার জন্য প্রদানকারীর সুবিধাগুলিকে হাইলাইট করে এবং InheritedWidget বা ব্লক, Redux, বা MobX এর মতো অন্যান্য রাষ্ট্রীয় ব্যবস্থাপনা সমাধানের পক্ষে সেটস্টেট এড়ানোর সুপারিশ করে। অধ্যায়টি উইজেট স্টেট ম্যানেজমেন্টের জন্য সর্বোত্তম অনুশীলনগুলিও কভার করে, উইজেট আপডেটের জন্য স্থায়ী অবস্থার ব্যবহার সহ। সামগ্রিকভাবে, এটি উন্নত কর্মক্ষমতা এবং কোড সংগঠনের জন্য Flutter অ্যাপ্লিকেশনগুলিতে রাষ্ট্র পরিচালনার অপ্টিমাইজ করার অন্তর্দৃষ্টি প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يناقش الفصل إدارة الحالة في Flutter، مع التركيز على أهمية استخدام Bloc لفصل واجهة المستخدم ومنطق الأعمال بكفاءة. وهو يسلط الضوء على فوائد Provider لإدارة الحالة ويوصي بتجنب setState لصالح InheritedWidget أو حلول إدارة الحالة الأخرى مثل bloc أو Redux أو MobX. يغطي الفصل أيضًا أفضل الممارسات لإدارة حالة عنصر واجهة المستخدم، بما في ذلك استخدام الحالة المستمرة لتحديثات عنصر واجهة المستخدم. وبشكل عام، فإنه يوفر رؤى حول تحسين إدارة الحالة في تطبيقات Flutter لتحسين الأداء وتنظيم التعليمات البرمجية.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل مدیریت حالت را در Flutter مورد بحث قرار می دهد و بر اهمیت استفاده از Bloc برای جداسازی کارآمد UI و منطق تجاری تأکید می کند. مزایای Provider برای مدیریت ایالت را برجسته می کند و توصیه می کند از setState به نفع InheritedWidget یا سایر راه حل های مدیریت ایالت مانند block، Redux، یا MobX اجتناب کنید. این فصل همچنین بهترین شیوه‌ها را برای مدیریت وضعیت ویجت، از جمله استفاده از حالت ماندگار برای به‌روزرسانی ویجت، پوشش می‌دهد. به طور کلی، بینش هایی در مورد بهینه سازی مدیریت حالت در برنامه های Flutter برای بهبود عملکرد و سازماندهی کد ارائه می دهد.",
                     },
                 },
                 // 12
@@ -3278,31 +3278,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Routes and navigation",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "In this chapter, the focus is on efficient routes and navigation in Flutter. It emphasizes using Navigator.of(context)?.pushNamed() as the default choice for navigation, avoiding the costly use of global keys, and utilizing GlobalKey() only when necessary. Data sharing between routes is simplified by relying on Provider for efficient data management. The chapter also introduces alternative routing packages like Flutter modular for advanced routing needs, highlighting the importance of separating UI and logic for a well-structured app architecture.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel liegt der Schwerpunkt auf effizienten Routen und Navigation in Flutter. Es betont die Verwendung von Navigator.of(context)?.pushNamed() als Standardauswahl für die Navigation, die Vermeidung der kostspieligen Verwendung globaler Schlüssel und die Verwendung von GlobalKey() nur bei Bedarf. Der Datenaustausch zwischen Routen wird vereinfacht, indem Provider für eine effiziente Datenverwaltung verwendet wird. Das Kapitel stellt auch alternative Routing-Pakete wie Flutter Modular für erweiterte Routing-Anforderungen vor und unterstreicht die Bedeutung der Trennung von Benutzeroberfläche und Logik für eine gut strukturierte App-Architektur.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍 Flutter 中的高效路由和导航。它强调使用 Navigator.of(context)?.pushNamed() 作为导航的默认选择，避免使用代价高昂的全局键，并仅在必要时使用 GlobalKey()。通过依赖 Provider 实现高效的数据管理，简化了路由之间的数据共享。本章还介绍了用于高级路由需求的替代路由包（如 Flutter modules），强调了分离 UI 和逻辑对于结构良好的应用架构的重要性。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется эффективным маршрутам и навигации во Flutter. В нем подчеркивается использование Navigator.of(context)?.pushNamed() в качестве выбора по умолчанию для навигации, избегание дорогостоящего использования глобальных ключей и использование GlobalKey() только при необходимости. Обмен данными между маршрутами упрощается благодаря использованию поставщика для эффективного управления данными. В главе также представлены альтернативные пакеты маршрутизации, такие как модульный Flutter для расширенных потребностей маршрутизации, подчеркивая важность разделения пользовательского интерфейса и логики для хорошо структурированной архитектуры приложения.",
                         // French
-                        "Français": "",
+                        "Français": "Dans ce chapitre, l'accent est mis sur les itinéraires et la navigation efficaces dans Flutter. Il met l'accent sur l'utilisation de Navigator.of(context)?.pushNamed() comme choix par défaut pour la navigation, évitant ainsi l'utilisation coûteuse de clés globales et utilisant GlobalKey() uniquement lorsque cela est nécessaire. Le partage de données entre les itinéraires est simplifié en s'appuyant sur le fournisseur pour une gestion efficace des données. Le chapitre présente également des packages de routage alternatifs tels que Flutter modulaire pour les besoins de routage avancés, soulignant l'importance de séparer l'interface utilisateur et la logique pour une architecture d'application bien structurée.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Flutter での効率的なルートとナビゲーションに焦点を当てています。ナビゲーションのデフォルトの選択肢として Navigator.of(context)?.pushNamed() を使用すること、コストのかかるグローバル キーの使用を回避し、必要な場合にのみ GlobalKey() を使用することを強調しています。ルート間のデータ共有は、効率的なデータ管理のためにプロバイダーに依存することで簡素化されます。この章では、高度なルーティングのニーズに対応する Flutter モジュラーなどの代替ルーティング パッケージも紹介し、適切に構造化されたアプリ アーキテクチャのために UI とロジックを分離することの重要性を強調しています。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Flutter의 효율적인 경로와 탐색에 중점을 둡니다. 탐색을 위한 기본 선택으로 Navigator.of(context)?.pushNamed()를 사용하고 비용이 많이 드는 전역 키 사용을 피하며 필요한 경우에만 GlobalKey()를 활용하는 것을 강조합니다. 효율적인 데이터 관리를 위해 Provider를 사용하면 경로 간 데이터 공유가 단순화됩니다. 또한 이 장에서는 고급 라우팅 요구 사항을 위한 Flutter 모듈식과 같은 대체 라우팅 패키지를 소개하고 잘 구조화된 앱 아키텍처를 위해 UI와 로직을 분리하는 것의 중요성을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo, la atención se centra en las rutas y la navegación eficientes en Flutter. Enfatiza el uso de Navigator.of(context)?.pushNamed() como opción predeterminada para la navegación, evitando el costoso uso de claves globales y utilizando GlobalKey() solo cuando sea necesario. El intercambio de datos entre rutas se simplifica al confiar en el Proveedor para una gestión eficiente de los datos. El capítulo también presenta paquetes de enrutamiento alternativos como Flutter modular para necesidades de enrutamiento avanzadas, destacando la importancia de separar la interfaz de usuario y la lógica para una arquitectura de aplicación bien estructurada.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "इस अध्याय में, फ़्लटर में कुशल रूट और नेविगेशन पर ध्यान केंद्रित किया गया है। यह नेविगेशन के लिए डिफ़ॉल्ट विकल्प के रूप में Navigator.of(context)?.pushNamed() का उपयोग करने, वैश्विक कुंजियों के महंगे उपयोग से बचने और केवल आवश्यक होने पर GlobalKey() का उपयोग करने पर जोर देता है। कुशल डेटा प्रबंधन के लिए प्रदाता पर भरोसा करके मार्गों के बीच डेटा साझा करना सरल है। अध्याय उन्नत रूटिंग आवश्यकताओं के लिए फ़्लटर मॉड्यूलर जैसे वैकल्पिक रूटिंग पैकेज भी पेश करता है, जो एक अच्छी तरह से संरचित ऐप आर्किटेक्चर के लिए UI और लॉजिक को अलग करने के महत्व पर प्रकाश डालता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Neste capítulo, o foco está em rotas e navegação eficientes no Flutter. Realça a utilização de Navigator.of(context)?.pushNamed() como opção padrão para a navegação, evitando o uso dispendioso de chaves globais e utilizando GlobalKey() apenas quando necessário. A partilha de dados entre rotas é simplificada ao contar com o Fornecedor para uma gestão eficiente dos dados. O capítulo apresenta também pacotes de encaminhamento alternativos, como o Flutter modular, para necessidades avançadas de encaminhamento, destacando a importância de separar a UI e a lógica para uma arquitetura de aplicação bem estruturada.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে, ফোকাস ফ্লটারে দক্ষ রুট এবং নেভিগেশনের উপর। এটি নেভিগেশনের জন্য ডিফল্ট পছন্দ হিসাবে Navigator.of(context)?.pushNamed() ব্যবহার করার উপর জোর দেয়, গ্লোবাল কীগুলির ব্যয়বহুল ব্যবহার এড়িয়ে যায় এবং শুধুমাত্র প্রয়োজনে GlobalKey() ব্যবহার করে। দক্ষ ডাটা ম্যানেজমেন্টের জন্য প্রোভাইডারের উপর নির্ভর করে রুটের মধ্যে ডেটা শেয়ারিং সহজ করা হয়। অধ্যায়টি উন্নত রাউটিং প্রয়োজনের জন্য ফ্লটার মডুলারের মতো বিকল্প রাউটিং প্যাকেজগুলিও প্রবর্তন করে, একটি সুগঠিত অ্যাপ আর্কিটেকচারের জন্য UI এবং যুক্তিকে আলাদা করার গুরুত্ব তুলে ধরে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "في هذا الفصل، يتم التركيز على المسارات والملاحة الفعالة في Flutter. ويؤكد على استخدام Navigator.of(context)?.pushNamed() كخيار افتراضي للتنقل، وتجنب الاستخدام المكلف للمفاتيح العامة، واستخدام GlobalKey() فقط عند الضرورة. يتم تبسيط مشاركة البيانات بين المسارات من خلال الاعتماد على الموفر لإدارة البيانات بكفاءة. يقدم الفصل أيضًا حزم توجيه بديلة مثل Flutter modular لاحتياجات التوجيه المتقدمة، مع تسليط الضوء على أهمية فصل واجهة المستخدم والمنطق من أجل بنية تطبيق جيدة التنظيم.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "در این فصل، تمرکز بر مسیرهای کارآمد و ناوبری در فلاتر است. بر استفاده از Navigator.of(context)?.pushNamed() به عنوان انتخاب پیش‌فرض برای پیمایش، اجتناب از استفاده پرهزینه از کلیدهای سراسری، و استفاده از GlobalKey() فقط در مواقع ضروری تاکید می‌کند. به اشتراک گذاری داده بین مسیرها با تکیه بر ارائه دهنده برای مدیریت کارآمد داده ها ساده می شود. این فصل همچنین بسته‌های مسیریابی جایگزین مانند Flutter مدولار را برای نیازهای مسیریابی پیشرفته معرفی می‌کند، و اهمیت جداسازی رابط کاربری و منطق را برای معماری برنامه‌ای با ساختار مناسب نشان می‌دهد.",
                     },
                 },
                 // 13
@@ -3310,31 +3310,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Localization and internationalization",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter discusses localization and internationalization in Flutter, highlighting two main approaches: manual and using intl. The manual approach involves creating an class with a database for translations and generating a localization delegate. On the other hand, using requires creating the class with ARB files for translations and generating a localization delegate. Considerations include choosing the appropriate approach based on the number of languages and features needed. Implementation involves setting up the localization delegate in MaterialApp/CupertinoApp and using extension methods for easy string localization.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel werden Lokalisierung und Internationalisierung in Flutter behandelt. Dabei werden zwei Hauptansätze hervorgehoben: manuell und mit intl. Der manuelle Ansatz umfasst das Erstellen einer Klasse mit einer Datenbank für Übersetzungen und das Generieren eines Lokalisierungsdelegaten. Bei Verwendung hingegen muss die Klasse mit ARB-Dateien für Übersetzungen erstellt und ein Lokalisierungsdelegate generiert werden. Zu den Überlegungen gehört die Auswahl des geeigneten Ansatzes basierend auf der Anzahl der benötigten Sprachen und Funktionen. Die Implementierung umfasst das Einrichten des Lokalisierungsdelegaten in MaterialApp/CupertinoApp und die Verwendung von Erweiterungsmethoden für eine einfache Zeichenfolgenlokalisierung.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章讨论了 Flutter 中的本地化和国际化，重点介绍了两种主要方法：手动和使用 intl。手动方法包括创建一个带有数据库的类用于翻译并生成本地化委托。另一方面，使用需要创建带有 ARB 文件的类用于翻译并生成本地化委托。考虑因素包括根据所需的语言和功能数量选择适当的方法。实施包括在 MaterialApp/CupertinoApp 中设置本地化委托并使用扩展方法轻松实现字符串本地化。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе обсуждается локализация и интернационализация во Flutter, выделяются два основных подхода: вручную и с использованием intl. Ручной подход предполагает создание класса с базой данных для переводов и генерацию делегата локализации. С другой стороны, использование требует создания класса с файлами ARB для переводов и создания делегата локализации. Соображения включают выбор подходящего подхода на основе количества языков и необходимых функций. Реализация включает настройку делегата локализации в MaterialApp/CupertinoApp и использование методов расширения для упрощения локализации строк.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre traite de la localisation et de l'internationalisation dans Flutter, en mettant en évidence deux approches principales : manuelle et utilisant intl. L'approche manuelle consiste à créer une classe avec une base de données pour les traductions et à générer un délégué de localisation. D'un autre côté, l'utilisation nécessite de créer la classe avec des fichiers ARB pour les traductions et de générer un délégué de localisation. Les considérations incluent le choix de l’approche appropriée en fonction du nombre de langues et de fonctionnalités nécessaires. La mise en œuvre implique la configuration du délégué de localisation dans MaterialApp/CupertinoApp et l'utilisation de méthodes d'extension pour une localisation facile des chaînes.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Flutter のローカリゼーションと国際化について説明し、手動と intl の使用という 2 つの主なアプローチに焦点を当てています。手動のアプローチでは、翻訳用のデータベースを含むクラスを作成し、ローカリゼーション デリゲートを生成します。一方、使用では、翻訳用の ARB ファイルを含むクラスを作成し、ローカリゼーション デリゲートを生成します。考慮すべき点としては、必要な言語と機能の数に基づいて適切なアプローチを選択することなどがあります。実装には、MaterialApp/CupertinoApp でローカリゼーション デリゲートを設定し、拡張メソッドを使用して簡単に文字列をローカリゼーションすることが含まれます。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Flutter의 현지화 및 국제화에 대해 논의하며 수동 및 intl 사용이라는 두 가지 주요 접근 방식을 강조합니다. 수동 접근 방식에는 번역용 데이터베이스가 포함된 클래스를 생성하고 현지화 대리자를 생성하는 작업이 포함됩니다. 반면에 를 사용하려면 번역을 위한 ARB 파일로 클래스를 만들고 현지화 대리자를 생성해야 합니다. 고려해야 할 사항에는 필요한 언어 및 기능 수에 따라 적절한 접근 방식을 선택하는 것이 포함됩니다. 구현에는 MaterialApp/CupertinoApp에서 현지화 대리자를 설정하고 쉬운 문자열 현지화를 위한 확장 메서드를 사용하는 작업이 포함됩니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo analiza la localización y la internacionalización en Flutter, destacando dos enfoques principales: manual y usando intl. El enfoque manual implica crear una clase con una base de datos para traducciones y generar un delegado de localización. Por otro lado, su uso requiere crear la clase con archivos ARB para traducciones y generar un delegado de localización. Las consideraciones incluyen elegir el enfoque adecuado según la cantidad de idiomas y funciones necesarias. La implementación implica configurar el delegado de localización en MaterialApp/CupertinoApp y usar métodos de extensión para una fácil localización de cadenas.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "अध्याय फ़्लटर में स्थानीयकरण और अंतर्राष्ट्रीयकरण पर चर्चा करता है, जिसमें दो मुख्य दृष्टिकोणों पर प्रकाश डाला गया है: मैनुअल और intl का उपयोग करना। मैनुअल दृष्टिकोण में अनुवाद के लिए डेटाबेस के साथ एक क्लास बनाना और एक स्थानीयकरण प्रतिनिधि उत्पन्न करना शामिल है। दूसरी ओर, अनुवाद के लिए ARB फ़ाइलों के साथ क्लास बनाने और एक स्थानीयकरण प्रतिनिधि उत्पन्न करने की आवश्यकता होती है। विचार करने में आवश्यक भाषाओं और सुविधाओं की संख्या के आधार पर उपयुक्त दृष्टिकोण चुनना शामिल है। कार्यान्वयन में मटेरियलऐप/क्यूपर्टिनोऐप में स्थानीयकरण प्रतिनिधि को स्थापित करना और आसान स्ट्रिंग स्थानीयकरण के लिए एक्सटेंशन विधियों का उपयोग करना शामिल है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo discute a localização e a internacionalização no Flutter, destacando duas abordagens principais: manual e utilizando intl. A abordagem manual envolve a criação de uma classe com uma base de dados para traduções e a geração de um delegado de localização. Por outro lado, a utilização requer a criação da classe com ficheiros ARB para traduções e a geração de um delegado de localização. As considerações incluem a escolha da abordagem adequada com base no número de idiomas e recursos necessários. A implementação envolve a configuração do delegado de localização em MaterialApp/CupertinoApp e a utilização de métodos de extensão para uma fácil localização de strings.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "অধ্যায়টি ফ্লটারে স্থানীয়করণ এবং আন্তর্জাতিকীকরণ নিয়ে আলোচনা করে, দুটি প্রধান পদ্ধতির উপর আলোকপাত করে: ম্যানুয়াল এবং intl ব্যবহার করে। ম্যানুয়াল পদ্ধতিতে অনুবাদের জন্য একটি ডাটাবেস সহ একটি ক্লাস তৈরি করা এবং একটি স্থানীয়করণ প্রতিনিধি তৈরি করা জড়িত। অন্যদিকে, ব্যবহার করার জন্য অনুবাদের জন্য ARB ফাইল সহ ক্লাস তৈরি করা এবং একটি স্থানীয়করণ প্রতিনিধি তৈরি করা প্রয়োজন। বিবেচনার মধ্যে রয়েছে প্রয়োজনীয় ভাষা এবং বৈশিষ্ট্যের সংখ্যার উপর ভিত্তি করে উপযুক্ত পদ্ধতি নির্বাচন করা। বাস্তবায়নে MaterialApp/CupertinoApp-এ স্থানীয়করণ প্রতিনিধি সেট আপ করা এবং সহজ স্ট্রিং স্থানীয়করণের জন্য এক্সটেনশন পদ্ধতি ব্যবহার করা জড়িত।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يناقش الفصل التوطين والتدويل في Flutter، مع تسليط الضوء على نهجين رئيسيين: اليدوي واستخدام intl. يتضمن النهج اليدوي إنشاء فصل دراسي بقاعدة بيانات للترجمات وإنشاء مندوب الترجمة. من ناحية أخرى، يتطلب الاستخدام إنشاء الفصل بملفات ARB للترجمات وإنشاء مندوب الترجمة. تتضمن الاعتبارات اختيار النهج المناسب بناءً على عدد اللغات والميزات المطلوبة. يتضمن التنفيذ إعداد مندوب الترجمة في MaterialApp/CupertinoApp واستخدام طرق الامتداد لتسهيل ترجمة السلسلة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل به بحث بومی‌سازی و بین‌المللی‌سازی در فلاتر می‌پردازد و دو رویکرد اصلی را برجسته می‌کند: دستی و استفاده از بین‌المللی. رویکرد دستی شامل ایجاد یک کلاس با پایگاه داده برای ترجمه ها و ایجاد یک نماینده محلی سازی است. از طرف دیگر، استفاده از آن مستلزم ایجاد کلاس با فایل‌های ARB برای ترجمه و ایجاد یک نماینده محلی‌سازی است. ملاحظات شامل انتخاب رویکرد مناسب بر اساس تعداد زبان ها و ویژگی های مورد نیاز است. پیاده‌سازی شامل تنظیم نماینده محلی‌سازی در MaterialApp/CupertinoApp و استفاده از روش‌های توسعه برای محلی‌سازی آسان رشته است.",
                     },
                 },
                 // 14
@@ -3342,31 +3342,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Animation",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter on animations in Flutter explores various ways to create dynamic and engaging animations in mobile applications. It covers the use of implicit animations like AnimatedContainer, as well as custom animations. It introduced some techniques to enhance animation effects, and the importance of maintaining focus during route transitions with Hero animations is highlighted. Additionally, custom route transitions can be implemented, providing developers with a comprehensive toolkit to bring their apps to life with captivating animations.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Das Kapitel über Animationen in Flutter untersucht verschiedene Möglichkeiten, dynamische und ansprechende Animationen in mobilen Anwendungen zu erstellen. Es behandelt die Verwendung impliziter Animationen wie AnimatedContainer sowie benutzerdefinierter Animationen. Es werden einige Techniken zur Verbesserung von Animationseffekten vorgestellt und die Bedeutung der Beibehaltung des Fokus während Routenübergängen mit Hero-Animationen hervorgehoben. Darüber hinaus können benutzerdefinierte Routenübergänge implementiert werden, wodurch Entwickler ein umfassendes Toolkit erhalten, um ihre Apps mit fesselnden Animationen zum Leben zu erwecken.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "Flutter 动画章节探讨了在移动应用中创建动态且引人入胜的动画的各种方法。它涵盖了隐式动画（如 AnimatedContainer）以及自定义动画的使用。它介绍了一些增强动画效果的技术，并强调了使用 Hero 动画在路由转换期间保持焦点的重要性。此外，还可以实现自定义路由转换，为开发人员提供全面的工具包，让他们的应用通过引人入胜的动画栩栩如生。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе об анимации во Flutter рассматриваются различные способы создания динамичной и привлекательной анимации в мобильных приложениях. Он охватывает использование неявных анимаций, таких как AnimatedContainer, а также пользовательских анимаций. В нем представлены некоторые методы улучшения анимационных эффектов, а также подчеркивается важность сохранения фокуса во время перехода маршрутов с помощью анимации героев. Кроме того, можно реализовать пользовательские переходы маршрутов, предоставляя разработчикам комплексный набор инструментов для оживления своих приложений с помощью захватывающей анимации.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre sur les animations dans Flutter explore différentes façons de créer des animations dynamiques et attrayantes dans les applications mobiles. Il couvre l'utilisation d'animations implicites comme AnimatedContainer, ainsi que des animations personnalisées. Il a introduit quelques techniques pour améliorer les effets d'animation, et l'importance de maintenir la concentration lors des transitions d'itinéraire avec les animations de héros est soulignée. De plus, des transitions d'itinéraire personnalisées peuvent être mises en œuvre, fournissant ainsi aux développeurs une boîte à outils complète pour donner vie à leurs applications avec des animations captivantes.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "Flutter のアニメーションに関する章では、モバイル アプリケーションで動的で魅力的なアニメーションを作成するためのさまざまな方法について説明します。AnimatedContainer などの暗黙的なアニメーションやカスタム アニメーションの使用について説明します。アニメーション効果を高めるいくつかのテクニックを紹介し、Hero アニメーションを使用してルート遷移中にフォーカスを維持することの重要性を強調します。さらに、カスタム ルート遷移を実装できるため、開発者は魅力的なアニメーションでアプリに命を吹き込むための包括的なツールキットを利用できます。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "Flutter의 애니메이션에 관한 장에서는 모바일 애플리케이션에서 역동적이고 매력적인 애니메이션을 만드는 다양한 방법을 탐구합니다. AnimatedContainer와 같은 암시적 애니메이션과 사용자 정의 애니메이션의 사용을 다룹니다. 애니메이션 효과를 향상시키는 몇 가지 기술을 도입했으며, 영웅 애니메이션으로 경로 전환 중에 초점을 유지하는 것의 중요성이 강조되었습니다. 또한, 맞춤형 경로 전환을 구현하여 개발자에게 매력적인 애니메이션으로 앱에 생기를 불어넣을 수 있는 포괄적인 툴킷을 제공할 수 있습니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo sobre animaciones en Flutter explora varias formas de crear animaciones dinámicas y atractivas en aplicaciones móviles. Cubre el uso de animaciones implícitas como AnimatedContainer, así como animaciones personalizadas. Introdujo algunas técnicas para mejorar los efectos de animación y se destaca la importancia de mantener el enfoque durante las transiciones de ruta con animaciones de Hero. Además, se pueden implementar transiciones de rutas personalizadas, lo que proporciona a los desarrolladores un completo conjunto de herramientas para dar vida a sus aplicaciones con animaciones cautivadoras.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "फ़्लटर में एनिमेशन पर अध्याय मोबाइल एप्लिकेशन में गतिशील और आकर्षक एनिमेशन बनाने के विभिन्न तरीकों की खोज करता है। इसमें एनिमेटेड कंटेनर जैसे निहित एनिमेशन के उपयोग के साथ-साथ कस्टम एनिमेशन का उपयोग शामिल है। इसने एनिमेशन प्रभावों को बढ़ाने के लिए कुछ तकनीकों को पेश किया, और हीरो एनिमेशन के साथ रूट ट्रांज़िशन के दौरान फ़ोकस बनाए रखने के महत्व पर प्रकाश डाला। इसके अतिरिक्त, कस्टम रूट ट्रांज़िशन को लागू किया जा सकता है, जिससे डेवलपर्स को अपने ऐप्स को आकर्षक एनिमेशन के साथ जीवंत करने के लिए एक व्यापक टूलकिट मिल सकता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo sobre animações no Flutter explora várias formas de criar animações dinâmicas e envolventes em aplicações móveis. Abrange a utilização de animações implícitas como AnimatedContainer, bem como animações personalizadas. Introduziu algumas técnicas para melhorar os efeitos de animação, e é realçada a importância de manter o foco durante as transições de rota com animações de heróis. Além disso, podem ser implementadas transições de rotas personalizadas, fornecendo aos programadores um kit de ferramentas abrangente para dar vida às suas aplicações com animações cativantes.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "Flutter-এ অ্যানিমেশনের অধ্যায় মোবাইল অ্যাপ্লিকেশনগুলিতে গতিশীল এবং আকর্ষক অ্যানিমেশন তৈরি করার বিভিন্ন উপায় অন্বেষণ করে। এটি অ্যানিমেটেড কন্টেইনারের মতো অন্তর্নিহিত অ্যানিমেশনগুলির পাশাপাশি কাস্টম অ্যানিমেশনগুলির ব্যবহার কভার করে। এটি অ্যানিমেশন প্রভাব বাড়ানোর জন্য কিছু কৌশল প্রবর্তন করেছে এবং হিরো অ্যানিমেশনের সাথে রুট ট্রানজিশনের সময় ফোকাস বজায় রাখার গুরুত্ব তুলে ধরা হয়েছে। উপরন্তু, কাস্টম রুট ট্রানজিশন প্রয়োগ করা যেতে পারে, যা ডেভেলপারদের একটি বিস্তৃত টুলকিট প্রদান করে তাদের অ্যাপগুলিকে চিত্তাকর্ষক অ্যানিমেশনের সাথে জীবন্ত করে তুলতে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يستكشف الفصل الخاص بالرسوم المتحركة في Flutter طرقًا مختلفة لإنشاء رسوم متحركة ديناميكية وجذابة في تطبيقات الهاتف المحمول. ويغطي استخدام الرسوم المتحركة الضمنية مثل AnimatedContainer، بالإضافة إلى الرسوم المتحركة المخصصة. لقد قدمت بعض التقنيات لتحسين تأثيرات الرسوم المتحركة، وتم تسليط الضوء على أهمية الحفاظ على التركيز أثناء انتقالات المسار باستخدام الرسوم المتحركة البطل. بالإضافة إلى ذلك، يمكن تنفيذ انتقالات المسار المخصصة، مما يوفر للمطورين مجموعة أدوات شاملة لإضفاء الحيوية على تطبيقاتهم من خلال الرسوم المتحركة الجذابة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "فصل انیمیشن‌ها در Flutter راه‌های مختلفی برای ایجاد انیمیشن‌های پویا و جذاب در برنامه‌های موبایل را بررسی می‌کند. استفاده از انیمیشن های ضمنی مانند AnimatedContainer و همچنین انیمیشن های سفارشی را پوشش می دهد. برخی از تکنیک‌ها را برای تقویت جلوه‌های انیمیشن معرفی کرد و اهمیت حفظ تمرکز در طول انتقال مسیر با انیمیشن‌های Hero برجسته شده است. علاوه بر این، انتقال مسیرهای سفارشی را می توان پیاده سازی کرد و به توسعه دهندگان یک جعبه ابزار جامع برای زنده کردن برنامه های خود با انیمیشن های جذاب ارائه می دهد.",
                     },
                 },
                 // 15
@@ -3374,31 +3374,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Working with JSON and other formats",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on working with JSON and other data formats like XML in Flutter. It explains how to parse JSON objects, lists, and nested objects effortlessly using code generation tools. The document also covers parsing XML data and building XML strings using packages like xml and XmlDocument. Additionally, it highlights the benefits of using code generation for parsing complex objects to reduce manual effort and improve code maintenance.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um die Arbeit mit JSON und anderen Datenformaten wie XML in Flutter. Es erklärt, wie man JSON-Objekte, Listen und verschachtelte Objekte mühelos mithilfe von Codegenerierungstools analysiert. Das Dokument behandelt auch die Analyse von XML-Daten und die Erstellung von XML-Zeichenfolgen mithilfe von Paketen wie xml und XmlDocument. Darüber hinaus werden die Vorteile der Verwendung der Codegenerierung zur Analyse komplexer Objekte hervorgehoben, um den manuellen Aufwand zu reduzieren und die Codewartung zu verbessern.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍如何在 Flutter 中使用 JSON 和其他数据格式（如 XML）。它解释了如何使用代码生成工具轻松解析 JSON 对象、列表和嵌套对象。该文档还介绍了如何使用 xml 和 XmlDocument 等包解析 XML 数据和构建 XML 字符串。此外，它还强调了使用代码生成解析复杂对象的好处，以减少手动工作量并改善代码维护。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется работе с JSON и другими форматами данных, такими как XML, во Flutter. В нем объясняется, как легко анализировать объекты, списки и вложенные объекты JSON с помощью инструментов генерации кода. В документе также рассматривается анализ данных XML и построение строк XML с использованием таких пакетов, как xml и XmlDocument. Кроме того, в нем подчеркиваются преимущества использования генерации кода для анализа сложных объектов, позволяющие сократить ручные усилия и улучшить обслуживание кода.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur l'utilisation de JSON et d'autres formats de données comme XML dans Flutter. Il explique comment analyser facilement des objets JSON, des listes et des objets imbriqués à l'aide d'outils de génération de code. Le document couvre également l'analyse des données XML et la création de chaînes XML à l'aide de packages tels que XML et XmlDocument. De plus, il met en évidence les avantages de l'utilisation de la génération de code pour analyser des objets complexes afin de réduire l'effort manuel et d'améliorer la maintenance du code.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Flutter で JSON や XML などの他のデータ形式を扱うことに焦点を当てています。コード生成ツールを使用して、JSON オブジェクト、リスト、ネストされたオブジェクトを簡単に解析する方法について説明します。また、このドキュメントでは、xml や XmlDocument などのパッケージを使用して XML データを解析し、XML 文字列を構築する方法についても説明します。さらに、複雑なオブジェクトを解析するためにコード生成を使用することで、手作業の労力が減り、コードのメンテナンスが改善される利点についても説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Flutter에서 JSON 및 XML과 같은 기타 데이터 형식을 사용하여 작업하는 데 중점을 둡니다. 코드 생성 도구를 사용하여 JSON 개체, 목록 및 중첩 개체를 쉽게 구문 분석하는 방법을 설명합니다. 또한 이 문서에서는 XML 데이터를 구문 분석하고 xml 및 XmlDocument와 같은 패키지를 사용하여 XML 문자열을 작성하는 방법도 다루고 있습니다. 또한 복잡한 개체를 구문 분석하기 위해 코드 생성을 사용하여 수동 작업을 줄이고 코드 유지 관리를 개선하는 이점을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en trabajar con JSON y otros formatos de datos como XML en Flutter. Explica cómo analizar objetos JSON, listas y objetos anidados sin esfuerzo utilizando herramientas de generación de código. El documento también cubre el análisis de datos XML y la creación de cadenas XML utilizando paquetes como xml y XmlDocument. Además, destaca los beneficios de utilizar la generación de código para analizar objetos complejos para reducir el esfuerzo manual y mejorar el mantenimiento del código.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय फ़्लटर में JSON और XML जैसे अन्य डेटा फ़ॉर्मेट के साथ काम करने पर केंद्रित है। यह बताता है कि कोड जनरेशन टूल का उपयोग करके JSON ऑब्जेक्ट, सूचियाँ और नेस्टेड ऑब्जेक्ट को आसानी से कैसे पार्स किया जाए। दस्तावेज़ में XML डेटा को पार्स करना और xml और XmlDocument जैसे पैकेज का उपयोग करके XML स्ट्रिंग बनाना भी शामिल है। इसके अतिरिक्त, यह जटिल ऑब्जेक्ट को पार्स करने के लिए कोड जनरेशन का उपयोग करने के लाभों पर प्रकाश डालता है ताकि मैन्युअल प्रयास को कम किया जा सके और कोड रखरखाव में सुधार किया जा सके।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se no trabalho com JSON e outros formatos de dados como XML no Flutter. Explica como analisar objetos JSON, listas e objetos aninhados sem esforço, utilizando ferramentas de geração de código. O documento aborda também a análise de dados XML e a construção de strings XML utilizando pacotes como xml e XmlDocument. Além disso, destaca os benefícios da utilização da geração de código para analisar objetos complexos para reduzir o esforço manual e melhorar a manutenção do código.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি JSON এবং Flutter-এ XML-এর মতো অন্যান্য ডেটা ফর্ম্যাটের সাথে কাজ করার উপর ফোকাস করে। এটি ব্যাখ্যা করে কিভাবে JSON অবজেক্ট, তালিকা এবং নেস্টেড অবজেক্টগুলিকে অনায়াসে কোড জেনারেশন টুল ব্যবহার করে পার্স করা যায়। ডকুমেন্টটি এক্সএমএল ডেটা পার্সিং এবং এক্সএমএল এবং এক্সএমএল ডকুমেন্টের মতো প্যাকেজগুলি ব্যবহার করে এক্সএমএল স্ট্রিং তৈরি করাও কভার করে। উপরন্তু, এটি ম্যানুয়াল প্রচেষ্টা কমাতে এবং কোড রক্ষণাবেক্ষণ উন্নত করতে জটিল বস্তু পার্স করার জন্য কোড জেনারেশন ব্যবহার করার সুবিধাগুলি হাইলাইট করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على العمل مع JSON وتنسيقات البيانات الأخرى مثل XML في Flutter. يشرح كيفية تحليل كائنات JSON والقوائم والكائنات المتداخلة بسهولة باستخدام أدوات إنشاء التعليمات البرمجية. يغطي المستند أيضًا تحليل بيانات XML وإنشاء سلاسل XML باستخدام حزم مثل xml وXmlDocument. بالإضافة إلى ذلك، فإنه يسلط الضوء على فوائد استخدام إنشاء التعليمات البرمجية لتحليل الكائنات المعقدة لتقليل الجهد اليدوي وتحسين صيانة التعليمات البرمجية.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر کار با JSON و سایر فرمت های داده مانند XML در Flutter تمرکز دارد. این توضیح می دهد که چگونه اشیاء، لیست ها و اشیاء تودرتو JSON را با استفاده از ابزارهای تولید کد بدون دردسر تجزیه کنید. این سند همچنین تجزیه داده های XML و ساخت رشته های XML را با استفاده از بسته هایی مانند xml و XmlDocument پوشش می دهد. علاوه بر این، مزایای استفاده از تولید کد برای تجزیه اشیاء پیچیده را برای کاهش تلاش دستی و بهبود نگهداری کد برجسته می‌کند.",
                     },
                 },
                 // 16
@@ -3406,31 +3406,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Testing and profiling apps",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter discusses the importance of testing and profiling apps for ensuring software quality and performance optimization. It emphasizes the significance of writing tests using testing frameworks to prevent errors from recurring in the future. Additionally, it highlights the benefits of profiling apps to identify and address performance issues.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird die Bedeutung des Testens und Profilierens von Apps zur Sicherstellung der Softwarequalität und Leistungsoptimierung erläutert. Es betont die Bedeutung des Schreibens von Tests mithilfe von Testframeworks, um künftige Fehler zu vermeiden. Darüber hinaus werden die Vorteile des Profilierens von Apps zur Identifizierung und Behebung von Leistungsproblemen hervorgehoben.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章讨论了测试和分析应用程序对于确保软件质量和性能优化的重要性。它强调了使用测​​试框架编写测试以防止将来再次发生错误的重要性。此外，它还强调了分析应用程序以识别和解决性能问题的好处。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе обсуждается важность тестирования и профилирования приложений для обеспечения качества программного обеспечения и оптимизации производительности. В нем подчеркивается важность написания тестов с использованием сред тестирования для предотвращения повторения ошибок в будущем. Кроме того, в нем подчеркиваются преимущества профилирования приложений для выявления и устранения проблем с производительностью.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre traite de l'importance des tests et du profilage des applications pour garantir la qualité des logiciels et l'optimisation des performances. Il souligne l’importance d’écrire des tests à l’aide de frameworks de test pour éviter que des erreurs ne se reproduisent à l’avenir. De plus, il met en évidence les avantages des applications de profilage pour identifier et résoudre les problèmes de performances.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、ソフトウェアの品質とパフォーマンスの最適化を確保するために、アプリのテストとプロファイリングを行うことの重要性について説明します。また、将来的にエラーが再発しないようにするために、テスト フレームワークを使用してテストを記述することの重要性を強調します。さらに、パフォーマンスの問題を特定して対処するためにアプリをプロファイリングすることの利点についても説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 소프트웨어 품질과 성능 최적화를 보장하기 위한 앱 테스트 및 프로파일링의 중요성에 대해 설명합니다. 향후 오류가 반복되는 것을 방지하기 위해 테스트 프레임워크를 사용하여 테스트를 작성하는 것의 중요성을 강조합니다. 또한 성능 문제를 식별하고 해결하기 위한 앱 프로파일링의 이점을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo analiza la importancia de probar y crear perfiles de aplicaciones para garantizar la calidad del software y la optimización del rendimiento. Enfatiza la importancia de escribir pruebas utilizando marcos de prueba para evitar que se repitan errores en el futuro. Además, destaca los beneficios de crear perfiles de aplicaciones para identificar y abordar problemas de rendimiento.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय सॉफ़्टवेयर की गुणवत्ता और प्रदर्शन अनुकूलन सुनिश्चित करने के लिए ऐप्स के परीक्षण और प्रोफाइलिंग के महत्व पर चर्चा करता है। यह भविष्य में त्रुटियों की पुनरावृत्ति को रोकने के लिए परीक्षण ढाँचों का उपयोग करके परीक्षण लिखने के महत्व पर जोर देता है। इसके अतिरिक्त, यह प्रदर्शन समस्याओं की पहचान करने और उन्हें संबोधित करने के लिए ऐप्स की प्रोफाइलिंग के लाभों पर प्रकाश डालता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo discute a importância de testar e criar perfis de aplicações para garantir a qualidade do software e a otimização do desempenho. Realça a importância de escrever testes utilizando estruturas de teste para evitar a recorrência de erros no futuro. Além disso, destaca os benefícios da criação de perfis de aplicações para identificar e resolver problemas de desempenho.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে সফ্টওয়্যার গুণমান এবং কর্মক্ষমতা অপ্টিমাইজেশান নিশ্চিত করার জন্য পরীক্ষা এবং প্রোফাইলিং অ্যাপের গুরুত্ব নিয়ে আলোচনা করা হয়েছে। এটি ভবিষ্যতের পুনরাবৃত্তি থেকে ত্রুটিগুলি প্রতিরোধ করার জন্য পরীক্ষার কাঠামো ব্যবহার করে পরীক্ষা লেখার তাত্পর্যের উপর জোর দেয়। উপরন্তু, এটি পারফরম্যান্স সমস্যাগুলি সনাক্ত করতে এবং মোকাবেলা করার জন্য প্রোফাইলিং অ্যাপগুলির সুবিধাগুলি হাইলাইট করে৷",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يناقش هذا الفصل أهمية اختبار التطبيقات وتحليلها لضمان جودة البرامج وتحسين الأداء. ويؤكد على أهمية كتابة الاختبارات باستخدام أطر الاختبار لمنع تكرار الأخطاء في المستقبل. بالإضافة إلى ذلك، فإنه يسلط الضوء على فوائد تطبيقات ملفات التعريف لتحديد مشكلات الأداء ومعالجتها.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل اهمیت آزمایش و پروفایل کردن برنامه ها را برای اطمینان از کیفیت نرم افزار و بهینه سازی عملکرد مورد بحث قرار می دهد. این بر اهمیت نوشتن تست ها با استفاده از چارچوب های تست برای جلوگیری از تکرار خطاها در آینده تأکید می کند. علاوه بر این، مزایای برنامه های پروفایل برای شناسایی و رسیدگی به مشکلات عملکرد را برجسته می کند.",
                     },
                 },
                 // 17
@@ -3438,31 +3438,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Networking",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter explains how to make HTTP requests in Flutter, covering GET and POST requests, handling responses, and best practices. It introduces the HTTPRequest class for making requests, the FutureBuilder widget for handling asynchronous operations, and recommends using the dio package for more complex networking tasks like file uploads and downloads.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird erläutert, wie Sie HTTP-Anfragen in Flutter stellen. Dabei werden GET- und POST-Anfragen, die Handhabung von Antworten und bewährte Methoden behandelt. Es stellt die HTTPRequest-Klasse zum Stellen von Anfragen und das FutureBuilder-Widget zur Handhabung asynchroner Vorgänge vor. Außerdem wird die Verwendung des dio-Pakets für komplexere Netzwerkaufgaben wie Datei-Uploads und -Downloads empfohlen.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍如何在 Flutter 中发出 HTTP 请求，涵盖 GET 和 POST 请求、处理响应和最佳实践。它介绍了用于发出请求的 HTTPRequest 类、用于处理异步操作的 FutureBuilder 小部件，并建议使用 dio 包执行更复杂的网络任务，例如文件上传和下载。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе объясняется, как выполнять HTTP-запросы во Flutter, включая запросы GET и POST, обработку ответов и лучшие практики. В нем представлен класс HTTPRequest для выполнения запросов, виджет FutureBuilder для обработки асинхронных операций и рекомендуется использовать пакет dio для более сложных сетевых задач, таких как загрузка и скачивание файлов.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre explique comment effectuer des requêtes HTTP dans Flutter, couvrant les requêtes GET et POST, la gestion des réponses et les meilleures pratiques. Il présente la classe HTTPRequest pour effectuer des requêtes, le widget FutureBuilder pour gérer les opérations asynchrones et recommande d'utiliser le package dio pour des tâches réseau plus complexes telles que les téléchargements et les téléchargements de fichiers.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Flutter で HTTP リクエストを行う方法について、GET リクエストと POST リクエスト、レスポンスの処理、ベスト プラクティスなどについて説明します。リクエストを行うための HTTPRequest クラス、非同期操作を処理するための FutureBuilder ウィジェットを紹介し、ファイルのアップロードやダウンロードなどのより複雑なネットワーク タスクには dio パッケージを使用することを推奨します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 GET 및 POST 요청, 응답 처리 및 모범 사례를 다루면서 Flutter에서 HTTP 요청을 만드는 방법을 설명합니다. 요청을 위한 HTTPRequest 클래스, 비동기 작업을 처리하기 위한 FutureBuilder 위젯을 소개하고 파일 업로드 및 다운로드와 같은 보다 복잡한 네트워킹 작업에는 dio 패키지를 사용할 것을 권장합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo explica cómo realizar solicitudes HTTP en Flutter, cubriendo solicitudes GET y POST, manejo de respuestas y mejores prácticas. Presenta la clase HTTPRequest para realizar solicitudes, el widget FutureBuilder para manejar operaciones asincrónicas y recomienda usar el paquete dio para tareas de red más complejas, como cargas y descargas de archivos.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय फ़्लटर में HTTP अनुरोध बनाने का तरीका बताता है, जिसमें GET और POST अनुरोध, प्रतिक्रियाओं को संभालना और सर्वोत्तम अभ्यास शामिल हैं। यह अनुरोध करने के लिए HTTPRequest क्लास, एसिंक्रोनस संचालन को संभालने के लिए FutureBuilder विजेट का परिचय देता है, और फ़ाइल अपलोड और डाउनलोड जैसे अधिक जटिल नेटवर्किंग कार्यों के लिए dio पैकेज का उपयोग करने की सलाह देता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo explica como fazer pedidos HTTP no Flutter, abordando os pedidos GET e POST, o tratamento de respostas e as melhores práticas. Apresenta a classe HTTPRequest para fazer pedidos, o widget FutureBuilder para lidar com operações assíncronas e recomenda a utilização do pacote dio para tarefas de rede mais complexas, como uploads e downloads de ficheiros.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি ব্যাখ্যা করে যে কীভাবে ফ্লটারে HTTP অনুরোধ করা যায়, GET এবং POST অনুরোধগুলি কভার করা, প্রতিক্রিয়াগুলি পরিচালনা করা এবং সেরা অনুশীলনগুলি। এটি অনুরোধ করার জন্য HTTPRequest ক্লাস, অ্যাসিঙ্ক্রোনাস অপারেশন পরিচালনার জন্য FutureBuilder উইজেট এবং ফাইল আপলোড এবং ডাউনলোডের মতো আরও জটিল নেটওয়ার্কিং কাজের জন্য ডিও প্যাকেজ ব্যবহার করার সুপারিশ করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يشرح هذا الفصل كيفية إنشاء طلبات HTTP في Flutter، ويغطي طلبات GET وPOST، والتعامل مع الاستجابات، وأفضل الممارسات. يقدم فئة HTTPRequest لتقديم الطلبات، وعنصر واجهة المستخدم FutureBuilder للتعامل مع العمليات غير المتزامنة، ويوصي باستخدام حزمة dio لمهام الشبكات الأكثر تعقيدًا مثل تحميل الملفات وتنزيلها.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل نحوه ایجاد درخواست‌های HTTP در Flutter را توضیح می‌دهد، درخواست‌های GET و POST، رسیدگی به پاسخ‌ها و بهترین شیوه‌ها را پوشش می‌دهد. کلاس HTTPRequest را برای درخواست‌ها، ویجت FutureBuilder برای مدیریت عملیات ناهمزمان معرفی می‌کند و استفاده از بسته dio را برای کارهای پیچیده‌تر شبکه مانند بارگذاری و دانلود فایل توصیه می‌کند.",
                     },
                 },
                 // 18
@@ -3470,31 +3470,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Assets, images, and multimedia",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter explains how to manage assets, images, and multimedia in Flutter. It covers declaring assets in the pubspec.yaml file, loading assets using AssetBundle, handling different image sizes for various device pixel ratios, and the benefits of using SVG images for scalability and quality.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird erläutert, wie Sie Assets, Bilder und Multimedia in Flutter verwalten. Es behandelt das Deklarieren von Assets in der Datei pubspec.yaml, das Laden von Assets mit AssetBundle, den Umgang mit unterschiedlichen Bildgrößen für verschiedene Gerätepixelverhältnisse und die Vorteile der Verwendung von SVG-Bildern für Skalierbarkeit und Qualität.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍如何在 Flutter 中管理资产、图像和多媒体。它涵盖了如何在 pubspec.yaml 文件中声明资产、使用 AssetBundle 加载资产、处理不同设备像素比的不同图像大小，以及使用 SVG 图像对可扩展性和质量的好处。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе объясняется, как управлять ресурсами, изображениями и мультимедиа во Flutter. В нем рассматривается объявление ресурсов в файле pubspec.yaml, загрузка ресурсов с помощью AssetBundle, обработка изображений разных размеров для различных соотношений пикселей устройства, а также преимущества использования изображений SVG для масштабируемости и качества.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre explique comment gérer les actifs, les images et le multimédia dans Flutter. Il couvre la déclaration des actifs dans le fichier pubspec.yaml, le chargement des actifs à l'aide d'AssetBundle, la gestion de différentes tailles d'image pour différents ratios de pixels de périphérique et les avantages de l'utilisation d'images SVG pour l'évolutivité et la qualité.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Flutter でアセット、画像、マルチメディアを管理する方法について説明します。pubspec.yaml ファイルでのアセットの宣言、AssetBundle を使用したアセットの読み込み、さまざまなデバイスのピクセル比に応じたさまざまな画像サイズの処理、スケーラビリティと品質のために SVG 画像を使用する利点について説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Flutter에서 자산, 이미지, 멀티미디어를 관리하는 방법을 설명합니다. pubspec.yaml 파일에서 자산 선언, AssetBundle을 사용한 자산 로드, 다양한 장치 픽셀 비율에 대한 다양한 이미지 크기 처리, 확장성과 품질을 위한 SVG 이미지 사용의 이점을 다룹니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo explica cómo administrar activos, imágenes y multimedia en Flutter. Cubre la declaración de activos en el archivo pubspec.yaml, la carga de activos usando AssetBundle, el manejo de diferentes tamaños de imagen para varias proporciones de píxeles del dispositivo y los beneficios de usar imágenes SVG para escalabilidad y calidad.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "अध्याय में बताया गया है कि फ़्लटर में एसेट्स, इमेज और मल्टीमीडिया को कैसे मैनेज किया जाए। इसमें pubspec.yaml फ़ाइल में एसेट्स घोषित करना, AssetBundle का उपयोग करके एसेट्स लोड करना, विभिन्न डिवाइस पिक्सेल अनुपातों के लिए अलग-अलग इमेज साइज़ को संभालना और स्केलेबिलिटी और गुणवत्ता के लिए SVG इमेज का उपयोग करने के लाभ शामिल हैं।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo explica como gerir ativos, imagens e multimédia no Flutter. Abrange a declaração de ativos no ficheiro pubspec.yaml, o carregamento de ativos utilizando o AssetBundle, o tratamento de diferentes tamanhos de imagem para várias proporções de pixéis de dispositivos e os benefícios da utilização de imagens SVG para escalabilidade e qualidade.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "অধ্যায় ব্যাখ্যা করে কিভাবে ফ্লটারে সম্পদ, ছবি এবং মাল্টিমিডিয়া পরিচালনা করতে হয়। এটি pubspec.yaml ফাইলে সম্পদ ঘোষণা করা, AssetBundle ব্যবহার করে সম্পদ লোড করা, বিভিন্ন ডিভাইস পিক্সেল অনুপাতের জন্য বিভিন্ন চিত্রের আকার পরিচালনা করা এবং স্কেলেবিলিটি এবং গুণমানের জন্য SVG ছবি ব্যবহারের সুবিধাগুলি কভার করে৷",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يشرح الفصل كيفية إدارة الأصول والصور والوسائط المتعددة في Flutter. ويغطي الإعلان عن الأصول في ملف pubspec.yaml، وتحميل الأصول باستخدام AssetBundle، والتعامل مع أحجام الصور المختلفة لنسب بكسلات الأجهزة المختلفة، وفوائد استخدام صور SVG لقابلية التوسع والجودة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل نحوه مدیریت دارایی ها، تصاویر و چند رسانه ای در فلاتر را توضیح می دهد. این شامل اعلام دارایی ها در فایل pubspec.yaml، بارگیری دارایی ها با استفاده از AssetBundle، مدیریت اندازه های مختلف تصویر برای نسبت های مختلف پیکسل دستگاه، و مزایای استفاده از تصاویر SVG برای مقیاس پذیری و کیفیت است.",
                     },
                 },
                 // 19
@@ -3502,31 +3502,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Forms and gestures",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter explains how to create and manage forms in Flutter, including layout adjustments, validation, and data acquisition. It covers using GlobalKey<FormState> for form validation, LayoutBuilder for responsive design, and TextEditingController for handling text input. It also discusses handling keyboard overflow and constraining input length.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird erläutert, wie Sie Formulare in Flutter erstellen und verwalten, einschließlich Layoutanpassungen, Validierung und Datenerfassung. Es behandelt die Verwendung von GlobalKey<FormState> zur Formularvalidierung, LayoutBuilder für responsives Design und TextEditingController zur Verarbeitung von Texteingaben. Außerdem wird der Umgang mit Tastaturüberlauf und die Beschränkung der Eingabelänge erläutert.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章讲解了如何在 Flutter 中创建和管理表单，包括布局调整、验证和数据获取。它介绍了如何使用 GlobalKey<FormState> 进行表单验证、使用 LayoutBuilder 进行响应式设计以及使用 TextEditingController 处理文本输入。它还讨论了如何处理键盘溢出和限制输入长度。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе объясняется, как создавать формы и управлять ими во Flutter, включая настройку макета, проверку и сбор данных. В нем рассматривается использование GlobalKey<FormState> для проверки формы, LayoutBuilder для адаптивного дизайна и TextEditingController для обработки ввода текста. Также обсуждается обработка переполнения клавиатуры и ограничение длины ввода.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre explique comment créer et gérer des formulaires dans Flutter, y compris les ajustements de mise en page, la validation et l'acquisition de données. Il couvre l'utilisation de GlobalKey<FormState> pour la validation de formulaire, de LayoutBuilder pour une conception réactive et de TextEditingController pour la gestion de la saisie de texte. Il aborde également la gestion du débordement du clavier et la limitation de la longueur de saisie.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、レイアウト調整、検証、データ取得など、Flutter でフォームを作成および管理する方法について説明します。フォーム検証用の GlobalKey<FormState>、レスポンシブ デザイン用の LayoutBuilder、テキスト入力の処理用の TextEditingController の使用について説明します。また、キーボード オーバーフローの処理と入力長の制限についても説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 레이아웃 조정, 유효성 검사, 데이터 수집을 포함하여 Flutter에서 양식을 만들고 관리하는 방법을 설명합니다. 양식 유효성 검사를 위한 GlobalKey<FormState>, 반응형 디자인을 위한 LayoutBuilder, 텍스트 입력 처리를 위한 TextEditingController 사용을 다룹니다. 또한 키보드 오버플로 처리 및 입력 길이 제한에 대해서도 설명합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo explica cómo crear y administrar formularios en Flutter, incluidos ajustes de diseño, validación y adquisición de datos. Cubre el uso de GlobalKey<FormState> para la validación de formularios, LayoutBuilder para diseño responsivo y TextEditingController para manejar la entrada de texto. También analiza el manejo del desbordamiento del teclado y la limitación de la longitud de entrada.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "अध्याय में फ़्लटर में फ़ॉर्म बनाने और प्रबंधित करने का तरीका बताया गया है, जिसमें लेआउट समायोजन, सत्यापन और डेटा अधिग्रहण शामिल है। इसमें फ़ॉर्म सत्यापन के लिए GlobalKey<FormState>, रिस्पॉन्सिव डिज़ाइन के लिए LayoutBuilder और टेक्स्ट इनपुट को संभालने के लिए TextEditingController का उपयोग करना शामिल है। इसमें कीबोर्ड ओवरफ़्लो को संभालने और इनपुट लंबाई को सीमित करने पर भी चर्चा की गई है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo explica como criar e gerir formulários no Flutter, incluindo ajustes de layout, validação e aquisição de dados. Abrange a utilização de GlobalKey<FormState> para validação de formulários, LayoutBuilder para design responsivo e TextEditingController para lidar com a entrada de texto. Também discute como lidar com o estouro do teclado e restringir o comprimento da entrada.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "লেআউট সামঞ্জস্য, বৈধতা এবং ডেটা অধিগ্রহণ সহ ফ্লটারে কীভাবে ফর্মগুলি তৈরি এবং পরিচালনা করতে হয় সে অধ্যায়টি ব্যাখ্যা করে। এটি ফর্মের বৈধতার জন্য GlobalKey<FormState>, প্রতিক্রিয়াশীল ডিজাইনের জন্য LayoutBuilder এবং টেক্সট ইনপুট পরিচালনার জন্য TextEditingController ব্যবহার করে। এটি কীবোর্ড ওভারফ্লো পরিচালনা এবং ইনপুট দৈর্ঘ্য সীমাবদ্ধ করার বিষয়েও আলোচনা করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يشرح الفصل كيفية إنشاء النماذج وإدارتها في Flutter، بما في ذلك تعديلات التخطيط والتحقق من الصحة والحصول على البيانات. ويغطي استخدام GlobalKey<FormState> للتحقق من صحة النموذج، وLayoutBuilder للتصميم سريع الاستجابة، وTextEditingController للتعامل مع إدخال النص. ويناقش أيضًا التعامل مع تجاوز سعة لوحة المفاتيح وتقييد طول الإدخال.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل نحوه ایجاد و مدیریت فرم‌ها در Flutter را توضیح می‌دهد، از جمله تنظیمات طرح‌بندی، اعتبارسنجی و جمع‌آوری داده‌ها. استفاده از GlobalKey<FormState> برای اعتبارسنجی فرم، LayoutBuilder برای طراحی پاسخگو و TextEditingController برای مدیریت ورودی متن را پوشش می دهد. همچنین در مورد رسیدگی به سرریز صفحه کلید و محدود کردن طول ورودی بحث می کند.",
                     },
                 },
                 // 20
@@ -3534,31 +3534,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Interacting with the device",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "The chapter provides a guide on interacting with device features in Flutter, including taking photos, working with sensors, and geolocation. It explains how to use the camera package to take pictures, initialize the CameraController, and display a live preview using FutureBuilder. It also covers sensor data handling and geolocation setup.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Das Kapitel bietet eine Anleitung zur Interaktion mit Gerätefunktionen in Flutter, einschließlich der Aufnahme von Fotos, der Arbeit mit Sensoren und der Geolokalisierung. Es wird erklärt, wie Sie mit dem Kamerapaket Bilder aufnehmen, den CameraController initialisieren und mit FutureBuilder eine Live-Vorschau anzeigen. Es behandelt auch die Handhabung von Sensordaten und die Einrichtung der Geolokalisierung.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章提供了有关如何在 Flutter 中与设备功能交互的指南，包括拍照、使用传感器和地理定位。它解释了如何使用相机包拍照、初始化 CameraController 以及使用 FutureBuilder 显示实时预览。它还介绍了传感器数据处理和地理定位设置。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В главе представлено руководство по взаимодействию с функциями устройства во Flutter, включая съемку фотографий, работу с датчиками и геолокацию. В нем объясняется, как использовать пакет камеры для съемки, инициализации CameraController и отображения предварительного просмотра в реальном времени с помощью FutureBuilder. Он также охватывает обработку данных датчиков и настройку геолокации.",
                         // French
-                        "Français": "",
+                        "Français": "Le chapitre fournit un guide sur l'interaction avec les fonctionnalités de l'appareil dans Flutter, notamment la prise de photos, l'utilisation des capteurs et la géolocalisation. Il explique comment utiliser le package Camera pour prendre des photos, initialiser CameraController et afficher un aperçu en direct à l'aide de FutureBuilder. Il couvre également la gestion des données des capteurs et la configuration de la géolocalisation.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、写真撮影、センサーの操作、地理位置情報など、Flutter でデバイス機能を操作する方法についてのガイドを提供します。カメラ パッケージを使用して写真を撮影し、CameraController を初期化し、FutureBuilder を使用してライブ プレビューを表示する方法について説明します。また、センサー データの処理と地理位置情報の設定についても説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 사진 촬영, 센서 작업, 위치정보 등 Flutter의 기기 기능과 상호작용하는 방법에 대한 가이드를 제공합니다. 카메라 패키지를 사용하여 사진을 찍고, CameraController를 초기화하고, FutureBuilder를 사용하여 실시간 미리보기를 표시하는 방법을 설명합니다. 또한 센서 데이터 처리 및 지리적 위치 설정도 다룹니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "El capítulo proporciona una guía sobre cómo interactuar con las funciones del dispositivo en Flutter, incluida la toma de fotografías, el trabajo con sensores y la geolocalización. Explica cómo usar el paquete de la cámara para tomar fotografías, inicializar CameraController y mostrar una vista previa en vivo usando FutureBuilder. También cubre el manejo de datos de sensores y la configuración de geolocalización.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय फ़्लटर में डिवाइस सुविधाओं के साथ बातचीत करने के बारे में एक गाइड प्रदान करता है, जिसमें फ़ोटो लेना, सेंसर के साथ काम करना और जियोलोकेशन शामिल है। यह बताता है कि फ़ोटो लेने, कैमराकंट्रोलर को इनिशियलाइज़ करने और FutureBuilder का उपयोग करके लाइव पूर्वावलोकन प्रदर्शित करने के लिए कैमरा पैकेज का उपयोग कैसे करें। यह सेंसर डेटा हैंडलिंग और जियोलोकेशन सेटअप को भी कवर करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "O capítulo fornece um guia sobre como interagir com as funcionalidades do dispositivo no Flutter, incluindo tirar fotografias, trabalhar com sensores e geolocalização. Explica como utilizar o pacote da câmara para tirar fotografias, inicializar o CameraController e exibir uma visualização ao vivo utilizando o FutureBuilder. Também cobre o manuseamento de dados do sensor e a configuração de geolocalização.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "অধ্যায়টি ফটো তোলা, সেন্সরগুলির সাথে কাজ করা এবং ভূ-অবস্থান সহ ফ্লটারে ডিভাইসের বৈশিষ্ট্যগুলির সাথে ইন্টারঅ্যাক্ট করার জন্য একটি নির্দেশিকা প্রদান করে৷ এটি ব্যাখ্যা করে কিভাবে ছবি তোলার জন্য ক্যামেরা প্যাকেজ ব্যবহার করতে হয়, CameraController শুরু করতে হয় এবং FutureBuilder ব্যবহার করে একটি লাইভ প্রিভিউ প্রদর্শন করতে হয়। এটি সেন্সর ডেটা হ্যান্ডলিং এবং জিওলোকেশন সেটআপও কভার করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم الفصل دليلاً حول التفاعل مع ميزات الجهاز في Flutter، بما في ذلك التقاط الصور، والعمل مع أجهزة الاستشعار، وتحديد الموقع الجغرافي. وهو يشرح كيفية استخدام حزمة الكاميرا لالتقاط الصور، وتهيئة CameraController، وعرض معاينة مباشرة باستخدام FutureBuilder. ويغطي أيضًا معالجة بيانات الاستشعار وإعداد الموقع الجغرافي.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل راهنمای تعامل با ویژگی‌های دستگاه در Flutter، از جمله عکس‌برداری، کار با حسگرها و موقعیت جغرافیایی را ارائه می‌کند. نحوه استفاده از بسته دوربین برای گرفتن عکس، مقداردهی اولیه CameraController و نمایش پیش نمایش زنده با استفاده از FutureBuilder را توضیح می دهد. همچنین مدیریت داده های حسگر و تنظیم موقعیت جغرافیایی را پوشش می دهد.",
                     },
                 },
                 // 21
