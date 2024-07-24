@@ -3566,31 +3566,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Widgets showcase",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter showcases a variety of widgets including Material, Cupertino, and community widgets. It introduces Flutter Hooks for more efficient state management in stateful widgets. The chapter also discusses the use of StateNotifier as an alternative to ChangeNotifier for state management. Additionally, it covers the implementation of various widgets like Drawer, BottomNavigationBar, TabBar, Stepper, DataTable, CupertinoDatePicker, CupertinoActionSheet, and CupertinoSegmentedControl, providing insights into their functionalities and usage in Flutter app development.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel werden verschiedene Widgets vorgestellt, darunter Material-, Cupertino- und Community-Widgets. Es stellt Flutter Hooks für eine effizientere Statusverwaltung in statusbehafteten Widgets vor. Das Kapitel erörtert auch die Verwendung von StateNotifier als Alternative zu ChangeNotifier für die Statusverwaltung. Darüber hinaus behandelt es die Implementierung verschiedener Widgets wie Drawer, BottomNavigationBar, TabBar, Stepper, DataTable, CupertinoDatePicker, CupertinoActionSheet und CupertinoSegmentedControl und bietet Einblicke in ihre Funktionen und Verwendung bei der Entwicklung von Flutter-Apps.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章展示了各种小部件，包括 Material、Cupertino 和社区小部件。它介绍了 Flutter Hooks，以便在有状态小部件中更有效地管理状态。本章还讨论了使用 StateNotifier 作为 ChangeNotifier 的替代方案进行状态管理。此外，它还介绍了各种小部件的实现，例如 Drawer、BottomNavigationBar、TabBar、Stepper、DataTable、CupertinoDatePicker、CupertinoActionSheet 和 CupertinoSegmentedControl，深入了解了它们在 Flutter 应用开发中的功能和用法。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе представлены различные виджеты, включая виджеты Material, Cupertino и виджеты сообщества. Он представляет Flutter Hooks для более эффективного управления состоянием в виджетах с состоянием. В главе также обсуждается использование StateNotifier в качестве альтернативы ChangeNotifier для управления состоянием. Кроме того, он охватывает реализацию различных виджетов, таких как Drawer, BottomNavigationBar, TabBar, Stepper, DataTable, CupertinoDatePicker, CupertinoActionSheet и CupertinoSegmentedControl, предоставляя представление об их функциях и использовании при разработке приложений Flutter.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente une variété de widgets, notamment les widgets Material, Cupertino et communautaire. Il introduit Flutter Hooks pour une gestion plus efficace de l'état dans les widgets avec état. Le chapitre traite également de l'utilisation de StateNotifier comme alternative à ChangeNotifier pour la gestion des états. De plus, il couvre la mise en œuvre de divers widgets tels que Drawer, BottomNavigationBar, TabBar, Stepper, DataTable, CupertinoDatePicker, CupertinoActionSheet et CupertinoSegmentedControl, fournissant un aperçu de leurs fonctionnalités et de leur utilisation dans le développement d'applications Flutter.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Material、Cupertino、コミュニティ ウィジェットなど、さまざまなウィジェットを紹介します。ステートフル ウィジェットでより効率的な状態管理を行うための Flutter Hooks を紹介します。また、状態管理に ChangeNotifier の代わりに StateNotifier を使用する方法についても説明します。さらに、Drawer、BottomNavigationBar、TabBar、Stepper、DataTable、CupertinoDatePicker、CupertinoActionSheet、CupertinoSegmentedControl などのさまざまなウィジェットの実装についても説明し、Flutter アプリ開発におけるそれらの機能と使用方法について詳しく説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Material, Cupertino, 커뮤니티 위젯을 포함한 다양한 위젯을 소개합니다. 상태 저장 위젯에서 보다 효율적인 상태 관리를 위해 Flutter Hooks를 도입했습니다. 또한 이 장에서는 상태 관리를 위해 ChangeNotifier 대신 StateNotifier를 사용하는 방법에 대해 설명합니다. 또한 Drawer, BottomNavigationBar, TabBar, Stepper, DataTable, CupertinoDatePicker, CupertinoActionSheet 및 CupertinoSegmentedControl과 같은 다양한 위젯의 구현을 다루며 Flutter 앱 개발에서 해당 위젯의 기능과 사용법에 대한 통찰력을 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo muestra una variedad de widgets que incluyen Material, Cupertino y widgets comunitarios. Introduce Flutter Hooks para una gestión del estado más eficiente en widgets con estado. El capítulo también analiza el uso de StateNotifier como alternativa a ChangeNotifier para la gestión del estado. Además, cubre la implementación de varios widgets como Drawer, BottomNavigationBar, TabBar, Stepper, DataTable, CupertinoDatePicker, CupertinoActionSheet y CupertinoSegmentedControl, brindando información sobre sus funcionalidades y uso en el desarrollo de aplicaciones Flutter.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय मटेरियल, क्यूपर्टिनो और समुदाय विजेट सहित कई प्रकार के विजेट प्रदर्शित करता है। यह स्टेटफुल विजेट में अधिक कुशल स्टेट मैनेजमेंट के लिए फ़्लटर हुक्स का परिचय देता है। अध्याय स्टेट मैनेजमेंट के लिए चेंजनोटिफ़ायर के विकल्प के रूप में स्टेटनोटिफ़ायर के उपयोग पर भी चर्चा करता है। इसके अतिरिक्त, यह ड्रॉअर, बॉटमनेविगेशनबार, टैबबार, स्टेपर, डेटाटेबल, क्यूपर्टिनोडेटपिकर, क्यूपर्टिनोएक्शनशीट और क्यूपर्टिनोसेगमेंटेडकंट्रोल जैसे विभिन्न विजेट के कार्यान्वयन को कवर करता है, जो फ़्लटर ऐप डेवलपमेंट में उनकी कार्यक्षमता और उपयोग के बारे में जानकारी प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta uma variedade de widgets, incluindo widgets de Material, Cupertino e comunidade. Apresenta Flutter Hooks para uma gestão de estado mais eficiente em widgets com estado. O capítulo discute também a utilização do StateNotifier como alternativa ao ChangeNotifier para a gestão de estado. Além disso, cobre a implementação de vários widgets como Drawer, BottomNavigationBar, TabBar, Stepper, DataTable, CupertinoDatePicker, CupertinoActionSheet e CupertinoSegmentedControl, fornecendo insights sobre as suas funcionalidades e utilização no desenvolvimento de aplicações Flutter.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি ম্যাটেরিয়াল, কিউপারটিনো এবং কমিউনিটি উইজেট সহ বিভিন্ন উইজেট প্রদর্শন করে। এটি রাষ্ট্রীয় উইজেটগুলিতে আরও দক্ষ রাষ্ট্র পরিচালনার জন্য ফ্লাটার হুক প্রবর্তন করে। অধ্যায়ে রাষ্ট্র পরিচালনার জন্য ChangeNotifier-এর বিকল্প হিসেবে StateNotifier-এর ব্যবহার নিয়েও আলোচনা করা হয়েছে। উপরন্তু, এটি বিভিন্ন উইজেট যেমন ড্রয়ার, বটম নেভিগেশনবার, ট্যাববার, স্টেপার, ডেটা টেবল, কিউপারটিনোডেটপিকার, কিউপারটিনোঅ্যাকশনশিট এবং কিউপারটিনো সেগমেন্টেড কন্ট্রোলের বাস্তবায়ন কভার করে, ফ্লটার অ্যাপ ডেভেলপমেন্টে তাদের কার্যকারিতা এবং ব্যবহার সম্পর্কে অন্তর্দৃষ্টি প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يعرض هذا الفصل مجموعة متنوعة من عناصر واجهة المستخدم بما في ذلك عناصر واجهة المستخدم الخاصة بالمواد وكوبرتينو والمجتمع. يقدم Flutter Hooks لإدارة الحالة بشكل أكثر كفاءة في عناصر واجهة المستخدم ذات الحالة. يناقش الفصل أيضًا استخدام StateNotifier كبديل لـ ChangeNotifier لإدارة الحالة. بالإضافة إلى ذلك، فهو يغطي تنفيذ عناصر واجهة المستخدم المختلفة مثل Drawer وBottomNavigationBar وTabBar وStepper وDataTable وCupertinoDatePicker وCupertinoActionSheet وCupertinoSegmentedControl، مما يوفر رؤى حول وظائفها واستخدامها في تطوير تطبيق Flutter.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل انواع ویجت‌ها از جمله مواد، کوپرتینو و ابزارک‌های جامعه را به نمایش می‌گذارد. Flutter Hooks را برای مدیریت کارآمدتر حالت در ویجت های حالت دار معرفی می کند. این فصل همچنین استفاده از StateNotifier را به عنوان جایگزینی برای ChangeNotifier برای مدیریت حالت مورد بحث قرار می دهد. علاوه بر این، اجرای ویجت‌های مختلف مانند Drawer، BottomNavigationBar، TabBar، Stepper، DataTable، CupertinoDatePicker، CupertinoActionSheet و CupertinoSegmentedControl را پوشش می‌دهد و بینش‌هایی در مورد عملکردها و کاربرد آنها در توسعه برنامه Flutter ارائه می‌کند.",
                     },
                 },
                 // 22
@@ -3598,31 +3598,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Using Firebase with Flutter",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on integrating Firebase with Flutter, specifically utilizing Firebase AdMob for ad banners in Flutter apps. It explains setting up Firebase with Flutter, utilizing Firestore for real-time updates, implementing authentication strategies, and configuring Firebase for Android and iOS platforms. The chapter also delves into using Firestore for safe read/update operations with transactions, sending push notifications through Flutter, and leveraging Firestore's robust backend services for app development.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um die Integration von Firebase mit Flutter, insbesondere um die Nutzung von Firebase AdMob für Werbebanner in Flutter-Apps. Es erklärt die Einrichtung von Firebase mit Flutter, die Nutzung von Firestore für Echtzeit-Updates, die Implementierung von Authentifizierungsstrategien und die Konfiguration von Firebase für Android- und iOS-Plattformen. Das Kapitel befasst sich auch mit der Nutzung von Firestore für sichere Lese-/Aktualisierungsvorgänge mit Transaktionen, dem Senden von Push-Benachrichtigungen über Flutter und der Nutzung der robusten Backend-Dienste von Firestore für die App-Entwicklung.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍如何将 Firebase 与 Flutter 集成，特别是如何在 Flutter 应用中使用 Firebase AdMob 来投放广告横幅。本章介绍了如何使用 Flutter 设置 Firebase、如何使用 Firestore 进行实时更新、实施身份验证策略以及为 Android 和 iOS 平台配置 Firebase。本章还深入介绍了如何使用 Firestore 通过事务进行安全的读取/更新操作、通过 Flutter 发送推送通知以及利用 Firestore 强大的后端服务进行应用开发。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется интеграции Firebase с Flutter, в частности использованию Firebase AdMob для рекламных баннеров в приложениях Flutter. В нем объясняется настройка Firebase с Flutter, использование Firestore для обновлений в реальном времени, реализация стратегий аутентификации и настройка Firebase для платформ Android и iOS. В главе также рассматривается использование Firestore для безопасных операций чтения/обновления транзакций, отправки push-уведомлений через Flutter и использования надежных серверных служб Firestore для разработки приложений.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur l'intégration de Firebase avec Flutter, en particulier sur l'utilisation de Firebase AdMob pour les bannières publicitaires dans les applications Flutter. Il explique la configuration de Firebase avec Flutter, l'utilisation de Firestore pour les mises à jour en temps réel, la mise en œuvre de stratégies d'authentification et la configuration de Firebase pour les plates-formes Android et iOS. Le chapitre aborde également l'utilisation de Firestore pour des opérations de lecture/mise à jour sécurisées avec des transactions, l'envoi de notifications push via Flutter et l'exploitation des services backend robustes de Firestore pour le développement d'applications.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Firebase と Flutter の統合、特に Flutter アプリの広告バナーに Firebase AdMob を利用することに焦点を当てています。Flutter での Firebase の設定、リアルタイム更新のための Firestore の利用、認証戦略の実装、Android および iOS プラットフォーム向けの Firebase の構成について説明します。また、この章では、トランザクションでの安全な読み取り/更新操作のための Firestore の使用、Flutter を介したプッシュ通知の送信、アプリ開発のための Firestore の堅牢なバックエンド サービスの活用についても詳しく説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Firebase를 Flutter와 통합하는 방법, 특히 Flutter 앱의 광고 배너에 Firebase AdMob을 활용하는 방법에 중점을 둡니다. Flutter로 Firebase를 설정하고, 실시간 업데이트를 위해 Firestore를 활용하고, 인증 전략을 구현하고, Android 및 iOS 플랫폼용으로 Firebase를 구성하는 방법을 설명합니다. 또한 이 장에서는 트랜잭션을 통한 안전한 읽기/업데이트 작업을 위해 Firestore를 사용하고, Flutter를 통해 푸시 알림을 보내고, 앱 개발을 위해 Firestore의 강력한 백엔드 서비스를 활용하는 방법을 살펴봅니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en la integración de Firebase con Flutter, específicamente en el uso de Firebase AdMob para banners publicitarios en aplicaciones de Flutter. Explica cómo configurar Firebase con Flutter, utilizar Firestore para actualizaciones en tiempo real, implementar estrategias de autenticación y configurar Firebase para plataformas Android e iOS. El capítulo también profundiza en el uso de Firestore para operaciones seguras de lectura/actualización con transacciones, el envío de notificaciones automáticas a través de Flutter y el aprovechamiento de los sólidos servicios backend de Firestore para el desarrollo de aplicaciones.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय फ़्लटर के साथ फ़ायरबेस को एकीकृत करने पर केंद्रित है, विशेष रूप से फ़्लटर ऐप में विज्ञापन बैनर के लिए फ़ायरबेस AdMob का उपयोग करना। यह फ़्लटर के साथ फ़ायरबेस को सेट अप करने, रीयल-टाइम अपडेट के लिए फ़ायरस्टोर का उपयोग करने, प्रमाणीकरण रणनीतियों को लागू करने और Android और iOS प्लेटफ़ॉर्म के लिए फ़ायरबेस को कॉन्फ़िगर करने के बारे में बताता है। यह अध्याय लेन-देन के साथ सुरक्षित पढ़ने/अपडेट संचालन के लिए फ़ायरस्टोर का उपयोग करने, फ़्लटर के माध्यम से पुश सूचनाएँ भेजने और ऐप विकास के लिए फ़ायरस्टोर की मज़बूत बैकएंड सेवाओं का लाभ उठाने के बारे में भी बताता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se na integração do Firebase com o Flutter, utilizando especificamente o Firebase AdMob para banners de anúncios em aplicações Flutter. Explica a configuração do Firebase com Flutter, a utilização do Firestore para atualizações em tempo real, a implementação de estratégias de autenticação e a configuração do Firebase para as plataformas Android e iOS. O capítulo aborda ainda a utilização do Firestore para operações de leitura/atualização seguras com transações, o envio de notificações push através do Flutter e o aproveitamento dos robustos serviços de back-end do Firestore para o desenvolvimento de aplicações.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি Flutter-এর সাথে Firebase সংহত করার উপর ফোকাস করে, বিশেষ করে Flutter অ্যাপে বিজ্ঞাপন ব্যানারের জন্য Firebase AdMob ব্যবহার করে। এটি ফ্লটারের সাথে ফায়ারবেস সেট আপ করা, রিয়েল-টাইম আপডেটের জন্য ফায়ারস্টোর ব্যবহার করা, প্রমাণীকরণ কৌশল প্রয়োগ করা এবং Android এবং iOS প্ল্যাটফর্মের জন্য Firebase কনফিগার করা ব্যাখ্যা করে। অধ্যায়টি লেনদেনের সাথে নিরাপদ পঠন/আপডেট ক্রিয়াকলাপের জন্য ফায়ারস্টোর ব্যবহার করে, ফ্লটারের মাধ্যমে পুশ বিজ্ঞপ্তি পাঠানো এবং অ্যাপ ডেভেলপমেন্টের জন্য ফায়ারস্টোরের শক্তিশালী ব্যাকএন্ড পরিষেবাগুলিকে কাজে লাগানোর বিষয়েও আলোচনা করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على دمج Firebase مع Flutter، وتحديدًا استخدام Firebase AdMob لإعلانات البانر الإعلانية في تطبيقات Flutter. وهو يشرح إعداد Firebase باستخدام Flutter، واستخدام Firestore للتحديثات في الوقت الفعلي، وتنفيذ إستراتيجيات المصادقة، وتكوين Firebase لمنصات Android وiOS. يتطرق الفصل أيضًا إلى استخدام Firestore لعمليات القراءة/التحديث الآمنة للمعاملات، وإرسال إشعارات الدفع من خلال Flutter، والاستفادة من خدمات الواجهة الخلفية القوية لـ Firestore لتطوير التطبيقات.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر ادغام Firebase با Flutter، به طور خاص استفاده از Firebase AdMob برای بنرهای تبلیغاتی در برنامه‌های Flutter تمرکز دارد. راه‌اندازی Firebase با Flutter، استفاده از Firestore برای به‌روزرسانی‌های هم‌زمان، پیاده‌سازی استراتژی‌های احراز هویت، و پیکربندی Firebase برای پلتفرم‌های Android و iOS را توضیح می‌دهد. این فصل همچنین به استفاده از Firestore برای عملیات خواندن/به‌روزرسانی ایمن همراه با تراکنش‌ها، ارسال اعلان‌های فشار از طریق Flutter، و استفاده از خدمات پشتیبانی قوی Firestore برای توسعه برنامه می‌پردازد.",
                     },
                 },
                 // 23
@@ -3630,31 +3630,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Publishing packages and apps",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on the process of publishing packages and apps in Dart, emphasizing the importance of documenting code effectively using triple slashes. It outlines the steps involved in creating, documenting, reviewing, and publishing packages on pub.dev, providing guidance on maintaining code documentation parallel to the code itself. Additionally, it touches on Continuous Integration and Continuous Delivery (CI/CD) processes, the significance of splash screens for iOS and Android apps, and the use of GitHub Actions for setting up CI/CD workflows in Dart and Flutter projects.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um den Prozess der Veröffentlichung von Paketen und Apps in Dart und betont, wie wichtig es ist, Code mithilfe von drei Schrägstrichen effektiv zu dokumentieren. Es beschreibt die Schritte zum Erstellen, Dokumentieren, Überprüfen und Veröffentlichen von Paketen auf pub.dev und bietet Anleitungen zum Verwalten der Codedokumentation parallel zum Code selbst. Darüber hinaus werden Continuous Integration- und Continuous Delivery-Prozesse (CI/CD), die Bedeutung von Begrüßungsbildschirmen für iOS- und Android-Apps und die Verwendung von GitHub Actions zum Einrichten von CI/CD-Workflows in Dart- und Flutter-Projekten behandelt.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍在 Dart 中发布软件包和应用程序的过程，强调使用三斜杠有效记录代码的重要性。它概述了在 pub.dev 上创建、记录、审查和发布软件包所涉及的步骤，并提供了与代码本身并行维护代码文档的指导。此外，它还涉及持续集成和持续交付 (CI/CD) 流程、启动画面对 iOS 和 Android 应用程序的重要性，以及使用 GitHub Actions 在 Dart 和 Flutter 项目中设置 CI/CD 工作流程。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется процессу публикации пакетов и приложений в Dart, при этом подчеркивается важность эффективного документирования кода с использованием тройной косой черты. В нем описываются шаги, необходимые для создания, документирования, проверки и публикации пакетов на pub.dev, а также предоставляются рекомендации по ведению документации по коду параллельно с самим кодом. Кроме того, он затрагивает процессы непрерывной интеграции и непрерывной доставки (CI/CD), значение заставок для приложений iOS и Android, а также использование действий GitHub для настройки рабочих процессов CI/CD в проектах Dart и Flutter.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur le processus de publication de packages et d'applications dans Dart, en soulignant l'importance de documenter efficacement le code à l'aide de triples barres obliques. Il décrit les étapes impliquées dans la création, la documentation, la révision et la publication de packages sur pub.dev, fournissant des conseils sur la maintenance de la documentation du code parallèle au code lui-même. De plus, il aborde les processus d'intégration continue et de livraison continue (CI/CD), l'importance des écrans de démarrage pour les applications iOS et Android et l'utilisation des actions GitHub pour configurer les flux de travail CI/CD dans les projets Dart et Flutter.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Dart でパッケージとアプリを公開するプロセスに焦点を当て、3 つのスラッシュを使用してコードを効果的にドキュメント化することの重要性を強調します。pub.dev でパッケージを作成、ドキュメント化、レビュー、公開する手順の概要を説明し、コード自体と並行してコード ドキュメントを維持するためのガイダンスを提供します。さらに、継続的インテグレーションと継続的デリバリー (CI/CD) プロセス、iOS および Android アプリのスプラッシュ スクリーンの重要性、Dart および Flutter プロジェクトで CI/CD ワークフローを設定するための GitHub Actions の使用についても触れます。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Dart에서 패키지와 앱을 게시하는 프로세스에 중점을 두고 삼중 슬래시를 사용하여 코드를 효과적으로 문서화하는 것의 중요성을 강조합니다. pub.dev에서 패키지 생성, 문서화, 검토 및 게시와 관련된 단계를 간략하게 설명하고 코드 자체와 병행하여 코드 문서를 유지 관리하는 방법에 대한 지침을 제공합니다. 또한 CI/CD(지속적 통합 및 지속적 전달) 프로세스, iOS 및 Android 앱용 스플래시 화면의 중요성, Dart 및 Flutter 프로젝트에서 CI/CD 워크플로 설정을 위한 GitHub Actions 사용에 대해 다룹니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en el proceso de publicación de paquetes y aplicaciones en Dart, enfatizando la importancia de documentar el código de manera efectiva mediante barras triples. Describe los pasos involucrados en la creación, documentación, revisión y publicación de paquetes en pub.dev, brindando orientación sobre cómo mantener la documentación del código paralela al código mismo. Además, aborda los procesos de integración continua y entrega continua (CI/CD), la importancia de las pantallas de presentación para aplicaciones de iOS y Android, y el uso de acciones de GitHub para configurar flujos de trabajo de CI/CD en proyectos de Dart y Flutter.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय डार्ट में पैकेज और ऐप प्रकाशित करने की प्रक्रिया पर ध्यान केंद्रित करता है, ट्रिपल स्लैश का उपयोग करके प्रभावी ढंग से कोड का दस्तावेज़ीकरण करने के महत्व पर जोर देता है। यह pub.dev पर पैकेज बनाने, उनका दस्तावेज़ीकरण करने, समीक्षा करने और प्रकाशित करने में शामिल चरणों की रूपरेखा तैयार करता है, कोड के समानांतर कोड दस्तावेज़ीकरण बनाए रखने पर मार्गदर्शन प्रदान करता है। इसके अतिरिक्त, यह निरंतर एकीकरण और निरंतर वितरण (CI/CD) प्रक्रियाओं, iOS और Android ऐप के लिए स्प्लैश स्क्रीन के महत्व और डार्ट और फ़्लटर प्रोजेक्ट में CI/CD वर्कफ़्लो सेट करने के लिए GitHub क्रियाओं के उपयोग को छूता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo foca o processo de publicação de pacotes e aplicações no Dart, enfatizando a importância de documentar o código de forma eficaz, utilizando barras triplas. Descreve as etapas envolvidas na criação, documentação, revisão e publicação de pacotes no pub.dev, fornecendo orientações sobre como manter a documentação do código paralela ao próprio código. Além disso, aborda os processos de integração contínua e entrega contínua (CI/CD), a importância dos ecrãs iniciais para aplicações iOS e Android e a utilização de ações do GitHub para configurar fluxos de trabalho de CI/CD em projetos Dart e Flutter.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি ডার্টে প্যাকেজ এবং অ্যাপ প্রকাশ করার প্রক্রিয়ার উপর ফোকাস করে, কার্যকরভাবে ট্রিপল স্ল্যাশ ব্যবহার করে ডকুমেন্টিং কোডের গুরুত্বের উপর জোর দেয়। এটি pub.dev-এ প্যাকেজগুলি তৈরি, নথিভুক্তকরণ, পর্যালোচনা এবং প্রকাশের সাথে জড়িত পদক্ষেপগুলির রূপরেখা দেয়, কোডের সমান্তরাল কোড ডকুমেন্টেশন বজায় রাখার বিষয়ে নির্দেশিকা প্রদান করে। উপরন্তু, এটি কন্টিনিউয়াস ইন্টিগ্রেশন এবং কন্টিনিউয়াস ডেলিভারি (CI/CD) প্রক্রিয়া, iOS এবং Android অ্যাপের জন্য স্প্ল্যাশ স্ক্রীনের তাৎপর্য এবং ডার্ট এবং ফ্লাটার প্রোজেক্টে CI/CD ওয়ার্কফ্লো সেট আপ করার জন্য গিটহাব অ্যাকশনের ব্যবহারকে স্পর্শ করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على عملية نشر الحزم والتطبيقات في Dart، مع التركيز على أهمية توثيق التعليمات البرمجية بشكل فعال باستخدام الخطوط المائلة الثلاثية. وهو يوضح الخطوات المتبعة في إنشاء الحزم وتوثيقها ومراجعتها ونشرها على pub.dev، مع توفير إرشادات حول الحفاظ على وثائق التعليمات البرمجية بالتوازي مع التعليمات البرمجية نفسها. بالإضافة إلى ذلك، فإنه يتطرق إلى عمليات التكامل المستمر والتسليم المستمر (CI/CD)، وأهمية شاشات البداية لتطبيقات iOS وAndroid، واستخدام إجراءات GitHub لإعداد سير عمل CI/CD في مشاريع Dart وFlutter.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر فرآیند انتشار بسته‌ها و برنامه‌ها در دارت تمرکز دارد و بر اهمیت مستندسازی کد به‌طور مؤثر با استفاده از اسلش‌های سه‌گانه تأکید می‌کند. این به تشریح مراحل مربوط به ایجاد، مستندسازی، بازبینی و انتشار بسته‌ها در pub.dev می‌پردازد و راهنمایی‌هایی را برای نگهداری اسناد کد به موازات خود کد ارائه می‌دهد. علاوه بر این، فرآیندهای یکپارچه سازی مداوم و تحویل مداوم (CI/CD)، اهمیت صفحه نمایش برای برنامه های iOS و Android، و استفاده از GitHub Actions برای تنظیم گردش های کاری CI/CD در پروژه های Dart و Flutter را مورد بررسی قرار می دهد.",
                     },
                 },
                 // 24
@@ -3662,95 +3662,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Complete Flutter project example",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter provides a comprehensive example of a complete Flutter project focusing on user authentication and login functionality using Firebase. The chapter covers essential aspects such as folder structure organization, state management with blocs, model classes, localization implementation, building UI components, and testing strategies. It emphasizes the importance of writing tests early in the development cycle and offers insights on structuring test folders for better code organization. The chapter showcases the use of repositories, authentication blocs, and widgets to create a seamless user experience while adhering to best practices for code structure and testing efficiency.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel bietet ein umfassendes Beispiel für ein vollständiges Flutter-Projekt mit Schwerpunkt auf Benutzerauthentifizierung und Anmeldefunktionalität mit Firebase. Das Kapitel behandelt wichtige Aspekte wie die Organisation der Ordnerstruktur, Statusverwaltung mit Blöcken, Modellklassen, Lokalisierungsimplementierung, Erstellen von UI-Komponenten und Teststrategien. Es betont die Bedeutung des Schreibens von Tests zu Beginn des Entwicklungszyklus und bietet Einblicke in die Strukturierung von Testordnern für eine bessere Codeorganisation. Das Kapitel zeigt die Verwendung von Repositories, Authentifizierungsblöcken und Widgets, um ein nahtloses Benutzererlebnis zu schaffen und gleichzeitig Best Practices für Codestruktur und Testeffizienz einzuhalten.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章提供了一个完整的 Flutter 项目示例，重点介绍使用 Firebase 的用户身份验证和登录功能。本章涵盖了文件夹结构组织、使用 blocs 进行状态管理、模型类、本地化实现、构建 UI 组件和测试策略等重要方面。它强调了在开发周期早期编写测试的重要性，并提供了有关构建测试文件夹以更好地组织代码的见解。本章展示了如何使用存储库、身份验证 blocs 和小部件来创建无缝的用户体验，同时遵循代码结构和测试效率的最佳实践。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе представлен подробный пример полного проекта Flutter, ориентированного на аутентификацию пользователей и функции входа в систему с использованием Firebase. В главе рассматриваются такие важные аспекты, как организация структуры папок, управление состоянием с помощью блоков, классы моделей, реализация локализации, создание компонентов пользовательского интерфейса и стратегии тестирования. Он подчеркивает важность написания тестов на ранних этапах цикла разработки и предлагает идеи по структурированию папок тестов для лучшей организации кода. В главе демонстрируется использование репозиториев, блоков аутентификации и виджетов для обеспечения бесперебойного взаимодействия с пользователем при соблюдении лучших практик в отношении структуры кода и эффективности тестирования.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre fournit un exemple complet d'un projet Flutter complet axé sur l'authentification des utilisateurs et la fonctionnalité de connexion à l'aide de Firebase. Le chapitre couvre des aspects essentiels tels que l'organisation de la structure des dossiers, la gestion de l'état avec des blocs, les classes de modèles, la mise en œuvre de la localisation, la création de composants d'interface utilisateur et les stratégies de test. Il souligne l'importance d'écrire des tests dès le début du cycle de développement et offre des informations sur la structuration des dossiers de tests pour une meilleure organisation du code. Le chapitre présente l'utilisation de référentiels, de blocs d'authentification et de widgets pour créer une expérience utilisateur transparente tout en adhérant aux meilleures pratiques en matière de structure de code et d'efficacité des tests.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Firebase を使用したユーザー認証とログイン機能に焦点を当てた完全な Flutter プロジェクトの包括的な例を示します。この章では、フォルダー構造の編成、ブロックによる状態管理、モデル クラス、ローカリゼーションの実装、UI コンポーネントの構築、テスト戦略などの重要な側面について説明します。開発サイクルの早い段階でテストを記述することの重要性を強調し、コード編成を改善するためのテスト フォルダーの構造化に関する洞察を提供します。この章では、コード構造とテスト効率のベスト プラクティスに準拠しながら、リポジトリ、認証ブロック、ウィジェットを使用してシームレスなユーザー エクスペリエンスを作成する方法を紹介します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Firebase를 사용한 사용자 인증 및 로그인 기능에 초점을 맞춘 전체 Flutter 프로젝트의 포괄적인 예를 제공합니다. 이 장에서는 폴더 구조 구성, 블록을 사용한 상태 관리, 모델 클래스, 지역화 구현, UI 구성 요소 구축 및 테스트 전략과 같은 필수 측면을 다룹니다. 개발 주기 초기에 테스트 작성의 중요성을 강조하고 더 나은 코드 구성을 위한 테스트 폴더 구조화에 대한 통찰력을 제공합니다. 이 장에서는 리포지토리, 인증 블록 및 위젯을 사용하여 코드 구조 및 테스트 효율성에 대한 모범 사례를 준수하면서 원활한 사용자 경험을 만드는 방법을 보여줍니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo proporciona un ejemplo completo de un proyecto completo de Flutter que se centra en la autenticación de usuarios y la funcionalidad de inicio de sesión mediante Firebase. El capítulo cubre aspectos esenciales como la organización de la estructura de carpetas, la gestión del estado con bloques, las clases de modelos, la implementación de la localización, la creación de componentes de la interfaz de usuario y las estrategias de prueba. Enfatiza la importancia de escribir pruebas en las primeras etapas del ciclo de desarrollo y ofrece información sobre cómo estructurar las carpetas de pruebas para una mejor organización del código. El capítulo muestra el uso de repositorios, bloques de autenticación y widgets para crear una experiencia de usuario perfecta y al mismo tiempo cumplir con las mejores prácticas para la estructura del código y la eficiencia de las pruebas.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय फायरबेस का उपयोग करके उपयोगकर्ता प्रमाणीकरण और लॉगिन कार्यक्षमता पर ध्यान केंद्रित करने वाले एक पूर्ण फ़्लटर प्रोजेक्ट का एक व्यापक उदाहरण प्रदान करता है। अध्याय फ़ोल्डर संरचना संगठन, ब्लॉक के साथ राज्य प्रबंधन, मॉडल कक्षाएं, स्थानीयकरण कार्यान्वयन, UI घटकों का निर्माण और परीक्षण रणनीतियों जैसे आवश्यक पहलुओं को शामिल करता है। यह विकास चक्र में प्रारंभिक परीक्षण लिखने के महत्व पर जोर देता है और बेहतर कोड संगठन के लिए परीक्षण फ़ोल्डरों की संरचना पर अंतर्दृष्टि प्रदान करता है। अध्याय कोड संरचना और परीक्षण दक्षता के लिए सर्वोत्तम प्रथाओं का पालन करते हुए एक सहज उपयोगकर्ता अनुभव बनाने के लिए रिपॉजिटरी, प्रमाणीकरण ब्लॉक और विजेट के उपयोग को प्रदर्शित करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo fornece um exemplo abrangente de um projeto Flutter completo com foco na autenticação de utilizadores e na funcionalidade de login utilizando o Firebase. O capítulo aborda aspetos essenciais como a organização da estrutura de pastas, a gestão de estado com blocos, as classes de modelo, a implementação de localização, a construção de componentes de UI e as estratégias de teste. Realça a importância de escrever testes no início do ciclo de desenvolvimento e oferece insights sobre a estruturação de pastas de testes para uma melhor organização do código. O capítulo mostra a utilização de repositórios, blocos de autenticação e widgets para criar uma experiência de utilizador perfeita, ao mesmo tempo que segue as melhores práticas para a estrutura de código e eficiência de teste.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি ফায়ারবেস ব্যবহার করে ব্যবহারকারীর প্রমাণীকরণ এবং লগইন কার্যকারিতার উপর ফোকাস করে একটি সম্পূর্ণ ফ্লাটার প্রকল্পের একটি বিস্তৃত উদাহরণ প্রদান করে। অধ্যায়টি ফোল্ডার গঠন সংগঠন, ব্লকের সাথে রাষ্ট্র পরিচালনা, মডেল ক্লাস, স্থানীয়করণ বাস্তবায়ন, UI উপাদান নির্মাণ এবং পরীক্ষার কৌশলগুলির মতো প্রয়োজনীয় দিকগুলি কভার করে। এটি উন্নয়ন চক্রের প্রথম দিকে পরীক্ষা লেখার গুরুত্বের উপর জোর দেয় এবং আরও ভাল কোড সংগঠনের জন্য টেস্ট ফোল্ডার গঠনের অন্তর্দৃষ্টি প্রদান করে। অধ্যায়টি কোড স্ট্রাকচার এবং টেস্টিং দক্ষতার জন্য সর্বোত্তম অনুশীলনগুলি মেনে চলার সময় একটি বিরামহীন ব্যবহারকারীর অভিজ্ঞতা তৈরি করতে সংগ্রহস্থল, প্রমাণীকরণ ব্লক এবং উইজেটগুলির ব্যবহার প্রদর্শন করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل مثالاً شاملاً لمشروع Flutter الكامل الذي يركز على مصادقة المستخدم ووظيفة تسجيل الدخول باستخدام Firebase. يغطي الفصل الجوانب الأساسية مثل تنظيم هيكل المجلد، وإدارة الحالة مع الكتل، وفئات النماذج، وتنفيذ الترجمة، وبناء مكونات واجهة المستخدم، واستراتيجيات الاختبار. ويؤكد على أهمية كتابة الاختبارات في وقت مبكر من دورة التطوير ويقدم رؤى حول هيكلة مجلدات الاختبار لتنظيم التعليمات البرمجية بشكل أفضل. يعرض الفصل استخدام المستودعات وكتل المصادقة والأدوات لإنشاء تجربة مستخدم سلسة مع الالتزام بأفضل الممارسات لبنية التعليمات البرمجية وكفاءة الاختبار.",
                         // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 25
-                {
-                    "ChapterName": "Dart Appendix",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 26
-                {
-                    "ChapterName": "Flutter Appendix",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل یک مثال جامع از یک پروژه Flutter کامل با تمرکز بر احراز هویت کاربر و عملکرد ورود به سیستم با استفاده از Firebase ارائه می دهد. این فصل جنبه‌های ضروری مانند سازماندهی ساختار پوشه، مدیریت حالت با بلوک‌ها، کلاس‌های مدل، پیاده‌سازی محلی‌سازی، ساخت اجزای رابط کاربری و استراتژی‌های آزمایش را پوشش می‌دهد. این بر اهمیت نوشتن تست‌ها در اوایل چرخه توسعه تاکید می‌کند و بینش‌هایی در مورد ساختار پوشه‌های تست برای سازماندهی بهتر کد ارائه می‌دهد. این فصل استفاده از مخازن، بلوک‌های احراز هویت، و ویجت‌ها را برای ایجاد یک تجربه کاربری یکپارچه در حالی که به بهترین شیوه‌ها برای ساختار کد و کارایی آزمایش پایبند است، نشان می‌دهد.",
                     },
                 },
             ],
@@ -3890,31 +3826,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Getting Started",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter introduces Flutter as a versatile toolkit for building cross-platform apps using Dart. It guides readers through setting up the development environment, understanding Flutter architecture layers, and utilizing Flutter Doctor for managing dependencies. The chapter emphasizes the ease of app development with Flutter's hot reload feature and highlights its suitability for both new and experienced developers. It encourages further exploration of official documentation and community resources for comprehensive learning.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird Flutter als vielseitiges Toolkit zum Erstellen plattformübergreifender Apps mit Dart vorgestellt. Es führt die Leser durch die Einrichtung der Entwicklungsumgebung, das Verständnis der Flutter-Architekturebenen und die Verwendung von Flutter Doctor zur Verwaltung von Abhängigkeiten. Das Kapitel betont die einfache App-Entwicklung mit Flutters Hot-Reload-Funktion und hebt ihre Eignung sowohl für neue als auch für erfahrene Entwickler hervor. Es ermutigt zur weiteren Erkundung der offiziellen Dokumentation und der Community-Ressourcen für umfassendes Lernen.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍了 Flutter，它是使用 Dart 构建跨平台应用的多功能工具包。它指导读者设置开发环境、了解 Flutter 架构层以及使用 Flutter Doctor 管理依赖项。本章强调了 Flutter 的热重载功能使应用开发变得轻松，并强调了它对新手和有经验的开发人员的适用性。它鼓励进一步探索官方文档和社区资源，以进行全面学习。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе Flutter представлен как универсальный набор инструментов для создания кроссплатформенных приложений с использованием Dart. Он помогает читателям настроить среду разработки, понять уровни архитектуры Flutter и использовать Flutter Doctor для управления зависимостями. В главе подчеркивается простота разработки приложений с помощью функции горячей перезагрузки Flutter и подчеркивается ее пригодность как для новых, так и для опытных разработчиков. Он поощряет дальнейшее изучение официальной документации и ресурсов сообщества для всестороннего обучения.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente Flutter en tant que boîte à outils polyvalente permettant de créer des applications multiplateformes à l'aide de Dart. Il guide les lecteurs dans la configuration de l'environnement de développement, la compréhension des couches d'architecture Flutter et l'utilisation de Flutter Doctor pour gérer les dépendances. Le chapitre met l'accent sur la facilité de développement d'applications avec la fonctionnalité de rechargement à chaud de Flutter et souligne son adéquation aux développeurs nouveaux et expérimentés. Il encourage une exploration plus approfondie de la documentation officielle et des ressources communautaires pour un apprentissage complet.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Dart を使用してクロスプラットフォーム アプリを構築するための多目的ツールキットとして Flutter を紹介します。開発環境の設定、Flutter アーキテクチャ レイヤーの理解、依存関係の管理に Flutter Doctor を活用する方法について読者に説明します。この章では、Flutter のホット リロード機能によるアプリ開発の容易さを強調し、初心者と経験豊富な開発者の両方に適していることを強調します。包括的な学習のために、公式ドキュメントとコミュニティ リソースをさらに調査することをお勧めします。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Dart를 사용하여 크로스 플랫폼 앱을 구축하기 위한 다목적 툴킷인 Flutter를 소개합니다. 개발 환경 설정, Flutter 아키텍처 계층 이해, 종속성 관리를 위한 Flutter Doctor 활용 과정을 독자에게 안내합니다. 이 장에서는 Flutter의 핫 리로드 기능을 통한 앱 개발의 용이성을 강조하고 신규 개발자와 숙련된 개발자 모두에게 적합하다는 점을 강조합니다. 포괄적인 학습을 위해 공식 문서와 커뮤니티 리소스를 추가로 탐색할 것을 권장합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo presenta Flutter como un conjunto de herramientas versátil para crear aplicaciones multiplataforma utilizando Dart. Guía a los lectores a través de la configuración del entorno de desarrollo, la comprensión de las capas de la arquitectura de Flutter y el uso de Flutter Doctor para administrar las dependencias. El capítulo enfatiza la facilidad de desarrollo de aplicaciones con la función de recarga en caliente de Flutter y destaca su idoneidad tanto para desarrolladores nuevos como experimentados. Fomenta una mayor exploración de la documentación oficial y los recursos comunitarios para un aprendizaje integral.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय डार्ट का उपयोग करके क्रॉस-प्लेटफ़ॉर्म ऐप बनाने के लिए फ़्लटर को एक बहुमुखी टूलकिट के रूप में पेश करता है। यह पाठकों को विकास वातावरण स्थापित करने, फ़्लटर आर्किटेक्चर परतों को समझने और निर्भरताओं के प्रबंधन के लिए फ़्लटर डॉक्टर का उपयोग करने के माध्यम से मार्गदर्शन करता है। अध्याय फ़्लटर की हॉट रीलोड सुविधा के साथ ऐप डेवलपमेंट की आसानी पर जोर देता है और नए और अनुभवी दोनों डेवलपर्स के लिए इसकी उपयुक्तता पर प्रकाश डालता है। यह व्यापक सीखने के लिए आधिकारिक दस्तावेज़ीकरण और सामुदायिक संसाधनों की और खोज को प्रोत्साहित करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta o Flutter como um kit de ferramentas versátil para a criação de aplicações multiplataforma utilizando o Dart. Orienta os leitores na configuração do ambiente de desenvolvimento, na compreensão das camadas da arquitetura Flutter e na utilização do Flutter Doctor para gerir dependências. O capítulo enfatiza a facilidade de desenvolvimento de aplicações com a funcionalidade hot reload do Flutter e destaca a sua adequação para programadores novos e experientes. Incentiva uma maior exploração da documentação oficial e dos recursos comunitários para uma aprendizagem abrangente.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি ডার্ট ব্যবহার করে ক্রস-প্ল্যাটফর্ম অ্যাপ তৈরি করার জন্য একটি বহুমুখী টুলকিট হিসেবে ফ্লটারের পরিচয় দেয়। এটি পাঠকদের ডেভেলপমেন্ট এনভায়রনমেন্ট স্থাপন, ফ্লাটার আর্কিটেকচার লেয়ার বোঝা এবং নির্ভরতা পরিচালনার জন্য ফ্লাটার ডক্টর ব্যবহারের মাধ্যমে গাইড করে। অধ্যায়টি ফ্লটারের হট রিলোড বৈশিষ্ট্যের সাথে অ্যাপ বিকাশের সহজতার উপর জোর দেয় এবং নতুন এবং অভিজ্ঞ উভয় বিকাশকারীদের জন্য এর উপযুক্ততা হাইলাইট করে। এটি ব্যাপক শিক্ষার জন্য অফিসিয়াল ডকুমেন্টেশন এবং সম্প্রদায়ের সংস্থানগুলির আরও অন্বেষণকে উত্সাহিত করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل Flutter كمجموعة أدوات متعددة الاستخدامات لإنشاء تطبيقات عبر الأنظمة الأساسية باستخدام Dart. إنه يرشد القراء من خلال إعداد بيئة التطوير، وفهم طبقات بنية Flutter، واستخدام Flutter Doctor لإدارة التبعيات. يؤكد هذا الفصل على سهولة تطوير التطبيق من خلال ميزة إعادة التحميل السريع الخاصة بـ Flutter ويسلط الضوء على مدى ملاءمتها للمطورين الجدد وذوي الخبرة. ويشجع على مواصلة استكشاف الوثائق الرسمية وموارد المجتمع من أجل التعلم الشامل.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل Flutter را به عنوان یک ابزار همه کاره برای ساخت برنامه های چند پلتفرمی با استفاده از Dart معرفی می کند. خوانندگان را از طریق راه اندازی محیط توسعه، درک لایه های معماری Flutter و استفاده از Flutter Doctor برای مدیریت وابستگی ها راهنمایی می کند. این فصل بر سهولت توسعه برنامه با ویژگی بارگذاری مجدد داغ Flutter تأکید می کند و مناسب بودن آن را برای توسعه دهندگان جدید و با تجربه برجسته می کند. کاوش بیشتر در اسناد رسمی و منابع جامعه برای یادگیری جامع را تشویق می کند.",
                     },
                 },
                 // 2
@@ -3922,31 +3858,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Hello, Flutter",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "In this chapter, readers are guided through the process of building a basic Flutter app from scratch. The chapter introduces popular widgets such as ListView and Slider, and culminates in the creation of a lightweight recipe app that features a hard-coded list of recipes. Additionally, it provides instructions on setting up a new Flutter project using the flutter command in the terminal.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel werden die Leser durch den Prozess der Erstellung einer einfachen Flutter-App von Grund auf geführt. Das Kapitel stellt beliebte Widgets wie ListView und Slider vor und gipfelt in der Erstellung einer leichten Rezept-App mit einer fest codierten Liste von Rezepten. Darüber hinaus enthält es Anweisungen zum Einrichten eines neuen Flutter-Projekts mit dem Flutter-Befehl im Terminal.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章将指导读者从头开始构建基本的 Flutter 应用。本章介绍了 ListView 和 Slider 等常用小部件，并最终创建了一个轻量级的食谱应用，该应用具有硬编码的食谱列表。此外，它还提供了使用终端中的 flutter 命令设置新 Flutter 项目的说明。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе читатели знакомятся с процессом создания базового приложения Flutter с нуля. В главе представлены популярные виджеты, такие как ListView и Slider, а кульминацией является создание легкого приложения с рецептами, которое содержит жестко запрограммированный список рецептов. Кроме того, он предоставляет инструкции по настройке нового проекта Flutter с помощью команды flutter в терминале.",
                         // French
-                        "Français": "",
+                        "Français": "Dans ce chapitre, les lecteurs sont guidés tout au long du processus de création d'une application Flutter de base à partir de zéro. Le chapitre présente des widgets populaires tels que ListView et Slider, et aboutit à la création d'une application de recettes légère qui propose une liste de recettes codées en dur. De plus, il fournit des instructions sur la configuration d'un nouveau projet Flutter à l'aide de la commande flutter dans le terminal.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、基本的な Flutter アプリをゼロから構築するプロセスを順を追って説明します。この章では、ListView や Slider などの人気のウィジェットを紹介し、最後に、ハードコードされたレシピ リストを備えた軽量レシピ アプリの作成方法を説明します。さらに、ターミナルで flutter コマンドを使用して新しい Flutter プロジェクトを設定する手順も説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 독자에게 기본 Flutter 앱을 처음부터 구축하는 과정을 안내합니다. 이 장에서는 ListView 및 Slider와 같은 인기 있는 위젯을 소개하고 하드 코딩된 레시피 목록을 제공하는 경량 레시피 앱을 만드는 것으로 마무리됩니다. 또한 터미널에서 flutter 명령을 사용하여 새 Flutter 프로젝트를 설정하는 방법에 대한 지침을 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo, se guía a los lectores a través del proceso de creación de una aplicación Flutter básica desde cero. El capítulo presenta widgets populares como ListView y Slider, y culmina con la creación de una aplicación de recetas liviana que presenta una lista codificada de recetas. Además, proporciona instrucciones sobre cómo configurar un nuevo proyecto de Flutter usando el comando flutter en la terminal.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "इस अध्याय में, पाठकों को स्क्रैच से एक बुनियादी फ़्लटर ऐप बनाने की प्रक्रिया के माध्यम से निर्देशित किया जाता है। अध्याय ListView और Slider जैसे लोकप्रिय विजेट का परिचय देता है, और एक हल्के रेसिपी ऐप के निर्माण में परिणत होता है जिसमें व्यंजनों की एक हार्ड-कोडेड सूची होती है। इसके अतिरिक्त, यह टर्मिनल में फ़्लटर कमांड का उपयोग करके एक नया फ़्लटर प्रोजेक्ट सेट करने के निर्देश प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Neste capítulo, os leitores são guiados pelo processo de construção de uma aplicação Flutter básica a partir do zero. O capítulo apresenta widgets populares, como o ListView e o Slider, e culmina na criação de uma aplicação de receitas leve que apresenta uma lista de receitas codificada. Além disso, fornece instruções sobre como configurar um novo projeto Flutter utilizando o comando flutter no terminal.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে, পাঠকদের স্ক্র্যাচ থেকে একটি মৌলিক ফ্লাটার অ্যাপ তৈরির প্রক্রিয়ার মাধ্যমে নির্দেশিত করা হয়েছে। অধ্যায়টি লিস্টভিউ এবং স্লাইডারের মতো জনপ্রিয় উইজেটগুলির সাথে পরিচয় করিয়ে দেয় এবং একটি হালকা ওজনের রেসিপি অ্যাপ তৈরি করে যা রেসিপিগুলির একটি হার্ড-কোডেড তালিকা বৈশিষ্ট্যযুক্ত। উপরন্তু, এটি টার্মিনালে ফ্লাটার কমান্ড ব্যবহার করে একটি নতুন ফ্লাটার প্রজেক্ট সেট আপ করার নির্দেশনা প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "في هذا الفصل، يتم إرشاد القراء خلال عملية إنشاء تطبيق Flutter الأساسي من البداية. يقدم الفصل أدوات شائعة مثل ListView وSlider، ويتوج بإنشاء تطبيق وصفات خفيف الوزن يحتوي على قائمة مرمزة من الوصفات. بالإضافة إلى ذلك، فإنه يوفر تعليمات حول إعداد مشروع Flutter جديد باستخدام أمر Flutter في الوحدة الطرفية.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "در این فصل، خوانندگان از طریق فرآیند ساخت یک برنامه اصلی Flutter از ابتدا راهنمایی می‌شوند. این فصل ویجت‌های محبوبی مانند ListView و Slider را معرفی می‌کند و با ایجاد یک برنامه دستور غذای سبک وزن که دارای فهرستی از دستور العمل‌ها است، به اوج می‌رسد. علاوه بر این، دستورالعمل‌هایی در مورد راه‌اندازی یک پروژه Flutter جدید با استفاده از دستور flutter در ترمینال ارائه می‌کند.",
                     },
                 },
                 // 3
