@@ -5437,31 +5437,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Beginning Git: Get Going with Git",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter introduces Git as a powerful version control system essential for managing software projects, allowing developers to track changes, collaborate effectively, and maintain a history of their work. It explains the process of creating a Git repository, staging files with , and committing changes with , emphasizing the importance of snapshots for saving progress and reverting to previous states if needed. The chapter also highlights the significance of understanding file states and using commands like to monitor the project's status as it grows.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird Git als leistungsstarkes Versionskontrollsystem vorgestellt, das für die Verwaltung von Softwareprojekten unverzichtbar ist. Entwickler können damit Änderungen verfolgen, effektiv zusammenarbeiten und einen Verlauf ihrer Arbeit pflegen. Es erklärt den Prozess der Erstellung eines Git-Repositorys, der Bereitstellung von Dateien mit und der Übermittlung von Änderungen mit und betont die Bedeutung von Snapshots zum Speichern des Fortschritts und zum Wiederherstellen vorheriger Zustände, falls erforderlich. Das Kapitel betont auch die Bedeutung des Verständnisses von Dateizuständen und der Verwendung von Befehlen wie zum Überwachen des Status des Projekts während seines Wachstums.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍了 Git，它是管理软件项目必不可少的强大版本控制系统，允许开发人员跟踪更改、有效协作并维护其工作历史记录。它解释了创建 Git 存储库、使用暂存文件和使用提交更改的过程，强调了快照对于保存进度和在需要时恢复到先前状态的重要性。本章还强调了了解文件状态和使用诸如此类的命令来监控项目发展过程中的状态的重要性。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе представлен Git как мощная система контроля версий, необходимая для управления программными проектами, позволяющая разработчикам отслеживать изменения, эффективно сотрудничать и вести историю своей работы. В ней объясняется процесс создания репозитория Git, размещения файлов с помощью и фиксации изменений с помощью , подчеркивая важность снимков для сохранения прогресса и возврата к предыдущим состояниям при необходимости. В главе также подчеркивается важность понимания состояний файлов и использования таких команд, как мониторинг статуса проекта по мере его роста.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente Git comme un puissant système de contrôle de version essentiel à la gestion de projets logiciels, permettant aux développeurs de suivre les modifications, de collaborer efficacement et de conserver un historique de leur travail. Il explique le processus de création d'un référentiel Git, de préparation des fichiers avec , et de validation des modifications avec , en soulignant l'importance des instantanés pour enregistrer la progression et revenir aux états précédents si nécessaire. Le chapitre souligne également l'importance de comprendre les états des fichiers et d'utiliser des commandes comme pour surveiller l'état du projet à mesure qu'il se développe.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、ソフトウェア プロジェクトの管理に不可欠な強力なバージョン管理システムとして Git を紹介します。これにより、開発者は変更を追跡し、効果的に共同作業を行い、作業履歴を維持できます。Git リポジトリの作成、 を使用したファイルのステージング、 を使用した変更のコミットのプロセスについて説明し、進行状況を保存して必要に応じて以前の状態に戻すためのスナップショットの重要性を強調します。また、この章では、ファイルの状態を理解し、 などのコマンドを使用してプロジェクトの拡大に​​伴うステータスを監視することの重要性についても強調します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 소프트웨어 프로젝트를 관리하는 데 필수적인 강력한 버전 제어 시스템인 Git을 소개하고, 개발자가 변경 사항을 추적하고, 효과적으로 협업하고, 작업 내역을 유지할 수 있도록 합니다. Git 저장소를 만들고, 를 사용하여 파일을 스테이징하고, 를 사용하여 변경 사항을 커밋하는 프로세스를 설명하며, 진행 상황을 저장하고 필요한 경우 이전 상태로 되돌리기 위한 스냅샷의 중요성을 강조합니다. 또한 이 장에서는 파일 상태를 이해하고 프로젝트가 성장함에 따라 프로젝트 상태를 모니터링하는 것과 같은 명령을 사용하는 것의 중요성을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo se presenta Git como un potente sistema de control de versiones esencial para gestionar proyectos de software, que permite a los desarrolladores realizar un seguimiento de los cambios, colaborar de forma eficaz y mantener un historial de su trabajo. Se explica el proceso de creación de un repositorio Git, el almacenamiento provisional de archivos con y la confirmación de cambios con , haciendo hincapié en la importancia de las instantáneas para guardar el progreso y volver a estados anteriores si es necesario. El capítulo también destaca la importancia de comprender los estados de los archivos y utilizar comandos como para supervisar el estado del proyecto a medida que crece.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय Git को एक शक्तिशाली संस्करण नियंत्रण प्रणाली के रूप में पेश करता है जो सॉफ्टवेयर परियोजनाओं के प्रबंधन के लिए आवश्यक है, जिससे डेवलपर्स परिवर्तनों को ट्रैक कर सकते हैं, प्रभावी ढंग से सहयोग कर सकते हैं और अपने काम का इतिहास बनाए रख सकते हैं। यह Git रिपॉजिटरी बनाने, , के साथ फ़ाइलों को स्टेज करने और , के साथ परिवर्तनों को कमिट करने की प्रक्रिया को समझाता है, प्रगति को सहेजने और ज़रूरत पड़ने पर पिछली स्थिति में वापस जाने के लिए स्नैपशॉट के महत्व पर ज़ोर देता है। अध्याय फ़ाइल स्थितियों को समझने और प्रोजेक्ट की स्थिति की निगरानी करने के लिए जैसे कमांड का उपयोग करने के महत्व पर भी प्रकाश डालता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta o Git como um poderoso sistema de controlo de versões, essencial para a gestão de projetos de software, permitindo aos programadores acompanhar as alterações, colaborar eficazmente e manter um histórico do seu trabalho. Explica o processo de criação de um repositório Git, preparação de ficheiros com e confirmação de alterações com , enfatizando a importância dos instantâneos para guardar o progresso e reverter para estados anteriores, se necessário. O capítulo destaca ainda a importância de compreender os estados dos ficheiros e utilizar comandos como monitorizar o estado do projeto à medida que este cresce.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি সফ্টওয়্যার প্রকল্পগুলি পরিচালনার জন্য প্রয়োজনীয় একটি শক্তিশালী সংস্করণ নিয়ন্ত্রণ ব্যবস্থা হিসাবে গিটকে পরিচয় করিয়ে দেয়, যা বিকাশকারীদের পরিবর্তনগুলি ট্র্যাক করতে, কার্যকরভাবে সহযোগিতা করতে এবং তাদের কাজের ইতিহাস বজায় রাখতে দেয়। এটি একটি গিট রিপোজিটরি তৈরি করার প্রক্রিয়া ব্যাখ্যা করে, এর সাথে ফাইলগুলিকে স্টেজিং করে এবং এর সাথে পরিবর্তন করে, অগ্রগতি সংরক্ষণের জন্য স্ন্যাপশটগুলির গুরুত্বের উপর জোর দেয় এবং প্রয়োজনে পূর্ববর্তী অবস্থায় ফিরে আসে। অধ্যায়টি ফাইলের অবস্থা বোঝার তাৎপর্যও তুলে ধরে এবং প্রকল্পের স্থিতি বৃদ্ধির সাথে সাথে তা নিরীক্ষণ করার মতো কমান্ড ব্যবহার করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل تعريفًا بـ Git باعتباره نظامًا قويًا للتحكم في الإصدارات ضروريًا لإدارة مشاريع البرمجيات، مما يسمح للمطورين بتتبع التغييرات والتعاون بشكل فعال والحفاظ على تاريخ عملهم. ويشرح عملية إنشاء مستودع Git، وإعداد الملفات باستخدام ، وتأكيد التغييرات باستخدام ، مع التأكيد على أهمية اللقطات لحفظ التقدم والعودة إلى الحالات السابقة إذا لزم الأمر. ويسلط الفصل الضوء أيضًا على أهمية فهم حالات الملفات واستخدام الأوامر مثل مراقبة حالة المشروع أثناء نموه.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل Git را به‌عنوان یک سیستم کنترل نسخه قدرتمند برای مدیریت پروژه‌های نرم‌افزاری معرفی می‌کند که به توسعه‌دهندگان اجازه می‌دهد تغییرات را ردیابی کنند، به طور مؤثر همکاری کنند و تاریخچه کار خود را حفظ کنند. این فرآیند ایجاد یک مخزن Git، مرحله بندی فایل ها با، و انجام تغییرات با، با تاکید بر اهمیت عکس های فوری برای ذخیره پیشرفت و بازگشت به حالت های قبلی در صورت نیاز را توضیح می دهد. این فصل همچنین اهمیت درک وضعیت فایل و استفاده از دستوراتی مانند نظارت بر وضعیت پروژه را در حین رشد برجسته می کند.",
                     },
                 },
                 // 2
@@ -5469,31 +5469,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Branching Out: Multiple Trains of Thought",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter discusses the concept of branching in Git, emphasizing its ability to facilitate parallel development on multiple tasks without interference. It explains that branches are pointers to commits, allowing developers to work independently on features or bug fixes while maintaining a clear commit history. The chapter also highlights the importance of merging branches to integrate changes, the potential for merge conflicts, and the need to manage branches effectively to keep the repository organized.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird das Konzept der Verzweigung in Git erörtert und die Fähigkeit betont, die parallele Entwicklung mehrerer Aufgaben ohne Störungen zu ermöglichen. Es wird erklärt, dass Verzweigungen Zeiger auf Commits sind, sodass Entwickler unabhängig an Funktionen oder Fehlerbehebungen arbeiten können und gleichzeitig einen klaren Commit-Verlauf beibehalten. Das Kapitel betont auch die Bedeutung der Zusammenführung von Verzweigungen zur Integration von Änderungen, das Potenzial für Zusammenführungskonflikte und die Notwendigkeit, Verzweigungen effektiv zu verwalten, um das Repository organisiert zu halten.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章讨论了 Git 中的分支概念，强调了其促进多个任务并行开发而不相互干扰的能力。它解释了分支是指向提交的指针，允许开发人员独立处理功能或错误修复，同时保持清晰的提交历史记录。本章还强调了合并分支以整合更改的重要性、合并冲突的可能性以及有效管理分支以保持存储库井然有序的必要性。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе обсуждается концепция ветвления в Git, подчеркивая ее способность облегчать параллельную разработку нескольких задач без помех. В ней объясняется, что ветви являются указателями на коммиты, позволяя разработчикам независимо работать над функциями или исправлениями ошибок, сохраняя при этом четкую историю коммитов. В главе также подчеркивается важность слияния ветвей для интеграции изменений, потенциальные конфликты слияния и необходимость эффективного управления ветвями для поддержания организованности репозитория.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre aborde le concept de ramification dans Git, en soulignant sa capacité à faciliter le développement parallèle de plusieurs tâches sans interférence. Il explique que les branches sont des pointeurs vers des commits, permettant aux développeurs de travailler de manière indépendante sur des fonctionnalités ou des corrections de bogues tout en conservant un historique de commit clair. Le chapitre souligne également l'importance de la fusion des branches pour intégrer les modifications, le risque de conflits de fusion et la nécessité de gérer efficacement les branches pour maintenir le référentiel organisé.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Git のブランチの概念について説明し、複数のタスクを干渉なく並行して開発できるようにする機能を強調します。ブランチはコミットへのポインターであり、開発者が明確なコミット履歴を維持しながら、機能やバグ修正に独立して取り組むことができることを説明します。また、この章では、変更を統合するためにブランチをマージすることの重要性、マージ競合の可能性、リポジトリを整理するためにブランチを効果的に管理する必要性についても強調します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Git의 브랜칭 개념을 논의하며, 간섭 없이 여러 작업에 대한 병렬 개발을 용이하게 하는 기능을 강조합니다. 브랜치는 커밋에 대한 포인터이며, 개발자가 명확한 커밋 기록을 유지하면서 기능이나 버그 수정을 독립적으로 작업할 수 있도록 해줍니다. 또한 이 장에서는 변경 사항을 통합하기 위해 브랜치를 병합하는 것의 중요성, 병합 충돌 가능성, 저장소를 정리하기 위해 브랜치를 효과적으로 관리해야 할 필요성을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo se analiza el concepto de ramificación en Git, haciendo hincapié en su capacidad para facilitar el desarrollo paralelo de múltiples tareas sin interferencias. Se explica que las ramas son indicadores de confirmaciones, lo que permite a los desarrolladores trabajar de forma independiente en funciones o correcciones de errores, manteniendo al mismo tiempo un historial de confirmaciones claro. El capítulo también destaca la importancia de fusionar ramas para integrar cambios, la posibilidad de que se produzcan conflictos de fusión y la necesidad de gestionar las ramas de forma eficaz para mantener el repositorio organizado.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय Git में ब्रांचिंग की अवधारणा पर चर्चा करता है, जिसमें बिना किसी व्यवधान के कई कार्यों पर समानांतर विकास को सुविधाजनक बनाने की इसकी क्षमता पर जोर दिया गया है। यह बताता है कि शाखाएँ कमिट्स के लिए पॉइंटर्स हैं, जो डेवलपर्स को स्पष्ट कमिट इतिहास बनाए रखते हुए सुविधाओं या बग फिक्स पर स्वतंत्र रूप से काम करने की अनुमति देती हैं। अध्याय परिवर्तनों को एकीकृत करने के लिए शाखाओं को मर्ज करने के महत्व, मर्ज संघर्षों की संभावना और रिपॉजिटरी को व्यवस्थित रखने के लिए शाखाओं को प्रभावी ढंग से प्रबंधित करने की आवश्यकता पर भी प्रकाश डालता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo discute o conceito de ramificação no Git, enfatizando a sua capacidade de facilitar o desenvolvimento paralelo em múltiplas tarefas sem interferência. Explica que as branches são indicadores para commits, permitindo que os programadores trabalhem de forma independente em funcionalidades ou correções de bugs, mantendo um histórico de commits claro. O capítulo destaca também a importância da fusão de ramos para integrar alterações, o potencial para conflitos de fusão e a necessidade de gerir ramos de forma eficaz para manter o repositório organizado.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি গিট-এ শাখার ধারণা নিয়ে আলোচনা করে, হস্তক্ষেপ ছাড়াই একাধিক কাজের সমান্তরাল বিকাশের সুবিধার ক্ষমতার উপর জোর দেয়। এটি ব্যাখ্যা করে যে শাখাগুলি কমিটের জন্য নির্দেশক, যা বিকাশকারীদের একটি স্পষ্ট প্রতিশ্রুতি ইতিহাস বজায় রেখে বৈশিষ্ট্য বা বাগ ফিক্সগুলিতে স্বাধীনভাবে কাজ করার অনুমতি দেয়। অধ্যায়টি পরিবর্তনগুলিকে সংহত করার জন্য শাখাগুলিকে একীভূত করার গুরুত্ব, একত্রীকরণের দ্বন্দ্বের সম্ভাবনা এবং সংগ্রহস্থলকে সংগঠিত রাখার জন্য কার্যকরভাবে শাখাগুলি পরিচালনা করার প্রয়োজনীয়তা তুলে ধরে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يناقش هذا الفصل مفهوم التفرع في Git، مع التركيز على قدرته على تسهيل التطوير المتوازي لمهام متعددة دون تدخل. ويوضح أن الفروع هي مؤشرات للالتزامات، مما يسمح للمطورين بالعمل بشكل مستقل على الميزات أو إصلاح الأخطاء مع الحفاظ على سجل التزام واضح. ويسلط الفصل الضوء أيضًا على أهمية دمج الفروع لدمج التغييرات، وإمكانية حدوث تعارضات في الدمج، والحاجة إلى إدارة الفروع بشكل فعال للحفاظ على تنظيم المستودع.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل مفهوم انشعاب در Git را مورد بحث قرار می دهد و بر توانایی آن برای تسهیل توسعه موازی در چندین کار بدون تداخل تأکید می کند. توضیح می‌دهد که شاخه‌ها اشاره‌گرهایی به commit هستند و به توسعه‌دهندگان این امکان را می‌دهند که به طور مستقل روی ویژگی‌ها یا رفع اشکال کار کنند و در عین حال یک تاریخچه commit واضح را حفظ کنند. این فصل همچنین بر اهمیت ادغام شعب برای ادغام تغییرات، پتانسیل تضادهای ادغام، و نیاز به مدیریت موثر شعب برای سازماندهی مخزن تاکید می کند.",
                     },
                 },
                 // 3
@@ -5501,31 +5501,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Looking Around: Investigating Your Git Repository",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on exploring and visualizing your Git repository, emphasizing the importance of commit history and the use of the command to track changes. It introduces the command for comparing changes between the working directory, index, and different branches or commits. The chapter also highlights the need to understand the output format and legends to effectively analyze the differences in your repository's history.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es darum, Ihr Git-Repository zu erkunden und zu visualisieren. Dabei wird die Bedeutung des Commit-Verlaufs und die Verwendung des Befehls zum Nachverfolgen von Änderungen hervorgehoben. Es stellt den Befehl zum Vergleichen von Änderungen zwischen dem Arbeitsverzeichnis, dem Index und verschiedenen Zweigen oder Commits vor. Das Kapitel betont auch die Notwendigkeit, das Ausgabeformat und die Legenden zu verstehen, um die Unterschiede im Verlauf Ihres Repositorys effektiv analysieren zu können.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍如何探索和可视化您的 Git 存储库，强调提交历史记录的重要性以及使用命令来跟踪更改。它介绍了用于比较工作目录、索引和不同分支或提交之间的更改的命令。本章还强调了了解输出格式和图例的必要性，以便有效地分析存储库历史记录中的差异。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется исследованию и визуализации вашего репозитория Git, подчеркивая важность истории коммитов и использования команды для отслеживания изменений. В ней представлена ​​команда для сравнения изменений между рабочим каталогом, индексом и различными ветвями или коммитами. В главе также подчеркивается необходимость понимания выходного формата и легенд для эффективного анализа различий в истории вашего репозитория.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur l'exploration et la visualisation de votre dépôt Git, en soulignant l'importance de l'historique des commits et l'utilisation de la commande pour suivre les modifications. Il présente la commande permettant de comparer les modifications entre le répertoire de travail, l'index et les différentes branches ou commits. Le chapitre souligne également la nécessité de comprendre le format de sortie et les légendes pour analyser efficacement les différences dans l'historique de votre dépôt.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Git リポジトリの調査と視覚化に焦点を当て、コミット履歴の重要性と変更を追跡するためのコマンドの使用を強調します。作業ディレクトリ、インデックス、および異なるブランチまたはコミット間の変更を比較するためのコマンドを紹介します。また、この章では、リポジトリの履歴の違いを効果的に分析するために、出力形式と凡例を理解する必要性についても強調します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Git 저장소를 탐색하고 시각화하는 데 중점을 두고 커밋 기록의 중요성과 변경 사항을 추적하는 명령의 사용을 강조합니다. 작업 디렉토리, 인덱스 및 다른 브랜치 또는 커밋 간의 변경 사항을 비교하는 명령을 소개합니다. 또한 저장소 기록의 차이점을 효과적으로 분석하기 위해 출력 형식과 범례를 이해해야 할 필요성을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en explorar y visualizar su repositorio Git, haciendo hincapié en la importancia del historial de confirmaciones y el uso del comando para realizar un seguimiento de los cambios. Presenta el comando para comparar los cambios entre el directorio de trabajo, el índice y las diferentes ramas o confirmaciones. El capítulo también destaca la necesidad de comprender el formato de salida y las leyendas para analizar de manera eficaz las diferencias en el historial de su repositorio.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय आपके Git रिपॉजिटरी को एक्सप्लोर करने और विज़ुअलाइज़ करने पर केंद्रित है, जिसमें कमिट इतिहास के महत्व और परिवर्तनों को ट्रैक करने के लिए कमांड के उपयोग पर ज़ोर दिया गया है। यह वर्किंग डायरेक्टरी, इंडेक्स और विभिन्न शाखाओं या कमिट के बीच परिवर्तनों की तुलना करने के लिए कमांड का परिचय देता है। अध्याय आपके रिपॉजिटरी के इतिहास में अंतरों का प्रभावी ढंग से विश्लेषण करने के लिए आउटपुट फ़ॉर्मेट और लेजेंड को समझने की आवश्यकता पर भी प्रकाश डालता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se na exploração e visualização do seu repositório Git, enfatizando a importância do histórico de commits e a utilização do comando para rastrear alterações. Apresenta o comando para comparar alterações entre o diretório de trabalho, o índice e diferentes branches ou commits. O capítulo destaca também a necessidade de compreender o formato de saída e as legendas para analisar eficazmente as diferenças no histórico do seu repositório.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি আপনার গিট রিপোজিটরি অন্বেষণ এবং ভিজ্যুয়ালাইজ করার উপর ফোকাস করে, কমিট ইতিহাসের গুরুত্ব এবং পরিবর্তনগুলি ট্র্যাক করতে কমান্ডের ব্যবহারের উপর জোর দেয়। এটি কার্যকরী ডিরেক্টরি, সূচক এবং বিভিন্ন শাখা বা কমিটের মধ্যে পরিবর্তনের তুলনা করার জন্য কমান্ড প্রবর্তন করে। অধ্যায়টি আপনার সংগ্রহস্থলের ইতিহাসের পার্থক্যগুলিকে কার্যকরভাবে বিশ্লেষণ করার জন্য আউটপুট বিন্যাস এবং কিংবদন্তিগুলি বোঝার প্রয়োজনীয়তাও তুলে ধরে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على استكشاف وتصور مستودع Git الخاص بك، مع التأكيد على أهمية سجل الالتزامات واستخدام الأمر لتتبع التغييرات. ويقدم الأمر لمقارنة التغييرات بين دليل العمل والفهرس والفروع أو الالتزامات المختلفة. ويسلط الفصل الضوء أيضًا على الحاجة إلى فهم تنسيق الإخراج والأساطير لتحليل الاختلافات في سجل المستودع الخاص بك بشكل فعال.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر کاوش و تجسم مخزن Git شما تمرکز دارد و بر اهمیت تاریخچه ارتکاب و استفاده از دستور برای ردیابی تغییرات تاکید می کند. دستوری را برای مقایسه تغییرات بین دایرکتوری کاری، ایندکس و شاخه ها یا commit های مختلف معرفی می کند. این فصل همچنین نیاز به درک فرمت خروجی و افسانه ها را برای تجزیه و تحلیل موثر تفاوت ها در تاریخچه مخزن شما برجسته می کند.",
                     },
                 },
                 // 4
@@ -5533,31 +5533,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Undoing: Fixing Your Mistakes",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on the concept of undoing mistakes in Git, highlighting the various commands available for reverting changes. It explains how can be used in different modes to manage changes in the working directory and index, while allows users to negate changes without altering commit history. The chapter also discusses the significance of HEAD in tracking the current commit and provides insights into branch management, including renaming branches and editing commit messages, emphasizing the flexibility and power of version control systems in correcting errors.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel konzentriert sich auf das Konzept des Rückgängigmachens von Fehlern in Git und hebt die verschiedenen verfügbaren Befehle zum Rückgängigmachen von Änderungen hervor. Es erklärt, wie es in verschiedenen Modi verwendet werden kann, um Änderungen im Arbeitsverzeichnis und Index zu verwalten, während es Benutzern ermöglicht, Änderungen rückgängig zu machen, ohne den Commit-Verlauf zu ändern. Das Kapitel erörtert auch die Bedeutung von HEAD bei der Verfolgung des aktuellen Commits und bietet Einblicke in die Zweigverwaltung, einschließlich der Umbenennung von Zweigen und der Bearbeitung von Commit-Nachrichten, wobei die Flexibilität und Leistungsfähigkeit von Versionskontrollsystemen bei der Korrektur von Fehlern hervorgehoben wird.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍 Git 中撤销错误的概念，重点介绍可用于恢复更改的各种命令。它解释了如何在不同模式下使用它来管理工作目录和索引中的更改，同时允许用户在不更改提交历史记录的情况下否定更改。本章还讨论了 HEAD 在跟踪当前提交方面的重要性，并提供了对分支管理的见解，包括重命名分支和编辑提交消息，强调版本控制系统在纠正错误方面的灵活性和强大功能。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется концепции отмены ошибок в Git, подчеркивая различные команды, доступные для отмены изменений. В ней объясняется, как можно использовать в разных режимах для управления изменениями в рабочем каталоге и индексе, при этом позволяя пользователям отменять изменения, не изменяя историю коммитов. В главе также обсуждается значение HEAD в отслеживании текущего коммита и даются сведения об управлении ветвями, включая переименование ветвей и редактирование сообщений коммитов, подчеркивая гибкость и мощь систем контроля версий в исправлении ошибок.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur le concept d'annulation des erreurs dans Git, en mettant en évidence les différentes commandes disponibles pour annuler les modifications. Il explique comment peut être utilisé dans différents modes pour gérer les modifications dans le répertoire de travail et l'index, tout en permettant aux utilisateurs d'annuler les modifications sans modifier l'historique des validations. Le chapitre aborde également l'importance de HEAD dans le suivi de la validation en cours et fournit des informations sur la gestion des branches, notamment le changement de nom des branches et la modification des messages de validation, en soulignant la flexibilité et la puissance des systèmes de contrôle de version dans la correction des erreurs.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Git でミスを元に戻すという概念に焦点を当て、変更を元に戻すために使用できるさまざまなコマンドについて説明します。 をさまざまなモードで使用して作業ディレクトリとインデックスの変更を管理する方法と、コミット履歴を変更せずに変更を無効にできる方法について説明します。 また、この章では、現在のコミットを追跡する際の HEAD の重要性についても説明し、ブランチ名の変更やコミット メッセージの編集などのブランチ管理に関する洞察を提供し、エラーを修正する際のバージョン管理システムの柔軟性とパワーを強調します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Git에서 실수를 취소하는 개념에 초점을 맞추고, 변경 사항을 되돌리는 데 사용할 수 있는 다양한 명령을 강조합니다. 작업 디렉토리와 인덱스에서 변경 사항을 관리하는 데 다양한 모드로 사용할 수 있는 방법을 설명하면서, 사용자가 커밋 기록을 변경하지 않고도 변경 사항을 무효화할 수 있도록 합니다. 또한 이 장에서는 현재 커밋을 추적하는 데 있어 HEAD의 중요성에 대해 논의하고, 브랜치 이름 변경 및 커밋 메시지 편집을 포함한 브랜치 관리에 대한 통찰력을 제공하며, 오류를 수정하는 데 있어 버전 제어 시스템의 유연성과 힘을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en el concepto de deshacer errores en Git, destacando los distintos comandos disponibles para revertir los cambios. Explica cómo se pueden utilizar en diferentes modos para gestionar los cambios en el directorio de trabajo y el índice, al tiempo que permite a los usuarios negar los cambios sin alterar el historial de confirmaciones. El capítulo también analiza la importancia de HEAD en el seguimiento de la confirmación actual y proporciona información sobre la gestión de ramas, incluido el cambio de nombre de las ramas y la edición de los mensajes de confirmación, haciendo hincapié en la flexibilidad y el poder de los sistemas de control de versiones para corregir errores.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय Git में गलतियों को पूर्ववत करने की अवधारणा पर केंद्रित है, जिसमें परिवर्तनों को पूर्ववत करने के लिए उपलब्ध विभिन्न कमांड पर प्रकाश डाला गया है। यह बताता है कि वर्किंग डायरेक्टरी और इंडेक्स में परिवर्तनों को प्रबंधित करने के लिए विभिन्न मोड में इसका उपयोग कैसे किया जा सकता है, जबकि उपयोगकर्ताओं को कमिट इतिहास में बदलाव किए बिना परिवर्तनों को नकारने की अनुमति देता है। अध्याय वर्तमान कमिट को ट्रैक करने में HEAD के महत्व पर भी चर्चा करता है और ब्रांच प्रबंधन में अंतर्दृष्टि प्रदान करता है, जिसमें शाखाओं का नाम बदलना और कमिट संदेशों को संपादित करना शामिल है, त्रुटियों को ठीक करने में संस्करण नियंत्रण प्रणालियों की लचीलापन और शक्ति पर जोर दिया गया है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se no conceito de desfazer erros no Git, destacando os vários comandos disponíveis para reverter alterações. Explica como pode ser utilizado em diferentes modos para gerir alterações no diretório de trabalho e no índice, ao mesmo tempo que permite aos utilizadores negar alterações sem alterar o histórico de commits. O capítulo também discute a importância do HEAD no rastreio do commit atual e fornece informações sobre a gestão de filiais, incluindo a renomeação de filiais e a edição de mensagens de commit, enfatizando a flexibilidade e o poder dos sistemas de controlo de versões na correção de erros.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি গিট-এ ভুলগুলি পূর্বাবস্থায় ফিরিয়ে আনার ধারণার উপর দৃষ্টি নিবদ্ধ করে, পরিবর্তনগুলি ফিরিয়ে আনার জন্য উপলব্ধ বিভিন্ন কমান্ড হাইলাইট করে। এটি ব্যাখ্যা করে কিভাবে বিভিন্ন মোডে কাজ করা ডিরেক্টরি এবং সূচকে পরিবর্তনগুলি পরিচালনা করতে ব্যবহার করা যেতে পারে, যখন ব্যবহারকারীদের প্রতিশ্রুতি ইতিহাস পরিবর্তন না করে পরিবর্তনগুলিকে অস্বীকার করতে দেয়। অধ্যায়টি বর্তমান প্রতিশ্রুতি ট্র্যাক করার ক্ষেত্রে HEAD-এর তাৎপর্য নিয়েও আলোচনা করে এবং শাখা ব্যবস্থাপনার অন্তর্দৃষ্টি প্রদান করে, যার মধ্যে শাখার নাম পরিবর্তন করা এবং প্রতিশ্রুতি বার্তা সম্পাদনা করা, ত্রুটি সংশোধনে সংস্করণ নিয়ন্ত্রণ ব্যবস্থার নমনীয়তা এবং শক্তির উপর জোর দেওয়া।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على مفهوم التراجع عن الأخطاء في Git، مع تسليط الضوء على الأوامر المختلفة المتاحة لعكس التغييرات. ويشرح كيف يمكن استخدامها في أوضاع مختلفة لإدارة التغييرات في دليل العمل والفهرس، بينما يسمح للمستخدمين بإلغاء التغييرات دون تغيير تاريخ الالتزام. ويناقش الفصل أيضًا أهمية HEAD في تتبع الالتزام الحالي ويوفر رؤى حول إدارة الفروع، بما في ذلك إعادة تسمية الفروع وتحرير رسائل الالتزام، مع التأكيد على مرونة وقوة أنظمة التحكم في الإصدار في تصحيح الأخطاء.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر مفهوم خنثی سازی اشتباهات در Git تمرکز دارد و دستورات مختلف موجود برای برگرداندن تغییرات را برجسته می کند. توضیح می‌دهد که چگونه می‌توان در حالت‌های مختلف برای مدیریت تغییرات در فهرست کاری و فهرست استفاده کرد، در حالی که به کاربران اجازه می‌دهد تا تغییرات را بدون تغییر تاریخچه ارتکاب رد کنند. این فصل همچنین اهمیت HEAD را در ردیابی تعهد جاری مورد بحث قرار می‌دهد و بینش‌هایی در مورد مدیریت شعب ارائه می‌دهد، از جمله تغییر نام شاخه‌ها و ویرایش پیام‌های commit، با تاکید بر انعطاف‌پذیری و قدرت سیستم‌های کنترل نسخه در تصحیح خطاها.",
                     },
                 },
                 // 5
@@ -5565,31 +5565,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Collaborating with Git - Part I: Remote Work",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on collaborating with Git, emphasizing the importance of forking and cloning repositories to create personal copies for modification. It explains the process of pushing local commits to a remote repository, making them public, and highlights the distinction between private and public commits. The chapter also addresses handling merge conflicts, the role of pull requests in code review, and the need for synchronization between local and remote branches, setting the stage for more complex collaboration in future chapters.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um die Zusammenarbeit mit Git. Dabei wird die Bedeutung des Forkens und Klonens von Repositories betont, um persönliche Kopien für Änderungen zu erstellen. Es erklärt den Vorgang, lokale Commits in ein Remote-Repository zu pushen und sie öffentlich zu machen, und hebt den Unterschied zwischen privaten und öffentlichen Commits hervor. Das Kapitel befasst sich auch mit dem Umgang mit Merge-Konflikten, der Rolle von Pull Requests bei der Codeüberprüfung und der Notwendigkeit der Synchronisierung zwischen lokalen und Remote-Zweigen und bereitet so die Grundlage für eine komplexere Zusammenarbeit in späteren Kapiteln.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍如何使用 Git 进行协作，强调了分叉和克隆存储库以创建个人副本进行修改的重要性。它解释了将本地提交推送到远程存储库、将其公开的过程，并强调了私有提交和公共提交之间的区别。本章还讨论了如何处理合并冲突、拉取请求在代码审查中的作用以及本地和远程分支之间同步的必要性，为未来章节中更复杂的协作奠定了基础。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется сотрудничеству с Git, подчеркивая важность разветвления и клонирования репозиториев для создания личных копий для модификации. В ней объясняется процесс отправки локальных коммитов в удаленный репозиторий, делая их публичными, и подчеркивается различие между частными и публичными коммитами. В главе также рассматривается обработка конфликтов слияния, роль запросов на извлечение в обзоре кода и необходимость синхронизации между локальными и удаленными ветками, что закладывает основу для более сложного сотрудничества в будущих главах.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur la collaboration avec Git, en soulignant l'importance de dupliquer et de cloner des dépôts pour créer des copies personnelles à modifier. Il explique le processus de transfert de commits locaux vers un dépôt distant, de leur publication publique, et met en évidence la distinction entre les commits privés et publics. Le chapitre aborde également la gestion des conflits de fusion, le rôle des requêtes d'extraction dans la révision du code et la nécessité d'une synchronisation entre les branches locales et distantes, ouvrant la voie à une collaboration plus complexe dans les chapitres suivants.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Git を使用したコラボレーションに焦点を当て、変更用の個人用コピーを作成するためにリポジトリをフォークおよびクローンすることの重要性を強調しています。ローカル コミットをリモート リポジトリにプッシュして公開するプロセスについて説明し、プライベート コミットとパブリック コミットの違いを強調しています。また、この章では、マージ競合の処理、コード レビューにおけるプル リクエストの役割、ローカル ブランチとリモート ブランチ間の同期の必要性についても取り上げ、今後の章でより複雑なコラボレーションを行うための土台を整えています。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Git과의 협업에 초점을 맞추고, 수정을 위한 개인 사본을 만들기 위해 저장소를 포킹하고 복제하는 것의 중요성을 강조합니다. 로컬 커밋을 원격 저장소에 푸시하고 공개하는 프로세스를 설명하고, 비공개 커밋과 공개 커밋의 차이점을 강조합니다. 또한 이 장에서는 병합 충돌 처리, 코드 검토에서 풀 리퀘스트의 역할, 로컬 및 원격 브랜치 간의 동기화 필요성에 대해 다루며, 향후 장에서 더 복잡한 협업을 위한 토대를 마련합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en la colaboración con Git, haciendo hincapié en la importancia de bifurcar y clonar repositorios para crear copias personales para su modificación. Explica el proceso de enviar confirmaciones locales a un repositorio remoto, haciéndolos públicos, y destaca la distinción entre confirmaciones privadas y públicas. El capítulo también aborda el manejo de conflictos de fusión, el papel de las solicitudes de incorporación de cambios en la revisión de código y la necesidad de sincronización entre ramas locales y remotas, lo que prepara el terreno para una colaboración más compleja en capítulos futuros.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय Git के साथ सहयोग करने पर केंद्रित है, संशोधन के लिए व्यक्तिगत प्रतियाँ बनाने के लिए रिपॉजिटरी को फ़ॉर्किंग और क्लोन करने के महत्व पर ज़ोर देता है। यह स्थानीय कमिट को रिमोट रिपॉजिटरी में पुश करने, उन्हें सार्वजनिक बनाने की प्रक्रिया को समझाता है, और निजी और सार्वजनिक कमिट के बीच अंतर को उजागर करता है। अध्याय मर्ज संघर्षों को संभालने, कोड समीक्षा में पुल अनुरोधों की भूमिका और स्थानीय और दूरस्थ शाखाओं के बीच समन्वय की आवश्यकता को भी संबोधित करता है, जो भविष्य के अध्यायों में अधिक जटिल सहयोग के लिए मंच तैयार करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se na colaboração com o Git, enfatizando a importância de bifurcar e clonar repositórios para criar cópias pessoais para modificação. Explica o processo de envio de commits locais para um repositório remoto, tornando-os públicos, e destaca a distinção entre commits privados e públicos. O capítulo aborda também o tratamento de conflitos de fusão, a função dos pull requests na revisão de código e a necessidade de sincronização entre filiais locais e remotas, preparando o terreno para uma colaboração mais complexa em capítulos futuros.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি গিট-এর সাথে সহযোগিতা করার উপর দৃষ্টি নিবদ্ধ করে, পরিবর্তনের জন্য ব্যক্তিগত কপি তৈরি করতে কাঁটাচামচ এবং ক্লোনিং সংগ্রহস্থলের গুরুত্বের উপর জোর দেয়। এটি স্থানীয় প্রতিশ্রুতিগুলিকে দূরবর্তী সংগ্রহস্থলে ঠেলে দেওয়ার প্রক্রিয়া ব্যাখ্যা করে, সেগুলিকে সর্বজনীন করে তোলে এবং ব্যক্তিগত এবং পাবলিক কমিটের মধ্যে পার্থক্য তুলে ধরে। অধ্যায়টি একত্রীকরণের দ্বন্দ্ব পরিচালনা, কোড পর্যালোচনায় পুল অনুরোধের ভূমিকা এবং স্থানীয় এবং দূরবর্তী শাখাগুলির মধ্যে সমন্বয়ের প্রয়োজনীয়তাকেও সম্বোধন করে, ভবিষ্যতের অধ্যায়ে আরও জটিল সহযোগিতার মঞ্চ তৈরি করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على التعاون مع Git، مع التأكيد على أهمية تقسيم واستنساخ المستودعات لإنشاء نسخ شخصية للتعديل. ويشرح عملية دفع الالتزامات المحلية إلى مستودع بعيد، وجعلها عامة، ويسلط الضوء على التمييز بين الالتزامات الخاصة والعامة. ويتناول الفصل أيضًا التعامل مع تعارضات الدمج، ودور طلبات السحب في مراجعة التعليمات البرمجية، والحاجة إلى المزامنة بين الفروع المحلية والبعيدة، مما يمهد الطريق لمزيد من التعاون المعقد في الفصول المستقبلية.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر همکاری با Git تمرکز می‌کند و بر اهمیت فورک کردن و شبیه‌سازی مخازن برای ایجاد نسخه‌های شخصی برای اصلاح تأکید می‌کند. این فرآیند انتقال تعهدات محلی به یک مخزن راه دور، عمومی کردن آنها را توضیح می‌دهد و تمایز بین تعهدات خصوصی و عمومی را برجسته می‌کند. این فصل همچنین به رسیدگی به تضادهای ادغام، نقش درخواست های کشش در بررسی کد و نیاز به همگام سازی بین شاخه های محلی و راه دور می پردازد و زمینه را برای همکاری های پیچیده تر در فصل های آینده فراهم می کند.",
                     },
                 },
                 // 6
@@ -5597,31 +5597,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Collaborating with Git - Part II: Go, Team, Go!",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on collaboration using Git, emphasizing the importance of remote tracking branches and the benefits of working in parallel with a partner. It encourages readers to clone a repository and create feature branches based on the latest commits from the integration branch, allowing for efficient teamwork without merge conflicts. The chapter illustrates the collaborative process through a scenario involving two contributors, Addison and Sangita, who manage their work simultaneously while integrating changes when ready.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um die Zusammenarbeit mit Git. Dabei wird die Bedeutung der Remote-Verfolgung von Zweigen und die Vorteile der parallelen Arbeit mit einem Partner hervorgehoben. Es ermutigt die Leser, ein Repository zu klonen und Feature-Zweige basierend auf den neuesten Commits des Integrationszweigs zu erstellen, was eine effiziente Teamarbeit ohne Zusammenführungskonflikte ermöglicht. Das Kapitel veranschaulicht den kollaborativen Prozess anhand eines Szenarios mit zwei Mitwirkenden, Addison und Sangita, die ihre Arbeit gleichzeitig verwalten und Änderungen integrieren, wenn sie fertig sind.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍如何使用 Git 进行协作，强调远程跟踪分支的重要性以及与合作伙伴并行工作的好处。它鼓励读者克隆存储库并根据集成分支的最新提交创建功能分支，从而实现高效的团队合作而不会发生合并冲突。本章通过涉及两个贡献者 Addison 和 Sangita 的场景说明了协作过程，他们同时管理工作并在准备就绪时集成更改。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется совместной работе с использованием Git, подчеркивая важность удаленного отслеживания веток и преимущества параллельной работы с партнером. Она призывает читателей клонировать репозиторий и создавать ветки функций на основе последних коммитов из ветки интеграции, что позволяет эффективно работать в команде без конфликтов слияния. В главе иллюстрируется совместный процесс с помощью сценария с участием двух участников, Эддисона и Сангиты, которые одновременно управляют своей работой, интегрируя изменения по мере готовности.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur la collaboration à l'aide de Git, en soulignant l'importance du suivi à distance des branches et les avantages du travail en parallèle avec un partenaire. Il encourage les lecteurs à cloner un référentiel et à créer des branches de fonctionnalités basées sur les derniers commits de la branche d'intégration, ce qui permet un travail d'équipe efficace sans conflits de fusion. Le chapitre illustre le processus collaboratif à travers un scénario impliquant deux contributeurs, Addison et Sangita, qui gèrent leur travail simultanément tout en intégrant les modifications lorsqu'elles sont prêtes.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Git を使用したコラボレーションに焦点を当て、リモート トラッキング ブランチの重要性とパートナーと並行して作業する利点を強調しています。リポジトリをクローンし、統合ブランチからの最新のコミットに基づいて機能ブランチを作成することを推奨します。これにより、マージの競合のない効率的なチームワークが可能になります。この章では、2 人の貢献者、Addison と Sangita が同時に作業を管理しながら、準備ができたら変更を統合するというシナリオを通じて、コラボレーション プロセスを説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Git을 사용한 협업에 초점을 맞추고 원격 추적 브랜치의 중요성과 파트너와 병렬로 작업하는 것의 이점을 강조합니다. 독자들이 리포지토리를 복제하고 통합 브랜치의 최신 커밋을 기반으로 기능 브랜치를 만들어 병합 충돌 없이 효율적인 팀워크를 이루도록 권장합니다. 이 장에서는 Addison과 Sangita라는 두 기여자가 준비가 되면 변경 사항을 통합하는 동시에 작업을 관리하는 시나리오를 통해 협업 프로세스를 설명합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en la colaboración mediante Git, haciendo hincapié en la importancia del seguimiento remoto de las ramas y los beneficios de trabajar en paralelo con un socio. Anima a los lectores a clonar un repositorio y crear ramas de características basadas en las últimas confirmaciones de la rama de integración, lo que permite un trabajo en equipo eficiente sin conflictos de fusión. El capítulo ilustra el proceso colaborativo a través de un escenario que involucra a dos colaboradores, Addison y Sangita, que gestionan su trabajo simultáneamente mientras integran los cambios cuando están listos.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय Git का उपयोग करके सहयोग पर केंद्रित है, दूरस्थ ट्रैकिंग शाखाओं के महत्व और भागीदार के साथ समानांतर में काम करने के लाभों पर जोर देता है। यह पाठकों को एक रिपॉजिटरी को क्लोन करने और एकीकरण शाखा से नवीनतम प्रतिबद्धताओं के आधार पर फीचर शाखाएँ बनाने के लिए प्रोत्साहित करता है, जिससे मर्ज संघर्षों के बिना कुशल टीमवर्क की अनुमति मिलती है। यह अध्याय दो योगदानकर्ताओं, एडिसन और संगीता को शामिल करते हुए एक परिदृश्य के माध्यम से सहयोगी प्रक्रिया को दर्शाता है, जो तैयार होने पर परिवर्तनों को एकीकृत करते हुए एक साथ अपने काम का प्रबंधन करते हैं।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se na colaboração utilizando o Git, enfatizando a importância do rastreio remoto de filiais e os benefícios de trabalhar em paralelo com um parceiro. Incentiva os leitores a clonar um repositório e a criar ramificações de recursos com base nos commits mais recentes da ramificação de integração, permitindo um trabalho de equipa eficiente sem conflitos de fusão. O capítulo ilustra o processo colaborativo através de um cenário que envolve dois colaboradores, Addison e Sangita, que gerem o seu trabalho em simultâneo enquanto integram as mudanças quando estão prontos.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি গিট ব্যবহার করে সহযোগিতার উপর ফোকাস করে, দূরবর্তী ট্র্যাকিং শাখার গুরুত্ব এবং অংশীদারের সাথে সমান্তরালভাবে কাজ করার সুবিধাগুলির উপর জোর দেয়। এটি পাঠকদের একটি সংগ্রহস্থল ক্লোন করতে এবং ইন্টিগ্রেশন শাখার সর্বশেষ প্রতিশ্রুতির উপর ভিত্তি করে বৈশিষ্ট্য শাখা তৈরি করতে উত্সাহিত করে, যা মার্জ দ্বন্দ্ব ছাড়াই দক্ষ টিমওয়ার্কের অনুমতি দেয়। অধ্যায়টি দুটি অবদানকারী, অ্যাডিসন এবং সঙ্গীতাকে জড়িত একটি দৃশ্যের মাধ্যমে সহযোগিতামূলক প্রক্রিয়াকে চিত্রিত করে, যারা প্রস্তুত থাকাকালীন পরিবর্তনগুলিকে একীভূত করার সময় একই সাথে তাদের কাজ পরিচালনা করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على التعاون باستخدام Git، مع التأكيد على أهمية فروع التتبع عن بعد وفوائد العمل بالتوازي مع شريك. ويشجع القراء على استنساخ مستودع وإنشاء فروع مميزة بناءً على أحدث التغييرات من فرع التكامل، مما يسمح بالعمل الجماعي الفعّال دون تعارضات الدمج. ويوضح الفصل العملية التعاونية من خلال سيناريو يتضمن مساهمين، أديسون وسانجيتا، يديران عملهما في وقت واحد أثناء دمج التغييرات عندما تكون جاهزة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر روی همکاری با استفاده از Git تمرکز دارد و بر اهمیت شاخه های ردیابی از راه دور و مزایای کار موازی با یک شریک تاکید می کند. این خوانندگان را تشویق می‌کند تا یک مخزن را شبیه‌سازی کنند و شاخه‌های ویژگی را بر اساس آخرین تعهدات شاخه ادغام ایجاد کنند، که امکان کار گروهی کارآمد را بدون تضاد ادغام فراهم می‌کند. این فصل روند مشارکتی را از طریق سناریویی شامل دو مشارکت کننده، آدیسون و سانگیتا، نشان می دهد که کار خود را به طور همزمان مدیریت می کنند و در صورت آماده بودن تغییرات را یکپارچه می کنند.",
                     },
                 },
                 // 7
@@ -5629,31 +5629,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Searching Git Repositories: Git a Grep",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on the search capabilities of Git, enabling users to find specific text within files and track changes in commit history. It introduces commands like to identify who made changes to a file and when, as well as for searching through tracked files. The chapter also covers the use of flags such as in to locate commits that modified specific lines of text, and emphasizes the importance of working on branches to maintain commit integrity while navigating through the repository's history.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um die Suchfunktionen von Git, mit denen Benutzer bestimmten Text in Dateien finden und Änderungen im Commit-Verlauf verfolgen können. Es werden Befehle vorgestellt, mit denen festgestellt werden kann, wer wann Änderungen an einer Datei vorgenommen hat, sowie Befehle zum Durchsuchen verfolgter Dateien. Das Kapitel behandelt auch die Verwendung von Flags wie „in“, um Commits zu finden, die bestimmte Textzeilen geändert haben, und betont, wie wichtig es ist, an Zweigen zu arbeiten, um die Commit-Integrität bei der Navigation durch den Verlauf des Repositorys aufrechtzuerhalten.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍 Git 的搜索功能，使用户能够在文件中查找特定文本并跟踪提交历史记录中的更改。它介绍了一些命令，例如识别谁在何时对文件进行了更改，以及搜索跟踪的文件。本章还介绍了如何使用 in 等标志来定位修改了特定文本行的提交，并强调了在浏览存储库历史记录时处理分支以保持提交完整性的重要性。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматриваются возможности поиска Git, позволяющие пользователям находить определенный текст в файлах и отслеживать изменения в истории коммитов. В ней представлены такие команды, как определение того, кто и когда внес изменения в файл, а также поиск по отслеживаемым файлам. В главе также рассматривается использование флагов, таких как in, для поиска коммитов, которые изменили определенные строки текста, и подчеркивается важность работы с ветками для поддержания целостности коммитов при навигации по истории репозитория.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur les capacités de recherche de Git, permettant aux utilisateurs de trouver du texte spécifique dans des fichiers et de suivre les modifications dans l'historique des commits. Il présente des commandes permettant d'identifier qui a apporté des modifications à un fichier et quand, ainsi que de rechercher dans les fichiers suivis. Le chapitre couvre également l'utilisation d'indicateurs tels que in pour localiser les commits qui ont modifié des lignes de texte spécifiques, et souligne l'importance de travailler sur les branches pour maintenir l'intégrité des commits tout en naviguant dans l'historique du référentiel.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Git の検索機能に焦点を当て、ユーザーがファイル内の特定のテキストを検索したり、コミット履歴の変更を追跡したりできるようにします。また、追跡されたファイルを検索するためのコマンドや、誰がいつファイルを変更したかを識別するコマンドなどを紹介します。また、この章では、特定のテキスト行を変更したコミットを見つけるための in などのフラグの使用についても説明し、リポジトリの履歴をナビゲートしながらコミットの整合性を維持するためにブランチで作業することの重要性を強調します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Git의 검색 기능에 초점을 맞춰 사용자가 파일 내에서 특정 텍스트를 찾고 커밋 기록에서 변경 사항을 추적할 수 있도록 합니다. 누가 언제 파일을 변경했는지 식별하는 명령과 추적된 파일을 검색하는 명령을 소개합니다. 또한 in과 같은 플래그를 사용하여 특정 텍스트 줄을 수정한 커밋을 찾는 방법을 다루고, 저장소 기록을 탐색하는 동안 커밋 무결성을 유지하기 위해 브랜치에서 작업하는 것의 중요성을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en las capacidades de búsqueda de Git, que permiten a los usuarios encontrar texto específico dentro de los archivos y realizar un seguimiento de los cambios en el historial de confirmaciones. Presenta comandos como para identificar quién realizó cambios en un archivo y cuándo, así como para buscar en los archivos rastreados. El capítulo también cubre el uso de indicadores como in para localizar confirmaciones que modificaron líneas de texto específicas y enfatiza la importancia de trabajar en las ramas para mantener la integridad de las confirmaciones mientras se navega por el historial del repositorio.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय Git की खोज क्षमताओं पर केंद्रित है, जो उपयोगकर्ताओं को फ़ाइलों के भीतर विशिष्ट पाठ खोजने और कमिट इतिहास में परिवर्तनों को ट्रैक करने में सक्षम बनाता है। यह उन कमांड का परिचय देता है जैसे कि यह पहचानना कि किसने और कब फ़ाइल में परिवर्तन किए, साथ ही ट्रैक की गई फ़ाइलों के माध्यम से खोज करना। अध्याय में फ्लैग के उपयोग को भी शामिल किया गया है जैसे कि टेक्स्ट की विशिष्ट पंक्तियों को संशोधित करने वाले कमिट का पता लगाना, और रिपॉजिटरी के इतिहास के माध्यम से नेविगेट करते समय कमिट अखंडता को बनाए रखने के लिए शाखाओं पर काम करने के महत्व पर जोर दिया गया है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se nas capacidades de pesquisa do Git, permitindo aos utilizadores encontrar textos específicos em ficheiros e acompanhar as alterações no histórico de commits. Apresenta comandos como identificar quem fez alterações num ficheiro e quando, bem como pesquisar ficheiros rastreados. O capítulo aborda também a utilização de sinalizadores como in para localizar commits que modificaram linhas específicas de texto e enfatiza a importância de trabalhar em branches para manter a integridade do commit enquanto se navega pelo histórico do repositório.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি গিট-এর অনুসন্ধান ক্ষমতার উপর ফোকাস করে, ব্যবহারকারীদের ফাইলগুলির মধ্যে নির্দিষ্ট পাঠ্য খুঁজে পেতে এবং কমিট ইতিহাসে পরিবর্তনগুলি ট্র্যাক করতে সক্ষম করে। এটি কমান্ডগুলি প্রবর্তন করে যেমন একটি ফাইলে কে এবং কখন পরিবর্তন করেছে, সেইসাথে ট্র্যাক করা ফাইলগুলির মাধ্যমে অনুসন্ধান করার জন্য। অধ্যায়টি পতাকাগুলির ব্যবহারকেও কভার করে যেমন কমিটগুলি সনাক্ত করতে যা পাঠ্যের নির্দিষ্ট লাইনগুলিকে পরিবর্তিত করে, এবং সংগ্রহস্থলের ইতিহাসে নেভিগেট করার সময় অঙ্গীকারের অখণ্ডতা বজায় রাখার জন্য শাখাগুলিতে কাজ করার গুরুত্বের উপর জোর দেয়।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على إمكانيات البحث في Git، مما يتيح للمستخدمين العثور على نص معين داخل الملفات وتتبع التغييرات في سجل التغييرات. ويقدم أوامر مثل تحديد من أجرى تغييرات على ملف ومتى، بالإضافة إلى البحث عبر الملفات المتعقبة. ويغطي الفصل أيضًا استخدام العلامات مثل in لتحديد التغييرات التي عدلت أسطرًا معينة من النص، ويؤكد على أهمية العمل على الفروع للحفاظ على سلامة التغييرات أثناء التنقل عبر سجل المستودع.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر قابلیت‌های جستجوی Git تمرکز دارد و کاربران را قادر می‌سازد متن خاصی را در فایل‌ها پیدا کنند و تغییرات در تاریخچه commit را دنبال کنند. دستوراتی مانند تشخیص اینکه چه کسی و چه زمانی در یک فایل تغییراتی ایجاد کرده است و همچنین برای جستجو در میان فایل های ردیابی شده معرفی می کند. این فصل همچنین استفاده از پرچم‌هایی را پوشش می‌دهد، مثلاً برای تعیین محل تعهداتی که خطوط خاصی از متن را تغییر می‌دهند، و بر اهمیت کار بر روی شاخه‌ها برای حفظ یکپارچگی commit در حین پیمایش در تاریخچه مخزن تأکید می‌کند.",
                     },
                 },
                 // 8
@@ -5661,31 +5661,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Making your life Easier with Git: #ProTips",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on enhancing the Git experience through configuration and best practices. It emphasizes the importance of customizing Git settings, creating command aliases for efficiency, and using to manage untracked files. The chapter also highlights the significance of writing meaningful commit messages and adopting clear branch naming conventions, while suggesting the use of graphical user interfaces to complement command-line operations for a more user-friendly workflow.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es darum, das Git-Erlebnis durch Konfiguration und bewährte Methoden zu verbessern. Es betont, wie wichtig es ist, Git-Einstellungen anzupassen, Befehlsaliase für mehr Effizienz zu erstellen und nicht verfolgte Dateien zu verwalten. Das Kapitel betont auch, wie wichtig es ist, aussagekräftige Commit-Nachrichten zu schreiben und klare Konventionen für die Benennung von Zweigen zu übernehmen. Gleichzeitig wird die Verwendung grafischer Benutzeroberflächen als Ergänzung zu Befehlszeilenoperationen für einen benutzerfreundlicheren Workflow vorgeschlagen.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍如何通过配置和最佳实践来增强 Git 体验。它强调了自定义 Git 设置、创建命令别名以提高效率以及使用来管理未跟踪文件的重要性。本章还强调了编写有意义的提交消息和采用清晰的分支命名约定的重要性，同时建议使用图形用户界面来补充命令行操作，以实现更用户友好的工作流程。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется улучшению опыта Git посредством конфигурации и лучших практик. В ней подчеркивается важность настройки параметров Git, создания псевдонимов команд для эффективности и использования для управления неотслеживаемыми файлами. В главе также подчеркивается важность написания осмысленных сообщений о коммитах и ​​принятия четких соглашений об именовании ветвей, а также предлагается использовать графические пользовательские интерфейсы для дополнения операций командной строки для более удобного рабочего процесса.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur l'amélioration de l'expérience Git grâce à la configuration et aux meilleures pratiques. Il souligne l'importance de la personnalisation des paramètres Git, de la création d'alias de commande pour plus d'efficacité et de l'utilisation pour gérer les fichiers non suivis. Le chapitre souligne également l'importance de rédiger des messages de validation significatifs et d'adopter des conventions de dénomination de branche claires, tout en suggérant l'utilisation d'interfaces utilisateur graphiques pour compléter les opérations de ligne de commande pour un flux de travail plus convivial.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、設定とベスト プラクティスを通じて Git エクスペリエンスを強化することに焦点を当てています。Git 設定のカスタマイズ、効率化のためのコマンド エイリアスの作成、追跡されていないファイルの管理に使用することの重要性を強調しています。また、意味のあるコミット メッセージを記述することと明確なブランチ命名規則を採用することの重要性を強調し、よりユーザー フレンドリなワークフローを実現するために、コマンドライン操作を補完するグラフィカル ユーザー インターフェイスの使用を提案しています。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 구성 및 모범 사례를 통해 Git 경험을 향상시키는 데 중점을 둡니다. Git 설정을 사용자 지정하고, 효율성을 위해 명령 별칭을 만들고, 추적되지 않은 파일을 관리하는 데 사용하는 것의 중요성을 강조합니다. 또한 이 장에서는 의미 있는 커밋 메시지를 작성하고 명확한 브랜치 명명 규칙을 채택하는 것의 중요성을 강조하는 동시에, 보다 사용자 친화적인 워크플로를 위해 명령줄 작업을 보완하기 위해 그래픽 사용자 인터페이스를 사용할 것을 제안합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en mejorar la experiencia de Git a través de la configuración y las mejores prácticas. Destaca la importancia de personalizar la configuración de Git, crear alias de comandos para lograr eficiencia y utilizarlos para administrar archivos no rastreados. El capítulo también destaca la importancia de escribir mensajes de confirmación significativos y adoptar convenciones claras de nombres de ramas, al tiempo que sugiere el uso de interfaces gráficas de usuario para complementar las operaciones de línea de comandos para un flujo de trabajo más fácil de usar.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय कॉन्फ़िगरेशन और सर्वोत्तम प्रथाओं के माध्यम से Git अनुभव को बेहतर बनाने पर केंद्रित है। यह Git सेटिंग्स को कस्टमाइज़ करने, दक्षता के लिए कमांड उपनाम बनाने और अनट्रैक की गई फ़ाइलों को प्रबंधित करने के लिए उपयोग करने के महत्व पर जोर देता है। अध्याय सार्थक कमिट संदेश लिखने और स्पष्ट शाखा नामकरण परंपराओं को अपनाने के महत्व पर भी प्रकाश डालता है, जबकि अधिक उपयोगकर्ता-अनुकूल वर्कफ़्लो के लिए कमांड-लाइन संचालन को पूरक करने के लिए ग्राफ़िकल यूज़र इंटरफ़ेस के उपयोग का सुझाव देता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se em melhorar a experiência do Git através de configuração e práticas recomendadas. Realça a importância de personalizar as definições do Git, criar aliases de comando para maior eficiência e usá-lo para gerir ficheiros não rastreados. O capítulo também destaca a importância de escrever mensagens de commit significativas e adotar convenções claras de nomenclatura de ramos, ao mesmo tempo que sugere a utilização de interfaces gráficas de utilizador para complementar as operações de linha de comando para um fluxo de trabalho mais amigável.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি কনফিগারেশন এবং সর্বোত্তম অনুশীলনের মাধ্যমে গিট অভিজ্ঞতা বাড়ানোর উপর দৃষ্টি নিবদ্ধ করে। এটি গিট সেটিংস কাস্টমাইজ করার, দক্ষতার জন্য কমান্ড উপনাম তৈরি করা এবং আনট্র্যাক করা ফাইলগুলি পরিচালনা করার জন্য ব্যবহার করার গুরুত্বের উপর জোর দেয়। অধ্যায়টি আরও ব্যবহারকারী-বান্ধব কর্মপ্রবাহের জন্য কমান্ড-লাইন ক্রিয়াকলাপগুলিকে পরিপূরক করতে গ্রাফিকাল ইউজার ইন্টারফেস ব্যবহারের পরামর্শ দেওয়ার সাথে সাথে অর্থপূর্ণ প্রতিশ্রুতি বার্তা লেখার এবং স্পষ্ট শাখার নামকরণের নিয়মগুলি গ্রহণ করার তাত্পর্যও তুলে ধরে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على تحسين تجربة Git من خلال التكوين وأفضل الممارسات. ويؤكد على أهمية تخصيص إعدادات Git وإنشاء أسماء مستعارة للأوامر لتحقيق الكفاءة واستخدامها لإدارة الملفات غير المتعقبة. ويسلط الفصل الضوء أيضًا على أهمية كتابة رسائل التزام ذات مغزى وتبني اتفاقيات تسمية الفروع الواضحة، مع اقتراح استخدام واجهات المستخدم الرسومية لاستكمال عمليات سطر الأوامر لتحقيق سير عمل أكثر سهولة في الاستخدام.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر تقویت تجربه Git از طریق پیکربندی و بهترین شیوه ها تمرکز دارد. این بر اهمیت سفارشی کردن تنظیمات Git، ایجاد نام مستعار دستور برای کارایی و استفاده برای مدیریت فایل‌های ردیابی نشده تأکید می‌کند. این فصل همچنین اهمیت نوشتن پیام‌های commit معنی‌دار و اتخاذ قراردادهای نام‌گذاری شاخه واضح را برجسته می‌کند، در حالی که استفاده از رابط‌های کاربر گرافیکی برای تکمیل عملیات خط فرمان برای گردش کار کاربرپسندتر را پیشنهاد می‌کند.",
                     },
                 },
             ],
@@ -5825,31 +5825,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "HTML and CSS",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter introduces HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets), explaining their roles in web development. HTML structures a web page using elements defined by open and close tags, organized into a for metadata and a for content, while the DOM (Document Object Model) represents the document's logical structure. CSS enhances the visual presentation of HTML documents, with three types: Internal, External, and Inline CSS, promoting cleaner code and efficient styling across multiple pages. The chapter emphasizes best practices for using tags, IDs, and CSS properties to create a well-structured and visually appealing web project.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel werden HTML (Hyper Text Markup Language) und CSS (Cascading Style Sheets) vorgestellt und ihre Rolle bei der Webentwicklung erläutert. HTML strukturiert eine Webseite mithilfe von Elementen, die durch öffnende und schließende Tags definiert sind und in einen für Metadaten und einen für Inhalt organisiert sind, während das DOM (Document Object Model) die logische Struktur des Dokuments darstellt. CSS verbessert die visuelle Darstellung von HTML-Dokumenten mit drei Typen: Internes, externes und Inline-CSS, wodurch saubererer Code und effizientes Styling über mehrere Seiten hinweg gefördert werden. Das Kapitel betont bewährte Methoden für die Verwendung von Tags, IDs und CSS-Eigenschaften, um ein gut strukturiertes und optisch ansprechendes Webprojekt zu erstellen.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍 HTML（超文本标记语言）和 CSS（层叠样式表），解释它们在 Web 开发中的作用。HTML 使用由打开和关闭标记定义的元素构建网页，这些元素分为元数据和内容，而 DOM（文档对象模型）则表示文档的逻辑结构。CSS 增强了 HTML 文档的视觉呈现，具有三种类型：内部 CSS、外部 CSS 和内联 CSS，从而促进了代码更简洁、样式更高效的跨多个页面设计。本章重点介绍了使用标记、ID 和 CSS 属性来创建结构良好且外观美观的 Web 项目的最佳实践。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматриваются HTML (язык гипертекстовой разметки) и CSS (каскадные таблицы стилей), а также объясняется их роль в веб-разработке. HTML структурирует веб-страницу с помощью элементов, определенных открытыми и закрытыми тегами, организованными в метаданные и содержимое, в то время как DOM (объектная модель документа) представляет логическую структуру документа. CSS улучшает визуальное представление HTML-документов с помощью трех типов: внутренний, внешний и встроенный CSS, что способствует более чистому коду и эффективному оформлению на нескольких страницах. В главе подчеркивается передовой опыт использования тегов, идентификаторов и свойств CSS для создания хорошо структурированного и визуально привлекательного веб-проекта.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente le langage HTML (Hyper Text Markup Language) et les feuilles de style en cascade (Cascading Style Sheets), en expliquant leurs rôles dans le développement Web. Le langage HTML structure une page Web à l'aide d'éléments définis par des balises d'ouverture et de fermeture, organisées en un pour les métadonnées et un pour le contenu, tandis que le DOM (Document Object Model) représente la structure logique du document. Le CSS améliore la présentation visuelle des documents HTML, avec trois types : CSS interne, externe et en ligne, favorisant un code plus propre et un style efficace sur plusieurs pages. Le chapitre met l'accent sur les meilleures pratiques d'utilisation des balises, des identifiants et des propriétés CSS pour créer un projet Web bien structuré et visuellement attrayant.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、HTML (Hyper Text Markup Language) と CSS (Cascading Style Sheets) を紹介し、Web 開発におけるそれらの役割について説明します。HTML は、開始タグと終了タグで定義される要素を使用して Web ページを構成し、メタデータ用の とコンテンツ用の に編成されます。一方、DOM (Document Object Model) はドキュメントの論理構造を表します。CSS は、内部 CSS、外部 CSS、インライン CSS の 3 つのタイプを使用して HTML ドキュメントの視覚的な表現を強化し、複数のページにわたってよりクリーンなコードと効率的なスタイルを促進します。この章では、タグ、ID、および CSS プロパティを使用して、構造が適切で視覚的に魅力的な Web プロジェクトを作成するためのベスト プラクティスを強調します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 HTML(Hyper Text Markup Language)과 CSS(Cascading Style Sheets)를 소개하고 웹 개발에서 두 가지의 역할을 설명합니다. HTML은 메타데이터와 콘텐츠로 구성된 여는 태그와 닫는 태그로 정의된 요소를 사용하여 웹 페이지를 구조화하는 반면, DOM(Document Object Model)은 문서의 논리적 구조를 나타냅니다. CSS는 내부, 외부 및 인라인 CSS의 세 가지 유형으로 HTML 문서의 시각적 표현을 향상시켜 여러 페이지에서 더 깔끔한 코드와 효율적인 스타일을 촉진합니다. 이 장에서는 태그, ID 및 CSS 속성을 사용하여 잘 구조화되고 시각적으로 매력적인 웹 프로젝트를 만드는 모범 사례를 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo presenta HTML (lenguaje de marcado de hipertexto) y CSS (hojas de estilo en cascada), explicando sus funciones en el desarrollo web. HTML estructura una página web utilizando elementos definidos por etiquetas de apertura y cierre, organizados en un for de metadatos y un for de contenido, mientras que el DOM (modelo de objetos del documento) representa la estructura lógica del documento. CSS mejora la presentación visual de los documentos HTML, con tres tipos: CSS interno, externo y en línea, lo que promueve un código más limpio y un estilo eficiente en varias páginas. El capítulo enfatiza las mejores prácticas para usar etiquetas, identificadores y propiedades CSS para crear un proyecto web bien estructurado y visualmente atractivo.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय HTML (हाइपर टेक्स्ट मार्कअप लैंग्वेज) और CSS (कैस्केडिंग स्टाइल शीट्स) का परिचय देता है, तथा वेब विकास में उनकी भूमिका को समझाता है। HTML ओपन और क्लोज टैग द्वारा परिभाषित तत्वों का उपयोग करके वेब पेज की संरचना करता है, जो मेटाडेटा के लिए और कंटेंट के लिए व्यवस्थित होते हैं, जबकि DOM (डॉक्यूमेंट ऑब्जेक्ट मॉडल) दस्तावेज़ की तार्किक संरचना का प्रतिनिधित्व करता है। CSS तीन प्रकारों के साथ HTML दस्तावेज़ों की दृश्य प्रस्तुति को बढ़ाता है: आंतरिक, बाहरी और इनलाइन CSS, जो कई पृष्ठों में क्लीनर कोड और कुशल स्टाइलिंग को बढ़ावा देता है। यह अध्याय एक अच्छी तरह से संरचित और दृश्यमान रूप से आकर्षक वेब प्रोजेक्ट बनाने के लिए टैग, आईडी और CSS गुणों का उपयोग करने के सर्वोत्तम तरीकों पर जोर देता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta o HTML (Hyper Text Markup Language) e o CSS (Cascading Style Sheets), explicando as suas funções no desenvolvimento web. O HTML estrutura uma página web utilizando elementos definidos por tags de abertura e fecho, organizados em for metadata e for content, enquanto o DOM (Document Object Model) representa a estrutura lógica do documento. O CSS melhora a apresentação visual de documentos HTML, com três tipos: CSS Interno, Externo e Inline, promovendo um código mais limpo e um estilo eficiente em várias páginas. O capítulo enfatiza as melhores práticas para a utilização de tags, IDs e propriedades CSS para criar um projeto web bem estruturado e visualmente apelativo.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে এইচটিএমএল (হাইপার টেক্সট মার্কআপ ল্যাঙ্গুয়েজ) এবং সিএসএস (ক্যাসকেডিং স্টাইল শীট) প্রবর্তন করা হয়েছে, ওয়েব ডেভেলপমেন্টে তাদের ভূমিকা ব্যাখ্যা করে। HTML ওপেন এবং ক্লোজ ট্যাগ দ্বারা সংজ্ঞায়িত উপাদানগুলি ব্যবহার করে একটি ওয়েব পৃষ্ঠা গঠন করে, মেটাডেটার জন্য এবং একটি বিষয়বস্তুর জন্য সংগঠিত হয়, যখন DOM (ডকুমেন্ট অবজেক্ট মডেল) নথির যৌক্তিক কাঠামোর প্রতিনিধিত্ব করে। CSS এইচটিএমএল ডকুমেন্টের ভিজ্যুয়াল প্রেজেন্টেশন বাড়ায়, তিন ধরনের: ইন্টারনাল, এক্সটার্নাল এবং ইনলাইন সিএসএস, ক্লিনার কোড প্রচার করে এবং একাধিক পৃষ্ঠা জুড়ে দক্ষ স্টাইলিং। অধ্যায়টি একটি সুগঠিত এবং দৃশ্যত আকর্ষণীয় ওয়েব প্রকল্প তৈরি করতে ট্যাগ, আইডি এবং CSS বৈশিষ্ট্যগুলি ব্যবহার করার জন্য সর্বোত্তম অনুশীলনের উপর জোর দেয়।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل مقدمة عن لغة ترميز النص التشعبي (HTML) وCSS (أوراق الأنماط المتتالية)، موضحًا أدوارهما في تطوير الويب. تقوم لغة HTML ببناء صفحة الويب باستخدام عناصر محددة بواسطة علامات الفتح والإغلاق، والتي يتم تنظيمها في نموذج لبيانات التعريف ونموذج للمحتوى، بينما يمثل نموذج كائن المستند (DOM) البنية المنطقية للمستند. تعمل CSS على تحسين العرض المرئي لمستندات HTML، بثلاثة أنواع: CSS داخلي وخارجي ومضمن، مما يعزز من وضوح الكود والتنسيق الفعّال عبر صفحات متعددة. يؤكد الفصل على أفضل الممارسات لاستخدام العلامات والمعرفات وخصائص CSS لإنشاء مشروع ويب منظم جيدًا وجذاب بصريًا.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل HTML (زبان نشانه گذاری هایپر متن) و CSS (برگ های سبک آبشاری) را معرفی می کند و نقش آنها را در توسعه وب توضیح می دهد. HTML یک صفحه وب را با استفاده از عناصر تعریف شده توسط تگ های باز و بسته، که به صورت a برای ابرداده و a برای محتوا سازماندهی شده اند، ساختار می دهد، در حالی که DOM (مدل شی سند) ساختار منطقی سند را نشان می دهد. CSS ارائه بصری اسناد HTML را با سه نوع CSS داخلی، خارجی و درون خطی بهبود می‌بخشد، کد پاک‌تر و یک ظاهر طراحی کارآمد را در چندین صفحه ارتقا می‌دهد. این فصل بر بهترین شیوه‌ها برای استفاده از برچسب‌ها، شناسه‌ها و ویژگی‌های CSS برای ایجاد یک پروژه وب با ساختار و بصری جذاب تأکید می‌کند.",
                     },
                 },
                 // 2
@@ -5857,31 +5857,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Introduction to JavaScript",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter introduces Javascript as an event-driven programming language primarily used to enhance web page behavior through functions triggered by user interactions, such as button clicks. It covers variable declaration methods, emphasizing the preference, and explains the use of the tag for data entry, highlighting methods for data submission. Additionally, the chapter discusses common Javascript events, and provides insights into handling user input and displaying messages using pre-built functions.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird Javascript als ereignisgesteuerte Programmiersprache vorgestellt, die in erster Linie dazu verwendet wird, das Verhalten von Webseiten durch Funktionen zu verbessern, die durch Benutzerinteraktionen, wie z. B. das Klicken auf Schaltflächen, ausgelöst werden. Es behandelt Methoden zur Variablendeklaration, wobei die Präferenz hervorgehoben wird, und erklärt die Verwendung des Tags zur Dateneingabe, wobei Methoden zur Datenübermittlung hervorgehoben werden. Darüber hinaus werden in diesem Kapitel gängige Javascript-Ereignisse erörtert und Einblicke in die Verarbeitung von Benutzereingaben und die Anzeige von Nachrichten mithilfe vorgefertigter Funktionen gegeben.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍了 JavaScript，这是一种事件驱动的编程语言，主要用于通过用户交互（例如按钮点击）触发的函数来增强网页行为。它涵盖了变量声明方法，强调了首选项，并解释了标签用于数据输入的用途，重点介绍了数据提交的方法。此外，本章还讨论了常见的 JavaScript 事件，并提供了有关使用预构建函数处理用户输入和显示消息的见解。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматривается Javascript как язык программирования, управляемый событиями, который в первую очередь используется для улучшения поведения веб-страницы с помощью функций, запускаемых взаимодействием пользователя, например, нажатием кнопок. В ней рассматриваются методы объявления переменных, подчеркиваются предпочтения, а также объясняется использование тега для ввода данных, выделяются методы отправки данных. Кроме того, в главе обсуждаются общие события Javascript и дается представление об обработке пользовательского ввода и отображении сообщений с использованием готовых функций.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente Javascript comme un langage de programmation piloté par événements, principalement utilisé pour améliorer le comportement des pages Web grâce à des fonctions déclenchées par les interactions des utilisateurs, telles que les clics sur les boutons. Il couvre les méthodes de déclaration des variables, en mettant l'accent sur la préférence, et explique l'utilisation de la balise pour la saisie de données, en mettant en évidence les méthodes de soumission des données. De plus, le chapitre aborde les événements Javascript courants et fournit des informations sur la gestion des entrées utilisateur et l'affichage des messages à l'aide de fonctions prédéfinies.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、ボタンのクリックなどのユーザー操作によってトリガーされる関数を通じて Web ページの動作を強化するために主に使用されるイベント駆動型プログラミング言語としての JavaScript を紹介します。変数宣言方法について説明し、設定を強調し、データ入力用のタグの使用について説明し、データ送信方法を強調します。さらに、この章では一般的な JavaScript イベントについて説明し、ユーザー入力の処理と、あらかじめ構築された関数を使用したメッセージの表示に関する洞察を提供します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 주로 버튼 클릭과 같은 사용자 상호작용에 의해 트리거되는 함수를 통해 웹 페이지 동작을 향상시키는 데 사용되는 이벤트 기반 프로그래밍 언어인 Javascript를 소개합니다. 변수 선언 방법을 다루고 선호도를 강조하며 데이터 입력을 위한 태그 사용을 설명하고 데이터 제출 방법을 강조합니다. 또한 이 장에서는 일반적인 Javascript 이벤트를 논의하고 미리 빌드된 함수를 사용하여 사용자 입력을 처리하고 메시지를 표시하는 방법에 대한 통찰력을 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo presenta Javascript como un lenguaje de programación basado en eventos que se utiliza principalmente para mejorar el comportamiento de las páginas web a través de funciones activadas por interacciones del usuario, como clics en botones. Abarca los métodos de declaración de variables, haciendo hincapié en la preferencia, y explica el uso de la etiqueta para la entrada de datos, destacando los métodos para el envío de datos. Además, el capítulo analiza los eventos comunes de Javascript y proporciona información sobre el manejo de la entrada del usuario y la visualización de mensajes mediante funciones predefinidas.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय जावास्क्रिप्ट को एक इवेंट-संचालित प्रोग्रामिंग भाषा के रूप में पेश करता है जिसका उपयोग मुख्य रूप से बटन क्लिक जैसे उपयोगकर्ता इंटरैक्शन द्वारा ट्रिगर किए गए फ़ंक्शन के माध्यम से वेब पेज व्यवहार को बढ़ाने के लिए किया जाता है। यह चर घोषणा विधियों को शामिल करता है, वरीयता पर जोर देता है, और डेटा प्रविष्टि के लिए टैग के उपयोग को समझाता है, डेटा सबमिशन के लिए विधियों को हाइलाइट करता है। इसके अतिरिक्त, अध्याय सामान्य जावास्क्रिप्ट घटनाओं पर चर्चा करता है, और उपयोगकर्ता इनपुट को संभालने और पूर्व-निर्मित फ़ंक्शन का उपयोग करके संदेशों को प्रदर्शित करने में अंतर्दृष्टि प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta o Javascript como uma linguagem de programação orientada a eventos, utilizada principalmente para melhorar o comportamento das páginas Web através de funções acionadas pelas interações do utilizador, como cliques em botões. Abrange os métodos de declaração de variáveis, enfatizando a preferência, e explica a utilização da etiqueta para a introdução de dados, destacando os métodos para o envio de dados. Além disso, o capítulo discute eventos Javascript comuns e fornece informações sobre como lidar com a entrada do utilizador e exibir mensagens utilizando funções pré-construídas.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি জাভাস্ক্রিপ্টকে একটি ইভেন্ট-চালিত প্রোগ্রামিং ভাষা হিসাবে পরিচয় করিয়ে দেয় যা প্রাথমিকভাবে ব্যবহারকারীর মিথস্ক্রিয়া দ্বারা ট্রিগার করা ফাংশনগুলির মাধ্যমে ওয়েব পৃষ্ঠার আচরণ উন্নত করতে ব্যবহৃত হয়, যেমন বোতাম ক্লিক। এটি পরিবর্তনশীল ঘোষণা পদ্ধতি কভার করে, পছন্দের উপর জোর দেয় এবং ডেটা এন্ট্রির জন্য ট্যাগের ব্যবহার ব্যাখ্যা করে, ডেটা জমা দেওয়ার পদ্ধতি হাইলাইট করে। অতিরিক্তভাবে, অধ্যায়টি সাধারণ জাভাস্ক্রিপ্ট ইভেন্টগুলি নিয়ে আলোচনা করে এবং ব্যবহারকারীর ইনপুট পরিচালনা এবং পূর্ব-নির্মিত ফাংশনগুলি ব্যবহার করে বার্তাগুলি প্রদর্শন করার অন্তর্দৃষ্টি প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل لغة Javascript كلغة برمجة تعتمد على الأحداث وتستخدم في المقام الأول لتحسين سلوك صفحات الويب من خلال الوظائف التي يتم تشغيلها من خلال تفاعلات المستخدم، مثل نقرات الأزرار. ويغطي طرق إعلان المتغيرات، مع التركيز على التفضيل، ويشرح استخدام العلامة لإدخال البيانات، مع تسليط الضوء على طرق إرسال البيانات. بالإضافة إلى ذلك، يناقش الفصل أحداث Javascript الشائعة، ويوفر رؤى حول التعامل مع إدخال المستخدم وعرض الرسائل باستخدام وظائف مُعدّة مسبقًا.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل جاوا اسکریپت را به‌عنوان یک زبان برنامه‌نویسی رویداد محور معرفی می‌کند که عمدتاً برای بهبود رفتار صفحه وب از طریق عملکردهایی که توسط تعاملات کاربر ایجاد می‌شوند، مانند کلیک دکمه‌ها، استفاده می‌شود. روش‌های اعلام متغیر را پوشش می‌دهد، بر اولویت تأکید می‌کند، و استفاده از برچسب را برای ورود داده‌ها توضیح می‌دهد، روش‌های ارسال داده را برجسته می‌کند. علاوه بر این، این فصل رویدادهای رایج جاوا اسکریپت را مورد بحث قرار می دهد و بینش هایی را در مورد مدیریت ورودی کاربر و نمایش پیام ها با استفاده از توابع از پیش ساخته شده ارائه می دهد.",
                     },
                 },
                 // 3
@@ -5889,31 +5889,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "How to Mobile Optimize a Website",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter emphasizes the necessity of making websites responsive to ensure they are readable and visually appealing on all devices. It outlines three key rules for mobile optimization: adding a responsive meta tag in the section, using percentage values for height and width instead of fixed dimensions, and implementing media queries to adjust styles based on device width. The chapter provides examples of media queries for both minimum and maximum widths of 600px and suggests using Chrome Developer Tools to simulate mobile views for effective testing.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird die Notwendigkeit betont, Websites responsiv zu gestalten, um sicherzustellen, dass sie auf allen Geräten lesbar und optisch ansprechend sind. Es werden drei wichtige Regeln für die mobile Optimierung beschrieben: Hinzufügen eines responsiven Meta-Tags im Abschnitt, Verwenden von Prozentwerten für Höhe und Breite anstelle von festen Abmessungen und Implementieren von Medienabfragen, um Stile basierend auf der Gerätebreite anzupassen. Das Kapitel enthält Beispiele für Medienabfragen für eine Mindest- und Maximalbreite von 600 Pixeln und schlägt die Verwendung von Chrome Developer Tools vor, um mobile Ansichten für effektive Tests zu simulieren.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章强调了使网站具有响应性以确保其在所有设备上都具有可读性和视觉吸引力的必要性。它概述了移动优化的三个关键规则：在部分中添加响应式元标记、使用百分比值代替固定尺寸的高度和宽度以及实施媒体查询以根据设备宽度调整样式。本章提供了最小和最大宽度为 600px 的媒体查询示例，并建议使用 Chrome 开发人员工具模拟移动视图以进行有效测试。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе подчеркивается необходимость создания адаптивных веб-сайтов, чтобы они были читабельными и визуально привлекательными на всех устройствах. В ней излагаются три ключевых правила мобильной оптимизации: добавление адаптивного метатега в раздел, использование процентных значений для высоты и ширины вместо фиксированных размеров и реализация медиазапросов для настройки стилей в зависимости от ширины устройства. В главе приводятся примеры медиазапросов для минимальной и максимальной ширины 600 пикселей и предлагается использовать Chrome Developer Tools для имитации мобильных представлений для эффективного тестирования.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre met l'accent sur la nécessité de rendre les sites Web réactifs pour garantir leur lisibilité et leur attrait visuel sur tous les appareils. Il décrit trois règles clés pour l'optimisation mobile : l'ajout d'une balise méta réactive dans la section, l'utilisation de valeurs de pourcentage pour la hauteur et la largeur au lieu de dimensions fixes et l'implémentation de requêtes multimédias pour ajuster les styles en fonction de la largeur de l'appareil. Le chapitre fournit des exemples de requêtes multimédias pour des largeurs minimales et maximales de 600 px et suggère d'utiliser les outils de développement Chrome pour simuler les vues mobiles afin de réaliser des tests efficaces.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、ウェブサイトをレスポンシブにして、あらゆるデバイスで読みやすく、見た目も美しくする必要性を強調しています。モバイル最適化の 3 つの重要なルール、つまり、セクションにレスポンシブ メタ タグを追加すること、高さと幅に固定寸法ではなくパーセンテージ値を使用すること、メディア クエリを実装してデバイスの幅に基づいてスタイルを調整することについて説明します。この章では、最小幅と最大幅の両方で 600 ピクセルのメディア クエリの例を示し、Chrome デベロッパー ツールを使用してモバイル ビューをシミュレートし、効果的なテストを行うことを提案しています。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 모든 기기에서 읽기 쉽고 시각적으로 매력적인 웹사이트를 반응형으로 만드는 것의 필요성을 강조합니다. 모바일 최적화를 위한 세 가지 핵심 규칙을 설명합니다. 섹션에 반응형 메타 태그를 추가하고, 고정된 치수 대신 높이와 너비에 백분율 값을 사용하고, 미디어 쿼리를 구현하여 기기 너비에 따라 스타일을 조정합니다. 이 장에서는 최소 및 최대 너비 600px에 대한 미디어 쿼리의 예를 제공하고 효과적인 테스트를 위해 Chrome 개발자 도구를 사용하여 모바일 뷰를 시뮬레이션하는 것을 제안합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo se hace hincapié en la necesidad de que los sitios web sean responsivos para garantizar que sean legibles y visualmente atractivos en todos los dispositivos. Se describen tres reglas clave para la optimización móvil: agregar una etiqueta meta responsiva en la sección, usar valores porcentuales para la altura y el ancho en lugar de dimensiones fijas e implementar consultas de medios para ajustar los estilos en función del ancho del dispositivo. El capítulo proporciona ejemplos de consultas de medios para anchos mínimos y máximos de 600 px y sugiere usar las herramientas para desarrolladores de Chrome para simular vistas móviles para realizar pruebas efectivas.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय वेबसाइटों को रिस्पॉन्सिव बनाने की आवश्यकता पर जोर देता है ताकि यह सुनिश्चित हो सके कि वे सभी डिवाइस पर पढ़ने योग्य और दिखने में आकर्षक हों। यह मोबाइल ऑप्टिमाइज़ेशन के लिए तीन मुख्य नियमों की रूपरेखा तैयार करता है: अनुभाग में रिस्पॉन्सिव मेटा टैग जोड़ना, निश्चित आयामों के बजाय ऊंचाई और चौड़ाई के लिए प्रतिशत मानों का उपयोग करना, और डिवाइस की चौड़ाई के आधार पर शैलियों को समायोजित करने के लिए मीडिया क्वेरीज़ को लागू करना। यह अध्याय 600px की न्यूनतम और अधिकतम चौड़ाई दोनों के लिए मीडिया क्वेरीज़ के उदाहरण प्रदान करता है और प्रभावी परीक्षण के लिए मोबाइल दृश्यों का अनुकरण करने के लिए Chrome डेवलपर टूल का उपयोग करने का सुझाव देता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo enfatiza a necessidade de tornar os sites responsivos para garantir que são legíveis e visualmente apelativos em todos os dispositivos. Descreve três regras principais para a otimização móvel: adicionar uma meta tag responsiva na secção, utilizar valores percentuais para altura e largura em vez de dimensões fixas e implementar media queries para ajustar estilos com base na largura do dispositivo. O capítulo fornece exemplos de consultas de media para larguras mínima e máxima de 600px e sugere a utilização das Ferramentas de Programador do Chrome para simular visualizações móveis para testes eficazes.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে ওয়েবসাইটগুলিকে প্রতিক্রিয়াশীল করে তোলার প্রয়োজনীয়তার উপর জোর দেওয়া হয়েছে যাতে তারা সমস্ত ডিভাইসে পঠনযোগ্য এবং দৃশ্যত আকর্ষণীয় হয়। এটি মোবাইল অপ্টিমাইজেশানের জন্য তিনটি মূল নিয়মের রূপরেখা দেয়: বিভাগে একটি প্রতিক্রিয়াশীল মেটা ট্যাগ যোগ করা, নির্দিষ্ট মাত্রার পরিবর্তে উচ্চতা এবং প্রস্থের জন্য শতাংশ মান ব্যবহার করা এবং ডিভাইসের প্রস্থের উপর ভিত্তি করে শৈলী সামঞ্জস্য করার জন্য মিডিয়া প্রশ্নগুলি বাস্তবায়ন করা। অধ্যায়টি ন্যূনতম এবং সর্বোচ্চ 600px উভয় প্রস্থের জন্য মিডিয়া প্রশ্নের উদাহরণ প্রদান করে এবং কার্যকর পরীক্ষার জন্য মোবাইল ভিউ অনুকরণ করতে Chrome ডেভেলপার টুল ব্যবহার করার পরামর্শ দেয়।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يؤكد هذا الفصل على ضرورة جعل مواقع الويب متجاوبة لضمان إمكانية قراءتها وجاذبيتها البصرية على جميع الأجهزة. ويوضح ثلاث قواعد أساسية لتحسين الأجهزة المحمولة: إضافة علامة تعريفية متجاوبة في القسم، واستخدام قيم نسبية للارتفاع والعرض بدلاً من الأبعاد الثابتة، وتنفيذ استعلامات الوسائط لضبط الأنماط بناءً على عرض الجهاز. يقدم الفصل أمثلة على استعلامات الوسائط لكل من العرض الأدنى والأقصى 600 بكسل ويقترح استخدام أدوات مطوري Chrome لمحاكاة وجهات النظر المحمولة للاختبار الفعال.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر لزوم پاسخگو بودن وب سایت ها برای اطمینان از خوانایی و جذابیت بصری آنها در همه دستگاه ها تأکید می کند. این سه قانون کلیدی را برای بهینه‌سازی تلفن همراه بیان می‌کند: افزودن یک متا تگ پاسخگو در بخش، استفاده از مقادیر درصدی برای ارتفاع و عرض به جای ابعاد ثابت، و اجرای پرس‌وجوهای رسانه برای تنظیم سبک‌ها بر اساس عرض دستگاه. این فصل نمونه‌هایی از درخواست‌های رسانه را برای حداقل و حداکثر عرض 600 پیکسل ارائه می‌کند و پیشنهاد می‌کند از ابزارهای برنامه‌نویس Chrome برای شبیه‌سازی نماهای موبایل برای آزمایش مؤثر استفاده کنید.",
                     },
                 },
                 // 4
@@ -5921,31 +5921,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Introduction to Python Programming",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter introduces Python programming, highlighting its popularity and user-friendly syntax. It covers essential topics such as installation steps, variable declaration, data types (including strings, lists, tuples, and dictionaries), and control statements like if-else and loops (for, while). The chapter also discusses functions, object-oriented programming with classes, and emphasizes the importance of indentation in Python code structure, providing a foundation for further learning in Python and Django development.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel führt in die Python-Programmierung ein und hebt ihre Popularität und benutzerfreundliche Syntax hervor. Es behandelt wichtige Themen wie Installationsschritte, Variablendeklaration, Datentypen (einschließlich Zeichenfolgen, Listen, Tupel und Wörterbücher) und Kontrollanweisungen wie if-else und Schleifen (for, while). Das Kapitel behandelt auch Funktionen, objektorientierte Programmierung mit Klassen und betont die Bedeutung der Einrückung in der Python-Codestruktur, was eine Grundlage für das weitere Erlernen der Python- und Django-Entwicklung bietet.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍 Python 编程，重点介绍其流行度和用户友好的语法。它涵盖了安装步骤、变量声明、数据类型（包括字符串、列表、元组和字典）以及 if-else 和循环（for、while）等控制语句等基本主题。本章还讨论了函数、使用类的面向对象编程，并强调了缩进在 Python 代码结构中的重要性，为进一步学习 Python 和 Django 开发奠定了基础。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе представлено программирование на Python, подчеркиваются его популярность и удобный синтаксис. В ней рассматриваются такие важные темы, как шаги установки, объявление переменных, типы данных (включая строки, списки, кортежи и словари) и управляющие операторы, такие как if-else и циклы (for, while). В главе также обсуждаются функции, объектно-ориентированное программирование с классами и подчеркивается важность отступов в структуре кода Python, что закладывает основу для дальнейшего изучения разработки на Python и Django.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente la programmation Python, en soulignant sa popularité et sa syntaxe conviviale. Il couvre des sujets essentiels tels que les étapes d'installation, la déclaration de variables, les types de données (y compris les chaînes, les listes, les tuples et les dictionnaires) et les instructions de contrôle comme if-else et les boucles (for, while). Le chapitre aborde également les fonctions, la programmation orientée objet avec des classes et souligne l'importance de l'indentation dans la structure du code Python, fournissant ainsi une base pour un apprentissage ultérieur du développement Python et Django.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Python プログラミングについて紹介し、その人気とユーザーフレンドリーな構文に焦点を当てます。インストール手順、変数宣言、データ型 (文字列、リスト、タプル、辞書を含む)、if-else やループ (for、while) などの制御ステートメントなどの重要なトピックを取り上げます。また、関数、クラスを使用したオブジェクト指向プログラミングについても説明し、Python コード構造におけるインデントの重要性を強調して、Python と Django 開発のさらなる学習の基礎を提供します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 Python 프로그래밍을 소개하고 인기와 사용자 친화적인 구문을 강조합니다. 설치 단계, 변수 선언, 데이터 유형(문자열, 목록, 튜플 및 사전 포함) 및 if-else 및 루프(for, while)와 같은 제어 문과 같은 필수 주제를 다룹니다. 이 장에서는 또한 함수, 클래스를 사용한 객체 지향 프로그래밍에 대해 논의하고 Python 코드 구조에서 들여쓰기의 중요성을 강조하여 Python 및 Django 개발에 대한 추가 학습의 기초를 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo presenta la programación en Python, destacando su popularidad y su sintaxis fácil de usar. Abarca temas esenciales como los pasos de instalación, la declaración de variables, los tipos de datos (incluidas cadenas, listas, tuplas y diccionarios) y las instrucciones de control como if-else y los bucles (for, while). El capítulo también analiza las funciones, la programación orientada a objetos con clases y enfatiza la importancia de la sangría en la estructura del código Python, proporcionando una base para un mayor aprendizaje en el desarrollo de Python y Django.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय पायथन प्रोग्रामिंग का परिचय देता है, इसकी लोकप्रियता और उपयोगकर्ता के अनुकूल सिंटैक्स पर प्रकाश डालता है। इसमें इंस्टॉलेशन स्टेप्स, वैरिएबल डिक्लेरेशन, डेटा टाइप्स (स्ट्रिंग्स, लिस्ट्स, टपल और डिक्शनरी सहित) और if-else और लूप्स (for, while) जैसे कंट्रोल स्टेटमेंट जैसे आवश्यक विषयों को शामिल किया गया है। अध्याय में फंक्शन्स, क्लासेस के साथ ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग पर भी चर्चा की गई है और पायथन कोड संरचना में इंडेंटेशन के महत्व पर जोर दिया गया है, जो पायथन और Django डेवलपमेंट में आगे सीखने के लिए एक आधार प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta a programação Python, destacando a sua popularidade e sintaxe amigável. Abrange tópicos essenciais como etapas de instalação, declaração de variáveis, tipos de dados (incluindo strings, listas, tuplas e dicionários) e instruções de controlo como if-else e loops (for, while). O capítulo discute também as funções, a programação orientada a objetos com classes e enfatiza a importância da indentação na estrutura do código Python, fornecendo uma base para uma aprendizagem adicional no desenvolvimento em Python e Django.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়ে পাইথন প্রোগ্রামিং এর জনপ্রিয়তা এবং ব্যবহারকারী-বান্ধব সিনট্যাক্স তুলে ধরা হয়েছে। এটি প্রয়োজনীয় বিষয়গুলি কভার করে যেমন ইনস্টলেশন পদক্ষেপ, পরিবর্তনশীল ঘোষণা, ডেটা প্রকার (স্ট্রিং, তালিকা, টিপল এবং অভিধান সহ), এবং নিয়ন্ত্রণ বিবৃতি যেমন if-else এবং loops (for, while)। অধ্যায়টি ক্লাসের সাথে ফাংশন, অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং নিয়েও আলোচনা করে এবং পাইথন কোড স্ট্রাকচারে ইন্ডেন্টেশনের গুরুত্বের উপর জোর দেয়, যা পাইথন এবং জ্যাঙ্গো ডেভেলপমেন্টে আরও শেখার ভিত্তি প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل مقدمة عن برمجة بايثون، ويسلط الضوء على شعبيتها وقواعدها النحوية سهلة الاستخدام. ويغطي موضوعات أساسية مثل خطوات التثبيت، وإعلان المتغيرات، وأنواع البيانات (بما في ذلك السلاسل والقوائم والمجموعات والقواميس)، وعبارات التحكم مثل if-else والحلقات (for، while). ويناقش الفصل أيضًا الوظائف والبرمجة الموجهة للكائنات باستخدام الفئات، ويؤكد على أهمية المسافة البادئة في بنية كود بايثون، مما يوفر أساسًا لمزيد من التعلم في تطوير بايثون ودجانجو.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل برنامه نویسی پایتون را معرفی می کند و محبوبیت و نحو کاربر پسند آن را برجسته می کند. موضوعات ضروری مانند مراحل نصب، اعلان متغیر، انواع داده ها (شامل رشته ها، لیست ها، تاپل ها و دیکشنری ها) و دستورات کنترلی مانند if-else و حلقه ها (for, while) را پوشش می دهد. این فصل همچنین در مورد توابع، برنامه‌نویسی شی گرا با کلاس‌ها بحث می‌کند و بر اهمیت تورفتگی در ساختار کد پایتون تاکید می‌کند، که پایه‌ای برای یادگیری بیشتر در توسعه Python و Django فراهم می‌کند.",
                     },
                 },
                 // 5
@@ -5953,31 +5953,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Django",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "Thi chapter covers the essentials of using Django, a high-level Python web framework for web development. It outlines the installation process, including checking for pip and creating a new app within a project. The chapter explains the structure of Django applications, including models for database tables, views for handling requests, and URLs for routing, while also detailing how to create forms, manage static files, and implement email functionality. Overall, it provides a comprehensive guide to setting up and developing a functional web application using Django.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel werden die Grundlagen der Verwendung von Django behandelt, einem hochrangigen Python-Webframework für die Webentwicklung. Es beschreibt den Installationsprozess, einschließlich der Überprüfung auf Pip und der Erstellung einer neuen App innerhalb eines Projekts. Das Kapitel erläutert die Struktur von Django-Anwendungen, einschließlich Modelle für Datenbanktabellen, Ansichten zur Bearbeitung von Anfragen und URLs für das Routing, und beschreibt ausführlich, wie Formulare erstellt, statische Dateien verwaltet und E-Mail-Funktionen implementiert werden. Insgesamt bietet es eine umfassende Anleitung zum Einrichten und Entwickeln einer funktionalen Webanwendung mit Django.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍了使用 Django（用于 Web 开发的高级 Python Web 框架）的基本知识。它概述了安装过程，包括检查 pip 和在项目中创建新应用程序。本章介绍了 Django 应用程序的结构，包括数据库表的模型、用于处理请求的视图和用于路由的 URL，同时还详细介绍了如何创建表单、管理静态文件和实现电子邮件功能。总的来说，它提供了使用 Django 设置和开发功能性 Web 应用程序的全面指南。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматриваются основы использования Django, высокоуровневого веб-фреймворка Python для веб-разработки. В ней описывается процесс установки, включая проверку pip и создание нового приложения в проекте. В главе объясняется структура приложений Django, включая модели для таблиц базы данных, представления для обработки запросов и URL-адреса для маршрутизации, а также подробно описывается, как создавать формы, управлять статическими файлами и реализовывать функциональность электронной почты. В целом, она представляет собой всеобъемлющее руководство по настройке и разработке функционального веб-приложения с использованием Django.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre couvre les éléments essentiels de l'utilisation de Django, un framework Web Python de haut niveau pour le développement Web. Il décrit le processus d'installation, y compris la vérification de pip et la création d'une nouvelle application au sein d'un projet. Le chapitre explique la structure des applications Django, y compris les modèles pour les tables de base de données, les vues pour la gestion des requêtes et les URL pour le routage, tout en détaillant comment créer des formulaires, gérer les fichiers statiques et implémenter la fonctionnalité de messagerie électronique. Dans l'ensemble, il fournit un guide complet pour la configuration et le développement d'une application Web fonctionnelle à l'aide de Django.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、Web 開発用の高レベル Python Web フレームワークである Django の使用の基本について説明します。pip の確認やプロジェクト内での新規アプリの作成など、インストール プロセスの概要を説明します。この章では、データベース テーブルのモデル、リクエストを処理するためのビュー、ルーティング用の URL など、Django アプリケーションの構造について説明するとともに、フォームの作成方法、静的ファイルの管理方法、電子メール機能の実装方法についても詳しく説明します。全体として、Django を使用して機能的な Web アプリケーションをセットアップおよび開発するための包括的なガイドを提供します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 웹 개발을 위한 고급 Python 웹 프레임워크인 Django를 사용하는 데 필요한 기본 사항을 다룹니다. pip 확인 및 프로젝트 내에서 새 앱 생성을 포함한 설치 프로세스를 설명합니다. 이 장에서는 데이터베이스 테이블 모델, 요청 처리 뷰, 라우팅 URL을 포함한 Django 애플리케이션의 구조를 설명하면서 양식을 만들고 정적 파일을 관리하고 이메일 기능을 구현하는 방법도 자세히 설명합니다. 전반적으로 Django를 사용하여 기능적 웹 애플리케이션을 설정하고 개발하는 방법에 대한 포괄적인 가이드를 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo cubre los aspectos básicos del uso de Django, un framework web Python de alto nivel para el desarrollo web. Describe el proceso de instalación, incluida la comprobación de pip y la creación de una nueva aplicación dentro de un proyecto. El capítulo explica la estructura de las aplicaciones de Django, incluidos los modelos para las tablas de bases de datos, las vistas para gestionar solicitudes y las URL para el enrutamiento, al tiempo que detalla cómo crear formularios, gestionar archivos estáticos e implementar la funcionalidad de correo electrónico. En general, proporciona una guía completa para configurar y desarrollar una aplicación web funcional utilizando Django.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय Django का उपयोग करने की अनिवार्यताओं को कवर करता है, जो वेब विकास के लिए एक उच्च-स्तरीय पायथन वेब फ्रेमवर्क है। यह इंस्टॉलेशन प्रक्रिया को रेखांकित करता है, जिसमें पाइप की जांच करना और किसी प्रोजेक्ट के भीतर एक नया ऐप बनाना शामिल है। यह अध्याय Django अनुप्रयोगों की संरचना को समझाता है, जिसमें डेटाबेस तालिकाओं के लिए मॉडल, अनुरोधों को संभालने के लिए दृश्य और रूटिंग के लिए URL शामिल हैं, साथ ही यह भी बताया गया है कि फ़ॉर्म कैसे बनाएँ, स्थिर फ़ाइलों को कैसे प्रबंधित करें और ईमेल कार्यक्षमता को कैसे लागू करें। कुल मिलाकर, यह Django का उपयोग करके एक कार्यात्मक वेब एप्लिकेशन को स्थापित करने और विकसित करने के लिए एक व्यापक मार्गदर्शिका प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo aborda os fundamentos da utilização do Django, uma framework web Python de alto nível para o desenvolvimento web. Descreve o processo de instalação, incluindo a verificação de pips e a criação de uma nova aplicação dentro de um projeto. O capítulo explica a estrutura das aplicações Django, incluindo modelos para tabelas de base de dados, vistas para tratamento de pedidos e URLs para encaminhamento, bem como detalha como criar formulários, gerir ficheiros estáticos e implementar funcionalidades de e-mail. No geral, fornece um guia completo para configurar e desenvolver uma aplicação web funcional utilizando Django.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "থি অধ্যায় জ্যাঙ্গো ব্যবহার করার প্রয়োজনীয় বিষয়গুলি কভার করে, ওয়েব ডেভেলপমেন্টের জন্য একটি উচ্চ-স্তরের পাইথন ওয়েব ফ্রেমওয়ার্ক। এটি ইনস্টলেশন প্রক্রিয়ার রূপরেখা দেয়, যার মধ্যে পিপ পরীক্ষা করা এবং একটি প্রকল্পের মধ্যে একটি নতুন অ্যাপ তৈরি করা। অধ্যায়টি জ্যাঙ্গো অ্যাপ্লিকেশনগুলির গঠন ব্যাখ্যা করে, যার মধ্যে রয়েছে ডাটাবেস টেবিলের মডেল, অনুরোধগুলি পরিচালনার জন্য ভিউ এবং রাউটিং করার জন্য ইউআরএল, পাশাপাশি কীভাবে ফর্ম তৈরি করতে হয়, স্ট্যাটিক ফাইলগুলি পরিচালনা করতে হয় এবং ইমেল কার্যকারিতা প্রয়োগ করতে হয় তার বিশদ বিবরণ রয়েছে৷ সামগ্রিকভাবে, এটি জ্যাঙ্গো ব্যবহার করে একটি কার্যকরী ওয়েব অ্যাপ্লিকেশন সেট আপ এবং বিকাশ করার জন্য একটি ব্যাপক নির্দেশিকা প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يغطي هذا الفصل الأساسيات الخاصة باستخدام Django، وهو إطار عمل ويب عالي المستوى بلغة Python لتطوير الويب. ويوضح عملية التثبيت، بما في ذلك التحقق من pip وإنشاء تطبيق جديد داخل مشروع. ويشرح الفصل بنية تطبيقات Django، بما في ذلك نماذج لجداول قاعدة البيانات، والعروض للتعامل مع الطلبات، وعناوين URL للتوجيه، مع تفصيل كيفية إنشاء النماذج وإدارة الملفات الثابتة وتنفيذ وظائف البريد الإلكتروني. بشكل عام، يوفر دليلاً شاملاً لإعداد وتطوير تطبيق ويب وظيفي باستخدام Django.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل اصول استفاده از جنگو، یک چارچوب وب سطح بالا پایتون برای توسعه وب را پوشش می دهد. این فرآیند نصب شامل بررسی پیپ و ایجاد یک برنامه جدید در یک پروژه را تشریح می کند. این فصل ساختار برنامه‌های جنگو را توضیح می‌دهد، از جمله مدل‌هایی برای جداول پایگاه داده، نماهایی برای رسیدگی به درخواست‌ها، و آدرس‌های اینترنتی برای مسیریابی، در حالی که جزئیات نحوه ایجاد فرم‌ها، مدیریت فایل‌های استاتیک و پیاده‌سازی عملکرد ایمیل را نیز توضیح می‌دهد. به طور کلی، راهنمای جامعی برای راه اندازی و توسعه یک برنامه کاربردی وب با استفاده از جنگو ارائه می دهد.",
                     },
                 },
             ],
@@ -6748,842 +6748,7 @@ var BooksReadForEachSkillStaticContainer = {
     ],
     // Android Developer
     "Android Developer": [
-        // Android How to Program
-        {
-            "BookName": "Android How to Program",
-            "AuthorName": "Paul Deitel, Harvey Deitel",
-            "Gender": "M", // F: Female, M: Male
-            "EditionNumber": "3rd",
-            "PublisherName": "Pearson",
-            "ISBN": "978 0 1344 4430 7",
-            "YearNumber": "2017",
-            "PagesNumber": "2296",
-            "TableOfContents": [
-                // 1
-                {
-                    "ChapterName": "Introduction to Android",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 2
-                {
-                    "ChapterName": "Welcome App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 3
-                {
-                    "ChapterName": "Tip Calculator App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 4
-                {
-                    "ChapterName": "Flag Quiz App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 5
-                {
-                    "ChapterName": "Doodlz App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 6
-                {
-                    "ChapterName": "Cannon Game App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 7
-                {
-                    "ChapterName": "Weather Viewer App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 8
-                {
-                    "ChapterName": "Twitter Searches App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 9
-                {
-                    "ChapterName": "Address Book App",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 10
-                {
-                    "ChapterName": "Google Play and App Business Issues",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 11
-                {
-                    "ChapterName": "Introduction to Java Applications",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 12
-                {
-                    "ChapterName": "Introduction to Classes, Objects, Methods and Strings",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 13
-                {
-                    "ChapterName": "Control Statements",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 14
-                {
-                    "ChapterName": "Methods: A Deeper Look",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 15
-                {
-                    "ChapterName": "Arrays and ArrayLists",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 16
-                {
-                    "ChapterName": "Classes and Objects: A Deeper Look",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 17
-                {
-                    "ChapterName": "Object-Oriented Programming: Inheritance and Polymorphism",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 18
-                {
-                    "ChapterName": "Exception Handling: A Deeper Look",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 19
-                {
-                    "ChapterName": "GUI Components and Event Handling",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 20
-                {
-                    "ChapterName": "Other Java Topics",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 21
-                {
-                    "ChapterName": "Operator Precedence Chart",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 22
-                {
-                    "ChapterName": "Primitive Types",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
-                    },
-                },
-            ],
-            "TotalDescriptionAboutTheBook": [
-                // Paragraph 1
-                {
-                    // English
-                    "English": "“Android How to Program” by Paul Deitel and Harvey Deitel is a comprehensive guide that introduces readers to the world of Android app development. The book is part of the esteemed “How to Program” series, known for its effective teaching methodologies and hands-on approach to learning programming languages. In this edition, the Deitels focus on the Android Software Development Kit (SDK), Java programming language, and the Android Studio Integrated Development Environment (IDE), providing a solid foundation for aspiring Android developers.",
-                    // German
-                    "Deutsch": "„Android How to Program“ von Paul Deitel und Harvey Deitel ist ein umfassender Leitfaden, der Leser in die Welt der Android-App-Entwicklung einführt. Das Buch ist Teil der angesehenen „How to Program“-Reihe, die für ihre effektiven Lehrmethoden und ihren praktischen Ansatz zum Erlernen von Programmiersprachen bekannt ist. In dieser Ausgabe konzentrieren sich die Deitels auf das Android Software Development Kit (SDK), die Programmiersprache Java und die integrierte Entwicklungsumgebung (IDE) von Android Studio und bieten so eine solide Grundlage für angehende Android-Entwickler.",
-                    // Chinese
-                    "中国人": "Paul Deitel 和 Harvey Deitel 合著的《Android 编程入门》是一本全面的指南，向读者介绍了 Android 应用开发的世界。本书是备受推崇的“如何编程”系列的一部分，该系列以有效的教学方法和学习编程语言的实践方法而闻名。在这个版本中，Deitels 重点介绍了 Android 软件开发工具包 (SDK)、Java 编程语言和 Android Studio 集成开发环境 (IDE)，为有抱负的 Android 开发者提供了坚实的基础。",
-                    // Russian
-                    "Русский": "«Как программировать на Android» Пола Дейтела и Харви Дейтеля — это подробное руководство, знакомящее читателей с миром разработки приложений для Android. Книга входит в уважаемую серию «Как программировать», известную своими эффективными методиками обучения и практическим подходом к изучению языков программирования.В этом выпуске компания Deitels сосредоточится на комплекте разработки программного обеспечения Android (SDK), языке программирования Java и интегрированной среде разработки (IDE) Android Studio, обеспечивающих прочную основу для начинающих разработчиков Android.",
-                    // French
-                    "Français": "« Android Comment programmer » de Paul Deitel et Harvey Deitel est un guide complet qui présente aux lecteurs le monde du développement d'applications Android. Le livre fait partie de la célèbre série « Comment programmer », connue pour ses méthodologies d'enseignement efficaces et son approche pratique de l'apprentissage des langages de programmation.Dans cette édition, les Deitels se concentrent sur le kit de développement logiciel (SDK) Android, le langage de programmation Java et l'environnement de développement intégré (IDE) Android Studio, fournissant une base solide aux futurs développeurs Android.",
-                    // Japanese
-                    "日本語": "Paul Deitel と Harvey Deitel による「Android How to Program」は、Android アプリ開発の世界を読者に紹介する総合ガイドです。この本は、効果的な指導方法とプログラミング言語の学習に対する実践的なアプローチで知られる、高く評価されている「How to Program」シリーズの一部です。この版では、Deitel は Android ソフトウェア開発キット (SDK)、Java プログラミング言語、Android Studio 統合開発環境 (IDE) に焦点を当て、Android 開発者を目指す人々に強固な基盤を提供します。",
-                    // Korean
-                    "한국인": "Paul Deitel과 Harvey Deitel이 저술한 'Android 프로그래밍 방법'은 독자에게 Android 앱 개발의 세계를 소개하는 포괄적인 가이드입니다. 이 책은 프로그래밍 언어 학습에 대한 효과적인 교육 방법론과 실습 접근 방식으로 잘 알려진 “프로그래밍 방법” 시리즈의 일부입니다.이번 에디션에서 Deitels는 Android 소프트웨어 개발 키트(SDK), Java 프로그래밍 언어 및 Android Studio 통합 개발 환경(IDE)에 중점을 두어 야심 찬 Android 개발자에게 견고한 기반을 제공합니다.",
-                    // Spanish
-                    "Español": "“Android How to Program” de Paul Deitel y Harvey Deitel es una guía completa que introduce a los lectores al mundo del desarrollo de aplicaciones para Android. El libro es parte de la estimada serie “Cómo programar”, conocida por sus metodologías de enseñanza efectivas y su enfoque práctico para aprender lenguajes de programación.En esta edición, los Deitels se centran en el kit de desarrollo de software (SDK) de Android, el lenguaje de programación Java y el entorno de desarrollo integrado (IDE) de Android Studio, lo que proporciona una base sólida para los aspirantes a desarrolladores de Android.",
-                    // Hindi
-                    "हिंदी": "पॉल डीटेल और हार्वे डीटेल द्वारा लिखित “एंड्रॉइड हाउ टू प्रोग्राम” एक व्यापक गाइड है जो पाठकों को एंड्रॉइड ऐप डेवलपमेंट की दुनिया से परिचित कराती है। यह पुस्तक प्रतिष्ठित “हाउ टू प्रोग्राम” श्रृंखला का हिस्सा है, जो अपनी प्रभावी शिक्षण पद्धतियों और प्रोग्रामिंग भाषाओं को सीखने के लिए व्यावहारिक दृष्टिकोण के लिए जानी जाती है। इस संस्करण में, डीटेल एंड्रॉइड सॉफ़्टवेयर डेवलपमेंट किट (SDK), जावा प्रोग्रामिंग भाषा और एंड्रॉइड स्टूडियो इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट (IDE) पर ध्यान केंद्रित करते हैं, जो महत्वाकांक्षी एंड्रॉइड डेवलपर्स के लिए एक ठोस आधार प्रदान करते हैं।",
-                    // Portuguese
-                    "Português": "“Android How to Program”, de Paul Deitel e Harvey Deitel, é um guia completo que apresenta aos leitores o mundo do desenvolvimento de aplicativos Android. O livro faz parte da conceituada série “Como Programar”, conhecida por suas metodologias de ensino eficazes e abordagem prática para aprender linguagens de programação.Nesta edição, os Deitels se concentram no Android Software Development Kit (SDK), na linguagem de programação Java e no Android Studio Integrated Development Environment (IDE), fornecendo uma base sólida para aspirantes a desenvolvedores Android.",
-                    // Bengali
-                    "বাংলা": "পল ডিটেল এবং হার্ভে ডিটেল দ্বারা “অ্যান্ড্রয়েড হাউ টু প্রোগ্রাম” হল একটি বিস্তৃত নির্দেশিকা যা পাঠকদের অ্যান্ড্রয়েড অ্যাপ বিকাশের জগতের সাথে পরিচয় করিয়ে দেয়। বইটি সম্মানিত “কিভাবে প্রোগ্রাম করবেন” সিরিজের অংশ, যা এর কার্যকর শিক্ষণ পদ্ধতি এবং প্রোগ্রামিং ভাষা শেখার জন্য হাতে-কলমে পরিচিত।এই সংস্করণে, ডেইটেলস অ্যান্ড্রয়েড সফটওয়্যার ডেভেলপমেন্ট কিট (SDK), জাভা প্রোগ্রামিং ভাষা এবং অ্যান্ড্রয়েড স্টুডিও ইন্টিগ্রেটেড ডেভেলপমেন্ট এনভায়রনমেন্ট (আইডিই) এর উপর ফোকাস করে, যা উচ্চাকাঙ্ক্ষী অ্যান্ড্রয়েড বিকাশকারীদের জন্য একটি শক্ত ভিত্তি প্রদান করে।",
-                    // Arabic
-                    "عَرَبِيّ": "“Android How to Program” بقلم Paul Deitel وHarvey Deitel هو دليل شامل يقدم للقراء عالم تطوير تطبيقات Android. يعد الكتاب جزءًا من سلسلة ”کيفية البرمجة“ المرموقة، والمعروفة بمنهجيات التدريس الفعالة ونهجها العملي في تعلم لغات البرمجة.في هذا الإصدار، تركز Deitels على Android Software Development Kit (SDK)، ولغة برمجة Java، وبيئة التطوير المتكاملة لـ Android Studio (IDE)، مما يوفر أساسًا متينًا لمطوري Android الطموحين.",
-                    // Persian
-                    "فارسی": "“Android How to Program” توسط Paul Deitel و Harvey Deitel راهنمای جامعی است که خوانندگان را با دنیای توسعه اپلیکیشن اندروید آشنا می کند. این کتاب بخشی از مجموعه معتبر «چگونه برنامه‌نویسی کنیم» است که به دلیل روش‌های آموزشی مؤثر و رویکرد عملی برای یادگیری زبان‌های برنامه‌نویسی شناخته شده است.در این نسخه، Deitels بر روی کیت توسعه نرم‌افزار اندروید (SDK)، زبان برنامه‌نویسی جاوا و محیط توسعه یکپارچه اندروید استودیو (IDE) تمرکز می‌کند و یک پایه محکم برای توسعه‌دهندگان مشتاق اندروید فراهم می‌کند.",
-                },
-                // Paragraph 2
-                {
-                    // English
-                    "English": "The book’s advantages lie in its app-driven approach, where each new concept is illustrated through the development of a complete, working Android app. This method allows readers to see the practical application of theoretical knowledge, making the learning process more engaging and effective. The Deitels’ live-code strategy is particularly beneficial for visual learners, as it includes screen shots, test drives of the apps, and a comprehensive overview of the technologies and architecture used to build them.",
-                    // German
-                    "Deutsch": "Die Vorteile des Buchs liegen in seinem App-orientierten Ansatz, bei dem jedes neue Konzept durch die Entwicklung einer vollständigen, funktionierenden Android-App veranschaulicht wird. Diese Methode ermöglicht es den Lesern, die praktische Anwendung theoretischen Wissens zu sehen, was den Lernprozess spannender und effektiver macht. Die Live-Code-Strategie der Deitels ist besonders für visuelle Lerner von Vorteil, da sie Screenshots, Testläufe der Apps und einen umfassenden Überblick über die Technologien und die Architektur umfasst, die zu ihrer Erstellung verwendet wurden.",
-                    // Chinese
-                    "中国人": "本书的优势在于其应用驱动的方法，其中每个新概念都通过开发一个完整、可运行的 Android 应用程序来说明。这种方法让读者看到理论知识的实际应用，使学习过程更具吸引力和效率。Deitels 的实时代码策略对视觉学习者特别有益，因为它包括屏幕截图、应用程序的试用以及用于构建它们的技术和架构的全面概述。",
-                    // Russian
-                    "Русский": "Преимущества книги заключаются в подходе, основанном на приложениях, где каждая новая концепция иллюстрируется посредством разработки полноценного работающего приложения для Android. Этот метод позволяет читателям увидеть практическое применение теоретических знаний, делая процесс обучения более увлекательным и эффективным.Стратегия Deitels с использованием живого кода особенно полезна для визуальных учащихся, поскольку она включает снимки экрана, тест-драйвы приложений и всесторонний обзор технологий и архитектуры, используемых для их создания.",
-                    // French
-                    "Français": "Les avantages du livre résident dans son approche axée sur les applications, où chaque nouveau concept est illustré par le développement d’une application Android complète et fonctionnelle. Cette méthode permet aux lecteurs de voir l'application pratique des connaissances théoriques, rendant le processus d'apprentissage plus engageant et efficace.La stratégie de code live de Deitels est particulièrement bénéfique pour les apprenants visuels, car elle comprend des captures d'écran, des tests des applications et un aperçu complet des technologies et de l'architecture utilisées pour les créer.",
-                    // Japanese
-                    "日本語": "この本の利点は、アプリ主導のアプローチにあります。新しい概念は、それぞれが完成して機能する Android アプリの開発を通じて説明されます。この方法により、読者は理論的な知識の実際の応用を確認でき、学習プロセスがより魅力的で効果的になります。Deitels のライブコード戦略は、スクリーンショット、アプリの試用、アプリの構築に使用されたテクノロジーとアーキテクチャの包括的な概要が含まれているため、視覚的に学習する人にとって特に有益です。",
-                    // Korean
-                    "한국인": "이 책의 장점은 앱 중심 접근 방식에 있습니다. 여기서는 완전하고 작동하는 Android 앱의 개발을 통해 각각의 새로운 개념이 설명됩니다. 이 방법을 통해 독자는 이론적 지식의 실제 적용을 볼 수 있어 학습 과정이 더욱 매력적이고 효과적이게 됩니다.Deitels의 라이브 코드 전략은 스크린샷, 앱 테스트 드라이브, 앱 구축에 사용된 기술 및 아키텍처에 대한 포괄적인 개요를 포함하므로 시각적 학습자에게 특히 유용합니다.",
-                    // Spanish
-                    "Español": "Las ventajas del libro residen en su enfoque basado en aplicaciones, donde cada nuevo concepto se ilustra mediante el desarrollo de una aplicación Android completa y funcional. Este método permite a los lectores ver la aplicación práctica del conocimiento teórico, haciendo que el proceso de aprendizaje sea más atractivo y eficaz.La estrategia de código en vivo de los Deitel es particularmente beneficiosa para los estudiantes visuales, ya que incluye capturas de pantalla, pruebas de manejo de las aplicaciones y una descripción general completa de las tecnologías y la arquitectura utilizadas para crearlas.",
-                    // Hindi
-                    "हिंदी": "पुस्तक के लाभ इसके ऐप-संचालित दृष्टिकोण में निहित हैं, जहाँ प्रत्येक नई अवधारणा को एक पूर्ण, कार्यशील Android ऐप के विकास के माध्यम से चित्रित किया गया है। यह विधि पाठकों को सैद्धांतिक ज्ञान के व्यावहारिक अनुप्रयोग को देखने की अनुमति देती है, जिससे सीखने की प्रक्रिया अधिक आकर्षक और प्रभावी हो जाती है। डीटेल्स की लाइव-कोड रणनीति विशेष रूप से दृश्य शिक्षार्थियों के लिए फायदेमंद है, क्योंकि इसमें स्क्रीन शॉट, ऐप्स के टेस्ट ड्राइव और उन्हें बनाने के लिए उपयोग की जाने वाली तकनीकों और वास्तुकला का व्यापक अवलोकन शामिल है।",
-                    // Portuguese
-                    "Português": "As vantagens do livro residem em sua abordagem orientada a aplicativos, onde cada novo conceito é ilustrado através do desenvolvimento de um aplicativo Android completo e funcional. Este método permite ao leitor ver a aplicação prática do conhecimento teórico, tornando o processo de aprendizagem mais envolvente e eficaz.A estratégia de código ao vivo da Deitels é particularmente benéfica para alunos visuais, pois inclui capturas de tela, test drives dos aplicativos e uma visão geral abrangente das tecnologias e arquitetura usadas para construí-los.",
-                    // Bengali
-                    "বাংলা": "বইটির সুবিধাগুলি এর অ্যাপ-চালিত পদ্ধতির মধ্যে রয়েছে, যেখানে প্রতিটি নতুন ধারণা একটি সম্পূর্ণ, কার্যকরী অ্যান্ড্রয়েড অ্যাপের বিকাশের মাধ্যমে চিত্রিত করা হয়েছে। এই পদ্ধতিটি পাঠকদের তাত্ত্বিক জ্ঞানের ব্যবহারিক প্রয়োগ দেখতে দেয়, যা শেখার প্রক্রিয়াটিকে আরও আকর্ষক এবং কার্যকর করে তোলে।ডিটেলসের লাইভ-কোড কৌশলটি ভিজ্যুয়াল শিক্ষার্থীদের জন্য বিশেষভাবে উপকারী, কারণ এতে স্ক্রিন শট, অ্যাপের টেস্ট ড্রাইভ এবং সেগুলি তৈরি করতে ব্যবহৃত প্রযুক্তি এবং স্থাপত্যের একটি বিস্তৃত ওভারভিউ অন্তর্ভুক্ত রয়েছে।",
-                    // Arabic
-                    "عَرَبِيّ": "تكمن مزايا الكتاب في منهجه القائم على التطبيق، حيث يتم توضيح كل مفهوم جديد من خلال تطوير تطبيق Android كامل وعملي. تسمح هذه الطريقة للقراء برؤية التطبيق العملي للمعرفة النظرية، مما يجعل عملية التعلم أكثر جاذبية وفعالية.تعد استراتيجية الكود المباشر الخاصة بشركة Deitels مفيدة بشكل خاص للمتعلمين البصريين، حيث تتضمن لقطات شاشة واختبارات تشغيل التطبيقات ونظرة عامة شاملة على التقنيات والهندسة المعمارية المستخدمة في بنائها.",
-                    // Persian
-                    "فارسی": "مزایای این کتاب در رویکرد برنامه محور آن نهفته است، جایی که هر مفهوم جدید از طریق توسعه یک برنامه اندروید کامل و کارآمد نشان داده می شود. این روش به خوانندگان اجازه می دهد تا کاربرد عملی دانش نظری را ببینند و فرآیند یادگیری را جذاب تر و موثرتر می کند.استراتژی کد زنده Deitels به ویژه برای یادگیرندگان بصری مفید است، زیرا شامل عکس‌های صفحه نمایش، درایوهای آزمایشی برنامه‌ها و مروری جامع از فناوری‌ها و معماری مورد استفاده برای ساخت آن‌ها است.",
-                },
-                // Paragraph 3
-                {
-                    // English
-                    "English": "By reading “Android How to Program” learners will gain hands-on experience with a wide spectrum of essential Android APIs. The book is structured to help readers think like developers from the start, fostering a deep understanding of app development that goes beyond surface-level programming. With its clear explanations and step-by-step guidance, readers will be well-equipped to tackle the challenges of Android app development and will be prepared to create their own innovative apps.",
-                    // German
-                    "Deutsch": "Durch die Lektüre von „Android How to Program“ sammeln Lernende praktische Erfahrungen mit einem breiten Spektrum wichtiger Android-APIs. Das Buch ist so aufgebaut, dass die Leser von Anfang an wie Entwickler denken und ein tiefes Verständnis der App-Entwicklung entwickeln, das über oberflächliches Programmieren hinausgeht. Mit den klaren Erklärungen und der Schritt-für-Schritt-Anleitung sind die Leser gut gerüstet, um die Herausforderungen der Android-App-Entwicklung anzugehen und ihre eigenen innovativen Apps zu erstellen.",
-                    // Chinese
-                    "中国人": "通过阅读“Android 编程指南”，学习者将获得使用各种基本 Android API 的实践经验。本书的结构旨在帮助读者从一开始就像开发人员一样思考，培养对应用开发的深刻理解，超越表面级编程。通过清晰的解释和循序渐进的指导，读者将能够很好地应对 Android 应用开发的挑战，并准备好创建自己的创新应用。",
-                    // Russian
-                    "Русский": "Прочитав статью «Как программировать на Android», учащиеся получат практический опыт работы с широким спектром основных API-интерфейсов Android. Книга построена таким образом, чтобы помочь читателям с самого начала мыслить как разработчики, способствуя глубокому пониманию разработки приложений, выходящему за рамки поверхностного программирования.Благодаря четким объяснениям и пошаговым руководствам читатели будут хорошо подготовлены к решению проблем разработки приложений для Android и будут готовы создавать свои собственные инновационные приложения.",
-                    // French
-                    "Français": "En lisant « Android Comment programmer », les apprenants acquerront une expérience pratique avec un large éventail d’API Android essentielles. Le livre est structuré pour aider les lecteurs à penser comme des développeurs dès le départ, favorisant une compréhension approfondie du développement d'applications qui va au-delà de la programmation superficielle.Grâce à ses explications claires et à ses conseils étape par étape, les lecteurs seront bien équipés pour relever les défis du développement d'applications Android et seront prêts à créer leurs propres applications innovantes.",
-                    // Japanese
-                    "日本語": "「Android プログラミング方法」を読むことで、学習者は幅広い重要な Android API を実際に体験することができます。この本は、読者が最初から開発者のように考え、表面的なプログラミングを超えたアプリ開発の深い理解を育むように構成されています。明確な説明とステップバイステップのガイダンスにより、読者は Android アプリ開発の課題に取り組む準備が整い、独自の革新的なアプリを作成する準備が整います。",
-                    // Korean
-                    "한국인": "'Android 프로그래밍 방법'을 읽으면 학습자는 다양한 필수 Android API에 대한 실무 경험을 쌓게 됩니다. 이 책은 독자들이 처음부터 개발자처럼 생각할 수 있도록 구성되어 표면 수준 프로그래밍을 뛰어넘어 앱 개발에 대한 깊은 이해를 돕습니다.명확한 설명과 단계별 지침을 통해 독자는 Android 앱 개발의 과제를 해결하고 자신만의 혁신적인 앱을 만들 수 있는 준비를 갖추게 됩니다.",
-                    // Spanish
-                    "Español": "Al leer “Cómo programar en Android”, los estudiantes obtendrán experiencia práctica con un amplio espectro de API esenciales de Android. El libro está estructurado para ayudar a los lectores a pensar como desarrolladores desde el principio, fomentando una comprensión profunda del desarrollo de aplicaciones que va más allá de la programación superficial.Con explicaciones claras y orientación paso a paso, los lectores estarán bien equipados para afrontar los desafíos del desarrollo de aplicaciones de Android y estarán preparados para crear sus propias aplicaciones innovadoras.",
-                    // Hindi
-                    "हिंदी": "“एंड्रॉइड कैसे प्रोग्राम करें” पढ़कर शिक्षार्थियों को आवश्यक एंड्रॉइड एपीआई की एक विस्तृत श्रृंखला के साथ व्यावहारिक अनुभव प्राप्त होगा। पुस्तक को पाठकों को शुरू से ही डेवलपर्स की तरह सोचने में मदद करने के लिए संरचित किया गया है, जो सतही स्तर की प्रोग्रामिंग से परे ऐप डेवलपमेंट की गहरी समझ को बढ़ावा देता है। इसके स्पष्ट स्पष्टीकरण और चरण-दर-चरण मार्गदर्शन के साथ, पाठक एंड्रॉइड ऐप डेवलपमेंट की चुनौतियों से निपटने के लिए अच्छी तरह से सुसज्जित होंगे और अपने स्वयं के अभिनव ऐप बनाने के लिए तैयार होंगे।",
-                    // Portuguese
-                    "Português": "Ao ler “Android Como programar”, os alunos ganharão experiência prática com uma ampla gama de APIs Android essenciais. O livro está estruturado para ajudar os leitores a pensar como desenvolvedores desde o início, promovendo uma compreensão profunda do desenvolvimento de aplicativos que vai além da programação de nível superficial.Com suas explicações claras e orientação passo a passo, os leitores estarão bem equipados para enfrentar os desafios do desenvolvimento de aplicativos Android e preparados para criar seus próprios aplicativos inovadores.",
-                    // Bengali
-                    "বাংলা": "“Android How to Program” পড়ার মাধ্যমে শিক্ষার্থীরা প্রয়োজনীয় Android API-এর বিস্তৃত স্পেকট্রামের সাথে অভিজ্ঞতা অর্জন করবে। বইটি পাঠকদের শুরু থেকেই ডেভেলপারদের মত চিন্তা করতে সাহায্য করার জন্য গঠন করা হয়েছে, অ্যাপ ডেভেলপমেন্টের গভীর বোধগম্যতা বৃদ্ধি করে যা পৃষ্ঠ-স্তরের প্রোগ্রামিং-এর বাইরে যায়।এর সুস্পষ্ট ব্যাখ্যা এবং ধাপে ধাপে নির্দেশিকা সহ, পাঠকরা অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্টের চ্যালেঞ্জ মোকাবেলা করতে সুসজ্জিত হবে এবং তাদের নিজস্ব উদ্ভাবনী অ্যাপ তৈরি করতে প্রস্তুত হবে।",
-                    // Arabic
-                    "عَرَبِيّ": "من خلال قراءة “كيفية برمجة Android”، سيكتسب المتعلمون خبرة عملية مع مجموعة واسعة من واجهات برمجة تطبيقات Android الأساسية. تم تصميم الكتاب لمساعدة القراء على التفكير مثل المطورين منذ البداية، وتعزيز الفهم العميق لتطوير التطبيقات الذي يتجاوز البرمجة على مستوى السطح.بفضل تفسيراته الواضحة وإرشاداته خطوة بخطوة، سيكون القراء مجهزين تجهيزًا جيدًا لمواجهة تحديات تطوير تطبيقات Android وسيكونون مستعدين لإنشاء تطبيقاتهم المبتكرة.",
-                    // Persian
-                    "فارسی": "با خواندن «نحوه برنامه‌نویسی اندروید»، زبان‌آموزان تجربه عملی با طیف گسترده‌ای از APIهای ضروری اندروید به دست خواهند آورد. این کتاب به گونه‌ای طراحی شده است که به خوانندگان کمک کند از ابتدا مانند توسعه‌دهندگان فکر کنند، و درک عمیقی از توسعه برنامه‌ها را که فراتر از برنامه‌نویسی سطحی است، تقویت می‌کند.با توضیحات واضح و راهنمایی گام به گام، خوانندگان برای مقابله با چالش های توسعه برنامه اندروید به خوبی مجهز خواهند شد و آماده خواهند شد تا برنامه های نوآورانه خود را ایجاد کنند.",
-                },
-            ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Android Development/Android_How_to_Program.webp",
-            "shortDescriptionsForPageBookReviewing": {
-                // English
-                "English": "The Deitels' App-Driven, Live Code Approach is simply the best way to master Android programming! The Deitels teach Android programming through sixteen complete, working Android Apps. Each chapter presents new concepts through a single App. The authors first discuss what the App does, show screen shots, test drive the App, and present an overview of the technologies and architecture used to build it. Next, the authors walk through building the App, presenting complete code and providing a detailed 'Live Code' walkthrough. As part of the code walkthrough, they discuss essential programming concepts, and demonstrate the functionality of relevant Android 2.x APIs. Readers will gain hands-on experience with a wide spectrum of essential Android APIs. The book also has an extensive introduction to programming using the Java language, making this book appropriate for Java courses that want to add an app-programming flavor.",
-                // German
-                "Deutsch": "Der app-gesteuerte Live-Code-Ansatz der Deitels ist einfach der beste Weg, um die Android-Programmierung zu meistern! Die Deitels lehren die Android-Programmierung anhand von sechzehn vollständigen, funktionierenden Android-Apps. Jedes Kapitel stellt neue Konzepte anhand einer einzelnen App vor. Die Autoren erläutern zunächst, was die App tut, zeigen Screenshots, testen die App und geben einen Überblick über die Technologien und die Architektur, die zum Erstellen der App verwendet wurden. Anschließend führen die Autoren die Erstellung der App durch, präsentieren den vollständigen Code und bieten eine detaillierte „Live-Code“-Anleitung. Im Rahmen der Code-Anleitung besprechen sie wesentliche Programmierkonzepte und demonstrieren die Funktionalität der relevanten Android 2.x-APIs. Die Leser sammeln praktische Erfahrungen mit einem breiten Spektrum wesentlicher Android-APIs. Das Buch enthält außerdem eine umfassende Einführung in die Programmierung mit der Sprache Java, sodass sich dieses Buch für Java-Kurse eignet, die eine App-Programmier-Note hinzufügen möchten.",
-                // Chinese
-                "中国人": "Deitels 的 App-Driven、Live Code Approach 是掌握 Android 编程的最佳方式！Deitels 通过 16 个完整、可运行的 Android 应用程序来教授 Android 编程。每章都通过一个应用程序介绍新概念。作者首先讨论应用程序的功能、展示屏幕截图、试用应用程序，并概述用于构建应用程序的技术和架构。接下来，作者将逐步介绍应用程序的构建、提供完整的代码并提供详细的“Live Code”演练。作为代码演练的一部分，他们讨论了基本的编程概念，并演示了相关 Android 2.x API 的功能。读者将获得使用各种基本 Android API 的实践经验。本书还广泛介绍了使用 Java 语言进行编程，因此本书适合想要添加应用程序编程风格的 Java 课程。",
-                // Russian
-                "Русский": "Подход Deitels на основе приложений и живого кода — это просто лучший способ освоить программирование для Android! Дейтелы обучают программированию на Android с помощью шестнадцати полноценных работающих приложений для Android. В каждой главе новые концепции представлены в одном приложении. Авторы сначала обсуждают, что делает приложение, показывают снимки экрана, тестируют приложение и представляют обзор технологий и архитектуры, использованных для его создания. Далее авторы проходят этапы создания приложения, представляя полный код и подробное пошаговое руководство «Живой код». В рамках пошагового руководства по коду они обсуждают основные концепции программирования и демонстрируют функциональность соответствующих API-интерфейсов Android 2.x. Читатели получат практический опыт работы с широким спектром основных API-интерфейсов Android. В книге также содержится подробное введение в программирование с использованием языка Java, что делает эту книгу подходящей для курсов Java, которые хотят добавить элемент программирования приложений.",
-                // French
-                "Français": "L'approche Live Code basée sur les applications de Deitels est tout simplement le meilleur moyen de maîtriser la programmation Android ! Les Deitels enseignent la programmation Android à travers seize applications Android complètes et fonctionnelles. Chaque chapitre présente de nouveaux concepts via une seule application. Les auteurs discutent d'abord de ce que fait l'application, montrent des captures d'écran, testent l'application et présentent un aperçu des technologies et de l'architecture utilisées pour la créer. Ensuite, les auteurs expliquent comment créer l'application, en présentant le code complet et en fournissant une procédure pas à pas détaillée du « Live Code ». Dans le cadre de la présentation du code, ils abordent les concepts de programmation essentiels et démontrent les fonctionnalités des API Android 2.x pertinentes. Les lecteurs acquerront une expérience pratique avec un large éventail d’API Android essentielles. Le livre contient également une introduction détaillée à la programmation utilisant le langage Java, ce qui le rend approprié pour les cours Java qui souhaitent ajouter une saveur de programmation d'applications.",
-                // Japanese
-                "日本語": "Deitels のアプリ主導のライブ コード アプローチは、Android プログラミングをマスターするのに最適な方法です。Deitels は、16 個の完成された動作する Android アプリを通じて Android プログラミングを教えます。各章では、1 つのアプリを通じて新しい概念を紹介します。著者は最初にアプリの機能について説明し、スクリーン ショットを示し、アプリを試運転し、アプリの構築に使用されたテクノロジとアーキテクチャの概要を示します。次に、著者はアプリの構築手順を説明し、完全なコードを示し、詳細な「ライブ コード」ウォークスルーを提供します。コード ウォークスルーの一部として、基本的なプログラミング概念について説明し、関連する Android 2.x API の機能を実演します。読者は、幅広い重要な Android API を実際に体験できます。この本には、Java 言語を使用したプログラミングの広範な紹介も含まれているため、アプリ プログラミングの要素を加えたい Java コースに最適です。",
-                // Korean
-                "한국인": "Deitels의 앱 기반 라이브 코드 접근 방식은 Android 프로그래밍을 마스터하는 가장 좋은 방법입니다! Deitels는 16개의 완전하고 작동하는 Android 앱을 통해 Android 프로그래밍을 가르칩니다. 각 장은 하나의 앱을 통해 새로운 개념을 제시합니다. 저자는 먼저 앱이 수행하는 작업에 대해 논의하고, 스크린샷을 보여주고, 앱을 테스트하고, 앱을 구축하는 데 사용된 기술 및 아키텍처에 대한 개요를 제시합니다. 다음으로 저자는 앱 구축, 전체 코드 제시, 자세한 '라이브 코드' 연습을 제공하는 과정을 안내합니다. 코드 둘러보기의 일부로 필수 프로그래밍 개념을 논의하고 관련 Android 2.x API의 기능을 보여줍니다. 독자는 다양한 필수 Android API에 대한 실무 경험을 얻게 됩니다. 또한 이 책에는 Java 언어를 사용한 프로그래밍에 대한 광범위한 소개가 포함되어 있어 이 책은 앱 프로그래밍 풍미를 추가하려는 Java 과정에 적합합니다.",
-                // Spanish
-                "Español": "¡El enfoque de código en vivo basado en aplicaciones de Deitels es simplemente la mejor manera de dominar la programación de Android! Los Deitel enseñan programación de Android a través de dieciséis aplicaciones de Android completas y funcionales. Cada capítulo presenta nuevos conceptos a través de una única App. Los autores primero analizan lo que hace la aplicación, muestran capturas de pantalla, prueban la aplicación y presentan una descripción general de las tecnologías y la arquitectura utilizadas para crearla. A continuación, los autores explican la creación de la aplicación, presentan el código completo y proporcionan una guía detallada del 'Código en vivo'. Como parte del tutorial del código, analizan conceptos de programación esenciales y demuestran la funcionalidad de las API de Android 2.x relevantes. Los lectores obtendrán experiencia práctica con un amplio espectro de API esenciales de Android. El libro también tiene una extensa introducción a la programación utilizando el lenguaje Java, lo que lo hace apropiado para cursos de Java que desean agregar un toque de programación de aplicaciones.",
-                // Hindi
-                "हिंदी": "डीटेल्स का ऐप-संचालित, लाइव कोड दृष्टिकोण Android प्रोग्रामिंग में महारत हासिल करने का सबसे अच्छा तरीका है! डीटेल्स सोलह पूर्ण, कार्यशील Android ऐप्स के माध्यम से Android प्रोग्रामिंग सिखाते हैं। प्रत्येक अध्याय एक ऐप के माध्यम से नई अवधारणाएँ प्रस्तुत करता है। लेखक सबसे पहले चर्चा करते हैं कि ऐप क्या करता है, स्क्रीन शॉट दिखाते हैं, ऐप का परीक्षण करते हैं, और इसे बनाने के लिए उपयोग की जाने वाली तकनीकों और आर्किटेक्चर का अवलोकन प्रस्तुत करते हैं। इसके बाद, लेखक ऐप बनाने, पूरा कोड प्रस्तुत करने और विस्तृत 'लाइव कोड' वॉकथ्रू प्रदान करने के बारे में बताते हैं। कोड वॉकथ्रू के हिस्से के रूप में, वे आवश्यक प्रोग्रामिंग अवधारणाओं पर चर्चा करते हैं, और प्रासंगिक Android 2.x API की कार्यक्षमता का प्रदर्शन करते हैं। पाठकों को आवश्यक Android API की एक विस्तृत श्रृंखला के साथ व्यावहारिक अनुभव प्राप्त होगा। पुस्तक में जावा भाषा का उपयोग करके प्रोग्रामिंग का एक व्यापक परिचय भी है, जो इस पुस्तक को जावा पाठ्यक्रमों के लिए उपयुक्त बनाता है जो ऐप-प्रोग्रामिंग का स्वाद जोड़ना चाहते हैं।",
-                // Portuguese
-                "Português": "A abordagem de código ao vivo baseada em aplicativos da Deitels é simplesmente a melhor maneira de dominar a programação Android! Os Deitels ensinam programação Android por meio de dezesseis aplicativos Android completos e funcionais. Cada capítulo apresenta novos conceitos através de um único aplicativo. Os autores primeiro discutem o que o aplicativo faz, mostram capturas de tela, testam o aplicativo e apresentam uma visão geral das tecnologias e da arquitetura usadas para construí-lo. A seguir, os autores percorrem a construção do aplicativo, apresentando o código completo e fornecendo um passo a passo detalhado do 'Live Code'. Como parte do passo a passo do código, eles discutem conceitos essenciais de programação e demonstram a funcionalidade das APIs relevantes do Android 2.x. Os leitores ganharão experiência prática com uma ampla gama de APIs Android essenciais. O livro também tem uma extensa introdução à programação usando a linguagem Java, tornando-o apropriado para cursos Java que desejam adicionar um toque de programação de aplicativos.",
-                // Bengali
-                "বাংলা": "Deitels' অ্যাপ-চালিত, লাইভ কোড অ্যাপ্রোচ অ্যান্ড্রয়েড প্রোগ্রামিং আয়ত্ত করার সর্বোত্তম উপায়! Deitels Android প্রোগ্রামিং শেখায় ষোলটি সম্পূর্ণ, কার্যকরী Android Apps এর মাধ্যমে। প্রতিটি অধ্যায় একটি একক অ্যাপের মাধ্যমে নতুন ধারণা উপস্থাপন করে। লেখকরা প্রথমে অ্যাপটি কী করে তা নিয়ে আলোচনা করেন, স্ক্রিন শট দেখান, অ্যাপটি টেস্ট ড্রাইভ করেন এবং এটি তৈরি করতে ব্যবহৃত প্রযুক্তি এবং আর্কিটেকচারের একটি ওভারভিউ উপস্থাপন করেন। এর পরে, লেখকরা অ্যাপ তৈরি করে, সম্পূর্ণ কোড উপস্থাপন করে এবং একটি বিশদ 'লাইভ কোড' ওয়াকথ্রু প্রদান করে। কোড ওয়াকথ্রু এর অংশ হিসাবে, তারা প্রয়োজনীয় প্রোগ্রামিং ধারণা নিয়ে আলোচনা করে এবং প্রাসঙ্গিক Android 2.x API-এর কার্যকারিতা প্রদর্শন করে। পাঠকরা প্রয়োজনীয় অ্যান্ড্রয়েড এপিআই-এর বিস্তৃত বর্ণালীর সাথে অভিজ্ঞতা অর্জন করবে। বইটিতে জাভা ভাষা ব্যবহার করে প্রোগ্রামিংয়ের একটি বিস্তৃত ভূমিকা রয়েছে, যা এই বইটিকে জাভা কোর্সের জন্য উপযুক্ত করে তোলে যা একটি অ্যাপ-প্রোগ্রামিং স্বাদ যোগ করতে চায়।",
-                // Arabic
-                "عَرَبِيّ": "يعد نهج التعليمات البرمجية المباشرة المعتمد على التطبيق من Deitels أفضل طريقة لإتقان برمجة Android! يقوم Deitels بتعليم برمجة Android من خلال ستة عشر تطبيق Android كاملاً وعاملاً. يقدم كل فصل مفاهيم جديدة من خلال تطبيق واحد. يناقش المؤلفون أولاً ما يفعله التطبيق، ويعرضون لقطات الشاشة، ويختبرون التطبيق، ويقدمون نظرة عامة على التقنيات والهندسة المعمارية المستخدمة في بنائه. بعد ذلك، يستعرض المؤلفون عملية إنشاء التطبيق، ويقدمون التعليمات البرمجية الكاملة ويقدمون إرشادات تفصيلية حول 'Live Code'. وكجزء من التعليمات البرمجية، يناقشون مفاهيم البرمجة الأساسية ويعرضون وظائف واجهات برمجة تطبيقات Android 2.x ذات الصلة. سيكتسب القراء خبرة عملية مع مجموعة واسعة من واجهات برمجة تطبيقات Android الأساسية. يحتوي الكتاب أيضًا على مقدمة شاملة للبرمجة باستخدام لغة Java، مما يجعل هذا الكتاب مناسبًا لدورات Java التي ترغب في إضافة نكهة برمجة التطبيقات.",
-                // Persian
-                "فارسی": "رویکرد کد زنده و مبتنی بر برنامه Deitels به سادگی بهترین راه برای تسلط بر برنامه نویسی اندروید است! Deitel ها برنامه نویسی اندروید را از طریق شانزده برنامه کامل و کارآمد اندروید آموزش می دهند. هر فصل مفاهیم جدیدی را از طریق یک برنامه ارائه می دهد. نویسندگان ابتدا درباره کارهایی که برنامه انجام می دهد بحث می کنند، عکس های صفحه نمایش را نشان می دهند، برنامه را آزمایش می کنند و مروری بر فناوری ها و معماری استفاده شده برای ساخت آن ارائه می دهند. در مرحله بعد، نویسندگان در ساخت برنامه قدم می زنند، کد کامل را ارائه می دهند و یک راهنمای دقیق 'Live Code' ارائه می دهند. به عنوان بخشی از راهنمای کد، آنها مفاهیم اساسی برنامه نویسی را مورد بحث قرار می دهند و عملکرد API های مربوط به Android 2.x را نشان می دهند. خوانندگان با طیف گسترده ای از API های ضروری اندروید تجربه عملی کسب خواهند کرد. این کتاب همچنین دارای یک مقدمه گسترده برای برنامه نویسی با استفاده از زبان جاوا است که این کتاب را برای دوره های جاوا که می خواهند طعم برنامه نویسی را اضافه کنند مناسب می کند.",
-            },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
-        },
+        
     ],
     // AI Engineer
     "AI Engineer": [
@@ -7603,31 +6768,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Foundation",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter lays the groundwork for understanding neural networks by introducing essential concepts such as functions, derivatives, and the chain rule, which are crucial for computing outputs from complex nested functions. It emphasizes the importance of viewing these concepts from three perspectives—mathematical equations, code implementation, and visual diagrams—to gain a comprehensive understanding. The chapter also highlights the role of matrix operations in deep learning and prepares readers for the practical application of these foundational ideas in building and training neural networks in later chapters.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel legt die Grundlagen zum Verständnis neuronaler Netzwerke, indem es grundlegende Konzepte wie Funktionen, Ableitungen und die Kettenregel vorstellt, die für die Berechnung von Ausgaben komplexer verschachtelter Funktionen entscheidend sind. Es betont, wie wichtig es ist, diese Konzepte aus drei Perspektiven zu betrachten – mathematische Gleichungen, Codeimplementierung und visuelle Diagramme – um ein umfassendes Verständnis zu erlangen. Das Kapitel beleuchtet auch die Rolle von Matrixoperationen beim Deep Learning und bereitet die Leser auf die praktische Anwendung dieser grundlegenden Ideen beim Aufbau und Training neuronaler Netzwerke in späteren Kapiteln vor.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章通过介绍函数、导数和链式法则等基本概念为理解神经网络奠定了基础，这些概念对于计算复杂嵌套函数的输出至关重要。它强调了从三个角度（数学方程、代码实现和可视化图表）看待这些概念的重要性，以获得全面的理解。本章还强调了矩阵运算在深度学习中的作用，并为读者在后面的章节中将这些基础思想在构建和训练神经网络中实际应用做好准备。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе закладывается основа для понимания нейронных сетей путем введения таких важных понятий, как функции, производные и цепное правило, которые имеют решающее значение для вычисления выходных данных сложных вложенных функций. В ней подчеркивается важность рассмотрения этих концепций с трех точек зрения — математических уравнений, реализации кода и визуальных диаграмм — для получения всестороннего понимания. В главе также подчеркивается роль матричных операций в глубоком обучении и готовится читатель к практическому применению этих основополагающих идей при построении и обучении нейронных сетей в последующих главах.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre pose les bases de la compréhension des réseaux neuronaux en introduisant des concepts essentiels tels que les fonctions, les dérivées et la règle de la chaîne, qui sont essentiels pour calculer les résultats de fonctions imbriquées complexes. Il souligne l'importance d'examiner ces concepts sous trois angles (équations mathématiques, implémentation de code et diagrammes visuels) pour acquérir une compréhension globale. Le chapitre met également en évidence le rôle des opérations matricielles dans l'apprentissage profond et prépare les lecteurs à l'application pratique de ces idées fondamentales dans la construction et la formation de réseaux neuronaux dans les chapitres suivants.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、関数、導関数、連鎖律などの、複雑にネストされた関数からの出力を計算するために不可欠な基本概念を紹介し、ニューラル ネットワークを理解するための基礎を築きます。包括的な理解を得るには、これらの概念を数式、コード実装、視覚的な図の 3 つの観点から見ることが重要であることを強調します。また、この章では、ディープラーニングにおける行列演算の役割にも焦点を当て、後の章でニューラル ネットワークの構築とトレーニングにこれらの基本的な考え方を実際に適用できるように読者を準備します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 함수, 미분, 체인 규칙과 같은 필수 개념을 소개함으로써 신경망을 이해하기 위한 기초를 마련합니다. 이러한 개념은 복잡한 중첩 함수의 출력을 계산하는 데 필수적입니다. 이 장은 이러한 개념을 수학 방정식, 코드 구현, 시각적 다이어그램의 세 가지 관점에서 보는 것의 중요성을 강조하여 포괄적으로 이해합니다. 이 장에서는 또한 딥 러닝에서 행렬 연산의 역할을 강조하고 독자들에게 이후 장에서 신경망을 구축하고 훈련하는 데 이러한 기본 아이디어를 실제로 적용할 수 있도록 준비시킵니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo sienta las bases para comprender las redes neuronales al presentar conceptos esenciales como funciones, derivadas y la regla de la cadena, que son cruciales para calcular los resultados de funciones anidadas complejas. Destaca la importancia de ver estos conceptos desde tres perspectivas (ecuaciones matemáticas, implementación de código y diagramas visuales) para obtener una comprensión integral. El capítulo también destaca el papel de las operaciones matriciales en el aprendizaje profundo y prepara a los lectores para la aplicación práctica de estas ideas fundamentales en la construcción y el entrenamiento de redes neuronales en capítulos posteriores.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय फ़ंक्शन, डेरिवेटिव और चेन रूल जैसी आवश्यक अवधारणाओं को पेश करके न्यूरल नेटवर्क को समझने के लिए आधार तैयार करता है, जो जटिल नेस्टेड फ़ंक्शन से आउटपुट की गणना करने के लिए महत्वपूर्ण हैं। यह इन अवधारणाओं को तीन दृष्टिकोणों से देखने के महत्व पर जोर देता है - गणितीय समीकरण, कोड कार्यान्वयन और दृश्य आरेख - एक व्यापक समझ हासिल करने के लिए। अध्याय डीप लर्निंग में मैट्रिक्स ऑपरेशन की भूमिका पर भी प्रकाश डालता है और पाठकों को बाद के अध्यायों में न्यूरल नेटवर्क के निर्माण और प्रशिक्षण में इन मूलभूत विचारों के व्यावहारिक अनुप्रयोग के लिए तैयार करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo estabelece as bases para a compreensão das redes neuronais, introduzindo conceitos essenciais como funções, derivadas e regra da cadeia, que são cruciais para calcular resultados de funções aninhadas complexas. Realça a importância de visualizar estes conceitos a partir de três perspetivas – equações matemáticas, implementação de código e diagramas visuais – para obter uma compreensão abrangente. O capítulo destaca também o papel das operações matriciais na aprendizagem profunda e prepara os leitores para a aplicação prática destas ideias fundamentais na construção e treino de redes neuronais em capítulos posteriores.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি ফাংশন, ডেরিভেটিভস এবং চেইন নিয়মের মতো প্রয়োজনীয় ধারণাগুলি প্রবর্তন করে নিউরাল নেটওয়ার্কগুলি বোঝার জন্য ভিত্তি তৈরি করে, যা জটিল নেস্টেড ফাংশনগুলি থেকে আউটপুট গণনার জন্য অত্যন্ত গুরুত্বপূর্ণ। এটি এই ধারণাগুলিকে তিনটি দৃষ্টিকোণ থেকে দেখার গুরুত্বের ওপর জোর দেয়—গাণিতিক সমীকরণ, কোড বাস্তবায়ন এবং ভিজ্যুয়াল ডায়াগ্রাম—একটি ব্যাপক বোঝার জন্য। অধ্যায়টি গভীর শিক্ষায় ম্যাট্রিক্স ক্রিয়াকলাপের ভূমিকাকেও তুলে ধরে এবং পরবর্তী অধ্যায়গুলিতে নিউরাল নেটওয়ার্ক তৈরি এবং প্রশিক্ষণে এই মৌলিক ধারণাগুলির ব্যবহারিক প্রয়োগের জন্য পাঠকদের প্রস্তুত করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يضع هذا الفصل الأساس لفهم الشبكات العصبية من خلال تقديم مفاهيم أساسية مثل الوظائف والمشتقات وقاعدة السلسلة، والتي تعد حاسمة لحساب المخرجات من الوظائف المتداخلة المعقدة. ويؤكد على أهمية النظر إلى هذه المفاهيم من ثلاثة مناظير - المعادلات الرياضية وتنفيذ التعليمات البرمجية والرسوم البيانية المرئية - للحصول على فهم شامل. يسلط الفصل الضوء أيضًا على دور عمليات المصفوفة في التعلم العميق ويجهز القراء للتطبيق العملي لهذه الأفكار الأساسية في بناء وتدريب الشبكات العصبية في الفصول اللاحقة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل با معرفی مفاهیم اساسی مانند توابع، مشتقات و قانون زنجیره، که برای محاسبه خروجی از توابع پیچیده تو در تو ضروری هستند، زمینه را برای درک شبکه های عصبی فراهم می کند. این بر اهمیت مشاهده این مفاهیم از سه منظر - معادلات ریاضی، اجرای کد و نمودارهای بصری - برای به دست آوردن یک درک جامع تأکید می کند. این فصل همچنین نقش عملیات ماتریس را در یادگیری عمیق برجسته می کند و خوانندگان را برای کاربرد عملی این ایده های اساسی در ساخت و آموزش شبکه های عصبی در فصل های بعدی آماده می کند.",
                     },
                 },
                 // 2
@@ -7635,31 +6800,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Fundamentals",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter delves into the fundamentals of deep learning by exploring nested, continuous, differentiable functions and their representation as computational graphs, which facilitate the calculation of derivatives using the chain rule. It focuses on supervised learning, particularly in modeling relationships between measurable characteristics, such as those of houses, and their values, while emphasizing the significance of feature engineering. The chapter also introduces linear regression and neural networks, illustrating how these models can learn complex, nonlinear relationships through a structured training process involving forward and backward passes to optimize parameters based on computed gradients.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "Dieses Kapitel befasst sich mit den Grundlagen des Deep Learning, indem es verschachtelte, kontinuierliche, differenzierbare Funktionen und ihre Darstellung als Rechengraphen untersucht, die die Berechnung von Ableitungen mithilfe der Kettenregel erleichtern. Es konzentriert sich auf überwachtes Lernen, insbesondere bei der Modellierung von Beziehungen zwischen messbaren Merkmalen wie denen von Häusern und ihren Werten, und betont gleichzeitig die Bedeutung des Feature Engineering. Das Kapitel führt auch lineare Regression und neuronale Netzwerke ein und zeigt, wie diese Modelle komplexe, nichtlineare Beziehungen durch einen strukturierten Trainingsprozess erlernen können, der Vorwärts- und Rückwärtsdurchläufe umfasst, um Parameter basierend auf berechneten Gradienten zu optimieren.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章通过探索嵌套的、连续的、可微分的函数及其作为计算图的表示来深入研究深度学习的基础知识，这有助于使用链式法则计算导数。它侧重于监督学习，特别是在建模可测量特征（例如房屋特征）与其价值之间的关系时，同时强调特征工程的重要性。本章还介绍了线性回归和神经网络，说明了这些模型如何通过涉及前向和后向传递的结构化训练过程来学习复杂的非线性关系，以根据计算的梯度优化参数。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматриваются основы глубокого обучения путем изучения вложенных, непрерывных, дифференцируемых функций и их представления в виде вычислительных графов, которые облегчают вычисление производных с использованием цепного правила. Основное внимание уделяется контролируемому обучению, в частности, моделированию взаимосвязей между измеримыми характеристиками, такими как характеристики домов, и их значениями, при этом подчеркивается важность проектирования признаков. В главе также вводятся линейная регрессия и нейронные сети, иллюстрирующие, как эти модели могут изучать сложные нелинейные взаимосвязи посредством структурированного процесса обучения, включающего прямые и обратные проходы для оптимизации параметров на основе вычисленных градиентов.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre aborde les fondamentaux de l'apprentissage profond en explorant les fonctions imbriquées, continues et différentiables et leur représentation sous forme de graphes informatiques, qui facilitent le calcul des dérivées à l'aide de la règle de la chaîne. Il se concentre sur l'apprentissage supervisé, en particulier dans la modélisation des relations entre les caractéristiques mesurables, telles que celles des maisons, et leurs valeurs, tout en soulignant l'importance de l'ingénierie des caractéristiques. Le chapitre présente également la régression linéaire et les réseaux neuronaux, illustrant comment ces modèles peuvent apprendre des relations complexes et non linéaires grâce à un processus d'apprentissage structuré impliquant des passes avant et arrière pour optimiser les paramètres en fonction des gradients calculés.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、ネストされた連続微分可能関数と、連鎖律を使用した導関数の計算を容易にする計算グラフとしてのその表現を探求することで、ディープラーニングの基礎を詳しく解説します。特に、家屋などの測定可能な特性とその値の関係をモデル化する教師あり学習に焦点を当て、特徴エンジニアリングの重要性を強調します。また、この章では線形回帰とニューラル ネットワークを紹介し、計算された勾配に基づいてパラメータを最適化するために、順方向パスと逆方向パスを含む構造化トレーニング プロセスを通じて、これらのモデルが複雑で非線形な関係を学習する方法を説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 중첩, 연속, 미분 가능 함수와 이를 계산 그래프로 표현하는 방법을 탐구하여 딥 러닝의 기본을 탐구합니다. 이를 통해 체인 규칙을 사용하여 미분을 계산할 수 있습니다. 특히 주택과 같은 측정 가능한 특성과 가치 간의 관계를 모델링하는 데 있어 지도 학습에 초점을 맞추면서 피처 엔지니어링의 중요성을 강조합니다. 또한 선형 회귀와 신경망을 소개하여 이러한 모델이 계산된 그래디언트를 기반으로 매개변수를 최적화하기 위해 전방 및 후방 패스를 포함하는 구조화된 학습 프로세스를 통해 복잡한 비선형 관계를 학습하는 방법을 설명합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo profundiza en los fundamentos del aprendizaje profundo mediante la exploración de funciones anidadas, continuas y diferenciables y su representación como gráficos computacionales, que facilitan el cálculo de derivadas mediante la regla de la cadena. Se centra en el aprendizaje supervisado, en particular en el modelado de relaciones entre características mensurables, como las de las casas, y sus valores, al tiempo que enfatiza la importancia de la ingeniería de características. El capítulo también presenta la regresión lineal y las redes neuronales, ilustrando cómo estos modelos pueden aprender relaciones complejas y no lineales a través de un proceso de entrenamiento estructurado que implica pases hacia adelante y hacia atrás para optimizar los parámetros en función de los gradientes calculados.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय नेस्टेड, निरंतर, विभेदक कार्यों और कम्प्यूटेशनल ग्राफ़ के रूप में उनके प्रतिनिधित्व की खोज करके डीप लर्निंग के मूल सिद्धांतों में गहराई से उतरता है, जो चेन नियम का उपयोग करके डेरिवेटिव की गणना की सुविधा प्रदान करता है। यह सुपरवाइज्ड लर्निंग पर ध्यान केंद्रित करता है, विशेष रूप से मापनीय विशेषताओं, जैसे कि घरों और उनके मूल्यों के बीच संबंधों को मॉडलिंग करने में, जबकि फीचर इंजीनियरिंग के महत्व पर जोर देता है। अध्याय रैखिक प्रतिगमन और तंत्रिका नेटवर्क का भी परिचय देता है, यह दर्शाता है कि कैसे ये मॉडल गणना किए गए ग्रेडिएंट के आधार पर मापदंडों को अनुकूलित करने के लिए आगे और पीछे के पास को शामिल करते हुए एक संरचित प्रशिक्षण प्रक्रिया के माध्यम से जटिल, गैर-रैखिक संबंधों को सीख सकते हैं।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo investiga os fundamentos da aprendizagem profunda, explorando funções aninhadas, contínuas e diferenciáveis ​​e a sua representação como gráficos computacionais, que facilitam o cálculo de derivadas utilizando a regra da cadeia. Foca-se na aprendizagem supervisionada, particularmente na modelação de relações entre características mensuráveis, como as das casas, e os seus valores, ao mesmo tempo que enfatiza a importância da engenharia de recursos. O capítulo apresenta também a regressão linear e as redes neuronais, ilustrando como estes modelos podem aprender relações complexas e não lineares através de um processo de treino estruturado que envolve passagens para a frente e para trás para otimizar parâmetros com base em gradientes calculados.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি নেস্টেড, ক্রমাগত, পার্থক্যযোগ্য ফাংশনগুলি এবং গণনামূলক গ্রাফ হিসাবে তাদের উপস্থাপনা অন্বেষণ করে গভীর শিক্ষার মৌলিক বিষয়গুলি নিয়ে আলোচনা করে, যা চেইন নিয়ম ব্যবহার করে ডেরিভেটিভের গণনাকে সহজতর করে। এটি তত্ত্বাবধানে শিক্ষার উপর ফোকাস করে, বিশেষ করে পরিমাপযোগ্য বৈশিষ্ট্যগুলির মধ্যে মডেলিং সম্পর্কের ক্ষেত্রে, যেমন ঘরগুলির এবং তাদের মানগুলির মধ্যে, যখন বৈশিষ্ট্য প্রকৌশলের তাত্পর্যকে জোর দেয়। অধ্যায়টি রৈখিক রিগ্রেশন এবং নিউরাল নেটওয়ার্কগুলিকেও প্রবর্তন করে, কীভাবে এই মডেলগুলি কম্পিউটেড গ্রেডিয়েন্টের উপর ভিত্তি করে পরামিতিগুলিকে অপ্টিমাইজ করার জন্য ফরোয়ার্ড এবং পশ্চাদগামী পাস জড়িত একটি কাঠামোগত প্রশিক্ষণ প্রক্রিয়ার মাধ্যমে জটিল, অরৈখিক সম্পর্ক শিখতে পারে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يتناول هذا الفصل أساسيات التعلم العميق من خلال استكشاف الدوال المتداخلة والمتصلة والقابلة للتفاضل وتمثيلها كرسوم بيانية حسابية، مما يسهل حساب المشتقات باستخدام قاعدة السلسلة. ويركز على التعلم الخاضع للإشراف، وخاصة في نمذجة العلاقات بين الخصائص القابلة للقياس، مثل خصائص المنازل، وقيمها، مع التأكيد على أهمية هندسة الميزات. كما يقدم الفصل الانحدار الخطي والشبكات العصبية، موضحًا كيف يمكن لهذه النماذج تعلم العلاقات المعقدة وغير الخطية من خلال عملية تدريب منظمة تتضمن تمريرات للأمام والخلف لتحسين المعلمات بناءً على التدرجات المحسوبة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل با کاوش توابع تودرتو، پیوسته و قابل تمایز و نمایش آنها به عنوان نمودارهای محاسباتی، که محاسبه مشتقات را با استفاده از قانون زنجیره تسهیل می کند، به اصول یادگیری عمیق می پردازد. بر یادگیری تحت نظارت، به ویژه در مدل‌سازی روابط بین ویژگی‌های قابل اندازه‌گیری، مانند ویژگی‌های خانه‌ها، و ارزش‌های آنها تمرکز دارد، در حالی که بر اهمیت مهندسی ویژگی تأکید می‌کند. این فصل همچنین رگرسیون خطی و شبکه‌های عصبی را معرفی می‌کند و نشان می‌دهد که چگونه این مدل‌ها می‌توانند روابط پیچیده و غیرخطی را از طریق یک فرآیند آموزشی ساختاریافته شامل پاس‌های رو به جلو و عقب برای بهینه‌سازی پارامترها بر اساس گرادیان‌های محاسبه‌شده بیاموزند.",
                     },
                 },
                 // 3
@@ -7667,31 +6832,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Deep Learning from Scratch",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on the foundational concepts of neural networks, explaining how they are constructed from mathematical operations represented as Python classes. It details the process of training these models through forward and backward passes, calculating loss, and updating parameters using gradients derived from the chain rule. The chapter emphasizes the importance of layers, which consist of a series of linear and nonlinear operations, and illustrates how building deeper models with multiple hidden layers can enhance performance, setting the stage for more complex deep learning techniques in subsequent chapters.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um die grundlegenden Konzepte neuronaler Netzwerke und um deren Aufbau aus mathematischen Operationen, die als Python-Klassen dargestellt werden. Es beschreibt detailliert den Prozess des Trainierens dieser Modelle durch Vorwärts- und Rückwärtsdurchläufe, das Berechnen von Verlusten und das Aktualisieren von Parametern mithilfe von Gradienten, die aus der Kettenregel abgeleitet werden. Das Kapitel betont die Bedeutung von Schichten, die aus einer Reihe linearer und nichtlinearer Operationen bestehen, und veranschaulicht, wie der Aufbau tieferer Modelle mit mehreren verborgenen Schichten die Leistung verbessern kann, wodurch die Grundlage für komplexere Deep-Learning-Techniken in den folgenden Kapiteln geschaffen wird.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍神经网络的基本概念，解释如何通过以 Python 类表示的数学运算构建神经网络。它详细介绍了通过正向和反向传递训练这些模型、计算损失以及使用从链式法则得出的梯度更新参数的过程。本章强调了由一系列线性和非线性运算组成的层的重要性，并说明了如何构建具有多个隐藏层的更深层模型来提高性能，为后续章节中更复杂的深度学习技术奠定了基础。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматриваются основные концепции нейронных сетей, объясняется, как они строятся из математических операций, представленных в виде классов Python. В ней подробно описывается процесс обучения этих моделей с помощью прямых и обратных проходов, вычисления потерь и обновления параметров с использованием градиентов, полученных из цепного правила. В главе подчеркивается важность слоев, которые состоят из ряда линейных и нелинейных операций, и иллюстрируется, как построение более глубоких моделей с несколькими скрытыми слоями может повысить производительность, подготавливая почву для более сложных методов глубокого обучения в последующих главах.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur les concepts fondamentaux des réseaux neuronaux, expliquant comment ils sont construits à partir d'opérations mathématiques représentées sous forme de classes Python. Il détaille le processus d'entraînement de ces modèles via des passes avant et arrière, le calcul des pertes et la mise à jour des paramètres à l'aide de gradients dérivés de la règle de la chaîne. Le chapitre souligne l'importance des couches, qui consistent en une série d'opérations linéaires et non linéaires, et illustre comment la création de modèles plus profonds avec plusieurs couches cachées peut améliorer les performances, ouvrant la voie à des techniques d'apprentissage en profondeur plus complexes dans les chapitres suivants.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、ニューラル ネットワークの基本概念に焦点を当て、Python クラスとして表される数学演算からニューラル ネットワークがどのように構築されるかを説明します。また、順方向パスと逆方向パスによるこれらのモデルのトレーニング、損失の計算、連鎖律から得られる勾配を使用したパラメータの更新のプロセスについて詳しく説明します。この章では、一連の線形および非線形演算で構成されるレイヤーの重要性を強調し、複数の隠しレイヤーを持つより深いモデルを構築することでパフォーマンスを向上させる方法を示し、後続の章でより複雑なディープラーニング手法の基礎を築きます。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 신경망의 기본 개념에 초점을 맞추고, 파이썬 클래스로 표현된 수학적 연산에서 신경망이 어떻게 구성되는지 설명합니다. 이 장에서는 전방 및 후방 패스를 통해 이러한 모델을 학습하고, 손실을 계산하고, 체인 규칙에서 파생된 그래디언트를 사용하여 매개변수를 업데이트하는 프로세스를 자세히 설명합니다. 이 장에서는 일련의 선형 및 비선형 연산으로 구성된 계층의 중요성을 강조하고, 여러 개의 숨겨진 계층으로 더 깊은 모델을 구축하는 것이 어떻게 성능을 향상시킬 수 있는지 보여 주며, 후속 장에서 더 복잡한 딥 러닝 기술을 위한 무대를 마련합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en los conceptos básicos de las redes neuronales y explica cómo se construyen a partir de operaciones matemáticas representadas como clases de Python. Detalla el proceso de entrenamiento de estos modelos mediante pases hacia adelante y hacia atrás, el cálculo de pérdidas y la actualización de parámetros mediante gradientes derivados de la regla de la cadena. El capítulo enfatiza la importancia de las capas, que consisten en una serie de operaciones lineales y no lineales, e ilustra cómo la creación de modelos más profundos con múltiples capas ocultas puede mejorar el rendimiento, lo que prepara el terreno para técnicas de aprendizaje profundo más complejas en los capítulos posteriores.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय तंत्रिका नेटवर्क की मूलभूत अवधारणाओं पर ध्यान केंद्रित करता है, यह समझाते हुए कि उन्हें पायथन कक्षाओं के रूप में दर्शाए गए गणितीय संचालन से कैसे बनाया जाता है। यह इन मॉडलों को आगे और पीछे के पास के माध्यम से प्रशिक्षित करने, हानि की गणना करने और चेन नियम से प्राप्त ग्रेडिएंट का उपयोग करके मापदंडों को अपडेट करने की प्रक्रिया का विवरण देता है। अध्याय परतों के महत्व पर जोर देता है, जिसमें रैखिक और गैर-रैखिक संचालन की एक श्रृंखला शामिल है, और यह दर्शाता है कि कई छिपी परतों के साथ गहरे मॉडल का निर्माण कैसे प्रदर्शन को बढ़ा सकता है, जो बाद के अध्यायों में अधिक जटिल गहन शिक्षण तकनीकों के लिए मंच तैयार करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se nos conceitos fundamentais das redes neuronais, explicando como são construídas a partir de operações matemáticas representadas como classes Python. Detalha o processo de treino destes modelos através de passagens para a frente e para trás, cálculo de perdas e atualização de parâmetros usando gradientes derivados da regra da cadeia. O capítulo enfatiza a importância das camadas, que consistem numa série de operações lineares e não lineares, e ilustra como a construção de modelos mais profundos com múltiplas camadas ocultas pode melhorar o desempenho, preparando o terreno para técnicas de aprendizagem profunda mais complexas nos capítulos subsequentes.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি নিউরাল নেটওয়ার্কগুলির ভিত্তিগত ধারণাগুলির উপর আলোকপাত করে, ব্যাখ্যা করে যে কীভাবে এগুলি পাইথন ক্লাস হিসাবে উপস্থাপিত গাণিতিক ক্রিয়াকলাপগুলি থেকে তৈরি করা হয়। এটি শৃঙ্খল নিয়ম থেকে প্রাপ্ত গ্রেডিয়েন্টগুলি ব্যবহার করে এই মডেলগুলিকে এগিয়ে এবং পিছনের পাস, ক্ষতি গণনা এবং পরামিতি আপডেট করার মাধ্যমে প্রশিক্ষণের প্রক্রিয়ার বিবরণ দেয়। অধ্যায়টি স্তরগুলির গুরুত্বের উপর জোর দেয়, যা রৈখিক এবং অরৈখিক ক্রিয়াকলাপগুলির একটি সিরিজ নিয়ে গঠিত, এবং ব্যাখ্যা করে যে কীভাবে একাধিক লুকানো স্তরগুলির সাথে গভীর মডেলগুলি তৈরি করা কর্মক্ষমতা বাড়াতে পারে, পরবর্তী অধ্যায়গুলিতে আরও জটিল গভীর শিক্ষার কৌশলগুলির জন্য মঞ্চ স্থাপন করে৷",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على المفاهيم الأساسية للشبكات العصبية، موضحًا كيف يتم بناؤها من العمليات الرياضية الممثلة كفئات بايثون. كما يوضح بالتفصيل عملية تدريب هذه النماذج من خلال التمريرات الأمامية والخلفية، وحساب الخسارة، وتحديث المعلمات باستخدام التدرجات المستمدة من قاعدة السلسلة. ويؤكد الفصل على أهمية الطبقات، التي تتكون من سلسلة من العمليات الخطية وغير الخطية، ويوضح كيف يمكن لبناء نماذج أعمق مع طبقات مخفية متعددة أن يعزز الأداء، مما يمهد الطريق لتقنيات التعلم العميق الأكثر تعقيدًا في الفصول اللاحقة.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر مفاهیم اساسی شبکه های عصبی تمرکز دارد و توضیح می دهد که چگونه آنها از عملیات ریاضی که به عنوان کلاس های پایتون نمایش داده می شوند ساخته می شوند. جزئیات فرآیند آموزش این مدل‌ها از طریق پاس‌های رو به جلو و عقب، محاسبه تلفات و به‌روزرسانی پارامترها با استفاده از گرادیان‌های به دست آمده از قانون زنجیره‌ای. این فصل بر اهمیت لایه‌ها که شامل یک سری عملیات خطی و غیرخطی است تأکید می‌کند و نشان می‌دهد که چگونه ساخت مدل‌های عمیق‌تر با لایه‌های مخفی متعدد می‌تواند عملکرد را افزایش دهد و زمینه را برای تکنیک‌های یادگیری عمیق پیچیده‌تر در فصل‌های بعدی فراهم کند.",
                     },
                 },
                 // 4
@@ -7699,31 +6864,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Extensions",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on enhancing the training of neural networks by introducing essential techniques that improve their ability to find optimal solutions. It discusses the importance of minimizing loss functions, particularly the softmax cross entropy loss for classification tasks, and highlights the benefits of using activation functions like Tanh for better gradient flow. The chapter also covers momentum for weight updates, learning rate decay for gradual convergence, proper weight initialization to maintain variance, and dropout as a method to prevent overfitting, ultimately demonstrating how these strategies can lead to more effective deep learning models.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es darum, das Training neuronaler Netzwerke zu verbessern, indem grundlegende Techniken vorgestellt werden, die ihre Fähigkeit verbessern, optimale Lösungen zu finden. Es erörtert die Bedeutung der Minimierung von Verlustfunktionen, insbesondere des Softmax-Kreuzentropieverlusts für Klassifizierungsaufgaben, und hebt die Vorteile der Verwendung von Aktivierungsfunktionen wie Tanh für einen besseren Gradientenfluss hervor. Das Kapitel behandelt auch Impulse für Gewichtsaktualisierungen, Lernratenabfall für allmähliche Konvergenz, richtige Gewichtsinitialisierung zur Beibehaltung der Varianz und Dropout als Methode zur Vermeidung von Überanpassung und zeigt letztendlich, wie diese Strategien zu effektiveren Deep-Learning-Modellen führen können.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍提高神经网络寻找最优解能力的基本技术，从而增强神经网络的训练。本章讨论了最小化损失函数（尤其是分类任务中的 softmax 交叉熵损失）的重要性，并强调了使用 Tanh 等激活函数实现更好的梯度流的好处。本章还介绍了权重更新的动量、逐步收敛的学习率衰减、保持方差的适当权重初始化以及防止过度拟合的 dropout 方法，最终展示了这些策略如何产生更有效的深度学习模型。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется улучшению обучения нейронных сетей путем введения основных методов, которые улучшают их способность находить оптимальные решения. В ней обсуждается важность минимизации функций потерь, в частности, потери перекрестной энтропии softmax для задач классификации, и подчеркиваются преимущества использования функций активации, таких как Tanh, для лучшего градиентного потока. В главе также рассматривается импульс для обновлений веса, снижение скорости обучения для постепенной сходимости, правильная инициализация веса для поддержания дисперсии и отсев как метод предотвращения переобучения, в конечном итоге демонстрируя, как эти стратегии могут привести к более эффективным моделям глубокого обучения.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur l'amélioration de la formation des réseaux neuronaux en introduisant des techniques essentielles qui améliorent leur capacité à trouver des solutions optimales. Il aborde l'importance de minimiser les fonctions de perte, en particulier la perte d'entropie croisée softmax pour les tâches de classification, et souligne les avantages de l'utilisation de fonctions d'activation comme Tanh pour un meilleur flux de gradient. Le chapitre couvre également l'élan pour les mises à jour de poids, la décroissance du taux d'apprentissage pour une convergence progressive, l'initialisation appropriée du poids pour maintenir la variance et le décrochage comme méthode pour éviter le surajustement, démontrant finalement comment ces stratégies peuvent conduire à des modèles d'apprentissage profond plus efficaces.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、ニューラル ネットワークのトレーニングを強化するために、最適解を見つける能力を向上させる重要なテクニックを紹介します。損失関数、特に分類タスクのソフトマックス クロス エントロピー損失を最小化することの重要性について説明し、Tanh などの活性化関数を使用して勾配フローを改善する利点を強調します。また、この章では、重み更新のモメンタム、段階的な収束のための学習率の減衰、分散を維持するための適切な重みの初期化、およびオーバーフィッティングを防ぐ方法としてのドロップアウトについても説明し、最終的にこれらの戦略がより効果的なディープラーニング モデルにつながる方法を示します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 최적의 솔루션을 찾는 능력을 향상시키는 필수 기술을 도입하여 신경망의 학습을 향상시키는 데 중점을 둡니다. 손실 함수, 특히 분류 작업을 위한 소프트맥스 교차 엔트로피 손실을 최소화하는 것의 중요성에 대해 논의하고, 더 나은 그래디언트 흐름을 위해 Tanh와 같은 활성화 함수를 사용하는 이점을 강조합니다. 이 장에서는 또한 가중치 업데이트를 위한 모멘텀, 점진적 수렴을 위한 학습률 감소, 분산을 유지하기 위한 적절한 가중치 초기화, 과적합을 방지하는 방법으로서의 드롭아웃을 다루며, 궁극적으로 이러한 전략이 어떻게 더 효과적인 딥 러닝 모델로 이어질 수 있는지 보여줍니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en mejorar el entrenamiento de redes neuronales mediante la introducción de técnicas esenciales que mejoran su capacidad para encontrar soluciones óptimas. Analiza la importancia de minimizar las funciones de pérdida, en particular la pérdida de entropía cruzada softmax para tareas de clasificación, y destaca los beneficios de utilizar funciones de activación como Tanh para un mejor flujo de gradiente. El capítulo también cubre el momento para las actualizaciones de peso, la disminución de la tasa de aprendizaje para la convergencia gradual, la inicialización adecuada del peso para mantener la varianza y la deserción como método para evitar el sobreajuste, demostrando en última instancia cómo estas estrategias pueden conducir a modelos de aprendizaje profundo más efectivos.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय आवश्यक तकनीकों को पेश करके तंत्रिका नेटवर्क के प्रशिक्षण को बढ़ाने पर ध्यान केंद्रित करता है जो इष्टतम समाधान खोजने की उनकी क्षमता में सुधार करते हैं। यह वर्गीकरण कार्यों के लिए हानि कार्यों, विशेष रूप से सॉफ्टमैक्स क्रॉस एन्ट्रॉपी हानि को कम करने के महत्व पर चर्चा करता है, और बेहतर ग्रेडिएंट प्रवाह के लिए टैन जैसे सक्रियण कार्यों का उपयोग करने के लाभों पर प्रकाश डालता है। अध्याय में वेट अपडेट के लिए गति, क्रमिक अभिसरण के लिए सीखने की दर में कमी, भिन्नता को बनाए रखने के लिए उचित वजन आरंभीकरण और ओवरफिटिंग को रोकने के लिए एक विधि के रूप में ड्रॉपआउट को भी शामिल किया गया है, जो अंततः यह दर्शाता है कि कैसे ये रणनीतियाँ अधिक प्रभावी डीप लर्निंग मॉडल की ओर ले जा सकती हैं।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se em melhorar o treino de redes neuronais, introduzindo técnicas essenciais que melhoram a sua capacidade de encontrar soluções ideais. Discute a importância de minimizar as funções de perda, particularmente a perda de entropia cruzada softmax para tarefas de classificação, e destaca os benefícios da utilização de funções de ativação como o Tanh para um melhor fluxo de gradiente. O capítulo aborda também o impulso para atualizações de peso, queda da taxa de aprendizagem para convergência gradual, inicialização adequada de peso para manter a variância e abandono como método para evitar o overfitting, demonstrando em última análise como estas estratégias podem levar a modelos de aprendizagem profunda mais eficazes.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি অত্যাবশ্যকীয় কৌশলগুলি প্রবর্তন করে নিউরাল নেটওয়ার্কগুলির প্রশিক্ষণ বাড়ানোর উপর দৃষ্টি নিবদ্ধ করে যা তাদের সর্বোত্তম সমাধান খুঁজে পাওয়ার ক্ষমতাকে উন্নত করে। এটি লস ফাংশন ন্যূনতম করার গুরুত্ব নিয়ে আলোচনা করে, বিশেষ করে শ্রেণীবিভাগের কাজগুলির জন্য সফটম্যাক্স ক্রস এনট্রপি লস, এবং আরও ভাল গ্রেডিয়েন্ট প্রবাহের জন্য তানহের মতো অ্যাক্টিভেশন ফাংশন ব্যবহার করার সুবিধাগুলি হাইলাইট করে। অধ্যায়টি ওজন আপডেটের জন্য গতি, ধীরে ধীরে একত্রিত হওয়ার জন্য শেখার হারের ক্ষয়, ভিন্নতা বজায় রাখার জন্য সঠিক ওজন প্রাথমিককরণ, এবং অতিরিক্ত ফিটিং প্রতিরোধ করার একটি পদ্ধতি হিসাবে ড্রপআউট, শেষ পর্যন্ত এই কৌশলগুলি আরও কার্যকর গভীর শিক্ষার মডেলের দিকে নিয়ে যেতে পারে তা প্রদর্শন করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على تعزيز تدريب الشبكات العصبية من خلال تقديم تقنيات أساسية تعمل على تحسين قدرتها على إيجاد الحلول المثلى. ويناقش أهمية تقليل وظائف الخسارة، وخاصة خسارة الإنتروبيا المتقاطعة لـ Softmax لمهام التصنيف، ويسلط الضوء على فوائد استخدام وظائف التنشيط مثل Tanh لتحسين تدفق التدرج. ويغطي الفصل أيضًا الزخم لتحديثات الوزن، وتدهور معدل التعلم للتقارب التدريجي، وتهيئة الوزن المناسبة للحفاظ على التباين، والتسرب كطريقة لمنع الإفراط في التجهيز، مما يوضح في النهاية كيف يمكن لهذه الاستراتيجيات أن تؤدي إلى نماذج تعلم عميق أكثر فعالية.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر تقویت آموزش شبکه‌های عصبی با معرفی تکنیک‌های ضروری تمرکز دارد که توانایی آنها را برای یافتن راه‌حل‌های بهینه بهبود می‌بخشد. اهمیت به حداقل رساندن توابع از دست دادن، به ویژه از دست دادن آنتروپی متقاطع softmax برای وظایف طبقه بندی را مورد بحث قرار می دهد و مزایای استفاده از توابع فعال سازی مانند Tanh را برای جریان گرادیان بهتر برجسته می کند. این فصل همچنین شتاب برای به روز رسانی وزن، کاهش نرخ یادگیری برای همگرایی تدریجی، مقداردهی اولیه وزن مناسب برای حفظ واریانس، و حذف به عنوان روشی برای جلوگیری از برازش بیش از حد را پوشش می دهد، که در نهایت نشان می دهد که چگونه این استراتژی ها می توانند به مدل های یادگیری عمیق موثرتری منجر شوند.",
                     },
                 },
                 // 5
@@ -7731,31 +6896,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Convolutional Neural Networks",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter focuses on Convolutional Neural Networks (CNNs), which are specifically designed for image data and differ from traditional fully connected neural networks. The chapter explains how CNNs operate by learning local pixel features through convolution operations, which involve sliding filters over images to create feature maps that detect visual patterns. It also covers the implementation of multichannel convolutions to handle multiple input channels, the role of pooling layers in reducing computational load while acknowledging the trade-off of losing some information, and provides detailed coding examples for understanding the convolution process from scratch.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel geht es um Convolutional Neural Networks (CNNs), die speziell für Bilddaten entwickelt wurden und sich von herkömmlichen, vollständig verbundenen neuronalen Netzwerken unterscheiden. Das Kapitel erklärt, wie CNNs funktionieren, indem sie lokale Pixelmerkmale durch Faltungsoperationen erlernen, bei denen Filter über Bilder geschoben werden, um Merkmalskarten zu erstellen, die visuelle Muster erkennen. Es behandelt auch die Implementierung von Mehrkanal-Faltungen zur Verarbeitung mehrerer Eingangskanäle, die Rolle von Pooling-Schichten bei der Reduzierung der Rechenlast unter Berücksichtigung des Kompromisses, einige Informationen zu verlieren, und bietet detaillierte Codierungsbeispiele, um den Faltungsprozess von Grund auf zu verstehen.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章重点介绍卷积神经网络 (CNN)，它专门用于处理图像数据，与传统的全连接神经网络不同。本章介绍了 CNN 如何通过卷积运算学习局部像素特征，这涉及在图像上滑动滤波器以创建检测视觉模式的特征图。本章还介绍了多通道卷积的实现以处理多个输入通道，池化层在减少计算负载（同时承认会丢失一些信息）方面的作用，并提供了详细的编码示例，以便从头开始理解卷积过程。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе основное внимание уделяется сверточным нейронным сетям (CNN), которые специально разработаны для данных изображений и отличаются от традиционных полностью связанных нейронных сетей. В главе объясняется, как работают CNN, изучая локальные пиксельные признаки с помощью операций свертки, которые включают скользящие фильтры по изображениям для создания карт признаков, которые обнаруживают визуальные закономерности. В ней также рассматривается реализация многоканальных сверток для обработки нескольких входных каналов, роль слоев пула в снижении вычислительной нагрузки при признании компромисса в виде потери некоторой информации, а также приводятся подробные примеры кодирования для понимания процесса свертки с нуля.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre se concentre sur les réseaux neuronaux convolutionnels (CNN), qui sont spécifiquement conçus pour les données d'image et diffèrent des réseaux neuronaux entièrement connectés traditionnels. Le chapitre explique comment les CNN fonctionnent en apprenant les caractéristiques des pixels locaux via des opérations de convolution, qui impliquent de faire glisser des filtres sur des images pour créer des cartes de caractéristiques qui détectent des motifs visuels. Il couvre également la mise en œuvre de convolutions multicanaux pour gérer plusieurs canaux d'entrée, le rôle des couches de regroupement dans la réduction de la charge de calcul tout en reconnaissant le compromis de la perte de certaines informations, et fournit des exemples de codage détaillés pour comprendre le processus de convolution à partir de zéro.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、画像データ専用に設計され、従来の完全接続ニューラル ネットワークとは異なる畳み込みニューラル ネットワーク (CNN) に焦点を当てます。この章では、画像にフィルターをスライドさせて視覚パターンを検出する特徴マップを作成する畳み込み操作を通じてローカル ピクセルの特徴を学習することで CNN がどのように動作するかを説明します。また、複数の入力チャネルを処理するためのマルチチャネル畳み込みの実装、一部の情報を失うというトレードオフを認識しながら計算負荷を軽減するプーリング層の役割についても説明し、畳み込みプロセスを最初から理解するための詳細なコード例を示します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 이미지 데이터를 위해 특별히 설계되었으며 기존의 완전 연결 신경망과 다른 합성곱 신경망(CNN)에 초점을 맞춥니다. 이 장에서는 CNN이 합성곱 연산을 통해 로컬 픽셀 피처를 학습하여 작동하는 방식을 설명합니다. 합성곱 연산에는 이미지 위로 필터를 밀어 시각적 패턴을 감지하는 피처 맵을 만드는 것이 포함됩니다. 또한 여러 입력 채널을 처리하기 위한 다중 채널 합성곱의 구현, 일부 정보를 잃는 것의 상쇄 효과를 인정하면서 계산 부하를 줄이는 데 있어서 풀링 레이어의 역할, 합성곱 프로세스를 처음부터 이해하기 위한 자세한 코딩 예제를 제공합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo se centra en las redes neuronales convolucionales (CNN), que están diseñadas específicamente para datos de imágenes y se diferencian de las redes neuronales totalmente conectadas tradicionales. El capítulo explica cómo funcionan las CNN mediante el aprendizaje de las características de los píxeles locales a través de operaciones de convolución, que implican el deslizamiento de filtros sobre las imágenes para crear mapas de características que detectan patrones visuales. También cubre la implementación de convoluciones multicanal para manejar múltiples canales de entrada, el papel de las capas de agrupamiento para reducir la carga computacional al tiempo que se reconoce la desventaja de perder cierta información, y proporciona ejemplos de codificación detallados para comprender el proceso de convolución desde cero.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय कन्वोल्यूशनल न्यूरल नेटवर्क (CNN) पर केंद्रित है, जो विशेष रूप से छवि डेटा के लिए डिज़ाइन किए गए हैं और पारंपरिक पूरी तरह से जुड़े न्यूरल नेटवर्क से अलग हैं। अध्याय बताता है कि CNN कन्वोल्यूशन ऑपरेशन के माध्यम से स्थानीय पिक्सेल सुविधाओं को सीखकर कैसे काम करते हैं, जिसमें विज़ुअल पैटर्न का पता लगाने वाले फ़ीचर मैप बनाने के लिए छवियों पर स्लाइडिंग फ़िल्टर शामिल हैं। यह कई इनपुट चैनलों को संभालने के लिए मल्टीचैनल कन्वोल्यूशन के कार्यान्वयन को भी कवर करता है, कुछ जानकारी खोने के व्यापार-बंद को स्वीकार करते हुए कम्प्यूटेशनल लोड को कम करने में पूलिंग परतों की भूमिका, और स्क्रैच से कन्वोल्यूशन प्रक्रिया को समझने के लिए विस्तृत कोडिंग उदाहरण प्रदान करता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo centra-se nas redes neuronais convolucionais (CNNs), que são concebidas especificamente para dados de imagem e diferem das redes neuronais tradicionais totalmente conectadas. O capítulo explica como as CNN operam aprendendo as características dos pixéis locais através de operações de convolução, que envolvem o deslizamento de filtros sobre imagens para criar mapas de características que detetam padrões visuais. Abrange também a implementação de convoluções multicanal para lidar com vários canais de entrada, o papel do agrupamento de camadas na redução da carga computacional, ao mesmo tempo que reconhece a compensação de perder alguma informação, e fornece exemplos de codificação detalhados para compreender o processo de convolução a partir do zero.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি কনভোলিউশনাল নিউরাল নেটওয়ার্ক (সিএনএন) এর উপর দৃষ্টি নিবদ্ধ করে, যেগুলি বিশেষভাবে ইমেজ ডেটার জন্য ডিজাইন করা হয়েছে এবং প্রথাগত সম্পূর্ণভাবে সংযুক্ত নিউরাল নেটওয়ার্ক থেকে আলাদা। অধ্যায়টি ব্যাখ্যা করে যে কীভাবে সিএনএনগুলি কনভল্যুশন অপারেশনের মাধ্যমে স্থানীয় পিক্সেল বৈশিষ্ট্যগুলি শিখে কাজ করে, যার মধ্যে চিত্রগুলির উপর ফিল্টারগুলি স্লাইডিং ফিচার ম্যাপ তৈরি করে যা ভিজ্যুয়াল প্যাটার্ন সনাক্ত করে। এটি একাধিক ইনপুট চ্যানেলগুলি পরিচালনা করার জন্য মাল্টিচ্যানেল কনভোলিউশনের বাস্তবায়ন, কিছু তথ্য হারানোর ট্রেড-অফ স্বীকার করার সময় গণনামূলক লোড কমাতে পুলিং লেয়ারের ভূমিকাকেও কভার করে এবং স্ক্র্যাচ থেকে কনভোলিউশন প্রক্রিয়া বোঝার জন্য বিস্তারিত কোডিং উদাহরণ প্রদান করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يركز هذا الفصل على الشبكات العصبية التلافيفية (CNNs)، والتي تم تصميمها خصيصًا لبيانات الصور وتختلف عن الشبكات العصبية التقليدية المتصلة بالكامل. يشرح الفصل كيف تعمل CNNs من خلال تعلم ميزات البكسل المحلية من خلال عمليات الالتفاف، والتي تتضمن تحريك المرشحات فوق الصور لإنشاء خرائط ميزات تكشف عن الأنماط المرئية. كما يغطي تنفيذ الالتفافات متعددة القنوات للتعامل مع قنوات الإدخال المتعددة، ودور طبقات التجميع في تقليل الحمل الحسابي مع الاعتراف بالتضحية بفقدان بعض المعلومات، ويوفر أمثلة ترميز مفصلة لفهم عملية الالتفاف من الصفر.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل بر روی شبکه‌های عصبی کانولوشنال (CNN) تمرکز دارد که به طور خاص برای داده‌های تصویری طراحی شده‌اند و با شبکه‌های عصبی کاملا متصل سنتی متفاوت هستند. این فصل توضیح می‌دهد که CNN‌ها چگونه با یادگیری ویژگی‌های پیکسل محلی از طریق عملیات کانولوشن، که شامل لغزش فیلترها بر روی تصاویر برای ایجاد نقشه‌های ویژگی است که الگوهای بصری را تشخیص می‌دهند، عمل می‌کنند. همچنین اجرای کانولوشن‌های چند کانالی برای مدیریت کانال‌های ورودی متعدد، نقش لایه‌های ادغام در کاهش بار محاسباتی و در عین حال تأیید مبادله با از دست دادن برخی اطلاعات را پوشش می‌دهد، و مثال‌های کدگذاری دقیقی را برای درک فرآیند کانولوشن از ابتدا ارائه می‌کند.",
                     },
                 },
                 // 6
@@ -7763,31 +6928,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Recurrent Neural Networks",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter introduces Recurrent Neural Networks (RNNs), which are specialized neural network architectures designed to process sequential data, such as time series or language. Unlike traditional feed-forward networks that treat inputs as independent observations, RNNs maintain hidden states that allow them to capture temporal dependencies by passing representations from previous time steps into the current computation. The chapter discusses the structure of RNNs, the necessity of automatic differentiation for gradient calculations, and highlights advanced variants like GRUs and LSTMs that improve performance by managing long-term dependencies through gating mechanisms.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel werden Recurrent Neural Networks (RNNs) vorgestellt. Dabei handelt es sich um spezialisierte neuronale Netzwerkarchitekturen, die für die Verarbeitung sequentieller Daten wie Zeitreihen oder Sprache entwickelt wurden. Im Gegensatz zu herkömmlichen Feedforward-Netzwerken, die Eingaben als unabhängige Beobachtungen behandeln, behalten RNNs verborgene Zustände bei, die es ihnen ermöglichen, zeitliche Abhängigkeiten zu erfassen, indem sie Darstellungen aus vorherigen Zeitschritten in die aktuelle Berechnung übernehmen. Das Kapitel behandelt die Struktur von RNNs, die Notwendigkeit automatischer Differenzierung für Gradientenberechnungen und hebt fortgeschrittene Varianten wie GRUs und LSTMs hervor, die die Leistung verbessern, indem sie langfristige Abhängigkeiten durch Gating-Mechanismen verwalten.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍了循环神经网络 (RNN)，这是一种专门用于处理顺序数据（例如时间序列或语言）的神经网络架构。与将输入视为独立观察的传统前馈网络不同，RNN 保持隐藏状态，通过将先前时间步骤的表示传递到当前计算中，RNN 可以捕获时间依赖关系。本章讨论了 RNN 的结构、梯度计算自动微分的必要性，并重点介绍了 GRU 和 LSTM 等高级变体，它们通过门控机制管理长期依赖关系，从而提高性能。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе рассматриваются рекуррентные нейронные сети (RNN), которые являются специализированными архитектурами нейронных сетей, предназначенными для обработки последовательных данных, таких как временные ряды или язык. В отличие от традиционных сетей прямого распространения, которые рассматривают входные данные как независимые наблюдения, RNN поддерживают скрытые состояния, которые позволяют им фиксировать временные зависимости, передавая представления из предыдущих временных шагов в текущие вычисления. В главе обсуждается структура RNN, необходимость автоматической дифференциации для градиентных вычислений и освещаются продвинутые варианты, такие как GRU и LSTM, которые повышают производительность за счет управления долгосрочными зависимостями с помощью механизмов стробирования.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente les réseaux neuronaux récurrents (RNN), qui sont des architectures de réseaux neuronaux spécialisées conçues pour traiter des données séquentielles, telles que des séries chronologiques ou des langages. Contrairement aux réseaux traditionnels à propagation directe qui traitent les entrées comme des observations indépendantes, les RNN conservent des états cachés qui leur permettent de capturer les dépendances temporelles en transmettant des représentations des étapes temporelles précédentes au calcul en cours. Le chapitre aborde la structure des RNN, la nécessité d'une différenciation automatique pour les calculs de gradient et met en évidence des variantes avancées comme les GRU et les LSTM qui améliorent les performances en gérant les dépendances à long terme via des mécanismes de contrôle.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、時系列や言語などの連続データを処理するために設計された特殊なニューラル ネットワーク アーキテクチャであるリカレント ニューラル ネットワーク (RNN) を紹介します。入力を独立した観測として扱う従来のフィードフォワード ネットワークとは異なり、RNN は、以前のタイム ステップの表現を現在の計算に渡すことで時間的な依存関係をキャプチャできる隠し状態を維持します。この章では、RNN の構造、勾配計算のための自動微分化の必要性について説明し、ゲーティング メカニズムを通じて長期的な依存関係を管理することでパフォーマンスを向上させる GRU や LSTM などの高度なバリアントに焦点を当てます。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 시계열이나 언어와 같은 순차적 데이터를 처리하도록 설계된 특수 신경망 아키텍처인 순환 신경망(RNN)을 소개합니다. 입력을 독립적인 관찰로 처리하는 기존의 피드포워드 네트워크와 달리 RNN은 이전 시간 단계의 표현을 현재 계산으로 전달하여 시간적 종속성을 포착할 수 있는 숨겨진 상태를 유지합니다. 이 장에서는 RNN의 구조, 그래디언트 계산을 위한 자동 미분의 필요성에 대해 논의하고, 게이팅 메커니즘을 통해 장기 종속성을 관리하여 성능을 개선하는 GRU 및 LSTM과 같은 고급 변형을 강조합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "En este capítulo se presentan las redes neuronales recurrentes (RNN), que son arquitecturas de redes neuronales especializadas diseñadas para procesar datos secuenciales, como series temporales o lenguaje. A diferencia de las redes tradicionales de propagación hacia adelante que tratan las entradas como observaciones independientes, las RNN mantienen estados ocultos que les permiten capturar dependencias temporales al pasar representaciones de pasos de tiempo anteriores al cálculo actual. En el capítulo se analiza la estructura de las RNN, la necesidad de diferenciación automática para los cálculos de gradientes y se destacan variantes avanzadas como las GRU y las LSTM que mejoran el rendimiento al gestionar dependencias a largo plazo a través de mecanismos de control.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय आवर्ती तंत्रिका नेटवर्क (RNN) का परिचय देता है, जो विशिष्ट तंत्रिका नेटवर्क आर्किटेक्चर हैं जिन्हें अनुक्रमिक डेटा, जैसे कि समय श्रृंखला या भाषा को संसाधित करने के लिए डिज़ाइन किया गया है। पारंपरिक फीड-फ़ॉरवर्ड नेटवर्क के विपरीत जो इनपुट को स्वतंत्र अवलोकन के रूप में मानते हैं, RNN छिपी हुई अवस्थाओं को बनाए रखते हैं जो उन्हें पिछले समय चरणों से वर्तमान गणना में प्रतिनिधित्व पारित करके अस्थायी निर्भरता को पकड़ने की अनुमति देते हैं। अध्याय RNN की संरचना, ग्रेडिएंट गणनाओं के लिए स्वचालित विभेदन की आवश्यकता पर चर्चा करता है, और GRU और LSTM जैसे उन्नत वेरिएंट पर प्रकाश डालता है जो गेटिंग तंत्र के माध्यम से दीर्घकालिक निर्भरताओं को प्रबंधित करके प्रदर्शन में सुधार करते हैं।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta as Redes Neurais Recorrentes (RNNs), que são arquiteturas de redes neuronais especializadas concebidas para processar dados sequenciais, como séries temporais ou linguagem. Ao contrário das redes feed-forward tradicionais que tratam as entradas como observações independentes, as RNN mantêm estados escondidos que lhes permitem capturar dependências temporais, passando representações de passos de tempo anteriores para a computação atual. O capítulo discute a estrutura dos RNNs, a necessidade de diferenciação automática para cálculos de gradientes e destaca variantes avançadas como GRUs e LSTMs que melhoram o desempenho através da gestão de dependências de longo prazo através de mecanismos de controlo.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি রিকারেন্ট নিউরাল নেটওয়ার্ক (RNNs) প্রবর্তন করে, যা বিশেষায়িত নিউরাল নেটওয়ার্ক আর্কিটেকচার যা ক্রমিক ডেটা প্রক্রিয়া করার জন্য ডিজাইন করা হয়েছে, যেমন সময় সিরিজ বা ভাষা। প্রথাগত ফিড-ফরোয়ার্ড নেটওয়ার্কগুলির বিপরীতে যেগুলি ইনপুটগুলিকে স্বাধীন পর্যবেক্ষণ হিসাবে বিবেচনা করে, RNNগুলি লুকানো অবস্থাগুলি বজায় রাখে যা তাদের বর্তমান গণনার পূর্ববর্তী সময়ের পদক্ষেপগুলি থেকে উপস্থাপনা পাস করে অস্থায়ী নির্ভরতা ক্যাপচার করতে দেয়। অধ্যায়টি RNN-এর গঠন, গ্রেডিয়েন্ট গণনার জন্য স্বয়ংক্রিয় পার্থক্যের প্রয়োজনীয়তা নিয়ে আলোচনা করে এবং GRUs এবং LSTM-এর মতো উন্নত রূপগুলিকে হাইলাইট করে যা গেটিং প্রক্রিয়ার মাধ্যমে দীর্ঘমেয়াদী নির্ভরতা পরিচালনা করে কর্মক্ষমতা উন্নত করে।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل الشبكات العصبية المتكررة (RNNs)، وهي عبارة عن هياكل شبكات عصبية متخصصة مصممة لمعالجة البيانات المتسلسلة، مثل السلاسل الزمنية أو اللغة. وعلى عكس شبكات التغذية الأمامية التقليدية التي تعامل المدخلات كملاحظات مستقلة، تحافظ الشبكات العصبية المتكررة على حالات مخفية تسمح لها بالتقاط التبعيات الزمنية من خلال تمرير التمثيلات من خطوات الوقت السابقة إلى الحساب الحالي. يناقش الفصل بنية الشبكات العصبية المتكررة، وضرورة التمايز التلقائي لحسابات التدرج، ويسلط الضوء على المتغيرات المتقدمة مثل GRUs وLSTMs التي تعمل على تحسين الأداء من خلال إدارة التبعيات طويلة الأجل من خلال آليات البوابات.",
                         // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل شبکه‌های عصبی بازگشتی (RNN) را معرفی می‌کند که معماری شبکه‌های عصبی تخصصی هستند که برای پردازش داده‌های متوالی، مانند سری‌های زمانی یا زبان طراحی شده‌اند. برخلاف شبکه‌های پیش‌خور سنتی که ورودی‌ها را به‌عنوان مشاهدات مستقل در نظر می‌گیرند، RNN‌ها حالت‌های پنهانی را حفظ می‌کنند که به آن‌ها اجازه می‌دهد وابستگی‌های زمانی را با ارسال نمایش‌هایی از مراحل زمانی قبلی به محاسبات فعلی دریافت کنند. این فصل ساختار RNN ها، لزوم تمایز خودکار برای محاسبات گرادیان را مورد بحث قرار می دهد و انواع پیشرفته مانند GRU و LSTM را برجسته می کند که با مدیریت وابستگی های بلندمدت از طریق مکانیسم های دروازه، عملکرد را بهبود می بخشد.",
                     },
                 },
                 // 7
@@ -7795,63 +6960,31 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "PyTorch",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "",
+                        "English": "This chapter introduces PyTorch as a high-performance neural network framework, emphasizing its automatic differentiation capabilities through Tensors. It covers the essential components of building neural networks, including Models, Layers, Optimizers, and Loss functions, while demonstrating how to implement architectures like fully connected networks, convolutional networks, and recurrent networks. The chapter also touches on unsupervised learning with autoencoders and the concept of representation learning, concluding with a brief mention of generative adversarial networks (GANs) and their ability to learn complex data distributions.",
                         // German
-                        "Deutsch": "",
+                        "Deutsch": "In diesem Kapitel wird PyTorch als leistungsstarkes Framework für neuronale Netzwerke vorgestellt, wobei die automatischen Differenzierungsfunktionen durch Tensoren hervorgehoben werden. Es behandelt die wesentlichen Komponenten zum Erstellen neuronaler Netzwerke, einschließlich Modelle, Schichten, Optimierer und Verlustfunktionen, und zeigt, wie Architekturen wie vollständig verbundene Netzwerke, Faltungsnetzwerke und rekurrierende Netzwerke implementiert werden. Das Kapitel geht auch auf unüberwachtes Lernen mit Autoencodern und das Konzept des Repräsentationslernens ein und schließt mit einer kurzen Erwähnung generativer kontradiktorischer Netzwerke (GANs) und ihrer Fähigkeit, komplexe Datenverteilungen zu erlernen.",
                         // Chinese
-                        "中国人": "",
+                        "中国人": "本章介绍了 PyTorch 作为高性能神经网络框架，强调了其通过张量实现的自动微分功能。它涵盖了构建神经网络的基本组件，包括模型、层、优化器和损失函数，同时演示了如何实现全连接网络、卷积网络和循环网络等架构。本章还涉及使用自动编码器的无监督学习和表示学习的概念，最后简要介绍了生成对抗网络 (GAN) 及其学习复杂数据分布的能力。",
                         // Russian
-                        "Русский": "",
+                        "Русский": "В этой главе представлен PyTorch как высокопроизводительный фреймворк нейронных сетей, подчеркивающий его возможности автоматического дифференцирования с помощью тензоров. В ней рассматриваются основные компоненты построения нейронных сетей, включая модели, слои, оптимизаторы и функции потерь, а также демонстрируется, как реализовать такие архитектуры, как полностью связанные сети, сверточные сети и рекуррентные сети. В главе также затрагивается неконтролируемое обучение с помощью автокодировщиков и концепция обучения представлений, в заключение кратко упоминаются генеративно-состязательные сети (GAN) и их способность изучать сложные распределения данных.",
                         // French
-                        "Français": "",
+                        "Français": "Ce chapitre présente PyTorch comme un framework de réseau neuronal hautes performances, en mettant l'accent sur ses capacités de différenciation automatique via les tenseurs. Il couvre les composants essentiels de la construction de réseaux neuronaux, notamment les modèles, les couches, les optimiseurs et les fonctions de perte, tout en montrant comment mettre en œuvre des architectures telles que les réseaux entièrement connectés, les réseaux convolutionnels et les réseaux récurrents. Le chapitre aborde également l'apprentissage non supervisé avec des autoencodeurs et le concept d'apprentissage de représentation, se terminant par une brève mention des réseaux antagonistes génératifs (GAN) et de leur capacité à apprendre des distributions de données complexes.",
                         // Japanese
-                        "日本語": "",
+                        "日本語": "この章では、高性能ニューラル ネットワーク フレームワークとしての PyTorch を紹介し、テンソルによる自動微分化機能に重点を置いています。モデル、レイヤー、オプティマイザー、損失関数など、ニューラル ネットワークの構築に不可欠なコンポーネントについて説明しながら、完全接続ネットワーク、畳み込みネットワーク、再帰ネットワークなどのアーキテクチャを実装する方法を示します。また、この章では、オートエンコーダを使用した教師なし学習と表現学習の概念についても触れ、最後に生成的敵対ネットワーク (GAN) と複雑なデータ分布を学習するその能力について簡単に説明します。",
                         // Korean
-                        "한국인": "",
+                        "한국인": "이 장에서는 PyTorch를 고성능 신경망 프레임워크로 소개하고, 텐서를 통한 자동 미분 기능을 강조합니다. 모델, 계층, 최적화 도구, 손실 함수를 포함하여 신경망을 구축하는 데 필수적인 구성 요소를 다루는 동시에 완전 연결 네트워크, 합성곱 네트워크, 순환 네트워크와 같은 아키텍처를 구현하는 방법을 보여줍니다. 이 장에서는 또한 자동 인코더를 사용한 비지도 학습과 표현 학습 개념에 대해 다루고, 생성적 적대 신경망(GAN)과 복잡한 데이터 분포를 학습하는 능력에 대해 간략히 언급하면서 마무리합니다.",
                         // Spanish
-                        "Español": "",
+                        "Español": "Este capítulo presenta PyTorch como un marco de trabajo de redes neuronales de alto rendimiento, haciendo hincapié en sus capacidades de diferenciación automática a través de tensores. Abarca los componentes esenciales de la construcción de redes neuronales, incluidos modelos, capas, optimizadores y funciones de pérdida, al tiempo que demuestra cómo implementar arquitecturas como redes completamente conectadas, redes convolucionales y redes recurrentes. El capítulo también aborda el aprendizaje no supervisado con autocodificadores y el concepto de aprendizaje de representación, y concluye con una breve mención de las redes generativas antagónicas (GAN) y su capacidad para aprender distribuciones de datos complejas.",
                         // Hindi
-                        "हिंदी": "",
+                        "हिंदी": "यह अध्याय PyTorch को एक उच्च-प्रदर्शन न्यूरल नेटवर्क फ्रेमवर्क के रूप में पेश करता है, जो टेंसर के माध्यम से इसकी स्वचालित विभेदन क्षमताओं पर जोर देता है। यह मॉडल, लेयर्स, ऑप्टिमाइज़र और लॉस फ़ंक्शन सहित न्यूरल नेटवर्क बनाने के आवश्यक घटकों को कवर करता है, जबकि पूरी तरह से जुड़े नेटवर्क, कन्वोल्यूशनल नेटवर्क और आवर्तक नेटवर्क जैसे आर्किटेक्चर को लागू करने का तरीका प्रदर्शित करता है। यह अध्याय ऑटोएनकोडर के साथ अनसुपरवाइज्ड लर्निंग और रिप्रेजेंटेशन लर्निंग की अवधारणा को भी छूता है, जो जेनरेटिव एडवर्सरियल नेटवर्क (GAN) और जटिल डेटा वितरण सीखने की उनकी क्षमता के संक्षिप्त उल्लेख के साथ समाप्त होता है।",
                         // Portuguese
-                        "Português": "",
+                        "Português": "Este capítulo apresenta o PyTorch como uma estrutura de rede neural de alto desempenho, enfatizando as suas capacidades de diferenciação automática através de Tensores. Abrange os componentes essenciais da construção de redes neuronais, incluindo modelos, camadas, otimizadores e funções de perda, ao mesmo tempo que demonstra como implementar arquiteturas como redes totalmente conectadas, redes convolucionais e redes recorrentes. O capítulo aborda também a aprendizagem não supervisionada com autoencoders e o conceito de aprendizagem de representação, concluindo com uma breve menção às redes adversárias generativas (GANs) e à sua capacidade de aprender distribuições complexas de dados.",
                         // Bengali
-                        "বাংলা": "",
+                        "বাংলা": "এই অধ্যায়টি PyTorch কে একটি উচ্চ-পারফরম্যান্স নিউরাল নেটওয়ার্ক ফ্রেমওয়ার্ক হিসাবে পরিচয় করিয়ে দেয়, Tensors এর মাধ্যমে এর স্বয়ংক্রিয় পার্থক্য ক্ষমতার উপর জোর দেয়। এটি মডেল, লেয়ার, অপ্টিমাইজার এবং লস ফাংশন সহ নিউরাল নেটওয়ার্ক তৈরির প্রয়োজনীয় উপাদানগুলিকে কভার করে, যেখানে সম্পূর্ণভাবে সংযুক্ত নেটওয়ার্ক, কনভোলিউশনাল নেটওয়ার্ক এবং পুনরাবৃত্ত নেটওয়ার্কগুলির মতো আর্কিটেকচারগুলি কীভাবে প্রয়োগ করা যায় তা প্রদর্শন করে৷ অধ্যায়টি অটোএনকোডারগুলির সাথে তত্ত্বাবধানহীন শিক্ষা এবং উপস্থাপনা শেখার ধারণাকেও স্পর্শ করে, জেনারেটিভ অ্যাডভারসারিয়াল নেটওয়ার্ক (GAN) এবং জটিল ডেটা বিতরণ শেখার তাদের ক্ষমতার একটি সংক্ষিপ্ত উল্লেখ দিয়ে শেষ হয়।",
                         // Arabic
-                        "عَرَبِيّ": "",
+                        "عَرَبِيّ": "يقدم هذا الفصل PyTorch كإطار عمل للشبكات العصبية عالية الأداء، مع التركيز على قدراته على التمييز التلقائي من خلال Tensors. ويغطي المكونات الأساسية لبناء الشبكات العصبية، بما في ذلك النماذج والطبقات والمحسنات ووظائف الخسارة، مع توضيح كيفية تنفيذ بنيات مثل الشبكات المتصلة بالكامل والشبكات التلافيفية والشبكات المتكررة. ويتطرق الفصل أيضًا إلى التعلم غير الخاضع للإشراف باستخدام أجهزة الترميز التلقائي ومفهوم التعلم التمثيلي، ويختتم بذكر موجز للشبكات التنافسية التوليدية (GANs) وقدرتها على تعلم توزيعات البيانات المعقدة.",
                         // Persian
-                        "فارسی": "",
-                    },
-                },
-                // 8
-                {
-                    "ChapterName": "Deep Dives",
-                    "ShortDescriptionAboutChapter": {
-                        // English
-                        "English": "",
-                        // German
-                        "Deutsch": "",
-                        // Chinese
-                        "中国人": "",
-                        // Russian
-                        "Русский": "",
-                        // French
-                        "Français": "",
-                        // Japanese
-                        "日本語": "",
-                        // Korean
-                        "한국인": "",
-                        // Spanish
-                        "Español": "",
-                        // Hindi
-                        "हिंदी": "",
-                        // Portuguese
-                        "Português": "",
-                        // Bengali
-                        "বাংলা": "",
-                        // Arabic
-                        "عَرَبِيّ": "",
-                        // Persian
-                        "فارسی": "",
+                        "فارسی": "این فصل PyTorch را به عنوان یک چارچوب شبکه عصبی با کارایی بالا معرفی می‌کند و بر قابلیت‌های تمایز خودکار آن از طریق Tensor تأکید می‌کند. این مؤلفه‌های ضروری ساخت شبکه‌های عصبی، از جمله مدل‌ها، لایه‌ها، بهینه‌سازها و توابع Loss را پوشش می‌دهد و در عین حال نحوه پیاده‌سازی معماری‌هایی مانند شبکه‌های کاملاً متصل، شبکه‌های کانولوشن و شبکه‌های تکراری را نشان می‌دهد. این فصل همچنین به یادگیری بدون نظارت با رمزگذارهای خودکار و مفهوم یادگیری بازنمایی می‌پردازد و با ذکر مختصری از شبکه‌های متخاصم مولد (GANs) و توانایی آن‌ها در یادگیری توزیع‌های پیچیده داده خاتمه می‌یابد.",
                     },
                 },
             ],
