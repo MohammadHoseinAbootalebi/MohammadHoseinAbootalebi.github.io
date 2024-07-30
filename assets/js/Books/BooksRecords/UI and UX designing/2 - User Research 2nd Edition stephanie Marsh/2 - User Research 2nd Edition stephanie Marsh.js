@@ -3029,6 +3029,11 @@ var neededProperties = {
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").innerHTML = '<i class="icon ion-arrow-left-b" style="padding-right: 7px;"></i>' + "&nbsp;" + BoldFirstHeireachyFont[newLanguage]["BackToGoTheBooksRows"];
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontFamily = BoldFirstHeireachyFont[newLanguage]["fontFamily"];
 
+        // Adding the all necessary links to the skill drop down menu items
+        document.querySelectorAll("#skill-name-drop-down-menu-item").forEach((item, index) => {
+            item.href = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(item.textContent) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
+        });
+
         // ---------------------------------------- ↑ Don't Make Me Think ↑ ----------------------------------------
 
         BaseResponsiveAdaptiveFunctionality();
