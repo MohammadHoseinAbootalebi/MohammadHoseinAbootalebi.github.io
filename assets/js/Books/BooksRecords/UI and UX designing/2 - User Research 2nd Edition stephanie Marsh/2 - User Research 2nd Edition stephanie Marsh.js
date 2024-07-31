@@ -264,6 +264,7 @@ var BoldFirstHeireachyFont = {
 // Documentation
 // This dictionary will be used for translating the chapter descriptions
 var user_research = {
+    "BookName": "User Research",
     "TableOfContents": [
         // 1
         {
@@ -1648,6 +1649,7 @@ function BaseResponsiveAdaptiveFunctionality() {
         // - > Left Columns
         document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
             item.style.width = "30vw";
+            item.style.textAlign = "end";
         });
         // - > - > Chapter titles
         document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
@@ -2973,7 +2975,7 @@ var neededProperties = {
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
         // - > Changing the web page title
-        document.title = "MHA - " + "Don't Make Me Think";
+        document.title = "MHA - " + user_research["BookName"];
 
         // - > Changing the translations
         document.querySelectorAll("#Chapter-information-short-description-paragraph").forEach((item, index) => {
@@ -3104,7 +3106,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Adding the all necessary links to the skill drop down menu items
     document.querySelectorAll("#skill-name-drop-down-menu-item").forEach((item, index) => {
-        item.href = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(item.textContent) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
+        var link = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(item.textContent) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);
+        item.setAttribute("href", link);
     });
 });
 
@@ -3149,8 +3152,7 @@ document.getElementById('DropDownValueShowingSkills').addEventListener('click', 
             dropdownToggle.textContent = this.textContent;
             neededProperties.CurrentSkillSelectedMethod = this.textContent;
 
-            ReadBooksListCallFunctionFunctionality(neededProperties.CurrentSkillSelectedMethod, neededProperties.CurrentLanguageSelectedMethod);
-            pagination_functionality(event);
+            window.location.href = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(item.textContent) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);;
         });
     });
 });

@@ -944,6 +944,7 @@ function BaseResponsiveAdaptiveFunctionality() {
         // - > Left Columns
         document.querySelectorAll("#left-column-tags-to-find").forEach((item, index) => {
             item.style.width = "30vw";
+            item.style.textAlign = "end";
         });
         // - > - > Chapter titles
         document.querySelectorAll("#Chapter-information-short-subjects").forEach(item => {
@@ -2445,8 +2446,7 @@ document.getElementById('DropDownValueShowingSkills').addEventListener('click', 
             dropdownToggle.textContent = this.textContent;
             neededProperties.CurrentSkillSelectedMethod = this.textContent;
 
-            ReadBooksListCallFunctionFunctionality(neededProperties.CurrentSkillSelectedMethod, neededProperties.CurrentLanguageSelectedMethod);
-            pagination_functionality(event);
+            window.location.href = "../../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(item.textContent) + "&language=" + encodeURIComponent(neededProperties.Currrent_Language_Selected);;
         });
     });
 });
