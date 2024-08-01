@@ -2410,6 +2410,8 @@ document.addEventListener("DOMContentLoaded", function () {
 window.addEventListener('resize', function () {
     // Calling the Responsive Function
     BaseResponsiveAdaptiveFunctionality();
+        
+    this.location.reload();
 });
 BaseResponsiveAdaptiveFunctionality();
 

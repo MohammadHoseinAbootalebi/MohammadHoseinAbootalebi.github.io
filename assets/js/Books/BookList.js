@@ -3808,7 +3808,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "Flutter ابزار UI گوگل برای ایجاد برنامه های زیبا و بومی برای موبایل، دسکتاپ و وب از یک پایگاه کد دارت است. در این کتاب به طور مفصل به زبان برنامه نویسی دارت و چارچوب فلاتر می پردازیم.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/Flutter Developing/1 - Flutter Complete Reference/1 - Flutter Complete Reference.html",
         },
         // Flutter Apprentice
         {
@@ -13254,7 +13254,7 @@ var neededProperties = {
 
         // First View
         // - > Top Indicator
-        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURI(newLanguage);
+        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURI(newLanguage);
         // - > Intro Skill Heading
         document.getElementById('first-view-skill-name-heading-introduction').textContent = BoldFirstHeireachyFont[newLanguage]['FirstViewIntroductionHeadingWhichSkillIsSelected'][this.Currrent_Skill_Selected];
         document.getElementById('first-view-skill-name-heading-introduction').style.fontFamily = BoldFirstHeireachyFont[newLanguage]['fontFamily'];
@@ -13344,7 +13344,7 @@ var neededProperties = {
 
         // First View
         // - > Top Indicator - href or Link
-        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties.Currrent_Language_Selected);
+        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties.Currrent_Language_Selected);
         // - > Top Indicator - Text Shower
         document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').textContent = newSkill;
         // - > Intro Skill Heading
