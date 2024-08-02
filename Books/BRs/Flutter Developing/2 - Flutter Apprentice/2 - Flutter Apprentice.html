@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika&amp;display=swap">
+    <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../../../../assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="../../../../assets/css/Bold-BS4-Animated-Back-To-Top.css">
     <link rel="stylesheet" href="../../../../assets/css/Detail%20Skills%20Page%20-%20Second%20Page/Animated-Scroll-Down-Mouse.css">
     <link rel="stylesheet" href="../../../../assets/css/Detail%20Skills%20Page%20-%20Second%20Page/Smooth-Drop-Down.css">
@@ -36,11 +38,326 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md bg-body shadow-lg py-3" id="top-navigation-bar-individual-bar" style="padding-left: 50px;width: 100%;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="../../../../index.html"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgba(13,110,253,0);"><img src="../../../../assets/img/Logo.svg" width="46" height="22" style="margin-left: 70%;"><img src="../../../../assets/img/Name%20Logo.svg" width="93" height="48" style="margin-left: 30%;"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" id="navbar-toggle-button" style="border-color: rgba(0,0,0,0);background: #000000;"><span class="visually-hidden">Toggle navigation</span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-list text-center text-primary d-block" style="--bs-primary: #FCA311;--bs-primary-rgb: 252,163,17;font-weight: bold;">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
+                </svg></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="margin-left: 60px;">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item" id="navigation-top-bar-home-link-to-go-to-the-home-page"><a class="nav-link active" id="Home-button-link-to-go-to-the-first-pagea" href="../../../../index.html" style="font-family: 'Lilita One', serif;color: #000000;">Home</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item dropdown" id="Skills-Drop-Down-top-nav-bar" title="Change Skill" style="--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;"><a class="dropdown-toggle nav-link d-xxl-flex justify-content-xxl-center align-items-xxl-center" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="DropDownValueShowingSkills" href="#" style="font-family: 'Lilita One', serif;color: #fca311;margin-left: 0px;">UI &amp; UX Designer</a>
+                        <div class="dropdown-menu shadow-lg" id="skillssss-drop-down-opened-to-style" style="border-color: rgba(20,114,208,0);border-radius: 15px;background: #ffffff;margin-bottom: 10px;"><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);">UI &amp; UX Designer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;">Flutter Developer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Full Stack Developer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Android Developer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">AI Engineer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Industrial Designer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Self-Driving Automobile Engineer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Mechanical Engineer</a></div>
+                    </li>
+                    <li class="nav-item dropdown justify-content-xxl-center align-items-xxl-center" id="Main-Intro-language-individual-skills-drop-down-change-languages" title="Change Language" style="--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;"><a class="dropdown-toggle nav-link d-flex d-xxl-flex align-items-center justify-content-xxl-center align-items-xxl-center" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="ForToggling" style="font-family: 'Lilita One', serif;color: rgb(0,0,0);margin-left: 0px;" href="#"><span class="d-flex d-xxl-flex align-items-center align-items-xxl-center"><i class="material-icons d-xxl-flex justify-content-xxl-center align-items-xxl-center">language</i>English</span></a>
+                        <div class="dropdown-menu shadow-lg" id="languagesssss-drop-down-menu-items" style="border-color: rgba(20,114,208,0);border-radius: 15px;background: #ffffff;margin-bottom: 10px;"><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);">English</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;max-width: 0px;">Deutsch</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">中国人</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Русский</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Français</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">日本語</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">한국인</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Español</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">हिंदी</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Português</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">বাংলা</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">عَرَبِيّ</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">فارسی</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" id="download-my-resume-pdf-id-tag-button-link" href="#" style="font-family: 'Lilita One', serif;color: rgb(252,163,17);">Download My Resume</a></li>
+                </ul><a href="#" style="background: url(&quot;../../../../assets/img/Instagram%20Icon.svg&quot;);"></a>
+                <hr class="d-xxl-flex align-items-xxl-center visually-hidden vr" style="margin-right: 0.1%;padding-right: 0.25%;margin-top: 0px;margin-bottom: 0px;border-radius: 300px;background: #adadad;height: 0%;padding-bottom: 3%;padding-top: 1%;"><a href="#end-section-of-page"><button class="btn btn-primary" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" id="contact-me-nav-bar" type="button" style="background: rgb(0,0,0);border-radius: 10px;font-family: 'Lilita One', serif;font-size: 14px;margin-left: 0px;" title="My Contact Information" data-bs-target="&quot;end-section-of-page&quot;">Contact Me</button></a>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex d-xxl-flex align-items-center align-items-sm-center align-items-md-center align-items-lg-center align-items-xl-center justify-content-xxl-start align-items-xxl-center" id="top-indicatotor-div-to-show-which-skill-is-selected" style="background: linear-gradient(#ffffff, white);height: 73px;width: 100%;"><span style="font-family: 'Lilita One', serif;"><a class="d-flex align-items-center" id="link-button-to-go-the-individual-skill-page-top-indicatotor" href="" style="color: rgb(0,0,0);width: auto;">Flutter Developer</a></span><span class="d-inline-flex align-items-center align-items-sm-center align-items-md-center align-items-lg-center align-items-xl-center align-items-xxl-center" style="width: auto;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-caret-right-fill d-flex align-items-center" id="right-arrow-book-navigation-bar-icon" style="font-size: 20px;width: auto;">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            </svg><a id="Going-to-the-books-row-table" href="../../DetailScreen/DetailSkillsIndividuals.html?direction=UI%20%26%20UX%20Designer&amp;language=English" style="text-align: right;color: rgb(0,0,0);font-family: 'Lilita One', serif;width: auto;">Books</a></span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-caret-right-fill d-flex align-items-center" id="right-arrow-book-navigation-bar-icon" style="font-size: 20px;">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+        </svg><span class="d-flex align-items-center" id="Books-top-navigation-just-for-containingg" style="font-family: 'Lilita One', serif;color: rgb(252,163,17);width: auto;">Flutter Apprentice</span></div>
+    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center justify-content-xxl-center align-items-xxl-center" id="book-image-cover-div-element-container-of-book-cover" style="height: 100vh;background: #ffffff;"><img id="book-image-cover-detail-cover" src="../../../../assets/img/Book%20Covers/Flutter%20Development/Flutter_Apprentice_Third_Edition_Learn_to_Build_Cross_Platform_Apps.webp" style="width: auto;height: 80vh;border-radius: 30px;box-shadow: 0px 0px 17px 20px rgba(0,0,0,0.2);"></div><a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image: url(&quot;../../../../assets/img/cd-top-arrow.svg&quot;);border-radius: 100vw;" href="#0">Top</a>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Book Name:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="short-description-and-some-numbers" style="font-size: 30px;font-family: Roboto, sans-serif;">Flutter Apprentice</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Author Name:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="short-description-and-some-numbers" style="font-size: 30px;font-family: Roboto, sans-serif;">Mike Katz, Kevin D Moore, Vincent Ngo</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Edition Number:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="short-description-and-some-numbers" style="font-size: 30px;font-family: Roboto, sans-serif;">3<sup>rd</sup></small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Publisher Name:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="short-description-and-some-numbers" style="font-size: 30px;font-family: Roboto, sans-serif;">Raywenderlich</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">ISBN Number:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="short-description-and-some-numbers" style="font-size: 30px;font-family: Roboto, sans-serif;">978 1 9503 2574 0</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Year Number:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="short-description-and-some-numbers" style="font-size: 30px;font-family: Roboto, sans-serif;">2022</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Page Number:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="short-description-and-some-numbers" style="font-size: 30px;font-family: Roboto, sans-serif;">660</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Table of Contents:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="information-information-7" style="font-size: 30px;font-family: Roboto, sans-serif;">&nbsp; &nbsp; &nbsp;</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 1:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Getting Started</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">This chapter introduces Flutter as a versatile toolkit for building cross-platform apps using Dart. It guides readers through setting up the development environment, understanding Flutter architecture layers, and utilizing Flutter Doctor for managing dependencies. The chapter emphasizes the ease of app development with Flutter's hot reload feature and highlights its suitability for both new and experienced developers. It encourages further exploration of official documentation and community resources for comprehensive learning.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 2:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Hello, Flutter</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">In this chapter, readers are guided through the process of building a basic Flutter app from scratch. The chapter introduces popular widgets such as ListView and Slider, and culminates in the creation of a lightweight recipe app that features a hard-coded list of recipes. Additionally, it provides instructions on setting up a new Flutter project using the flutter command in the terminal.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 3:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Basic Widgets</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">In this chapter, the focus is on basic widgets in Flutter, which are essential for structuring an app. The chapter categorizes these widgets into three main types: those used for structure, information display, and positioning. It provides a practical guide for building an app called Fooderlich, specifically through the creation of various recipe cards. Additionally, readers are encouraged to download the project from the book's materials repository, resolve any dependency issues, and run the starter project to observe a basic layout that includes an app bar and text.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 4:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Understanding Widgets</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">In this chapter, the focus is on understanding widgets in Flutter. Widgets are the fundamental building blocks of the user interface, akin to Legos, allowing for the creation of dynamic UI layouts. The chapter delves into widget theory, exploring different types of widgets, widget rendering, and the widget lifecycle. It emphasizes the importance of maintaining widget structure for performance optimization, utilizing tools like the Flutter Inspector for debugging and experimenting with widget trees. The chapter also introduces Stateful Widgets for managing dynamic UI states and highlights the use of Inherited Widgets to access state information from parent elements in the widget hierarchy.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 5:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Scrollable Widgets</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">This chapter delves into Scrollable Widgets, focusing on ListView, GridView, and nested scroll views. The chapter provides a comprehensive guide on building scrollable content, including setting up ListView, creating Explore and Recipes screens, and implementing custom widgets. Key concepts covered include scroll direction, primary property, physics, FutureBuilder usage, and scroll control. Practical examples and resources are provided to aid in further exploration of Flutter development, making it a valuable resource for mastering scrollable UI elements in Flutter apps.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 6:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Interactive Widgets</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">In this chapter, interactive widgets are explored to enhance user engagement and input collection in app development. The chapter covers creating gesture-based widgets, time and date pickers, input and selection widgets, and dismissable widgets. The focus is on building the 'To Buy' tab in the Fooderlich app, allowing users to create, modify, and check off grocery list items. The chapter also introduces the Provider package for state management and emphasizes preserving state across different tabs for a seamless user experience.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 7:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Routes &amp; Navigation</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">This chapter delves into navigation concepts in Flutter, comparing the imperative style of Navigator 1.0 with the declarative approach of the Router API. The chapter introduces GoRouter as a wrapper around the Router API, simplifying navigation management. It covers handling routes, error pages, and redirection, showcasing a UI flow from login to webview screens. The key takeaway emphasizes the transition from imperative to declarative navigation for better control and organization in app development.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 8:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Deep Links &amp; Web URLs</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">This chapter emphasizes the significance of deep linking for user engagement and marketing in mobile applications. It discusses the use of URI schemes and web URLs for redirecting users to specific parts of the app. The chapter delves into the implementation of deep links on iOS, Android, and web platforms, highlighting the role of RouteInformationProvider, RouteInformationParser, and GoRouter in managing deep linking effectively. Overall, the chapter provides insights on how to leverage deep linking to enhance user experience and drive user engagement in Flutter applications.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 9:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Handling Shared Preferences</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">Learn how to utilize the shared_preferences plugin in Flutter to save essential data like selected tabs and cached search items efficiently. The chapter guides you through building an app with three tabs for Recipes, Bookmarks, and Groceries, demonstrating how to save and retrieve objects using shared preferences. By understanding the basics of shared preferences and asynchronous operations, you can enhance user experience by persisting simple data types securely while preparing for more advanced data handling techniques in future chapters.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 10:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Serialization With JSON</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">This chapter delves into the serialization of JSON data into model classes in Flutter using packages like json_serializable and json_annotation. The chapter emphasizes the importance of automated code generation for handling complex model classes and maintaining code consistency. It guides readers on marking classes with annotations, generating helper classes for JSON conversion, and integrating model classes into existing projects. By the end of the chapter, readers gain insights into the benefits of automated JSON serialization, simplifying the process of parsing JSON data in Flutter applications.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 11:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Networking in Flutter</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">In this chapter, you delve into networking in Flutter by learning to sign up for the Edamam Recipe API, retrieve JSON data, and utilize the HTTP package for network requests and JSON parsing. You create a Dart class to manage API connections, fetch recipe data, and build a user interface with recipe cards and a recipe list. Asynchronous data loading is handled using FutureBuilder and GridView widgets, while exploring key concepts such as HTTP package methods, json.decode, FutureBuilder, and GridView. The chapter concludes by introducing the Chopper package for streamlined internet data handling, providing a comprehensive understanding of networking in Flutter.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 12:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Using a Network Library</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">This chapter introduces the Chopper package in Flutter for efficient networking, offering simplified code development and organization. It covers setting up Chopper and logging packages, creating generic response classes for server responses, defining API calls, and utilizing converters and interceptors for request and response manipulation. The chapter emphasizes the importance of logging for monitoring requests and responses. Overall, Chopper streamlines network calls, enhances code modularity, and facilitates logging for improved network communication in Flutter applications.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 13:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Managing State</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">The chapter delves into the significance of state management in Flutter apps, highlighting the necessity of organizing code into manageable pieces to enhance maintainability and scalability. It introduces the Provider package as a key tool for state management and discusses the implementation of repositories and mock services for efficient data handling and testing. The chapter also touches on alternative state management libraries like Redux, BLoC, MobX, and Riverpod, providing a comprehensive overview of different approaches to managing app state. Additionally, it emphasizes the importance of clean architecture principles and communication between layers for effective state management in Flutter development.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 14:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Working With Streams</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">Dart streams in Flutter are likened to data flowing down a creek, sending events for listeners to grab. This chapter delves into using streams to update a recipe project for bookmarks and ingredients, emphasizing the use of StreamController and sink to create and manage streams. Key points include the asynchronous nature of streams, the importance of StreamBuilder for UI updates, and the implementation of an interface to switch between different services. Overall, the chapter highlights the power of streams in controlling data flow and updating user interfaces dynamically.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 15:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Saving Data With SQLite</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">The chapter focuses on persisting data using SQLite in Flutter. It introduces the use of the sqflite plugin and Moor library for database operations. The process involves creating tables, defining DAO classes, and implementing methods for data manipulation. The chapter emphasizes the importance of persisting data for app continuity and introduces reactive stream capabilities through the sqlbrite library. By leveraging SQLite databases, developers can insert, fetch, update, and remove structured data efficiently. The Moor library simplifies database operations by providing a Room-like approach for managing data persistence in Flutter applications. </small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 16:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Platform-Specific App Assets</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">This chapter focuses on customizing platform-specific app assets in Flutter projects. It covers setting app icons and launch screens for both Android and iOS platforms, emphasizing the importance of tailoring these elements to suit each platform's requirements. The chapter provides detailed instructions on optimizing app icons in Xcode for iOS, personalizing icons for Android, and enhancing launch screen aesthetics with labels and constraints. Overall, the chapter highlights the significance of fine-tuning app assets to create a visually appealing and cohesive user experience across different platforms. </small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 17:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Build &amp; Release an Android App</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">Learn how to prepare and release your Android app on the Google Play Store in this chapter. The process involves creating a signed release build, updating the manifest file, and setting up the necessary configurations. You will also generate a signing key for app security, upload the app bundle to the Play Store, provide app details and assets, and invite testers for internal testing. By following these steps, you can successfully launch your app for distribution and testing on Android devices. </small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 18:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Build &amp; Release an iOS App</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">In this chapter, you will learn how to distribute your Flutter app's iOS version using Xcode and TestFlight. Unlike Android, iOS apps cannot be sideloaded and must go through App Store Connect for distribution. You need a Mac with Xcode and a valid Apple Developer Program account. Key steps include configuring the Apple Developer Portal, setting up App Store Connect, archiving the project in Xcode, and using TestFlight for testing. Additionally, you'll need to create an app identifier, configure app signing, and submit the app for review on the App Store. Following best practices and resources for further learning are also provided. </small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Chapter 19:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small id="Chapter-information-short-subjects" style="font-size: 30px;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Firebase Cloud Firestore</small><small id="Chapter-information-short-description-paragraph" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);padding-top: 10px;">Firebase Cloud Firestore simplifies database management for Flutter apps by providing a scalable cloud storage solution. By integrating Firebase functionalities like authentication and data access objects (DAO), developers can streamline app development and enhance user experience. The chapter covers setting up a Firebase project, connecting to Cloud Firestore, querying data, and implementing real-time updates. Through practical examples like creating an instant messaging app called RayChat, developers learn how to leverage Firebase features efficiently and effectively in their Flutter applications. </small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">Description:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="information-information-34" style="font-size: 30px;font-family: Roboto, sans-serif;">&nbsp; &nbsp; &nbsp;</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="Chapter-information-short-description-paragraph-end-discription" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);">Flutter Apprentice is a comprehensive guide for anyone looking to learn and master Flutter, a popular open-source framework for building mobile applications. The book covers everything from the basics of setting up a Flutter project to more advanced topics such as state management and working with external APIs. Readers will gain a solid understanding of Flutter architecture and best practices, making them well-equipped to develop high-quality, cross-platform mobile apps.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="Chapter-information-short-description-paragraph-end-discription" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);">One of the key advantages of Flutter Apprentice is its hands-on approach to learning. The book includes numerous coding exercises and projects that allow readers to practice their skills and build real-world applications. By working through these exercises, readers will gain practical experience with Flutter development and be able to apply their knowledge to their own projects.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center" id="left-column-tags-to-find"><small id="information-tag" style="font-size: 30px;font-family: 'Lilita One', serif;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="Chapter-information-short-description-paragraph-end-discription" style="font-size: 30px;font-family: Roboto, sans-serif;color: rgb(130,130,130);">In addition to its practical approach, Flutter Apprentice offers a wealth of tips, tricks, and best practices that help readers avoid common pitfalls and improve their code quality. The book also covers important topics such as testing, debugging, and performance optimization, ensuring that readers have a well-rounded understanding of Flutter development. Whether you're a complete beginner or an experienced developer looking to expand your skills, Flutter Apprentice is a valuable resource for mastering Flutter and building powerful mobile applications.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row d-xxl-flex">
+                <div class="col-xxl-3" id="left-column-tags-to-find"><small id="please-request-the-pdf-of-this-book-for-verification-1" style="font-size: 30px;font-family: 'Lilita One', serif;color: rgb(154,154,154);">&nbsp; &nbsp; &nbsp; &nbsp;</small></div>
+                <div class="col-md-6 col-xxl-9 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" id="please-request-the-pdf-of-this-book-for-verification" style="font-size: 30px;font-family: 'Lilita One', serif;color: rgb(154,154,154);" title="Please ask for the PDF of this book on my contact platforms for verification.">Please request the PDF of this book for verification.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" id="div-row-section-each-text-container" style="height: auto;background: #ffffff;padding-bottom: 30px;padding-left: 20vh;"><a id="Back-button-to-go-to-the-books-row-list-table-of-contents-linkkkkkkkks" href="#end-section-of-page"><button class="btn btn-primary d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="Back-button-to-go-to-the-books-row-list-table-of-contents" type="button" style="background: #fca311;border-radius: 6px;font-family: 'Lilita One', serif;font-size: 14px;margin-left: 0px;width: 100px;border-color: rgba(255,255,255,0);color: rgb(0,0,0);"><i class="icon ion-arrow-left-b" style="padding-right: 7px;"></i>&nbsp;Back</button></a></div>
+    <section class="text-white d-xxl-flex" id="end-section-of-page" style="padding-bottom: 0px;background: linear-gradient(black, #000000);border-radius: -1px;">
+        <div class="container-fluid" style="padding-left: 0px;padding-right: 0px;height: 100vh;border-radius: 0px;">
+            <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center" id="all-rights-reserved-copy-right-symbol" style="background: url(&quot;../../../../assets/img/End%20Main%20Page%20-%20BC.svg&quot;) bottom left / 90vw no-repeat, linear-gradient(black, #000000);height: 100vh;padding-left: 0px;border-radius: -7px;">
+                <div class="row d-inline" style="width: 80vw;height: 50vh;">
+                    <div class="col d-flex d-xxl-flex justify-content-center justify-content-xxl-center align-items-xxl-center">
+                        <h1 class="display-1" id="let-s-talk-third-section-the-contact-informations" style="font-family: 'Lilita One', serif;font-size: 10vmin;">Let's Talk!</h1>
+                    </div>
+                    <div class="col d-flex d-xxl-flex justify-content-center justify-content-xxl-center">
+                        <div class="row">
+                            <div class="col"><a class="btn btn-primary btn-lg me-2" role="button" id="fourth-view-talk-to-me-button-contact-informations" href="mailto:mh.aboutalebi.business@gmail.com" style="font-family: 'Lilita One', serif;background: rgba(252,163,17,0);color: rgb(252,163,17);border-color: rgba(252,163,17,0);padding-left: 0px;font-size: 2.5vmin;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none" style="color: rgb(252,163,17);font-size: 150%;">
+
+                                        <path d="M2.00333 5.88355L9.99995 9.88186L17.9967 5.8835C17.9363 4.83315 17.0655 4 16 4H4C2.93452 4 2.06363 4.83318 2.00333 5.88355Z" fill="currentColor"></path>
+                                        <path d="M18 8.1179L9.99995 12.1179L2 8.11796V14C2 15.1046 2.89543 16 4 16H16C17.1046 16 18 15.1046 18 14V8.1179Z" fill="currentColor"></path>
+                                    </svg>&nbsp; Email&nbsp;&nbsp;</a></div>
+                        </div>
+                    </div>
+                    <div class="col d-flex d-xxl-flex justify-content-center justify-content-xxl-center">
+                        <div class="row">
+                            <div class="col"><a class="btn btn-primary btn-lg me-2" role="button" id="fourth-view-talk-to-me-button-contact-informations" href="https://t.me/MHAboutalebi" style="font-family: 'Lilita One', serif;background: rgba(252,163,17,0);color: rgb(252,163,17);border-color: rgba(252,163,17,0);padding-left: 0px;font-size: 2.5vmin;" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telegram" style="color: rgb(252,163,17);font-size: 150%;">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"></path>
+                                    </svg>&nbsp; Telegram</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-xxl-flex align-items-xxl-end">
+                    <div class="col d-flex d-xxl-flex justify-content-center align-items-center align-items-xxl-center" style="height: 100%;">
+                        <p class="text-center d-flex justify-content-center" id="all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved" style="font-family: 'Roboto Condensed', sans-serif;color: rgba(255,255,255,0.5);"><span style="color: rgba(255, 255, 255, 0.5);">© 2024 Muhammad Husain Aboutalebi. All rights reserved.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="../../../../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../../../assets/js/bs-init.js"></script>
     <script src="../../../../assets/js/Bold-BS4-Animated-Back-To-Top-backtotop.js"></script>
-    <script src="../../../../assets/js/Books/BooksRecords/Flutter%20Developing/1%20-%20Flutter%20Complete%20Reference/1%20-%20Flutter%20Complete%20Reference.js"></script>
     <script src="../../../../assets/js/Books/BooksRecords/Flutter%20Developing/2%20-%20Flutter%20Apprentice/2%20-%20Flutter%20Apprentice.js"></script>
+    <script src="../../../../assets/js/Books/BooksRecords/Full%20Stack%20Development/1%20-%20Visual%20C%20Sharp%20How%20to%20Program/1%20-%20Visual%20C%20Sharp%20How%20to%20Program.js"></script>
     <script src="../../../../assets/js/Others/Typewriter-Effect---BS5-typingAnimation.js"></script>
 </body>
 
