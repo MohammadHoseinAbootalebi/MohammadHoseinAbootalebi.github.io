@@ -2266,6 +2266,18 @@ var neededProperties = {
         // Download My Resume Link
         document.getElementById("download-my-resume-pdf-id-tag-button-link").textContent = BoldFirstHeireachyFont[newLanguage]["DownloadMyResumeButtonTopNavigationBar"];
         document.getElementById("download-my-resume-pdf-id-tag-button-link").style.fontFamily = BoldFirstHeireachyFont[newLanguage]["fontFamily"];
+            
+        // Skill Drop Down Text To show Selected
+        // Get the dropdown toggle button by its ID
+        var dropdownToggle = document.getElementById('ForToggling');
+
+        // Update the dropdown toggle button text with the clicked item's text
+        dropdownToggle.textContent = newLanguage;
+
+        // Stylize the current language show link
+        dropdownToggle.style.fontFamily = BoldFirstHeireachyFont[newLanguage]["fontFamily"];
+
+        stylingCurrentSelectedOptionInDropDown('languagesssss-drop-down-menu-items', newLanguage);
 
         // ---------------------------------------- ↓ Don't Make Me Think ↓ ----------------------------------------
 
@@ -2349,6 +2361,18 @@ var neededProperties = {
 
         // Saving the current Skill
         this.Currrent_Skill_Selected = newSkill;
+            
+        // Current Skill Book Parent Indicator
+        document.getElementById("link-button-to-go-the-individual-skill-page-top-indicatotor").textContent = newSkill;
+
+        // Skill Drop Down Text To show Selected
+        // Get the dropdown toggle button by its ID
+        var dropdownToggle = document.getElementById('DropDownValueShowingSkills');
+
+        // Update the dropdown toggle button text with the clicked item's text
+        dropdownToggle.textContent = newSkill;
+
+        stylingCurrentSelectedOptionInDropDown('skillssss-drop-down-opened-to-style', newSkill);
 
     },
 

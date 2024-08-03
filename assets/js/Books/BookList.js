@@ -5419,7 +5419,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "برای تمام دوره های پایه تا متوسط ​​برنامه نویسی ویژوال سی شارپ. مقدمه ای آموزنده، جذاب، چالش برانگیز و سرگرم کننده برای ویژوال سی شارپ که توسط مدرسان برنامه نویسی مشهور جهان پل و هاروی دیتل ایجاد شده است، ویژوال سی شارپ چگونه برنامه ریزی کنیم، ویرایش ششم دانش آموزان را با دنیای توسعه دسکتاپ، موبایل و برنامه های وب با برنامه نویسی Visual C مایکروسافت آشنا می کند. زبان",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/Full Stack Development/1 - Visual C Sharp How to Program/1 - Visual C Sharp How to Program.html",
         },
         // Head First Git
         {
