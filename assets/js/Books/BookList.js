@@ -5807,7 +5807,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "بسیاری از افرادی که از Git استفاده می کنند به دستور العمل ها - دستورات اصلی کپی پیست - تکیه می کنند بدون اینکه بفهمند این سیستم کنترل نسخه واقعاً چگونه کار می کند. اما اگر در تنگنا قرار گرفتید چه کار می کنید؟ شما نمی توانید به سادگی آن را بال کنید. با این راهنمای عملی منحصربفرد، روش‌های ارزشمندی را برای استفاده از Git در موقعیت‌های مختلف یاد خواهید گرفت.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/Full Stack Development/2 - Head First Git/2 - Head First Git.html",
         },
         // Learn Django in 24 Hours
         {
@@ -5953,7 +5953,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "ChapterName": "Django",
                     "ShortDescriptionAboutChapter": {
                         // English
-                        "English": "Thi chapter covers the essentials of using Django, a high-level Python web framework for web development. It outlines the installation process, including checking for pip and creating a new app within a project. The chapter explains the structure of Django applications, including models for database tables, views for handling requests, and URLs for routing, while also detailing how to create forms, manage static files, and implement email functionality. Overall, it provides a comprehensive guide to setting up and developing a functional web application using Django.",
+                        "English": "This chapter covers the essentials of using Django, a high-level Python web framework for web development. It outlines the installation process, including checking for pip and creating a new app within a project. The chapter explains the structure of Django applications, including models for database tables, views for handling requests, and URLs for routing, while also detailing how to create forms, manage static files, and implement email functionality. Overall, it provides a comprehensive guide to setting up and developing a functional web application using Django.",
                         // German
                         "Deutsch": "In diesem Kapitel werden die Grundlagen der Verwendung von Django behandelt, einem hochrangigen Python-Webframework für die Webentwicklung. Es beschreibt den Installationsprozess, einschließlich der Überprüfung auf Pip und der Erstellung einer neuen App innerhalb eines Projekts. Das Kapitel erläutert die Struktur von Django-Anwendungen, einschließlich Modelle für Datenbanktabellen, Ansichten zur Bearbeitung von Anfragen und URLs für das Routing, und beschreibt ausführlich, wie Formulare erstellt, statische Dateien verwaltet und E-Mail-Funktionen implementiert werden. Insgesamt bietet es eine umfassende Anleitung zum Einrichten und Entwickeln einer funktionalen Webanwendung mit Django.",
                         // Chinese
@@ -6070,7 +6070,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "پس از خواندن این کتاب، زبان آموزان اعتماد به نفس پیدا می کنند تا پروژه های جنگو خود را از ابتدا شروع کنند. آنها درک اساسی از توسعه برنامه های کاربردی وب و توانایی استفاده موثر از ویژگی های جنگو خواهند داشت. علاوه بر این، تأکید کتاب بر رویکرد عملی به این معنی است که خوانندگان نه تنها جنبه‌های نظری را یاد می‌گیرند، بلکه آنچه را که آموخته‌اند در سناریوهای دنیای واقعی نیز به کار می‌گیرند و در نتیجه دانش و مهارت‌های خود را تقویت می‌کنند.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Learn_Django_In_24_Hours.webp",
+            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Django.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "This book is a BEGINNER’s guide to building a web application using HTML, CSS, Javascript, Python and Django Web framework. I have explained all the topics in a simple, concise and easy language with thorough examples, codes and have tried my best to make the learning process fun, informative and interesting at the same time. If you want to gain an in-depth understanding, it is quite a simple book for the job.",
@@ -6099,7 +6099,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "این کتاب یک راهنمای مبتدی برای ساختن یک برنامه وب با استفاده از HTML، CSS، جاوا اسکریپت، پایتون و چارچوب وب جنگو است. تمام مباحث را به زبانی ساده، مختصر و آسان با مثال‌ها، کدهای کامل توضیح داده‌ام و تمام تلاش خود را کرده‌ام که فرآیند یادگیری را سرگرم‌کننده، آموزنده و در عین حال جالب کنم. اگر می خواهید درک عمیقی به دست آورید، کتاب بسیار ساده ای برای این کار است.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/Full Stack Development/3 - Learn Django in 24 Hours/3 - Learn Django in 24 Hours.html",
         },
         // Django for Beginners
         {
@@ -6743,7 +6743,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "راهنمای گام به گام ساخت برنامه های وب با پایتون و جنگو 4.0. ایجاد، آزمایش و استقرار 5 وب سایت به تدریج پیچیده تر از جمله یک برنامه پیام برد، یک برنامه وبلاگ با حساب های کاربری، و یک برنامه روزنامه قوی با نظرات خواننده و یک جریان کامل ثبت نام کاربر. در طول مسیر، ویژگی‌های اصلی جنگو و بهترین روش‌ها را در مورد مدل‌ها، نماها، قالب‌ها، آدرس‌های اینترنتی، مدل‌های کاربر سفارشی، مجوزها، مجوزها، ثبت نام کاربر، آزمایش و استقرار خواهید آموخت.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/Full Stack Development/4 - Django for Beginners/4 - Django for Beginners.html",
         },
     ],
     // Android Developer
