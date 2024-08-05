@@ -7106,7 +7106,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "با ظهور مجدد شبکه های عصبی در دهه 2010، یادگیری عمیق برای متخصصان یادگیری ماشین و حتی بسیاری از مهندسان نرم افزار ضروری شده است. این کتاب مقدمه ای جامع برای دانشمندان داده و مهندسان نرم افزار با تجربه یادگیری ماشین ارائه می دهد. شما با اصول یادگیری عمیق شروع می‌کنید و به سرعت به جزئیات معماری‌های پیشرفته مهم می‌روید و همه چیز را از ابتدا در طول مسیر پیاده‌سازی می‌کنید. نویسنده ست ویدمن به شما نشان می دهد که چگونه شبکه های عصبی با استفاده از رویکرد اصول اولیه کار می کنند. شما یاد خواهید گرفت که چگونه شبکه های عصبی چندلایه، شبکه های عصبی کانولوشن و شبکه های عصبی مکرر را از پایه اعمال کنید. با درک کامل نحوه عملکرد شبکه های عصبی از نظر ریاضی، محاسباتی و مفهومی، برای موفقیت در تمام پروژه های یادگیری عمیق آینده آماده خواهید شد.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/AI Engineering/1 - Deep Learning from Scratch/1 - Deep Learning from Scratch.html",
         },
     ],
     // Industrial Designer
@@ -7914,7 +7914,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "SOLIDWORKS 2020 Basic Tools اولین کتاب از مجموعه سه قسمتی است. کاربران جدید را با رابط SOLIDWORKS، ابزار SOLIDWORKS و تکنیک های مدل سازی اولیه آشنا می کند. درک قوی از SOLIDWORKS برای شما فراهم می کند و ایجاد قطعات، مجموعه ها و نقشه ها را پوشش می دهد. هر درس و تمرین در این کتاب بر اساس پروژه های دنیای واقعی ایجاد شده است. هر یک از این پروژه ها به مراحل آسان و قابل درک تقسیم شده اند. علاوه بر این، در پایان هر فصل پرسشنامه‌های خودآزمایی وجود دارد تا اطمینان حاصل شود که قبل از رفتن به درس‌های پیشرفته‌تر، دانش کافی از هر بخش به دست آورده‌اید. این کتاب این رویکرد را دارد که برای درک SOLIDWORKS، درون و بیرون، باید همه چیز را از ابتدا ایجاد کنید و آن را گام به گام پیش ببرید.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/Industrial Designing/1 - SOLIDWORKS 2020 Basic Tools/1 - SOLIDWORKS 2020 Basic Tools.html",
         },
     ],
     // Self-Driving Automobile Engineer
@@ -8433,7 +8433,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "این کتاب که با اصول اولیه ماشین‌های خودران (SDC) شروع می‌شود، شما را با تکنیک‌های شبکه عصبی عمیق مورد نیاز برای راه‌اندازی و راه‌اندازی با ساخت وسیله نقلیه خودران آشنا می‌کند. هنگامی که با اصول اولیه راحت شدید، به تکنیک های پیشرفته بینایی کامپیوتری می پردازید و یاد می گیرید که چگونه از روش های یادگیری عمیق برای انجام انواع وظایف بینایی کامپیوتری مانند یافتن خطوط خطوط، بهبود طبقه بندی تصاویر و غیره استفاده کنید. شما ساختار اساسی و عملکرد یک مدل تقسیم بندی معنایی را بررسی خواهید کرد و با تشخیص خودروها با استفاده از تقسیم بندی معنایی مقابله خواهید کرد. این کتاب همچنین کاربردهای پیشرفته‌ای مانند شبیه‌سازی رفتار و تشخیص وسیله نقلیه با استفاده از OpenCV، یادگیری انتقال، و روش‌های یادگیری عمیق را برای آموزش SDCها برای تقلید از رانندگی انسان پوشش می‌دهد.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BooksRecords/UI and UX designing/1 - Don't make me think Steve Krug/1 - Don't make me think Steve Krug.html",
+            "DetailPageScreenToShowEachBookDetails": "BRs/SDA Engineering/1 - Applied Deep Learning and Computer Vision/1 - Applied Deep Learning and Computer Vision.html",
         },
     ],
     // Mechanical Engineer
