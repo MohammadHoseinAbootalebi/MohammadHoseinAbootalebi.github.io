@@ -2038,6 +2038,7 @@ var neededProperties = {
 
         document.getElementById('books-button-to-go-to-the-book-list').href = "../Books/BookList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
         document.getElementById("Passed-courses-go-to-passed-courses-link").href = "../Courses/CourseList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
+        document.getElementById("done-projects-to-go-to-the-done-projects").href = "../Projects/ProjectList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
 
         // -------------------------------------- ↑ Links ↑ --------------------------------------
     },
@@ -2209,6 +2210,7 @@ var neededProperties = {
 
         document.getElementById('books-button-to-go-to-the-book-list').href = "../Books/BookList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
         document.getElementById("Passed-courses-go-to-passed-courses-link").href = "../Courses/CourseList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
+        document.getElementById("done-projects-to-go-to-the-done-projects").href = "../Projects/ProjectList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
 
         // -------------------------------------- ↑ Links ↑ --------------------------------------
 
