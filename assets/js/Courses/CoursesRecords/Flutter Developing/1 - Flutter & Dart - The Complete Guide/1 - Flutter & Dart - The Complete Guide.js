@@ -381,6 +381,10 @@ function BaseResponsiveAdaptiveFunctionality() {
             }
         });
 
+        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("width", "300vw");
+        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("height", "auto");
+        document.getElementById("instructor-image-id-profile-to-beChanged").style.borderRadius = "500000000000px";
+
         // Back button link
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "10vw";
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.fontSize = "1.5vw";
@@ -1290,6 +1294,8 @@ function BaseResponsiveAdaptiveFunctionality() {
             }
         );
 
+        document.getElementById("Going-to-the-books-row-table").style.fontSize = "4vw";
+
         // ---------------------------------------- ↓ Flutter Complete Course - Maximilian Schwarzmüller ↓ ----------------------------------------
 
         // Image container
@@ -1355,8 +1361,15 @@ function BaseResponsiveAdaptiveFunctionality() {
             }
         });
 
-        
-        
+        // Video Section Title
+        document.querySelectorAll("#section-name-title-at-the-top-of-the-contents").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "4vw";
+        });
+        // Course Instructor Image
+        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("width", "200vw");
+        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("height", "auto");
+        document.getElementById("instructor-image-id-profile-to-beChanged").style.borderRadius = "500000000000px";
 
         // Back button link
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "30vw";
@@ -1415,6 +1428,8 @@ function BaseResponsiveAdaptiveFunctionality() {
                 item.style.fontSize = "3vw";
             }
         );
+
+        document.getElementById("Going-to-the-books-row-table").style.fontSize = "4vw";
 
         // ---------------------------------------- ↓ Flutter Complete Course - Maximilian Schwarzmüller ↓ ----------------------------------------
 
@@ -1481,8 +1496,15 @@ function BaseResponsiveAdaptiveFunctionality() {
             }
         });
 
-        
-        
+        // Video Section Title
+        document.querySelectorAll("#section-name-title-at-the-top-of-the-contents").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "5vw";
+        });
+        // Course Instructor Image
+        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("width", "200vw");
+        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("height", "auto");
+        document.getElementById("instructor-image-id-profile-to-beChanged").style.borderRadius = "500000000000px";
 
         // Back button link
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "30vw";
@@ -1598,7 +1620,7 @@ function BaseResponsiveAdaptiveFunctionality() {
         });
 
         // Course Instructor Image
-        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("width", "100vw");
+        document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("width", "150vw");
         document.getElementById("instructor-image-id-profile-to-beChanged").setAttribute("height", "auto");
         document.getElementById("instructor-image-id-profile-to-beChanged").style.borderRadius = "500000000000px";
 
@@ -1620,9 +1642,6 @@ function BaseResponsiveAdaptiveFunctionality() {
                 item.style.paddingRight = "0vw";
             }
         });
-
-        
-        
 
         // Back button link
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").style.width = "45vw";
