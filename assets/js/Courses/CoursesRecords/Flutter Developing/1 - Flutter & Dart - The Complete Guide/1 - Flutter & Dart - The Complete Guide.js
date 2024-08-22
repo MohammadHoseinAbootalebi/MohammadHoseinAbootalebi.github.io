@@ -1259,6 +1259,12 @@ function BaseResponsiveAdaptiveFunctionality() {
 
     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
 
+        // Video Section Title
+        document.querySelectorAll("#section-name-title-at-the-top-of-the-contents").forEach(item => {
+            // - > - > - > - > Font size
+            item.style.fontSize = "4vw";
+        });
+
         // Top Navigation Bar
         // > Class Name
         document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
