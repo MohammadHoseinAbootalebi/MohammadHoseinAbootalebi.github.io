@@ -45,29 +45,13 @@ a {
   }
 }
 
-/* Course Image */
-
-@media (min-width: 320px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
 /* Top Path Indicator */
 
-@media (min-width: 320px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 5vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
+/* Video Text Names */
 
 @media (min-width: 320px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
@@ -83,29 +67,11 @@ a {
   }
 }
 
-/* Course Image */
+/* Video Text Names */
 
 @media (min-width: 480px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
-/* Top Path Indicator */
-
-@media (min-width: 480px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 5vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
-
-@media (min-width: 480px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
@@ -125,29 +91,11 @@ a {
   }
 }
 
-/* Course Image */
+/* Video Text Names */
 
 @media (min-width: 600px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
-/* Top Path Indicator */
-
-@media (min-width: 600px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 5vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
-
-@media (min-width: 600px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
@@ -167,29 +115,11 @@ a {
   }
 }
 
-/* Course Image */
+/* Video Text Names */
 
 @media (min-width: 768px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
-/* Top Path Indicator */
-
-@media (min-width: 768px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 5vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
-
-@media (min-width: 768px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
@@ -209,29 +139,9 @@ a {
   }
 }
 
-/* Course Image */
-
 @media (min-width: 992px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
-/* Top Path Indicator */
-
-@media (min-width: 992px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 5vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
-
-@media (min-width: 992px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
@@ -253,36 +163,11 @@ a {
 
 /* Course Div Element */
 
-@media (min-width: 1200px) {
-  #book-image-cover-div-element-container-of-book-cover {
-    margin-top: 40px;
-    margin-bottom: 3vw;
-  }
-}
-
-/* Course Image */
+/* Video Text Names */
 
 @media (min-width: 1200px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
-/* Top Path Indicator */
-
-@media (min-width: 1200px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 10vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
-
-@media (min-width: 1200px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
@@ -298,29 +183,11 @@ a {
   }
 }
 
-/* Course Image */
+/* Video Text Names */
 
-@media (min-width: 1440px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
-/* Top Path Indicator */
-
-@media (min-width: 1440px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 10vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
-
-@media (min-width: 1440px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+@media (min-width: 1400px) {
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
@@ -340,33 +207,43 @@ a {
   }
 }
 
-/* Course Image */
+/* Video Text Nmaes */
 
 @media (min-width: 1600px) {
-  #book-image-cover-detail-cover {
-    width: 70vw !important;
-    height: auto !important;
-  }
-}
-
-/* Top Path Indicator */
-
-@media (min-width: 1600px) {
-  #top-indicatotor-div-to-show-which-skill-is-selected {
-    padding-top: 10vw !important;
-  }
-}
-
-/* Short Paragraph Texts */
-
-@media (min-width: 1600px) {
-  .paragraph-short-descriptions {
-    font-size: 1.5vw !important;
-    text-align: start !important;
+  .video-title-text-name-of-file {
+    font-size: 20px !important;
   }
 }
 
 /* -------------------- ↑ Min-width: 1600px ↑ -------------------- */
 
 /* -------------------- ↑ Extra Large Screens (Ultra-Wides) ↑ -------------------- */
+
+/* ---------------------- ↓ Non Media Query Style ↓ ---------------------- */
+
+.tags-intros {
+  font-size: 20px !important;
+}
+
+.section-name-title-at-the-top-of-the-contents {
+  font-size: 20px !important;
+}
+
+.short-description-and-some-numbers-texts {
+  font-size: 20px !important;
+}
+
+#book-image-cover-detail-cover {
+  width: 50vw !important;
+  height: auto !important;
+}
+
+#instructor-image-id-profile-to-beChanged {
+  width: 25vw !important;
+  height: auto !important;
+}
+
+.paragraph-short-descriptions {
+  font-size: 20px !important;
+}
 

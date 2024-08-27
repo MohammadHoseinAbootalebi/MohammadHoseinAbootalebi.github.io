@@ -1,0 +1,330 @@
+/* -------------------- ↓ Non Size Properties ↓ -------------------- */
+
+a {
+    text-decoration: none;
+}
+
+.show>.dropdown-menu {
+    max-height: 400px;
+    opacity: 1;
+    transform: scaleY(1);
+    visibility: visible;
+}
+
+.dropdown-menu {
+    max-height: 0;
+    display: block;
+    opacity: 0;
+    transform: scaleY(0);
+    visibility: hidden;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    transform-origin: top;
+    overflow: hidden;
+}
+
+.navbar-collapse {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.navbar-collapse.show {
+    opacity: 1;
+}
+
+/* -------------------- ↑ Non Size Properties ↑ -------------------- */
+
+/* -------------------- ↓ Mobile Devices (Portrait) ↓ -------------------- */
+
+/* -------------------- ↓ Min-width: 320px (Small Phones) ↓ -------------------- */
+
+@media (min-width: 320px) {
+    
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 8vw !important;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 5vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+
+/* -------------------- ↑ Min-width: 320px (Small Phones) ↑ -------------------- */
+
+/* -------------------- ↓ Min-width: 480px (Medium Phones) ↓ -------------------- */
+
+@media (min-width: 480px) {
+
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 4vw !important;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 5vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+/* -------------------- ↑ Min-width: 480px (Medium Phones) ↑ -------------------- */
+
+/* -------------------- ↑ Mobile Devices (Portrait) ↑ -------------------- */
+
+/* -------------------- ↓ Mobile Devices (Landscape) and Small Tablets ↓ -------------------- */
+
+/* -------------------- ↓ Min-width: 600px ↓ -------------------- */
+
+@media (min-width: 600px) {
+
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 5vw !important;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 5vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+/* -------------------- ↑ Min-width: 600px ↑ -------------------- */
+
+/* -------------------- ↑ Mobile Devices (Landscape) and Small Tablets ↑ -------------------- */
+
+/* -------------------- ↓ Tablets (Portrait) ↓ -------------------- */
+
+/* -------------------- ↓ Min-width: 768px ↓ -------------------- */
+
+@media (min-width: 768px) {
+
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 3vw !important;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 5vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+/* -------------------- ↑ Min-width: 768px ↑ -------------------- */
+
+/* -------------------- ↑ Tablets (Portrait) ↑ -------------------- */
+
+/* -------------------- ↓ Tablets (Landscape) and Small Laptops ↓ -------------------- */
+
+/* -------------------- ↓ Min-width: 992px ↓ -------------------- */
+
+@media (min-width: 992px) {
+
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 3vw !important;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 5vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+/* -------------------- ↑ Min-width: 992px ↑ -------------------- */
+
+/* -------------------- ↑ Tablets (Landscape) and Small Laptops ↑ -------------------- */
+
+/* -------------------- ↓ Desktops and Larger Devices ↓ -------------------- */
+
+/* -------------------- ↓ Min-width: 1200px (Large Desktops) ↓ -------------------- */
+
+@media (min-width: 1200px) {
+
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 1vw !important;
+    }
+
+    /* Course Div Element */
+
+    #book-image-cover-div-element-container-of-book-cover {
+        margin-top: 40px;
+        margin-bottom: 3vw;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 10vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+/* -------------------- ↑ Min-width: 1200px (Large Desktops) ↑ -------------------- */
+
+/* -------------------- ↓ Min-width: 1440px (Widescreen Monitors) ↓ -------------------- */
+
+@media (min-width: 1440px) {
+
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 1.5vw !important;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 10vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+/* -------------------- ↑ Min-width: 1440px (Widescreen Monitors) ↑ -------------------- */
+
+/* -------------------- ↑ Desktops and Larger Devices ↑ -------------------- */
+
+/* -------------------- ↓ Extra Large Screens (Ultra-Wides) ↓ -------------------- */
+
+/* -------------------- ↓ Min-width: 1600px ↓ -------------------- */
+
+@media (min-width: 1600px) {
+
+    /* Section Title */
+
+    .section-name-title-at-the-top-of-the-contents {
+        font-size: 1.5vw !important;
+    }
+
+    /* Course Image */
+
+    #book-image-cover-detail-cover {
+        width: 70vw !important;
+        height: auto !important;
+    }
+
+    /* Top Path Indicator */
+
+    #top-indicatotor-div-to-show-which-skill-is-selected {
+        padding-top: 10vw !important;
+    }
+
+    /* Short Paragraph Texts */
+
+    .paragraph-short-descriptions {
+        font-size: 1.5vw !important;
+        text-align: start !important;
+    }
+}
+
+/* -------------------- ↑ Min-width: 1600px ↑ -------------------- */
+
+/* -------------------- ↑ Extra Large Screens (Ultra-Wides) ↑ -------------------- */
