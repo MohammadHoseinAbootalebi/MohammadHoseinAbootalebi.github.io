@@ -2,7 +2,6 @@
 
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 .show > .dropdown-menu {
@@ -246,5 +245,9 @@ a {
 
 .paragraph-short-descriptions {
   font-size: 20px !important;
+}
+
+.video-title-text-name-of-file {
+  width: 60vw !important;
 }
 

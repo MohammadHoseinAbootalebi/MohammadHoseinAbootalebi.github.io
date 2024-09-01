@@ -6887,6 +6887,151 @@ var PassedCoursesForEachSkillStaticContainer = {
     "Full Stack Developer": [
         // Django for Everybody
         {
+            "CourseName": "Complete Django Course",
+            "InstructorName": "Dennis Ivy",
+            "Gender": "M", // F: Female, M: Male
+            "CourseTime": {
+                "English": "18 hours, 21 minutes",
+                "Deutsch": "18 Stunden, 21 Minuten",
+                "中国人": "18 小时 21 分钟",
+                "Русский": "18 часов, 21 минута",
+                "Français": "18 heures, 21 minutes",
+                "日本語": "18時間21分",
+                "한국인": "18시간 21분",
+                "Español": "18 horas, 21 minutos",
+                "हिंदी": "18 घंटे, 21 मिनट",
+                "Português": "18 horas e 21 minutos",
+                "বাংলা": "18 ঘন্টা, 21 মিনিট",
+                "عَرَبِيّ": "١٨ ساعة و ٢١ دقيقة",
+                "فارسی": "١٨ ساعت و ٢١ دقیقه",
+            },
+            "PlatformName": "Udemy",
+            "Ratings": "4.5",
+            "YearNumber": "2021",
+            "ProgrammingLanguages": "Python and Django",
+            "TableOfContents": [],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "Dennis Ivy's Complete Django Course offers a comprehensive and engaging introduction to the powerful Python web framework. Whether you're a beginner or have some programming experience, Ivy's clear explanations and hands-on approach make learning Django a rewarding journey. The course covers essential topics such as project setup, models, views, templates, and databases, providing a solid foundation for building dynamic web applications.",
+                    // German
+                    "Deutsch": "Dennis Ivys kompletter Django-Kurs bietet eine umfassende und spannende Einführung in das leistungsstarke Python-Webframework. Egal, ob Sie Anfänger sind oder bereits Programmiererfahrung haben, Ivys klare Erklärungen und sein praktischer Ansatz machen das Erlernen von Django zu einer lohnenden Reise. Der Kurs behandelt wichtige Themen wie Projekteinrichtung, Modelle, Ansichten, Vorlagen und Datenbanken und bietet eine solide Grundlage für die Erstellung dynamischer Webanwendungen.",
+                    // Chinese
+                    "中国人": "Dennis Ivy 的完整 Django 课程全面而有趣地介绍了强大的 Python Web 框架。无论您是初学者还是有一定编程经验，Ivy 清晰的讲解和实践方法都会让学习 Django 成为一次有益的旅程。该课程涵盖了项目设置、模型、视图、模板和数据库等基本主题，为构建动态 Web 应用程序奠定了坚实的基础。",
+                    // Russian
+                    "Русский": "Полный курс Django Денниса Айви предлагает всестороннее и увлекательное введение в мощный веб-фреймворк Python. Независимо от того, новичок вы или имеете некоторый опыт программирования, понятные объяснения и практический подход Айви делают изучение Django полезным путешествием. Курс охватывает такие важные темы, как настройка проекта, модели, представления, шаблоны и базы данных, обеспечивая прочную основу для создания динамических веб-приложений.",
+                    // French
+                    "Français": "Le cours complet Django de Dennis Ivy propose une introduction complète et attrayante au puissant framework Web Python. Que vous soyez débutant ou que vous ayez une certaine expérience en programmation, les explications claires et l'approche pratique d'Ivy font de l'apprentissage de Django un parcours enrichissant. Le cours couvre des sujets essentiels tels que la configuration de projet, les modèles, les vues, les modèles et les bases de données, offrant une base solide pour la création d'applications Web dynamiques.",
+                    // Japanese
+                    "日本語": "Dennis Ivy の Complete Django コースでは、強力な Python Web フレームワークを包括的かつ魅力的に紹介します。初心者でも、プログラミング経験者でも、Ivy のわかりやすい説明と実践的なアプローチにより、Django の学習はやりがいのある旅になります。このコースでは、プロジェクトのセットアップ、モデル、ビュー、テンプレート、データベースなどの重要なトピックを取り上げ、動的な Web アプリケーションを構築するための強固な基盤を提供します。",
+                    // Korean
+                    "한국인": "데니스 아이비의 Django Complete Course는 강력한 Python 웹 프레임워크에 대한 포괄적이고 매력적인 소개를 제공합니다. 초보자이든 프로그래밍 경험이 있든 아이비의 명확한 설명과 실습적 접근 방식은 Django를 배우는 것을 보람 있는 여정으로 만듭니다. 이 과정은 프로젝트 설정, 모델, 뷰, 템플릿, 데이터베이스와 같은 필수 주제를 다루며 동적 웹 애플리케이션을 구축하기 위한 견고한 기반을 제공합니다.",
+                    // Spanish
+                    "Español": "El curso completo de Django de Dennis Ivy ofrece una introducción completa y atractiva al potente marco web Python. Tanto si eres principiante como si tienes algo de experiencia en programación, las explicaciones claras y el enfoque práctico de Ivy hacen que aprender Django sea una experiencia gratificante. El curso cubre temas esenciales como la configuración de proyectos, modelos, vistas, plantillas y bases de datos, lo que proporciona una base sólida para crear aplicaciones web dinámicas.",
+                    // Hindi
+                    "हिंदी": "डेनिस आइवी का संपूर्ण Django कोर्स शक्तिशाली पायथन वेब फ्रेमवर्क के लिए एक व्यापक और आकर्षक परिचय प्रदान करता है। चाहे आप शुरुआती हों या आपको प्रोग्रामिंग का कुछ अनुभव हो, आइवी की स्पष्ट व्याख्याएँ और व्यावहारिक दृष्टिकोण Django को सीखना एक पुरस्कृत यात्रा बनाते हैं। पाठ्यक्रम में प्रोजेक्ट सेटअप, मॉडल, दृश्य, टेम्प्लेट और डेटाबेस जैसे आवश्यक विषयों को शामिल किया गया है, जो गतिशील वेब एप्लिकेशन बनाने के लिए एक ठोस आधार प्रदान करता है।",
+                    // Portuguese
+                    "Português": "O curso completo de Django de Dennis Ivy oferece uma introdução abrangente e envolvente à poderosa framework web Python. Quer seja principiante ou tenha alguma experiência em programação, as explicações claras e a abordagem prática de Ivy tornam a aprendizagem do Django numa viagem gratificante. O curso abrange tópicos essenciais como a configuração de projetos, modelos, visualizações, modelos e bases de dados, fornecendo uma base sólida para a construção de aplicações web dinâmicas.",
+                    // Bengali
+                    "বাংলা": "ডেনিস আইভির সম্পূর্ণ জ্যাঙ্গো কোর্স শক্তিশালী পাইথন ওয়েব ফ্রেমওয়ার্কের একটি ব্যাপক এবং আকর্ষক ভূমিকা প্রদান করে। আপনি একজন শিক্ষানবিস হোন বা কিছু প্রোগ্রামিং অভিজ্ঞতা থাকুক না কেন, আইভির স্পষ্ট ব্যাখ্যা এবং হাতে-কলমে পদ্ধতি জ্যাঙ্গো শেখাকে একটি ফলপ্রসূ যাত্রা করে তোলে। এই কোর্সে প্রজেক্ট সেটআপ, মডেল, ভিউ, টেমপ্লেট এবং ডাটাবেসের মতো প্রয়োজনীয় বিষয়গুলিকে কভার করে, যা গতিশীল ওয়েব অ্যাপ্লিকেশন তৈরির জন্য একটি শক্ত ভিত্তি প্রদান করে।",
+                    // Arabic
+                    "عَرَبِيّ": "تقدم دورة Django الكاملة التي يقدمها دينيس آيفي مقدمة شاملة وجذابة لإطار عمل الويب القوي Python. سواء كنت مبتدئًا أو لديك بعض الخبرة في البرمجة، فإن تفسيرات آيفي الواضحة ونهجه العملي يجعلان تعلم Django رحلة مجزية. تغطي الدورة مواضيع أساسية مثل إعداد المشروع والنماذج والعروض والقوالب وقواعد البيانات، مما يوفر أساسًا قويًا لبناء تطبيقات الويب الديناميكية.",
+                    // Persian
+                    "فارسی": "دوره کامل جنگو دنیس آیوی مقدمه ای جامع و جذاب برای چارچوب وب قدرتمند پایتون ارائه می دهد. چه مبتدی باشید و چه تجربه برنامه نویسی داشته باشید، توضیحات واضح و رویکرد عملی آیوی، یادگیری جنگو را به یک سفر مفید تبدیل می کند. این دوره موضوعات ضروری مانند راه اندازی پروژه، مدل ها، نماها، قالب ها و پایگاه های داده را پوشش می دهد و پایه ای محکم برای ساخت برنامه های کاربردی وب پویا فراهم می کند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "One of the standout features of this course is its focus on real-world applications. Ivy guides learners through the process of creating a fully functional social media platform, demonstrating how Django can be used to build complex and interactive websites. This practical approach not only reinforces the concepts learned but also inspires students to explore their own creative projects.",
+                    // German
+                    "Deutsch": "Eines der herausragenden Merkmale dieses Kurses ist sein Fokus auf reale Anwendungen. Ivy führt die Lernenden durch den Prozess der Erstellung einer voll funktionsfähigen Social-Media-Plattform und zeigt, wie mit Django komplexe und interaktive Websites erstellt werden können. Dieser praktische Ansatz festigt nicht nur die erlernten Konzepte, sondern inspiriert die Schüler auch dazu, ihre eigenen kreativen Projekte zu erkunden.",
+                    // Chinese
+                    "中国人": "本课程的一大特色是注重实际应用。Ivy 指导学习者完成创建功能齐全的社交媒体平台的过程，展示如何使用 Django 构建复杂且交互式的网站。这种实用的方法不仅可以巩固所学的概念，还可以激励学生探索自己的创意项目。",
+                    // Russian
+                    "Русский": "Одной из выдающихся особенностей этого курса является его фокус на реальных приложениях. Айви проводит учащихся через процесс создания полностью функциональной платформы социальных сетей, демонстрируя, как Django может использоваться для создания сложных и интерактивных веб-сайтов. Этот практический подход не только закрепляет изученные концепции, но и вдохновляет учащихся на исследование собственных творческих проектов.",
+                    // French
+                    "Français": "L'une des caractéristiques marquantes de ce cours est l'accent mis sur les applications concrètes. Ivy guide les apprenants tout au long du processus de création d'une plateforme de médias sociaux entièrement fonctionnelle, en leur montrant comment Django peut être utilisé pour créer des sites Web complexes et interactifs. Cette approche pratique renforce non seulement les concepts appris, mais incite également les étudiants à explorer leurs propres projets créatifs.",
+                    // Japanese
+                    "日本語": "このコースの際立った特徴の 1 つは、実際のアプリケーションに重点を置いていることです。Ivy は、学習者を完全な機能を備えたソーシャル メディア プラットフォームの作成プロセスに導き、Django を使用して複雑でインタラクティブな Web サイトを構築する方法を示します。この実践的なアプローチは、学習した概念を強化するだけでなく、学生が独自のクリエイティブ プロジェクトを探求する意欲を刺激します。",
+                    // Korean
+                    "한국인": "이 과정의 두드러진 특징 중 하나는 실제 세계 응용 프로그램에 초점을 맞춘다는 것입니다. Ivy는 학습자에게 완벽하게 기능하는 소셜 미디어 플랫폼을 만드는 과정을 안내하여 Django를 사용하여 복잡하고 상호 작용적인 웹사이트를 구축하는 방법을 보여줍니다. 이러한 실용적인 접근 방식은 학습한 개념을 강화할 뿐만 아니라 학생들이 자신의 창의적인 프로젝트를 탐구하도록 영감을 줍니다.",
+                    // Spanish
+                    "Español": "Una de las características más destacadas de este curso es su enfoque en aplicaciones del mundo real. Ivy guía a los estudiantes a través del proceso de creación de una plataforma de redes sociales completamente funcional, demostrando cómo se puede utilizar Django para crear sitios web complejos e interactivos. Este enfoque práctico no solo refuerza los conceptos aprendidos, sino que también inspira a los estudiantes a explorar sus propios proyectos creativos.",
+                    // Hindi
+                    "हिंदी": "इस कोर्स की एक खास विशेषता यह है कि इसका फोकस वास्तविक दुनिया के अनुप्रयोगों पर है। आइवी पूरी तरह कार्यात्मक सोशल मीडिया प्लेटफॉर्म बनाने की प्रक्रिया के माध्यम से शिक्षार्थियों का मार्गदर्शन करता है, यह दर्शाता है कि जटिल और इंटरैक्टिव वेबसाइट बनाने के लिए Django का उपयोग कैसे किया जा सकता है। यह व्यावहारिक दृष्टिकोण न केवल सीखी गई अवधारणाओं को पुष्ट करता है बल्कि छात्रों को अपनी खुद की रचनात्मक परियोजनाओं का पता लगाने के लिए भी प्रेरित करता है।",
+                    // Portuguese
+                    "Português": "Uma das características de destaque deste curso é o foco nas aplicações do mundo real. Ivy orienta os alunos no processo de criação de uma plataforma de redes sociais totalmente funcional, demonstrando como o Django pode ser utilizado para construir sites complexos e interativos. Esta abordagem prática não só reforça os conceitos aprendidos, como também inspira os alunos a explorar os seus próprios projetos criativos.",
+                    // Bengali
+                    "বাংলা": "এই কোর্সের স্ট্যান্ডআউট বৈশিষ্ট্যগুলির মধ্যে একটি হল বাস্তব-বিশ্বের অ্যাপ্লিকেশনগুলিতে এর ফোকাস। Ivy একটি সম্পূর্ণ কার্যকরী সোশ্যাল মিডিয়া প্ল্যাটফর্ম তৈরি করার প্রক্রিয়ার মাধ্যমে শিক্ষার্থীদের গাইড করে, কীভাবে জ্যাঙ্গোকে জটিল এবং ইন্টারেক্টিভ ওয়েবসাইট তৈরি করতে ব্যবহার করা যেতে পারে তা প্রদর্শন করে। এই ব্যবহারিক পদ্ধতিটি শুধুমাত্র শেখা ধারণাগুলিকে শক্তিশালী করে না বরং শিক্ষার্থীদের তাদের নিজস্ব সৃজনশীল প্রকল্পগুলি অন্বেষণ করতে অনুপ্রাণিত করে।",
+                    // Arabic
+                    "عَرَبِيّ": "من بين السمات البارزة لهذه الدورة التدريبية التركيز على التطبيقات في العالم الحقيقي. حيث ترشد آيفي المتعلمين خلال عملية إنشاء منصة وسائط اجتماعية وظيفية بالكامل، وتوضح كيف يمكن استخدام Django لبناء مواقع ويب معقدة وتفاعلية. ولا يعمل هذا النهج العملي على تعزيز المفاهيم التي تعلموها فحسب، بل يلهم الطلاب أيضًا لاستكشاف مشاريعهم الإبداعية الخاصة.",
+                    // Persian
+                    "فارسی": "یکی از ویژگی های برجسته این دوره، تمرکز آن بر برنامه های کاربردی در دنیای واقعی است. Ivy فراگیران را از طریق فرآیند ایجاد یک پلتفرم رسانه اجتماعی کاملاً کاربردی راهنمایی می کند و نشان می دهد که چگونه می توان از جنگو برای ساخت وب سایت های پیچیده و تعاملی استفاده کرد. این رویکرد عملی نه تنها مفاهیم آموخته شده را تقویت می کند، بلکه دانش آموزان را برای کشف پروژه های خلاقانه خود ترغیب می کند.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "In addition to the core curriculum, the course includes valuable supplementary materials, such as downloadable code examples and project templates. These resources allow learners to practice and experiment with Django concepts at their own pace. Furthermore, Ivy's commitment to providing ongoing support and updates ensures that students have access to the latest information and best practices in the Django ecosystem.",
+                    // German
+                    "Deutsch": "Zusätzlich zum Kernlehrplan enthält der Kurs wertvolle Zusatzmaterialien wie herunterladbare Codebeispiele und Projektvorlagen. Diese Ressourcen ermöglichen es den Lernenden, Django-Konzepte in ihrem eigenen Tempo zu üben und damit zu experimentieren. Darüber hinaus stellt Ivys Engagement für kontinuierliche Unterstützung und Updates sicher, dass die Studierenden Zugriff auf die neuesten Informationen und Best Practices im Django-Ökosystem haben.",
+                    // Chinese
+                    "中国人": "除了核心课程外，该课程还包括有价值的补充材料，例如可下载的代码示例和项目模板。这些资源允许学习者按照自己的节奏练习和试验 Django 概念。此外，Ivy 致力于提供持续的支持和更新，确保学生能够获得 Django 生态系统中的最新信息和最佳实践。",
+                    // Russian
+                    "Русский": "В дополнение к основной программе курс включает ценные дополнительные материалы, такие как загружаемые примеры кода и шаблоны проектов. Эти ресурсы позволяют учащимся практиковаться и экспериментировать с концепциями Django в своем собственном темпе. Кроме того, приверженность Ivy предоставлению постоянной поддержки и обновлений гарантирует, что учащиеся будут иметь доступ к последней информации и лучшим практикам в экосистеме Django.",
+                    // French
+                    "Français": "En plus du programme de base, le cours comprend des ressources complémentaires utiles, telles que des exemples de code téléchargeables et des modèles de projets. Ces ressources permettent aux apprenants de pratiquer et d'expérimenter les concepts de Django à leur propre rythme. De plus, l'engagement d'Ivy à fournir un soutien et des mises à jour continus garantit aux étudiants l'accès aux dernières informations et aux meilleures pratiques de l'écosystème Django.",
+                    // Japanese
+                    "日本語": "コースには、コアカリキュラムに加えて、ダウンロード可能なコード例やプロジェクト テンプレートなどの貴重な補足資料が含まれています。これらのリソースにより、学習者は自分のペースで Django の概念を実践し、実験することができます。さらに、Ivy は継続的なサポートと更新を提供するという約束をしているため、学生は Django エコシステムの最新情報とベスト プラクティスにアクセスできます。",
+                    // Korean
+                    "한국인": "핵심 커리큘럼 외에도 이 과정에는 다운로드 가능한 코드 예제 및 프로젝트 템플릿과 같은 귀중한 보충 자료가 포함되어 있습니다. 이러한 리소스를 통해 학습자는 자신의 속도에 맞춰 Django 개념을 연습하고 실험할 수 있습니다. 또한 Ivy는 지속적인 지원과 업데이트를 제공함으로써 학생들이 Django 생태계의 최신 정보와 모범 사례에 액세스할 수 있도록 보장합니다.",
+                    // Spanish
+                    "Español": "Además del plan de estudios básico, el curso incluye valiosos materiales complementarios, como ejemplos de código descargables y plantillas de proyectos. Estos recursos permiten a los alumnos practicar y experimentar con los conceptos de Django a su propio ritmo. Además, el compromiso de Ivy de brindar soporte y actualizaciones constantes garantiza que los estudiantes tengan acceso a la información más reciente y las mejores prácticas en el ecosistema de Django.",
+                    // Hindi
+                    "हिंदी": "मुख्य पाठ्यक्रम के अलावा, पाठ्यक्रम में मूल्यवान पूरक सामग्री शामिल है, जैसे डाउनलोड करने योग्य कोड उदाहरण और प्रोजेक्ट टेम्पलेट। ये संसाधन शिक्षार्थियों को अपनी गति से Django अवधारणाओं का अभ्यास और प्रयोग करने की अनुमति देते हैं। इसके अलावा, निरंतर समर्थन और अपडेट प्रदान करने के लिए आइवी की प्रतिबद्धता यह सुनिश्चित करती है कि छात्रों को Django पारिस्थितिकी तंत्र में नवीनतम जानकारी और सर्वोत्तम प्रथाओं तक पहुँच प्राप्त हो।",
+                    // Portuguese
+                    "Português": "Além do currículo básico, o curso inclui materiais complementares valiosos, como exemplos de código para download e modelos de projetos. Estas características permitem que os alunos pratiquem e experimentem os conceitos do Django ao seu próprio ritmo. Além disso, o compromisso da Ivy em fornecer apoio e atualizações contínuas garante que os alunos têm acesso às informações mais recentes e às melhores práticas no ecossistema Django.",
+                    // Bengali
+                    "বাংলা": "মূল পাঠ্যক্রমের পাশাপাশি, কোর্সে মূল্যবান সম্পূরক উপকরণ রয়েছে, যেমন ডাউনলোডযোগ্য কোড উদাহরণ এবং প্রকল্প টেমপ্লেট। এই সংস্থানগুলি শিক্ষার্থীদের তাদের নিজস্ব গতিতে জ্যাঙ্গো ধারণাগুলি অনুশীলন এবং পরীক্ষা করার অনুমতি দেয়। তদুপরি, চলমান সহায়তা এবং আপডেটগুলি প্রদানের জন্য আইভির প্রতিশ্রুতি নিশ্চিত করে যে ছাত্রদের জ্যাঙ্গো ইকোসিস্টেমের সর্বশেষ তথ্য এবং সর্বোত্তম অনুশীলনগুলিতে অ্যাক্সেস রয়েছে।",
+                    // Arabic
+                    "عَرَبِيّ": "بالإضافة إلى المنهج الأساسي، تتضمن الدورة مواد تكميلية قيمة، مثل أمثلة التعليمات البرمجية القابلة للتنزيل وقوالب المشروع. تتيح هذه الموارد للمتعلمين ممارسة مفاهيم Django وتجربتها بالسرعة التي تناسبهم. علاوة على ذلك، يضمن التزام Ivy بتقديم الدعم المستمر والتحديثات حصول الطلاب على أحدث المعلومات وأفضل الممارسات في نظام Django البيئي.",
+                    // Persian
+                    "فارسی": "علاوه بر برنامه درسی اصلی، این دوره شامل مواد تکمیلی ارزشمندی مانند نمونه های کد قابل دانلود و قالب های پروژه است. این منابع به زبان آموزان اجازه می دهد تا مفاهیم جنگو را با سرعت خود تمرین و آزمایش کنند. علاوه بر این، تعهد آیوی به ارائه پشتیبانی و به روز رسانی مداوم تضمین می کند که دانش آموزان به آخرین اطلاعات و بهترین شیوه ها در اکوسیستم جنگو دسترسی دارند.",
+                },
+            ],
+            "CourseCoverImagePath": "../assets/img/Courses Covers/Full Stack Development/3 - Django Complete Course.webp",
+            "shortDescriptionsForCourseReviewing": {
+                // English
+                "English": "Dennis Ivy's Complete Django Course offers a comprehensive and engaging introduction to the powerful Python web framework. Ivy's clear explanations and hands-on approach make learning Django a rewarding journey, covering essential topics such as project setup, models, views, templates, and databases. The course culminates in the creation of a real-world social media platform, demonstrating how Django can be used to build dynamic and interactive web applications.",
+                // German
+                "Deutsch": "Dennis Ivys kompletter Django-Kurs bietet eine umfassende und spannende Einführung in das leistungsstarke Python-Webframework. Ivys klare Erklärungen und sein praktischer Ansatz machen das Erlernen von Django zu einer lohnenden Reise und behandeln wichtige Themen wie Projekteinrichtung, Modelle, Ansichten, Vorlagen und Datenbanken. Der Kurs gipfelt in der Erstellung einer realen Social-Media-Plattform und zeigt, wie Django zum Erstellen dynamischer und interaktiver Webanwendungen verwendet werden kann.",
+                // Chinese
+                "中国人": "Dennis Ivy 的完整 Django 课程全面而引人入胜地介绍了强大的 Python Web 框架。Ivy 清晰的讲解和实践方法使学习 Django 成为一次有益的旅程，涵盖了项目设置、模型、视图、模板和数据库等基本主题。该课程最终创建了一个真实的社交媒体平台，展示了如何使用 Django 构建动态和交互式 Web 应用程序。",
+                // Russian
+                "Русский": "Полный курс Django Денниса Айви предлагает всестороннее и увлекательное введение в мощный веб-фреймворк Python. Четкие объяснения Айви и практический подход делают изучение Django полезным путешествием, охватывающим такие важные темы, как настройка проекта, модели, представления, шаблоны и базы данных. Курс завершается созданием реальной платформы социальных сетей, демонстрируя, как Django можно использовать для создания динамических и интерактивных веб-приложений.",
+                // French
+                "Français": "Le cours complet Django de Dennis Ivy propose une introduction complète et attrayante au puissant framework Web Python. Les explications claires et l'approche pratique d'Ivy font de l'apprentissage de Django un voyage enrichissant, couvrant des sujets essentiels tels que la configuration de projet, les modèles, les vues, les modèles et les bases de données. Le cours se termine par la création d'une plate-forme de médias sociaux réelle, démontrant comment Django peut être utilisé pour créer des applications Web dynamiques et interactives.",
+                // Japanese
+                "日本語": "Dennis Ivy の Complete Django コースでは、強力な Python Web フレームワークを包括的かつ魅力的に紹介します。Ivy のわかりやすい説明と実践的なアプローチにより、プロジェクトのセットアップ、モデル、ビュー、テンプレート、データベースなどの重要なトピックを網羅し、Django の学習がやりがいのあるものになります。このコースの最後は、実際のソーシャル メディア プラットフォームの作成で、Django を使用して動的でインタラクティブな Web アプリケーションを構築する方法を説明します。",
+                // Korean
+                "한국인": "데니스 아이비의 Django Complete Course는 강력한 Python 웹 프레임워크에 대한 포괄적이고 매력적인 소개를 제공합니다. 아이비의 명확한 설명과 실습적인 접근 방식은 Django를 배우는 것을 보람 있는 여정으로 만들어 프로젝트 설정, 모델, 뷰, 템플릿, 데이터베이스와 같은 필수 주제를 다룹니다. 이 과정은 실제 소셜 미디어 플랫폼을 만드는 것으로 마무리되며, Django를 사용하여 동적이고 대화형 웹 애플리케이션을 구축하는 방법을 보여줍니다.",
+                // Spanish
+                "Español": "El curso completo de Django de Dennis Ivy ofrece una introducción completa y atractiva al potente marco web Python. Las explicaciones claras de Ivy y su enfoque práctico hacen que aprender Django sea una experiencia gratificante, que abarca temas esenciales como la configuración de proyectos, modelos, vistas, plantillas y bases de datos. El curso culmina con la creación de una plataforma de redes sociales del mundo real, que demuestra cómo se puede utilizar Django para crear aplicaciones web dinámicas e interactivas.",
+                // Hindi
+                "हिंदी": "डेनिस आइवी का संपूर्ण Django कोर्स शक्तिशाली पायथन वेब फ्रेमवर्क के लिए एक व्यापक और आकर्षक परिचय प्रदान करता है। आइवी के स्पष्ट स्पष्टीकरण और व्यावहारिक दृष्टिकोण Django को सीखना एक पुरस्कृत यात्रा बनाते हैं, जिसमें प्रोजेक्ट सेटअप, मॉडल, दृश्य, टेम्पलेट और डेटाबेस जैसे आवश्यक विषय शामिल हैं। पाठ्यक्रम वास्तविक दुनिया के सोशल मीडिया प्लेटफ़ॉर्म के निर्माण में परिणत होता है, जो दर्शाता है कि गतिशील और इंटरैक्टिव वेब एप्लिकेशन बनाने के लिए Django का उपयोग कैसे किया जा सकता है।",
+                // Portuguese
+                "Português": "O curso completo de Django de Dennis Ivy oferece uma introdução abrangente e envolvente à poderosa framework web Python. As explicações claras e a abordagem prática de Ivy tornam a aprendizagem do Django numa viagem gratificante, abrangendo tópicos essenciais como a configuração de projetos, modelos, visualizações, modelos e bases de dados. O curso culmina na criação de uma plataforma de redes sociais do mundo real, demonstrando como o Django pode ser utilizado para construir aplicações web dinâmicas e interativas.",
+                // Bengali
+                "বাংলা": "ডেনিস আইভির সম্পূর্ণ জ্যাঙ্গো কোর্স শক্তিশালী পাইথন ওয়েব ফ্রেমওয়ার্কের একটি ব্যাপক এবং আকর্ষক ভূমিকা প্রদান করে। আইভির স্পষ্ট ব্যাখ্যা এবং হ্যান্ডস-অন পদ্ধতি জ্যাঙ্গো শেখাকে একটি পুরস্কৃত যাত্রা করে তোলে, প্রকল্প সেটআপ, মডেল, দৃশ্য, টেমপ্লেট এবং ডেটাবেসের মতো প্রয়োজনীয় বিষয়গুলিকে কভার করে৷ কোর্সটি একটি বাস্তব-বিশ্ব সোশ্যাল মিডিয়া প্ল্যাটফর্ম তৈরিতে সমাপ্ত হয়, এটি প্রদর্শন করে যে কীভাবে গতিশীল এবং ইন্টারেক্টিভ ওয়েব অ্যাপ্লিকেশন তৈরি করতে জ্যাঙ্গো ব্যবহার করা যেতে পারে।",
+                // Arabic
+                "عَرَبِيّ": "تقدم دورة Django الكاملة التي يقدمها دينيس آيفي مقدمة شاملة وجذابة لإطار عمل الويب القوي Python. تجعل تفسيرات آيفي الواضحة ونهجه العملي من تعلم Django رحلة مجزية، حيث تغطي مواضيع أساسية مثل إعداد المشروع والنماذج والعروض والقوالب وقواعد البيانات. تتوج الدورة بإنشاء منصة وسائط اجتماعية في العالم الحقيقي، مما يوضح كيف يمكن استخدام Django لبناء تطبيقات ويب ديناميكية وتفاعلية.",
+                // Persian
+                "فارسی": "دوره کامل جنگو دنیس آیوی مقدمه ای جامع و جذاب برای چارچوب وب قدرتمند پایتون ارائه می دهد. توضیحات واضح و رویکرد عملی آیوی، یادگیری جنگو را به سفری پرارزش تبدیل می‌کند و موضوعات ضروری مانند راه‌اندازی پروژه، مدل‌ها، نماها، قالب‌ها و پایگاه‌های داده را پوشش می‌دهد. این دوره با ایجاد یک پلتفرم رسانه اجتماعی در دنیای واقعی به اوج خود می رسد و نشان می دهد که چگونه می توان از جنگو برای ساخت برنامه های کاربردی وب پویا و تعاملی استفاده کرد.",
+            },
+            "DetailPageScreenToShowEachBookDetails": "CRs/Full Stack Development/3 - Django Complete Course/3 - Django Complete Course.html",
+        },
+        // Django for Everybody
+        {
             "CourseName": "Django for Everybody",
             "InstructorName": "Charles Russell Severance",
             "Gender": "M", // F: Female, M: Male

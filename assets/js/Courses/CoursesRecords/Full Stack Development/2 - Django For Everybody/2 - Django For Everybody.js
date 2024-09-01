@@ -726,7 +726,7 @@ var neededProperties = {
         // ---------------------------------------- ↓ Flutter Complete Course - Maximilian Schwarzmüller ↓ ----------------------------------------
 
         // - > Changing the web page title
-        document.title = "MHA - " + building_e_commerence_website["CourseName"];
+        document.title = "MHA - " + django_for_every_body["CourseName"];
 
         // Back button
         document.getElementById("Back-button-to-go-to-the-books-row-list-table-of-contents").innerHTML = '<i class="icon ion-arrow-left-b" style="padding-right: 7px;"></i>' + "&nbsp;" + BoldFirstHeireachyFont[newLanguage]["BackToGoTheBooksRows"];
