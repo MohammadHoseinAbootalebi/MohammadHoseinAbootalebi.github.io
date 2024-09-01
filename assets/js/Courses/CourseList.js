@@ -7335,7 +7335,151 @@ var PassedCoursesForEachSkillStaticContainer = {
     ],
     // Self-Driving Automobile Engineer
     "Self-Driving Automobile Engineer": [
-
+        // Simulink Onramp
+        {
+            "CourseName": "Simulink Onramp",
+            "InstructorName": "Alisha Schor",
+            "Gender": "M", // F: Female, M: Male
+            "CourseTime": {
+                "English": "2 hours",
+                "Deutsch": "2 Stunden",
+                "中国人": "2小时",
+                "Русский": "2 часа",
+                "Français": "2 heures",
+                "日本語": "2時間",
+                "한국인": "2시간",
+                "Español": "2 horas",
+                "हिंदी": "2 ঘন্টা",
+                "Português": "2 horas",
+                "বাংলা": "2 ঘন্টা",
+                "عَرَبِيّ": "ساعاتين",
+                "فارسی": "٢ ساعت",
+            },
+            "PlatformName": "Udemy",
+            "Ratings": "0.0",
+            "YearNumber": "2024",
+            "ProgrammingLanguages": "MATLAB and Simulink",
+            "TableOfContents": [],
+            "TotalDescriptionAboutTheBook": [
+                // Paragraph 1
+                {
+                    // English
+                    "English": "MathWorks' Simulink courses offer a comprehensive and interactive learning experience for individuals seeking to master the powerful simulation software. These courses, designed by experts in the field, provide a solid foundation in Simulink's graphical environment, enabling users to model and simulate dynamic systems efficiently.",
+                    // German
+                    "Deutsch": "Die Simulink-Kurse von MathWorks bieten eine umfassende und interaktive Lernerfahrung für Personen, die die leistungsstarke Simulationssoftware beherrschen möchten. Diese von Experten auf diesem Gebiet entwickelten Kurse bieten eine solide Grundlage für die grafische Umgebung von Simulink und ermöglichen Benutzern die effiziente Modellierung und Simulation dynamischer Systeme.",
+                    // Chinese
+                    "中国人": "MathWorks 的 Simulink 课程为希望掌握功能强大的仿真软件的个人提供全面而互动的学习体验。这些课程由该领域的专家设计，为 Simulink 的图形环境提供了坚实的基础，使用户能够高效地建模和仿真动态系统。",
+                    // Russian
+                    "Русский": "Курсы MathWorks Simulink предлагают комплексный и интерактивный опыт обучения для тех, кто стремится освоить мощное программное обеспечение для моделирования. Эти курсы, разработанные экспертами в этой области, обеспечивают прочную основу в графической среде Simulink, позволяя пользователям эффективно моделировать и имитировать динамические системы.",
+                    // French
+                    "Français": "Les cours Simulink de MathWorks offrent une expérience d'apprentissage complète et interactive aux personnes souhaitant maîtriser ce puissant logiciel de simulation. Ces cours, conçus par des experts du domaine, offrent une base solide dans l'environnement graphique de Simulink, permettant aux utilisateurs de modéliser et de simuler efficacement des systèmes dynamiques.",
+                    // Japanese
+                    "日本語": "MathWorks の Simulink コースは、強力なシミュレーション ソフトウェアを習得したい方のために、包括的でインタラクティブな学習体験を提供します。この分野の専門家によって設計されたこれらのコースは、Simulink のグラフィカル環境の強固な基礎を提供し、ユーザーが動的システムを効率的にモデル化およびシミュレーションできるようにします。",
+                    // Korean
+                    "한국인": "MathWorks의 Simulink 과정은 강력한 시뮬레이션 소프트웨어를 마스터하려는 개인에게 포괄적이고 대화형 학습 경험을 제공합니다. 이 분야의 전문가가 설계한 이 과정은 Simulink의 그래픽 환경에 대한 견고한 기초를 제공하여 사용자가 동적 시스템을 효율적으로 모델링하고 시뮬레이션할 수 있도록 합니다.",
+                    // Spanish
+                    "Español": "Los cursos de Simulink de MathWorks ofrecen una experiencia de aprendizaje completa e interactiva para aquellas personas que deseen dominar el potente software de simulación. Estos cursos, diseñados por expertos en el campo, proporcionan una base sólida en el entorno gráfico de Simulink, lo que permite a los usuarios modelar y simular sistemas dinámicos de manera eficiente.",
+                    // Hindi
+                    "हिंदी": "मैथवर्क्स के सिमुलिंक पाठ्यक्रम शक्तिशाली सिमुलेशन सॉफ़्टवेयर में महारत हासिल करने के इच्छुक व्यक्तियों के लिए एक व्यापक और इंटरैक्टिव सीखने का अनुभव प्रदान करते हैं। क्षेत्र के विशेषज्ञों द्वारा डिज़ाइन किए गए ये पाठ्यक्रम सिमुलिंक के ग्राफ़िकल वातावरण में एक ठोस आधार प्रदान करते हैं, जिससे उपयोगकर्ता गतिशील प्रणालियों को कुशलतापूर्वक मॉडल और सिम्युलेट कर सकते हैं।",
+                    // Portuguese
+                    "Português": "Os cursos Simulink da MathWorks oferecem uma experiência de aprendizagem abrangente e interativa para indivíduos que procuram dominar o poderoso software de simulação. Estes cursos, elaborados por especialistas na área, fornecem uma base sólida no ambiente gráfico do Simulink, permitindo aos utilizadores modelar e simular sistemas dinâmicos de forma eficiente.",
+                    // Bengali
+                    "বাংলা": "ম্যাথওয়ার্কসের সিমুলিঙ্ক কোর্সগুলি শক্তিশালী সিমুলেশন সফ্টওয়্যার আয়ত্ত করতে চাওয়া ব্যক্তিদের জন্য একটি ব্যাপক এবং ইন্টারেক্টিভ শেখার অভিজ্ঞতা প্রদান করে। এই ক্ষেত্রের বিশেষজ্ঞদের দ্বারা ডিজাইন করা এই কোর্সগুলি, সিমুলিংকের গ্রাফিকাল পরিবেশে একটি দৃঢ় ভিত্তি প্রদান করে, যা ব্যবহারকারীদের দক্ষতার সাথে গতিশীল সিস্টেমের মডেল এবং অনুকরণ করতে সক্ষম করে।",
+                    // Arabic
+                    "عَرَبِيّ": "توفر دورات Simulink من MathWorks تجربة تعليمية شاملة وتفاعلية للأفراد الذين يسعون إلى إتقان برنامج المحاكاة القوي. توفر هذه الدورات، التي صممها خبراء في هذا المجال، أساسًا قويًا في البيئة الرسومية لبرنامج Simulink، مما يتيح للمستخدمين نمذجة ومحاكاة الأنظمة الديناميكية بكفاءة.",
+                    // Persian
+                    "فارسی": "دوره های Simulink MathWorks یک تجربه یادگیری جامع و تعاملی را برای افرادی که به دنبال تسلط بر نرم افزار قدرتمند شبیه سازی هستند ارائه می دهد. این دوره‌ها که توسط متخصصان این حوزه طراحی شده‌اند، پایه‌ای محکم در محیط گرافیکی Simulink فراهم می‌کنند و کاربران را قادر می‌سازند تا سیستم‌های پویا را به‌طور کارآمد مدل‌سازی و شبیه‌سازی کنند.",
+                },
+                // Paragraph 2
+                {
+                    // English
+                    "English": "One of the standout features of these courses is their hands-on approach. Participants are encouraged to experiment with various Simulink blocks and components, building and testing their own models. This practical experience not only reinforces theoretical concepts but also fosters creativity and problem-solving skills. Additionally, the courses cover a wide range of applications, from control systems engineering to signal processing, ensuring that learners can apply their knowledge to real-world scenarios.",
+                    // German
+                    "Deutsch": "Eines der herausragenden Merkmale dieser Kurse ist ihr praktischer Ansatz. Die Teilnehmer werden ermutigt, mit verschiedenen Simulink-Blöcken und -Komponenten zu experimentieren und ihre eigenen Modelle zu erstellen und zu testen. Diese praktische Erfahrung stärkt nicht nur theoretische Konzepte, sondern fördert auch Kreativität und Problemlösungsfähigkeiten. Darüber hinaus decken die Kurse ein breites Anwendungsspektrum ab, von der Steuerungs- und Regelungstechnik bis zur Signalverarbeitung, sodass die Lernenden ihr Wissen auf reale Szenarien anwenden können.",
+                    // Chinese
+                    "中国人": "这些课程的一大特色是实践教学。我们鼓励学员尝试各种 Simulink 模块和组件，构建和测试自己的模型。这种实践经验不仅可以巩固理论概念，还可以培养创造力和解决问题的能力。此外，这些课程涵盖了从控制系统工程到信号处理的广泛应用，确保学员能够将所学知识应用于实际场景。",
+                    // Russian
+                    "Русский": "Одной из отличительных особенностей этих курсов является их практический подход. Участникам предлагается экспериментировать с различными блоками и компонентами Simulink, создавая и тестируя собственные модели. Этот практический опыт не только закрепляет теоретические концепции, но и способствует развитию творческих способностей и навыков решения проблем. Кроме того, курсы охватывают широкий спектр приложений, от проектирования систем управления до обработки сигналов, гарантируя, что учащиеся смогут применять свои знания в реальных сценариях.",
+                    // French
+                    "Français": "L'une des caractéristiques les plus remarquables de ces cours est leur approche pratique. Les participants sont encouragés à expérimenter différents blocs et composants Simulink, en construisant et en testant leurs propres modèles. Cette expérience pratique renforce non seulement les concepts théoriques, mais favorise également la créativité et les compétences en résolution de problèmes. De plus, les cours couvrent un large éventail d'applications, de l'ingénierie des systèmes de contrôle au traitement du signal, garantissant ainsi que les apprenants peuvent appliquer leurs connaissances à des scénarios réels.",
+                    // Japanese
+                    "日本語": "これらのコースの際立った特徴の 1 つは、実践的なアプローチです。参加者は、さまざまな Simulink ブロックとコンポーネントを試し、独自のモデルを構築してテストすることが推奨されます。この実践的な経験は、理論的な概念を強化するだけでなく、創造性と問題解決スキルを養います。さらに、コースでは、制御システム エンジニアリングから信号処理まで、幅広いアプリケーションをカバーしているため、学習者は知識を実際のシナリオに適用できます。",
+                    // Korean
+                    "한국인": "이러한 과정의 두드러진 특징 중 하나는 실습적 접근 방식입니다. 참가자는 다양한 Simulink 블록과 구성 요소를 실험하고, 자신의 모델을 구축하고 테스트하도록 권장됩니다. 이러한 실무 경험은 이론적 개념을 강화할 뿐만 아니라 창의성과 문제 해결 기술을 육성합니다. 또한, 이 과정은 제어 시스템 엔지니어링에서 신호 처리에 이르기까지 광범위한 응용 프로그램을 다루므로 학습자는 지식을 실제 상황에 적용할 수 있습니다.",
+                    // Spanish
+                    "Español": "Una de las características más destacadas de estos cursos es su enfoque práctico. Se anima a los participantes a experimentar con diversos bloques y componentes de Simulink, construyendo y probando sus propios modelos. Esta experiencia práctica no solo refuerza los conceptos teóricos, sino que también fomenta la creatividad y las habilidades para la resolución de problemas. Además, los cursos cubren una amplia gama de aplicaciones, desde la ingeniería de sistemas de control hasta el procesamiento de señales, lo que garantiza que los alumnos puedan aplicar sus conocimientos a situaciones del mundo real.",
+                    // Hindi
+                    "हिंदी": "इन पाठ्यक्रमों की एक खास विशेषता उनका व्यावहारिक दृष्टिकोण है। प्रतिभागियों को विभिन्न सिमुलिंक ब्लॉक और घटकों के साथ प्रयोग करने, अपने स्वयं के मॉडल बनाने और उनका परीक्षण करने के लिए प्रोत्साहित किया जाता है। यह व्यावहारिक अनुभव न केवल सैद्धांतिक अवधारणाओं को पुष्ट करता है बल्कि रचनात्मकता और समस्या-समाधान कौशल को भी बढ़ावा देता है। इसके अतिरिक्त, पाठ्यक्रम नियंत्रण प्रणाली इंजीनियरिंग से लेकर सिग्नल प्रोसेसिंग तक अनुप्रयोगों की एक विस्तृत श्रृंखला को कवर करते हैं, यह सुनिश्चित करते हुए कि शिक्षार्थी अपने ज्ञान को वास्तविक दुनिया के परिदृश्यों में लागू कर सकते हैं।",
+                    // Portuguese
+                    "Português": "Uma das características de destaque destes cursos é a sua abordagem prática. Os participantes são encorajados a experimentar vários blocos e componentes do Simulink, construindo e testando os seus próprios modelos. Esta experiência prática não só reforça conceitos teóricos, como também estimula a criatividade e a capacidade de resolução de problemas. Além disso, os cursos abrangem uma vasta gama de aplicações, desde a engenharia de sistemas de controlo ao processamento de sinais, garantindo que os alunos podem aplicar os seus conhecimentos em cenários do mundo real.",
+                    // Bengali
+                    "বাংলা": "এই কোর্সগুলির স্ট্যান্ডআউট বৈশিষ্ট্যগুলির মধ্যে একটি হল তাদের হাতে-কলমে পদ্ধতি। অংশগ্রহণকারীদের বিভিন্ন সিমুলিঙ্ক ব্লক এবং উপাদানগুলির সাথে পরীক্ষা করার জন্য, তাদের নিজস্ব মডেল তৈরি এবং পরীক্ষা করার জন্য উত্সাহিত করা হয়। এই ব্যবহারিক অভিজ্ঞতা শুধুমাত্র তাত্ত্বিক ধারণাকে শক্তিশালী করে না বরং সৃজনশীলতা এবং সমস্যা সমাধানের দক্ষতাও বৃদ্ধি করে। উপরন্তু, কোর্সগুলি কন্ট্রোল সিস্টেম ইঞ্জিনিয়ারিং থেকে শুরু করে সিগন্যাল প্রসেসিং পর্যন্ত বিস্তৃত অ্যাপ্লিকেশানগুলিকে কভার করে, যা নিশ্চিত করে যে শিক্ষার্থীরা তাদের জ্ঞান বাস্তব-বিশ্বের পরিস্থিতিতে প্রয়োগ করতে পারে।",
+                    // Arabic
+                    "عَرَبِيّ": "من بين السمات البارزة لهذه الدورات التدريبية هو نهجها العملي. يتم تشجيع المشاركين على تجربة العديد من كتل ومكونات Simulink، وبناء واختبار نماذجهم الخاصة. لا تعمل هذه التجربة العملية على تعزيز المفاهيم النظرية فحسب، بل تعزز أيضًا الإبداع ومهارات حل المشكلات. بالإضافة إلى ذلك، تغطي الدورات التدريبية مجموعة واسعة من التطبيقات، من هندسة أنظمة التحكم إلى معالجة الإشارات، مما يضمن قدرة المتعلمين على تطبيق معرفتهم على سيناريوهات العالم الحقيقي.",
+                    // Persian
+                    "فارسی": "یکی از ویژگی های برجسته این دوره ها رویکرد عملی آنهاست. شرکت کنندگان تشویق می شوند تا با بلوک ها و اجزای مختلف Simulink آزمایش کنند و مدل های خود را بسازند و آزمایش کنند. این تجربه عملی نه تنها مفاهیم نظری را تقویت می کند، بلکه خلاقیت و مهارت های حل مسئله را نیز تقویت می کند. علاوه بر این، دوره‌ها طیف گسترده‌ای از برنامه‌ها، از مهندسی سیستم‌های کنترل گرفته تا پردازش سیگنال را پوشش می‌دهند و تضمین می‌کنند که فراگیران می‌توانند دانش خود را در سناریوهای دنیای واقعی به کار ببرند.",
+                },
+                // Paragraph 3
+                {
+                    // English
+                    "English": "Beyond the core curriculum, MathWorks offers supplementary resources, such as online forums and documentation, to support learners in their journey. These additional materials provide valuable insights, troubleshooting tips, and opportunities to connect with a community of fellow Simulink users. By combining expert instruction, practical exercises, and comprehensive support, MathWorks' Simulink courses empower individuals to become proficient in this essential tool for engineers and scientists.",
+                    // German
+                    "Deutsch": "Über den Kernlehrplan hinaus bietet MathWorks ergänzende Ressourcen wie Online-Foren und Dokumentationen, um Lernende auf ihrem Weg zu unterstützen. Diese zusätzlichen Materialien bieten wertvolle Einblicke, Tipps zur Fehlerbehebung und Möglichkeiten, sich mit einer Community anderer Simulink-Benutzer zu vernetzen. Durch die Kombination von fachkundiger Anleitung, praktischen Übungen und umfassender Unterstützung versetzen die Simulink-Kurse von MathWorks Lernende in die Lage, sich dieses für Ingenieure und Wissenschaftler unverzichtbare Werkzeug zu eigen zu machen.",
+                    // Chinese
+                    "中国人": "除了核心课程外，MathWorks 还提供补充资源，例如在线论坛和文档，以支持学习者的学习。这些附加材料提供了宝贵的见解、故障排除技巧以及与其他 Simulink 用户社区建立联系的机会。通过结合专家指导、实践练习和全面支持，MathWorks 的 Simulink 课程使个人能够熟练掌握工程师和科学家的这一必备工具。",
+                    // Russian
+                    "Русский": "Помимо основной учебной программы, MathWorks предлагает дополнительные ресурсы, такие как онлайн-форумы и документация, чтобы поддержать учащихся в их путешествии. Эти дополнительные материалы предоставляют ценные идеи, советы по устранению неполадок и возможности для общения с сообществом других пользователей Simulink. Объединяя экспертные инструкции, практические упражнения и всестороннюю поддержку, курсы Simulink от MathWorks позволяют людям стать профессионалами в этом важном инструменте для инженеров и ученых.",
+                    // French
+                    "Français": "Au-delà du programme de base, MathWorks propose des ressources supplémentaires, telles que des forums en ligne et de la documentation, pour accompagner les apprenants dans leur parcours. Ces supports complémentaires fournissent des informations précieuses, des conseils de dépannage et des opportunités de connexion avec une communauté d'autres utilisateurs de Simulink. En combinant des instructions d'experts, des exercices pratiques et une assistance complète, les cours Simulink de MathWorks permettent aux individus de devenir compétents dans cet outil essentiel pour les ingénieurs et les scientifiques.",
+                    // Japanese
+                    "日本語": "MathWorks は、コアカリキュラム以外にも、オンライン フォーラムやドキュメントなどの補足リソースを提供して、学習者の学習をサポートします。これらの追加資料は、貴重な洞察、トラブルシューティングのヒント、Simulink ユーザーのコミュニティとつながる機会を提供します。専門家による指導、実践的な演習、包括的なサポートを組み合わせることで、MathWorks の Simulink コースは、エンジニアや科学者にとって不可欠なこのツールを個人が習得できるようにします。",
+                    // Korean
+                    "한국인": "핵심 커리큘럼을 넘어 MathWorks는 온라인 포럼 및 설명서와 같은 보충 리소스를 제공하여 학습자의 여정을 지원합니다. 이러한 추가 자료는 귀중한 통찰력, 문제 해결 팁 및 Simulink 사용자 커뮤니티와 연결할 수 있는 기회를 제공합니다. MathWorks의 Simulink 과정은 전문가 교육, 실습 및 포괄적인 지원을 결합하여 개인이 엔지니어와 과학자를 위한 이 필수 도구를 능숙하게 사용할 수 있도록 지원합니다.",
+                    // Spanish
+                    "Español": "Además del plan de estudios básico, MathWorks ofrece recursos complementarios, como foros en línea y documentación, para ayudar a los estudiantes en su recorrido. Estos materiales adicionales brindan información valiosa, sugerencias para la resolución de problemas y oportunidades para conectarse con una comunidad de usuarios de Simulink. Al combinar instrucción experta, ejercicios prácticos y soporte integral, los cursos de Simulink de MathWorks permiten a las personas dominar esta herramienta esencial para ingenieros y científicos.",
+                    // Hindi
+                    "हिंदी": "मुख्य पाठ्यक्रम से परे, मैथवर्क्स पूरक संसाधन प्रदान करता है, जैसे ऑनलाइन फ़ोरम और दस्तावेज़ीकरण, जो शिक्षार्थियों को उनकी यात्रा में सहायता करते हैं। ये अतिरिक्त सामग्रियाँ मूल्यवान अंतर्दृष्टि, समस्या निवारण युक्तियाँ और साथी सिमुलिंक उपयोगकर्ताओं के समुदाय से जुड़ने के अवसर प्रदान करती हैं। विशेषज्ञ निर्देश, व्यावहारिक अभ्यास और व्यापक सहायता को मिलाकर, मैथवर्क्स के सिमुलिंक पाठ्यक्रम व्यक्तियों को इंजीनियरों और वैज्ञानिकों के लिए इस आवश्यक उपकरण में कुशल बनने के लिए सशक्त बनाते हैं।",
+                    // Portuguese
+                    "Português": "Além do currículo básico, o MathWorks oferece recursos complementares, como fóruns online e documentação, para apoiar os alunos na sua jornada. Estes materiais adicionais fornecem informações valiosas, dicas para a resolução de problemas e oportunidades para se ligar a uma comunidade de outros utilizadores do Simulink. Ao combinar instrução especializada, exercícios práticos e apoio abrangente, os cursos Simulink da MathWorks capacitam os indivíduos para se tornarem proficientes nesta ferramenta essencial para engenheiros e cientistas.",
+                    // Bengali
+                    "বাংলা": "মূল পাঠ্যক্রমের বাইরে, MathWorks তাদের যাত্রায় শিক্ষার্থীদের সহায়তা করার জন্য অনলাইন ফোরাম এবং ডকুমেন্টেশনের মতো সম্পূরক সংস্থান সরবরাহ করে। এই অতিরিক্ত উপকরণগুলি মূল্যবান অন্তর্দৃষ্টি, সমস্যা সমাধানের টিপস এবং সহকর্মী Simulink ব্যবহারকারীদের সম্প্রদায়ের সাথে সংযোগ করার সুযোগ প্রদান করে। বিশেষজ্ঞের নির্দেশনা, ব্যবহারিক অনুশীলন এবং ব্যাপক সহায়তার সমন্বয়ের মাধ্যমে, ম্যাথওয়ার্কসের সিমুলিঙ্ক কোর্স ব্যক্তিদের প্রকৌশলী এবং বিজ্ঞানীদের জন্য এই অপরিহার্য সরঞ্জামটিতে দক্ষ হয়ে উঠতে সক্ষম করে।",
+                    // Arabic
+                    "عَرَبِيّ": "بالإضافة إلى المنهج الأساسي، تقدم MathWorks موارد تكميلية، مثل المنتديات والوثائق عبر الإنترنت، لدعم المتعلمين في رحلتهم. توفر هذه المواد الإضافية رؤى قيمة ونصائح لاستكشاف الأخطاء وإصلاحها وفرصًا للتواصل مع مجتمع من مستخدمي Simulink. من خلال الجمع بين التعليمات المتخصصة والتمارين العملية والدعم الشامل، تعمل دورات Simulink من MathWorks على تمكين الأفراد من إتقان هذه الأداة الأساسية للمهندسين والعلماء.",
+                    // Persian
+                    "فارسی": "فراتر از برنامه درسی اصلی، MathWorks منابع تکمیلی، مانند انجمن‌های آنلاین و مستندات را برای حمایت از زبان‌آموزان در سفرشان ارائه می‌دهد. این مطالب اضافی، بینش‌های ارزشمند، نکات عیب‌یابی و فرصت‌هایی را برای ارتباط با جامعه‌ای از کاربران دیگر سیمولینک ارائه می‌کنند. دوره‌های Simulink MathWorks با ترکیب آموزش‌های تخصصی، تمرین‌های عملی و پشتیبانی جامع، افراد را قادر می‌سازد تا در این ابزار ضروری برای مهندسان و دانشمندان مهارت پیدا کنند.",
+                },
+            ],
+            "CourseCoverImagePath": "../assets/img/Courses Covers/SDA Engineering/1 - MATLAB Simulink Onramp.webp",
+            "shortDescriptionsForCourseReviewing": {
+                // English
+                "English": "MathWorks' Simulink courses offer a comprehensive and interactive learning experience for individuals seeking to master the powerful simulation software. These courses, designed by experts in the field, provide a solid foundation in Simulink's graphical environment, enabling users to model and simulate dynamic systems efficiently.",
+                // German
+                "Deutsch": "Die Simulink-Kurse von MathWorks bieten eine umfassende und interaktive Lernerfahrung für Personen, die die leistungsstarke Simulationssoftware beherrschen möchten. Diese von Experten auf diesem Gebiet entwickelten Kurse bieten eine solide Grundlage für die grafische Umgebung von Simulink und ermöglichen Benutzern die effiziente Modellierung und Simulation dynamischer Systeme.",
+                // Chinese
+                "中国人": "MathWorks 的 Simulink 课程为希望掌握功能强大的仿真软件的个人提供全面而互动的学习体验。这些课程由该领域的专家设计，为 Simulink 的图形环境提供了坚实的基础，使用户能够高效地建模和仿真动态系统。",
+                // Russian
+                "Русский": "Курсы MathWorks Simulink предлагают комплексный и интерактивный опыт обучения для тех, кто стремится освоить мощное программное обеспечение для моделирования. Эти курсы, разработанные экспертами в этой области, обеспечивают прочную основу в графической среде Simulink, позволяя пользователям эффективно моделировать и имитировать динамические системы.",
+                // French
+                "Français": "Les cours Simulink de MathWorks offrent une expérience d'apprentissage complète et interactive aux personnes souhaitant maîtriser ce puissant logiciel de simulation. Ces cours, conçus par des experts du domaine, offrent une base solide dans l'environnement graphique de Simulink, permettant aux utilisateurs de modéliser et de simuler efficacement des systèmes dynamiques.",
+                // Japanese
+                "日本語": "MathWorks の Simulink コースは、強力なシミュレーション ソフトウェアを習得したい方のために、包括的でインタラクティブな学習体験を提供します。この分野の専門家によって設計されたこれらのコースは、Simulink のグラフィカル環境の強固な基礎を提供し、ユーザーが動的システムを効率的にモデル化およびシミュレーションできるようにします。",
+                // Korean
+                "한국인": "MathWorks의 Simulink 과정은 강력한 시뮬레이션 소프트웨어를 마스터하려는 개인에게 포괄적이고 대화형 학습 경험을 제공합니다. 이 분야의 전문가가 설계한 이 과정은 Simulink의 그래픽 환경에 대한 견고한 기초를 제공하여 사용자가 동적 시스템을 효율적으로 모델링하고 시뮬레이션할 수 있도록 합니다.",
+                // Spanish
+                "Español": "Los cursos de Simulink de MathWorks ofrecen una experiencia de aprendizaje completa e interactiva para aquellas personas que deseen dominar el potente software de simulación. Estos cursos, diseñados por expertos en el campo, proporcionan una base sólida en el entorno gráfico de Simulink, lo que permite a los usuarios modelar y simular sistemas dinámicos de manera eficiente.",
+                // Hindi
+                "हिंदी": "मैथवर्क्स के सिमुलिंक पाठ्यक्रम शक्तिशाली सिमुलेशन सॉफ़्टवेयर में महारत हासिल करने के इच्छुक व्यक्तियों के लिए एक व्यापक और इंटरैक्टिव सीखने का अनुभव प्रदान करते हैं। क्षेत्र के विशेषज्ञों द्वारा डिज़ाइन किए गए ये पाठ्यक्रम सिमुलिंक के ग्राफ़िकल वातावरण में एक ठोस आधार प्रदान करते हैं, जिससे उपयोगकर्ता गतिशील प्रणालियों को कुशलतापूर्वक मॉडल और सिम्युलेट कर सकते हैं।",
+                // Portuguese
+                "Português": "Os cursos Simulink da MathWorks oferecem uma experiência de aprendizagem abrangente e interativa para indivíduos que procuram dominar o poderoso software de simulação. Estes cursos, elaborados por especialistas na área, fornecem uma base sólida no ambiente gráfico do Simulink, permitindo aos utilizadores modelar e simular sistemas dinâmicos de forma eficiente.",
+                // Bengali
+                "বাংলা": "ম্যাথওয়ার্কসের সিমুলিঙ্ক কোর্সগুলি শক্তিশালী সিমুলেশন সফ্টওয়্যার আয়ত্ত করতে চাওয়া ব্যক্তিদের জন্য একটি ব্যাপক এবং ইন্টারেক্টিভ শেখার অভিজ্ঞতা প্রদান করে। এই ক্ষেত্রের বিশেষজ্ঞদের দ্বারা ডিজাইন করা এই কোর্সগুলি, সিমুলিংকের গ্রাফিকাল পরিবেশে একটি দৃঢ় ভিত্তি প্রদান করে, যা ব্যবহারকারীদের দক্ষতার সাথে গতিশীল সিস্টেমের মডেল এবং অনুকরণ করতে সক্ষম করে।",
+                // Arabic
+                "عَرَبِيّ": "توفر دورات Simulink من MathWorks تجربة تعليمية شاملة وتفاعلية للأفراد الذين يسعون إلى إتقان برنامج المحاكاة القوي. توفر هذه الدورات، التي صممها خبراء في هذا المجال، أساسًا قويًا في البيئة الرسومية لبرنامج Simulink، مما يتيح للمستخدمين نمذجة ومحاكاة الأنظمة الديناميكية بكفاءة.",
+                // Persian
+                "فارسی": "دوره های Simulink MathWorks یک تجربه یادگیری جامع و تعاملی را برای افرادی که به دنبال تسلط بر نرم افزار قدرتمند شبیه سازی هستند ارائه می دهد. این دوره‌ها که توسط متخصصان این حوزه طراحی شده‌اند، پایه‌ای محکم در محیط گرافیکی Simulink فراهم می‌کنند و کاربران را قادر می‌سازند تا سیستم‌های پویا را به‌طور کارآمد مدل‌سازی و شبیه‌سازی کنند.",
+            },
+            "DetailPageScreenToShowEachBookDetails": "CRs/SDA Engineering/1 - MATLAB Simulink Onramp/1 - MATLAB Simulink Onramp.html",
+        },
     ],
     // Mechanical Engineer
     "Mechanical Engineer": [

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Flutter Complete Guide</title>
+    <meta name="twitter:description" content="My Portfolio Website.">
+    <meta name="twitter:image" content="../../../../assets/img/Logo.svg">
+    <meta name="twitter:title" content="Muhammad Husain Abootalebi ">
+    <meta name="description" content="Flutter complete guide is comprehensive guide to learn flutter.">
+    <link rel="icon" type="image/svg+xml" sizes="87x42" href="../../../../assets/img/Logo.svg">
+    <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../assets/css/A%20Titraj%201.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri&amp;subset=arabic&amp;display=swap">
+    <link rel="stylesheet" href="../../../../assets/css/B%20Nazanin.css">
+    <link rel="stylesheet" href="../../../../assets/css/Black%20Han%20Sans.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galada&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gowun+Batang&amp;subset=korean&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hina+Mincho&amp;subset=japanese&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lalezar&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lilita+One&amp;display=swap">
+    <link rel="stylesheet" href="../../../../assets/css/Ma%20Shan%20Zheng.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+Bengali&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika&amp;display=swap">
+    <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../../../../assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="../../../../assets/css/Bold-BS4-Animated-Back-To-Top.css">
+    <link rel="stylesheet" href="../../../../assets/css/CRSs/SDA%20Engineering/1%20-%20MATLAB%20Simulink%20Onramp/1%20-%20MATLAB%20Simulink%20Onramp.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body shadow-lg" id="top-navigation-bar-individual-bar" style="padding-left: 50px;width: 100%;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="../../../../index.html"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgba(13,110,253,0);padding-left: 0px;margin-left: -38px;"><img src="../../../../assets/img/Logo.svg" width="46" height="22"><img class="ms-4" src="../../../../assets/img/Name%20Logo.svg" width="93" height="48"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" id="navbar-toggle-button" style="border-color: rgba(0,0,0,0);background: #000000;"><span class="visually-hidden">Toggle navigation</span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-list text-center text-primary d-block" style="--bs-primary: #FCA311;--bs-primary-rgb: 252,163,17;font-weight: bold;">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
+                </svg></button>
+            <div class="collapse navbar-collapse d-xxl-flex align-items-xxl-center" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item mt-1 mb-1" id="navigation-top-bar-home-link-to-go-to-the-home-page"><a class="nav-link active" id="Home-button-link-to-go-to-the-first-pagea" href="../../../../index.html" style="font-family: 'Lilita One', serif;color: #000000;">Home</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item dropdown mt-1 mb-1" id="Skills-Drop-Down-top-nav-bar" title="Change Skill" style="--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;"><a class="dropdown-toggle nav-link d-xxl-flex justify-content-xxl-center align-items-xxl-center" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="DropDownValueShowingSkills" href="#" style="font-family: 'Lilita One', serif;color: #fca311;margin-right: 0px;">UI &amp; UX Designer</a>
+                        <div class="dropdown-menu shadow-lg" id="skillssss-drop-down-opened-to-style" style="border-color: rgba(20,114,208,0);border-radius: 15px;background: #ffffff;margin-bottom: 10px;"><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);">UI &amp; UX Designer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;">Flutter Developer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Full Stack Developer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Android Developer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">AI Engineer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Industrial Designer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Self-Driving Automobile Engineer</a><a class="dropdown-item" id="skill-name-drop-down-menu-item" style="font-family: Roboto, sans-serif;font-size: 80%;">Mechanical Engineer</a></div>
+                    </li>
+                    <li class="nav-item dropdown justify-content-xxl-center align-items-xxl-center mt-1 mb-1" id="Main-Intro-language-individual-skills-drop-down-change-languages" title="Change Language" style="--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;"><a class="dropdown-toggle nav-link d-flex d-xxl-flex align-items-center justify-content-xxl-center align-items-xxl-center" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="ForToggling" style="font-family: 'Lilita One', serif;color: rgb(0,0,0);margin-left: 0px;" href="#"><span class="d-flex d-xxl-flex align-items-center align-items-xxl-center"><i class="material-icons d-xxl-flex justify-content-xxl-center align-items-xxl-center">language</i>English</span></a>
+                        <div class="dropdown-menu shadow-lg" id="languagesssss-drop-down-menu-items" style="border-color: rgba(20,114,208,0);border-radius: 15px;background: #ffffff;margin-bottom: 10px;"><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;font-weight: bold;color: rgb(252,163,17);">English</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;--bs-primary: #fca311;--bs-primary-rgb: 252,163,17;max-width: 0px;">Deutsch</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">中国人</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Русский</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Français</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">日本語</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">한국인</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Español</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">हिंदी</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">Português</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">বাংলা</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">عَرَبِيّ</a><a class="dropdown-item" href="#" style="font-family: Roboto, sans-serif;font-size: 80%;">فارسی</a></div>
+                    </li>
+                    <li class="nav-item mt-1 mb-1"><a class="nav-link" id="download-my-resume-pdf-id-tag-button-link" href="#" style="font-family: 'Lilita One', serif;color: rgb(252,163,17);">Download My Resume</a></li>
+                </ul><a href="#" style="background: url(&quot;../../../../assets/img/Instagram%20Icon.svg&quot;);"></a>
+                <hr class="d-xxl-flex align-items-xxl-center visually-hidden vr" style="margin-right: 0.1%;padding-right: 0.25%;margin-top: 0px;margin-bottom: 0px;border-radius: 300px;background: #adadad;height: 0%;padding-bottom: 3%;padding-top: 1%;"><a class="mt-1 mb-1" href="#end-section-of-page"><button class="btn btn-primary" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" id="contact-me-nav-bar" type="button" style="background: rgb(0,0,0);border-radius: 10px;font-family: 'Lilita One', serif;font-size: 14px;margin-left: 0px;" title="My Contact Information" data-bs-target="&quot;end-section-of-page&quot;">Contact Me</button></a>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex d-xxl-flex align-items-center align-items-sm-center align-items-md-center align-items-lg-center align-items-xl-center justify-content-xxl-start table-responsive mt-4 mb-4 ms-4" id="top-indicatotor-div-to-show-which-skill-is-selected" style="background: linear-gradient(#ffffff, white);height: auto;width: 85vw;"><span style="font-family: 'Lilita One', serif;"><a class="text-nowrap d-flex align-items-center" id="link-button-to-go-the-individual-skill-page-top-indicatotor" href="" style="color: rgb(0,0,0);width: auto;">Self-Driving Automobile Engineer</a></span><span class="d-inline-flex align-items-center align-items-sm-center align-items-md-center align-items-lg-center align-items-xl-center align-items-xxl-center" style="width: auto;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-caret-right-fill d-flex align-items-center" id="right-arrow-book-navigation-bar-icon" style="font-size: 17px;width: auto;">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            </svg><a class="text-nowrap" id="Going-to-the-books-row-table" href="../../DetailScreen/DetailSkillsIndividuals.html?direction=UI%20%26%20UX%20Designer&amp;language=English" style="text-align: right;color: rgb(0,0,0);font-family: 'Lilita One', serif;width: auto;">Courses</a></span><span class="text-nowrap d-flex flex-row justify-content-start align-items-center" id="Books-top-navigation-just-for-containingg" style="font-family: 'Lilita One', serif;color: rgb(252,163,17);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-caret-right-fill d-flex align-items-center" id="right-arrow-book-navigation-bar-icon" style="font-size: 17px;color: rgb(0,0,0);">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            </svg></span><span class="text-nowrap d-flex align-items-center" id="Books-top-navigation-just-for-containingg-1" style="font-family: 'Lilita One', serif;color: rgb(252,163,17);">Simulink Onramp</span></div>
+    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center justify-content-xxl-center align-items-xxl-center p-4" id="book-image-cover-div-element-container-of-book-cover" style="height: auto;background: #ffffff;"><img id="book-image-cover-detail-cover" class="m-4" src="../../../../assets/img/Courses%20Covers/SDA%20Engineering/1%20-%20MATLAB%20Simulink%20Onramp.webp" style="border-radius: 20px;box-shadow: 0px 0px 17px 20px rgba(0,0,0,0.2);"></div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Course Name:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;">Simulink Onramp</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Instructor Name:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;">Alisha Schor</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Course Duration:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;">2 hours</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Platform:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;">MathWorks</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Year Number:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;">2024</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="text-end tags-intros" style="font-family: 'Lilita One', serif;">Programming Languages:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;">MATLAB and Simulink</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Table of Contents:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="information-information-7" style="font-family: Roboto, sans-serif;">&nbsp; &nbsp; &nbsp;</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 1:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Course Overview</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Course Overview.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Running Simulations.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 2:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Simulink Graphical Environment</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Blocks and Parameters.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Identifying Blocks and Signals.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 3:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Inspecting Signals</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Inspecting Signals.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Simulink Scopes Overview.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 4:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Basic Algorithms</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Mathematical Operators.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Basic Logic.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Conditional Statements.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 5:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Obtaining Help</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Obtaining Help.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 6:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Project - Automotive Performance Modes</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Project - Automotive Performance Modes.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 7:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Simulink and MATLAB</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">MATLAB Workspace Variables.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">MATLAB Function Block.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 8:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Dynamic systems in Simulink</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Dynamic Systems.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 9:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Discrete systems</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Discrete Systems.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 10:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Continuous systems</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Continuous Systems.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 11:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Simulation Time</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Simulation Time.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 12:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Project - Modeling a Thermostat</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Project - Thermostat.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 13:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Project - Peregrine Falcon Dive</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Project - Peregrine Falcon Dive.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Section 14:</small></div>
+                <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="section-name-title-at-the-top-of-the-contents" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Conclusion</small></div>
+            </div>
+        </div>
+        <div style="width: auto;height: auto;">
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Additional Resources.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-start left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-camera-video-fill videos-icons-right-section" style="color: rgb(252,163,17);">
+                                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"></path>
+                                </svg></small></div>
+                        <div class="col-md-6 col-xxl-9 d-inline-flex d-xxl-flex flex-column justify-content-xxl-start align-items-xxl-start"><small class="video-title-text-name-of-file" style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;color: rgb(35,35,35);">Survey.mp4</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: 97px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">Description:</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="information-information" style="font-family: Roboto, sans-serif;">&nbsp; &nbsp; &nbsp;</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="Chapter-information-short-description-paragraph-end-discription-paragraph" class="Chapter-information-short-description-paragraph-end-discription-paragraph-1 paragraph-short-descriptions" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">MathWorks' Simulink courses offer a comprehensive and interactive learning experience for individuals seeking to master the powerful simulation software. These courses, designed by experts in the field, provide a solid foundation in Simulink's graphical environment, enabling users to model and simulate dynamic systems efficiently.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="Chapter-information-short-description-paragraph-end-discription" class="Chapter-information-short-description-paragraph-end-discription-paragraph-2 paragraph-short-descriptions" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">One of the standout features of these courses is their hands-on approach. Participants are encouraged to experiment with various Simulink blocks and components, building and testing their own models. This practical experience not only reinforces theoretical concepts but also fosters creativity and problem-solving skills. Additionally, the courses cover a wide range of applications, from control systems engineering to signal processing, ensuring that learners can apply their knowledge to real-world scenarios.</small></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center p-3" style="height: auto;background: #ffffff;padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</small></div>
+                <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small id="Chapter-information-short-description-paragraph-end-discription" class="Chapter-information-short-description-paragraph-end-discription-paragraph-3 paragraph-short-descriptions" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">Beyond the core curriculum, MathWorks offers supplementary resources, such as online forums and documentation, to support learners in their journey. These additional materials provide valuable insights, troubleshooting tips, and opportunities to connect with a community of fellow Simulink users. By combining expert instruction, practical exercises, and comprehensive support, MathWorks' Simulink courses empower individuals to become proficient in this essential tool for engineers and scientists.</small></div>
+            </div>
+        </div>
+    </div>
+    <section class="d-flex d-xxl-flex flex-column justify-content-xxl-center align-items-xxl-center p-3" style="background: rgb(255,255,255);width: auto;">
+        <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;min-width: 90vw;max-width: 100vw;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="tags-intros" style="font-family: 'Lilita One', serif;">About the Instructor:</small></div>
+                    <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">&nbsp; &nbsp; &nbsp; &nbsp;</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex d-xxl-flex justify-content-center justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="background: rgba(255,255,255,0);margin-top: 30px;margin-bottom: 30px;"><img id="instructor-image-id-profile-to-beChanged" src="../../../../assets/img/Instructors%20Images/SDA%20Engineering/1%20-%20MATLAB%20Simulink%20Onramp.webp" style="border-radius: 1000000px;"></div>
+        <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;max-width: 100vw;min-width: 90vw;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="text-nowrap tags-intros" style="font-family: 'Lilita One', serif;">Name:</small></div>
+                    <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">Alisha Schor</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;min-width: 90vw;max-width: 100vw;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="text-nowrap tags-intros" style="font-family: 'Lilita One', serif;">Skills:</small></div>
+                    <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">Mechanical Engineer</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;min-width: 90vw;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="text-nowrap tags-intros" style="font-family: 'Lilita One', serif;">Level:</small></div>
+                    <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="d-flex flex-row short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">Developer in MathWorks</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;min-width: 90vw;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="text-nowrap tags-intros" style="font-family: 'Lilita One', serif;">About:</small></div>
+                    <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="d-flex flex-row short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</small></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center video-courses-rows-records" style="height: auto;background: #ffffff;padding-bottom: 30px;min-width: 90vw;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xxl-3 d-xxl-flex justify-content-xxl-end align-items-xxl-center left-column-tags-to-find"><small class="text-nowrap tags-intros" style="font-family: 'Lilita One', serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</small></div>
+                    <div class="col-md-6 col-xxl-8 d-xxl-flex justify-content-xxl-start align-items-xxl-center"><small class="d-flex flex-row paragraph-short-descriptions short-description-and-some-numbers-text-content-1 short-description-and-some-numbers-texts" style="font-family: Roboto, sans-serif;color: rgb(130,130,130);">Alisha Schor is an online course developer at MathWorks. She creates learning content related to physical modeling (dynamic systems) and controls. She holds a Ph.D. in Mechanical Engineering from MIT. Her research focused on bioinstrumentation using microfluidics, with the primary goal of using the electrical properties of cells to select candidates for biodiesel production. Outside of an enthusiasm for engineering and STEM outreach, Alisha enjoys rock climbing, skiing/snowboarding, and dabbling in woodworking.</small></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="height: auto;background: #ffffff;padding-bottom: 30px;padding-left: 20vh;"><a id="Back-button-to-go-to-the-books-row-list-table-of-contents-linkkkkkkkks" href="#end-section-of-page"><button class="btn btn-primary d-xxl-flex justify-content-xxl-center align-items-xxl-center" id="Back-button-to-go-to-the-books-row-list-table-of-contents" type="button" style="background: #fca311;border-radius: 6px;font-family: 'Lilita One', serif;font-size: 14px;margin-left: 0px;width: 100px;border-color: rgba(255,255,255,0);color: rgb(0,0,0);"><i class="icon ion-arrow-left-b" style="padding-right: 7px;"></i>&nbsp;Back</button></a></div>
+    <section class="text-white d-xxl-flex" id="end-section-of-page" style="padding-bottom: 0px;background: linear-gradient(black, #000000);border-radius: -1px;">
+        <div class="container-fluid" style="padding-left: 0px;padding-right: 0px;height: 100vh;border-radius: 0px;">
+            <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center" id="all-rights-reserved-copy-right-symbol" style="background: url(&quot;../../../../assets/img/End%20Main%20Page%20-%20BC.svg&quot;) bottom left / 90vw no-repeat, linear-gradient(black, #000000);height: 100vh;padding-left: 0px;border-radius: -7px;">
+                <div class="row d-inline" style="width: 80vw;height: 50vh;">
+                    <div class="col d-flex d-xxl-flex justify-content-center justify-content-xxl-center align-items-xxl-center">
+                        <h1 class="display-1" id="let-s-talk-third-section-the-contact-informations" style="font-family: 'Lilita One', serif;font-size: 10vmin;">Let's Talk!</h1>
+                    </div>
+                    <div class="col d-flex d-xxl-flex justify-content-center justify-content-xxl-center">
+                        <div class="row">
+                            <div class="col"><a class="btn btn-primary btn-lg me-2 fourth-view-talk-to-me-button-contact-informations" role="button" href="mailto:mh.aboutalebi.business@gmail.com" style="font-family: 'Lilita One', serif;background: rgba(252,163,17,0);color: rgb(252,163,17);border-color: rgba(252,163,17,0);padding-left: 0px;font-size: 2.5vmin;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none" style="color: rgb(252,163,17);font-size: 150%;">
+
+                                        <path d="M2.00333 5.88355L9.99995 9.88186L17.9967 5.8835C17.9363 4.83315 17.0655 4 16 4H4C2.93452 4 2.06363 4.83318 2.00333 5.88355Z" fill="currentColor"></path>
+                                        <path d="M18 8.1179L9.99995 12.1179L2 8.11796V14C2 15.1046 2.89543 16 4 16H16C17.1046 16 18 15.1046 18 14V8.1179Z" fill="currentColor"></path>
+                                    </svg>&nbsp; Email&nbsp;&nbsp;</a></div>
+                        </div>
+                    </div>
+                    <div class="col d-flex d-xxl-flex justify-content-center justify-content-xxl-center">
+                        <div class="row">
+                            <div class="col"><a class="btn btn-primary btn-lg me-2 fourth-view-talk-to-me-button-contact-informations" role="button" href="https://t.me/MHAboutalebi" style="font-family: 'Lilita One', serif;background: rgba(252,163,17,0);color: rgb(252,163,17);border-color: rgba(252,163,17,0);padding-left: 0px;font-size: 2.5vmin;" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telegram" style="color: rgb(252,163,17);font-size: 150%;">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"></path>
+                                    </svg>&nbsp; Telegram</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-xxl-flex align-items-xxl-end m-3">
+                    <div class="col d-flex d-xxl-flex justify-content-center align-items-center align-items-xxl-center" style="height: 100%;">
+                        <p class="text-center d-flex justify-content-center" id="all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved" style="font-family: 'Roboto Condensed', sans-serif;color: rgba(255,255,255,0.5);"><span style="color: rgba(255, 255, 255, 0.5);">© 2024 Muhammad Husain Aboutalebi. All rights reserved.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image: url(&quot;../../../../assets/img/cd-top-arrow.svg&quot;);border-radius: 100vw;" href="#0">Top</a>
+    <script src="../../../../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/bs-init.js"></script>
+    <script src="../../../../assets/js/Bold-BS4-Animated-Back-To-Top-backtotop.js"></script>
+    <script src="../../../../assets/js/Courses/CoursesRecords/SDA%20Engineering/1%20-%20MATLAB%20Simulink%20Onramp/1%20-%20MATLAB%20Simulink%20Onramp.js"></script>
+    <script src="../../../../assets/js/Top%20Padding.js"></script>
+</body>
+
+</html>
