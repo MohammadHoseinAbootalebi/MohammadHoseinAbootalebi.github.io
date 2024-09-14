@@ -371,14 +371,14 @@ var BoldFirstHeireachyFont = {
         'fontFamily': "'Lalezar', serif",
     },
     'FirstViewSkillImageCardImage': {
-        "UI & UX Designer": "../assets/img/Book Covers/FirstViewCardSkillsImages/UI - UX Designer.jpg",
-        "Flutter Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Flutter Card.jpg",
-        "Full Stack Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Full Stack Developer.jpg",
-        "Android Developer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Android Developer.jpg",
-        "AI Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/AI Engineer.jpeg",
-        "Industrial Designer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Industrial Designer.jpg",
-        "Self-Driving Automobile Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/SDC Engineer.jpeg",
-        "Mechanical Engineer": "../assets/img/Book Covers/FirstViewCardSkillsImages/Mechanical Engineer Simulation.png",
+        "UI & UX Designer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/UI - UX Designer.jpg",
+        "Flutter Developer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/Flutter Card.jpg",
+        "Full Stack Developer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/Full Stack Developer.jpg",
+        "Android Developer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/Android Developer.jpg",
+        "AI Engineer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/AI Engineer.jpeg",
+        "Industrial Designer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/Industrial Designer.jpg",
+        "Self-Driving Automobile Engineer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/SDC Engineer.jpeg",
+        "Mechanical Engineer": "../../../assets/img/Book Covers/FirstViewCardSkillsImages/Mechanical Engineer Simulation.png",
     },
 };
 
@@ -395,7 +395,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "On this page, you can see the complete list of my books which I read about artificial intelligence engineering and its related topics.",
             "Industrial Designer": "On this page, you can see the complete list of my books which I read about industrial design and its related topics.",
             "Self-Driving Automobile Engineer": "On this page, you can see the complete list of my books which I read about self-driving automobile engineering and its related topics.",
-            "Mechanical Engineer": "On this page, you can see the complete list of my books which I read about mechanical engineering and its related topics.",
+            "Mechanical Engineer": "On this page, you can explore a complete showcase of my mechanical engineering projects. Each project reflects my dedication to continuous learning and innovation.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "As a Senior UI/UX Designer, I specialize in creating intuitive and engaging user interfaces that enhance user satisfaction. My approach integrates user research, design psychology, and the latest design trends to produce innovative and accessible designs. With a strong portfolio of successful projects, I have a proven ability to deliver designs that are not only aesthetically pleasing but also functionality seamless, resulting in improved user experiences and business outcomes.",
@@ -450,7 +450,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "Auf dieser Seite sehen Sie die vollständige Liste meiner Bücher, die ich über künstliche Intelligenz und verwandte Themen gelesen habe.",
             "Industrial Designer": "Auf dieser Seite sehen Sie die vollständige Liste meiner Bücher, die ich über Industriedesign und verwandte Themen gelesen habe.",
             "Self-Driving Automobile Engineer": "Auf dieser Seite finden Sie die vollständige Liste meiner Bücher, die ich über die Entwicklung selbstfahrender Autos und verwandte Themen gelesen habe.",
-            "Mechanical Engineer": "Auf dieser Seite sehen Sie die vollständige Liste meiner Bücher, die ich über Maschinenbau und verwandte Themen gelesen habe.",
+            "Mechanical Engineer": "Auf dieser Seite können Sie eine vollständige Übersicht meiner Maschinenbauprojekte sehen. Jedes Projekt spiegelt mein Engagement für kontinuierliches Lernen und Innovation wider.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "Als Senior UI/UX Designer bin ich auf die Erstellung intuitiver und ansprechender Benutzeroberflächen spezialisiert, die die Benutzerzufriedenheit steigern. Mein Ansatz integriert Benutzerforschung, Designpsychologie und die neuesten Designtrends, um innovative und zugängliche Designs zu erstellen. Mit einem umfangreichen Portfolio erfolgreicher Projekte verfüge ich nachweislich über die Fähigkeit, Designs zu liefern, die nicht nur ästhetisch ansprechend, sondern auch nahtlos funktional sind, was zu verbesserten Benutzererlebnissen und Geschäftsergebnissen führt.",
@@ -505,7 +505,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "在此页面上，您可以看到我阅读的有关人工智能工程及其相关主题的书籍的完整列表。",
             "Industrial Designer": "在此页面上，您可以看到我阅读的有关工业设计及其相关主题的书籍的完整列表。",
             "Self-Driving Automobile Engineer": "在此页面上，您可以看到我阅读的有关自动驾驶汽车工程及其相关主题的书籍的完整列表。",
-            "Mechanical Engineer": "在此页面上，您可以看到我阅读的有关机械工程及其相关主题的书籍的完整列表。",
+            "Mechanical Engineer": "在此页面上，您可以探索我的完整机械工程项目展示。每个项目都体现了我对不断学习和创新的奉献精神。",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "作为一名高级 UI/UX 设计师，我专注于创建直观且引人入胜的用户界面，以提高用户满意度。 我的方法整合了用户研究、设计心理学和最新的设计趋势，以产生创新且易于理解的设计。 凭借强大的成功项目组合，我有能力提供不仅美观而且功能无缝的设计，从而改善用户体验和业务成果。",
@@ -560,7 +560,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "На этой странице вы можете увидеть полный список моих книг о разработке искусственного интеллекта и связанных с ней темах, которые я прочитал.",
             "Industrial Designer": "На этой странице вы можете увидеть полный список моих книг о промышленном дизайне и связанных с ним темах, которые я прочитал.",
             "Self-Driving Automobile Engineer": "На этой странице вы можете увидеть полный список моих книг о беспилотных автомобилях и связанных с ними темах, которые я прочитал.",
-            "Mechanical Engineer": "На этой странице вы можете увидеть полный список моих книг о машиностроении и связанных с ним темах, которые я прочитал.",
+            "Mechanical Engineer": "На этой странице вы можете изучить полную выставку моих проектов в области машиностроения. Каждый проект отражает мою приверженность непрерывному обучению и инновациям.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "Как старший UI/UX-дизайнер, я специализируюсь на создании интуитивно понятных и привлекательных пользовательских интерфейсов, которые повышают удовлетворенность пользователей. Мой подход объединяет исследования пользователей, психологию дизайна и последние тенденции дизайна для создания инновационных и доступных проектов. Обладая обширным портфолио успешных проектов, я доказал свою способность создавать проекты, которые не только эстетически приятны, но и безупречны по функциональности, что приводит к улучшению пользовательского опыта и бизнес-результатов.",
@@ -615,7 +615,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "Sur cette page, vous pouvez voir la liste complète de mes livres que j'ai lus sur l'ingénierie de l'intelligence artificielle et ses sujets connexes.",
             "Industrial Designer": "Sur cette page, vous pouvez voir la liste complète de mes livres que j'ai lus sur le design industriel et ses sujets connexes.",
             "Self-Driving Automobile Engineer": "Sur cette page, vous pouvez voir la liste complète de mes livres que j'ai lus sur l'ingénierie automobile autonome et ses sujets connexes.",
-            "Mechanical Engineer": "Sur cette page, vous pouvez voir la liste complète de mes livres que j'ai lus sur le génie mécanique et ses sujets connexes.",
+            "Mechanical Engineer": "Sur cette page, vous pouvez découvrir une présentation complète de mes projets d'ingénierie mécanique. Chaque projet reflète mon dévouement à l'apprentissage continu et à l'innovation.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "En tant que Senior UI/UX Designer, je me spécialise dans la création d'interfaces utilisateur intuitives et attrayantes qui améliorent la satisfaction des utilisateurs. Mon approche intègre la recherche sur les utilisateurs, la psychologie du design et les dernières tendances du design pour produire des designs innovants et accessibles. Avec un solide portefeuille de projets réussis, j'ai une capacité avérée à proposer des conceptions non seulement esthétiques, mais également fonctionnelles, améliorant ainsi l'expérience utilisateur et les résultats commerciaux.",
@@ -670,7 +670,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "このページでは、私が人工知能工学とその関連トピックについて読んだ本の完全なリストを見ることができます。",
             "Industrial Designer": "このページでは、私が工業デザインとその関連トピックについて読んだ本の完全なリストを見ることができます。",
             "Self-Driving Automobile Engineer": "このページでは、自動運転自動車工学とその関連トピックについて私が読んだ本の完全なリストを見ることができます。",
-            "Mechanical Engineer": "このページでは、私が機械工学とその関連トピックについて読んだ本の完全なリストを見ることができます。",
+            "Mechanical Engineer": "このページでは、私の機械工学プロジェクトの完全なショーケースをご覧いただけます。各プロジェクトは、継続的な学習と革新に対する私の献身を反映しています。",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "シニア ユーザー インターフェイスおよびユーザー エクスペリエンス デザイナーとして、私はユーザーの満足度を高める直感的で魅力的なユーザー インターフェイスの作成を専門としています。 私のアプローチは、ユーザー調査、デザイン心理学、最新のデザイントレンドを統合して、革新的でアクセスしやすいデザインを生み出します。 成功したプロジェクトの強力なポートフォリオにより、私は見た目が美しいだけでなく、シームレスな機能を備えたデザインを提供し、その結果、ユーザー エクスペリエンスとビジネス成果が向上するという実証済みの能力を持っています。",
@@ -725,7 +725,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "이 페이지에서는 인공 지능 공학 및 관련 주제에 대해 내가 읽은 책의 전체 목록을 볼 수 있습니다.",
             "Industrial Designer": "이 페이지에서는 산업 디자인 및 관련 주제에 관해 내가 읽은 책의 전체 목록을 볼 수 있습니다.",
             "Self-Driving Automobile Engineer": "이 페이지에서는 자율주행 자동차 공학 및 관련 주제에 대해 내가 읽은 책의 전체 목록을 볼 수 있습니다.",
-            "Mechanical Engineer": "이 페이지에서는 기계 공학 및 관련 주제에 관해 내가 읽은 책의 전체 목록을 볼 수 있습니다.",
+            "Mechanical Engineer": "이 페이지에서는 내 기계 공학 프로젝트의 전체 쇼케이스를 살펴볼 수 있습니다. 각 프로젝트는 지속적인 학습과 혁신에 대한 내 헌신을 반영합니다.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "저는 수석 사용자 인터페이스 및 사용자 경험 디자이너로서 사용자 만족도를 높이는 직관적이고 매력적인 사용자 인터페이스를 만드는 것을 전문으로 합니다. 나의 접근 방식은 사용자 연구, 디자인 심리학, 최신 디자인 트렌드를 통합하여 혁신적이고 접근하기 쉬운 디자인을 만들어냅니다. 성공적인 프로젝트로 구성된 강력한 포트폴리오를 통해 저는 미학적으로 만족스러울 뿐만 아니라 기능적으로도 원활한 디자인을 제공하여 사용자 경험과 비즈니스 성과를 향상시킬 수 있는 입증된 능력을 보유하고 있습니다.",
@@ -780,7 +780,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "En esta página puedes ver la lista completa de mis libros que leí sobre ingeniería de inteligencia artificial y sus temas relacionados.",
             "Industrial Designer": "En esta página puedes ver la lista completa de mis libros que leí sobre diseño industrial y sus temas relacionados.",
             "Self-Driving Automobile Engineer": "En esta página, puede ver la lista completa de mis libros que leí sobre ingeniería de automóviles autónomos y sus temas relacionados.",
-            "Mechanical Engineer": "En esta página puedes ver la lista completa de mis libros que leí sobre ingeniería mecánica y sus temas relacionados.",
+            "Mechanical Engineer": "En esta página, puedes explorar una muestra completa de mis proyectos de ingeniería mecánica. Cada proyecto refleja mi dedicación al aprendizaje continuo y la innovación.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "Como diseñador sénior de interfaces de usuario y experiencias de usuario, me especializo en la creación de interfaces de usuario intuitivas y atractivas que mejoran la satisfacción del usuario. Mi enfoque integra la investigación de usuarios, la psicología del diseño y las últimas tendencias de diseño para producir diseños innovadores y accesibles. Con una sólida cartera de proyectos exitosos, tengo una capacidad comprobada para ofrecer diseños que no solo son estéticamente agradables sino que también funcionan perfectamente, lo que resulta en mejores experiencias de usuario y resultados comerciales.",
@@ -835,7 +835,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "इस पृष्ठ पर आप मेरी उन पुस्तकों की पूरी सूची देख सकते हैं जो मैंने कृत्रिम बुद्धिमत्ता इंजीनियरिंग और इससे संबंधित विषयों पर पढ़ी हैं।",
             "Industrial Designer": "इस पृष्ठ पर आप मेरी उन पुस्तकों की पूरी सूची देख सकते हैं जो मैंने औद्योगिक डिजाइन और इससे संबंधित विषयों पर पढ़ी हैं।",
             "Self-Driving Automobile Engineer": "इस पृष्ठ पर आप मेरी पुस्तकों की पूरी सूची देख सकते हैं जो मैंने स्व-चालित ऑटोमोबाइल इंजीनियरिंग और इससे संबंधित विषयों पर पढ़ी हैं।",
-            "Mechanical Engineer": "इस पृष्ठ पर आप मेरी उन पुस्तकों की पूरी सूची देख सकते हैं जो मैंने मैकेनिकल इंजीनियरिंग और इससे संबंधित विषयों पर पढ़ी हैं।",
+            "Mechanical Engineer": "इस पेज पर, आप मेरी मैकेनिकल इंजीनियरिंग परियोजनाओं का पूरा प्रदर्शन देख सकते हैं। प्रत्येक परियोजना निरंतर सीखने और नवाचार के प्रति मेरे समर्पण को दर्शाती है।",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "एक वरिष्ठ यूजर इंटरफेस और यूजर एक्सपीरियंस डिजाइनर के रूप में, मैं सहज और आकर्षक यूजर इंटरफेस बनाने में माहिर हूं जो उपयोगकर्ता की संतुष्टि को बढ़ाता है। मेरा दृष्टिकोण नवीन और सुलभ डिज़ाइन तैयार करने के लिए उपयोगकर्ता अनुसंधान, डिज़ाइन मनोविज्ञान और नवीनतम डिज़ाइन रुझानों को एकीकृत करता है। सफल परियोजनाओं के एक मजबूत पोर्टफोलियो के साथ, मेरे पास ऐसे डिज़ाइन देने की सिद्ध क्षमता है जो न केवल सौंदर्य की दृष्टि से मनभावन हैं, बल्कि कार्यक्षमता में भी सहज हैं, जिसके परिणामस्वरूप उपयोगकर्ता अनुभव और व्यावसायिक परिणाम बेहतर होते हैं।",
@@ -890,7 +890,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "Nesta página você pode ver a lista completa dos meus livros que li sobre engenharia de inteligência artificial e seus tópicos relacionados.",
             "Industrial Designer": "Nesta página você pode ver a lista completa dos meus livros que li sobre design industrial e temas relacionados.",
             "Self-Driving Automobile Engineer": "Nesta página você pode ver a lista completa dos meus livros que li sobre engenharia automobilística autônoma e tópicos relacionados.",
-            "Mechanical Engineer": "Nesta página você pode ver a lista completa dos meus livros que li sobre engenharia mecânica e assuntos relacionados.",
+            "Mechanical Engineer": "Nesta página pode explorar uma montra completa dos meus projetos de engenharia mecânica. Cada projeto reflete a minha dedicação à aprendizagem e inovação contínuas.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "Como designer sênior de interface de usuário e experiência do usuário, me especializo na criação de interfaces de usuário intuitivas e envolventes que aumentam a satisfação do usuário. Minha abordagem integra pesquisa de usuários, psicologia de design e as últimas tendências de design para produzir designs inovadores e acessíveis. Com um forte portfólio de projetos bem-sucedidos, tenho capacidade comprovada de entregar designs que não são apenas esteticamente agradáveis, mas também funcionais, resultando em melhores experiências de usuário e resultados de negócios.",
@@ -945,7 +945,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "এই পৃষ্ঠায়, আপনি আমার বইগুলির সম্পূর্ণ তালিকা দেখতে পারেন যা আমি কৃত্রিম বুদ্ধিমত্তা প্রকৌশল এবং এর সাথে সম্পর্কিত বিষয়গুলি সম্পর্কে পড়েছি।",
             "Industrial Designer": "এই পৃষ্ঠায়, আপনি আমার বইগুলির সম্পূর্ণ তালিকা দেখতে পারেন যা আমি শিল্প নকশা এবং এর সম্পর্কিত বিষয়গুলি সম্পর্কে পড়েছি।",
             "Self-Driving Automobile Engineer": "এই পৃষ্ঠায়, আপনি আমার বইগুলির সম্পূর্ণ তালিকা দেখতে পারেন যা আমি স্ব-ড্রাইভিং অটোমোবাইল ইঞ্জিনিয়ারিং এবং এর সম্পর্কিত বিষয়গুলি সম্পর্কে পড়েছি।",
-            "Mechanical Engineer": "এই পৃষ্ঠায়, আপনি আমার বইগুলির সম্পূর্ণ তালিকা দেখতে পারেন যা আমি যান্ত্রিক প্রকৌশল এবং এর সম্পর্কিত বিষয়গুলি সম্পর্কে পড়েছি।",
+            "Mechanical Engineer": "এই পৃষ্ঠায়, আপনি আমার যান্ত্রিক প্রকৌশল প্রকল্পগুলির একটি সম্পূর্ণ শোকেস অন্বেষণ করতে পারেন। প্রতিটি প্রকল্প ক্রমাগত শেখার এবং উদ্ভাবনের প্রতি আমার উত্সর্গ প্রতিফলিত করে।",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "একজন সিনিয়র ইউজার ইন্টারফেস এবং ইউজার এক্সপেরিয়েন্স ডিজাইনার হিসেবে, আমি স্বজ্ঞাত এবং আকর্ষক ইউজার ইন্টারফেস তৈরি করতে পারদর্শী যা ব্যবহারকারীর সন্তুষ্টি বাড়ায়। আমার পদ্ধতি ব্যবহারকারী গবেষণা, নকশা মনোবিজ্ঞান, এবং উদ্ভাবনী এবং অ্যাক্সেসযোগ্য ডিজাইন তৈরি করতে সর্বশেষ ডিজাইন প্রবণতাকে একীভূত করে। সফল প্রকল্পগুলির একটি শক্তিশালী পোর্টফোলিওর সাথে, আমার কাছে এমন ডিজাইনগুলি সরবরাহ করার প্রমাণিত ক্ষমতা রয়েছে যা কেবল নান্দনিকভাবে আনন্দদায়ক নয় কিন্তু কার্যকারিতাও নিরবচ্ছিন্ন, যার ফলে ব্যবহারকারীর অভিজ্ঞতা এবং ব্যবসায়িক ফলাফল উন্নত হয়।",
@@ -1000,7 +1000,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "في هذه الصفحة، يمكنك الاطلاع على القائمة الكاملة لكتبي التي قرأتها عن هندسة الذكاء الاصطناعي والمواضيع المرتبطة بها.",
             "Industrial Designer": "في هذه الصفحة، يمكنك الاطلاع على القائمة الكاملة لكتبي التي قرأتها عن التصميم الصناعي والمواضيع المرتبطة به.",
             "Self-Driving Automobile Engineer": "في هذه الصفحة، يمكنك الاطلاع على القائمة الكاملة لكتبي التي قرأتها عن هندسة السيارات ذاتية القيادة والمواضيع المرتبطة بها.",
-            "Mechanical Engineer": "في هذه الصفحة، يمكنك الاطلاع على القائمة الكاملة لكتبي التي قرأتها عن الهندسة الميكانيكية والمواضيع المرتبطة بها.",
+            "Mechanical Engineer": "في هذه الصفحة، يمكنك استكشاف عرض كامل لمشاريعي في مجال الهندسة الميكانيكية. يعكس كل مشروع التزامي بالتعلم المستمر والابتكار.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "باعتباري أحد كبار مصممي واجهات المستخدم وتجربة المستخدم، فأنا متخصص في إنشاء واجهات مستخدم بديهية وجذابة تعزز رضا المستخدم. يدمج أسلوبي أبحاث المستخدم وعلم نفس التصميم وأحدث اتجاهات التصميم لإنتاج تصميمات مبتكرة ويمكن الوصول إليها. من خلال مجموعة قوية من المشاريع الناجحة، لدي قدرة مثبتة على تقديم تصميمات ليست فقط مبهجة من الناحية الجمالية ولكن أيضًا وظيفية سلسة، مما يؤدي إلى تحسين تجارب المستخدم ونتائج الأعمال.",
@@ -1055,7 +1055,7 @@ var individualSkillsDescriptionsSecondhierachy = {
             "AI Engineer": "در این صفحه می توانید لیست کامل کتاب های من که در مورد مهندسی هوش مصنوعی و موضوعات مرتبط با آن خوانده ام را مشاهده کنید.",
             "Industrial Designer": "در این صفحه می توانید فهرست کامل کتاب های من را که در مورد طراحی صنعتی و موضوعات مرتبط با آن خوانده ام را مشاهده کنید.",
             "Self-Driving Automobile Engineer": "در این صفحه می توانید لیست کامل کتاب های من را که در مورد مهندسی خودروهای خودران و موضوعات مرتبط با آن خوانده ام را مشاهده کنید.",
-            "Mechanical Engineer": "در این صفحه می توانید لیست کامل کتاب های من که در مورد مهندسی مکانیک و موضوعات مرتبط با آن خوانده ام را مشاهده کنید.",
+            "Mechanical Engineer": "در این صفحه، می توانید ویترین کاملی از پروژه های مهندسی مکانیک من را بررسی کنید. هر پروژه نشان دهنده تعهد من به یادگیری و نوآوری مداوم است.",
         },
         "FirstIntroFirstViewDescription": {
             "UI & UX Designer": "من به عنوان یک طراح ارشد رابط کاربری و تجربه کاربری، در ایجاد رابط های کاربری بصری و جذاب که رضایت کاربر را افزایش می دهد، تخصص دارم. رویکرد من تحقیقات کاربر، روانشناسی طراحی و آخرین گرایش های طراحی را برای تولید طرح های نوآورانه و در دسترس ادغام می کند. با مجموعه ای قوی از پروژه های موفق، من توانایی اثبات شده ای برای ارائه طرح هایی دارم که نه تنها از نظر زیبایی شناسی دلپذیر هستند، بلکه عملکردی یکپارچه نیز دارند، که منجر به بهبود تجربیات کاربر و نتایج تجاری می شود.",
@@ -2328,7 +2328,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "تحقیقات کاربر منبع ارزشمندی برای هر کسی است که می خواهد بیاموزد که چگونه تحقیقات کاربر را به طور مؤثر و کارآمد انجام دهد. این برای مبتدیانی که می خواهند با تحقیقات کاربر شروع کنند، و همچنین برای پزشکان با تجربه که می خواهند دانش و مهارت های خود را تازه کنند، مناسب است. با خواندن این کتاب، دید کلی جامعی در مورد چگونگی تبدیل شدن به یک کاربر محقق عالی و نحوه طراحی محصولات و خدمات بهتری که نیازها و انتظارات کاربران خود را برآورده می کند، به دست خواهید آورد.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/UIAndUXDesigner/User_Research_2nd_Edition_Stephanie_Marsh_Improve_Product_and_Service_Design_and_Enhance_Your_UX_Research.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/UIAndUXDesigner/User_Research_2nd_Edition_Stephanie_Marsh_Improve_Product_and_Service_Design_and_Enhance_Your_UX_Research.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Despite businesses often being based on creating desirable experiences, products and services for consumers, many fail to consider the end user in their planning and development processes. This book is here to change that.",
@@ -2876,7 +2876,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "یکی دیگر از مزیت های مطالعه این کتاب این است که برای کاربران وب سایت هایی که بر اساس دستورالعمل های کتاب طراحی و توسعه یافته اند، مفید است. کاربران با بازدید از وب سایتی که استفاده و درک آن آسان است، تجربه بهتری خواهند داشت و احتمال بازگشت، توصیه یا اعتماد به وب سایت بیشتر خواهد بود. کاربران همچنین با استفاده از وب سایتی که مطابق با نیازها و انتظارات آنها طراحی شده است در زمان و تلاش خود صرفه جویی می کنند و از وب سایت رضایت و رضایت بیشتری خواهند داشت.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/UIAndUXDesigner/Dont_Make_Me_Think_Steve_Krug_Revisited.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/UIAndUXDesigner/Dont_Make_Me_Think_Steve_Krug_Revisited.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Since Don’t Make Me Think was first published in 2000, over 400,000 Web designers and developers have relied on Steve Krug’s guide to help them understand the principles of intuitive navigation and information design.",
@@ -3779,7 +3779,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "این کتاب به شما کمک می کند تا درک کاملی از فلاتر و بهترین شیوه های آن به دست آورید. همچنین مزایای استفاده از Flutter مانند توسعه سریعتر، عملکرد بومی، بارگذاری مجدد داغ و راه اندازی مجدد داغ و یک جامعه پر جنب و جوش را خواهید دید. چه در فلاتر تازه کار باشید و چه تجربه ای در این زمینه داشته باشید، این کتاب به شما کمک می کند تا مهارت ها و دانش لازم برای تبدیل شدن به یک توسعه دهنده موفق فلاتر را به دست آورید.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Flutter Development/Flutter_complete_reference_2.0.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/Flutter Development/Flutter_complete_reference_2.0.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Flutter is Google's UI toolkit for creating beautiful and native applications for mobile, desktop and web from a single Dart codebase. In this book we cover in detail the Dart programming language and the Flutter framework.",
@@ -4519,7 +4519,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "علاوه بر رویکرد عملی خود، Flutter Apprentice تعداد زیادی از نکات، ترفندها و بهترین روش‌ها را ارائه می‌کند که به خوانندگان کمک می‌کند از دام‌های رایج اجتناب کنند و کیفیت کد خود را بهبود بخشند. این کتاب همچنین موضوعات مهمی مانند تست، اشکال‌زدایی و بهینه‌سازی عملکرد را پوشش می‌دهد و اطمینان می‌دهد که خوانندگان درک کاملی از توسعه Flutter دارند. چه یک مبتدی کامل باشید و چه یک توسعه دهنده با تجربه که به دنبال گسترش مهارت های خود هستید، Flutter Apprentice یک منبع ارزشمند برای تسلط بر Flutter و ساخت اپلیکیشن های قدرتمند موبایل است.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Flutter Development/Flutter_Apprentice_Third_Edition_Learn_to_Build_Cross_Platform_Apps.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/Flutter Development/Flutter_Apprentice_Third_Edition_Learn_to_Build_Cross_Platform_Apps.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Flutter is an exciting development toolkit that lets you build apps for iOS, Android and even web and desktop, all from a single codebase. It uses a declarative approach to UI development. You can 'hot reload' code while developing, and apps will perform at native speed thanks to its custom rendering engine. With Flutter and Flutter Apprentice, you can achieve the dream of building fast applications, faster.",
@@ -5390,7 +5390,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "علاوه بر این، کتاب به گونه ای طراحی شده است که آموزنده، جذاب، چالش برانگیز و سرگرم کننده باشد و فرآیند یادگیری را لذت بخش کند. برای تمام دوره های پایه تا متوسط ​​برنامه نویسی ویژوال سی شارپ مناسب است. طیف وسیعی از برنامه‌ها و تمرین‌های نمونه موجود در این کتاب از زمینه‌های متنوعی مانند علوم کامپیوتر، تجارت، آموزش و بسیاری از زمینه‌های دیگر می‌آیند و اطمینان می‌دهند که خوانندگان دیدگاهی جامع در مورد برنامه‌نویسی با سی شارپ به دست می‌آورند. با این کتاب، خوانندگان نه تنها نحو زبان سی شارپ را یاد خواهند گرفت، بلکه نحوه به کارگیری موثر آن برای حل مشکلات دنیای واقعی را نیز یاد خواهند گرفت.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Deitel_and_Deitel_C_Sharp_How_to_Program.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/Full Stack Development/Deitel_and_Deitel_C_Sharp_How_to_Program.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "For all basic-to-intermediate level courses in Visual C# programming. An informative, engaging, challenging and entertaining introduction to Visual C# Created by world-renowned programming instructors Paul and Harvey Deitel, Visual C# How to Program, Sixth Edition introduces students to the world of desktop, mobile and web app development with Microsoft’s Visual C# programming language.",
@@ -5778,7 +5778,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "مزایای خواندن “Head First Git” بسیار زیاد است. اولاً، روش تدریس منحصر به فرد کتاب، یادگیری در مورد Git را به تجربه ای لذت بخش و مؤثر تبدیل می کند. استفاده از داستان ها، تشبیه ها و وسایل کمک بصری به حفظ اطلاعات پیچیده کمک می کند. ثانیاً، تمرین‌های عملی موجود در کتاب قابلیت کاربرد در دنیای واقعی را ارائه می‌دهند و اطمینان می‌دهند که خوانندگان می‌توانند فوراً دانش خود را به کار گیرند. در نهایت، رویکرد کتاب برای توضیح «چرا» پشت «چگونه»، خوانندگان را با طرز فکر حل مسئله مجهز می‌کند و آنها را در غلبه بر چالش‌هایی که ممکن است در حین استفاده از Git با آن‌ها مواجه شوند، ماهرتر می‌کند.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Head_First_Git.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/Full Stack Development/Head_First_Git.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Many people who use Git rely on recipes--basic copy-paste commands--without understanding how this version control system actually works. But what do you do if you find yourself in a tight spot? You can't simply wing it. With this unique hands-on guide, you'll learn valuable ways to use Git in many different situations.",
@@ -6070,7 +6070,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "پس از خواندن این کتاب، زبان آموزان اعتماد به نفس پیدا می کنند تا پروژه های جنگو خود را از ابتدا شروع کنند. آنها درک اساسی از توسعه برنامه های کاربردی وب و توانایی استفاده موثر از ویژگی های جنگو خواهند داشت. علاوه بر این، تأکید کتاب بر رویکرد عملی به این معنی است که خوانندگان نه تنها جنبه‌های نظری را یاد می‌گیرند، بلکه آنچه را که آموخته‌اند در سناریوهای دنیای واقعی نیز به کار می‌گیرند و در نتیجه دانش و مهارت‌های خود را تقویت می‌کنند.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Django.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/Full Stack Development/Django.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "This book is a BEGINNER’s guide to building a web application using HTML, CSS, Javascript, Python and Django Web framework. I have explained all the topics in a simple, concise and easy language with thorough examples, codes and have tried my best to make the learning process fun, informative and interesting at the same time. If you want to gain an in-depth understanding, it is quite a simple book for the job.",
@@ -6714,7 +6714,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "خواننده پس از مطالعه این کتاب مهارت ها و دانش های زیادی را به دست خواهد آورد، مانند: ١. نحوه راه اندازی یک محیط توسعه و نصب جنگو، ٢. نحوه استفاده از ORM جنگو برای تعامل با پایگاه های داده، ٣. نحوه ایجاد و شخصی سازی نماهای جنگو. و الگوها، ٤. نحوه مدیریت ورودی و اعتبارسنجی کاربر با فرم‌های جنگو، ٥. نحوه اجرای احراز هویت و مجوز کاربر با سیستم احراز هویت جنگو، ٦. نحوه نوشتن تست‌ها برای برنامه‌های جنگو و استفاده از توسعه مبتنی بر تست، ٧. نحوه اجرای استقرار برنامه های جنگو در پلتفرم های مختلف، مانند Heroku، ٨. نحوه استفاده از رابط مدیریت و پوسته جنگو، ٩. نحوه استفاده از چارچوب REST جنگو برای ایجاد API، ١٠. نحوه استفاده از Bootstrap برای استایل دادن به برنامه های جنگو.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Full Stack Development/Django_For_Beginners_Build_Websites_with_Python_and_Django.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/Full Stack Development/Django_For_Beginners_Build_Websites_with_Python_and_Django.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "A step-by-step guide to building web applications with Python and Django 4.0. Create, test, and deploy 5 progressively more complex websites including a Message Board app, a Blog app with user accounts, and a robust Newspaper app with reader comments and a complete user registration flow. Along the way you'll learn core Django features and best practices around models, views, templates, urls, custom user models, permissions, authorizations, user registration, testing, and deployment.",
@@ -7077,7 +7077,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "با خواندن 'یادگیری عمیق از ابتدا' خوانندگان اعتماد به نفس ایجاد شبکه های عصبی خود و استفاده از چارچوب هایی مانند PyTorch را با درک کامل از هر مرحله به دست می آورند. محتوای کتاب به شیوه‌ای غیر ترسناک تنظیم شده است و نویسنده اصطلاحات پیچیده را به سادگی و با تجسم‌های مفید توضیح می‌دهد.این کتاب را به منبعی عالی برای کسانی تبدیل می‌کند که می‌خواهند در اعماق یادگیری عمیق کاوش کنند و پایه‌ای قوی فراهم کند که یادگیری موضوعات پیچیده مرتبط را آسان‌تر می‌کند.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/AI Engineering/Deep_Learning_From_Scratch.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/AI Engineering/Deep_Learning_From_Scratch.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "With the resurgence of neural networks in the 2010s, deep learning has become essential for machine learning practitioners and even many software engineers. This book provides a comprehensive introduction for data scientists and software engineers with machine learning experience. You will start with deep learning basics and move quickly to the details of important advanced architectures, implementing everything from scratch along the way. Author Seth Weidman shows you how neural networks work using a first principles approach. You will learn how to apply multilayer neural networks, convolutional neural networks, and recurrent neural networks from the ground up. With a thorough understanding of how neural networks work mathematically, computationally, and conceptually, you will be set up for success on all future deep learning projects.",
@@ -7885,7 +7885,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "پس از خواندن این کتاب، خواننده پایه محکمی از دانش و مهارت های SOLIDWORKS خواهد داشت که می تواند در پروژه ها و طرح های خود اعمال کند. او همچنین برای رفتن به سطح بعدی یادگیری SOLIDWORKS آماده خواهد بود، زیرا این کتاب بخشی از یک مجموعه سه کتاب است که موضوعات متوسط ​​و پیشرفته را پوشش می دهد. این کتاب یک منبع عالی برای هر کسی است که می خواهد شروع به یادگیری SOLIDWORKS کند یا مهارت های موجود خود را بهبود بخشد.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/Industrial Designing/SOLIDWORKS_2020_Basic_Tools_Getting_Started_with_Parts_Assemblies_and_Drawings.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/Industrial Designing/SOLIDWORKS_2020_Basic_Tools_Getting_Started_with_Parts_Assemblies_and_Drawings.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "SOLIDWORKS 2020 Basic Tools is the first book in a three part series. It introduces new users to the SOLIDWORKS interface, SOLIDWORKS tools and basic modeling techniques. It provides you with a strong understanding of SOLIDWORKS and covers the creation of parts, assemblies and drawings. Every lesson and exercise in this book was created based on real world projects. Each of these projects has been broken down and developed into easy and comprehensible steps. Furthermore, at the end of every chapter there are self test questionnaires to ensure that you have gained sufficient knowledge from each section before moving on to more advanced lessons. This book takes the approach that in order to understand SOLIDWORKS, inside and out, you should create everything from the beginning and take it step by step.",
@@ -8404,7 +8404,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "کاربر نیز از خواندن این کتاب مزایای بسیاری را به دست خواهد آورد. کاربر می‌تواند از پیشرفت‌های فعلی و روندهای آینده در تحقیق و توسعه خودروهای خودران قدردانی کند. کاربر می‌تواند پیامدهای اخلاقی، اجتماعی و قانونی خودروهای خودران و اینکه چگونه می‌توانند به سیستم حمل‌ونقل ایمن‌تر و کارآمدتر کمک کنند را کشف کند. کاربر می‌تواند دانش و مهارت‌های خود را در حوزه‌ها و برنامه‌های کاربردی دیگری که شامل یادگیری عمیق و بینایی رایانه‌ای هستند، مانند رباتیک، مراقبت‌های بهداشتی و امنیت، به کار گیرد. کاربر می تواند به جامعه رو به رشد علاقه مندان و متخصصان خودروهای خودران بپیوندد و در مسابقات و پروژه های مختلف شرکت کند.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/Book Covers/SDC Engineering/Applied_Deep_Learning_and_Computer_Vision_for_Self_Driving_Cars.webp",
+            "BookCoverImagePath": "../../../assets/img/Book Covers/SDC Engineering/Applied_Deep_Learning_and_Computer_Vision_for_Self_Driving_Cars.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Starting with the basics of self-driving cars (SDCs), this book will take you through the deep neural network techniques required to get up and running with building your autonomous vehicle. Once you are comfortable with the basics, you'll delve into advanced computer vision techniques and learn how to use deep learning methods to perform a variety of computer vision tasks such as finding lane lines, improving image classification, and so on. You will explore the basic structure and working of a semantic segmentation model and get to grips with detecting cars using semantic segmentation. The book also covers advanced applications such as behavior-cloning and vehicle detection using OpenCV, transfer learning, and deep learning methodologies to train SDCs to mimic human driving.",
@@ -8444,7 +8444,7 @@ var BooksReadForEachSkillStaticContainer = {
             "ModelingSoftware": "ABAQUS",
             "Gender": "M", // F: Female, M: Male
             "EditionNumber": "1st",
-            "PublisherName": "Packt Publishing Ltd",
+            "PublisherName": "This is a Test",
             "ISBN": "978 1 8386 4630 1",
             "YearNumber": "2024",
             "PagesNumber": "320",
@@ -8923,7 +8923,7 @@ var BooksReadForEachSkillStaticContainer = {
                     "فارسی": "کاربر نیز از خواندن این کتاب مزایای بسیاری را به دست خواهد آورد. کاربر می‌تواند از پیشرفت‌های فعلی و روندهای آینده در تحقیق و توسعه خودروهای خودران قدردانی کند. کاربر می‌تواند پیامدهای اخلاقی، اجتماعی و قانونی خودروهای خودران و اینکه چگونه می‌توانند به سیستم حمل‌ونقل ایمن‌تر و کارآمدتر کمک کنند را کشف کند. کاربر می‌تواند دانش و مهارت‌های خود را در حوزه‌ها و برنامه‌های کاربردی دیگری که شامل یادگیری عمیق و بینایی رایانه‌ای هستند، مانند رباتیک، مراقبت‌های بهداشتی و امنیت، به کار گیرد. کاربر می تواند به جامعه رو به رشد علاقه مندان و متخصصان خودروهای خودران بپیوندد و در مسابقات و پروژه های مختلف شرکت کند.",
                 },
             ],
-            "BookCoverImagePath": "../assets/img/ProjectsImgs/Mechanical Engineer/1 - Linear Static Analysis of a Bracket/1 - Linear Static Analysis of a Bracket.webp",
+            "BookCoverImagePath": "../../../assets/img/ProjectsImgs/Mechanical Engineer/1 - Linear Static Analysis of a Bracket/1 - Linear Static Analysis of a Bracket.webp",
             "shortDescriptionsForPageBookReviewing": {
                 // English
                 "English": "Starting with the basics of self-driving cars (SDCs), this book will take you through the deep neural network techniques required to get up and running with building your autonomous vehicle. Once you are comfortable with the basics, you'll delve into advanced computer vision techniques and learn how to use deep learning methods to perform a variety of computer vision tasks such as finding lane lines, improving image classification, and so on. You will explore the basic structure and working of a semantic segmentation model and get to grips with detecting cars using semantic segmentation. The book also covers advanced applications such as behavior-cloning and vehicle detection using OpenCV, transfer learning, and deep learning methodologies to train SDCs to mimic human driving.",
@@ -9122,7 +9122,7 @@ function ResponsiveAdaptive() {
         // Contact Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9171,7 +9171,7 @@ function ResponsiveAdaptive() {
         // Contact Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9221,7 +9221,7 @@ function ResponsiveAdaptive() {
         // Contact Section Information
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9271,7 +9271,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9318,7 +9318,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9365,7 +9365,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9432,7 +9432,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9499,7 +9499,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9569,7 +9569,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '4vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9641,7 +9641,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9711,7 +9711,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -9772,7 +9772,7 @@ function ResponsiveAdaptive() {
         // Contact Information Section
         // Fourth View
         // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('../../../assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
         // - > Reserved rights
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
@@ -13769,7 +13769,7 @@ var neededProperties = {
 
         // First View
         // - > Top Indicator
-        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURI(newLanguage);
+        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(neededProperties.Currrent_Skill_Selected) + "&language=" + encodeURI(newLanguage);
         // - > Intro Skill Heading
         document.getElementById('first-view-skill-name-heading-introduction').textContent = BoldFirstHeireachyFont[newLanguage]['FirstViewIntroductionHeadingWhichSkillIsSelected'][this.Currrent_Skill_Selected];
         document.getElementById('first-view-skill-name-heading-introduction').style.fontFamily = BoldFirstHeireachyFont[newLanguage]['fontFamily'];
@@ -13859,7 +13859,7 @@ var neededProperties = {
 
         // First View
         // - > Top Indicator - href or Link
-        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties.Currrent_Language_Selected);
+        document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').href = "../../../DetailScreen/DetailSkillsIndividuals.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties.Currrent_Language_Selected);
         // - > Top Indicator - Text Shower
         document.getElementById('link-button-to-go-the-individual-skill-page-top-indicatotor').textContent = newSkill;
         // - > Intro Skill Heading
