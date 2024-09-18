@@ -1626,7 +1626,7 @@ var BooksReadForEachSkillStaticContainer = {
                 // Persian
                 "فارسی": "تجزیه و تحلیل استاتیکی خطی یک براکت با استفاده از Abaqus انجام شد. این مدل شامل 2849 عنصر و 4144 گره است که خواص مواد برای آلومینیوم تعریف شده است. شرایط مرزی و محدودیت‌های جفت در نقاط مختلف براکت، از جمله نقاط مرجع برای سوراخ‌های حفره اعمال شد. تجزیه و تحلیل از عناصر C3D8R استفاده کرد و هدف آن بررسی پاسخ ساختاری تحت بارگذاری استاتیکی بود. نتایج نشان داد که مدل با موفقیت اجرا شد.",
             },
-            "DetailPageScreenToShowEachBookDetails": "BRs/SDA Engineering/1 - Applied Deep Learning and Computer Vision/1 - Applied Deep Learning and Computer Vision.html",
+            "DetailPageScreenToShowEachBookDetails": "1 - Linear Static Analysis of a Bracket/1 - Linear Static Analysis of a Bracket.html",
         },
     ],
 };
