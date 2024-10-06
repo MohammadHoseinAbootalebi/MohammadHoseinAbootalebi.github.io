@@ -1,0 +1,6 @@
+.dropdown-item:active {
+  background: #fca311 !important;
+  color: white !important;
+  transition: 0s;
+}
+

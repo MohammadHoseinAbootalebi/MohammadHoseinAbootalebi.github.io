@@ -1,0 +1,26 @@
+<svg id="Group_985" data-name="Group 985" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <filter id="Ellipse_11" x="0" y="0" width="54" height="54" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="31.394" height="29.622" fill="none"/>
+    </clipPath>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <circle id="Ellipse_11-2" data-name="Ellipse 11" cx="27" cy="27" r="27" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_11)">
+      <circle id="Ellipse_11-3" data-name="Ellipse 11" cx="27" cy="27" r="27" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_52" data-name="Group 52" transform="translate(11.488 12.404)">
+    <g id="Group_51" data-name="Group 51" clip-path="url(#clip-path)">
+      <path id="Path_204" data-name="Path 204" d="M31.341,2.191,25.624,25.756a1.773,1.773,0,0,1-2.534,1.155l-7.231-3.733-3.419,5.594a1.773,1.773,0,0,1-3.285-.919V21.619A1.782,1.782,0,0,1,9.7,20.341L23.8,6.888a.235.235,0,0,0-.37-.191L6.61,18.4.96,15.487a1.77,1.77,0,0,1,.1-3.2L28.92.151a1.768,1.768,0,0,1,2.422,2.04Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
