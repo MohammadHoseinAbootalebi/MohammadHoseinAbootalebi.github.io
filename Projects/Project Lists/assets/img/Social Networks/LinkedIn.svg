@@ -1,0 +1,29 @@
+<svg id="Group_986" data-name="Group 986" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <filter id="Ellipse_12" x="0" y="0" width="54" height="54" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_66" data-name="Rectangle 66" width="32.43" height="32.43" fill="none"/>
+    </clipPath>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <circle id="Ellipse_12-2" data-name="Ellipse 12" cx="27" cy="27" r="27" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_12)">
+      <circle id="Ellipse_12-3" data-name="Ellipse 12" cx="27" cy="27" r="27" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_54" data-name="Group 54" transform="translate(11.225 10.785)">
+    <g id="Group_53" data-name="Group 53" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_205" data-name="Path 205" d="M25.52,32.348H6.828A6.828,6.828,0,0,1,0,25.52V6.828A6.828,6.828,0,0,1,6.828,0H25.52a6.828,6.828,0,0,1,6.828,6.828V25.52a6.828,6.828,0,0,1-6.828,6.828" transform="translate(0.041 0.041)" fill="#020202"/>
+      <path id="Path_206" data-name="Path 206" d="M364.594,294.908h-4.031v-.717c0-2.178.018-4.357-.012-6.535a6.078,6.078,0,0,0-.266-1.783,2.323,2.323,0,0,0-2.1-1.727,2.4,2.4,0,0,0-2.536,1.409,5.211,5.211,0,0,0-.454,2.07c-.053,2.4-.021,4.8-.021,7.26h-4V280.151h3.971v2.289a5.317,5.317,0,0,1,4.042-2.3c3.051-.244,5.3,1.835,5.389,5.126.089,3.186.019,6.377.019,9.644" transform="translate(-337.608 -269.289)" fill="#fff"/>
+      <rect id="Rectangle_65" data-name="Rectangle 65" width="3.959" height="14.741" transform="translate(6.828 10.853)" fill="#fff"/>
+      <path id="Path_207" data-name="Path 207" d="M171.332,114.612a2.342,2.342,0,1,1-4.685-.048,2.343,2.343,0,1,1,4.685.048" transform="translate(-160.189 -107.852)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

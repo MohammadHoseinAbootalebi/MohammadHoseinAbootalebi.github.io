@@ -1,0 +1,79 @@
+a {
+  color: #cc1b6f;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.pages {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pages a {
+  display: inline-block;
+}
+
+.pages .back, .pages .next {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+  font-size: 10pt;
+  margin: 0 40px;
+  color: #23182C;
+}
+
+.pages .back span, .pages .next span {
+  font-size: 13pt;
+  margin: 0 4px;
+}
+
+@media (max-width: 768px) {
+  .pages .back, .pages .next {
+    display: none;
+  }
+}
+
+.pages .back:not(.disabled):hover, .pages .next:not(.disabled):hover {
+  color: #cc1b6f;
+}
+
+.pages .back.disabled, .pages .next.disabled {
+  color: #BDB9BF;
+  cursor: default;
+}
+
+.pages .page {
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  width: 34px;
+  height: 34px;
+  margin: 0 4px;
+  background: #cc1b6f;
+  color: #fff;
+  border: 2px solid #cc1b6f;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pages .page:not(.active):hover {
+  border-color: #23182C;
+  background: #fff;
+  color: #23182C;
+}
+
+.pages .page.active {
+  background: #fff;
+  color: #cc1b6f;
+  cursor: default;
+}
+

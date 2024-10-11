@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Ma Shan Zheng';
+	src: url(../../assets/fonts/Ma%20Shan%20Zheng-b68522e6f9de94e688944dc161f57e27.woff2) format('woff2'),
+	url(../../assets/fonts/Ma%20Shan%20Zheng-6b8a85cf3d3d43f7ebe92ecceb464bda.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
