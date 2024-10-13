@@ -1,0 +1,13 @@
+<svg id="Bloc_Logo" data-name="Bloc Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.471" height="40.471" viewBox="0 0 40.471 40.471">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_222" data-name="Rectangle 222" width="40.471" height="40.471" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_383" data-name="Group 383" clip-path="url(#clip-path)">
+    <path id="Path_367" data-name="Path 367" d="M30.592,40.471H9.879A9.879,9.879,0,0,1,0,30.592V9.879A9.879,9.879,0,0,1,9.879,0H30.592a9.879,9.879,0,0,1,9.879,9.879V30.592a9.879,9.879,0,0,1-9.879,9.879" fill="#fff"/>
+    <path id="Path_368" data-name="Path 368" d="M298.353,189.313v13.725L286.466,209.9V196.176Z" transform="translate(-266.231 -175.94)" fill="#fca311"/>
+    <path id="Path_369" data-name="Path 369" d="M130.076,196.176V209.9l-11.887-6.863V189.313Z" transform="translate(-109.84 -175.94)" fill="#855609"/>
+    <path id="Path_370" data-name="Path 370" d="M141.963,99.02l-11.887,6.863L118.189,99.02l11.887-6.863Z" transform="translate(-109.841 -85.647)" fill="#c17d0d"/>
+  </g>
+</svg>

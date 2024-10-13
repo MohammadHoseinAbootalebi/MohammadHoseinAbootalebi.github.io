@@ -69,7 +69,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // UI & UX Designer
     {
         skillName: "UI & UX Designer",
-        backgroundFirstIntroImage: "/assets/img/Detail Skills Page - Second Page/UI - UX Designer.jpg",
+        backgroundFirstIntroImage: "../assets/img/Detail Skills Page - Second Page/UI - UX Designer.jpg",
         softwarePercentages: [
             // Adobe XD
             {
@@ -157,7 +157,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Flutter Developer
     {
         skillName: "Flutter Developer",
-        backgroundFirstIntroImage: "/assets/img/Main Screen/Flutter Card.jpg",
+        backgroundFirstIntroImage: "../assets/img/Main Screen/Flutter Card.jpg",
         softwarePercentages: [
             // Flutter Logo
             {
@@ -236,7 +236,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Full Stack Developer
     {
         skillName: "Full Stack Developer",
-        backgroundFirstIntroImage: "/assets/img/Main Screen/Full Stack Developer.jpg",
+        backgroundFirstIntroImage: "../assets/img/Main Screen/Full Stack Developer.jpg",
         softwarePercentages: [
             // Python Icon
             {
@@ -360,7 +360,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Android Developer
     {
         skillName: "Android Developer",
-        backgroundFirstIntroImage: "/assets/img/Main Screen/Android Developer.jpg",
+        backgroundFirstIntroImage: "../assets/img/Main Screen/Android Developer.jpg",
         softwarePercentages: [
             // Android Logo
             {
@@ -439,7 +439,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // AI Engineer
     {
         skillName: "AI Engineer",
-        backgroundFirstIntroImage: "/assets/img/Main Screen/AI Engineer.jpeg",
+        backgroundFirstIntroImage: "../assets/img/Main Screen/AI Engineer.jpeg",
         softwarePercentages: [
             // Python Icon
             {
@@ -518,7 +518,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Industrial Designer
     {
         skillName: "Industrial Designer",
-        backgroundFirstIntroImage: "/assets/img/Main Screen/Industrial Designer.jpg",
+        backgroundFirstIntroImage: "../assets/img/Main Screen/Industrial Designer.jpg",
         softwarePercentages: [
             // AutoCAD Icon
             {
@@ -579,7 +579,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Self-Driving Automobile Engineer
     {
         skillName: "Self-Driving Automobile Engineer",
-        backgroundFirstIntroImage: "/assets/img/Main Screen/SDC Engineer.jpeg",
+        backgroundFirstIntroImage: "../assets/img/Main Screen/SDC Engineer.jpeg",
         softwarePercentages: [
             // Python Icon
             {
@@ -658,7 +658,7 @@ var listOfAllSkillsIndividualsSkillPage = [
     // Mechanical Engineer
     {
         skillName: "Mechanical Engineer",
-        backgroundFirstIntroImage: "/assets/img/Main Screen/Mechanical Engineer Simulation.png",
+        backgroundFirstIntroImage: "../assets/img/Main Screen/Mechanical Engineer Simulation.png",
         softwarePercentages: [
             // Python Icon
             {
@@ -2048,10 +2048,17 @@ var neededProperties = {
 
         document.getElementById('books-button-to-go-to-the-book-list').href = "../Books/BookList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
         document.getElementById("Passed-courses-go-to-passed-courses-link").href = "../Courses/CourseList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
-        
-        // Going to the individual Skill Page
-        if (newSkill == "Mechanical Engineer") {
-            document.getElementById("done-projects-to-go-to-the-done-projects").href = "../Projects/PRs/Mechanical Engineer/ProjectList - Mechanical Engineer.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
+
+        // -- >> Go to Project Lists
+        if (neededProperties._current_skill_selected == "UI & UX Designer") {} 
+        else if (neededProperties._current_skill_selected == "Flutter Developer") {} 
+        else if (neededProperties._current_skill_selected == "Full Stack Developer") { }
+        else if (neededProperties._current_skill_selected == "Android Developer") { }
+        else if (neededProperties._current_skill_selected == "AI Engineer") { }
+        else if (neededProperties._current_skill_selected == "Industrial Designer") { }
+        else if (neededProperties._current_skill_selected == "Self-Driving Automobile Engineer") { }
+        else if (neededProperties._current_skill_selected == "Mechanical Engineer") {
+            document.getElementById("done-projects-to-go-to-the-done-projects").href = encodeURI("../Projects/Project Lists/8 - ME - PRs - Lists.html?direction=") + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
         } else {
             document.getElementById("done-projects-to-go-to-the-done-projects").href = "../Projects/ProjectList.html?direction=" + encodeURIComponent(newSkill) + "&language=" + encodeURI(neededProperties._current_show_language);
         }
@@ -2226,9 +2233,17 @@ var neededProperties = {
 
         document.getElementById('books-button-to-go-to-the-book-list').href = "../Books/BookList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
         document.getElementById("Passed-courses-go-to-passed-courses-link").href = "../Courses/CourseList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
-        // Going to the individual Skill Page
-        if (neededProperties._current_skill_selected == "Mechanical Engineer") {
-            document.getElementById("done-projects-to-go-to-the-done-projects").href = "../Projects/PRs/Mechanical Engineer/ProjectList - Mechanical Engineer.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
+
+        // -- >> Go to Project Lists
+        if (neededProperties._current_skill_selected == "UI & UX Designer") {} 
+        else if (neededProperties._current_skill_selected == "Flutter Developer") {} 
+        else if (neededProperties._current_skill_selected == "Full Stack Developer") { }
+        else if (neededProperties._current_skill_selected == "Android Developer") { }
+        else if (neededProperties._current_skill_selected == "AI Engineer") { }
+        else if (neededProperties._current_skill_selected == "Industrial Designer") { }
+        else if (neededProperties._current_skill_selected == "Self-Driving Automobile Engineer") { }
+        else if (neededProperties._current_skill_selected == "Mechanical Engineer") {
+            document.getElementById("done-projects-to-go-to-the-done-projects").href = encodeURI("../Projects/Project Lists/8 - ME - PRs - Lists.html?direction=") + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
         } else {
             document.getElementById("done-projects-to-go-to-the-done-projects").href = "../Projects/ProjectList.html?direction=" + encodeURIComponent(neededProperties._current_skill_selected) + "&language=" + encodeURI(newLanguage);
         }
@@ -2254,9 +2269,9 @@ function changeBackgroundOnResizeIndividualSkillPage(PassedImageIndividualImageF
     const breakpoint = 1000; // Replace with your desired viewport width
 
     if (window.innerWidth < breakpoint) {
-        ImageOfBackgroundFirstViewIndividualSkillView.style.background = 'linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url("/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg") -20vh -20vw / contain no-repeat'; // Replace with your desired color
+        ImageOfBackgroundFirstViewIndividualSkillView.style.background = 'linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url("../assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg") -20vh -20vw / contain no-repeat'; // Replace with your desired color
     } else {
-        ImageOfBackgroundFirstViewIndividualSkillView.style.background = 'linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url("/assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg") -30vh -28vh / contain no-repeat' + PassedImageIndividualImageFirstView; // Resets to default background
+        ImageOfBackgroundFirstViewIndividualSkillView.style.background = 'linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgb(0,0,0) 35%, #000000 57%, rgba(255,255,255,0)), url("../assets/img/Detail Skills Page - Second Page/Perfect Shape Triangles.svg") -30vh -28vh / contain no-repeat' + PassedImageIndividualImageFirstView; // Resets to default background
     }
 }
 
@@ -2817,7 +2832,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
@@ -2913,7 +2928,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
@@ -3005,7 +3020,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
@@ -3189,7 +3204,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
@@ -3281,7 +3296,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
@@ -3387,7 +3402,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
@@ -3493,7 +3508,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
@@ -3596,7 +3611,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
@@ -3697,7 +3712,7 @@ function ResponsiveViewIndividualView() {
                 item.style.marginTop = "5vw";
             }
         );
-        
+
         // Fourth View
         // - > Background
         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
@@ -3709,7 +3724,7 @@ function ResponsiveViewIndividualView() {
             item.style.fontSize = '6vw';
             item.style.width = '75vw';
         });
-} else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
 
         // Top Navigation Bar
 

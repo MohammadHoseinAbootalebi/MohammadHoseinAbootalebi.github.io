@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.11 31.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fca311;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #d88c0f;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #734a08;
+      }
+
+      .cls-5 {
+        fill: #be1e2d;
+      }
+    </style>
+  </defs>
+  <g id="Android_Developer" data-name="Android Developer">
+    <g id="Kotlin">
+      <rect id="BC_White" data-name="BC White" class="cls-3" width="31.11" height="31.11" rx="8" ry="8"/>
+      <g id="Kotlin-2" data-name="Kotlin">
+        <path class="cls-5" d="M24.61,6.54H6.5v17.99c6.02.01,12.05.03,18.07.04-2.95-3.05-5.9-6.1-8.84-9.15,2.96-2.96,5.92-5.92,8.88-8.88Z"/>
+        <path class="cls-4" d="M24.61,6.54H6.5v17.99c6.02.01,12.05.03,18.07.04-2.95-3.05-5.9-6.1-8.84-9.15,2.96-2.96,5.92-5.92,8.88-8.88Z"/>
+        <path class="cls-1" d="M15.61,6.54c-3.04,3.25-6.07,6.5-9.11,9.76V6.54h9.11Z"/>
+        <path class="cls-2" d="M24.61,24.57c-2.96-2.99-5.92-6.16-8.88-9.15-3.04,2.99-6.19,6.12-9.22,9.11,6,0,12.11.04,18.11.04Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

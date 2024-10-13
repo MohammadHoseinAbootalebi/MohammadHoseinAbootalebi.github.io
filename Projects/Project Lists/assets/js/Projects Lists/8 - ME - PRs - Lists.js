@@ -13484,13 +13484,13 @@ var neededProperties = {
 // --------------------- ↓ Getting the current or passed lanauge ↓ ---------------------
 
 // -- >> Get the 'language' parameter from the URL
-// var lanauge_show = getQueryParam('language');
-var lanauge_show = "English";
+var lanauge_show = getQueryParam('language');
+// var lanauge_show = "English";
 
 
 // -- >> Get the 'header' parameter from the URL
-// var headerText = getQueryParam('direction');
-var headerText = "Mechanical%20Engineer";
+var headerText = getQueryParam('direction');
+// var headerText = "Mechanical%20Engineer";
 
 
 // If the lanauge_show is not null, update the header element
