@@ -1,0 +1,118 @@
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©All Rights are reserved by Muhammad Husain Abootalebi©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ####################################### ↓ Navbar > Toggler > Animation ↓ ############################################ */
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler {
+    position: relative;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -.75rem;
+    border: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler:focus, #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler:active {
+    outline: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler span {
+    display: block;
+    background-color: #fca311;
+    height: 2px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+    opacity: 1;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio.transparency .navbar-toggler span {
+    background: #fff !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler span:nth-child(1), #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler span:nth-child(3) {
+    -webkit-transition: transform .5s linear;
+    -moz-transition: transform .35s ease-in-out;
+    transition: transform .5s linear;
+  }
+}
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: auto;
+    visibility: hidden;
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 576px) {
+  #Muhammad-Husain-Aboutalebi-Portfolio .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 320ms ease-in-out;
+    margin: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebiNavBarCollapse {
+    transition: height 0.5s linear;
+  }
+}
+
+/* ####################################### ↑ Navbar > Toggler > Animation ↑ ############################################ */
+
+/* Disabling Default Navbar toggle animation */
+
+.collapsing {
+  -webkit-transition: all 320ms ease-in-out;
+  transition: all 320ms ease-in-out;
+  display: block;
+}
+

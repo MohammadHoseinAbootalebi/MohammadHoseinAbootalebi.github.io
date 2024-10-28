@@ -1,0 +1,43 @@
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© All Rights are Reserved ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ----------------------- ↓ Background Image ↓ ----------------------- */
+
+/* >>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<< */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Introduction-section-div-background-image {
+    height: 100vh !important;
+    background: url("../../../../assets/img/Right%20Triangles%20and%20Orange%20Shape.svg") right top / auto 100% no-repeat, url("../../../../assets/img/Left%20Top%20-%20Introduction%20-%20Shapes%20and%20Perfect%20Triangles.svg") left bottom / auto 80% no-repeat, #ffffff !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<<< */
+
+/* ▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨ */
+
+/* >>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<<< */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Introduction-section-div-background-image {
+    height: 100vh !important;
+    background: url("../../../../assets/img/Right%20Triangles%20and%20Orange%20Shape.svg") right top / auto 40% no-repeat, url("../../../../assets/img/Left%20Top%20-%20Introduction%20-%20Shapes%20and%20Perfect%20Triangles.svg") left bottom / auto 40% no-repeat, #ffffff !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Introduction-section-row {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<< */
+
+/* ----------------------- ↑ Background Image ↑ ----------------------- */
+

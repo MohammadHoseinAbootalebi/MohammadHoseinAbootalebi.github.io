@@ -756,1227 +756,1227 @@ switch (systemLanguage) {
 
 
 // --------------------- ↓ Responsive Behavior of Anything ↓ ---------------------
-function MakingAnythingResponsiveBehavior() {
+// function MakingAnythingResponsiveBehavior() {
 
-    // --------------------- ↓ Top Nav Bar ↓ ---------------------
-    // First View
-    if (window.innerWidth >= 1300) {
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+//     // --------------------- ↓ Top Nav Bar ↓ ---------------------
+//     // First View
+//     if (window.innerWidth >= 1300) {
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 15vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 5vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each individual left total description column
-        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
-            item.style.marginLeft = '8vw';
-        });
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '35vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '1.7vw';
-            item.style.width = '35vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '5vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.5vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '80px';
-            item.style.width = '30vw';
-            item.style.height = '30vw';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each individual left total description column
+//         document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+//             item.style.marginLeft = '8vw';
+//         });
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '35vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '1.7vw';
+//             item.style.width = '35vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '5vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.5vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '80px';
+//             item.style.width = '30vw';
+//             item.style.height = '30vw';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = (window.innerWidth * 0.03) + 'px';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = (window.innerWidth * 0.03) + 'px';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 1300) && (window.innerWidth >= 1200)) {
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 15vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 15vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each individual left total description column
-        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
-            item.style.marginLeft = '10vw';
-        });
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '3vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '1.7vw';
-            item.style.width = '35vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '5vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.5vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-            item.style.width = '30vw';
-            item.style.height = '30vw';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each individual left total description column
+//         document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+//             item.style.marginLeft = '10vw';
+//         });
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '1.7vw';
+//             item.style.width = '35vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '5vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.5vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//             item.style.width = '30vw';
+//             item.style.height = '30vw';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 1200) && (window.innerWidth >= 1100)) {
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '1';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each individual left total description column
-        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
-            item.style.marginLeft = '2vw';
-        });
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '4vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '2vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '6vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.5vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-            item.style.width = '30vw';
-            item.style.height = '30vw';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each individual left total description column
+//         document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+//             item.style.marginLeft = '2vw';
+//         });
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '4vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '2vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '6vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.5vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//             item.style.width = '30vw';
+//             item.style.height = '30vw';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 1100) && (window.innerWidth >= 1000)) {
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each individual left total description column
-        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
-            item.style.marginLeft = '2vw';
-        });
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '4vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '2vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '6vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.5vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-            item.style.width = '30vw';
-            item.style.height = '30vw';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "60vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw -2vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each individual left total description column
+//         document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+//             item.style.marginLeft = '2vw';
+//         });
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '4vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '2vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '6vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.5vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//             item.style.width = '30vw';
+//             item.style.height = '30vw';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
-        // First View
-        // Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // First view > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // First view > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        // First View > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // First view > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // First view > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 1000) && (window.innerWidth >= 900)) {
+//         // First View
+//         // Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+//         // First view > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+//         // First view > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+//         // First View > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
+//         // First view > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // First view > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 30vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 30vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "80vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 10vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each individual left total description column
-        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
-            item.style.marginLeft = '3vw';
-        });
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '4vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '2vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '7vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.5vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-            item.style.width = '30vw';
-            item.style.height = '30vw';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "80vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 10vw / 60vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -5vw 5vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each individual left total description column
+//         document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+//             item.style.marginLeft = '3vw';
+//         });
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '4vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '2vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '7vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.5vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//             item.style.width = '30vw';
+//             item.style.height = '30vw';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 900) && (window.innerWidth >= 800)) {
         
-        // Top Navigation Bar
+//         // Top Navigation Bar
 
-        // - > Showing the nav Bar totally
-        // document.getElementById('navcol-1').style.opacity = '1';
+//         // - > Showing the nav Bar totally
+//         // document.getElementById('navcol-1').style.opacity = '1';
         
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 8vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 25vw no-repeat, rgb(255, 255, 255)';
-        // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.height = '50vw';
-        document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.marginTop = '10vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '0px';
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '0px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 8vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 25vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+//         document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.height = '50vw';
+//         document.getElementById('row-of-main-content-of-first-view-hi-mohammad-and-others-row-row-cols-1').style.marginTop = '10vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 20vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 20vw / 35vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 5vw / 35vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "120vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 20vw / 80vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -10vw 10vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each individual left total description column
-        document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
-            item.style.marginLeft = '4vw';
-        });
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '4vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '2vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '7vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.5vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-            item.style.width = '30vw';
-            item.style.height = '30vw';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "120vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 20vw / 80vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -10vw 10vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each individual left total description column
+//         document.querySelectorAll('#third-view-card-skills-individuals-description-icons-see-more-buttons').forEach(function (item) {
+//             item.style.marginLeft = '4vw';
+//         });
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '4vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '2vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '7vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.5vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//             item.style.width = '30vw';
+//             item.style.height = '30vw';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 800) && (window.innerWidth >= 700)) {
         
-        // Top Navigation Bar
+//         // Top Navigation Bar
 
-        // - > Showing the nav Bar totally
-        // document.getElementById('navcol-1').style.opacity = '1';
+//         // - > Showing the nav Bar totally
+//         // document.getElementById('navcol-1').style.opacity = '1';
 
-        // > Class Name
-        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
-        // - > Home Button
-        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
-        // - > language Drop Down
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
-        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
-        // - > Skill Drop Down
-        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
-        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
-        // - > Download the resume
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
-        // - > Contact me Button
-        document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
+//         // > Class Name
+//         document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+//         // - > Home Button
+//         document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
+//         // - > language Drop Down
+//         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
+//         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+//         // - > Skill Drop Down
+//         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
+//         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+//         // - > Download the resume
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
+//         // - > Contact me Button
+//         document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
         
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // - > section
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 5vw / 35vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
-        // - > heading
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-10vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // - > content > column 
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator 
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+//         // - > section
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 5vw / 35vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '4vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-10vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         // - > content > column 
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator 
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 55vw 30vw / 40vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 40vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 55vw 30vw / 40vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 8vw 8vw / 40vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "120vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 20vw / 80vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -10vw 10vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '5vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '2.2vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '8vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.8vw';
-            item.style.borderRadius = '11px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "120vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 20vw / 80vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -10vw 10vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '5vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '2.2vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '8vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.8vw';
+//             item.style.borderRadius = '11px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 700) && (window.innerWidth >= 600)) {
         
-        // Top Navigation Bar
+//         // Top Navigation Bar
 
-        // - > Showing the nav Bar totally
-        // document.getElementById('navcol-1').style.opacity = '1';
+//         // - > Showing the nav Bar totally
+//         // document.getElementById('navcol-1').style.opacity = '1';
 
-        // > Class Name
-        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
-        // - > Home Button
-        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
-        // - > language Drop Down
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
-        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
-        // - > Skill Drop Down
-        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
-        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
-        // - > Download the resume
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
-        // - > Contact me Button
-        document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
+//         // > Class Name
+//         document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+//         // - > Home Button
+//         document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
+//         // - > language Drop Down
+//         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
+//         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+//         // - > Skill Drop Down
+//         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
+//         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+//         // - > Download the resume
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
+//         // - > Contact me Button
+//         document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
 
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
-        // - > heading
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-10vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '2vw';
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // First View > See My Skills Button
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '2vw';
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '20vw';
-        // First View > Contact Me Button
-        document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '2vw';
-        document.getElementById('first-view-main-intro-page-first-button-black').style.width = '20vw';
-        // - > content > column
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 30vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-10vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '2vw';
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
+//         // First View > See My Skills Button
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '2vw';
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '20vw';
+//         // First View > Contact Me Button
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '2vw';
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.width = '20vw';
+//         // - > content > column
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 5vw / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // // - > Responsible Button
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // // - > On-Time Button
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // // - > Creative Button
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 60vw 25vw / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 5vw / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // // - > Responsible Button
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // // - > On-Time Button
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // // - > Creative Button
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         // document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         // document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "120vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 20vw / 80vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -10vw 10vw / 50vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '5vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '2.2vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '8vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '1.8vw';
-            item.style.borderRadius = '11px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "120vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 50vw 20vw / 80vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -10vw 10vw / 50vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '5vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '2.2vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '8vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '1.8vw';
+//             item.style.borderRadius = '11px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '2vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 600) && (window.innerWidth >= 500)) {
         
-        // Top Navigation Bar
+//         // Top Navigation Bar
 
-        // - > Showing the nav Bar totally
-        // document.getElementById('navcol-1').style.opacity = '1';
+//         // - > Showing the nav Bar totally
+//         // document.getElementById('navcol-1').style.opacity = '1';
 
-        // > Class Name
-        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
-        // - > Home Button
-        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
-        // - > language Drop Down
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
-        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
-        // - > Skill Drop Down
-        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
-        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
-        // - > Download the resume
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
-        // - > Contact me Button
-        document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
+//         // > Class Name
+//         document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+//         // - > Home Button
+//         document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-15vw";
+//         // - > language Drop Down
+//         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-15vw";
+//         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+//         // - > Skill Drop Down
+//         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-15vw";
+//         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+//         // - > Download the resume
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-15vw";
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "2vw";
+//         // - > Contact me Button
+//         document.getElementById('contact-me-nav-bar').style.marginLeft = "-15vw";
         
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // - > section
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 40vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
-        // - > heading
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '5vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-30vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3.2vw';
-        // - > content > column
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+//         // - > section
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 40vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '5vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-30vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3.2vw';
+//         // - > content > column
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 60vw / 60vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 60vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // - > Responsible Button
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
-        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // - > On-Time Button
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
-        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // - > Creative Button
-        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
-        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 60vw / 60vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 60vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // - > Responsible Button
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "3.5vw";
+//         document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // - > On-Time Button
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "3.5vw";
+//         document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // - > Creative Button
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "3.5vw";
+//         document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "220vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 30vw 100vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 10vw / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '9vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '4vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '12vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '3vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '50px';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "220vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/Right Card Shape.svg') 30vw 100vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 10vw / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '9vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '4vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '12vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '3vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '50px';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '4vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '5vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '4vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '5vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 500) && (window.innerWidth >= 400)) {
         
-        // Top Navigation Bar
+//         // Top Navigation Bar
 
-        // - > Showing the nav Bar totally
-        // document.getElementById('navcol-1').style.opacity = '1';
+//         // - > Showing the nav Bar totally
+//         // document.getElementById('navcol-1').style.opacity = '1';
 
-        // > Class Name
-        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
-        // - > Home Button
-        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-20vw";
-        // - > language Drop Down
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-20vw";
-        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
-        // - > Skill Drop Down
-        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-20vw";
-        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
-        // - > Download the resume
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-20vw";
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "3vw";
-        // - > Contact me Button
-        document.getElementById('contact-me-nav-bar').style.marginLeft = "-20vw";
+//         // > Class Name
+//         document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+//         // - > Home Button
+//         document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-20vw";
+//         // - > language Drop Down
+//         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-20vw";
+//         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+//         // - > Skill Drop Down
+//         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-20vw";
+//         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "50vw";
+//         // - > Download the resume
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-20vw";
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "3vw";
+//         // - > Contact me Button
+//         document.getElementById('contact-me-nav-bar').style.marginLeft = "-20vw";
         
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 50vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
-        // - > heading
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-30vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // - > See My Skills Button
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '3.5vw';
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '30vw';
-        // - > Contact Me Button
-        document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '3.5vw';
-        document.getElementById('first-view-main-intro-page-first-button-black').style.width = '30vw';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 10vw / 50vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 40vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-30vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
+//         // - > See My Skills Button
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '3.5vw';
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '30vw';
+//         // - > Contact Me Button
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '3.5vw';
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.width = '30vw';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 100vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // - > Responsible Button
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
-        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // - > On-Time Button
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
-        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // - > Creative Button
-        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
-        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 100vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // - > Responsible Button
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
+//         document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // - > On-Time Button
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
+//         document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // - > Creative Button
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
+//         document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "220vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/Right Card Shape.svg') 30vw 100vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 10vw / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '9vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '4vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '15vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '3.5vw';
-            item.style.borderRadius = '14px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "220vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/Right Card Shape.svg') 30vw 100vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 10vw / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '9vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '4vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '15vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '3.5vw';
+//             item.style.borderRadius = '14px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '6vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
-        // Top Navigation Bar
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '6vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 400) && (window.innerWidth >= 300)) {
+//         // Top Navigation Bar
 
-        // - > Showing the nav Bar totally
-        // document.getElementById('navcol-1').style.opacity = '1';
+//         // - > Showing the nav Bar totally
+//         // document.getElementById('navcol-1').style.opacity = '1';
 
-        // > Class Name
-        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
-        // - > Home Button
-        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-20vw";
-        // - > language Drop Down
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-20vw";
-        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
-        // - > Skill Drop Down
-        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-20vw";
-        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "70vw";
-        // - > Download the resume
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-20vw";
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "5vw";
-        // - > Contact me Button
-        document.getElementById('contact-me-nav-bar').style.marginLeft = "-20vw";
+//         // > Class Name
+//         document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+//         // - > Home Button
+//         document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-20vw";
+//         // - > language Drop Down
+//         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-20vw";
+//         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+//         // - > Skill Drop Down
+//         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-20vw";
+//         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "70vw";
+//         // - > Download the resume
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-20vw";
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "5vw";
+//         // - > Contact me Button
+//         document.getElementById('contact-me-nav-bar').style.marginLeft = "-20vw";
         
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 17vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 50vw no-repeat, rgb(255, 255, 255)';
-        // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-40vw';
-        // - > Skills Cursor
-        document.getElementById('typewriter').style.fontSize = '6vw';
-        document.getElementById('cursor').style.fontSize = '6vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '5vw';
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // - > See My Skills Button
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '4.5vw';
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '35vw';
-        // - > Contact Me Button
-        document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '4.5vw';
-        document.getElementById('first-view-main-intro-page-first-button-black').style.width = '35vw';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 17vw / 60vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 50vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '7vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-40vw';
+//         // - > Skills Cursor
+//         document.getElementById('typewriter').style.fontSize = '6vw';
+//         document.getElementById('cursor').style.fontSize = '6vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '5vw';
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
+//         // - > See My Skills Button
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '4.5vw';
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '35vw';
+//         // - > Contact Me Button
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '4.5vw';
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.width = '35vw';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 130vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 20vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // - > Responsible Button
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
-        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // - > On-Time Button
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
-        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // - > Creative Button
-        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
-        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 130vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 20vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // - > Responsible Button
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
+//         document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // - > On-Time Button
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
+//         document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // - > Creative Button
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
+//         document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "250vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/Right Card Shape.svg') 30vw 130vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 32vw / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '9vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '5vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '20vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '3.5vw';
-            item.style.borderRadius = '10px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '40px';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "250vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/Right Card Shape.svg') 30vw 130vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 32vw / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '9vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '5vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '20vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '3.5vw';
+//             item.style.borderRadius = '10px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '40px';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '6vw';
-            item.style.width = '75vw';
-        });
-    } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '6vw';
+//             item.style.width = '75vw';
+//         });
+//     } else if ((window.innerWidth < 300) && (window.innerWidth >= 200)) {
         
-        // Top Navigation Bar
+//         // Top Navigation Bar
 
-        // - > Showing the nav Bar totally
-        // document.getElementById('navcol-1').style.opacity = '1';
+//         // - > Showing the nav Bar totally
+//         // document.getElementById('navcol-1').style.opacity = '1';
 
-        // > Class Name
-        document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
-        // - > Home Button
-        document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-40vw";
-        // - > language Drop Down
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-40vw";
-        document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
-        // - > Skill Drop Down
-        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-40vw";
-        document.getElementById('skillssss-drop-down-opened-to-style').style.width = "87vw";
-        // - > Download the resume
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-40vw";
-        document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "5vw";
-        // - > Contact me Button
-        document.getElementById('contact-me-nav-bar').style.marginLeft = "-40vw";
+//         // > Class Name
+//         document.getElementById('top-navigation-bar-individual-bar').className = "navbar navbar-expand-md bg-body shadow-lg py-3";
+//         // - > Home Button
+//         document.getElementById('navigation-top-bar-home-link-to-go-to-the-home-page').style.marginLeft = "-40vw";
+//         // - > language Drop Down
+//         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.marginLeft = "-40vw";
+//         document.getElementById('languagesssss-drop-down-menu-items').style.width = "5vw";
+//         // - > Skill Drop Down
+//         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.marginLeft = "-40vw";
+//         document.getElementById('skillssss-drop-down-opened-to-style').style.width = "87vw";
+//         // - > Download the resume
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginLeft = "-40vw";
+//         document.getElementById('download-my-resume-pdf-id-tag-button-link').style.marginBottom = "5vw";
+//         // - > Contact me Button
+//         document.getElementById('contact-me-nav-bar').style.marginLeft = "-40vw";
 
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 30vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // - > heading
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '6vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-20vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
-        // - > See My Skills Button
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '3.6vw';
-        document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '35vw';
-        // - > Contact Me Button
-        document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '4.0vw';
-        document.getElementById('first-view-main-intro-page-first-button-black').style.width = '35vw';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right 30vw / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '6vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.width = '50vw';
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.marginTop = '-20vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '4vw';
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.width = '50vw';
+//         // - > See My Skills Button
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.fontSize = '3.6vw';
+//         document.getElementById('see-my-skills-button-main-page-first-view-intro').style.width = '35vw';
+//         // - > Contact Me Button
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.fontSize = '4.0vw';
+//         document.getElementById('first-view-main-intro-page-first-button-black').style.width = '35vw';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 100vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-        // - > Responsible Button
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
-        document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
-        // - > On-Time Button
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
-        document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
-        // - > Creative Button
-        document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
-        document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
-        document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") 20vw 100vw / 70vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") 10vw 10vw / 70vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//         // - > Responsible Button
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-responsible').style.fontSize = "4vw";
+//         document.getElementById('small-text-responsible-second-view-charactristrics').style.color = "black";
+//         // - > On-Time Button
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-on-time').style.fontSize = "4vw";
+//         document.getElementById('small-text-on-time-second-view-charactristrics').style.color = "black";
+//         // - > Creative Button
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.boxShadow = "0px 0px 20px 10px rgba(0, 0, 0, 0.1)";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.width = "70vw";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.height = "auto";
+//         document.getElementById('second-view-charactristrics-main-page-creative').style.fontSize = "4vw";
+//         document.getElementById('small-text-creative-second-view-charactristrics').style.color = "black";
 
-        // Third View
-        // - > Total Third view height
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "300vw";
-        document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/Right Card Shape.svg') 30vw 150vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 32vw / 100vw no-repeat, linear-gradient(black, #000000)";
-        // - > Each skill title
-        var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
-        skillTitles.forEach(function (item) {
-            item.style.fontSize = '9vw';
-        });
-        // - > Getting all skills text description
-        var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
-        slidesSkillsCard.forEach(function (item) {
-            item.style.fontSize = '5vw';
-        });
-        // - > Softwares Icons
-        var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
-        softwaresIcons.forEach(function (item) {
-            item.style.width = '20vw';
-        });
-        // - > Each skill see more button
-        var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
-        seeMoreButton.forEach(function (item) {
-            item.style.fontSize = '3.5vw';
-            item.style.borderRadius = '5px';
-        });
-        // - > Skill Intro Picture
-        var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
-        cardIntroPicture.forEach(function (item) {
-            item.style.borderRadius = '30px';
-        });
+//         // Third View
+//         // - > Total Third view height
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.height = "300vw";
+//         document.getElementById('my-skills-carousel-third-view-main-page-my-skills').style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/Right Card Shape.svg') 30vw 150vw / 100vw no-repeat, url('/assets/img/Left Card - Shape - Triangles.svg') -30vw 32vw / 100vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Each skill title
+//         var skillTitles = document.querySelectorAll('#skill-title-third-view-cards-skills');
+//         skillTitles.forEach(function (item) {
+//             item.style.fontSize = '9vw';
+//         });
+//         // - > Getting all skills text description
+//         var slidesSkillsCard = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > p');
+//         slidesSkillsCard.forEach(function (item) {
+//             item.style.fontSize = '5vw';
+//         });
+//         // - > Softwares Icons
+//         var softwaresIcons = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > div > div > div > img');
+//         softwaresIcons.forEach(function (item) {
+//             item.style.width = '20vw';
+//         });
+//         // - > Each skill see more button
+//         var seeMoreButton = document.querySelectorAll('#skill-card-to-go-button');
+//         seeMoreButton.forEach(function (item) {
+//             item.style.fontSize = '3.5vw';
+//             item.style.borderRadius = '5px';
+//         });
+//         // - > Skill Intro Picture
+//         var cardIntroPicture = document.querySelectorAll('#slide-third-view-skill-individuals > div > div > div > img');
+//         cardIntroPicture.forEach(function (item) {
+//             item.style.borderRadius = '30px';
+//         });
 
-        // Fourth View
-        // - > Background
-        document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
-        // - > Reserved rights
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
-        document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
-        // - > Contact information buttons
-        document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
-            item.style.fontSize = '6vw';
-            item.style.width = '75vw';
-        });
-    } else {
-        // First View
-        // - > Top Nav Bar > Contact Me Button
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
-        document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
-        // - > section > background
-        document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
-        // - > heading > font size
-        document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
-        // - > Paragraph
-        document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
-        // - > content > column > width
-        document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
-        // - > scroll indicator > opacity
-        document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
+//         // Fourth View
+//         // - > Background
+//         document.getElementById('all-rights-reserved-copy-right-symbol').style.background = "url('/assets/img/End Main Page - BC.svg') -2vw bottom / 140vw no-repeat, linear-gradient(black, #000000)";
+//         // - > Reserved rights
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.fontSize = '5vw';
+//         document.getElementById('all-rights-reserved-copy-right-symbol-paragraph-muhammad-husain-aboutalebi-all-right-reserved').style.width = '75vw';
+//         // - > Contact information buttons
+//         document.querySelectorAll('#fourth-view-talk-to-me-button-contact-informations').forEach(function (item) {
+//             item.style.fontSize = '6vw';
+//             item.style.width = '75vw';
+//         });
+//     } else {
+//         // First View
+//         // - > Top Nav Bar > Contact Me Button
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginTop = '12px';
+//         document.getElementById('contact-me-button-top-navigation-bar-to-go-to-the-bottom').style.marginBottom = '12px';
+//         // - > section > background
+//         document.getElementById('first-view-main-page-background-of-div-eleement').style.background = 'url("/' + "assets/img/Right Triangles and Orange Shape.svg" + '") right top / 30vw no-repeat, url("/' + "assets/img/Left Top - Introduction - Shapes and Perfect Triangles.svg" + '") left bottom / 20vw no-repeat, rgb(255, 255, 255)';
+//         // - > heading > font size
+//         document.getElementById('first-view-intro-main-page-hi-im-mohammad-hussain-abootalebi').style.fontSize = '3vw';
+//         // - > Paragraph
+//         document.getElementById('first-view-main-page-intro-paragraph-who-am-i').style.fontSize = '3vmin';
+//         // - > content > column > width
+//         document.getElementById('first-view-content-heading-column-width-div-element').style.width = '200vw';
+//         // - > scroll indicator > opacity
+//         document.getElementById('mouse-scroll-indicator-first-view-main-page').style.opacity = '0';
 
-        // Second View
-        // - > Background
-        document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") bottom right / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") left top / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
-    }
+//         // Second View
+//         // - > Background
+//         document.getElementById('main-view-second-view-background-two-a-lot-of-circles').style.background = 'url("/' + "assets/img/Gray - circles.svg" + '") bottom right / 30vw no-repeat, url("/' + "assets/img/Group 1031.svg" + '") left top / 30vw no-repeat, linear-gradient(#ffffff 0%, #ffffff 100%)';
+//     }
 
-    // Height of the drop down language to be decreased in small screens
-    if (window.innerWidth < 765) {
-        document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '40px';
-    } else {
-        // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
+//     // Height of the drop down language to be decreased in small screens
+//     if (window.innerWidth < 765) {
+//         document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '40px';
+//     } else {
+//         // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
 
-        // - > Showing the nav Bar totally
-        document.getElementById('navcol-1').style.opacity = '1';
-    }
+//         // - > Showing the nav Bar totally
+//         document.getElementById('navcol-1').style.opacity = '1';
+//     }
 
-    // Height of the drop down of skills
-    document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.zIndex = '1'; // Make the skill drop down to upper level
-    if (window.innerWidth < 765) {
-        document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.height = '40px';
-    } else {
-        // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
-    }
-    // --------------------- ↑ Top Nav Bar ↑ ---------------------
-}
+//     // Height of the drop down of skills
+//     document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.zIndex = '1'; // Make the skill drop down to upper level
+//     if (window.innerWidth < 765) {
+//         document.getElementById('Main-Intro-Skills-Drop-Down-top-nav-bar').style.height = '40px';
+//     } else {
+//         // document.getElementById('Main-Intro-language-individual-skills-drop-down-change-languages').style.height = '0px';
+//     }
+//     // --------------------- ↑ Top Nav Bar ↑ ---------------------
+// }
 
-document.addEventListener("DOMContentLoaded", function () {
-    MakingAnythingResponsiveBehavior();
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//     MakingAnythingResponsiveBehavior();
+// });
 
 // window.addEventListener("resize", function () {
 //     this.location.reload();
