@@ -1,0 +1,38 @@
+/* ©©©©©©©©©©©©©©© All Rights are reserved by Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ----------------------- ↓ Carousel Background ↓ ----------------------- */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<<<<<< */
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Language-Skills_Carousels {
+    background: url("../../../../assets/img/Illustrations/Hexagon_1.svg") left bottom / contain no-repeat;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<<<<<<< */
+
+/* ▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨ */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<<<<<<< */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Language-Skills_Carousels {
+    background: url("../../../../assets/img/Illustrations/Hexagon_1.svg") center bottom / contain no-repeat;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<<<<<< */
+
+/* ----------------------- ↑ Carousel Background ↑ ----------------------- */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ©©©©©©©©©©©©©©© All Rights are reserved by Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©© */
+

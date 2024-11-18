@@ -1,0 +1,50 @@
+/* ©©©©©©©©©©©©©©© All Rights are reserved by Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ----------------------- ↓ Card Size ↓ ----------------------- */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<<<<<< */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Language-Skills-Card {
+    width: 50vw !important;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 70px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<<<<<<< */
+
+/* ▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨ */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<<<<<<< */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Language-Skills-Card {
+    width: 75vw !important;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 70px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<<<<<< */
+
+/* ----------------------- ↑ Card Size ↑ ----------------------- */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ©©©©©©©©©©©©©©© All Rights are reserved by Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©© */
+

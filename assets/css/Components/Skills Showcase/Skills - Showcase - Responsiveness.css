@@ -1,0 +1,111 @@
+/* ©©©©©©©©©©©©©© All Rights are Reservered By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ---------------------------------- ↓ Skills Showcase ↓ ----------------------------- */
+
+/* >>>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<< */
+
+/* ↓ Carousel ↓ */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Skills-Carousel {
+    padding-top: 10vh !important;
+    padding-bottom: 10vh !important;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1)), url("../../../../assets/img/Illustrations/Right%20Card%20Shape.svg") right / 100vh no-repeat, url("../../../../assets/img/Illustrations/Left%20Card%20-%20Shape%20-%20Triangles.svg") bottom left / 100vh no-repeat, linear-gradient(black, #000000);
+  }
+}
+
+/* ↓ Skill Image(s) ↓ */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Skills-Showcase_Skill_Image {
+    width: 60vh !important;
+    height: auto !important;
+  }
+}
+
+/* ↓ Skill Row ↓ */
+
+@media (min-width: 577px) {
+  .MuhammadHusainAbootalebi-Skills-Showcase_Row {
+    padding: 5vw 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-skills-showcase_texts_column {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Skills-Showcase_Skill_Image_Column {
+    display: flex;
+    flex-direction: row;
+    justify-content: start !important;
+    align-items: center !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<<< */
+
+/* ◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒●◒● */
+
+/* >>>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<<< */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Skills-Carousel {
+    height: auto !important;
+    margin: 0px !important;
+    padding: 20vw 0vw !important;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("../../../../assets/img/Illustrations/Right%20Card%20Shape.svg") right bottom / 50vh no-repeat, url("../../../../assets/img/Illustrations/Left%20Card%20-%20Shape%20-%20Triangles.svg") top left / 50vh no-repeat, linear-gradient(black, #000000);
+  }
+}
+
+/* ↓ Skill Image(s) ↓ */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Skills-Showcase_Skill_Image {
+    width: 60vh !important;
+    height: auto !important;
+  }
+}
+
+/* ↓ Skill Row ↓ */
+
+@media (max-width: 577px) {
+  .MuhammadHusainAbootalebi-Skills-Showcase_Row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 0vw 12vw !important;
+  }
+}
+
+/* ↓ Image Column ↓ */
+
+@media (max-width: 577px) {
+  .MuhammadHusainAbootalebi-Skills-Showcase_Skill_Image_Column {
+    margin-top: 10vw !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<< */
+
+/* ---------------------------------- ↑ Skills Showcase ↑ ----------------------------- */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ©©©©©©©©©©©©©© All Rights are Reservered By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©© */
+
