@@ -824,6 +824,25 @@ var neededProperties = {
                 document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").textContent = body_Fonts_Translations[language]["Navbar_Skills_DropDown_Mechanical_Engineer"];
                 document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").style.fontFamily = body_Fonts_Translations[language]["fontFamily"];
 
+                /// --- >>> Skill Drop Down Links
+
+                //// ----- >>>> UI and UX Designer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_UIUXDESIGNER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_UIUXDESIGNER").dataset.info) + "&language=" + encodeURI(language);
+                //// ----- >>>> Flutter Developer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FLUTTER_DEVELOPER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FLUTTER_DEVELOPER").dataset.info) + "&language=" + encodeURI(language);
+                //// ----- >>>> Full Stack Developer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FULL_STACK_DEVELOPER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FULL_STACK_DEVELOPER").dataset.info) + "&language=" + encodeURI(language);
+                //// ----- >>>> Android Developer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_ANDROID_DEVELOPER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_ANDROID_DEVELOPER").dataset.info) + "&language=" + encodeURI(language);
+                //// ----- >>>> AI Engineer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_AI_ENGINEER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_AI_ENGINEER").dataset.info) + "&language=" + encodeURI(language);
+                //// ----- >>>> Industrial Designer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_INDUSTRIAL_DESIGNER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_INDUSTRIAL_DESIGNER").dataset.info) + "&language=" + encodeURI(language);
+                //// ----- >>>> SDA Engineer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_SELF_DRIVING_ENGINEER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_SELF_DRIVING_ENGINEER").dataset.info) + "&language=" + encodeURI(language);
+                //// ----- >>>> Mechanical Engineer
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").dataset.info) + "&language=" + encodeURI(language);
+
                 // -- >> Download My Resume Button
                 document.getElementById("MuhammadHusainAbootalebi-Download-My-Resume").textContent = heading_Fonts_Translations[language]["Download_My_Resume"];
                 document.getElementById("MuhammadHusainAbootalebi-Download-My-Resume").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
@@ -1149,6 +1168,8 @@ var neededProperties = {
                         (item, index) => {
                                 item.textContent = heading_Fonts_Translations[language]["Skill_Showcases_See_More_Button"];
                                 item.style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+                                // -- >> Links to the Skill Silo Page
+                                item.href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(item.dataset.info) + "&language=" + encodeURI(language);
                         }
                 );
 
