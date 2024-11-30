@@ -22,6 +22,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "Mechanical Engineer",
                 'Landing_Page_Buttons_My_Done_Projects': "Projects",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "Software Skills",
+                'Projects_Courses_Books_Done_Projects_Title': "Done Projects",
+                'Projects_Courses_Books_Done_Projects_Button': "See More",
+                'Projects_Courses_Books_Reed_Books_Title': "Books",
+                'Projects_Courses_Books_Passed_Courses_Title': "Passed Courses",
                 'Contact_Section_Lets_Talk': "Let's Talk!",
                 'Contact_Section_Email_Button': '&nbsp; Email&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; Telegram<i class="bi bi-telegram"></i>',
@@ -43,6 +47,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "Maschinenbauingenieur",
                 'Landing_Page_Buttons_My_Done_Projects': "Projekte",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "Softwarekenntnisse",
+                'Projects_Courses_Books_Done_Projects_Title': "Abgeschlossene Projekte",
+                'Projects_Courses_Books_Done_Projects_Button': "Mehr anzeigen",
+                'Projects_Courses_Books_Reed_Books_Title': "Bücher",
+                'Projects_Courses_Books_Passed_Courses_Title': "Abgeschlossene Kurse",
                 'Contact_Section_Lets_Talk': "Lass uns reden!",
                 'Contact_Section_Email_Button': '&nbsp; E-Mail&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; Telegramm<i class="bi bi-telegram"></i>',
@@ -64,6 +72,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "机械工程师",
                 'Landing_Page_Buttons_My_Done_Projects': "项目",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "软件技能",
+                'Projects_Courses_Books_Done_Projects_Title': "已完成的项目",
+                'Projects_Courses_Books_Done_Projects_Button': "查看更多",
+                'Projects_Courses_Books_Reed_Books_Title': "图书",
+                'Projects_Courses_Books_Passed_Courses_Title': "已通过课程",
                 'Contact_Section_Lets_Talk': "让我们谈谈吧！",
                 'Contact_Section_Email_Button': '&nbsp; 电子邮件&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; 电报<i class="bi bi-telegram"></i>',
@@ -85,6 +97,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "Инженер-механик",
                 'Landing_Page_Buttons_My_Done_Projects': "Проекты",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "Навыки работы с программным обеспечением",
+                'Projects_Courses_Books_Done_Projects_Title': "Выполненные проекты",
+                'Projects_Courses_Books_Done_Projects_Button': "Смотреть больше",
+                'Projects_Courses_Books_Reed_Books_Title': "Книги",
+                'Projects_Courses_Books_Passed_Courses_Title': "Пройденные курсы",
                 'Contact_Section_Lets_Talk': "Давайте поговорим!",
                 'Contact_Section_Email_Button': '&nbsp; Электронная почта&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; Телеграмма<i class="bi bi-telegram"></i>',
@@ -106,6 +122,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "Ingénieur mécanique",
                 'Landing_Page_Buttons_My_Done_Projects': "Projets",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "Compétences logicielles",
+                'Projects_Courses_Books_Done_Projects_Title': "Projets terminés",
+                'Projects_Courses_Books_Done_Projects_Button': "Voir plus",
+                'Projects_Courses_Books_Reed_Books_Title': "Livres",
+                'Projects_Courses_Books_Passed_Courses_Title': "Cours réussis",
                 'Contact_Section_Lets_Talk': "Parlons-en!",
                 'Contact_Section_Email_Button': '&nbsp; E-mail&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; Télégramme<i class="bi bi-telegram"></i>',
@@ -127,6 +147,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "機械エンジニア",
                 'Landing_Page_Buttons_My_Done_Projects': "プロジェクト",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "ソフトウェアスキル",
+                'Projects_Courses_Books_Done_Projects_Title': "完了したプロジェクト",
+                'Projects_Courses_Books_Done_Projects_Button': "もっと見る",
+                'Projects_Courses_Books_Reed_Books_Title': "書籍",
+                'Projects_Courses_Books_Passed_Courses_Title': "合格したコース",
                 'Contact_Section_Lets_Talk': "話しましょう！",
                 'Contact_Section_Email_Button': '&nbsp; メール&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; 電報<i class="bi bi-telegram"></i>',
@@ -148,6 +172,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "기계 엔지니어",
                 'Landing_Page_Buttons_My_Done_Projects': "프로젝트",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "소프트웨어 기술",
+                'Projects_Courses_Books_Done_Projects_Title': "완료된 프로젝트",
+                'Projects_Courses_Books_Done_Projects_Button': "더 보기",
+                'Projects_Courses_Books_Reed_Books_Title': "서적",
+                'Projects_Courses_Books_Passed_Courses_Title': "통과 과목",
                 'Contact_Section_Lets_Talk': "이야기해요!",
                 'Contact_Section_Email_Button': '&nbsp; 이메일&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; 전보<i class="bi bi-telegram"></i>',
@@ -169,6 +197,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "Ingeniero mecánico",
                 'Landing_Page_Buttons_My_Done_Projects': "Proyectos",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "Habilidades de software",
+                'Projects_Courses_Books_Done_Projects_Title': "Proyectos realizados",
+                'Projects_Courses_Books_Done_Projects_Button': "Ver más",
+                'Projects_Courses_Books_Reed_Books_Title': "Libros",
+                'Projects_Courses_Books_Passed_Courses_Title': "Cursos Aprobados",
                 'Contact_Section_Lets_Talk': "¡Hablemos!",
                 'Contact_Section_Email_Button': '&nbsp; Correo electrónico&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; Telegrama<i class="bi bi-telegram"></i>',
@@ -190,6 +222,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "यांत्रिक इंजीनियर",
                 'Landing_Page_Buttons_My_Done_Projects': "परियोजनाओं",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "सॉफ्टवेयर कौशल",
+                'Projects_Courses_Books_Done_Projects_Title': "पूर्ण परियोजनाएं",
+                'Projects_Courses_Books_Done_Projects_Button': "और देखें",
+                'Projects_Courses_Books_Reed_Books_Title': "पुस्तकें",
+                'Projects_Courses_Books_Passed_Courses_Title': "उत्तीर्ण पाठ्यक्रम",
                 'Contact_Section_Lets_Talk': "चलो बात करते हैं!",
                 'Contact_Section_Email_Button': '&nbsp; ईमेल&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; टेलीग्राम<i class="bi bi-telegram"></i>',
@@ -211,6 +247,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "Engenheiro Mecânico",
                 'Landing_Page_Buttons_My_Done_Projects': "Projetos",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "Competências de software",
+                'Projects_Courses_Books_Done_Projects_Title': "Projetos concluídos",
+                'Projects_Courses_Books_Done_Projects_Button': "Ver mais",
+                'Projects_Courses_Books_Reed_Books_Title': "Livros",
+                'Projects_Courses_Books_Passed_Courses_Title': "Cursos aprovados",
                 'Contact_Section_Lets_Talk': "Vamos conversar!",
                 'Contact_Section_Email_Button': '&nbsp; E-mail&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; Telegrama<i class="bi bi-telegram"></i>',
@@ -232,6 +272,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "মেকানিক্যাল ইঞ্জিনিয়ার",
                 'Landing_Page_Buttons_My_Done_Projects': "প্রকল্প",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "সফটওয়্যার দক্ষতা",
+                'Projects_Courses_Books_Done_Projects_Title': "সম্পন্ন প্রকল্প",
+                'Projects_Courses_Books_Done_Projects_Button': "আরও দেখুন",
+                'Projects_Courses_Books_Reed_Books_Title': "বই",
+                'Projects_Courses_Books_Passed_Courses_Title': "পাস করা কোর্স",
                 'Contact_Section_Lets_Talk': "আসুন কথা বলি!",
                 'Contact_Section_Email_Button': '&nbsp; ইমেইল&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; টেলিগ্রাম<i class="bi bi-telegram"></i>',
@@ -253,6 +297,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "مهندس ميكانيكي",
                 'Landing_Page_Buttons_My_Done_Projects': "المشاريع",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "مهارات البرمجيات",
+                'Projects_Courses_Books_Done_Projects_Title': "المشاريع المنجزة",
+                'Projects_Courses_Books_Done_Projects_Button': "شاهد المزيد",
+                'Projects_Courses_Books_Reed_Books_Title': "كتب",
+                'Projects_Courses_Books_Passed_Courses_Title': "الدورات التي اجتازتها",
                 'Contact_Section_Lets_Talk': "دعونا نتحدث!",
                 'Contact_Section_Email_Button': '&nbsp; بريد إلكتروني&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; برقية<i class="bi bi-telegram"></i>',
@@ -274,6 +322,10 @@ var heading_Fonts_Translations = {
                 'Mechanical Engineer': "مهندس مکانیک",
                 'Landing_Page_Buttons_My_Done_Projects': "پروژه ها",
                 'Landing_Page_Buttons_Software_Skills_Button_Text': "مهارت های نرم افزاری",
+                'Projects_Courses_Books_Done_Projects_Title': "پروژه های انجام شده",
+                'Projects_Courses_Books_Done_Projects_Button': "بیشتر ببینید",
+                'Projects_Courses_Books_Reed_Books_Title': "کتاب ها",
+                'Projects_Courses_Books_Passed_Courses_Title': "دوره های گذرانده شده",
                 'Contact_Section_Lets_Talk': "بیایید صحبت کنیم!",
                 'Contact_Section_Email_Button': '&nbsp; ایمیل&nbsp;&nbsp;<i class="bi bi-envelope-at-fill"></i>',
                 'Contact_Section_Telegram_Button': '&nbsp; تلگرام<i class="bi bi-telegram"></i>',
@@ -302,6 +354,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "As a Senior Self-Driving Automobile Engineer, I specialize in developing cutting-edge autonomous vehicle systems that prioritize safety, efficiency, and innovation. With deep expertise in sensor fusion, computer vision, and machine learning, I design and optimize algorithms that enable vehicles to navigate complex environments seamlessly. My experience spans integrating advanced hardware with robust software architectures to create reliable self-driving solutions. Passionate about shaping the future of mobility, I am committed to delivering autonomous technologies that redefine transportation.",
                         "Mechanical Engineer": "As a Senior Mechanical Engineer, I excel in designing and optimizing innovative mechanical systems that drive efficiency and performance. With a strong foundation in thermodynamics, materials science, and advanced manufacturing techniques, I have led projects across industries, delivering impactful solutions. My expertise includes developing prototypes, conducting rigorous analysis, and implementing sustainable engineering practices. Passionate about pushing the boundaries of design and technology, I am dedicated to creating mechanical systems that meet the challenges of tomorrow.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "See this skill in action by seeing my done projects.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "See which books helps me in learning journey of this skill.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "See the courses that help me to build this skill.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. All rights reserved.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -324,6 +379,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "Als Senior Engineer für autonomes Fahren bin ich auf die Entwicklung hochmoderner autonomer Fahrzeugsysteme spezialisiert, bei denen Sicherheit, Effizienz und Innovation im Vordergrund stehen. Mit meiner umfassenden Expertise in Sensorfusion, Computervision und maschinellem Lernen entwerfe und optimiere ich Algorithmen, mit denen Fahrzeuge problemlos durch komplexe Umgebungen navigieren können. Meine Erfahrung umfasst die Integration fortschrittlicher Hardware mit robusten Softwarearchitekturen, um zuverlässige Lösungen für autonomes Fahren zu schaffen. Mit Leidenschaft für die Gestaltung der Zukunft der Mobilität setze ich mich dafür ein, autonome Technologien bereitzustellen, die den Transport neu definieren.",
                         "Mechanical Engineer": "Als leitender Maschinenbauingenieur bin ich hervorragend darin, innovative mechanische Systeme zu entwerfen und zu optimieren, die Effizienz und Leistung steigern. Mit einem soliden Fundament in Thermodynamik, Materialwissenschaft und fortschrittlichen Fertigungstechniken habe ich branchenübergreifend Projekte geleitet und wirkungsvolle Lösungen geliefert. Zu meinen Fachkenntnissen gehören die Entwicklung von Prototypen, die Durchführung strenger Analysen und die Implementierung nachhaltiger technischer Verfahren. Ich bin leidenschaftlich daran interessiert, die Grenzen von Design und Technologie zu erweitern, und widme mich der Entwicklung mechanischer Systeme, die den Herausforderungen von morgen gerecht werden.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Sehen Sie sich diese Fähigkeit in Aktion an, indem Sie sich meine abgeschlossenen Projekte ansehen.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Sehen Sie, welche Bücher mir beim Erlernen dieser Fähigkeit helfen.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Sehen Sie sich die Kurse an, die mir beim Aufbau dieser Fähigkeit geholfen haben.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Alle Rechte vorbehalten.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -346,6 +404,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "作为一名高级自动驾驶汽车工程师，我专注于开发以安全、效率和创新为优先的尖端自动驾驶汽车系统。凭借在传感器融合、计算机视觉和机器学习方面的深厚专业知识，我设计和优化算法，使车辆能够无缝导航复杂的环境。我的经验包括将先进的硬件与强大的软件架构集成以创建可靠的自动驾驶解决方案。我热衷于塑造移动出行的未来，致力于提供重新定义交通的自动驾驶技术。",
                         "Mechanical Engineer": "作为一名高级机械工程师，我擅长设计和优化创新的机械系统，以提高效率和性能。凭借在热力学、材料科学和先进制造技术方面的扎实基础，我曾领导过跨行业的项目，提供过有影响力的解决方案。我的专长包括开发原型、进行严格分析和实施可持续的工程实践。我热衷于突破设计和技术的界限，致力于创造能够应对未来挑战的机械系统。",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "通过查看我已完成的项目，了解这项技能的实际应用。",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "看看哪些书籍能帮助我学习这项技能。",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "查看帮助我培养此项技能的课程。",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi。保留所有权利。",
                 'fontFamily': "'Ma Shan Zheng', serif",
         },
@@ -368,6 +429,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "Как старший инженер по беспилотным автомобилям, я специализируюсь на разработке передовых автономных транспортных систем, которые ставят безопасность, эффективность и инновации на первое место. Обладая глубокими знаниями в области слияния датчиков, компьютерного зрения и машинного обучения, я разрабатываю и оптимизирую алгоритмы, которые позволяют транспортным средствам беспрепятственно перемещаться в сложных условиях. Мой опыт охватывает интеграцию передового оборудования с надежной программной архитектурой для создания надежных решений для беспилотного вождения. Увлеченный формированием будущего мобильности, я стремлюсь предоставлять автономные технологии, которые меняют транспорт.",
                         "Mechanical Engineer": "Как старший инженер-механик, я преуспеваю в проектировании и оптимизации инновационных механических систем, которые повышают эффективность и производительность. Имея прочную основу в термодинамике, материаловедении и передовых производственных технологиях, я руководил проектами в различных отраслях промышленности, предоставляя эффективные решения. Мой опыт включает разработку прототипов, проведение строгого анализа и внедрение устойчивых инженерных практик. Страстно стремясь расширить границы дизайна и технологий, я стремлюсь создавать механические системы, которые отвечают вызовам завтрашнего дня.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Оцените этот навык в действии, посмотрев мои реализованные проекты.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Посмотрите, какие книги помогли мне в освоении этого навыка.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Ознакомьтесь с курсами, которые помогают мне развить этот навык.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Мухаммад Хусейн Абуталеби. Все права защищены.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -390,6 +454,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "En tant qu'ingénieur automobile senior en conduite autonome, je me spécialise dans le développement de systèmes de véhicules autonomes de pointe qui privilégient la sécurité, l'efficacité et l'innovation. Grâce à une expertise approfondie en fusion de capteurs, en vision par ordinateur et en apprentissage automatique, je conçois et optimise des algorithmes qui permettent aux véhicules de naviguer de manière transparente dans des environnements complexes. Mon expérience s'étend de l'intégration de matériel avancé à des architectures logicielles robustes pour créer des solutions de conduite autonome fiables. Passionné par l'idée de façonner l'avenir de la mobilité, je m'engage à fournir des technologies autonomes qui redéfinissent le transport.",
                         "Mechanical Engineer": "En tant qu'ingénieur mécanique senior, j'excelle dans la conception et l'optimisation de systèmes mécaniques innovants qui améliorent l'efficacité et la performance. Avec une solide base en thermodynamique, en science des matériaux et en techniques de fabrication avancées, j'ai dirigé des projets dans plusieurs secteurs, fournissant des solutions efficaces. Mon expertise comprend le développement de prototypes, la réalisation d'analyses rigoureuses et la mise en œuvre de pratiques d'ingénierie durables. Passionné par le fait de repousser les limites du design et de la technologie, je me consacre à la création de systèmes mécaniques qui répondent aux défis de demain.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Découvrez cette compétence en action en voyant mes projets réalisés.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Découvrez quels livres m'aident à apprendre le parcours de cette compétence.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Découvrez les cours qui m'aident à développer cette compétence.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Tous droits réservés.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -412,6 +479,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "シニア自動運転自動車エンジニアとして、私は安全性、効率性、革新性を優先する最先端の自動運転車システムの開発を専門としています。センサー フュージョン、コンピューター ビジョン、機械学習に関する深い専門知識を活かして、複雑な環境をシームレスに走行できる車両を実現するアルゴリズムを設計し、最適化しています。高度なハードウェアと堅牢なソフトウェア アーキテクチャを統合して信頼性の高い自動運転ソリューションを作成する経験があります。モビリティの未来を形作ることに情熱を傾け、交通を再定義する自動運転技術の提供に取り組んでいます。",
                         "Mechanical Engineer": "シニア機械エンジニアとして、私は効率とパフォーマンスを向上させる革新的な機械システムの設計と最適化に優れています。熱力学、材料科学、高度な製造技術の強固な基盤を活かして、さまざまな業界のプロジェクトを主導し、影響力のあるソリューションを提供してきました。私の専門分野には、プロトタイプの開発、厳密な分析の実施、持続可能なエンジニアリング手法の実装などがあります。デザインとテクノロジーの限界を押し広げることに情熱を傾け、将来の課題に対応する機械システムの作成に取り組んでいます。",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "私の完了したプロジェクトを見て、このスキルが実際にどのように機能するかを確認してください。",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "このスキルの学習の過程でどの本が役立つかを確認します。",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "このスキルを身に付けるのに役立つコースをご覧ください。",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi。無断転載を禁じます。",
                 'fontFamily': "'Hina Mincho', serif",
         },
@@ -434,6 +504,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "선임 자율주행 자동차 엔지니어로서, 저는 안전, 효율성, 혁신을 우선시하는 최첨단 자율주행차 시스템 개발을 전문으로 합니다. 센서 융합, 컴퓨터 비전, 머신 러닝에 대한 심층적인 전문 지식을 바탕으로, 차량이 복잡한 환경을 원활하게 탐색할 수 있는 알고리즘을 설계하고 최적화합니다. 저의 경험은 고급 하드웨어를 견고한 소프트웨어 아키텍처와 통합하여 신뢰할 수 있는 자율주행 솔루션을 만드는 데 있습니다. 모빌리티의 미래를 형성하는 데 열정을 가지고, 저는 교통을 재정의하는 자율 주행 기술을 제공하는 데 전념합니다.",
                         "Mechanical Engineer": "선임 기계 엔지니어로서 저는 효율성과 성능을 이끌어내는 혁신적인 기계 시스템을 설계하고 최적화하는 데 능숙합니다. 열역학, 재료 과학 및 고급 제조 기술에 대한 강력한 기초를 바탕으로 저는 산업 전반에 걸쳐 프로젝트를 이끌고 영향력 있는 솔루션을 제공했습니다. 저의 전문 분야에는 프로토타입 개발, 엄격한 분석 수행 및 지속 가능한 엔지니어링 관행 구현이 포함됩니다. 설계와 기술의 경계를 넓히는 데 열정적이며, 미래의 과제를 충족하는 기계 시스템을 만드는 데 전념합니다.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "내가 완료한 프로젝트를 보고 이 기술이 실제로 어떻게 활용되는지 확인해 보세요.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "이 기술을 배우는 데 어떤 책이 도움이 되는지 확인해 보세요.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "이 기술을 키우는 데 도움이 되는 과정을 확인해 보세요.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. 모든 권리 보유.",
                 'fontFamily': "'Gowun Batang', serif",
         },
@@ -456,6 +529,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "Como ingeniero sénior en vehículos autónomos, me especializo en el desarrollo de sistemas de vehículos autónomos de vanguardia que priorizan la seguridad, la eficiencia y la innovación. Con una gran experiencia en fusión de sensores, visión artificial y aprendizaje automático, diseño y optimizo algoritmos que permiten a los vehículos navegar por entornos complejos sin problemas. Mi experiencia abarca la integración de hardware avanzado con arquitecturas de software robustas para crear soluciones de conducción autónoma confiables. Apasionado por dar forma al futuro de la movilidad, estoy comprometido a ofrecer tecnologías autónomas que redefinan el transporte.",
                         "Mechanical Engineer": "Como ingeniero mecánico sénior, me destaco por diseñar y optimizar sistemas mecánicos innovadores que impulsan la eficiencia y el rendimiento. Con una sólida base en termodinámica, ciencia de los materiales y técnicas de fabricación avanzadas, he liderado proyectos en distintas industrias y he brindado soluciones de gran impacto. Mi experiencia incluye el desarrollo de prototipos, la realización de análisis rigurosos y la implementación de prácticas de ingeniería sostenibles. Me apasiona superar los límites del diseño y la tecnología y me dedico a crear sistemas mecánicos que afronten los desafíos del mañana.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Vea esta habilidad en acción al ver mis proyectos realizados.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Vea qué libros me ayudan en el proceso de aprendizaje de esta habilidad.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Vea los cursos que me ayudan a desarrollar esta habilidad.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Todos los derechos reservados.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -478,6 +554,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "एक वरिष्ठ स्व-चालित ऑटोमोबाइल इंजीनियर के रूप में, मैं अत्याधुनिक स्वायत्त वाहन प्रणालियों को विकसित करने में माहिर हूं जो सुरक्षा, दक्षता और नवाचार को प्राथमिकता देते हैं। सेंसर फ्यूजन, कंप्यूटर विज़न और मशीन लर्निंग में गहन विशेषज्ञता के साथ, मैं ऐसे एल्गोरिदम डिज़ाइन और ऑप्टिमाइज़ करता हूँ जो वाहनों को जटिल वातावरण में सहजता से नेविगेट करने में सक्षम बनाते हैं। मेरा अनुभव विश्वसनीय स्व-चालित समाधान बनाने के लिए उन्नत हार्डवेयर को मजबूत सॉफ़्टवेयर आर्किटेक्चर के साथ एकीकृत करने तक फैला हुआ है। गतिशीलता के भविष्य को आकार देने के बारे में भावुक, मैं परिवहन को फिर से परिभाषित करने वाली स्वायत्त तकनीकों को वितरित करने के लिए प्रतिबद्ध हूं।",
                         "Mechanical Engineer": "एक वरिष्ठ मैकेनिकल इंजीनियर के रूप में, मैं उन अभिनव मैकेनिकल सिस्टम को डिजाइन करने और अनुकूलित करने में उत्कृष्टता प्राप्त करता हूं जो दक्षता और प्रदर्शन को बढ़ाते हैं। थर्मोडायनामिक्स, मैटेरियल साइंस और उन्नत विनिर्माण तकनीकों में एक मजबूत आधार के साथ, मैंने उद्योगों में परियोजनाओं का नेतृत्व किया है, और प्रभावशाली समाधान प्रदान किए हैं। मेरी विशेषज्ञता में प्रोटोटाइप विकसित करना, कठोर विश्लेषण करना और संधारणीय इंजीनियरिंग प्रथाओं को लागू करना शामिल है। डिजाइन और प्रौद्योगिकी की सीमाओं को आगे बढ़ाने के लिए जुनूनी, मैं भविष्य की चुनौतियों का सामना करने वाले मैकेनिकल सिस्टम बनाने के लिए समर्पित हूं।",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "मेरे पूर्ण किए गए प्रोजेक्ट्स को देखकर इस कौशल को क्रियान्वित होते हुए देखें।",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "देखें कि कौन सी किताबें मुझे इस कौशल को सीखने में मदद करती हैं।",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "उन पाठ्यक्रमों को देखें जो मुझे यह कौशल विकसित करने में मदद करते हैं।",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 मुहम्मद हुसैन अबुतालेबी। सभी अधिकार सुरक्षित।",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -500,6 +579,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "Como engenheiro sénior de automóveis autónomos, especializo-me no desenvolvimento de sistemas de veículos autónomos de última geração que priorizam a segurança, a eficiência e a inovação. Com um profundo conhecimento em fusão de sensores, visão computacional e aprendizagem automática, projeto e otimizo algoritmos que permitem aos veículos navegar perfeitamente em ambientes complexos. A minha experiência abrange a integração de hardware avançado com arquiteturas de software robustas para criar soluções autónomas fiáveis. Apaixonado por moldar o futuro da mobilidade, estou empenhado em fornecer tecnologias autónomas que redefinam os transportes.",
                         "Mechanical Engineer": "Como Engenheiro Mecânico Sénior, destaquei-me no design e otimização de sistemas mecânicos inovadores que impulsionam a eficiência e o desempenho. Com uma sólida base em termodinâmica, ciência dos materiais e técnicas de fabrico avançadas, liderei projetos em todos os setores, entregando soluções impactantes. A minha experiência inclui o desenvolvimento de protótipos, a realização de análises rigorosas e a implementação de práticas de engenharia sustentáveis. Apaixonado por ultrapassar os limites do design e da tecnologia, dedico-me a criar sistemas mecânicos que vão ao encontro dos desafios do futuro.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Veja esta competência em ação vendo os meus projetos concluídos.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Veja que livros me ajudam na jornada de aprendizagem desta competência.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Veja os cursos que me ajudam a desenvolver esta competência.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Todos os direitos reservados.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -522,6 +604,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "একজন সিনিয়র সেলফ-ড্রাইভিং অটোমোবাইল ইঞ্জিনিয়ার হিসাবে, আমি অত্যাধুনিক স্বায়ত্তশাসিত যানবাহন সিস্টেমগুলি বিকাশে বিশেষজ্ঞ যা নিরাপত্তা, দক্ষতা এবং উদ্ভাবনকে অগ্রাধিকার দেয়। সেন্সর ফিউশন, কম্পিউটার ভিশন এবং মেশিন লার্নিং-এ গভীর দক্ষতার সাথে, আমি অ্যালগরিদম ডিজাইন এবং অপ্টিমাইজ করি যা যানবাহনকে জটিল পরিবেশে নির্বিঘ্নে নেভিগেট করতে সক্ষম করে। আমার অভিজ্ঞতা নির্ভরযোগ্য স্ব-ড্রাইভিং সমাধান তৈরি করতে শক্তিশালী সফ্টওয়্যার আর্কিটেকচারের সাথে উন্নত হার্ডওয়্যারকে একীভূত করার জন্য বিস্তৃত। গতিশীলতার ভবিষ্যত গঠনের বিষয়ে উত্সাহী, আমি স্বায়ত্তশাসিত প্রযুক্তি সরবরাহ করতে প্রতিশ্রুতিবদ্ধ যা পরিবহনকে পুনরায় সংজ্ঞায়িত করে।",
                         "Mechanical Engineer": "একজন সিনিয়র মেকানিক্যাল ইঞ্জিনিয়ার হিসাবে, আমি দক্ষতা এবং কর্মক্ষমতা চালনাকারী উদ্ভাবনী যান্ত্রিক সিস্টেম ডিজাইন এবং অপ্টিমাইজ করতে পারদর্শী। তাপগতিবিদ্যা, পদার্থ বিজ্ঞান এবং উন্নত উত্পাদন কৌশলগুলির একটি শক্তিশালী ভিত্তির সাথে, আমি সমস্ত শিল্প জুড়ে প্রকল্পগুলির নেতৃত্ব দিয়েছি, কার্যকর সমাধান প্রদান করেছি। আমার দক্ষতার মধ্যে রয়েছে প্রোটোটাইপ তৈরি করা, কঠোর বিশ্লেষণ করা এবং টেকসই ইঞ্জিনিয়ারিং অনুশীলনগুলি বাস্তবায়ন করা। ডিজাইন এবং প্রযুক্তির সীমানা ঠেলে দেওয়ার বিষয়ে উত্সাহী, আমি এমন যান্ত্রিক সিস্টেম তৈরি করতে নিবেদিত যা আগামীকালের চ্যালেঞ্জগুলি পূরণ করে।",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "আমার সম্পন্ন প্রকল্প দেখে কর্ম এই দক্ষতা দেখুন.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "এই দক্ষতা শেখার যাত্রায় কোন বই আমাকে সাহায্য করে দেখুন।",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "এই দক্ষতা তৈরি করতে আমাকে সাহায্য করে এমন কোর্সগুলি দেখুন।",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 মুহাম্মদ হুসাইন আবুতালেবী। সর্বস্বত্ব সংরক্ষিত",
                 'fontFamily': "'Noto Serif Bengali', serif",
         },
@@ -544,6 +629,9 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "بصفتي مهندسًا أول للسيارات ذاتية القيادة، فأنا متخصص في تطوير أنظمة المركبات ذاتية القيادة المتطورة التي تعطي الأولوية للسلامة والكفاءة والابتكار. وبفضل خبرتي العميقة في دمج أجهزة الاستشعار والرؤية الحاسوبية والتعلم الآلي، أقوم بتصميم وتحسين الخوارزميات التي تمكن المركبات من التنقل في بيئات معقدة بسلاسة. وتمتد خبرتي إلى دمج الأجهزة المتقدمة مع هياكل البرامج القوية لإنشاء حلول موثوقة للقيادة الذاتية. وباعتباري شغوفًا بتشكيل مستقبل التنقل، فأنا ملتزم بتقديم تقنيات القيادة الذاتية التي تعيد تعريف النقل.",
                         "Mechanical Engineer": "بصفتي مهندسًا ميكانيكيًا كبيرًا، أتفوق في تصميم وتحسين الأنظمة الميكانيكية المبتكرة التي تعمل على تعزيز الكفاءة والأداء. وبفضل الأساس القوي في الديناميكا الحرارية وعلوم المواد وتقنيات التصنيع المتقدمة، قمت بقيادة مشاريع عبر الصناعات المختلفة، وتقديم حلول مؤثرة. تشمل خبرتي تطوير النماذج الأولية وإجراء تحليلات دقيقة وتنفيذ ممارسات الهندسة المستدامة. بشغفي بتجاوز حدود التصميم والتكنولوجيا، فأنا مكرس لإنشاء أنظمة ميكانيكية تلبي تحديات الغد.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "شاهد هذه المهارة في العمل من خلال رؤية مشاريعي المنجزة.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "انظر ما هي الكتب التي تساعدني في رحلة تعلم هذه المهارة.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "انظر الدورات التي تساعدني على بناء هذه المهارة.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 محمد حسين أبو طالبي. جميع الحقوق محفوظة.",
                 'fontFamily': "Amiri, serif",
         },
@@ -566,13 +654,16 @@ var body_Fonts_Translations = {
                         "Self-Driving Automobile Engineer": "من به عنوان یک مهندس ارشد خودروی خودران، در توسعه سیستم های خودروی خودمختار پیشرفته که ایمنی، کارایی و نوآوری را در اولویت قرار می دهند، تخصص دارم. با تخصص عمیق در ترکیب حسگرها، بینایی کامپیوتر، و یادگیری ماشین، الگوریتم‌هایی را طراحی و بهینه‌سازی می‌کنم که وسایل نقلیه را قادر می‌سازد تا در محیط‌های پیچیده به طور یکپارچه حرکت کنند. تجربه من شامل ادغام سخت افزار پیشرفته با معماری های نرم افزاری قوی برای ایجاد راه حل های خودران قابل اعتماد است. مشتاق شکل دادن به آینده تحرک، من متعهد به ارائه فناوری های خودمختار هستم که حمل و نقل را دوباره تعریف می کند.",
                         "Mechanical Engineer": "من به عنوان یک مهندس مکانیک ارشد، در طراحی و بهینه سازی سیستم های مکانیکی نوآورانه که کارایی و عملکرد را افزایش می دهند، سرآمد هستم. با پایه ای قوی در ترمودینامیک، علم مواد و تکنیک های ساخت پیشرفته، پروژه هایی را در سراسر صنایع رهبری کرده ام و راه حل های تاثیرگذاری ارائه می کنم. تخصص من شامل توسعه نمونه های اولیه، انجام تجزیه و تحلیل دقیق، و اجرای شیوه های مهندسی پایدار است. من که مشتاق به پیش بردن مرزهای طراحی و فناوری هستم، وقف ایجاد سیستم های مکانیکی هستم که چالش های آینده را برآورده می کند.",
                 },
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "با دیدن پروژه های انجام شده من، این مهارت را در عمل ببینید.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "ببینید کدام کتاب به من در یادگیری این مهارت کمک کرده است.",
+                'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "دوره هایی را ببینید که به من در ایجاد این مهارت کمک می کنند.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 محمد حسین ابوطالبی. تمامی حقوق محفوظ است.",
                 'fontFamily': "'B Nazanin'",
         },
 };
 
 // -- >> Needed Properties : Skill and Language
-var neededProperties = {
+var neededPropertiesNavbarTranslation = {
 
         // -- >> Selected or Loaded Language
         _current_selected_language: '',
@@ -589,7 +680,7 @@ var neededProperties = {
         set currentSelectedLanguage(newLanguage) {
 
                 // -- >> Translate Contents on language change
-                this.call_translate(newLanguage, neededProperties._current_selected_skill);
+                this.call_translate_Navbar_Caller(newLanguage, neededPropertiesNavbarTranslation._current_selected_skill);
 
                 // -- >> Assign new language to the current language
                 return this._current_selected_language = newLanguage;
@@ -611,14 +702,14 @@ var neededProperties = {
         set currentSelectedSkill(newSkill) {
 
                 // -- >> Translate Contents on skill change
-                this.call_translate(neededProperties._current_selected_language, newSkill);
+                this.call_translate_Navbar_Caller(neededPropertiesNavbarTranslation._current_selected_language, newSkill);
 
                 // -- >> Assign new skill to the current skill
                 return this._current_selected_skill = newSkill;
         },
 
         // -- >> Translate Caller
-        call_translate(language = "", skill = "") {
+        call_translate_Navbar_Caller(language = "", skill = "") {
 
                 // -- >> Call translate function
                 this.translate(language, skill);
@@ -687,6 +778,13 @@ var neededProperties = {
                 //// ----- >>>> Mechanical Engineer
                 document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").dataset.info) + "&language=" + encodeURI(language);
 
+                /// --- >>> Selected Skill Indicator
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_Link").textContent = heading_Fonts_Translations[language][Skill];
+
+                /// --- >>> Selected Language Indicator
+                document.getElementById("MuhammadHusainAbootalebi-Navbar-selected-language_link_indicator").textContent = language;
+                document.getElementById("MuhammadHusainAbootalebi-Navbar-selected-language_link_indicator").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+
                 // -- >> Download My Resume Button
                 document.getElementById("MuhammadHusainAbootalebi-Download-My-Resume").textContent = heading_Fonts_Translations[language]["Download_My_Resume"];
                 document.getElementById("MuhammadHusainAbootalebi-Download-My-Resume").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
@@ -727,6 +825,79 @@ var neededProperties = {
                 /// --- >>> Software Skills Button
                 document.getElementById("MuhammadHusainAbootalebi-Skill-Silo-Page_Software_Skills_Button").textContent = heading_Fonts_Translations[language]["Landing_Page_Buttons_Software_Skills_Button_Text"];
                 document.getElementById("MuhammadHusainAbootalebi-Skill-Silo-Page_Software_Skills_Button").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+
+                // -- >> Projects | Courses | Books
+
+                /// --- >>> Done Projects Title
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Title").textContent = heading_Fonts_Translations[language]["Projects_Courses_Books_Done_Projects_Title"];
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Title").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+                if ((language == "فارسی") || (language == "عَرَبِيّ")) {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Title").style.textAlign = "right";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Title").dir = "rtl";
+                } else {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Title").style.textAlign = "left";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Title").dir = "ltr";
+                }
+                /// --- >>> Done Projects Descripiton
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description").textContent = body_Fonts_Translations[language]["MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description"];
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description").style.fontFamily = body_Fonts_Translations[language]["fontFamily"];
+                if ((language == "فارسی") || (language == "عَرَبِيّ")) {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description").style.textAlign = "right";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description").dir = "rtl";
+                } else {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description").style.textAlign = "left";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description").dir = "ltr";
+                }
+
+                /// --- >>> Books Title
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Title").textContent = heading_Fonts_Translations[language]["Projects_Courses_Books_Reed_Books_Title"];
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Title").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+                if ((language == "فارسی") || (language == "عَرَبِيّ")) {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Title").style.textAlign = "right";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Title").dir = "rtl";
+                } else {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Title").style.textAlign = "left";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Title").dir = "ltr";
+                }
+                /// --- >>> Books Descripiton
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description").textContent = body_Fonts_Translations[language]["MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description"];
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description").style.fontFamily = body_Fonts_Translations[language]["fontFamily"];
+                if ((language == "فارسی") || (language == "عَرَبِيّ")) {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description").style.textAlign = "right";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description").dir = "rtl";
+                } else {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description").style.textAlign = "left";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description").dir = "ltr";
+                }
+
+                /// --- >>> Passed Courses Title
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Title").textContent = heading_Fonts_Translations[language]["Projects_Courses_Books_Passed_Courses_Title"];
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Title").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+                if ((language == "فارسی") || (language == "عَرَبِيّ")) {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Title").style.textAlign = "right";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Title").dir = "rtl";
+                } else {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Title").style.textAlign = "left";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Title").dir = "ltr";
+                }
+                /// --- >>> Passed Courses Descripiton
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description").textContent = body_Fonts_Translations[language]["MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description"];
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description").style.fontFamily = body_Fonts_Translations[language]["fontFamily"];
+                if ((language == "فارسی") || (language == "عَرَبِيّ")) {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description").style.textAlign = "right";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description").dir = "rtl";
+                } else {
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description").style.textAlign = "left";
+                        document.getElementById("MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description").dir = "ltr";
+                }
+
+                /// --- >>> See More Button
+                document.querySelectorAll(".MuhammadHusainAbootalebi-Projects-Courses-Books_See_MORE_Button").forEach(
+                        (item, index) => {
+                                item.textContent = heading_Fonts_Translations[language]["Projects_Courses_Books_Done_Projects_Button"];
+                                item.style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+                        }
+                );
 
                 // -- >> Contact Section
 
@@ -797,66 +968,66 @@ if ((!passed_skill) && (!passed_language)) {
         switch (systemLanguage) {
                 // English
                 case ('en-US') || ('en') || ('en-GB'):
-                        neededProperties.currentSelectedLanguage = 'English';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'English';
                         break;
                 // German
                 case ('de') || ('de-DE'):
-                        neededProperties.currentSelectedLanguage = 'Deutsch';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'Deutsch';
                         break;
                 // Chinese
                 case ('zh') || ('zh-CN') || ('zh-TW'):
-                        neededProperties.currentSelectedLanguage = '中国人';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = '中国人';
                         break;
                 // Russian
                 case ('ru') || ('ru-RU'):
-                        neededProperties.currentSelectedLanguage = 'Русский';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'Русский';
                         break;
                 // French
                 case ('fr') || ('fr-FR') || ('fr-CA'):
-                        neededProperties.currentSelectedLanguage = 'Français';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'Français';
                         break;
                 // Japanese
                 case ('ja') || ('ja-JP'):
-                        neededProperties.currentSelectedLanguage = '日本語';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = '日本語';
                         break;
                 // Korean
                 case ('ko') || ('ko-KR'):
-                        neededProperties.currentSelectedLanguage = '한국인';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = '한국인';
                         break;
                 // Español
                 case ('es') || ('es-ES') || ('es-MX'):
-                        neededProperties.currentSelectedLanguage = 'Español';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'Español';
                         break;
                 // Hindi
                 case ('hi') || ('hi-IN'):
-                        neededProperties.currentSelectedLanguage = 'हिंदी';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'हिंदी';
                         break;
                 // Portuguese
                 case ('pt') || ('pt-PT') || ('pt-BR'):
-                        neededProperties.currentSelectedLanguage = 'Português';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'Português';
                         break;
                 // Bangali
                 case ('bn') || ('bn-BD') || ('bn-IN'):
-                        neededProperties.currentSelectedLanguage = 'বাংলা';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'বাংলা';
                         break;
                 // Arabic
                 case ('ar') || ('ar-SA') || ('bn-IN') || ('ar-EG'):
-                        neededProperties.currentSelectedLanguage = 'عَرَبِيّ';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'عَرَبِيّ';
                         break;
                 // Persian
                 case ('fa') || ('fa-IR'):
-                        neededProperties.currentSelectedLanguage = 'فارسی';
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = 'فارسی';
                         break;
                 // Default is English
                 default:
-                        neededProperties.currentSelectedLanguage('English');
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage('English');
                         break;
         }
 
         // -- >> Call Translate
-        neededProperties.call_translate(
-                neededProperties.currentSelectedLanguage,
-                neededProperties.currentSelectedSkill,
+        neededPropertiesNavbarTranslation.call_translate_Navbar_Caller(
+                neededPropertiesNavbarTranslation.currentSelectedLanguage,
+                neededPropertiesNavbarTranslation.currentSelectedSkill,
         );
 }
 // -- >> In case the skill and language are passed
@@ -864,13 +1035,13 @@ else {
         /// --- >>> Whether the skill or language are PASSED
 
         /// --- >>> Set the passed skill and language
-        neededProperties.currentSelectedLanguage = passed_language;
-        neededProperties.currentSelectedSkill = passed_skill;
+        neededPropertiesNavbarTranslation.currentSelectedLanguage = passed_language;
+        neededPropertiesNavbarTranslation.currentSelectedSkill = passed_skill;
 
         /// --- >>> Call Translate
-        neededProperties.call_translate(
-                neededProperties.currentSelectedLanguage,
-                neededProperties.currentSelectedSkill,
+        neededPropertiesNavbarTranslation.call_translate_Navbar_Caller(
+                neededPropertiesNavbarTranslation.currentSelectedLanguage,
+                neededPropertiesNavbarTranslation.currentSelectedSkill,
         );
 }
 
@@ -911,19 +1082,14 @@ document.addEventListener("DOMContentLoaded", function () {
                         }
 
                         // Update the dropdown toggle button text with the clicked item's text
-                        var languageIcon = document.createElement('i');
-                        languageIcon.className = "material-icons d-xxl-flex justify-content-xxl-center align-items-xxl-center";
-                        languageIcon.textContent = 'language';
-                        document.getElementById("MuhammadHusainAbootalebi-Language-DropDown_Link").appendChild(languageIcon);
-                        var wrapper = document.createElement('span');
-                        wrapper.className = "d-flex d-xxl-flex align-items-center align-items-xxl-center";
-                        wrapper.appendChild(languageIcon);
-                        var textContent = document.createTextNode(this.textContent);
-                        wrapper.appendChild(textContent);
-                        dropdownToggle.innerHTML = '';
-                        dropdownToggle.appendChild(wrapper);
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-selected-language_link_indicator").textContent = this.textContent;
                         dropdownToggle.style.fontFamily = heading_Fonts_Translations[this.textContent]['fontFamily'];
-                        neededProperties.currentSelectedLanguage = this.textContent;
+                        neededPropertiesNavbarTranslation.currentSelectedLanguage = this.textContent;
+                        /// --- >>> Call Translate
+                        neededPropertiesNavbarTranslation.call_translate_Navbar_Caller(
+                                this.textContent,
+                                neededPropertiesNavbarTranslation.currentSelectedSkill,
+                        );
                 });
         });
 });

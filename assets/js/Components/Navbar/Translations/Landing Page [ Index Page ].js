@@ -1357,8 +1357,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         // Update the dropdown toggle button text with the clicked item's text
                         var languageIcon = document.createElement('i');
-                        languageIcon.className = "material-icons d-xxl-flex justify-content-xxl-center align-items-xxl-center";
-                        languageIcon.textContent = 'language';
+                        languageIcon.className = "bi bi-translate me-2";
                         document.getElementById("MuhammadHusainAbootalebi-Language-DropDown_Link").appendChild(languageIcon);
                         var wrapper = document.createElement('span');
                         wrapper.className = "d-flex d-xxl-flex align-items-center align-items-xxl-center";

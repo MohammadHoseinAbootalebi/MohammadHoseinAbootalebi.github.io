@@ -6,9 +6,64 @@
 
 /* -------------------------------------- ↓ Background ↓ ------------------------------- */
 
+/* ------------------ ↓ General Rules ↓ ------------------ */
+
 #MuhammadHusainAbootalebi-Landing-Page_Background_Skill_Image {
-  mask: url('');
+  -webkit-mask-image: url('assets/img/Masks/Hexagon-Mask.svg');
+  mask-image: url(../../../../assets/img/Masks/Hexagon-Mask.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
+
+/* ------------------ ↑ General Rules ↑ ------------------ */
+
+/* ▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥ */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<<<<<<<< */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Skill-Silo-Landing-Page_Elements {
+    width: 40vw !important;
+  }
+}
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Landing-Page_Background_Skill_Image {
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    width: 100% !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<<<<<<<<< */
+
+/* ▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥ */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<<<<<<<<< */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Landing-Page_Background_Skill_Image {
+    display: none;
+    position: absolute;
+    top: 3% !important;
+    right: 6%;
+    width: 50% !important;
+  }
+}
+
+/* ↓↓↓↓ Section Background ↓↓↓↓ */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Skill-Silo-Page-Landing-Page_Section_Background {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8) 100%), url("../../../../assets/img/Illustrations/Group%201031.svg") center / 90% no-repeat, rgb(0,0,0) !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<<<<<<<< */
 
 /* -------------------------------------- ↑ Background ↑ ------------------------------- */
 

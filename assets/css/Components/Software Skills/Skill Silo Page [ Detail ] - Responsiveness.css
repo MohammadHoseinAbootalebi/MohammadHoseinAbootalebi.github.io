@@ -1,0 +1,126 @@
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+
+/* ©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©© */
+
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ----------------------------- ↓ Background ↓ ----------------------------- */
+
+/* >>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<< */
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Software-skills-shpae-large {
+    top: 3%;
+    left: 3% !important;
+    height: 75vh !important;
+    opacity: 1;
+    transform: rotate(6deg);
+  }
+}
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Software-skills-right-shpae-middle {
+    position: absolute;
+    right: 13% !important;
+    top: 10% !important;
+    height: 17vw !important;
+    opacity: 1 !important;
+    transform: rotate(45deg);
+  }
+}
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Software-skills-right-shpae-small {
+    position: absolute;
+    right: 13% !important;
+    bottom: 5% !important;
+    height: 8vw !important;
+    opacity: 1 !important;
+    transform: rotate(16deg);
+  }
+}
+
+/* >>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<< */
+
+/* ▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨ */
+
+/* >>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<< */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Software-skills-shpae-large {
+    top: 3%;
+    left: 6% !important;
+    height: 50vw !important;
+    opacity: 1;
+    transform: rotate(6deg);
+  }
+}
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Software-skills-right-shpae-middle {
+    position: absolute;
+    right: 5% !important;
+    top: 0% !important;
+    height: 15vw !important;
+    opacity: 1 !important;
+    transform: rotate(45deg);
+  }
+}
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Software-skills-right-shpae-small {
+    position: absolute;
+    right: 13% !important;
+    bottom: 5% !important;
+    height: 17vw !important;
+    opacity: 0.4 !important;
+    transform: rotate(16deg);
+  }
+}
+
+/* >>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<< */
+
+/* ----------------------------- ↑ Background ↑ ----------------------------- */
+
+/* 😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉😉 */
+
+/* ----------------------------- ↓ Software Icons ↓ ----------------------------- */
+
+/* >>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<< */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Skill-Silo-Software-Skills_Software_Image {
+  }
+}
+
+/* >>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<< */
+
+/* ▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨ */
+
+/* >>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<< */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Skill-Silo-Software-Skills_Software_Image {
+  }
+}
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Skill-Silo-Page-Software-Skills-Column_Icon_Container {
+    width: 100vw !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<< */
+
+/* ----------------------------- ↑ Software Icons ↑ ----------------------------- */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+
+/* ©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©© */
+
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+
