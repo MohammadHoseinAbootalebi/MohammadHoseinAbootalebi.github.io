@@ -1,0 +1,129 @@
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© All Rights are Reserved ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* -------------------------------------- ↓ Background ↓ ------------------------------- */
+
+.MuhammadHusainAbootalebi-Landing-Page_Background_Skill_Image {
+  -webkit-mask-image: url('assets/img/Masks/Hexagon-Mask.svg');
+  mask-image: url(../../../../assets/img/Masks/Hexagon-Mask.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+/* -------------------------------------- ↑ Background ↑ ------------------------------- */
+
+/* ▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥▥ */
+
+/* ----------------------------------- ↓ Responsiveness ↓ ------------------------------- */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* Outer Div Element */
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Projects-Books-Courses-Landing-Page_Outer_Div {
+    height: 100vh !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px !important;
+    padding-top: 120px !important;
+  }
+}
+
+/* Inner Div Text Elements */
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Projects-Books-Courses-Landing-Page__Inner_Div_Texts {
+    width: 45vw !important;
+    padding-left: 10vw !important;
+  }
+}
+
+/* Inner Div Image Element */
+
+@media (min-width: 576px) {
+  #MuhammadHusainAbootalebi-Projects-Books-Courses-Landing-Page__Inner_Div_Image {
+    width: 45vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+/* Landing Page Image */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Landing-Page_Background_Skill_Image {
+    width: 30vw !important;
+    height: auto !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* ◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆ */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* Outer Div Element */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Projects-Books-Courses-Landing-Page_Outer_Div {
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Inner Div Text Elements */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Projects-Books-Courses-Landing-Page__Inner_Div_Texts {
+    width: 45vw !important;
+    text-align: center !important;
+    margin: 20px !important;
+  }
+}
+
+/* Inner Div Image Element */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-Projects-Books-Courses-Landing-Page__Inner_Div_Image {
+    width: 70vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+/* Landing Page Image */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Landing-Page_Background_Skill_Image {
+    width: 75vw !important;
+    height: auto !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* ----------------------------------- ↑ Responsiveness ↑ ------------------------------- */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© All Rights are Reserved ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© */
+

@@ -1,0 +1,161 @@
+/* ©©©©©©©©©©©©©©©©© All Rights are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©© */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* --------------------------------- ↓ Records Contents ↓ -------------------------------- */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ General Rules ↓ <<<<<<<<<<<<<<<<<<<<<< */
+
+.MUHAMMAD-HUSAIN-ABOOTALEBI-RECORDS-IMAGE-ELEMENT {
+  -webkit-mask-image: url('assets/img/Masks/Hexagon-Mask.svg');
+  mask-image: url(../../../../assets/img/Masks/Hexagon-Mask.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.MHA-RECORDS-SEE-MORE-BUTTON:hover {
+  background: black !important;
+  color: white !important;
+  transition: all 300ms linear !important;
+}
+
+#MuhammadHusainAbootalebi-Pagination-Section a:hover {
+  background: black !important;
+  color: white !important;
+  transition: all 300ms linear !important;
+}
+
+#MuhammadHusainAbootalebi-Pagination-Section a:hover {
+  background: black !important;
+  color: white !important;
+  transition: all 300ms linear !important;
+}
+
+#MuhammadHusainAbootalebi-record-pagination-Previous-button svg:hover {
+  color: white !important;
+  transition: all 300ms linear !important;
+}
+
+#MuhammadHusainAbootalebi-record-pagination-Previous-button span:hover {
+  color: white !important;
+  transition: all 300ms linear !important;
+}
+
+#MuhammadHusainAbootalebi-record-pagination-Next-button svg:hover {
+  color: white !important;
+  transition: all 300ms linear !important;
+}
+
+#MuhammadHusainAbootalebi-record-pagination-Next-button span:hover {
+  color: white !important;
+  transition: all 300ms linear !important;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ General Rules ↑ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* ▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨ */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* Outer Div */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Outer_Div {
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    padding: 4vw 1vw !important;
+  }
+}
+
+/* Columns */
+
+@media (min-width: 576px) {
+  .MHA-RECORDS-COLUMNS {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+}
+
+/* Record Image */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Image {
+    width: 35vw !important;
+    height: auto !important;
+  }
+}
+
+/* Record Contents */
+
+@media (min-width: 576px) {
+  .MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Contents {
+    width: 50vw !important;
+    padding: 1vw 4vw !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Large Screen ↑ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* ▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨▨ */
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↓ Small Screen ↓ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* Outer Div */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Outer_Div {
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 4vw 1vw !important;
+  }
+}
+
+/* Div Image Element */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Image {
+    width: 80vw !important;
+    height: auto !important;
+    margin-top: 5vw !important;
+    margin-bottom: 5vw !important;
+  }
+}
+
+/* Records Content Div Element */
+
+@media (max-width: 576px) {
+  .MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Contents {
+    width: 90vw !important;
+    padding: 5vw 10vw !important;
+  }
+}
+
+/* See More Button */
+
+@media (max-width: 576px) {
+  .MHA-RECORDS-SEE-MORE-BUTTON {
+    width: 100% !important;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<<<<<<< */
+
+/* --------------------------------- ↑ Records Contents ↑ -------------------------------- */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
+
+/* ©©©©©©©©©©©©©©©©© All Rights are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©© */
+
