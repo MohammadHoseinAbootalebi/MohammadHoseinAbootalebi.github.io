@@ -8,6 +8,15 @@
 
 /* >>>>>>>>>>>>>>>>>>>>>> ↓ General Rules ↓ <<<<<<<<<<<<<<<<<<<<<< */
 
+/* Outer Div Style */
+
+.MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Outer_Div {
+  background: #e6e6e6;
+  height: auto !important;
+}
+
+/* Record Image Mask */
+
 .MUHAMMAD-HUSAIN-ABOOTALEBI-RECORDS-IMAGE-ELEMENT {
   -webkit-mask-image: url('assets/img/Masks/Hexagon-Mask.svg');
   mask-image: url(../../../../assets/img/Masks/Hexagon-Mask.svg);
@@ -18,19 +27,26 @@
   mask-size: contain;
 }
 
+/* See More Button Hover Animation */
+
 .MHA-RECORDS-SEE-MORE-BUTTON:hover {
   background: black !important;
   color: white !important;
   transition: all 300ms linear !important;
 }
 
+/* Pagination Links Hover Animation */
+
 #MuhammadHusainAbootalebi-Pagination-Section a:hover {
   background: black !important;
   color: white !important;
   transition: all 300ms linear !important;
+  cursor: pointer;
 }
 
-#MuhammadHusainAbootalebi-Pagination-Section a:hover {
+/* Pagination Button Hover Animation */
+
+#MuhammadHusainAbootalebi-Pagination-Section button:hover {
   background: black !important;
   color: white !important;
   transition: all 300ms linear !important;
@@ -54,6 +70,19 @@
 #MuhammadHusainAbootalebi-record-pagination-Next-button span:hover {
   color: white !important;
   transition: all 300ms linear !important;
+}
+
+/* Record Title Base Style */
+
+.MuhammadHusainAbootalebi-PCBs_Heading_Title {
+  font-family: 'Lilita One';
+  color: #fca311 !important;
+}
+
+/* See More Button Style */
+
+.MHA-RECORDS-SEE-MORE-BUTTON {
+  font-family: 'Lilita One';
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>> ↑ General Rules ↑ <<<<<<<<<<<<<<<<<<<<<< */
@@ -147,6 +176,25 @@
   .MHA-RECORDS-SEE-MORE-BUTTON {
     width: 100% !important;
   }
+}
+
+/* Showing just icons in small screens */
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-record-pagination-Previous-button span {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #MuhammadHusainAbootalebi-record-pagination-Next-button span {
+    display: none;
+  }
+}
+
+#MuhammadHusainAbootalebi-record-pagination-Next-button.active {
+  background: #fca311 !important;
+  color: black !important;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>> ↑ Small Screen ↑ <<<<<<<<<<<<<<<<<<<<<< */

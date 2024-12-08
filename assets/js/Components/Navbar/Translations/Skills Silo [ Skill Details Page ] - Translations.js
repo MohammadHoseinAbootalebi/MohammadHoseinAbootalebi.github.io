@@ -896,6 +896,9 @@ var neededPropertiesNavbarTranslation = {
                         (item, index) => {
                                 item.textContent = heading_Fonts_Translations[language]["Projects_Courses_Books_Done_Projects_Button"];
                                 item.style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+
+                                /// --- >>> Links to the Projects | Books | Courses Details
+                                item.href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(neededPropertiesNavbarTranslation._current_selected_skill) + "&language=" + encodeURIComponent(neededPropertiesNavbarTranslation._current_selected_language) + "&section=" + item.dataset.info;
                         }
                 );
 
