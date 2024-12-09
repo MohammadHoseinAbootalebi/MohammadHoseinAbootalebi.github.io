@@ -63,7 +63,43 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
                 // -- >> Flutter Developer
                 "Flutter Developer": [],
                 // -- >> Full Stack Developer
-                "Full Stack Developer": [],
+                "Full Stack Developer": [
+                        // -- > 1 : Learn Django in 24 hours
+                        {
+                                "title": {
+                                        'English': "Learn Django in 24 hours",
+                                        'Deutsch': "Lernen Sie Django in 24 Stunden",
+                                        '中国人': "24 小时内学会 Django",
+                                        'Русский': "Изучите Django за 24 часа",
+                                        'Français': "Apprenez Django en 24 heures",
+                                        '日本語': "24時間でDjangoを学ぶ",
+                                        '한국인': "24시간 안에 Django를 배우세요",
+                                        'Español': "Aprende Django en 24 horas",
+                                        'हिंदी': "24 घंटे में Django सीखें",
+                                        'Português': "Aprenda Django em 24 horas",
+                                        'বাংলা': "24 ঘন্টার মধ্যে জ্যাঙ্গো শিখুন",
+                                        'عَرَبِيّ': "تعلم دجانجو في 24 ساعة",
+                                        'فارسی': "یادگیری جنگو در بیست و چهار ساعت",
+                                },
+                                "description": {
+                                        'English': "Learn Django in 24 Hours for Beginners by S. Basu is an essential guide for aspiring web developers looking to master Django, a powerful Python-based web framework, in record time. This comprehensive book is tailored for beginners, breaking down complex concepts into easy-to-follow lessons. With practical examples, hands-on exercises, and a structured 24-hour plan, it covers everything from setting up your environment to deploying a full-fledged web application. Readers will explore Django's core features, including models, views, templates, and URL routing, while gaining confidence in building dynamic and scalable web applications. Whether you're new to programming or transitioning from another framework, this book equips you with the foundational knowledge and skills to kickstart your Django development journey.",
+                                        'Deutsch': "„Lernen Sie Django in 24 Stunden für Anfänger“ von S. Basu ist ein unverzichtbarer Leitfaden für angehende Webentwickler, die Django, ein leistungsstarkes Python-basiertes Web-Framework, in Rekordzeit meistern möchten. Dieses umfassende Buch ist auf Anfänger zugeschnitten und unterteilt komplexe Konzepte in leicht verständliche Lektionen. Mit praktischen Beispielen, praktischen Übungen und einem strukturierten 24-Stunden-Plan deckt es alles ab, vom Einrichten Ihrer Umgebung bis zum Bereitstellen einer vollwertigen Webanwendung. Die Leser erkunden die Kernfunktionen von Django, einschließlich Modelle, Ansichten, Vorlagen und URL-Routing, und gewinnen gleichzeitig Vertrauen in die Erstellung dynamischer und skalierbarer Webanwendungen. Egal, ob Sie neu in der Programmierung sind oder von einem anderen Framework umsteigen, dieses Buch vermittelt Ihnen das grundlegende Wissen und die Fähigkeiten, um Ihre Django-Entwicklungsreise zu starten.",
+                                        '中国人': "S. Basu 的《初学者 24 小时学会 Django》是一本必备指南，适合有抱负的 Web 开发人员，帮助他们在创纪录的时间内掌握基于 Python 的强大 Web 框架 Django。这本内容全面的书是为初学者量身定制的，将复杂的概念分解为易于理解的课程。通过实际示例、动手练习和结构化的 24 小时计划，它涵盖了从设置环境到部署成熟 Web 应用程序的所有内容。读者将探索 Django 的核心功能，包括模型、视图、模板和 URL 路由，同时获得构建动态和可扩展 Web 应用程序的信心。无论您是编程新手还是从其他框架过渡，这本书都将为您提供基础知识和技能，以开启您的 Django 开发之旅。",
+                                        'Русский': "Learn Django in 24 Hours for Beginners, автор S. Basu, — это необходимое руководство для начинающих веб-разработчиков, желающих освоить Django, мощный веб-фреймворк на основе Python, в рекордно короткие сроки. Эта всеобъемлющая книга предназначена для новичков, разбивая сложные концепции на простые для понимания уроки. С практическими примерами, практическими упражнениями и структурированным 24-часовым планом она охватывает все: от настройки среды до развертывания полноценного веб-приложения. Читатели изучат основные функции Django, включая модели, представления, шаблоны и маршрутизацию URL, одновременно обретая уверенность в создании динамических и масштабируемых веб-приложений. Независимо от того, новичок ли вы в программировании или переходите с другого фреймворка, эта книга снабдит вас базовыми знаниями и навыками, которые помогут вам начать свой путь разработки Django.",
+                                        'Français': "Apprendre Django en 24 heures pour les débutants de S. Basu est un guide essentiel pour les développeurs Web en herbe qui cherchent à maîtriser Django, un puissant framework Web basé sur Python, en un temps record. Ce livre complet est conçu pour les débutants, décomposant des concepts complexes en leçons faciles à suivre. Avec des exemples pratiques, des exercices pratiques et un plan structuré de 24 heures, il couvre tout, de la configuration de votre environnement au déploiement d'une application Web à part entière. Les lecteurs exploreront les principales fonctionnalités de Django, notamment les modèles, les vues, les modèles et le routage d'URL, tout en gagnant en confiance dans la création d'applications Web dynamiques et évolutives. Que vous soyez novice en programmation ou que vous veniez d'un autre framework, ce livre vous fournit les connaissances et les compétences de base pour démarrer votre parcours de développement Django.",
+                                        '日本語': "S. Basu 著の「初心者向け 24 時間で学ぶ Django」は​​、強力な Python ベースの Web フレームワークである Django を記録的な速さで習得したい意欲的な Web 開発者にとって必須のガイドです。この包括的な書籍は初心者向けに作られており、複雑な概念をわかりやすいレッスンに分解しています。実用的な例、実践的な演習、構造化された 24 時間プランを使用して、環境の設定から本格的な Web アプリケーションの展開まですべてをカバーしています。読者は、モデル、ビュー、テンプレート、URL ルーティングなどの Django のコア機能を調べながら、動的でスケーラブルな Web アプリケーションを構築する自信を得ます。プログラミングの初心者でも、別のフレームワークから移行する場合でも、この本は Django 開発の旅を開始するための基礎知識とスキルを身に付けることができます。",
+                                        '한국인': "초보자를 위한 24시간 Django 학습은 S. Basu가 쓴 책으로, 강력한 Python 기반 웹 프레임워크인 Django를 기록적인 시간 안에 마스터하려는 열망하는 웹 개발자를 위한 필수 가이드입니다. 이 포괄적인 책은 초보자를 위해 만들어졌으며, 복잡한 개념을 따라하기 쉬운 레슨으로 나눕니다. 실용적인 예제, 실습 연습, 체계적인 24시간 계획을 통해 환경 설정에서 본격적인 웹 애플리케이션 배포까지 모든 것을 다룹니다. 독자는 모델, 뷰, 템플릿, URL 라우팅을 포함한 Django의 핵심 기능을 탐색하면서 동적이고 확장 가능한 웹 애플리케이션을 구축하는 데 자신감을 얻습니다. 프로그래밍을 처음 접하든 다른 프레임워크에서 전환하든, 이 책은 Django 개발 여정을 시작하는 데 필요한 기본 지식과 기술을 제공합니다.",
+                                        'Español': "Aprende Django en 24 horas para principiantes de S. Basu es una guía esencial para los desarrolladores web que aspiran a dominar Django, un potente marco de trabajo web basado en Python, en un tiempo récord. Este libro completo está diseñado para principiantes y desglosa conceptos complejos en lecciones fáciles de seguir. Con ejemplos prácticos, ejercicios prácticos y un plan estructurado de 24 horas, cubre todo, desde la configuración de su entorno hasta la implementación de una aplicación web completa. Los lectores explorarán las características principales de Django, incluidos los modelos, las vistas, las plantillas y el enrutamiento de URL, mientras ganan confianza en la creación de aplicaciones web dinámicas y escalables. Ya sea que sea nuevo en programación o esté haciendo la transición desde otro marco de trabajo, este libro lo equipa con los conocimientos y las habilidades fundamentales para comenzar su viaje de desarrollo con Django.",
+                                        'हिंदी': "एस. बसु द्वारा लिखित शुरुआती लोगों के लिए 24 घंटे में Django सीखें, महत्वाकांक्षी वेब डेवलपर्स के लिए एक आवश्यक मार्गदर्शिका है, जो रिकॉर्ड समय में Django, एक शक्तिशाली पायथन-आधारित वेब फ्रेमवर्क में महारत हासिल करना चाहते हैं। यह व्यापक पुस्तक शुरुआती लोगों के लिए तैयार की गई है, जो जटिल अवधारणाओं को आसानी से समझने योग्य पाठों में विभाजित करती है। व्यावहारिक उदाहरणों, हाथों-हाथ अभ्यास और एक संरचित 24-घंटे की योजना के साथ, यह आपके पर्यावरण को सेट करने से लेकर एक पूर्ण-विकसित वेब एप्लिकेशन को तैनात करने तक सब कुछ कवर करता है। पाठक गतिशील और स्केलेबल वेब एप्लिकेशन बनाने में आत्मविश्वास हासिल करते हुए मॉडल, दृश्य, टेम्पलेट और URL रूटिंग सहित Django की मुख्य विशेषताओं का पता लगाएंगे। चाहे आप प्रोग्रामिंग में नए हों या किसी अन्य फ्रेमवर्क से संक्रमण कर रहे हों, यह पुस्तक आपको अपने Django विकास की यात्रा को किकस्टार्ट करने के लिए मूलभूत ज्ञान और कौशल से लैस करती है।",
+                                        'Português': "Aprenda Django em 24 horas para principiantes, de S. Basu, é um guia essencial para aspirantes a web developers que desejam dominar o Django, uma poderosa framework web baseada em Python, em tempo recorde. Este livro abrangente é feito à medida para principiantes, dividindo conceitos complexos em lições fáceis de seguir. Com exemplos práticos, exercícios práticos e um plano estruturado de 24 horas, abrange tudo, desde a configuração do seu ambiente até à implementação de uma aplicação Web completa. Os leitores irão explorar as principais características do Django, incluindo modelos, visualizações, modelos e encaminhamento de URL, enquanto ganham confiança na construção de aplicações web dinâmicas e escaláveis. Quer seja novo na programação ou esteja em transição de outra framework, este livro fornece o conhecimento e as competências fundamentais para iniciar a sua jornada de desenvolvimento Django.",
+                                        'বাংলা': "S. বসুর দ্বারা নতুনদের জন্য 24 ঘন্টার মধ্যে জ্যাঙ্গো শিখুন উচ্চাকাঙ্ক্ষী ওয়েব ডেভেলপারদের জন্য জ্যাঙ্গো, একটি শক্তিশালী পাইথন-ভিত্তিক ওয়েব ফ্রেমওয়ার্ক, রেকর্ড সময়ে আয়ত্ত করতে চাওয়া একটি অপরিহার্য নির্দেশিকা। এই বিস্তৃত বইটি নতুনদের জন্য তৈরি করা হয়েছে, জটিল ধারণাগুলিকে সহজে অনুসরণযোগ্য পাঠে ভেঙ্গে। ব্যবহারিক উদাহরণ, হ্যান্ড-অন ব্যায়াম, এবং একটি কাঠামোগত 24-ঘন্টা পরিকল্পনা সহ, এটি আপনার পরিবেশ স্থাপন থেকে শুরু করে একটি পূর্ণাঙ্গ ওয়েব অ্যাপ্লিকেশন স্থাপন পর্যন্ত সমস্ত কিছুকে কভার করে। পাঠকরা ডাইনামিক এবং স্কেলেবল ওয়েব অ্যাপ্লিকেশন তৈরিতে আত্মবিশ্বাস অর্জনের সাথে সাথে মডেল, ভিউ, টেমপ্লেট এবং URL রাউটিং সহ জ্যাঙ্গোর মূল বৈশিষ্ট্যগুলি অন্বেষণ করবে। আপনি প্রোগ্রামিংয়ে নতুন হোন বা অন্য ফ্রেমওয়ার্ক থেকে ট্রানজিশন করুন না কেন, এই বইটি আপনাকে আপনার জ্যাঙ্গো বিকাশের যাত্রা শুরু করার জন্য মৌলিক জ্ঞান এবং দক্ষতা দিয়ে সজ্জিত করে।",
+                                        'عَرَبِيّ': "يعد كتاب Learn Django in 24 Hours for Beginners من تأليف S. Basu دليلاً أساسيًا لمطوري الويب الطموحين الذين يتطلعون إلى إتقان Django، وهو إطار عمل قوي للويب قائم على Python، في وقت قياسي. تم تصميم هذا الكتاب الشامل للمبتدئين، حيث يقسم المفاهيم المعقدة إلى دروس سهلة المتابعة. من خلال الأمثلة العملية والتمارين العملية وخطة منظمة مدتها 24 ساعة، يغطي كل شيء من إعداد بيئتك إلى نشر تطبيق ويب كامل. سيستكشف القراء الميزات الأساسية لـ Django، بما في ذلك النماذج والعروض والقوالب وتوجيه عناوين URL، مع اكتساب الثقة في بناء تطبيقات ويب ديناميكية وقابلة للتطوير. سواء كنت جديدًا في البرمجة أو تنتقل من إطار عمل آخر، فإن هذا الكتاب يزودك بالمعرفة والمهارات الأساسية لبدء رحلة تطوير Django.",
+                                        'فارسی': "آموزش جنگو در 24 ساعت برای مبتدیان توسط S. Basu یک راهنمای ضروری برای توسعه دهندگان وب مشتاقی است که به دنبال تسلط بر جنگو، یک چارچوب وب قدرتمند مبتنی بر پایتون، در زمان بی سابقه هستند. این کتاب جامع برای مبتدیان طراحی شده است و مفاهیم پیچیده را به درس های آسان برای دنبال کردن تقسیم می کند. با مثال‌های عملی، تمرین‌های عملی، و یک برنامه 24 ساعته ساختاریافته، همه چیز را از راه‌اندازی محیط شما تا استقرار یک برنامه وب کامل را پوشش می‌دهد. خوانندگان ویژگی‌های اصلی جنگو، از جمله مدل‌ها، نماها، قالب‌ها و مسیریابی URL را بررسی می‌کنند، در حالی که در ساخت برنامه‌های وب پویا و مقیاس‌پذیر اعتماد به نفس پیدا می‌کنند. چه در برنامه نویسی تازه کار باشید و چه در حال انتقال از چارچوب دیگری باشید، این کتاب شما را با دانش و مهارت های اساسی برای شروع سفر توسعه جنگو خود مجهز می کند.",
+                                },
+                                "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Books/AI Engineer/4 - Mastering NLP from Foundations to LLMs.webp",
+                                "detail_markdown_link": "Docs/AI Engineer/Books/English/4 - Mastering NLP from Foundations to LLMs.md",
+                        },
+                ],
                 // -- >> Android Developer
                 "Android Developer": [],
                 // -- >> AI Engineer
@@ -1001,21 +1037,21 @@ var neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page = {
                 /// --- >>> Skill Drop Down Links
 
                 //// ----- >>>> UI and UX Designer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_UIUXDESIGNER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_UIUXDESIGNER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_UIUXDESIGNER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_UIUXDESIGNER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
                 //// ----- >>>> Flutter Developer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FLUTTER_DEVELOPER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FLUTTER_DEVELOPER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FLUTTER_DEVELOPER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FLUTTER_DEVELOPER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
                 //// ----- >>>> Full Stack Developer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FULL_STACK_DEVELOPER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FULL_STACK_DEVELOPER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FULL_STACK_DEVELOPER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_FULL_STACK_DEVELOPER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
                 //// ----- >>>> Android Developer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_ANDROID_DEVELOPER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_ANDROID_DEVELOPER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_ANDROID_DEVELOPER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_ANDROID_DEVELOPER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
                 //// ----- >>>> AI Engineer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_AI_ENGINEER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_AI_ENGINEER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_AI_ENGINEER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_AI_ENGINEER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
                 //// ----- >>>> Industrial Designer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_INDUSTRIAL_DESIGNER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_INDUSTRIAL_DESIGNER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_INDUSTRIAL_DESIGNER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_INDUSTRIAL_DESIGNER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
                 //// ----- >>>> SDA Engineer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_SELF_DRIVING_ENGINEER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_SELF_DRIVING_ENGINEER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_SELF_DRIVING_ENGINEER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_SELF_DRIVING_ENGINEER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
                 //// ----- >>>> Mechanical Engineer
-                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").href = "Skill Silo [ Details ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").dataset.info) + "&language=" + encodeURI(language);
+                document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_MECHANICAL_ENGINEER").dataset.info) + "&language=" + encodeURI(language) + "&section=" + encodeURIComponent(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
 
                 /// --- >>> Selected Skill Indicator
                 document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_Link").textContent = heading_Fonts_Translations[language][Skill];
@@ -1114,7 +1150,7 @@ var neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page = {
                 /// --- >>> Call Entry Point
                 pagination_functionality();
 
-                // TODO : For translating the records
+                /// --- >>> Translating the records
 
                 var title_s = document.querySelectorAll(".MuhammadHusainAbootalebi-PCBs_Heading_Title");
                 var des_s = document.querySelectorAll(".MuhammadHusainAbootalebi-PCBs_Short_Intro_Paragraph");
@@ -1134,6 +1170,23 @@ var neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page = {
                         item.textContent = heading_Fonts_Translations[language]["Projects_Courses_Books_Done_Projects_Button"];
                         item.style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
                 });
+
+                // -- >> Adding the href of the section dropdown
+                if ((neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected != "") && (Skill != "") && (language != "")) {
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Projects").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(Skill) + "&language=" + encodeURIComponent(language) + "&section=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Projects").dataset.info);
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Books").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(Skill) + "&language=" + encodeURIComponent(language) + "&section=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Books").dataset.info);
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Courses").href = "Projects Books Courses [ Records ].html?skill=" + encodeURIComponent(Skill) + "&language=" + encodeURIComponent(language) + "&section=" + encodeURIComponent(document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Courses").dataset.info);
+                }
+
+                /// --- >>> Showing the current section
+                if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected != "") {
+
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").textContent = capitalizeFirstLetter(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+
+                        /// --- >>> Stylize the section
+                        styling_current_selected_drop_down("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu", capitalizeFirstLetter(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected));
+                }
 
                 // -- >> Contact Section
 
@@ -1466,6 +1519,11 @@ function styling_current_selected_drop_down(dropDownNameID, toCompareArugument) 
                         item.style = "font-family: Roboto, sans-serif;font-size: 80%;";
                 }
         });
+}
+
+// -- >> String capitalizer
+function capitalizeFirstLetter(val) {
+        return String(val).charAt(0).toUpperCase() + String(val).slice(1);
 }
 
 // ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●● //

@@ -32,6 +32,7 @@ function stylingCurrentSelectedOptionInDropDown(dropDownNameID, toCompareArugume
 }
 
 // Add event listener to your dropdown button
+/// --- >>> Language Dropdown
 document.getElementById("MuhammadHusainAbootalebi-Language-DropDown_Link").addEventListener("click", function () {
     toggleDropdown("Main-Intro-language-individual-skills-drop-down-change-languages");
 });
@@ -39,11 +40,20 @@ document.addEventListener('click', function () {
     closeDropdownOnClickOutside(event, 'Main-Intro-language-individual-skills-drop-down-change-languages', 'MuhammadHusainAbootalebi-Language-DropDown_Link');
 });
 
+/// --- >>> Skill Dropdown
 document.getElementById("MuhammadHusainAbootalebi-Skills-DropDown_Link").addEventListener("click", function () {
     toggleDropdown("Main-Intro-Skills-Drop-Down-top-nav-bar");
 });
 document.addEventListener('click', function () {
     closeDropdownOnClickOutside(event, 'Main-Intro-Skills-Drop-Down-top-nav-bar', 'MuhammadHusainAbootalebi-Skills-DropDown_Link');
+});
+
+/// --- >>> Section Dropdown
+document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").addEventListener("click", function () {
+    toggleDropdown("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown");
+});
+document.addEventListener('click', function () {
+    closeDropdownOnClickOutside(event, 'MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown', 'MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link');
 });
 
 // ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© //
