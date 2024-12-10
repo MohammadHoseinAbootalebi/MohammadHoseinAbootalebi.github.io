@@ -96,8 +96,8 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
                                         'عَرَبِيّ': "يعد كتاب Learn Django in 24 Hours for Beginners من تأليف S. Basu دليلاً أساسيًا لمطوري الويب الطموحين الذين يتطلعون إلى إتقان Django، وهو إطار عمل قوي للويب قائم على Python، في وقت قياسي. تم تصميم هذا الكتاب الشامل للمبتدئين، حيث يقسم المفاهيم المعقدة إلى دروس سهلة المتابعة. من خلال الأمثلة العملية والتمارين العملية وخطة منظمة مدتها 24 ساعة، يغطي كل شيء من إعداد بيئتك إلى نشر تطبيق ويب كامل. سيستكشف القراء الميزات الأساسية لـ Django، بما في ذلك النماذج والعروض والقوالب وتوجيه عناوين URL، مع اكتساب الثقة في بناء تطبيقات ويب ديناميكية وقابلة للتطوير. سواء كنت جديدًا في البرمجة أو تنتقل من إطار عمل آخر، فإن هذا الكتاب يزودك بالمعرفة والمهارات الأساسية لبدء رحلة تطوير Django.",
                                         'فارسی': "آموزش جنگو در 24 ساعت برای مبتدیان توسط S. Basu یک راهنمای ضروری برای توسعه دهندگان وب مشتاقی است که به دنبال تسلط بر جنگو، یک چارچوب وب قدرتمند مبتنی بر پایتون، در زمان بی سابقه هستند. این کتاب جامع برای مبتدیان طراحی شده است و مفاهیم پیچیده را به درس های آسان برای دنبال کردن تقسیم می کند. با مثال‌های عملی، تمرین‌های عملی، و یک برنامه 24 ساعته ساختاریافته، همه چیز را از راه‌اندازی محیط شما تا استقرار یک برنامه وب کامل را پوشش می‌دهد. خوانندگان ویژگی‌های اصلی جنگو، از جمله مدل‌ها، نماها، قالب‌ها و مسیریابی URL را بررسی می‌کنند، در حالی که در ساخت برنامه‌های وب پویا و مقیاس‌پذیر اعتماد به نفس پیدا می‌کنند. چه در برنامه نویسی تازه کار باشید و چه در حال انتقال از چارچوب دیگری باشید، این کتاب شما را با دانش و مهارت های اساسی برای شروع سفر توسعه جنگو خود مجهز می کند.",
                                 },
-                                "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Books/AI Engineer/4 - Mastering NLP from Foundations to LLMs.webp",
-                                "detail_markdown_link": "Docs/AI Engineer/Books/English/4 - Mastering NLP from Foundations to LLMs.md",
+                                "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Books/Full Stack Developer/1 - Learn Django in 24 hours for beginners.webp",
+                                "detail_markdown_link": "Docs/Full Stack Developer/Books/English/1 - Learn Django in 24 hours for beginners.md",
                         },
                 ],
                 // -- >> Android Developer
@@ -283,6 +283,9 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
 var heading_Fonts_Translations = {
         'English': {
                 'Navbar_Home_Link': 'Home',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "Projects",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "Books",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "Courses",
                 'Navbar_Skills_DropDown_Link': 'Skills',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI & UX Designer',
                 'Download_My_Resume': 'Download My Resume',
@@ -308,6 +311,9 @@ var heading_Fonts_Translations = {
         },
         'Deutsch': {
                 'Navbar_Home_Link': 'Heim',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "Projekte",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "Bücher",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "Kurse",
                 'Navbar_Skills_DropDown_Link': 'Fähigkeiten',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI & UX Designer',
                 'Download_My_Resume': 'Laden Sie meinen Lebenslauf herunter',
@@ -333,6 +339,9 @@ var heading_Fonts_Translations = {
         },
         '中国人': {
                 'Navbar_Home_Link': '家',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "项目",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "书籍",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "课程",
                 'Navbar_Skills_DropDown_Link': '技能',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI 和 UX 设计师',
                 'Download_My_Resume': '下载我的简历',
@@ -358,6 +367,9 @@ var heading_Fonts_Translations = {
         },
         'Русский': {
                 'Navbar_Home_Link': 'Дом',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "Проекты",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "Книги",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "Курсы",
                 'Navbar_Skills_DropDown_Link': 'Навыки',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI UX Дизайнер',
                 'Download_My_Resume': 'Скачать мое резюме',
@@ -383,6 +395,9 @@ var heading_Fonts_Translations = {
         },
         'Français': {
                 'Navbar_Home_Link': 'Maison',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "Projets",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "Livres",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "Cours",
                 'Navbar_Skills_DropDown_Link': 'Compétences',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'Concepteur UI et UX',
                 'Download_My_Resume': 'Télécharger mon CV',
@@ -408,6 +423,9 @@ var heading_Fonts_Translations = {
         },
         '日本語': {
                 'Navbar_Home_Link': '家',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "プロジェクト",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "書籍",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "コース",
                 'Navbar_Skills_DropDown_Link': 'スキル',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI および UX デザイナー',
                 'Download_My_Resume': '履歴書をダウンロード',
@@ -433,6 +451,9 @@ var heading_Fonts_Translations = {
         },
         '한국인': {
                 'Navbar_Home_Link': '집',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "프로젝트",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "책",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "코스",
                 'Navbar_Skills_DropDown_Link': '기술',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI 및 UX 디자이너',
                 'Download_My_Resume': '내 이력서 다운로드',
@@ -458,6 +479,9 @@ var heading_Fonts_Translations = {
         },
         'Español': {
                 'Navbar_Home_Link': 'Hogar',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "Proyectos",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "Libros",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "Cursos",
                 'Navbar_Skills_DropDown_Link': 'Habilidades',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI UX Diseñador',
                 'Download_My_Resume': 'Descargar mi currículum',
@@ -483,6 +507,9 @@ var heading_Fonts_Translations = {
         },
         'हिंदी': {
                 'Navbar_Home_Link': 'घर',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "प्रोजेक्ट",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "पुस्तकें",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "पाठ्यक्रम",
                 'Navbar_Skills_DropDown_Link': 'कौशल',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'यूआई और यूएक्स डिजाइनर',
                 'Download_My_Resume': 'मेरा बायोडाटा डाउनलोड करें',
@@ -508,6 +535,9 @@ var heading_Fonts_Translations = {
         },
         'Português': {
                 'Navbar_Home_Link': 'Casa',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "Projetos",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "Livros",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "Cursos",
                 'Navbar_Skills_DropDown_Link': 'Competências',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'Designer de UI e UX',
                 'Download_My_Resume': 'Baixe meu currículo',
@@ -533,6 +563,9 @@ var heading_Fonts_Translations = {
         },
         'বাংলা': {
                 'Navbar_Home_Link': 'বাড়ি',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "প্রকল্প",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "বই",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "কোর্স",
                 'Navbar_Skills_DropDown_Link': 'দক্ষতা',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'UI এবং UX ডিজাইনার',
                 'Download_My_Resume': 'আমার জীবনবৃত্তান্ত ডাউনলোড করুন',
@@ -558,6 +591,9 @@ var heading_Fonts_Translations = {
         },
         'عَرَبِيّ': {
                 'Navbar_Home_Link': 'بيت',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "المشاريع",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "الكتب",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "الدورات",
                 'Navbar_Skills_DropDown_Link': 'مهارات',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'مصمم واجهة المستخدم وتجربة المستخدم',
                 'Download_My_Resume': 'تحميل سيرتي الذاتية',
@@ -583,6 +619,9 @@ var heading_Fonts_Translations = {
         },
         'فارسی': {
                 'Navbar_Home_Link': 'صفحه اصلی',
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects": "پروژه ها",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books": "کتاب ها",
+                "MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses": "دوره ها",
                 'Navbar_Skills_DropDown_Link': 'مهارت ها',
                 'Navbar_Skills_DropDown_UIUX_Designer': 'طراح UI و UX',
                 'Download_My_Resume': 'دانلود رزومه من',
@@ -632,6 +671,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "See this skill in action by seeing my done projects.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "See which books helps me in learning journey of this skill.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "See the courses that help me to build this skill.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "This page is under construction 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. All rights reserved.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -657,6 +697,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Sehen Sie sich diese Fähigkeit in Aktion an, indem Sie sich meine abgeschlossenen Projekte ansehen.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Sehen Sie, welche Bücher mir beim Erlernen dieser Fähigkeit helfen.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Sehen Sie sich die Kurse an, die mir beim Aufbau dieser Fähigkeit geholfen haben.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "Diese Seite befindet sich im Aufbau 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Alle Rechte vorbehalten.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -682,6 +723,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "通过查看我已完成的项目，了解这项技能的实际应用。",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "看看哪些书籍能帮助我学习这项技能。",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "查看帮助我培养此项技能的课程。",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "此页面正在建设中😉。",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi。保留所有权利。",
                 'fontFamily': "'Ma Shan Zheng', serif",
         },
@@ -707,6 +749,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Оцените этот навык в действии, посмотрев мои реализованные проекты.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Посмотрите, какие книги помогли мне в освоении этого навыка.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Ознакомьтесь с курсами, которые помогают мне развить этот навык.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "Эта страница находится в разработке 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Мухаммад Хусейн Абуталеби. Все права защищены.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -732,6 +775,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Découvrez cette compétence en action en voyant mes projets réalisés.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Découvrez quels livres m'aident à apprendre le parcours de cette compétence.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Découvrez les cours qui m'aident à développer cette compétence.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "Cette page est en construction 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Tous droits réservés.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -757,6 +801,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "私の完了したプロジェクトを見て、このスキルが実際にどのように機能するかを確認してください。",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "このスキルの学習の過程でどの本が役立つかを確認します。",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "このスキルを身に付けるのに役立つコースをご覧ください。",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "このページは現在作成中です 😉。",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi。無断転載を禁じます。",
                 'fontFamily': "'Hina Mincho', serif",
         },
@@ -782,6 +827,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "내가 완료한 프로젝트를 보고 이 기술이 실제로 어떻게 활용되는지 확인해 보세요.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "이 기술을 배우는 데 어떤 책이 도움이 되는지 확인해 보세요.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "이 기술을 키우는 데 도움이 되는 과정을 확인해 보세요.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "이 페이지는 현재 제작 중입니다 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. 모든 권리 보유.",
                 'fontFamily': "'Gowun Batang', serif",
         },
@@ -807,6 +853,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Vea esta habilidad en acción al ver mis proyectos realizados.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Vea qué libros me ayudan en el proceso de aprendizaje de esta habilidad.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Vea los cursos que me ayudan a desarrollar esta habilidad.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "Esta página está en construcción 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Todos los derechos reservados.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -832,6 +879,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "मेरे पूर्ण किए गए प्रोजेक्ट्स को देखकर इस कौशल को क्रियान्वित होते हुए देखें।",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "देखें कि कौन सी किताबें मुझे इस कौशल को सीखने में मदद करती हैं।",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "उन पाठ्यक्रमों को देखें जो मुझे यह कौशल विकसित करने में मदद करते हैं।",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "यह पृष्ठ निर्माणाधीन है 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 मुहम्मद हुसैन अबुतालेबी। सभी अधिकार सुरक्षित।",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -857,6 +905,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "Veja esta competência em ação vendo os meus projetos concluídos.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "Veja que livros me ajudam na jornada de aprendizagem desta competência.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "Veja os cursos que me ajudam a desenvolver esta competência.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "Esta página está em construção 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 Muhammad Husain Aboutalebi. Todos os direitos reservados.",
                 'fontFamily': "'Roboto Condensed', sans-serif",
         },
@@ -882,6 +931,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "আমার সম্পন্ন প্রকল্প দেখে কর্ম এই দক্ষতা দেখুন.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "এই দক্ষতা শেখার যাত্রায় কোন বই আমাকে সাহায্য করে দেখুন।",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "এই দক্ষতা তৈরি করতে আমাকে সাহায্য করে এমন কোর্সগুলি দেখুন।",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "এই পেজটি নির্মাণাধীন 😉",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 মুহাম্মদ হুসাইন আবুতালেবী। সর্বস্বত্ব সংরক্ষিত",
                 'fontFamily': "'Noto Serif Bengali', serif",
         },
@@ -907,6 +957,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "شاهد هذه المهارة في العمل من خلال رؤية مشاريعي المنجزة.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "انظر ما هي الكتب التي تساعدني في رحلة تعلم هذه المهارة.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "انظر الدورات التي تساعدني على بناء هذه المهارة.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "هذه الصفحة قيد الإنشاء 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 محمد حسين أبو طالبي. جميع الحقوق محفوظة.",
                 'fontFamily': "Amiri, serif",
         },
@@ -932,6 +983,7 @@ var body_Fonts_Translations = {
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Done_Projects_Description': "با دیدن پروژه های انجام شده من، این مهارت را در عمل ببینید.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Read_Books_Description': "ببینید کدام کتاب به من در یادگیری این مهارت کمک کرده است.",
                 'MuhammadHusainAbootalebi-Projects-Courses-Books_Passed_Courses_Description': "دوره هایی را ببینید که به من در ایجاد این مهارت کمک می کنند.",
+                'MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder': "این صفحه در حال ساخت است 😉.",
                 'Contact_Me_All_Rights_Are_Reserved': "© 2024 محمد حسین ابوطالبی. تمامی حقوق محفوظ است.",
                 'fontFamily': "'B Nazanin'",
         },
@@ -1181,12 +1233,49 @@ var neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page = {
                 /// --- >>> Showing the current section
                 if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected != "") {
 
-                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").textContent = capitalizeFirstLetter(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected);
+                        var section_element;
+
+                        // -- >> Getting the current section
+                        if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected == "projects") {
+
+                                section_element = document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Projects");
+
+                        } else if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected == "books") {
+
+                                section_element = document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Books");
+
+                        } else if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected == "courses") {
+
+                                section_element = document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Courses");
+
+                        }
+
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").textContent = section_element.textContent;
                         document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
 
                         /// --- >>> Stylize the section
-                        styling_current_selected_drop_down("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu", capitalizeFirstLetter(neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected));
+                        styling_current_selected_drop_down("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu", section_element.textContent);
+
+                        /// --- >>> Section Dropdown translation
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Projects").textContent = heading_Fonts_Translations[language]["MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Projects"];
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Projects").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Books").textContent = heading_Fonts_Translations[language]["MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Books"];
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Books").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Courses").textContent = heading_Fonts_Translations[language]["MuhammadHusainAbootalebi-Navbar-Section-DropDown-Content_Courses"];
+                        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Courses").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
                 }
+
+                // -- >> No Content Available Text
+                document.getElementById("MuhammadHusainAbootalebi-No-Content-Page-Available_text").textContent = body_Fonts_Translations[language]["MuhammadHusainAbootalebi-No-Content-Available-Text-Placeholder"];
+                document.getElementById("MuhammadHusainAbootalebi-No-Content-Page-Available_text").style.fontFamily = body_Fonts_Translations[language]["fontFamily"];
+                if ((language == "فارسی") || (language == "عَرَبِيّ")) {
+                        document.getElementById("MuhammadHusainAbootalebi-No-Content-Page-Available_text").style.textAlign = "right";
+                        document.getElementById("MuhammadHusainAbootalebi-No-Content-Page-Available_text").dir = "rtl";
+                } else {
+                        document.getElementById("MuhammadHusainAbootalebi-No-Content-Page-Available_text").style.textAlign = "left";
+                        document.getElementById("MuhammadHusainAbootalebi-No-Content-Page-Available_text").dir = "ltr";
+                }
+
 
                 // -- >> Contact Section
 
@@ -1487,6 +1576,47 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section").scrollIntoView({
                 behavior: "smooth",
         });
+
+        // -- >> If there is no content available, then display the no content view
+        if (muhammad_husain_abootalebi_projects_books_courses_records[neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected][neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_selected_skill].length == 0) {
+
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section").style.display = "none";
+                document.getElementById("MuhammadHusainAbootalebi-Pagination-Section").style.display = "none";
+                document.getElementById("MuhammadHusainAbootalebi-No-Content-Available--Section").classList.add("Should-Show-No-Content");
+                document.getElementById("MuhammadHusainAbootalebi-No-Content-Available--Section").classList.remove("Should-NOT-Show-No-Content");
+
+        } else {
+
+                document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section").style.display = "";
+                document.getElementById("MuhammadHusainAbootalebi-Pagination-Section").style.display = "";
+                document.getElementById("MuhammadHusainAbootalebi-No-Content-Available--Section").style.display = "none !important";
+                document.getElementById("MuhammadHusainAbootalebi-No-Content-Available--Section").classList.remove("Should-Show-No-Content");
+                document.getElementById("MuhammadHusainAbootalebi-No-Content-Available--Section").classList.add("Should-NOT-Show-No-Content");
+
+        }
+
+        var section_element;
+
+        // -- >> Getting the current section
+        if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected == "projects") {
+
+                section_element = document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Projects");
+
+        } else if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected == "books") {
+
+                section_element = document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Books");
+
+        } else if (neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_projectorbooksorcourses_section_selected == "courses") {
+
+                section_element = document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu_Courses");
+
+        }
+
+        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").textContent = section_element.textContent;
+        document.getElementById("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Link").style.fontFamily = heading_Fonts_Translations[language]["fontFamily"];
+
+        /// --- >>> Stylize the section
+        styling_current_selected_drop_down("MuhammadHusainAbootalebi-Navbar-Projects-Books-Courses_Dropdown_Menu", section_element.textContent);
 });
 
 // --------------------- ↑ Initialization [On Load Page] ↑ ------------------------ //
@@ -1545,67 +1675,71 @@ function Projects_Books_Courses_Record_Creator(SkillName, Language, StartIndex, 
         // Creating the records which has one or two books
         for (var index = StartIndex; index < EndIndex; ++index) {
 
-                // Row
-                var parent = document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section");
-                var rowBook = document.createElement("div");
-                rowBook.id = "Book-record-for-styling";
-                rowBook.classList.add("w-100");
-                rowBook.classList.add("MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Outer_Div");
-                rowBook.classList.add("p-4");
-                parent.appendChild(rowBook);
+                if (index < muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName].length) {
 
-                // Image Column
-                var parent = document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section");
-                var ImageColumn = document.createElement("div");
-                ImageColumn.id = "Book-image-second-view-column";
-                ImageColumn.className = "mx-4 MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Image MHA-RECORDS-COLUMNS";
-                var Image_column = document.createElement("img");
-                Image_column.id = "Book-image-second-view";
-                Image_column.className = "w-100 h-auto MUHAMMAD-HUSAIN-ABOOTALEBI-RECORDS-IMAGE-ELEMENT";
-                Image_column.src = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["intro_image_link"];
-                ImageColumn.appendChild(Image_column); // -- >> Adding the img element to the div
-                parent.appendChild(ImageColumn); // -- >> Adding the div to the parent section
+                        // Row
+                        var parent = document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section");
+                        var rowBook = document.createElement("div");
+                        rowBook.id = "Book-record-for-styling";
+                        rowBook.classList.add("w-100");
+                        rowBook.classList.add("MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Outer_Div");
+                        rowBook.classList.add("p-4");
+                        parent.appendChild(rowBook);
 
-                // Book Short Information Row
-                var parent = document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section");
-                var ShortInformationRow = document.createElement("div");
-                ShortInformationRow.id = "short-information-couloumn-all-text-staffs";
-                ShortInformationRow.className = "MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Contents MHA-RECORDS-COLUMNS";
-                // - > - > Book Name Title
-                var BookNameTitle = document.createElement("h1");
-                BookNameTitle.id = "Book-name";
-                BookNameTitle.className = "my-3 MuhammadHusainAbootalebi-PCBs_Heading_Title";
-                BookNameTitle.textContent = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["title"][Language];
-                BookNameTitle.style.fontFamily = heading_Fonts_Translations[Language]["fontFamily"];
-                ShortInformationRow.appendChild(BookNameTitle);
+                        // Image Column
+                        var parent = document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section");
+                        var ImageColumn = document.createElement("div");
+                        ImageColumn.id = "Book-image-second-view-column";
+                        ImageColumn.className = "mx-4 MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Image MHA-RECORDS-COLUMNS";
+                        var Image_column = document.createElement("img");
+                        Image_column.id = "Book-image-second-view";
+                        Image_column.className = "w-100 h-auto MUHAMMAD-HUSAIN-ABOOTALEBI-RECORDS-IMAGE-ELEMENT";
+                        Image_column.src = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["intro_image_link"];
+                        ImageColumn.appendChild(Image_column); // -- >> Adding the img element to the div
+                        parent.appendChild(ImageColumn); // -- >> Adding the div to the parent section
 
-                // -- >> Adding the index to the indices
-                shown_record_indeces.push(index);
+                        // Book Short Information Row
+                        var parent = document.getElementById("MuhammadHusainAbootalebi-Projects-Books-Courses-Records-List-Section");
+                        var ShortInformationRow = document.createElement("div");
+                        ShortInformationRow.id = "short-information-couloumn-all-text-staffs";
+                        ShortInformationRow.className = "MuhammadHusainAbootalebi-Projects-Courses-Books-RECORDS_Inner_Div_Contents MHA-RECORDS-COLUMNS";
+                        // - > - > Book Name Title
+                        var BookNameTitle = document.createElement("h1");
+                        BookNameTitle.id = "Book-name";
+                        BookNameTitle.className = "my-3 MuhammadHusainAbootalebi-PCBs_Heading_Title";
+                        BookNameTitle.textContent = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["title"][Language];
+                        BookNameTitle.style.fontFamily = heading_Fonts_Translations[Language]["fontFamily"];
+                        ShortInformationRow.appendChild(BookNameTitle);
 
-                // - > - > Short Description
-                var ShortDescriptionRow = document.createElement("p");
-                if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
-                        ShortDescriptionRow.dir = "rtl";
-                } else {
-                        ShortDescriptionRow.dir = "ltr";
+                        // -- >> Adding the index to the indices
+                        shown_record_indeces.push(index);
+
+                        // - > - > Short Description
+                        var ShortDescriptionRow = document.createElement("p");
+                        if ((Language == "فارسی") || (Language == "عَرَبِيّ")) {
+                                ShortDescriptionRow.dir = "rtl";
+                        } else {
+                                ShortDescriptionRow.dir = "ltr";
+                        }
+                        ShortDescriptionRow.id = "text-staff-container-jsut-short-description-paragraph";
+                        ShortDescriptionRow.className = "fs-5 my-3 MuhammadHusainAbootalebi-PCBs_Short_Intro_Paragraph";
+                        ShortDescriptionRow.textContent = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["description"][Language];
+                        ShortDescriptionRow.style.fontFamily = body_Fonts_Translations[Language]["fontFamily"];
+                        ShortInformationRow.appendChild(ShortDescriptionRow);
+
+                        // - > - > See More Anchor Link
+                        var SeeMoreRow = document.createElement("a");
+                        SeeMoreRow.id = "text-staff-container-jsut";
+                        SeeMoreRow.href = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["detail_markdown_link"];
+                        SeeMoreRow.className = "btn btn-primary btn-lg w-25 my-3 MHA-RECORDS-SEE-MORE-BUTTON";
+                        SeeMoreRow.target = "_blank";
+                        SeeMoreRow.textContent = heading_Fonts_Translations[neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_selected_language]["Projects_Courses_Books_Done_Projects_Button"];
+                        SeeMoreRow.style.fontFamily = heading_Fonts_Translations[neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_selected_language]["fontFamily"];
+                        ShortInformationRow.appendChild(SeeMoreRow);
+                        rowBook.appendChild(ImageColumn);
+                        rowBook.appendChild(ShortInformationRow);
+
                 }
-                ShortDescriptionRow.id = "text-staff-container-jsut-short-description-paragraph";
-                ShortDescriptionRow.className = "fs-5 my-3 MuhammadHusainAbootalebi-PCBs_Short_Intro_Paragraph";
-                ShortDescriptionRow.textContent = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["description"][Language];
-                ShortDescriptionRow.style.fontFamily = body_Fonts_Translations[Language]["fontFamily"];
-                ShortInformationRow.appendChild(ShortDescriptionRow);
-
-                // - > - > See More Anchor Link
-                var SeeMoreRow = document.createElement("a");
-                SeeMoreRow.id = "text-staff-container-jsut";
-                SeeMoreRow.href = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["detail_markdown_link"];
-                SeeMoreRow.className = "btn btn-primary btn-lg w-25 my-3 MHA-RECORDS-SEE-MORE-BUTTON";
-                SeeMoreRow.target = "_blank";
-                SeeMoreRow.textContent = heading_Fonts_Translations[neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_selected_language]["Projects_Courses_Books_Done_Projects_Button"];
-                SeeMoreRow.style.fontFamily = heading_Fonts_Translations[neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_selected_language]["fontFamily"];
-                ShortInformationRow.appendChild(SeeMoreRow);
-                rowBook.appendChild(ImageColumn);
-                rowBook.appendChild(ShortInformationRow);
 
         } // End Book Row Creator
 }
