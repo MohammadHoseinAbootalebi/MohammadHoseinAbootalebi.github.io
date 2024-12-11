@@ -1,12 +1,12 @@
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
 
-# Head First Git.webp
+# Head First Git
 
-**"Head First Git" by Raju Gandhi** is an engaging and visually rich guide to mastering Git, the popular version control system. The book takes a hands-on, beginner-friendly approach, using the unique Head First style to make learning both effective and fun. It covers fundamental Git concepts, branching and merging, collaboration workflows, and advanced features like rebasing and resolving conflicts. With plenty of exercises, examples, and illustrations, this book helps readers not just understand Git but also gain the confidence to use it efficiently in real-world projects. Perfect for developers of all levels!
+**"Head First Git" من تأليف Raju Gandhi** هو دليل جذاب وغني بصريًا لإتقان Git، وهو نظام التحكم في الإصدار الشائع. يأخذ الكتاب منهجًا عمليًا وصديقًا للمبتدئين، باستخدام أسلوب Head First الفريد التعلم فعال وممتع، فهو يغطي مفاهيم Git الأساسية، والتفرع والدمج، وسير العمل التعاوني، والميزات المتقدمة مثل إعادة التأسيس وحل النزاعات، مع الكثير من التمارين والأمثلة والرسوم التوضيحية، يساعد هذا الكتاب القراء ليس فقط على فهم Git ولكن أيضًا على اكتساب المعرفة الثقة في الاستخدام إنه فعال في المشاريع الواقعية، وهو مثالي للمطورين من جميع المستويات!
 
 ![1 - Learn Django in 24 hours](../../assets/Books/Book%20Covers/2%20-%20Head%20First%20Git.webp)
 
-## Table of Contents
+## جدول المحتويات
 
 - Chapter 1: Beginning Git: Get Going with Git
 - Chapter 2: Branching Out: Multiple Trains of Thought
@@ -17,16 +17,16 @@
 - Chapter 7: Searching Git Repositories: Git a Grep
 - Chapter 8: Making your life Easier with Git: #ProTips
 
-## Overview
+## ملخص
 
-**"Head First Git" by Raju Gandhi** offers a unique and visually engaging way to learn Git, the powerful version control system. This book simplifies complex topics like branching, merging, and rebasing, making it perfect for beginners and experienced developers looking to refine their skills.  
+**يقدم "Head First Git" للكاتب Raju Gandhi** طريقة فريدة وجذابة بصريًا لتعلم Git، وهو نظام التحكم في الإصدار القوي. يبسط هذا الكتاب الموضوعات المعقدة مثل التفرع والدمج وإعادة التأسيس، مما يجعله مثاليًا للمبتدئين والمطورين ذوي الخبرة. يتطلعون إلى صقل مهاراتهم.
 
-Dive into **"Head First Git" by Raju Gandhi**, where learning Git becomes an interactive experience. Packed with hands-on exercises and real-world examples, this book teaches everything from the basics of version control to advanced collaboration workflows.  
+انغمس في **"Head First Git" بقلم Raju Gandhi**، حيث يصبح تعلم Git تجربة تفاعلية. يعلم هذا الكتاب كل شيء بدءًا من أساسيات التحكم في الإصدار وحتى سير العمل التعاوني المتقدم، وهو مليء بالتمارين العملية والأمثلة الواقعية.
 
-Master Git with the approachable and fun **"Head First Git" by Raju Gandhi**. Through its Head First learning approach, this book turns Git's technical challenges into understandable concepts, empowering developers to manage code efficiently and confidently.  
+Master Git مع **"Head First Git" من تأليف راجو غاندي**. من خلال منهج التعلم Head First، يحول هذا الكتاب تحديات Git التقنية إلى مفاهيم مفهومة، مما يمكّن المطورين من إدارة التعليمات البرمجية بكفاءة وثقة.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسين أبوطالبي | جميع الحقوق محفوظة
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
