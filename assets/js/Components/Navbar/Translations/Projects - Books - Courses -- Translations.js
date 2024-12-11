@@ -97,7 +97,21 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
                                         'فارسی': "آموزش جنگو در 24 ساعت برای مبتدیان توسط S. Basu یک راهنمای ضروری برای توسعه دهندگان وب مشتاقی است که به دنبال تسلط بر جنگو، یک چارچوب وب قدرتمند مبتنی بر پایتون، در زمان بی سابقه هستند. این کتاب جامع برای مبتدیان طراحی شده است و مفاهیم پیچیده را به درس های آسان برای دنبال کردن تقسیم می کند. با مثال‌های عملی، تمرین‌های عملی، و یک برنامه 24 ساعته ساختاریافته، همه چیز را از راه‌اندازی محیط شما تا استقرار یک برنامه وب کامل را پوشش می‌دهد. خوانندگان ویژگی‌های اصلی جنگو، از جمله مدل‌ها، نماها، قالب‌ها و مسیریابی URL را بررسی می‌کنند، در حالی که در ساخت برنامه‌های وب پویا و مقیاس‌پذیر اعتماد به نفس پیدا می‌کنند. چه در برنامه نویسی تازه کار باشید و چه در حال انتقال از چارچوب دیگری باشید، این کتاب شما را با دانش و مهارت های اساسی برای شروع سفر توسعه جنگو خود مجهز می کند.",
                                 },
                                 "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Books/Full Stack Developer/1 - Learn Django in 24 hours for beginners.webp",
-                                "detail_markdown_link": "Docs/Full Stack Developer/Books/English/1 - Learn Django in 24 hours for beginners.md",
+                                "detail_markdown_link": {
+                                        'English': "Docs/Full Stack Developer/Books/English/1 - Learn Django in 24 hours for beginners.md",
+                                        'Deutsch': "Docs/Full Stack Developer/Books/German/1 - Learn Django in 24 hours for beginners.md",
+                                        '中国人': "Docs/Full Stack Developer/Books/Chinese/1 - Learn Django in 24 hours for beginners.md",
+                                        'Русский': "Docs/Full Stack Developer/Books/Russian/1 - Learn Django in 24 hours for beginners.md",
+                                        'Français': "Docs/Full Stack Developer/Books/French/1 - Learn Django in 24 hours for beginners.md",
+                                        '日本語': "Docs/Full Stack Developer/Books/Japanese/1 - Learn Django in 24 hours for beginners.md",
+                                        '한국인': "Docs/Full Stack Developer/Books/Korean/1 - Learn Django in 24 hours for beginners.md",
+                                        'Español': "Docs/Full Stack Developer/Books/Spanish/1 - Learn Django in 24 hours for beginners.md",
+                                        'हिंदी': "Docs/Full Stack Developer/Books/Hindi/1 - Learn Django in 24 hours for beginners.md",
+                                        'Português': "Docs/Full Stack Developer/Books/Portugues/1 - Learn Django in 24 hours for beginners.md",
+                                        'বাংলা': "Docs/Full Stack Developer/Books/Bengali/1 - Learn Django in 24 hours for beginners.md",
+                                        'عَرَبِيّ': "Docs/Full Stack Developer/Books/Arabic/1 - Learn Django in 24 hours for beginners.md",
+                                        'فارسی': "Docs/Full Stack Developer/Books/Persian/1 - Learn Django in 24 hours for beginners.md",
+                                },
                         },
                 ],
                 // -- >> Android Developer
@@ -1730,7 +1744,7 @@ function Projects_Books_Courses_Record_Creator(SkillName, Language, StartIndex, 
                         // - > - > See More Anchor Link
                         var SeeMoreRow = document.createElement("a");
                         SeeMoreRow.id = "text-staff-container-jsut";
-                        SeeMoreRow.href = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["detail_markdown_link"];
+                        SeeMoreRow.href = muhammad_husain_abootalebi_projects_books_courses_records[Section][SkillName][index]["detail_markdown_link"][Language];
                         SeeMoreRow.className = "btn btn-primary btn-lg w-25 my-3 MHA-RECORDS-SEE-MORE-BUTTON";
                         SeeMoreRow.target = "_blank";
                         SeeMoreRow.textContent = heading_Fonts_Translations[neededPropertiesNavbarTranslation_Projects_or_Courses_or_Books_Page._current_selected_language]["Projects_Courses_Books_Done_Projects_Button"];
