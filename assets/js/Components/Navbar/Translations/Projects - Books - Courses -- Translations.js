@@ -64,6 +64,55 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
                 "Flutter Developer": [],
                 // -- >> Full Stack Developer
                 "Full Stack Developer": [
+                        // -- > n - 2 : Django for beginners
+                        {
+                                "title": {
+                                        'English': "Django for Beginners",
+                                        'Deutsch': "Django for Beginners",
+                                        '中国人': "Django for Beginners",
+                                        'Русский': "Django for Beginners",
+                                        'Français': "Django for Beginners",
+                                        '日本語': "Django for Beginners",
+                                        '한국인': "Django for Beginners",
+                                        'Español': "Django for Beginners",
+                                        'हिंदी': "Django for Beginners",
+                                        'Português': "Django for Beginners",
+                                        'বাংলা': "Django for Beginners",
+                                        'عَرَبِيّ': "Django for Beginners",
+                                        'فارسی': "Django for Beginners",
+                                },
+                                "description": {
+                                        'English': "Django for Beginners is a book that teaches you how to build websites using the Python web framework Django. It is written for beginners, so it starts with the basics and gradually introduces more complex concepts. The book is full of examples and exercises, so you can learn by doing.",
+                                        'Deutsch': "„Django für Anfänger“ ist ein Buch, das Ihnen beibringt, wie Sie Websites mit dem Python-Webframework Django erstellen. Es ist für Anfänger geschrieben, beginnt also mit den Grundlagen und führt nach und nach komplexere Konzepte ein. Das Buch ist voller Beispiele und Übungen, sodass Sie durch praktisches Lernen lernen können.",
+                                        '中国人': "《Django for Beginners》是一本教你如何使用 Python Web 框架 Django 构建网站的书。它是为初学者编写的，因此从基础知识开始，逐渐介绍更复杂的概念。这本书充满了示例和练习，因此你可以边做边学。",
+                                        'Русский': "Django for Beginners — это книга, которая научит вас создавать веб-сайты с использованием веб-фреймворка Python Django. Она написана для новичков, поэтому начинается с основ и постепенно вводит более сложные концепции. Книга полна примеров и упражнений, поэтому вы можете учиться на практике.",
+                                        'Français': "Django pour les débutants est un livre qui vous apprend à créer des sites Web à l'aide du framework Web Python Django. Il est écrit pour les débutants, il commence donc par les bases et introduit progressivement des concepts plus complexes. Le livre regorge d'exemples et d'exercices, vous pouvez donc apprendre en faisant.",
+                                        '日本語': "Django for Beginners は、Python ウェブ フレームワーク Django を使用して Web サイトを構築する方法を教える本です。初心者向けに書かれているため、基礎から始まり、徐々に複雑な概念が紹介されます。この本には例や演習が満載で、実践しながら学ぶことができます。",
+                                        '한국인': "Django for Beginners는 Python 웹 프레임워크 Django를 사용하여 웹사이트를 만드는 방법을 알려주는 책입니다. 초보자를 위해 쓰여졌으므로 기본부터 시작하여 점차 더 복잡한 개념을 소개합니다. 이 책은 예제와 연습으로 가득 차 있으므로 직접 해보면서 배울 수 있습니다.",
+                                        'Español': "Django para principiantes es un libro que te enseña a crear sitios web utilizando el framework web de Python, Django. Está escrito para principiantes, por lo que comienza con los conceptos básicos y presenta gradualmente conceptos más complejos. El libro está lleno de ejemplos y ejercicios, por lo que puedes aprender haciendo.",
+                                        'हिंदी': "Django for Beginners एक किताब है जो आपको Python वेब फ्रेमवर्क Django का उपयोग करके वेबसाइट बनाने का तरीका सिखाती है। यह शुरुआती लोगों के लिए लिखी गई है, इसलिए यह मूल बातों से शुरू होती है और धीरे-धीरे अधिक जटिल अवधारणाओं का परिचय देती है। यह किताब उदाहरणों और अभ्यासों से भरी हुई है, इसलिए आप करके सीख सकते हैं।",
+                                        'Português': "Django para iniciantes é um livro que ensina a construir sites utilizando a framework web Python Django. Foi escrito para principiantes, por isso começa com o básico e introduz gradualmente conceitos mais complexos. O livro está cheio de exemplos e exercícios, para que possa aprender fazendo.",
+                                        'বাংলা': "Django for Beginners হল একটি বই যা আপনাকে শেখায় কিভাবে Python ওয়েব ফ্রেমওয়ার্ক Django ব্যবহার করে ওয়েবসাইট তৈরি করতে হয়। এটি নতুনদের জন্য লেখা হয়েছে, তাই এটি প্রাথমিক বিষয়গুলি দিয়ে শুরু হয় এবং ধীরে ধীরে আরও জটিল ধারণাগুলি প্রবর্তন করে৷ বইটি উদাহরণ এবং অনুশীলনে পূর্ণ, তাই আপনি করে শিখতে পারেন।",
+                                        'عَرَبِيّ': "Django for Beginners هو كتاب يعلمك كيفية إنشاء مواقع الويب باستخدام إطار عمل الويب Python Django. وهو مكتوب للمبتدئين، لذا فهو يبدأ بالأساسيات ويدخل تدريجيًا مفاهيم أكثر تعقيدًا. الكتاب مليء بالأمثلة والتمارين، لذا يمكنك التعلم من خلال الممارسة.",
+                                        'فارسی': "جنگو برای مبتدیان کتابی است که به شما یاد می دهد چگونه با استفاده از چارچوب وب پایتون جنگو وب سایت بسازید. این برای مبتدیان نوشته شده است، بنابراین با اصول اولیه شروع می شود و به تدریج مفاهیم پیچیده تری را معرفی می کند. کتاب مملو از مثال ها و تمرین است، بنابراین می توانید با انجام کار یاد بگیرید.",
+                                },
+                                "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Books/Full Stack Developer/3 - Django for Beginners.webp",
+                                "detail_markdown_link": {
+                                        'English': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/English/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'Deutsch': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/German/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        '中国人': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Chinese/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'Русский': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Russian/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'Français': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/French/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        '日本語': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Japanese/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        '한국인': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Korean/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'Español': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Spanish/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'हिंदी': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Hindi/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'Português': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Portugues/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'বাংলা': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Bengali/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'عَرَبِيّ': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Arabic/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                        'فارسی': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Books/Persian/0%20-%201%20-%20Django%20for%20Beginners.md",
+                                },
+                        },
                         // -- > 2 : Head First Git
                         {
                                 "title": {

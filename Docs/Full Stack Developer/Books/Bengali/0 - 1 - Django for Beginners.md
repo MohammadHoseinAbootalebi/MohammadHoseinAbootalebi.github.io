@@ -1,3 +1,40 @@
+<!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
+
 # Django for Beginners
 
-Django for Beginners is a book that teaches you how to build websites using the Python web framework Django. It is written for beginners, so it starts with the basics and gradually introduces more complex concepts. The book is full of examples and exercises, so you can learn by doing.
+Django for Beginners হল একটি বই যা আপনাকে শেখায় কিভাবে Python ওয়েব ফ্রেমওয়ার্ক Django ব্যবহার করে ওয়েবসাইট তৈরি করতে হয়। এটি নতুনদের জন্য লেখা হয়েছে, তাই এটি প্রাথমিক বিষয়গুলি দিয়ে শুরু হয় এবং ধীরে ধীরে আরও জটিল ধারণাগুলি প্রবর্তন করে৷ বইটি উদাহরণ এবং অনুশীলনে পূর্ণ, তাই আপনি করে শিখতে পারেন।
+
+![Django For Beginners](../../assets/Books/Book%20Covers/0%20-%201%20-%20Django%20for%20Beginners.webp)
+
+## সূচিপত্র
+
+- Chapter 1: Initial Set Up
+- Chapter 2: Hello World App
+- Chapter 3: Pages App
+- Chapter 4: Message Board App
+- Chapter 5: Blog App
+- Chapter 6: Forms
+- Chapter 7: User Accounts
+- Chapter 8: Custom User Model
+- Chapter 9: User Authentication
+- Chapter 10: Bootstrap
+- Chapter 11: Password Change and Reset
+- Chapter 12: Email
+- Chapter 13: Newspaper App
+- Chapter 14: Permissions and Authorization
+- Chapter 15: Comments
+- Chapter 16: Deployment
+
+## ওভারভিউ
+
+জ্যাঙ্গো একটি শক্তিশালী পাইথন-ভিত্তিক ওয়েব ফ্রেমওয়ার্ক যা জটিল ওয়েবসাইট তৈরির প্রক্রিয়াকে সহজ করে। এই বইটি জ্যাঙ্গোর একটি বিস্তৃত ভূমিকা প্রদান করে, ব্যবহারিক উদাহরণ এবং বাস্তব-বিশ্বের প্রকল্পগুলির সাথে ওয়েব ডেভেলপমেন্টের মৌলিক বিষয়গুলির মাধ্যমে আপনাকে গাইড করে৷
+
+বইটি শুরু হয় জ্যাঙ্গো ডেভেলপমেন্ট এনভায়রনমেন্ট সেট আপ করার এবং আপনার প্রথম প্রোজেক্ট তৈরি করার প্রাথমিক বিষয় দিয়ে। আপনি মডেল-ভিউ-টেমপ্লেট (MVT) আর্কিটেকচার সম্পর্কে শিখবেন, যা জ্যাঙ্গো বিকাশের ভিত্তি। আপনি কীভাবে গতিশীল ওয়েব অ্যাপ্লিকেশন তৈরি করতে মডেল, ভিউ এবং টেমপ্লেট তৈরি করবেন তাও শিখবেন।
+
+আপনি বইয়ের মাধ্যমে অগ্রসর হওয়ার সাথে সাথে আপনি ব্যবহারকারীর প্রমাণীকরণ, ডাটাবেস পরিচালনা এবং স্থাপনার মতো আরও উন্নত বিষয় সম্পর্কে শিখবেন। আপনি একটি ব্লগ, একটি সামাজিক নেটওয়ার্ক এবং একটি ই-কমার্স সাইট এর মতো বেশ কয়েকটি বাস্তব-বিশ্বের প্রকল্পও তৈরি করবেন৷
+
+---
+
+© মুহাম্মদ হুসাইন আবুতালেবী | সর্বস্বত্ব সংরক্ষিত
+
+<!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
