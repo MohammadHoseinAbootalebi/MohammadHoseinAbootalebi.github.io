@@ -3,11 +3,11 @@
 
 # Django for Professionals
 
-*"Django for Professionals"* by William S. Vincent is an advanced guide tailored for developers who want to build modern, secure, and scalable web applications using Django, the high-level Python web framework. This book delves deep into best practices for deploying production-ready applications, covering critical topics such as custom user models, advanced user authentication, Docker for containerization, and continuous integration. It also explores setting up robust testing strategies and configuring third-party integrations like PostgreSQL and cloud services. With a practical, hands-on approach, *Django for Professionals* equips readers with the knowledge to craft real-world web applications, making it an essential resource for anyone seeking to elevate their Django skills to a professional level.
+*"পেশাদারদের জন্য জ্যাঙ্গো"* উইলিয়াম এস. ভিনসেন্ট একটি উন্নত নির্দেশিকা যা ডেভেলপারদের জন্য তৈরি করা হয়েছে যারা জ্যাঙ্গো, উচ্চ-স্তরের পাইথন ওয়েব ফ্রেমওয়ার্ক ব্যবহার করে আধুনিক, সুরক্ষিত এবং মাপযোগ্য ওয়েব অ্যাপ্লিকেশন তৈরি করতে চান৷ এই বইটি উত্পাদন-প্রস্তুত অ্যাপ্লিকেশন স্থাপনের জন্য সর্বোত্তম অনুশীলনের গভীরে গভীরভাবে বর্ণনা করে, কাস্টম ব্যবহারকারী মডেল, উন্নত ব্যবহারকারীর প্রমাণীকরণ, কন্টেইনারাইজেশনের জন্য ডকার এবং ক্রমাগত একীকরণের মতো গুরুত্বপূর্ণ বিষয়গুলিকে কভার করে। এটি শক্তিশালী পরীক্ষার কৌশলগুলি সেট আপ করা এবং PostgreSQL এবং ক্লাউড পরিষেবাগুলির মতো তৃতীয় পক্ষের ইন্টিগ্রেশনগুলি কনফিগার করে। একটি ব্যবহারিক, হ্যান্ডস-অন পদ্ধতির সাথে, *প্রফেশনালদের জন্য জ্যাঙ্গো* পাঠকদেরকে বাস্তব-বিশ্বের ওয়েব অ্যাপ্লিকেশন তৈরি করার জ্ঞান দিয়ে সজ্জিত করে, এটি যে কেউ তাদের জ্যাঙ্গো দক্ষতাকে পেশাদার স্তরে উন্নীত করতে চায় তাদের জন্য এটি একটি অপরিহার্য সম্পদ করে তোলে।
 
 ![Django For Beginners](../../assets/Books/Book%20Covers/0%20-%202%20-%20Django%20for%20Professionals.webp)
 
-## Table of Contents
+## সূচিপত্র
 
 - Chapter 1: Initial Set Up
 - Chapter 2: Docker Hello, World!
@@ -28,16 +28,16 @@
 - Chapter 17: Security
 - Chapter 18: Deployment
 
-## Overview
+## ওভারভিউ
 
-*"Django for Professionals"* by William S. Vincent is an advanced guide designed for developers aiming to master Django, one of the most popular Python web frameworks. The book goes beyond the basics, offering a deep dive into building secure, scalable, and maintainable web applications. It emphasizes best practices and professional-grade techniques, making it a go-to resource for those serious about web development. The author provides step-by-step guidance on critical topics such as custom user models, advanced user authentication, and implementing secure practices to protect user data. Each concept is reinforced with practical examples, ensuring readers can immediately apply what they've learned.  
+*"পেশাদারদের জন্য জ্যাঙ্গো"* উইলিয়াম এস. ভিনসেন্টের একটি উন্নত নির্দেশিকা যা ডেভেলপারদের জন্য ডিজাইন করা হয়েছে যা জ্যাঙ্গোকে আয়ত্ত করার লক্ষ্যে, অন্যতম জনপ্রিয় পাইথন ওয়েব ফ্রেমওয়ার্ক। বইটি মৌলিক বিষয়ের বাইরে চলে যায়, সুরক্ষিত, মাপযোগ্য, এবং রক্ষণাবেক্ষণযোগ্য ওয়েব অ্যাপ্লিকেশন তৈরিতে গভীর ডুব দেয়। এটি সর্বোত্তম অনুশীলন এবং পেশাদার-গ্রেডের কৌশলগুলির উপর জোর দেয়, এটিকে ওয়েব বিকাশের বিষয়ে গুরুতর ব্যক্তিদের জন্য একটি গো-টু সংস্থান করে তোলে। লেখক কাস্টম ব্যবহারকারী মডেল, উন্নত ব্যবহারকারী প্রমাণীকরণ, এবং ব্যবহারকারীর ডেটা সুরক্ষিত করার জন্য নিরাপদ অনুশীলন বাস্তবায়নের মতো গুরুত্বপূর্ণ বিষয়গুলিতে ধাপে ধাপে নির্দেশিকা প্রদান করেন। প্রতিটি ধারণাকে ব্যবহারিক উদাহরণ দিয়ে শক্তিশালী করা হয়, যাতে পাঠকরা তারা যা শিখেছেন তা অবিলম্বে প্রয়োগ করতে পারেন।
 
-One of the standout features of the book is its focus on deployment and scalability. Readers are introduced to tools like Docker for containerization and Heroku for deployment, along with essential topics like configuring PostgreSQL, setting up continuous integration, and deploying to production environments. The book also includes insights into crafting a robust testing strategy, ensuring that applications are not only functional but also reliable. By covering modern development workflows, the book helps developers create applications that are production-ready and can handle real-world challenges.  
+বইটির স্ট্যান্ডআউট বৈশিষ্ট্যগুলির মধ্যে একটি হল এর স্থাপনা এবং মাপযোগ্যতার উপর ফোকাস। পোস্টগ্রেএসকিউএল কনফিগার করা, ক্রমাগত ইন্টিগ্রেশন সেট আপ করা এবং উত্পাদন পরিবেশে স্থাপনের মতো প্রয়োজনীয় বিষয়গুলির সাথে পাঠকদের কনটেইনারাইজেশনের জন্য ডকার এবং স্থাপনার জন্য হেরোকু-এর মতো সরঞ্জামগুলির সাথে পরিচয় করিয়ে দেওয়া হয়। বইটিতে একটি শক্তিশালী পরীক্ষার কৌশল তৈরি করার অন্তর্দৃষ্টিও রয়েছে, যাতে অ্যাপ্লিকেশনগুলি কেবল কার্যকরী নয় বরং নির্ভরযোগ্যও হয়। আধুনিক ডেভেলপমেন্ট ওয়ার্কফ্লো কভার করে, বইটি ডেভেলপারদের এমন অ্যাপ্লিকেশন তৈরি করতে সাহায্য করে যা উৎপাদন-প্রস্তুত এবং বাস্তব-বিশ্বের চ্যালেঞ্জ মোকাবেলা করতে পারে।
 
-What sets *Django for Professionals* apart is its practical approach and clear, concise writing style. William S. Vincent breaks down complex topics into manageable sections, making them accessible even to developers who are new to advanced web development practices. The book is packed with tips and tricks gleaned from real-world experience, ensuring that readers gain both theoretical knowledge and practical skills. Whether you're looking to build a portfolio project, scale an existing application, or understand how professional developers approach Django projects, this book serves as a valuable guide to taking your Django expertise to the next level.  
+*পেশাদারদের জন্য জ্যাঙ্গো* কে আলাদা করে তা হল এর ব্যবহারিক পদ্ধতি এবং স্পষ্ট, সংক্ষিপ্ত লেখার শৈলী। উইলিয়াম এস. ভিনসেন্ট জটিল বিষয়গুলিকে পরিচালনাযোগ্য বিভাগে বিভক্ত করে, এমনকি সেগুলি বিকাশকারীদের কাছেও অ্যাক্সেসযোগ্য করে তোলে যারা উন্নত ওয়েব ডেভেলপমেন্ট অনুশীলনে নতুন। বইটি বাস্তব-বিশ্বের অভিজ্ঞতা থেকে সংগ্রহ করা টিপস এবং কৌশলে পরিপূর্ণ, যাতে পাঠকরা তাত্ত্বিক জ্ঞান এবং ব্যবহারিক দক্ষতা উভয়ই অর্জন করে তা নিশ্চিত করে৷ আপনি একটি পোর্টফোলিও প্রকল্প তৈরি করতে চাইছেন, একটি বিদ্যমান অ্যাপ্লিকেশন স্কেল করছেন, বা পেশাদার বিকাশকারীরা কীভাবে জ্যাঙ্গো প্রকল্পগুলির সাথে যোগাযোগ করে তা বুঝতে, এই বইটি আপনার জ্যাঙ্গো দক্ষতাকে পরবর্তী স্তরে নিয়ে যাওয়ার জন্য একটি মূল্যবান গাইড হিসাবে কাজ করে৷
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© মুহাম্মদ হুসাইন আবুতালেবী | সর্বস্বত্ব সংরক্ষিত
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

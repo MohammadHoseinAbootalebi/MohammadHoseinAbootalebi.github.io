@@ -3,11 +3,11 @@
 
 # Django for Professionals
 
-*"Django for Professionals"* by William S. Vincent is an advanced guide tailored for developers who want to build modern, secure, and scalable web applications using Django, the high-level Python web framework. This book delves deep into best practices for deploying production-ready applications, covering critical topics such as custom user models, advanced user authentication, Docker for containerization, and continuous integration. It also explores setting up robust testing strategies and configuring third-party integrations like PostgreSQL and cloud services. With a practical, hands-on approach, *Django for Professionals* equips readers with the knowledge to craft real-world web applications, making it an essential resource for anyone seeking to elevate their Django skills to a professional level.
+*"Django for Professionals"* توسط William S. Vincent یک راهنمای پیشرفته برای توسعه دهندگانی است که می خواهند برنامه های وب مدرن، ایمن و مقیاس پذیر را با استفاده از جنگو، چارچوب وب سطح بالا پایتون بسازند. این کتاب عمیقاً به بهترین شیوه‌ها برای استقرار برنامه‌های کاربردی آماده تولید می‌پردازد، موضوعات مهمی مانند مدل‌های کاربر سفارشی، احراز هویت پیشرفته کاربر، Docker برای کانتینری‌سازی و یکپارچه‌سازی مداوم را پوشش می‌دهد. همچنین راه‌اندازی استراتژی‌های تست قوی و پیکربندی ادغام‌های شخص ثالث مانند PostgreSQL و سرویس‌های ابری را بررسی می‌کند. با یک رویکرد عملی و عملی، *Django for Professionals* خوانندگان را با دانش ساخت برنامه های کاربردی وب در دنیای واقعی مجهز می کند و آن را به یک منبع ضروری برای هر کسی که به دنبال ارتقای مهارت های جنگو به سطح حرفه ای است تبدیل می کند.
 
 ![Django For Beginners](../../assets/Books/Book%20Covers/0%20-%202%20-%20Django%20for%20Professionals.webp)
 
-## Table of Contents
+## فهرست مطالب
 
 - Chapter 1: Initial Set Up
 - Chapter 2: Docker Hello, World!
@@ -28,16 +28,16 @@
 - Chapter 17: Security
 - Chapter 18: Deployment
 
-## Overview
+## نمای کلی
 
-*"Django for Professionals"* by William S. Vincent is an advanced guide designed for developers aiming to master Django, one of the most popular Python web frameworks. The book goes beyond the basics, offering a deep dive into building secure, scalable, and maintainable web applications. It emphasizes best practices and professional-grade techniques, making it a go-to resource for those serious about web development. The author provides step-by-step guidance on critical topics such as custom user models, advanced user authentication, and implementing secure practices to protect user data. Each concept is reinforced with practical examples, ensuring readers can immediately apply what they've learned.  
+*"Django for Professionals"* توسط William S. Vincent یک راهنمای پیشرفته است که برای توسعه دهندگانی طراحی شده است که با هدف تسلط بر جنگو، یکی از محبوب ترین چارچوب های وب پایتون طراحی شده است. این کتاب فراتر از اصول اولیه است، و یک فرو رفتن عمیق در ساخت برنامه های کاربردی وب ایمن، مقیاس پذیر و قابل نگهداری ارائه می دهد. این بر بهترین شیوه‌ها و تکنیک‌های حرفه‌ای تأکید می‌کند، و آن را به منبعی برای کسانی که در مورد توسعه وب جدی هستند تبدیل می‌کند. نویسنده راهنمای گام به گام در مورد موضوعات مهم مانند مدل های کاربر سفارشی، احراز هویت پیشرفته کاربر، و اجرای شیوه های ایمن برای محافظت از داده های کاربر ارائه می دهد. هر مفهوم با مثال‌های عملی تقویت می‌شود و اطمینان حاصل می‌شود که خوانندگان می‌توانند فوراً آنچه را که آموخته‌اند به کار ببرند.
 
-One of the standout features of the book is its focus on deployment and scalability. Readers are introduced to tools like Docker for containerization and Heroku for deployment, along with essential topics like configuring PostgreSQL, setting up continuous integration, and deploying to production environments. The book also includes insights into crafting a robust testing strategy, ensuring that applications are not only functional but also reliable. By covering modern development workflows, the book helps developers create applications that are production-ready and can handle real-world challenges.  
+یکی از ویژگی های برجسته کتاب تمرکز آن بر استقرار و مقیاس پذیری است. خوانندگان با ابزارهایی مانند Docker برای کانتینری‌سازی و Heroku برای استقرار، همراه با موضوعات ضروری مانند پیکربندی PostgreSQL، راه‌اندازی یکپارچه‌سازی مداوم و استقرار در محیط‌های تولید آشنا می‌شوند. این کتاب همچنین شامل بینش هایی در مورد ایجاد یک استراتژی تست قوی است که اطمینان حاصل می کند که برنامه ها نه تنها کاربردی بلکه قابل اعتماد هستند. با پوشش گردش‌های کاری توسعه مدرن، این کتاب به توسعه‌دهندگان کمک می‌کند تا برنامه‌هایی ایجاد کنند که آماده تولید هستند و می‌توانند چالش‌های دنیای واقعی را مدیریت کنند.
 
-What sets *Django for Professionals* apart is its practical approach and clear, concise writing style. William S. Vincent breaks down complex topics into manageable sections, making them accessible even to developers who are new to advanced web development practices. The book is packed with tips and tricks gleaned from real-world experience, ensuring that readers gain both theoretical knowledge and practical skills. Whether you're looking to build a portfolio project, scale an existing application, or understand how professional developers approach Django projects, this book serves as a valuable guide to taking your Django expertise to the next level.  
+چیزی که *جانگو را برای حرفه ای ها* متمایز می کند رویکرد عملی و سبک نوشتاری واضح و مختصر آن است. ویلیام اس. وینسنت موضوعات پیچیده را به بخش‌های قابل مدیریت تقسیم می‌کند و حتی برای توسعه‌دهندگانی که تازه با شیوه‌های توسعه وب پیشرفته هستند، قابل دسترسی است. این کتاب مملو از نکات و ترفندهایی است که از تجربیات دنیای واقعی گردآوری شده اند و اطمینان حاصل می کنند که خوانندگان هم دانش نظری و هم مهارت های عملی را به دست می آورند. چه به دنبال ایجاد یک پروژه نمونه کارها، مقیاس یک برنامه کاربردی موجود یا درک چگونگی رویکرد توسعه دهندگان حرفه ای به پروژه های جنگو باشید، این کتاب به عنوان راهنمای ارزشمندی برای ارتقاء تخصص جنگو شما به سطح بعدی عمل می کند.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسین ابوطالبی | تمامی حقوق محفوظ است
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
