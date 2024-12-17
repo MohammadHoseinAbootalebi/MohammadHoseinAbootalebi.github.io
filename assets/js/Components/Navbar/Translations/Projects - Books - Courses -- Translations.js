@@ -666,6 +666,55 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
                 "Flutter Developer": [],
                 // -- >> Full Stack Developer
                 "Full Stack Developer": [
+                        // -- > DJANGO - 2 : Django with React | An Ecommerce Website
+                        {
+                                "title": {
+                                        'English': "Django with React | An Ecommerce Website",
+                                        'Deutsch': "Django with React | An Ecommerce Website",
+                                        '中国人': "Django with React | An Ecommerce Website",
+                                        'Русский': "Django with React | An Ecommerce Website",
+                                        'Français': "Django with React | An Ecommerce Website",
+                                        '日本語': "Django with React | An Ecommerce Website",
+                                        '한국인': "Django with React | An Ecommerce Website",
+                                        'Español': "Django with React | An Ecommerce Website",
+                                        'हिंदी': "Django with React | An Ecommerce Website",
+                                        'Português': "Django with React | An Ecommerce Website",
+                                        'বাংলা': "Django with React | An Ecommerce Website",
+                                        'عَرَبِيّ': "Django with React | An Ecommerce Website",
+                                        'فارسی': "Django with React | An Ecommerce Website",
+                                },
+                                "description": {
+                                        'English': "Build an eCommerce platform from the ground up with React, Redux, Django & Postgres",
+                                        'Deutsch': "Erstellen Sie mit React, Redux, Django und Postgres eine E-Commerce-Plattform von Grund auf",
+                                        '中国人': "使用 React、Redux、Django 和 Postgres 从头开始​​构建电子商务平台",
+                                        'Русский': "Создайте платформу электронной коммерции с нуля с помощью React, Redux, Django и Postgres",
+                                        'Français': "Créez une plateforme de commerce électronique à partir de zéro avec React, Redux, Django et Postgres",
+                                        '日本語': "React、Redux、Django、Postgres を使って e コマース プラットフォームをゼロから構築します。",
+                                        '한국인': "React, Redux, Django 및 Postgres를 사용하여 처음부터 전자상거래 플랫폼을 구축하세요",
+                                        'Español': "Cree una plataforma de comercio electrónico desde cero con React, Redux, Django y Postgres",
+                                        'हिंदी': "React, Redux, Django और Postgres के साथ शुरू से ही एक ईकॉमर्स प्लेटफ़ॉर्म बनाएं",
+                                        'Português': "Construa uma plataforma de comércio eletrónico a partir do zero com React, Redux, Django e Postgres",
+                                        'বাংলা': "React, Redux, Django এবং Postgres-এর সাথে গ্রাউন্ড আপ থেকে একটি ইকমার্স প্ল্যাটফর্ম তৈরি করুন",
+                                        'عَرَبِيّ': "قم ببناء منصة التجارة الإلكترونية من البداية باستخدام React وRedux وDjango وPostgres",
+                                        'فارسی': "با React، Redux، Django و Postgres یک پلتفرم تجارت الکترونیک از ابتدا بسازید",
+                                },
+                                "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Courses/Full Stack Developer/0 - 2 - Django with React An Ecommerce Website.webp",
+                                "detail_markdown_link": {
+                                        'English': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/English/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'Deutsch': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/German/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        '中国人': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Chinese/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'Русский': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Russian/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'Français': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/French/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        '日本語': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Japanese/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        '한국인': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Korean/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'Español': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Spanish/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'हिंदी': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Hindi/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'Português': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Portugues/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'বাংলা': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Bengali/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'عَرَبِيّ': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Arabic/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                        'فارسی': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Persian/0%20-%202%20-%20Django%20with%20React%20An%20Ecommerce%20Website.md",
+                                },
+                        },
                         // -- > DJANGO - 2 : Devsearch Course
                         {
                                 "title": {
