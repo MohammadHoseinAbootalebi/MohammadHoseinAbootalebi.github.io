@@ -666,7 +666,56 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
                 "Flutter Developer": [],
                 // -- >> Full Stack Developer
                 "Full Stack Developer": [
-                        // -- > DJANGO - 2 : Django with React | An Ecommerce Website
+                        // -- > DJANGO : Python Django: Build an E-commerce Store - 2025
+                        {
+                                "title": {
+                                        'English': "Python Django: Build an E-commerce Store",
+                                        'Deutsch': "Python Django: Build an E-commerce Store",
+                                        '中国人': "Python Django: Build an E-commerce Store",
+                                        'Русский': "Python Django: Build an E-commerce Store",
+                                        'Français': "Python Django: Build an E-commerce Store",
+                                        '日本語': "Python Django: Build an E-commerce Store",
+                                        '한국인': "Python Django: Build an E-commerce Store",
+                                        'Español': "Python Django: Build an E-commerce Store",
+                                        'हिंदी': "Python Django: Build an E-commerce Store",
+                                        'Português': "Python Django: Build an E-commerce Store",
+                                        'বাংলা': "Python Django: Build an E-commerce Store",
+                                        'عَرَبِيّ': "Python Django: Build an E-commerce Store",
+                                        'فارسی': "Python Django: Build an E-commerce Store",
+                                },
+                                "description": {
+                                        'English': "Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Django Web Application",
+                                        'Deutsch': "Erstellen Sie einen E-Commerce-Shop mit Django | Praktische Demonstrationen | Stellen Sie eine Django-Webanwendung bereit",
+                                        '中国人': "使用 Django 构建电子商务商店 | 动手演示 | 部署 Django Web 应用程序",
+                                        'Русский': "Создание интернет-магазина с помощью Django | Практические демонстрации | Развертывание веб-приложения Django",
+                                        'Français': "Créer une boutique en ligne avec Django | Démonstrations pratiques | Déployer une application Web Django",
+                                        '日本語': "Django で電子商取引ストアを構築する | ハンズオン デモンストレーション | Django Web アプリケーションをデプロイする",
+                                        '한국인': "Django로 전자상거래 매장 구축 | 실습 데모 | Django 웹 애플리케이션 배포",
+                                        'Español': "Cree una tienda de comercio electrónico con Django | Demostraciones prácticas | Implemente una aplicación web Django",
+                                        'हिंदी': "Django के साथ ई-कॉमर्स स्टोर बनाएँ | व्यावहारिक प्रदर्शन | Django वेब एप्लिकेशन को परिनियोजित करें",
+                                        'Português': "Construa uma loja de comércio eletrónico com Django | Demonstrações práticas | Implantar uma aplicação Web Django",
+                                        'বাংলা': "জ্যাঙ্গো দিয়ে একটি ই-কমার্স স্টোর তৈরি করুন | হাতে বিক্ষোভ | একটি জ্যাঙ্গো ওয়েব অ্যাপ্লিকেশন স্থাপন করুন",
+                                        'عَرَبِيّ': "إنشاء متجر للتجارة الإلكترونية باستخدام Django | عروض توضيحية عملية | نشر تطبيق ويب Django",
+                                        'فارسی': "ساخت فروشگاه تجارت الکترونیک با جنگو | تظاهرات عملی | یک برنامه وب جنگو را مستقر کنید",
+                                },
+                                "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Courses/Full Stack Developer/0 - 3 - Python Django Build an Ecommerce Store.webp",
+                                "detail_markdown_link": {
+                                        'English': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/English/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'Deutsch': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/German/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        '中国人': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Chinese/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'Русский': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Russian/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'Français': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/French/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        '日本語': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Japanese/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        '한국인': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Korean/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'Español': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Spanish/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'हिंदी': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Hindi/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'Português': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Portugues/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'বাংলা': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Bengali/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'عَرَبِيّ': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Arabic/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                        'فارسی': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Persian/0%20-%203%20-%20Python%20Django%20Build%20an%20E-commerce%20Store%202025.md",
+                                },
+                        },
+                        // -- > DJANGO - 1 : Django with React | An Ecommerce Website
                         {
                                 "title": {
                                         'English': "Django with React | An Ecommerce Website",
