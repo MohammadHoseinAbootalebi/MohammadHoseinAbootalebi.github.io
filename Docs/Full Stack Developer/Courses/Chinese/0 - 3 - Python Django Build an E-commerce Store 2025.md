@@ -3,11 +3,11 @@
 
 # Python Django: Build an E-commerce Store - 2025
 
-Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Django Web Application
+使用 Django 构建电子商务商店 | 动手演示 | 部署 Django Web 应用程序
 
 ![Python Django: Build an E-commerce Store - 2025](../../assets/Courses/Course%20Covers/0%20-%203%20-%20Python%20Django%20Build%20an%20Ecommerce%20Store.webp)
 
-## Course Contents
+## 课程内容
 
 - Course Introduction
   - Course overview and prerequisites - [Important]
@@ -214,102 +214,102 @@ Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Djang
   - Thank you! - A final message
   - Bonus lecture
 
-## Description
+## 描述
 
-### Requirements
+### 要求
 
-- Fundamental knowledge of Django is required
-- You should also know the basics of HTML/CSS and JavaScript
-- It would be useful to have some knowledge of Bootstrap
+- 需要具备 Django 的基础知识
+- 您还应该了解 HTML/CSS 和 JavaScript 的基础知识
+- 掌握一些 Bootstrap 知识会很有用
 
-### Explanation
+### 解释
 
-Welcome! I'm here to help you to build your own E-commerce store with Django.
+欢迎！我来这里是为了帮助你用 Django 建立自己的电子商务商店。
 
--- Please read carefully --
+——请仔细阅读——
 
-This course is primarily intended for those with a basic knowledge of Django. You also need to have some knowledge of HTML, CSS, JavaScript and a little bit of bootstrap would be helpful.  If you meet these conditions then this course is for you!
+本课程主要面向那些对 Django 有基本了解的人。你还需要了解一些 HTML、CSS、JavaScript 知识，一点 bootstrap 知识会很有帮助。如果你满足这些条件，那么本课程就适合你！
 
-I want to help YOU to build your very first E-commerce store!
+我想帮助你建立你的第一家电子商务商店！
 
-**Please note:**
+**请注意：**
 
-The eCommerce store project that is developed in this course is for learning purposes only. I will teach you how to build an eCommerce store with the expected custom functionalities of a live store.
+本课程开发的电子商务商店项目仅用于学习目的。我将教你如何建立一个具有实时商店预期自定义功能的电子商务商店。
 
-I do not promise that this course is going to be a 100% eCommerce solution for your business. Another important thing to bear in mind, is that this course is not for non-technical users.
+我不保证本课程将成为您业务的 100% 电子商务解决方案。另一件需要记住的重要事情是，本课程不适合非技术用户。
 
-The Python Django: Build an E-commerce Store - course has been structured in a simple and logical order. Everything that has been designed from the styling to the graphics and topics covered is crafted with the absolute duty of care towards the student.
+Python Django：建立电子商务商店 - 课程结构简单且合乎逻辑。从样式到图形和所涵盖的主题，所有设计都是以对学生的绝对责任为出发点精心制作的。
 
-Detailed course breakdown:
+详细课程分类：
 
-- Building an ecommerce store with Django
-  - Learn the fundamentals of Django.
-  - Set up the foundation for an ecommerce website.
-- Payment Integration with PayPal
-  - Implement payment processing using PayPal.
-- Real-World application development
-  - Gain practical experience by building a real-world ecommerce application.
-- Shopping cart development
-  - Create a shopping cart feature for your ecommerce site.
-- User management
-  - Implement user management functionality.
-- Email verification
-  - Add email verification features to enhance user management.
-- AWS Integration
-  - Utilize Amazon Web Services (AWS) for storage (Amazon S3), database (Amazon RDS), and hosting (Amazon Elastic Beanstalk).
-- Deployment (live server hosting) options
-  - Explore different deployment options, including Render deployment and Amazon Elastic Beanstalk deployment.
-- Shipping and order functionality
-  - Implement shipping and order processing features.
-- Styling and validation
-  - Enhance the user interface and ensure data validation.
-- Password management
-  - Implement secure password management features.
-- Cart functionality
-  - Handle shopping cart functionality, including sessions, adding, deleting, updating, testing, and optimization.
-- Context processors
-  - Learn about context processors and their role in Django.
-- Model management
-  - Understand how to manage models within the Django framework.
-- Additional functionality
-  - Explore extra functionality beyond the core topics.
+- 使用 Django 构建电子商务商店
+- 学习 Django 的基础知识。
+- 为电子商务网站奠定基础。
+- 与 PayPal 的支付集成
+- 使用 PayPal 实现支付处理。
+- 真实世界的应用程序开发
+- 通过构建真实的电子商务应用程序获得实践经验。
+- 购物车开发
+- 为您的电子商务网站创建购物车功能。
+- 用户管理
+- 实现用户管理功能。
+- 电子邮件验证
+- 添加电子邮件验证功能以增强用户管理。
+- AWS 集成
+- 利用 Amazon Web Services (AWS) 进行存储 (Amazon S3)、数据库 (Amazon RDS) 和托管 (Amazon Elastic Beanstalk)。
+- 部署（实时服务器托管）选项
+- 探索不同的部署选项，包括 Render 部署和 Amazon Elastic Beanstalk 部署。
+- 发货和订单功能
+- 实现发货和订单处理功能。
+- 样式和验证
+- 增强用户界面并确保数据验证。
+- 密码管理
+- 实现安全密码管理功能。
+- 购物车功能
+- 处理购物车功能，包括会话、添加、删除、更新、测试和优化。
+- 上下文处理器
+- 了解上下文处理器及其在 Django 中的作用。
+- 模型管理
+- 了解如何在 Django 框架内管理模型。
+- 附加功能
+- 探索核心主题之外的额外功能。
 
-- It covers all the concepts that you need to be aware of, in order to create your e-commerce store.
-- The course is structured in a logical and cohesive way - not just random lectures plastered everywhere.
-- It starts off very simple and then builds on gradually throughout the course.
-- This course is jam-packed with code snippets/references and with the full project source code (as a zip file).
-- We will learn how to integrate PayPal functionality.
+- 它涵盖了您需要了解的所有概念，以便创建您的电子商务商店。
+- 课程结构合乎逻辑且连贯 - 不仅仅是到处乱讲。
+- 它从非常简单开始，然后在整个课程中逐渐完善。
+- 本课程包含大量代码片段/参考资料和完整的项目源代码（作为 zip 文件）。
+- 我们将学习如何集成 PayPal 功能。
 
-The Python Django: Build an E-commerce Store course is a highly practical course and allows you to apply your knowledge:
+Python Django：构建电子商务商店课程是一门非常实用的课程，可让您应用所学知识：
 
-- There is a wealth of hands-on lectures throughout this course.
+- 本课程包含大量实践讲座。
 
-#### About instructor
+#### 关于讲师
 
-My name is Arno Pretorius. I'm a qualified IT teacher who has taught programming both in-person and online. My main passions are teaching and technology, so I thought why not just combine the best of both worlds to create something truly amazing and valuable. Over the years, I have created and deployed many real-world Django-based applications, including a job portal for university graduates and an exclusive social network.
+我的名字是 Arno Pretorius。我是一名合格的 IT 教师，曾亲自和在线教授编程。我的主要爱好是教学和技术，所以我想为什么不将两全其美结合起来，创造出真正令人惊叹和有价值的东西呢。多年来，我创建并部署了许多基于 Django 的实际应用程序，包括面向大学毕业生的求职门户和独家社交网络。
 
-I'm a Software developer, an AWS Solutions Architect and Developer associate. I have a keen interest in cloud computing, web development and everything that relates to programming and technology.
+我是一名软件开发人员、AWS 解决方案架构师和开发人员助理。我对云计算、Web 开发以及与编程和技术相关的一切都很感兴趣。
 
-So, let's go and become fluent in Django, along with an extra service or two.
+所以，让我们开始熟练掌握 Django 以及一两项额外的服务。
 
-Trust me you are in good hands!
+相信我，您会得到很好的照顾！
 
-This course also comes with:
+本课程还附带：
 
-- 18 + hours of on-demand video
-- Full lifetime access
-- A Udemy certificate of completion
-- Access on mobile and TV
+- 18 小时以上的点播视频
+- 终身完全访问权限
+- Udemy 结业证书
+- 可通过移动设备和电视访问
 
-### Who this course is for
+### 本课程适合哪些人
 
-- Django developers who want to add a live project to their portfolio
-- Django developers who want to learn how to build a real-world project
+- 想要将实时项目添加到其作品集的 Django 开发人员
+- 想要学习如何构建真实项目的 Django 开发人员
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
+[🔗 课程链接 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 穆罕默德·侯赛因·阿布塔莱比 | 保留所有权利
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

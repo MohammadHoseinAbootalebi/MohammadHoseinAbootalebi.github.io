@@ -3,11 +3,11 @@
 
 # Python Django: Build an E-commerce Store - 2025
 
-Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Django Web Application
+ساخت فروشگاه تجارت الکترونیک با جنگو | تظاهرات عملی | یک برنامه وب جنگو را مستقر کنید
 
 ![Python Django: Build an E-commerce Store - 2025](../../assets/Courses/Course%20Covers/0%20-%203%20-%20Python%20Django%20Build%20an%20Ecommerce%20Store.webp)
 
-## Course Contents
+## مطالب دوره
 
 - Course Introduction
   - Course overview and prerequisites - [Important]
@@ -214,102 +214,102 @@ Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Djang
   - Thank you! - A final message
   - Bonus lecture
 
-## Description
+## توضیحات
 
-### Requirements
+### الزامات
 
-- Fundamental knowledge of Django is required
-- You should also know the basics of HTML/CSS and JavaScript
-- It would be useful to have some knowledge of Bootstrap
+- دانش بنیادی جنگو مورد نیاز است
+- همچنین باید اصول HTML/CSS و جاوا اسکریپت را بدانید
+- دانستن کمی از Bootstrap مفید خواهد بود
 
-### Explanation
+### توضیح
 
-Welcome! I'm here to help you to build your own E-commerce store with Django.
+خوش آمدید! من اینجا هستم تا به شما کمک کنم تا با جنگو فروشگاه تجارت الکترونیکی خود را بسازید.
 
--- Please read carefully --
+-- لطفا با دقت بخوانید --
 
-This course is primarily intended for those with a basic knowledge of Django. You also need to have some knowledge of HTML, CSS, JavaScript and a little bit of bootstrap would be helpful.  If you meet these conditions then this course is for you!
+این دوره در درجه اول برای کسانی است که دانش اولیه جنگو را دارند. همچنین باید دانش HTML، CSS، جاوا اسکریپت و کمی بوت استرپ را داشته باشید. اگر این شرایط را دارید پس این دوره برای شما مناسب است!
 
-I want to help YOU to build your very first E-commerce store!
+من می خواهم به شما کمک کنم تا اولین فروشگاه تجارت الکترونیک خود را بسازید!
 
-**Please note:**
+**لطفا توجه داشته باشید:**
 
-The eCommerce store project that is developed in this course is for learning purposes only. I will teach you how to build an eCommerce store with the expected custom functionalities of a live store.
+پروژه فروشگاه تجارت الکترونیکی که در این دوره توسعه داده شده است فقط برای اهداف آموزشی است. من به شما یاد خواهم داد که چگونه یک فروشگاه تجارت الکترونیک با عملکردهای سفارشی مورد انتظار یک فروشگاه زنده بسازید.
 
-I do not promise that this course is going to be a 100% eCommerce solution for your business. Another important thing to bear in mind, is that this course is not for non-technical users.
+من قول نمی دهم که این دوره یک راه حل 100٪ تجارت الکترونیک برای تجارت شما باشد. نکته مهم دیگری که باید در نظر داشت این است که این دوره برای کاربران غیر فنی نیست.
 
-The Python Django: Build an E-commerce Store - course has been structured in a simple and logical order. Everything that has been designed from the styling to the graphics and topics covered is crafted with the absolute duty of care towards the student.
+Python Django: Build an E-commerce Store - دوره آموزشی به ترتیب ساده و منطقی طراحی شده است. همه چیزهایی که طراحی شده است، از سبک طراحی گرفته تا گرافیک و موضوعات تحت پوشش، با وظیفه مطلق مراقبت نسبت به دانش آموز ساخته شده است.
 
-Detailed course breakdown:
+تفصیل دوره آموزشی:
 
-- Building an ecommerce store with Django
-  - Learn the fundamentals of Django.
-  - Set up the foundation for an ecommerce website.
-- Payment Integration with PayPal
-  - Implement payment processing using PayPal.
-- Real-World application development
-  - Gain practical experience by building a real-world ecommerce application.
-- Shopping cart development
-  - Create a shopping cart feature for your ecommerce site.
-- User management
-  - Implement user management functionality.
-- Email verification
-  - Add email verification features to enhance user management.
-- AWS Integration
-  - Utilize Amazon Web Services (AWS) for storage (Amazon S3), database (Amazon RDS), and hosting (Amazon Elastic Beanstalk).
-- Deployment (live server hosting) options
-  - Explore different deployment options, including Render deployment and Amazon Elastic Beanstalk deployment.
-- Shipping and order functionality
-  - Implement shipping and order processing features.
-- Styling and validation
-  - Enhance the user interface and ensure data validation.
-- Password management
-  - Implement secure password management features.
-- Cart functionality
-  - Handle shopping cart functionality, including sessions, adding, deleting, updating, testing, and optimization.
-- Context processors
-  - Learn about context processors and their role in Django.
-- Model management
-  - Understand how to manage models within the Django framework.
-- Additional functionality
-  - Explore extra functionality beyond the core topics.
+- ساخت فروشگاه تجارت الکترونیک با جنگو
+  - اصول جنگو را بیاموزید.
+  - پایه و اساس یک وب سایت تجارت الکترونیک را راه اندازی کنید.
+- ادغام پرداخت با پی پال
+  - اجرای پردازش پرداخت با استفاده از PayPal.
+- توسعه اپلیکیشن در دنیای واقعی
+  - با ساختن یک اپلیکیشن تجارت الکترونیک در دنیای واقعی، تجربه عملی به دست آورید.
+- توسعه سبد خرید
+  - یک ویژگی سبد خرید برای سایت تجارت الکترونیک خود ایجاد کنید.
+- مدیریت کاربر
+  - اجرای عملکرد مدیریت کاربر
+- تایید ایمیل
+  - اضافه کردن ویژگی های تایید ایمیل برای بهبود مدیریت کاربر.
+- یکپارچه سازی AWS
+  - از خدمات وب آمازون (AWS) برای ذخیره سازی (Amazon S3)، پایگاه داده (Amazon RDS) و میزبانی (Amazon Elastic Beanstalk) استفاده کنید.
+- گزینه های استقرار (میزبان سرور زنده).
+  - گزینه های مختلف استقرار، از جمله استقرار Render و استقرار Amazon Elastic Beanstalk را کاوش کنید.
+- قابلیت حمل و نقل و سفارش
+  - پیاده سازی ویژگی های حمل و نقل و پردازش سفارش.
+- یک ظاهر طراحی و اعتبار سنجی
+  - بهبود رابط کاربری و اطمینان از اعتبارسنجی داده ها.
+- مدیریت رمز عبور
+  - پیاده سازی ویژگی های مدیریت رمز عبور امن.
+- قابلیت سبد خرید
+  - مدیریت عملکرد سبد خرید، از جمله جلسات، افزودن، حذف، به روز رسانی، آزمایش و بهینه سازی.
+- پردازشگرهای زمینه
+  - با پردازنده های زمینه و نقش آنها در جنگو آشنا شوید.
+- مدیریت مدل
+  - درک نحوه مدیریت مدل ها در چارچوب جنگو.
+- قابلیت های اضافی
+  - قابلیت های اضافی فراتر از موضوعات اصلی را کاوش کنید.
 
-- It covers all the concepts that you need to be aware of, in order to create your e-commerce store.
-- The course is structured in a logical and cohesive way - not just random lectures plastered everywhere.
-- It starts off very simple and then builds on gradually throughout the course.
-- This course is jam-packed with code snippets/references and with the full project source code (as a zip file).
-- We will learn how to integrate PayPal functionality.
+- تمام مفاهیمی را که برای ایجاد فروشگاه تجارت الکترونیکی خود باید از آنها آگاه باشید را پوشش می دهد.
+- ساختار دوره به روشی منطقی و منسجم است - نه فقط سخنرانی های تصادفی که در همه جا گچ می شوند.
+- بسیار ساده شروع می شود و سپس به تدریج در طول دوره پیشرفت می کند.
+- این دوره با قطعات کد / مراجع و با کد منبع کامل پروژه (به عنوان یک فایل فشرده) پر شده است.
+- ما یاد خواهیم گرفت که چگونه عملکرد PayPal را یکپارچه کنیم.
 
-The Python Django: Build an E-commerce Store course is a highly practical course and allows you to apply your knowledge:
+دوره آموزشی Python Django: Build an E-commerce Store یک دوره بسیار کاربردی است و به شما امکان می دهد دانش خود را به کار بگیرید:
 
-- There is a wealth of hands-on lectures throughout this course.
+- تعداد زیادی سخنرانی عملی در طول این دوره وجود دارد.
 
-#### About instructor
+#### درباره مربی
 
-My name is Arno Pretorius. I'm a qualified IT teacher who has taught programming both in-person and online. My main passions are teaching and technology, so I thought why not just combine the best of both worlds to create something truly amazing and valuable. Over the years, I have created and deployed many real-world Django-based applications, including a job portal for university graduates and an exclusive social network.
+نام من آرنو پرتوریوس است. من یک معلم IT واجد شرایط هستم که برنامه نویسی را به صورت حضوری و آنلاین تدریس کرده ام. علایق اصلی من تدریس و فناوری است، بنابراین فکر کردم چرا فقط بهترین های هر دو دنیا را برای خلق چیزی واقعا شگفت انگیز و ارزشمند ترکیب نکنم. در طول سال‌ها، من بسیاری از برنامه‌های کاربردی مبتنی بر جنگو را در دنیای واقعی، از جمله یک پورتال شغلی برای فارغ‌التحصیلان دانشگاهی و یک شبکه اجتماعی انحصاری، ایجاد و اجرا کرده‌ام.
 
-I'm a Software developer, an AWS Solutions Architect and Developer associate. I have a keen interest in cloud computing, web development and everything that relates to programming and technology.
+من یک توسعه دهنده نرم افزار، یک معمار AWS Solutions و همکار توسعه دهنده هستم. من علاقه شدیدی به رایانش ابری، توسعه وب و هر چیزی که به برنامه نویسی و فناوری مربوط می شود دارم.
 
-So, let's go and become fluent in Django, along with an extra service or two.
+پس بیایید بریم و با یکی دو سرویس اضافی به جنگو مسلط بشیم.
 
-Trust me you are in good hands!
+به من اعتماد کن تو در دستان خوبی هستی!
 
-This course also comes with:
+این دوره همچنین همراه با:
 
-- 18 + hours of on-demand video
-- Full lifetime access
-- A Udemy certificate of completion
-- Access on mobile and TV
+- 18+ ساعت ویدیوی درخواستی
+- دسترسی کامل مادام العمر
+- گواهی پایان دوره Udemy
+- دسترسی به موبایل و تلویزیون
 
-### Who this course is for
+### این دوره برای چه کسانی است
 
-- Django developers who want to add a live project to their portfolio
-- Django developers who want to learn how to build a real-world project
+- توسعه دهندگان جنگو که می خواهند یک پروژه زنده را به مجموعه خود اضافه کنند
+- توسعه دهندگان جنگو که می خواهند یاد بگیرند که چگونه یک پروژه در دنیای واقعی بسازند
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
+[🔗 لینک دوره 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسین ابوطالبی | تمامی حقوق محفوظ است
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

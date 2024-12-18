@@ -3,11 +3,11 @@
 
 # Python Django: Build an E-commerce Store - 2025
 
-Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Django Web Application
+Erstellen Sie einen E-Commerce-Shop mit Django | Praktische Demonstrationen | Stellen Sie eine Django-Webanwendung bereit
 
 ![Python Django: Build an E-commerce Store - 2025](../../assets/Courses/Course%20Covers/0%20-%203%20-%20Python%20Django%20Build%20an%20Ecommerce%20Store.webp)
 
-## Course Contents
+## Studieninhalte
 
 - Course Introduction
   - Course overview and prerequisites - [Important]
@@ -214,102 +214,102 @@ Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Djang
   - Thank you! - A final message
   - Bonus lecture
 
-## Description
+## Beschreibung
 
-### Requirements
+### Anforderungen
 
-- Fundamental knowledge of Django is required
-- You should also know the basics of HTML/CSS and JavaScript
-- It would be useful to have some knowledge of Bootstrap
+- Grundlegende Kenntnisse in Django sind erforderlich
+- Sie sollten auch die Grundlagen von HTML/CSS und JavaScript kennen
+- Es wäre nützlich, einige Kenntnisse in Bootstrap zu haben
 
-### Explanation
+### Erläuterung
 
-Welcome! I'm here to help you to build your own E-commerce store with Django.
+Willkommen! Ich bin hier, um Ihnen zu helfen, Ihren eigenen E-Commerce-Shop mit Django aufzubauen.
 
--- Please read carefully --
+-- Bitte sorgfältig lesen --
 
-This course is primarily intended for those with a basic knowledge of Django. You also need to have some knowledge of HTML, CSS, JavaScript and a little bit of bootstrap would be helpful.  If you meet these conditions then this course is for you!
+Dieser Kurs ist in erster Linie für diejenigen gedacht, die über Grundkenntnisse in Django verfügen. Sie müssen auch über Kenntnisse in HTML, CSS, JavaScript verfügen und ein wenig Bootstrap wäre hilfreich. Wenn Sie diese Voraussetzungen erfüllen, ist dieser Kurs für Sie!
 
-I want to help YOU to build your very first E-commerce store!
+Ich möchte IHNEN helfen, Ihren allerersten E-Commerce-Shop aufzubauen!
 
-**Please note:**
+**Bitte beachten:**
 
-The eCommerce store project that is developed in this course is for learning purposes only. I will teach you how to build an eCommerce store with the expected custom functionalities of a live store.
+Das in diesem Kurs entwickelte E-Commerce-Shop-Projekt dient nur zu Lernzwecken. Ich werde Ihnen beibringen, wie Sie einen E-Commerce-Shop mit den erwarteten benutzerdefinierten Funktionen eines Live-Shops aufbauen.
 
-I do not promise that this course is going to be a 100% eCommerce solution for your business. Another important thing to bear in mind, is that this course is not for non-technical users.
+Ich verspreche nicht, dass dieser Kurs eine 100%ige E-Commerce-Lösung für Ihr Unternehmen sein wird. Ein weiterer wichtiger Punkt, den Sie beachten sollten, ist, dass dieser Kurs nicht für nicht-technische Benutzer gedacht ist.
 
-The Python Django: Build an E-commerce Store - course has been structured in a simple and logical order. Everything that has been designed from the styling to the graphics and topics covered is crafted with the absolute duty of care towards the student.
+Der Kurs „Python Django: Einen E-Commerce-Shop aufbauen“ ist in einer einfachen und logischen Reihenfolge strukturiert. Alles, was entworfen wurde, vom Styling bis zu den Grafiken und den behandelten Themen, wurde mit absoluter Sorgfalt gegenüber dem Studenten entwickelt.
 
-Detailed course breakdown:
+Detaillierte Kursaufteilung:
 
-- Building an ecommerce store with Django
-  - Learn the fundamentals of Django.
-  - Set up the foundation for an ecommerce website.
-- Payment Integration with PayPal
-  - Implement payment processing using PayPal.
-- Real-World application development
-  - Gain practical experience by building a real-world ecommerce application.
-- Shopping cart development
-  - Create a shopping cart feature for your ecommerce site.
-- User management
-  - Implement user management functionality.
-- Email verification
-  - Add email verification features to enhance user management.
-- AWS Integration
-  - Utilize Amazon Web Services (AWS) for storage (Amazon S3), database (Amazon RDS), and hosting (Amazon Elastic Beanstalk).
-- Deployment (live server hosting) options
-  - Explore different deployment options, including Render deployment and Amazon Elastic Beanstalk deployment.
-- Shipping and order functionality
-  - Implement shipping and order processing features.
-- Styling and validation
-  - Enhance the user interface and ensure data validation.
-- Password management
-  - Implement secure password management features.
-- Cart functionality
-  - Handle shopping cart functionality, including sessions, adding, deleting, updating, testing, and optimization.
-- Context processors
-  - Learn about context processors and their role in Django.
-- Model management
-  - Understand how to manage models within the Django framework.
-- Additional functionality
-  - Explore extra functionality beyond the core topics.
+- Einen E-Commerce-Shop mit Django erstellen
+- Die Grundlagen von Django erlernen.
+- Die Grundlage für eine E-Commerce-Website schaffen.
+- Zahlungsintegration mit PayPal
+- Zahlungsabwicklung mit PayPal implementieren.
+- Entwicklung realer Anwendungen
+- Praktische Erfahrung durch die Erstellung einer realen E-Commerce-Anwendung sammeln.
+- Entwicklung von Einkaufswagen
+- Eine Einkaufswagenfunktion für Ihre E-Commerce-Site erstellen.
+- Benutzerverwaltung
+- Benutzerverwaltungsfunktion implementieren.
+- E-Mail-Verifizierung
+- E-Mail-Verifizierungsfunktionen hinzufügen, um die Benutzerverwaltung zu verbessern.
+- AWS-Integration
+- Amazon Web Services (AWS) für Speicher (Amazon S3), Datenbank (Amazon RDS) und Hosting (Amazon Elastic Beanstalk) nutzen.
+- Bereitstellungsoptionen (Live-Server-Hosting)
+- Verschiedene Bereitstellungsoptionen erkunden, darunter Render-Bereitstellung und Amazon Elastic Beanstalk-Bereitstellung.
+- Versand- und Bestellfunktionen
+- Implementieren Sie Versand- und Bestellabwicklungsfunktionen.
+- Styling und Validierung
+- Verbessern Sie die Benutzeroberfläche und stellen Sie die Datenvalidierung sicher.
+- Passwortverwaltung
+- Implementieren Sie sichere Passwortverwaltungsfunktionen.
+- Warenkorbfunktionen
+- Verwalten Sie Warenkorbfunktionen, einschließlich Sitzungen, Hinzufügen, Löschen, Aktualisieren, Testen und Optimieren.
+- Kontextprozessoren
+- Erfahren Sie mehr über Kontextprozessoren und ihre Rolle in Django.
+- Modellverwaltung
+- Verstehen Sie, wie Sie Modelle im Django-Framework verwalten.
+- Zusätzliche Funktionen
+- Erkunden Sie zusätzliche Funktionen über die Kernthemen hinaus.
 
-- It covers all the concepts that you need to be aware of, in order to create your e-commerce store.
-- The course is structured in a logical and cohesive way - not just random lectures plastered everywhere.
-- It starts off very simple and then builds on gradually throughout the course.
-- This course is jam-packed with code snippets/references and with the full project source code (as a zip file).
-- We will learn how to integrate PayPal functionality.
+- Es werden alle Konzepte behandelt, die Sie kennen müssen, um Ihren E-Commerce-Shop zu erstellen.
+- Der Kurs ist logisch und zusammenhängend aufgebaut – es sind nicht nur zufällige Vorlesungen, die überall hingeklatscht werden.
+- Er beginnt sehr einfach und baut dann im Laufe des Kurses schrittweise auf.
+- Dieser Kurs ist vollgepackt mit Codeausschnitten/Referenzen und dem vollständigen Projektquellcode (als ZIP-Datei).
+- Wir werden lernen, wie man PayPal-Funktionen integriert.
 
-The Python Django: Build an E-commerce Store course is a highly practical course and allows you to apply your knowledge:
+Der Kurs „Python Django: Erstellen eines E-Commerce-Shops“ ist ein sehr praktischer Kurs und ermöglicht es Ihnen, Ihr Wissen anzuwenden:
 
-- There is a wealth of hands-on lectures throughout this course.
+- Während des gesamten Kurses gibt es eine Fülle von praktischen Vorlesungen.
 
-#### About instructor
+#### Über den Kursleiter
 
-My name is Arno Pretorius. I'm a qualified IT teacher who has taught programming both in-person and online. My main passions are teaching and technology, so I thought why not just combine the best of both worlds to create something truly amazing and valuable. Over the years, I have created and deployed many real-world Django-based applications, including a job portal for university graduates and an exclusive social network.
+Mein Name ist Arno Pretorius. Ich bin ein qualifizierter IT-Lehrer, der sowohl persönlich als auch online Programmieren unterrichtet hat. Meine Hauptleidenschaften sind Unterrichten und Technologie, also dachte ich, warum nicht einfach das Beste aus beiden Welten kombinieren, um etwas wirklich Erstaunliches und Wertvolles zu schaffen. Im Laufe der Jahre habe ich viele reale Django-basierte Anwendungen erstellt und bereitgestellt, darunter ein Jobportal für Hochschulabsolventen und ein exklusives soziales Netzwerk.
 
-I'm a Software developer, an AWS Solutions Architect and Developer associate. I have a keen interest in cloud computing, web development and everything that relates to programming and technology.
+Ich bin Softwareentwickler, AWS Solutions Architect und Developer Associate. Ich interessiere mich sehr für Cloud Computing, Webentwicklung und alles, was mit Programmierung und Technologie zu tun hat.
 
-So, let's go and become fluent in Django, along with an extra service or two.
+Also, los geht‘s und lernen Sie Django fließend, zusammen mit ein oder zwei zusätzlichen Diensten.
 
-Trust me you are in good hands!
+Vertrauen Sie mir, Sie sind in guten Händen!
 
-This course also comes with:
+Dieser Kurs beinhaltet außerdem:
 
-- 18 + hours of on-demand video
-- Full lifetime access
-- A Udemy certificate of completion
-- Access on mobile and TV
+- 18+ Stunden On-Demand-Video
+- Vollständigen lebenslangen Zugriff
+- Ein Udemy-Abschlusszertifikat
+- Zugriff auf Mobilgeräte und Fernseher
 
-### Who this course is for
+### Für wen ist dieser Kurs geeignet?
 
-- Django developers who want to add a live project to their portfolio
-- Django developers who want to learn how to build a real-world project
+- Django-Entwickler, die ihrem Portfolio ein Live-Projekt hinzufügen möchten
+- Django-Entwickler, die lernen möchten, wie man ein reales Projekt erstellt
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
+[🔗 Kurslink 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Muhammad Husain Abootalebi | Alle Rechte vorbehalten
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

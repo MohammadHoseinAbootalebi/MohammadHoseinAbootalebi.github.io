@@ -3,11 +3,11 @@
 
 # Python Django: Build an E-commerce Store - 2025
 
-Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Django Web Application
+Django로 전자상거래 매장 구축 | 실습 데모 | Django 웹 애플리케이션 배포
 
 ![Python Django: Build an E-commerce Store - 2025](../../assets/Courses/Course%20Covers/0%20-%203%20-%20Python%20Django%20Build%20an%20Ecommerce%20Store.webp)
 
-## Course Contents
+## 과정 내용
 
 - Course Introduction
   - Course overview and prerequisites - [Important]
@@ -214,102 +214,100 @@ Build an E-commerce Store with Django | Hands-on demonstrations | Deploy a Djang
   - Thank you! - A final message
   - Bonus lecture
 
-## Description
+## 설명
 
-### Requirements
+### 요구 사항
 
-- Fundamental knowledge of Django is required
-- You should also know the basics of HTML/CSS and JavaScript
-- It would be useful to have some knowledge of Bootstrap
+- Django에 대한 기본 지식이 필요합니다.
+- HTML/CSS 및 JavaScript의 기본도 알아야 합니다.
+- Bootstrap에 대한 지식이 있으면 좋습니다.
 
-### Explanation
+환영합니다! 저는 여러분이 Django로 자신의 전자상거래 매장을 만드는 것을 돕기 위해 여기 있습니다.
 
-Welcome! I'm here to help you to build your own E-commerce store with Django.
+-- 주의 깊게 읽어주세요 --
 
--- Please read carefully --
+이 과정은 주로 Django에 대한 기본 지식이 있는 분들을 대상으로 합니다. 또한 HTML, CSS, JavaScript에 대한 지식이 필요하고 약간의 부트스트랩이 도움이 될 것입니다. 이러한 조건을 충족한다면 이 과정이 여러분을 위한 것입니다!
 
-This course is primarily intended for those with a basic knowledge of Django. You also need to have some knowledge of HTML, CSS, JavaScript and a little bit of bootstrap would be helpful.  If you meet these conditions then this course is for you!
+저는 여러분이 첫 번째 전자상거래 매장을 만드는 것을 돕고 싶습니다!
 
-I want to help YOU to build your very first E-commerce store!
+**참고:**
 
-**Please note:**
+이 과정에서 개발된 전자상거래 매장 프로젝트는 학습 목적으로만 사용됩니다. 저는 라이브 매장의 예상 사용자 지정 기능을 갖춘 전자상거래 매장을 만드는 방법을 알려드리겠습니다.
 
-The eCommerce store project that is developed in this course is for learning purposes only. I will teach you how to build an eCommerce store with the expected custom functionalities of a live store.
+이 과정이 여러분의 비즈니스에 100% 전자상거래 솔루션이 될 것이라고 약속하지 않습니다. 명심해야 할 또 다른 중요한 점은 이 과정이 비기술 사용자를 위한 것이 아니라는 것입니다.
 
-I do not promise that this course is going to be a 100% eCommerce solution for your business. Another important thing to bear in mind, is that this course is not for non-technical users.
+Python Django: 전자상거래 매장 만들기 - 과정은 간단하고 논리적인 순서로 구성되었습니다. 스타일에서 그래픽, 다루는 주제에 이르기까지 모든 것이 학생에 대한 절대적인 주의 의무를 가지고 제작되었습니다.
 
-The Python Django: Build an E-commerce Store - course has been structured in a simple and logical order. Everything that has been designed from the styling to the graphics and topics covered is crafted with the absolute duty of care towards the student.
+자세한 과정 세부 정보:
 
-Detailed course breakdown:
+- Django로 전자상거래 매장 구축
+- Django의 기본 사항 학습
+- 전자상거래 웹사이트의 기반 구축
+- PayPal과의 결제 통합
+- PayPal을 사용하여 결제 처리 구현
+- 실제 애플리케이션 개발
+- 실제 전자상거래 애플리케이션을 구축하여 실무 경험 습득
+- 쇼핑 카트 개발
+- 전자상거래 사이트에 대한 쇼핑 카트 기능 생성
+- 사용자 관리
+- 사용자 관리 기능 구현
+- 이메일 확인
+- 이메일 확인 기능을 추가하여 사용자 관리 강화
+- AWS 통합
+- Amazon Web Services(AWS)를 스토리지(Amazon S3), 데이터베이스(Amazon RDS), 호스팅(Amazon Elastic Beanstalk)에 활용
+- 배포(라이브 서버 호스팅) 옵션
+- Render 배포 및 Amazon Elastic Beanstalk 배포를 포함한 다양한 배포 옵션 탐색
+- 배송 및 주문 기능
+- 배송 및 주문 처리 기능 구현
+- 스타일링 및 검증
+- 사용자 인터페이스를 개선하고 데이터 검증을 보장합니다.
+- 비밀번호 관리
+- 안전한 비밀번호 관리 기능을 구현합니다.
+- 장바구니 기능
+- 세션, 추가, 삭제, 업데이트, 테스트 및 최적화를 포함한 쇼핑 카트 기능을 처리합니다.
+- 컨텍스트 프로세서
+- 컨텍스트 프로세서와 Django에서의 역할에 대해 알아봅니다.
+- 모델 관리
+- Django 프레임워크 내에서 모델을 관리하는 방법을 이해합니다.
+- 추가 기능
+- 핵심 주제를 넘어서는 추가 기능을 살펴봅니다.
 
-- Building an ecommerce store with Django
-  - Learn the fundamentals of Django.
-  - Set up the foundation for an ecommerce website.
-- Payment Integration with PayPal
-  - Implement payment processing using PayPal.
-- Real-World application development
-  - Gain practical experience by building a real-world ecommerce application.
-- Shopping cart development
-  - Create a shopping cart feature for your ecommerce site.
-- User management
-  - Implement user management functionality.
-- Email verification
-  - Add email verification features to enhance user management.
-- AWS Integration
-  - Utilize Amazon Web Services (AWS) for storage (Amazon S3), database (Amazon RDS), and hosting (Amazon Elastic Beanstalk).
-- Deployment (live server hosting) options
-  - Explore different deployment options, including Render deployment and Amazon Elastic Beanstalk deployment.
-- Shipping and order functionality
-  - Implement shipping and order processing features.
-- Styling and validation
-  - Enhance the user interface and ensure data validation.
-- Password management
-  - Implement secure password management features.
-- Cart functionality
-  - Handle shopping cart functionality, including sessions, adding, deleting, updating, testing, and optimization.
-- Context processors
-  - Learn about context processors and their role in Django.
-- Model management
-  - Understand how to manage models within the Django framework.
-- Additional functionality
-  - Explore extra functionality beyond the core topics.
+- 전자상거래 매장을 만드는 데 알아야 할 모든 개념을 다룹니다.
+- 이 과정은 논리적이고 응집력 있는 방식으로 구성되어 있습니다. 아무데나 붙은 무작위 강의가 아닙니다.
+- 매우 간단하게 시작해서 과정 전체에 걸쳐 점진적으로 확장됩니다.
+- 이 과정은 코드 조각/참조와 전체 프로젝트 소스 코드(zip 파일)로 가득 차 있습니다.
+- PayPal 기능을 통합하는 방법을 알아봅니다.
 
-- It covers all the concepts that you need to be aware of, in order to create your e-commerce store.
-- The course is structured in a logical and cohesive way - not just random lectures plastered everywhere.
-- It starts off very simple and then builds on gradually throughout the course.
-- This course is jam-packed with code snippets/references and with the full project source code (as a zip file).
-- We will learn how to integrate PayPal functionality.
+Python Django: 전자상거래 매장 구축 과정은 매우 실용적인 과정이며, 다음과 같은 지식을 적용할 수 있습니다.
 
-The Python Django: Build an E-commerce Store course is a highly practical course and allows you to apply your knowledge:
+- 이 과정 전반에 걸쳐 풍부한 실습 강의가 있습니다.
 
-- There is a wealth of hands-on lectures throughout this course.
+#### 강사 소개
 
-#### About instructor
+저는 Arno Pretorius입니다. 저는 자격을 갖춘 IT 교사로, 직접 또는 온라인으로 프로그래밍을 가르쳤습니다. 저는 가르치는 것과 기술에 가장 열정적이기 때문에, 두 가지의 장점을 결합하여 진정으로 놀랍고 가치 있는 것을 만드는 것이 어떨까 생각했습니다. 수년에 걸쳐 대학 졸업자를 위한 구인 포털과 독점적인 소셜 네트워크를 포함하여 많은 실제 Django 기반 애플리케이션을 만들고 배포했습니다.
 
-My name is Arno Pretorius. I'm a qualified IT teacher who has taught programming both in-person and online. My main passions are teaching and technology, so I thought why not just combine the best of both worlds to create something truly amazing and valuable. Over the years, I have created and deployed many real-world Django-based applications, including a job portal for university graduates and an exclusive social network.
+저는 소프트웨어 개발자, AWS 솔루션 아키텍트 및 개발자 어소시에이트입니다. 저는 클라우드 컴퓨팅, 웹 개발 및 프로그래밍과 기술과 관련된 모든 것에 큰 관심이 있습니다.
 
-I'm a Software developer, an AWS Solutions Architect and Developer associate. I have a keen interest in cloud computing, web development and everything that relates to programming and technology.
+그러니 Django에 능숙해지고, 추가 서비스 하나나 둘을 받아보세요.
 
-So, let's go and become fluent in Django, along with an extra service or two.
+저를 믿으세요, 여러분은 좋은 손에 있습니다!
 
-Trust me you are in good hands!
+이 코스에는 다음도 포함됩니다.
 
-This course also comes with:
+- 18시간 이상의 주문형 비디오
+- 평생 전체 액세스
+- Udemy 수료증
+- 모바일 및 TV에서 액세스
 
-- 18 + hours of on-demand video
-- Full lifetime access
-- A Udemy certificate of completion
-- Access on mobile and TV
+### 이 과정은 누구를 위한 것인가요?
 
-### Who this course is for
+- 포트폴리오에 라이브 프로젝트를 추가하려는 Django 개발자
+- 실제 프로젝트를 빌드하는 방법을 배우고 싶은 Django 개발자
 
-- Django developers who want to add a live project to their portfolio
-- Django developers who want to learn how to build a real-world project
-
-[🔗 Course Link 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
+[🔗 코스 링크 🔗](https://www.udemy.com/course/python-django-build-an-e-commerce-store-2022/?couponCode=ST21MT121624)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 무하마드 후세인 아부탈레비 | 모든 권리는 보유됩니다
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

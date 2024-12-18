@@ -666,6 +666,55 @@ var muhammad_husain_abootalebi_projects_books_courses_records = {
                 "Flutter Developer": [],
                 // -- >> Full Stack Developer
                 "Full Stack Developer": [
+                        // -- > DJANGO + 1 : Django for Everybody Specialization
+                        {
+                                "title": {
+                                        'English': "Django for Everybody Specialization",
+                                        'Deutsch': "Django for Everybody Specialization",
+                                        '中国人': "Django for Everybody Specialization",
+                                        'Русский': "Django for Everybody Specialization",
+                                        'Français': "Django for Everybody Specialization",
+                                        '日本語': "Django for Everybody Specialization",
+                                        '한국인': "Django for Everybody Specialization",
+                                        'Español': "Django for Everybody Specialization",
+                                        'हिंदी': "Django for Everybody Specialization",
+                                        'Português': "Django for Everybody Specialization",
+                                        'বাংলা': "Django for Everybody Specialization",
+                                        'عَرَبِيّ': "Django for Everybody Specialization",
+                                        'فارسی': "Django for Everybody Specialization",
+                                },
+                                "description": {
+                                        'English': "Build & deploy rich web applications using Django. Learn the fundamentals of building a full-featured web site using Django",
+                                        'Deutsch': "Erstellen und implementieren Sie umfangreiche Webanwendungen mit Django. Lernen Sie die Grundlagen zum Erstellen einer voll funktionsfähigen Website mit Django",
+                                        '中国人': "使用 Django 构建和部署丰富的 Web 应用程序。了解使用 Django 构建功能齐全的网站的基础知识",
+                                        'Русский': "Создавайте и развертывайте насыщенные веб-приложения с помощью Django. Изучите основы создания полнофункционального веб-сайта с помощью Django",
+                                        'Français': "Créez et déployez des applications Web riches à l'aide de Django. Découvrez les principes fondamentaux de la création d'un site Web complet à l'aide de Django",
+                                        '日本語': "Django を使用してリッチな Web アプリケーションを構築および展開します。Django を使用してフル機能の Web サイトを構築するための基礎を学びます。",
+                                        '한국인': "Django를 사용하여 풍부한 웹 애플리케이션을 빌드하고 배포합니다. Django를 사용하여 모든 기능을 갖춘 웹 사이트를 빌드하는 기본 사항을 배웁니다.",
+                                        'Español': "Cree e implemente aplicaciones web sofisticadas con Django. Aprenda los conceptos básicos para crear un sitio web completo con Django",
+                                        'हिंदी': "Django का उपयोग करके समृद्ध वेब एप्लिकेशन बनाएं और तैनात करें। Django का उपयोग करके पूर्ण-विशेषताओं वाली वेब साइट बनाने की मूल बातें जानें",
+                                        'Português': "Crie e implemente aplicações web avançadas usando Django. Aprenda os fundamentos da construção de um site completo utilizando Django",
+                                        'বাংলা': "Django ব্যবহার করে সমৃদ্ধ ওয়েব অ্যাপ্লিকেশন তৈরি ও স্থাপন করুন। জ্যাঙ্গো ব্যবহার করে একটি পূর্ণ-বৈশিষ্ট্যযুক্ত ওয়েব সাইট তৈরির মৌলিক বিষয়গুলি জানুন",
+                                        'عَرَبِيّ': "إنشاء تطبيقات ويب غنية ونشرها باستخدام Django. تعرف على أساسيات إنشاء موقع ويب كامل الميزات باستخدام Django",
+                                        'فارسی': "ساخت و استقرار برنامه های کاربردی وب غنی با استفاده از جنگو. اصول ساخت یک وب سایت با امکانات کامل با استفاده از جنگو را بیاموزید",
+                                },
+                                "intro_image_link": "assets/img/Projects - Books - Courses -- Images/Courses/Full Stack Developer/0 - 4 - Django for Everybody Specialization.webp",
+                                "detail_markdown_link": {
+                                        'English': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/English/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'Deutsch': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/German/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        '中国人': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Chinese/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'Русский': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Russian/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'Français': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/French/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        '日本語': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Japanese/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        '한국인': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Korean/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'Español': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Spanish/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'हिंदी': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Hindi/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'Português': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Portugues/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'বাংলা': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Bengali/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'عَرَبِيّ': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Arabic/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                        'فارسی': "https://github.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/blob/main/Docs/Full%20Stack%20Developer/Courses/Persian/0%20-%204%20-%20Django%20for%20Everybody%20Specialization.md",
+                                },
+                        },
                         // -- > DJANGO : Python Django: Build an E-commerce Store - 2025
                         {
                                 "title": {
