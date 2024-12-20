@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.11 31.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fca311;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Full_Stack_Devloper" data-name="Full Stack Devloper">
+    <g id="Azure_Devops" data-name="Azure Devops">
+      <rect id="BC_White" data-name="BC White" class="cls-2" width="31.11" height="31.11" rx="8" ry="8"/>
+      <g>
+        <path class="cls-1" d="M21.04,9.53c-4.61.91-9.22,1.82-13.84,2.73.03,2.47.06,4.95.09,7.42-.91-.27-1.83-.53-2.74-.8v-6.18c.7-.9,1.39-1.8,2.09-2.7,2.55-1.07,5.11-2.14,7.66-3.21v-2.24c2.25,1.66,4.49,3.32,6.74,4.98Z"/>
+        <path class="cls-1" d="M26.56,8.61c-1.81.31-3.62.63-5.43.94-.02,3.94-.05,7.88-.07,11.82-4.57-.54-9.14-1.07-13.71-1.61,1.79,2.26,3.58,4.53,5.37,6.79.01-.95.02-1.89.03-2.84,2.86.95,5.71,1.89,8.57,2.84l5.25-4.59v-13.36Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

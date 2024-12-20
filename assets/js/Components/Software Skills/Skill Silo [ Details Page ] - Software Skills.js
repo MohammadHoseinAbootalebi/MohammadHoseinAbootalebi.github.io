@@ -120,10 +120,20 @@ var software_icons = {
                         "software_icon_image_path": "assets/img/Software Icons/Full Stack Developer/CSS Icon.svg",
                         "software_name": "CSS",
                 },
+                // Python
+                {
+                        "software_icon_image_path": "assets/img/Software Icons/AI Engineer/Python Icon.svg",
+                        "software_name": "Python",
+                },
                 // Django
                 {
                         "software_icon_image_path": "assets/img/Software Icons/Full Stack Developer/Django Icon.svg",
                         "software_name": "Django",
+                },
+                // Docker
+                {
+                        "software_icon_image_path": "assets/img/Software Icons/Full Stack Developer/Docker.svg",
+                        "software_name": "Docker",
                 },
                 // HTML
                 {
@@ -144,6 +154,21 @@ var software_icons = {
                 {
                         "software_icon_image_path": "assets/img/Software Icons/Full Stack Developer/React Icon.svg",
                         "software_name": "React",
+                },
+                // Microsoft Azure
+                {
+                        "software_icon_image_path": "assets/img/Software Icons/Full Stack Developer/Azure.svg",
+                        "software_name": "Microsoft Azure",
+                },
+                // Devops
+                {
+                        "software_icon_image_path": "assets/img/Software Icons/Full Stack Developer/Devops.svg",
+                        "software_name": "Devops",
+                },
+                // Azure Devops
+                {
+                        "software_icon_image_path": "assets/img/Software Icons/Full Stack Developer/Azure Devops.svg",
+                        "software_name": "Azure Devops",
                 },
         ],
         // Android Developer
