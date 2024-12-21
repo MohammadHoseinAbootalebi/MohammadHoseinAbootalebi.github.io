@@ -2,11 +2,11 @@
 
 # Flutter BLoC - From Zero to Hero Complete Course
 
-Understand, Learn & Practice the most robust Flutter state management - BLoC Library
+理解、学习和实践最强大的 Flutter 状态管理 - BLoC 库
 
 ![Flutter BLoC - From Zero to Hero Complete Course](../../assets/Courses/Course%20Covers/3%20-%202%20-%20Flutter%20BLoC%20-%20From%20Zero%20to%20Hero%20Complete%20Course.webp)
 
-## Course Contents
+## 课程内容
 
 * **Why BLoC as a state management?**
   * Why BLoC?
@@ -33,53 +33,53 @@ Understand, Learn & Practice the most robust Flutter state management - BLoC Lib
 * **Debugging BLoC**
   * Debugging BLoC
 
-## Description
+## 描述
 
-### Requirements
+### 要求
 
-* Small understanding on how Flutter works
+* 对 Flutter 工作原理的一点了解
 
-Hello, everyone!
+大家好！
 
-By following this BLoC - From Zero to Hero course, you will successfully learn the **BLoC State Management** solution, so if you have doubts in **understanding** or **practicing** all of its concepts, I really recommend checking it out **right here!**
+通过学习这门 BLoC - 从零到英雄课程，您将成功学习 **BLoC 状态管理** 解决方案，因此如果您对 **理解** 或 **实践** 所有概念有疑问，我真的建议您**就在这里**查看！
 
-Before you check it out though, I would like to tell you that this **series** is designed with both the **theoretical** and most importantly, **practical** ( **coding** ) parts of every discussed topic. All of the project files can be found on  **my github page** .
+不过，在您查看之前，我想告诉您，这个**系列**的设计既有**理论**部分，最重要的是**实践**（**编码**）部分，涵盖每个讨论主题。所有项目文件都可以在**我的 github 页面**上找到。
 
-Also, the series was carefully monitored by the amazing creator of bloc_library, Felix Angelov.
+此外，该系列由 bloc_library 的杰出创造者 Felix Angelov 精心监控。
 
-On the other hand, without **without the slightest restraint** I feel like my series is **the best bloc_library playlist** on the entire internet.
+另一方面，毫无保留地，我觉得我的系列是整个互联网上**最好的 bloc_library 播放列表**。
 
-**Don't take my word for it, try it by yourself!**
+**不要轻信我的话，自己尝试一下吧！**
 
-A briefing of everything that's been covered in this playlist, so you know what to expect:
+简要介绍一下此播放列表中涵盖的所有内容，以便您了解预期内容：
 
-1. **Why BLoC?** In this video I explained why I chose bloc_library for both the state management solution and the architectural structure of my apps
-2. **BLoC Core Concepts** - In this tutorial I got really in-depth in explaining  **streams** , and the concepts of **blocs** & **cubits.**
-3. **Flutter BLoc Concepts** - Here, I discussed each and every single one of bloc_library's concept like **BlocProvider, BlocBuilder, BlocListener** and many many more. These concepts are obviously explained and tested in every tutorial, since they are the base of bloc_library.
-4. **BLoC Architecture -** In this tutorial I made a short introduction on what I believe it's the best **architecture** to follow in order to structure and scale your code over time! This video has no code inside my github page, since I'm planning on using it extensively on my follow-up tutorial series on building real world apps!
-5. **BLoC Testing** - Testing is one of the most important pillars of programming, oftenly omitted by developers. In this video I'll explain what are the basics of **testing** a bloc-built small application.
-6. **BLoC Access & Navigation** - In this tutorial I got really in-depth on what are the **routing options** on which you can successfully provide a cubit/bloc to the widget tree.
-7. **Bloc-to-bloc Communication** - Here I wanted all my viewers to understand how important it is to know how to **make 2 blocs/cubit communicate one** with another.
-8. **BuildContext In-Depth** - This tutorial is not really related to the bloc_library, but since build contexts are used everywhere inside a flutter app, I realised that most of people didn't understand how they really work. This video is also useful as it spreads out the knowledge gained from  **tutorial number 3 and 6** .
-9. **Bloc 6.1.0** - During my tutorial series, a new version of bloc_library got released, containing some important changes like context.watch, context.read and context.select. All of these are covered in this video, as always, with intuitive examples.
-10. **Bloc State not Updating** - In this video, I explained why most of the new developers encounter this popular issue of a state of a  **bloc/cubit not updating** .
-11. **Maintaining State with Hydrated_Bloc** - In this tutorial I got really in-depth about how you can store the state of multiple blocs/cubits on the app's internal storage on your device. This is a key concept in developing a successful Flutter app, having bloc_library as the state management feature.
-12. **Debugging Blocs/Cubits, Naming Conventions and other tips and tricks** is the last video of this series, covering other important topics found inside the flutter_bloc library.
+1. **为什么选择 BLoC？**在此视频中，我解释了为什么选择 bloc_library 作为状态管理解决方案和我的应用程序的架构结构
+2. **BLoC 核心概念** - 在本教程中，我非常深入地解释了 **streams** 以及 **blocs** 和 **cubits** 的概念。
+3. **Flutter BLoc 概念** - 在这里，我讨论了 bloc_library 的每一个概念，如 **BlocProvider、BlocBuilder、BlocListener** 等等。这些概念显然在每个教程中都进行了解释和测试，因为它们是 bloc_library 的基础。
+4. **BLoC 架构 -** 在本教程中，我简要介绍了我认为最好的 **架构**，以便随着时间的推移构建和扩展您的代码！此视频没有我的 github 页面中的代码，因为我计划在我的后续教程系列中广泛使用它来构建真实世界的应用程序！
+5. **BLoC 测试** - 测试是编程的最重要支柱之一，开发人员经常忽略它。在本视频中，我将解释 **测试** 一个 bloc 构建的小型应用程序的基础知识。
+6. **BLoC 访问和导航** - 在本教程中，我深入了解了可以成功为小部件树提供 cubit/bloc 的 **路由选项**。
+7. **Bloc 到 bloc 通信** - 在这里，我希望所有观众都明白知道如何 **让 2 个 bloc/cubit 相互通信** 是多么重要。
+8. **深入介绍 BuildContext** - 本教程与 bloc_library 并无太大关系，但由于构建上下文在 Flutter 应用程序中随处可见，我意识到大多数人并不了解它们的实际工作原理。此视频也很有用，因为它传播了从**教程 3 和 6** 获得的知识。
+9. **Bloc 6.1.0** - 在我的教程系列中，发布了新版本的 bloc_library，其中包含一些重要更改，如 context.watch、context.read 和 context.select。与往常一样，本视频通过直观的示例介绍了所有这些内容。
+10. **Bloc 状态未更新** - 在此视频中，我解释了为什么大多数新开发人员都会遇到**bloc/cubit 状态未更新**这一常见问题。
+11. **使用 Hydrated_Bloc 维护状态** - 在本教程中，我深入介绍了如何在设备上的应用程序内部存储中存储多个 bloc/cubits 的状态。这是开发成功的 Flutter 应用程序的关键概念，具有 bloc_library 作为状态管理功能。
+12. **调试 Blocs/Cubits、命名约定和其他技巧**是本系列的最后一部视频，涵盖了 flutter_bloc 库中的其他重要主题。
 
-Thank you and hopefully you are as excited as I am!
+谢谢，希望您和我一样兴奋！
 
 WCKD
 
-### Who this course is for
+### 本课程适合谁
 
-* Flutter Beginner curious on what is the most robust state-management solution
-* Flutter Developer who wants to learn about BLoC State Management really in-depth
-* Flutter Developer who wants to refresh their knowledge with BLoC
+* Flutter 初学者，对最强大的状态管理解决方案是什么感到好奇
+* 想要深入了解 BLoC 状态管理的 Flutter 开发人员
+* 想要通过 BLoC 更新知识的 Flutter 开发人员
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/bloc-from-zero-to-hero/?couponCode=LETSLEARNNOW)
+[🔗 课程链接 🔗](https://www.udemy.com/course/bloc-from-zero-to-hero/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 穆罕默德·侯赛因·阿布塔莱比 | 保留所有权利
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

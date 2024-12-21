@@ -2,11 +2,11 @@
 
 # Flutter & Dart - The Complete Guide [2024 Edition]
 
-A Complete Guide to the Flutter SDK and Flutter Framework for building native iOS and Android apps
+Полное руководство по Flutter SDK и Flutter Framework для создания собственных приложений для iOS и Android
 
 ![Flutter & Dart - The Complete Guide [2024 Edition]](../../assets/Courses/Course%20Covers/3%20-%201%20-%20Flutter%20Complete%20Guide.webp)
 
-## Course Contents
+## Содержание курса
 
 * **Introduction**
   * Welcome To This Course!
@@ -327,75 +327,75 @@ A Complete Guide to the Flutter SDK and Flutter Framework for building native iO
   * Course Roundup
   * Bonus Lecture
 
-## Description
+## Описание
 
-Discover the power of Flutter and Dart to create stunning, high-performance mobile apps for iOS and Android with the most comprehensive and bestselling Flutter course! With  **over 30 hours of comprehensive content** , this course is the ultimate resource for anyone who wants to build beautiful, responsive, and feature-rich applications from scratch.
+Откройте для себя возможности Flutter и Dart для создания потрясающих высокопроизводительных мобильных приложений для iOS и Android с самым полным и самым продаваемым курсом Flutter! С **более 30 часами всеобъемлющего контента** этот курс является лучшим ресурсом для тех, кто хочет создавать красивые, адаптивные и многофункциональные приложения с нуля.
 
-### Learn from a Bestselling Udemy Instructor: Maximilian Schwarzmüller
+### Учитесь у самого продаваемого инструктора Udemy: Максимилиана Шварцмюллера
 
-I'm Maximilian Schwarzmüller, a bestselling, top-rated online course instructor with a vast variety of courses on web and mobile development. I'm excited to be your guide throughout this journey. My goal with this course is to teach you Flutter from the ground up, step-by-step and in a highly practice-oriented way!
+Я Максимилиан Шварцмюллер, самый продаваемый, самый рейтинговый инструктор онлайн-курсов с огромным разнообразием курсов по веб- и мобильной разработке. Я рад быть вашим проводником на протяжении всего этого пути. Моя цель в этом курсе — научить вас Flutter с нуля, шаг за шагом и в высшей степени ориентированным на практику способом!
 
-### **Unlock Your Potential in Mobile App Development**
+### **Раскройте свой потенциал в разработке мобильных приложений**
 
-This Flutter & Dart course is designed for absolute beginners with no prior programming experience, as well as for those with existing iOS, Android or other development skills. Through video lessons and hands-on projects, you'll learn the ins and outs of Flutter and Dart!
+Этот курс Flutter & Dart предназначен для абсолютных новичков без предварительного опыта программирования, а также для тех, у кого уже есть навыки разработки iOS, Android или других платформ. С помощью видеоуроков и практических проектов вы узнаете все тонкости Flutter и Dart!
 
-Throughout the course you'll build multiple demo apps - ranging from simple to more complex - and, by the end of the course, you'll be able to build your own iOS and Android apps with Flutter.
+На протяжении курса вы создадите несколько демонстрационных приложений — от простых до более сложных — и к концу курса вы сможете создавать собственные приложения iOS и Android с помощью Flutter.
 
-**Why Choose Flutter?**
+**Почему стоит выбрать Flutter?**
 
-* Developed by Google, Flutter is a framework that allows you to learn one language (Dart) and build beautiful native mobile apps in no time
-* Write code only once and ship your apps both to the Apple App Store and Google Play
-* Use the rich widget suite Flutter provides to add common UI elements or build your own custom widgets
+* Разработанный Google, Flutter — это фреймворк, который позволяет вам изучить один язык (Dart) и создавать красивые собственные мобильные приложения в кратчайшие сроки
+* Напишите код всего один раз и отправьте свои приложения как в Apple App Store, так и в Google Play
+* Используйте богатый набор виджетов, который предоставляет Flutter, чтобы добавлять общие элементы пользовательского интерфейса или создавать собственные виджеты
 
-**What You'll Learn:**
+**Что вы узнаете:**
 
-* Detailed setup instructions for both macOS and Windows
-* A thorough introduction to Flutter, Dart, and the concept behind widgets
-* An overview of the built-in widgets and how to add your own
-* Debugging tips & tricks
-* Page navigation with tabs, side drawers, and stack-based navigation
-* State management solutions
-* Handling and validating user input
-* Connecting your Flutter app to backend servers by sending HTTP requests
-* User authentication
-* Adding Google Maps
-* Using native device features like the camera
-* Adding beautiful animations & page transitions
-* Image upload
-* Push notifications - manual approach and automated
-* And much more!
+* Подробные инструкции по настройке для macOS и Windows
+* Подробное введение во Flutter, Dart и концепцию виджетов
+* Обзор встроенных виджетов и как добавлять свои собственные
+* Советы и рекомендации по отладке
+* Навигация по страницам с вкладками, боковыми ящиками и навигацией на основе стека
+* Решения по управлению состоянием
+* Обработка и проверка ввода пользователя
+* Подключение вашего приложения Flutter к внутренним серверам путем отправки HTTP-запросов
+* Аутентификация пользователя
+* Добавление Google Maps
+* Использование собственных функций устройства, таких как камера
+* Добавление красивой анимации и переходов страниц
+* Загрузка изображений
+* Push-уведомления — ручной подход и автоматизировано
+* И многое другое!
 
-**Course Highlights:**
+**Основные моменты курса:**
 
-* **On-Demand, Video-Based Learning** : An immersive experience with practical examples and demo apps to help you develop your skills at your own pace
-* **Lifetime Access** : Revisit topics and refresh your knowledge anytime
-* **Regularly Updated** : The course has been updated multiple times in the past to ensure it stays up-to-date with the latest industry standards
+* **Обучение по запросу, основанное на видео**: захватывающий опыт с практическими примерами и демонстрационными приложениями, которые помогут вам развивать свои навыки в удобном для вас темпе
+* **Пожизненный доступ**: пересматривайте темы и освежайте свои знания в любое время
+* **Регулярно обновляется**: курс обновлялся несколько раз в прошлом, чтобы гарантировать, что он остается актуальным в соответствии с последними отраслевыми стандартами
 
-### **No Experience Necessary**
+### **Опыт не требуется**
 
-This course is designed to be accessible to everyone, regardless of their programming background. Whether you're a complete beginner or an experienced developer looking to expand your skillset, I will guide you through each step of the process, ensuring you gain a deep understanding of the fundamentals and advanced concepts.
+Этот курс разработан так, чтобы быть доступным для всех, независимо от их опыта программирования. Независимо от того, являетесь ли вы полным новичком или опытным разработчиком, желающим расширить свои навыки, я проведу вас через каждый шаг процесса, гарантируя, что вы получите глубокое понимание основ и продвинутых концепций.
 
-### **Prerequisites:**
+### **Предварительные требования:**
 
-* Basic programming language knowledge will help but is not required
-* No prior knowledge of Flutter or Dart is needed
-* No iOS (Swift/ObjectiveC) or Android (Java/Kotlin) development experience required
+* Базовые знания языков программирования будут полезны, но не обязательны
+* Не требуется никаких предварительных знаний Flutter или Dart
+* Не требуется опыт разработки iOS (Swift/ObjectiveC) или Android (Java/Kotlin)
 
-### **Take the First Step Towards Your Mobile App Development Career**
+### **Сделайте первый шаг к карьере разработчика мобильных приложений**
 
-With the skyrocketing demand for skilled mobile app developers in today's job market, there has never been a better time to jump into the world of Flutter & Dart. By the end of this course, you'll be fully equipped to design, develop, and deploy stunning iOS and Android apps, setting yourself up for a successful career in mobile app development.
+С учетом стремительно растущего спроса на квалифицированных разработчиков мобильных приложений на сегодняшнем рынке труда, сейчас самое время окунуться в мир Flutter и Dart. К концу этого курса вы будете полностью подготовлены к проектированию, разработке и развертыванию потрясающих приложений для iOS и Android, что позволит вам построить успешную карьеру в области разработки мобильных приложений.
 
-Don't let this opportunity pass you by! Enroll in "Flutter & Dart - The Complete Guide" today and start building amazing apps for the iOS and Android platforms!
+Не упустите эту возможность! Зарегистрируйтесь на курс «Flutter & Dart — полное руководство» уже сегодня и начните создавать потрясающие приложения для платформ iOS и Android!
 
-### Who this course is for
+### Для кого этот курс
 
-* Beginner and experienced developers who are interested in diving into mobile app development using one language for both platforms
-* Experienced iOS or Android developers who want to build cross-platform (iOS + Android) apps with one single programming language
+* Начинающие и опытные разработчики, которые хотят погрузиться в разработку мобильных приложений с использованием одного языка для обеих платформ
+* Опытные разработчики iOS или Android, которые хотят создавать кроссплатформенные (iOS + Android) приложения с использованием одного языка программирования
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
+[🔗 Ссылка на курс 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Мухаммад Хусейн Абуталеби | Все права защищены
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

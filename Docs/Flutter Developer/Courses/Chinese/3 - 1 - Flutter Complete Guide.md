@@ -2,11 +2,11 @@
 
 # Flutter & Dart - The Complete Guide [2024 Edition]
 
-A Complete Guide to the Flutter SDK and Flutter Framework for building native iOS and Android apps
+用于构建原生 iOS 和 Android 应用程序的 Flutter SDK 和 Flutter 框架完整指南
 
 ![Flutter & Dart - The Complete Guide [2024 Edition]](../../assets/Courses/Course%20Covers/3%20-%201%20-%20Flutter%20Complete%20Guide.webp)
 
-## Course Contents
+## 课程内容
 
 * **Introduction**
   * Welcome To This Course!
@@ -327,75 +327,75 @@ A Complete Guide to the Flutter SDK and Flutter Framework for building native iO
   * Course Roundup
   * Bonus Lecture
 
-## Description
+## 描述
 
-Discover the power of Flutter and Dart to create stunning, high-performance mobile apps for iOS and Android with the most comprehensive and bestselling Flutter course! With  **over 30 hours of comprehensive content** , this course is the ultimate resource for anyone who wants to build beautiful, responsive, and feature-rich applications from scratch.
+通过最全面、最畅销的 Flutter 课程，探索 Flutter 和 Dart 的强大功能，为 iOS 和 Android 创建令人惊叹的高性能移动应用程序！本课程拥有**超过 30 小时的全面内容**，是任何想要从头开始构建美观、响应迅速且功能丰富的应用程序的人的终极资源。
 
-### Learn from a Bestselling Udemy Instructor: Maximilian Schwarzmüller
+### 向最畅销的 Udemy 讲师学习：Maximilian Schwarzmüller
 
-I'm Maximilian Schwarzmüller, a bestselling, top-rated online course instructor with a vast variety of courses on web and mobile development. I'm excited to be your guide throughout this journey. My goal with this course is to teach you Flutter from the ground up, step-by-step and in a highly practice-oriented way!
+我是 Maximilian Schwarzmüller，一位最畅销、评价最高的在线课程讲师，拥有各种关于网络和移动开发的课程。我很高兴能成为您整个旅程的向导。我开设这门课程的目标是从头开始、循序渐进地、以高度实践导向的方式教您 Flutter！
 
-### **Unlock Your Potential in Mobile App Development**
+### **释放您在移动应用开发中的潜力**
 
-This Flutter & Dart course is designed for absolute beginners with no prior programming experience, as well as for those with existing iOS, Android or other development skills. Through video lessons and hands-on projects, you'll learn the ins and outs of Flutter and Dart!
+这门 Flutter & Dart 课程专为没有编程经验的初学者以及具有现有 iOS、Android 或其他开发技能的人设计。通过视频课程和实践项目，您将了解 Flutter 和 Dart 的来龙去脉！
 
-Throughout the course you'll build multiple demo apps - ranging from simple to more complex - and, by the end of the course, you'll be able to build your own iOS and Android apps with Flutter.
+在整个课程中，您将构建多个演示应用程序 - 从简单到更复杂 - 并且在课程结束时，您将能够使用 Flutter 构建自己的 iOS 和 Android 应用程序。
 
-**Why Choose Flutter?**
+**为什么选择 Flutter？**
 
-* Developed by Google, Flutter is a framework that allows you to learn one language (Dart) and build beautiful native mobile apps in no time
-* Write code only once and ship your apps both to the Apple App Store and Google Play
-* Use the rich widget suite Flutter provides to add common UI elements or build your own custom widgets
+* Flutter 由 Google 开发，是一个框架，让您可以学习一种语言（Dart）并在短时间内构建漂亮的原生移动应用
+* 只需编写一次代码，即可将您的应用发布到 Apple App Store 和 Google Play
+* 使用 Flutter 提供的丰富小部件套件添加常见的 UI 元素或构建您自己的自定义小部件
 
-**What You'll Learn:**
+**您将学到什么：**
 
-* Detailed setup instructions for both macOS and Windows
-* A thorough introduction to Flutter, Dart, and the concept behind widgets
-* An overview of the built-in widgets and how to add your own
-* Debugging tips & tricks
-* Page navigation with tabs, side drawers, and stack-based navigation
-* State management solutions
-* Handling and validating user input
-* Connecting your Flutter app to backend servers by sending HTTP requests
-* User authentication
-* Adding Google Maps
-* Using native device features like the camera
-* Adding beautiful animations & page transitions
-* Image upload
-* Push notifications - manual approach and automated
-* And much more!
+* 适用于 macOS 和 Windows 的详细设置说明
+* Flutter、Dart 和小部件背后概念的全面介绍
+* 内置小部件概述以及如何添加您自己的小部件
+* 调试技巧和窍门
+* 使用选项卡、侧边抽屉和基于堆栈的导航进行页面导航
+* 状态管理解决方案
+* 处理和验证用户输入
+* 通过发送 HTTP 请求将您的 Flutter 应用连接到后端服务器
+* 用户身份验证
+* 添加 Google 地图
+* 使用相机等原生设备功能
+* 添加漂亮的动画和页面过渡
+* 图片上传
+* 推送通知 - 手动和自动化
+* 等等更多！
 
-**Course Highlights:**
+**课程亮点：**
 
-* **On-Demand, Video-Based Learning** : An immersive experience with practical examples and demo apps to help you develop your skills at your own pace
-* **Lifetime Access** : Revisit topics and refresh your knowledge anytime
-* **Regularly Updated** : The course has been updated multiple times in the past to ensure it stays up-to-date with the latest industry standards
+* **按需、基于视频的学习**：沉浸式体验，包含实际示例和演示应用程序，可帮助您按照自己的节奏发展技能
+* **终身访问**：随时重温主题并刷新知识
+* **定期更新**：本课程过去已多次更新，以确保其与最新的行业标准保持同步
 
-### **No Experience Necessary**
+### **无需经验**
 
-This course is designed to be accessible to everyone, regardless of their programming background. Whether you're a complete beginner or an experienced developer looking to expand your skillset, I will guide you through each step of the process, ensuring you gain a deep understanding of the fundamentals and advanced concepts.
+本课程旨在让所有人轻松学习，无论其编程背景如何。无论您是完全的初学者还是希望扩展技能的经验丰富的开发人员，我都会指导您完成流程的每个步骤，确保您深入了解基础知识和高级概念。
 
-### **Prerequisites:**
+### **先决条件：**
 
-* Basic programming language knowledge will help but is not required
-* No prior knowledge of Flutter or Dart is needed
-* No iOS (Swift/ObjectiveC) or Android (Java/Kotlin) development experience required
+* 基本的编程语言知识会有所帮助，但不是必需的
+* 不需要 Flutter 或 Dart 的先验知识
+* 不需要 iOS（Swift/ObjectiveC）或 Android（Java/Kotlin）开发经验
 
-### **Take the First Step Towards Your Mobile App Development Career**
+### **迈出移动应用开发职业生涯的第一步**
 
-With the skyrocketing demand for skilled mobile app developers in today's job market, there has never been a better time to jump into the world of Flutter & Dart. By the end of this course, you'll be fully equipped to design, develop, and deploy stunning iOS and Android apps, setting yourself up for a successful career in mobile app development.
+随着当今就业市场对熟练的移动应用开发人员的需求激增，进入 Flutter 和 Dart 世界的最佳时机已经到来。在本课程结束时，您将完全具备设计、开发和部署令人惊叹的 iOS 和 Android 应用的能力，为自己在移动应用开发领域的成功职业生涯做好准备。
 
-Don't let this opportunity pass you by! Enroll in "Flutter & Dart - The Complete Guide" today and start building amazing apps for the iOS and Android platforms!
+不要让这个机会从您身边溜走！立即报名参加“Flutter & Dart - 完整指南”，开始为 iOS 和 Android 平台构建出色的应用！
 
-### Who this course is for
+### 本课程适合哪些人
 
-* Beginner and experienced developers who are interested in diving into mobile app development using one language for both platforms
-* Experienced iOS or Android developers who want to build cross-platform (iOS + Android) apps with one single programming language
+* 有兴趣使用一种语言开发跨平台移动应用的初学者和资深开发者
+* 想要使用一种编程语言构建跨平台（iOS + Android）应用的资深 iOS 或 Android 开发者
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
+[🔗 课程链接 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 穆罕默德·侯赛因·阿布塔莱比 | 保留所有权利
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

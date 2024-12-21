@@ -2,11 +2,11 @@
 
 # Flutter BLoC - From Zero to Hero Complete Course
 
-Understand, Learn & Practice the most robust Flutter state management - BLoC Library
+Comprenda, aprenda y practique la gestión de estados de Flutter más sólida - Biblioteca BLoC
 
 ![Flutter BLoC - From Zero to Hero Complete Course](../../assets/Courses/Course%20Covers/3%20-%202%20-%20Flutter%20BLoC%20-%20From%20Zero%20to%20Hero%20Complete%20Course.webp)
 
-## Course Contents
+## Contenido del curso
 
 * **Why BLoC as a state management?**
   * Why BLoC?
@@ -33,53 +33,53 @@ Understand, Learn & Practice the most robust Flutter state management - BLoC Lib
 * **Debugging BLoC**
   * Debugging BLoC
 
-## Description
+## Descripción
 
-### Requirements
+### Requisitos
 
-* Small understanding on how Flutter works
+* Un pequeño resumen de cómo funciona Flutter
 
-Hello, everyone!
+¡Hola a todos!
 
-By following this BLoC - From Zero to Hero course, you will successfully learn the **BLoC State Management** solution, so if you have doubts in **understanding** or **practicing** all of its concepts, I really recommend checking it out **right here!**
+Al seguir este curso BLoC - From Zero to Hero, aprenderás con éxito la solución **BLoC State Management**, así que si tienes dudas sobre **entender** o **practicar** todos sus conceptos, ¡te recomiendo que lo consultes **aquí mismo!**
 
-Before you check it out though, I would like to tell you that this **series** is designed with both the **theoretical** and most importantly, **practical** ( **coding** ) parts of every discussed topic. All of the project files can be found on  **my github page** .
+Sin embargo, antes de que lo consultes, me gustaría decirte que esta **serie** está diseñada con las partes **teóricas** y, lo más importante, **prácticas** (**codificación**) de cada tema discutido. Todos los archivos del proyecto se pueden encontrar en **mi página de github**.
 
-Also, the series was carefully monitored by the amazing creator of bloc_library, Felix Angelov.
+Además, la serie fue supervisada cuidadosamente por el increíble creador de bloc_library, Felix Angelov.
 
-On the other hand, without **without the slightest restraint** I feel like my series is **the best bloc_library playlist** on the entire internet.
+Por otro lado, sin la menor restricción** siento que mi serie es **la mejor lista de reproducción de bloc_library** en todo Internet.
 
-**Don't take my word for it, try it by yourself!**
+**No confíe en mi palabra, ¡pruébelo usted mismo!**
 
-A briefing of everything that's been covered in this playlist, so you know what to expect:
+Un resumen de todo lo que se ha cubierto en esta lista de reproducción, para que sepa qué esperar:
 
-1. **Why BLoC?** In this video I explained why I chose bloc_library for both the state management solution and the architectural structure of my apps
-2. **BLoC Core Concepts** - In this tutorial I got really in-depth in explaining  **streams** , and the concepts of **blocs** & **cubits.**
-3. **Flutter BLoc Concepts** - Here, I discussed each and every single one of bloc_library's concept like **BlocProvider, BlocBuilder, BlocListener** and many many more. These concepts are obviously explained and tested in every tutorial, since they are the base of bloc_library.
-4. **BLoC Architecture -** In this tutorial I made a short introduction on what I believe it's the best **architecture** to follow in order to structure and scale your code over time! This video has no code inside my github page, since I'm planning on using it extensively on my follow-up tutorial series on building real world apps!
-5. **BLoC Testing** - Testing is one of the most important pillars of programming, oftenly omitted by developers. In this video I'll explain what are the basics of **testing** a bloc-built small application.
-6. **BLoC Access & Navigation** - In this tutorial I got really in-depth on what are the **routing options** on which you can successfully provide a cubit/bloc to the widget tree.
-7. **Bloc-to-bloc Communication** - Here I wanted all my viewers to understand how important it is to know how to **make 2 blocs/cubit communicate one** with another.
-8. **BuildContext In-Depth** - This tutorial is not really related to the bloc_library, but since build contexts are used everywhere inside a flutter app, I realised that most of people didn't understand how they really work. This video is also useful as it spreads out the knowledge gained from  **tutorial number 3 and 6** .
-9. **Bloc 6.1.0** - During my tutorial series, a new version of bloc_library got released, containing some important changes like context.watch, context.read and context.select. All of these are covered in this video, as always, with intuitive examples.
-10. **Bloc State not Updating** - In this video, I explained why most of the new developers encounter this popular issue of a state of a  **bloc/cubit not updating** .
-11. **Maintaining State with Hydrated_Bloc** - In this tutorial I got really in-depth about how you can store the state of multiple blocs/cubits on the app's internal storage on your device. This is a key concept in developing a successful Flutter app, having bloc_library as the state management feature.
-12. **Debugging Blocs/Cubits, Naming Conventions and other tips and tricks** is the last video of this series, covering other important topics found inside the flutter_bloc library.
+1. **¿Por qué BLoC?** En este video, expliqué por qué elegí bloc_library tanto para la solución de administración de estado como para la estructura arquitectónica de mis aplicaciones
+2. **Conceptos básicos de BLoC**: en este tutorial, expliqué en profundidad **streams** y los conceptos de **blocs** y **cubits.**
+3. **Conceptos de Flutter BLoc**: aquí, analicé todos y cada uno de los conceptos de bloc_library, como **BlocProvider, BlocBuilder, BlocListener** y muchos más. Obviamente, estos conceptos se explican y prueban en cada tutorial, ya que son la base de bloc_library.
+4. **Arquitectura BloC -** En este tutorial hice una breve introducción sobre lo que creo que es la mejor **arquitectura** a seguir para estructurar y escalar su código con el tiempo. Este video no tiene código dentro de mi página de github, ya que planeo usarlo ampliamente en mi serie de tutoriales de seguimiento sobre la creación de aplicaciones del mundo real.
+5. **Pruebas BloC** - Las pruebas son uno de los pilares más importantes de la programación, a menudo omitido por los desarrolladores. En este video, explicaré cuáles son los conceptos básicos de **probar** una pequeña aplicación creada con bloques.
+6. **Acceso y navegación BloC** - En este tutorial, profundicé mucho en cuáles son las **opciones de enrutamiento** en las que puede proporcionar con éxito un cubit/bloque al árbol de widgets.
+7. **Comunicación de bloque a bloque** - Aquí quería que todos mis espectadores entendieran lo importante que es saber cómo **hacer que 2 bloques/cubit se comuniquen entre sí**.
+8. **BuildContext en profundidad**: este tutorial no está realmente relacionado con bloc_library, pero como los contextos de compilación se usan en todas partes dentro de una aplicación de Flutter, me di cuenta de que la mayoría de las personas no entendían cómo funcionan realmente. Este video también es útil porque difunde el conocimiento adquirido en los **tutoriales número 3 y 6**.
+9. **Bloc 6.1.0**: durante mi serie de tutoriales, se lanzó una nueva versión de bloc_library, que contiene algunos cambios importantes como context.watch, context.read y context.select. Todos estos se cubren en este video, como siempre, con ejemplos intuitivos.
+10. **El estado de Bloc no se actualiza**: en este video, expliqué por qué la mayoría de los nuevos desarrolladores se encuentran con este problema popular de que el estado de un **bloc/cubit no se actualiza**.
+11. **Mantenimiento del estado con Hydrated_Bloc**: en este tutorial, explico en profundidad cómo se puede almacenar el estado de varios bloques/cubitos en el almacenamiento interno de la aplicación en el dispositivo. Este es un concepto clave para desarrollar una aplicación Flutter exitosa, ya que tiene bloc_library como función de administración del estado.
+12. **Depuración de bloques/cubitos, convenciones de nombres y otros consejos y trucos** es el último video de esta serie, que cubre otros temas importantes que se encuentran dentro de la biblioteca flutter_bloc.
 
-Thank you and hopefully you are as excited as I am!
+¡Gracias y espero que estés tan emocionado como yo!
 
 WCKD
 
-### Who this course is for
+### A quién está dirigido este curso
 
-* Flutter Beginner curious on what is the most robust state-management solution
-* Flutter Developer who wants to learn about BLoC State Management really in-depth
-* Flutter Developer who wants to refresh their knowledge with BLoC
+* Principiante de Flutter que tiene curiosidad por saber cuál es la solución de administración de estado más sólida
+* Desarrollador de Flutter que quiere aprender sobre la administración de estado de BLoC en profundidad
+* Desarrollador de Flutter que quiere refrescar sus conocimientos sobre BLoC
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/bloc-from-zero-to-hero/?couponCode=LETSLEARNNOW)
+[🔗 Enlace del curso 🔗](https://www.udemy.com/course/bloc-from-zero-to-hero/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Muhammad Husain Abootalebi | Todos los derechos están reservados
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

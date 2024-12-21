@@ -2,11 +2,11 @@
 
 # Flutter & Dart - The Complete Guide [2024 Edition]
 
-A Complete Guide to the Flutter SDK and Flutter Framework for building native iOS and Android apps
+네이티브 iOS 및 Android 앱을 구축하기 위한 Flutter SDK 및 Flutter Framework에 대한 완전한 가이드
 
 ![Flutter & Dart - The Complete Guide [2024 Edition]](../../assets/Courses/Course%20Covers/3%20-%201%20-%20Flutter%20Complete%20Guide.webp)
 
-## Course Contents
+## 과정 내용
 
 * **Introduction**
   * Welcome To This Course!
@@ -327,75 +327,75 @@ A Complete Guide to the Flutter SDK and Flutter Framework for building native iO
   * Course Roundup
   * Bonus Lecture
 
-## Description
+## 설명
 
-Discover the power of Flutter and Dart to create stunning, high-performance mobile apps for iOS and Android with the most comprehensive and bestselling Flutter course! With  **over 30 hours of comprehensive content** , this course is the ultimate resource for anyone who wants to build beautiful, responsive, and feature-rich applications from scratch.
+가장 포괄적이고 베스트셀러인 Flutter 코스로 iOS 및 Android용 놀랍고 고성능 모바일 앱을 만드는 Flutter와 Dart의 힘을 발견하세요! **30시간 이상의 포괄적인 콘텐츠**가 포함된 이 코스는 처음부터 아름답고 반응성이 뛰어나며 기능이 풍부한 애플리케이션을 구축하려는 모든 사람을 위한 최고의 리소스입니다.
 
-### Learn from a Bestselling Udemy Instructor: Maximilian Schwarzmüller
+### 베스트셀러 Udemy 강사로부터 배우세요: Maximilian Schwarzmüller
 
-I'm Maximilian Schwarzmüller, a bestselling, top-rated online course instructor with a vast variety of courses on web and mobile development. I'm excited to be your guide throughout this journey. My goal with this course is to teach you Flutter from the ground up, step-by-step and in a highly practice-oriented way!
+저는 웹 및 모바일 개발에 대한 다양한 코스를 제공하는 베스트셀러이자 최고 평가를 받는 온라인 코스 강사인 Maximilian Schwarzmüller입니다. 이 여정 내내 여러분의 가이드가 되어 기쁩니다. 이 코스의 목표는 Flutter를 기초부터 단계별로, 그리고 매우 실무 지향적인 방식으로 가르치는 것입니다!
 
-### **Unlock Your Potential in Mobile App Development**
+### **모바일 앱 개발에서 잠재력을 발휘하세요**
 
-This Flutter & Dart course is designed for absolute beginners with no prior programming experience, as well as for those with existing iOS, Android or other development skills. Through video lessons and hands-on projects, you'll learn the ins and outs of Flutter and Dart!
+이 Flutter & Dart 코스는 프로그래밍 경험이 없는 완전 초보자와 기존 iOS, Android 또는 기타 개발 기술을 보유한 사람을 위해 설계되었습니다. 비디오 레슨과 실습 프로젝트를 통해 Flutter와 Dart의 이면을 배우게 됩니다!
 
-Throughout the course you'll build multiple demo apps - ranging from simple to more complex - and, by the end of the course, you'll be able to build your own iOS and Android apps with Flutter.
+과정 전반에 걸쳐 간단한 것부터 복잡한 것까지 다양한 데모 앱을 빌드하게 되고, 과정이 끝나면 Flutter로 iOS 및 Android 앱을 직접 빌드할 수 있게 됩니다.
 
-**Why Choose Flutter?**
+**왜 Flutter를 선택해야 하나요?**
 
-* Developed by Google, Flutter is a framework that allows you to learn one language (Dart) and build beautiful native mobile apps in no time
-* Write code only once and ship your apps both to the Apple App Store and Google Play
-* Use the rich widget suite Flutter provides to add common UI elements or build your own custom widgets
+* Google에서 개발한 Flutter는 한 가지 언어(Dart)를 배우고 즉시 아름다운 네이티브 모바일 앱을 빌드할 수 있는 프레임워크입니다.
+* 코드를 한 번만 작성하고 앱을 Apple App Store와 Google Play에 모두 배송합니다.
+* Flutter가 제공하는 풍부한 위젯 모음을 사용하여 일반적인 UI 요소를 추가하거나 사용자 정의 위젯을 빌드합니다.
 
-**What You'll Learn:**
+**학습할 내용:**
 
-* Detailed setup instructions for both macOS and Windows
-* A thorough introduction to Flutter, Dart, and the concept behind widgets
-* An overview of the built-in widgets and how to add your own
-* Debugging tips & tricks
-* Page navigation with tabs, side drawers, and stack-based navigation
-* State management solutions
-* Handling and validating user input
-* Connecting your Flutter app to backend servers by sending HTTP requests
-* User authentication
-* Adding Google Maps
-* Using native device features like the camera
-* Adding beautiful animations & page transitions
-* Image upload
-* Push notifications - manual approach and automated
-* And much more!
+* macOS와 Windows 모두에 대한 자세한 설정 지침
+* Flutter, Dart 및 위젯의 개념에 대한 철저한 소개
+* 기본 제공 위젯에 대한 개요와 위젯을 추가하는 방법
+* 디버깅 팁 및 요령
+* 탭, 사이드 드로어 및 스택 기반 탐색을 사용한 페이지 탐색
+* 상태 관리 솔루션
+* 사용자 입력 처리 및 검증
+* HTTP 요청을 보내 Flutter 앱을 백엔드 서버에 연결
+* 사용자 인증
+* Google 지도 추가
+* 카메라와 같은 네이티브 장치 기능 사용
+* 아름다운 애니메이션 및 페이지 전환 추가
+* 이미지 업로드
+* 푸시 알림 - 수동 접근 방식 및 자동화
+* 그리고 훨씬 더 많은 것!
 
-**Course Highlights:**
+**코스 하이라이트:**
 
-* **On-Demand, Video-Based Learning** : An immersive experience with practical examples and demo apps to help you develop your skills at your own pace
-* **Lifetime Access** : Revisit topics and refresh your knowledge anytime
-* **Regularly Updated** : The course has been updated multiple times in the past to ensure it stays up-to-date with the latest industry standards
+* **주문형 비디오 기반 학습**: 실제 예제와 데모 앱을 통해 자신의 속도에 맞춰 기술을 개발할 수 있는 몰입형 경험
+* **평생 액세스**: 주제를 다시 살펴보고 언제든지 지식을 새롭게 할 수 있습니다
+* **정기적으로 업데이트**: 이 코스는 최신 산업 표준에 맞춰 최신 상태를 유지하기 위해 과거에 여러 번 업데이트되었습니다
 
-### **No Experience Necessary**
+### **경험 불필요**
 
-This course is designed to be accessible to everyone, regardless of their programming background. Whether you're a complete beginner or an experienced developer looking to expand your skillset, I will guide you through each step of the process, ensuring you gain a deep understanding of the fundamentals and advanced concepts.
+이 코스는 프로그래밍 배경과 관계없이 모든 사람이 이용할 수 있도록 설계되었습니다. 완전한 초보자이든 기술을 확장하려는 숙련된 개발자이든, 저는 프로세스의 각 단계를 안내하여 기본과 고급 개념에 대한 심층적인 이해를 얻도록 하겠습니다.
 
-### **Prerequisites:**
+### **필수 조건:**
 
-* Basic programming language knowledge will help but is not required
-* No prior knowledge of Flutter or Dart is needed
-* No iOS (Swift/ObjectiveC) or Android (Java/Kotlin) development experience required
+* 기본 프로그래밍 언어 지식이 도움이 되지만 필수는 아닙니다.
+* Flutter 또는 Dart에 대한 사전 지식이 필요하지 않습니다.
+* iOS(Swift/ObjectiveC) 또는 Android(Java/Kotlin) 개발 경험이 필요하지 않습니다.
 
-### **Take the First Step Towards Your Mobile App Development Career**
+### **모바일 앱 개발 경력을 향한 첫 걸음을 내딛으세요**
 
-With the skyrocketing demand for skilled mobile app developers in today's job market, there has never been a better time to jump into the world of Flutter & Dart. By the end of this course, you'll be fully equipped to design, develop, and deploy stunning iOS and Android apps, setting yourself up for a successful career in mobile app development.
+오늘날의 일자리 시장에서 숙련된 모바일 앱 개발자에 대한 수요가 급증함에 따라 Flutter & Dart의 세계에 뛰어들기에 더 좋은 때는 없었습니다. 이 과정을 마치면 멋진 iOS 및 Android 앱을 설계, 개발 및 배포할 수 있는 모든 준비가 되어 모바일 앱 개발 분야에서 성공적인 경력을 쌓을 수 있습니다.
 
-Don't let this opportunity pass you by! Enroll in "Flutter & Dart - The Complete Guide" today and start building amazing apps for the iOS and Android platforms!
+이 기회를 놓치지 마세요! 오늘 "Flutter & Dart - The Complete Guide"에 등록하고 iOS 및 Android 플랫폼을 위한 놀라운 앱을 구축하세요!
 
-### Who this course is for
+### 이 코스의 대상
 
-* Beginner and experienced developers who are interested in diving into mobile app development using one language for both platforms
-* Experienced iOS or Android developers who want to build cross-platform (iOS + Android) apps with one single programming language
+* 두 플랫폼 모두에서 하나의 언어를 사용하여 모바일 앱 개발에 뛰어드는 데 관심이 있는 초보자 및 숙련된 개발자
+* 하나의 프로그래밍 언어로 크로스 플랫폼(iOS + Android) 앱을 빌드하려는 숙련된 iOS 또는 Android 개발자
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
+[🔗 코스 링크 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 무하마드 후세인 아부탈레비 | 모든 권리는 보유됩니다
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

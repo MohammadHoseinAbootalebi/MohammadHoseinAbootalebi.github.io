@@ -2,11 +2,11 @@
 
 # Flutter BLoC - From Zero to Hero Complete Course
 
-Understand, Learn & Practice the most robust Flutter state management - BLoC Library
+فهم وتعلم وممارسة إدارة حالة Flutter الأكثر قوة - مكتبة BLoC
 
 ![Flutter BLoC - From Zero to Hero Complete Course](../../assets/Courses/Course%20Covers/3%20-%202%20-%20Flutter%20BLoC%20-%20From%20Zero%20to%20Hero%20Complete%20Course.webp)
 
-## Course Contents
+## محتويات الدورة
 
 * **Why BLoC as a state management?**
   * Why BLoC?
@@ -33,53 +33,53 @@ Understand, Learn & Practice the most robust Flutter state management - BLoC Lib
 * **Debugging BLoC**
   * Debugging BLoC
 
-## Description
+## وصف
 
-### Requirements
+### متطلبات
 
-* Small understanding on how Flutter works
+* فهم بسيط لكيفية عمل Flutter
 
-Hello, everyone!
+مرحبًا بالجميع!
 
-By following this BLoC - From Zero to Hero course, you will successfully learn the **BLoC State Management** solution, so if you have doubts in **understanding** or **practicing** all of its concepts, I really recommend checking it out **right here!**
+باتباع دورة BLoC - From Zero to Hero هذه، ستتعلم بنجاح حل **إدارة حالة BLoC**، لذا إذا كانت لديك شكوك في **فهم** أو **ممارسة** جميع مفاهيمها، فأنا أوصيك حقًا بالتحقق منها **هنا مباشرةً!**
 
-Before you check it out though, I would like to tell you that this **series** is designed with both the **theoretical** and most importantly, **practical** ( **coding** ) parts of every discussed topic. All of the project files can be found on  **my github page** .
+قبل أن تتحقق منها، أود أن أخبرك أن هذه **السلسلة** مصممة بكل من الأجزاء **النظرية** والأهم من ذلك، **العملية** ( **الترميز**) لكل موضوع تمت مناقشته. يمكن العثور على جميع ملفات المشروع على **صفحتي على github**.
 
-Also, the series was carefully monitored by the amazing creator of bloc_library, Felix Angelov.
+كما تمت مراقبة السلسلة بعناية من قبل المبدع الرائع لـ bloc_library، فيليكس أنجيلوف.
 
-On the other hand, without **without the slightest restraint** I feel like my series is **the best bloc_library playlist** on the entire internet.
+من ناحية أخرى، وبدون **أدنى قدر من ضبط النفس** أشعر أن سلسلتي هي **أفضل قائمة تشغيل bloc_library** على الإنترنت بالكامل.
 
-**Don't take my word for it, try it by yourself!**
+**لا تصدقني، جربها بنفسك!**
 
-A briefing of everything that's been covered in this playlist, so you know what to expect:
+موجز لكل ما تم تناوله في قائمة التشغيل هذه، حتى تعرف ما تتوقعه:
 
-1. **Why BLoC?** In this video I explained why I chose bloc_library for both the state management solution and the architectural structure of my apps
-2. **BLoC Core Concepts** - In this tutorial I got really in-depth in explaining  **streams** , and the concepts of **blocs** & **cubits.**
-3. **Flutter BLoc Concepts** - Here, I discussed each and every single one of bloc_library's concept like **BlocProvider, BlocBuilder, BlocListener** and many many more. These concepts are obviously explained and tested in every tutorial, since they are the base of bloc_library.
-4. **BLoC Architecture -** In this tutorial I made a short introduction on what I believe it's the best **architecture** to follow in order to structure and scale your code over time! This video has no code inside my github page, since I'm planning on using it extensively on my follow-up tutorial series on building real world apps!
-5. **BLoC Testing** - Testing is one of the most important pillars of programming, oftenly omitted by developers. In this video I'll explain what are the basics of **testing** a bloc-built small application.
-6. **BLoC Access & Navigation** - In this tutorial I got really in-depth on what are the **routing options** on which you can successfully provide a cubit/bloc to the widget tree.
-7. **Bloc-to-bloc Communication** - Here I wanted all my viewers to understand how important it is to know how to **make 2 blocs/cubit communicate one** with another.
-8. **BuildContext In-Depth** - This tutorial is not really related to the bloc_library, but since build contexts are used everywhere inside a flutter app, I realised that most of people didn't understand how they really work. This video is also useful as it spreads out the knowledge gained from  **tutorial number 3 and 6** .
-9. **Bloc 6.1.0** - During my tutorial series, a new version of bloc_library got released, containing some important changes like context.watch, context.read and context.select. All of these are covered in this video, as always, with intuitive examples.
-10. **Bloc State not Updating** - In this video, I explained why most of the new developers encounter this popular issue of a state of a  **bloc/cubit not updating** .
-11. **Maintaining State with Hydrated_Bloc** - In this tutorial I got really in-depth about how you can store the state of multiple blocs/cubits on the app's internal storage on your device. This is a key concept in developing a successful Flutter app, having bloc_library as the state management feature.
-12. **Debugging Blocs/Cubits, Naming Conventions and other tips and tricks** is the last video of this series, covering other important topics found inside the flutter_bloc library.
+1. **لماذا BLoC؟** في هذا الفيديو، أوضحت سبب اختياري لـ bloc_library لحل إدارة الحالة والبنية المعمارية لتطبيقاتي
+2. **مفاهيم BLoC الأساسية** - في هذا البرنامج التعليمي، تعمقت حقًا في شرح **streams** ومفاهيم **blocs** و**cubits.**
+3. **مفاهيم Flutter BLoc** - هنا، ناقشت كل مفهوم من مفاهيم bloc_library مثل **BlocProvider وBlocBuilder وBlocListener** والعديد والعديد غير ذلك. من الواضح أن هذه المفاهيم يتم شرحها واختبارها في كل برنامج تعليمي، لأنها تشكل أساس bloc_library.
+4. **هندسة BLoC -** في هذا البرنامج التعليمي، قدمت مقدمة قصيرة حول ما أعتقد أنه أفضل **هندسة** يجب اتباعها من أجل هيكلة وتوسيع نطاق الكود الخاص بك بمرور الوقت! لا يحتوي هذا الفيديو على أي كود داخل صفحتي على github، حيث أخطط لاستخدامه على نطاق واسع في سلسلة البرامج التعليمية التالية حول بناء تطبيقات العالم الحقيقي!
+5. **اختبار BLoC** - يعد الاختبار أحد أهم ركائز البرمجة، وغالبًا ما يتجاهله المطورون. في هذا الفيديو، سأشرح أساسيات **اختبار** تطبيق صغير مبني على كتلة.
+6. **الوصول والتنقل في BLoC** - في هذا البرنامج التعليمي، تعمقت حقًا في **خيارات التوجيه** التي يمكنك من خلالها توفير cubit/bloc بنجاح لشجرة الأدوات.
+7. **التواصل بين الكتل** - هنا أردت أن يفهم جميع المشاهدين مدى أهمية معرفة كيفية **جعل كتلتين/cubit تتواصلان** مع بعضهما البعض.
+8. **BuildContext In-Depth** - هذا البرنامج التعليمي ليس مرتبطًا حقًا بـ bloc_library، ولكن نظرًا لاستخدام سياقات البناء في كل مكان داخل تطبيق Flutter، أدركت أن معظم الأشخاص لم يفهموا كيفية عملها حقًا. يعد هذا الفيديو مفيدًا أيضًا لأنه ينشر المعرفة المكتسبة من **البرنامج التعليمي رقم 3 و6**.
+9. **Bloc 6.1.0** - أثناء سلسلة البرامج التعليمية الخاصة بي، تم إصدار إصدار جديد من bloc_library، يحتوي على بعض التغييرات المهمة مثل context.watch وcontext.read وcontext.select. يتم تغطية كل هذه التغييرات في هذا الفيديو، كما هو الحال دائمًا، مع أمثلة بديهية.
+10. **عدم تحديث حالة الكتلة** - في هذا الفيديو، أوضحت لماذا يواجه معظم المطورين الجدد هذه المشكلة الشائعة المتمثلة في حالة **عدم تحديث الكتلة/المكعب**.
+11. **الحفاظ على الحالة باستخدام Hydrated_Bloc** - في هذا البرنامج التعليمي، تحدثت بعمق شديد عن كيفية تخزين حالة العديد من الكتل/الأكواب على وحدة التخزين الداخلية للتطبيق على جهازك. وهذا مفهوم أساسي في تطوير تطبيق Flutter ناجح، حيث يكون bloc_library ميزة لإدارة الحالة.
+12. **تصحيح أخطاء الكتل/الأكواب واتفاقيات التسمية وغيرها من النصائح والحيل** هو الفيديو الأخير في هذه السلسلة، والذي يغطي مواضيع مهمة أخرى موجودة داخل مكتبة flutter_bloc.
 
-Thank you and hopefully you are as excited as I am!
+شكرًا لك وآمل أن تكون متحمسًا مثلي!
 
 WCKD
 
-### Who this course is for
+### لمن هذه الدورة التدريبية
 
-* Flutter Beginner curious on what is the most robust state-management solution
-* Flutter Developer who wants to learn about BLoC State Management really in-depth
-* Flutter Developer who wants to refresh their knowledge with BLoC
+* مبتدئ Flutter فضولي بشأن الحل الأكثر قوة لإدارة الحالة
+* مطور Flutter الذي يريد التعرف على إدارة حالة BLoC بعمق شديد
+* مطور Flutter الذي يريد تحديث معرفته باستخدام BLoC
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/bloc-from-zero-to-hero/?couponCode=LETSLEARNNOW)
+[🔗 رابط الدورة 🔗](https://www.udemy.com/course/bloc-from-zero-to-hero/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسين أبوطالبي | جميع الحقوق محفوظة
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

@@ -2,11 +2,11 @@
 
 # Flutter & Dart - The Complete Guide [2024 Edition]
 
-A Complete Guide to the Flutter SDK and Flutter Framework for building native iOS and Android apps
+ネイティブ iOS および Android アプリを構築するための Flutter SDK と Flutter フレームワークの完全ガイド
 
 ![Flutter & Dart - The Complete Guide [2024 Edition]](../../assets/Courses/Course%20Covers/3%20-%201%20-%20Flutter%20Complete%20Guide.webp)
 
-## Course Contents
+## コース内容
 
 * **Introduction**
   * Welcome To This Course!
@@ -327,75 +327,75 @@ A Complete Guide to the Flutter SDK and Flutter Framework for building native iO
   * Course Roundup
   * Bonus Lecture
 
-## Description
+## 説明
 
-Discover the power of Flutter and Dart to create stunning, high-performance mobile apps for iOS and Android with the most comprehensive and bestselling Flutter course! With  **over 30 hours of comprehensive content** , this course is the ultimate resource for anyone who wants to build beautiful, responsive, and feature-rich applications from scratch.
+最も包括的でベストセラーの Flutter コースで、iOS および Android 向けの魅力的で高性能なモバイル アプリを作成するための Flutter と Dart のパワーを発見してください。**30 時間を超える包括的なコンテンツ** を備えたこのコースは、美しく、レスポンシブで、機能豊富なアプリケーションをゼロから構築したい人にとって究極のリソースです。
 
-### Learn from a Bestselling Udemy Instructor: Maximilian Schwarzmüller
+### ベストセラーの Udemy インストラクターから学ぶ: Maximilian Schwarzmüller
 
-I'm Maximilian Schwarzmüller, a bestselling, top-rated online course instructor with a vast variety of courses on web and mobile development. I'm excited to be your guide throughout this journey. My goal with this course is to teach you Flutter from the ground up, step-by-step and in a highly practice-oriented way!
+私は、Web およびモバイル開発に関するさまざまなコースを持つ、ベストセラーでトップクラスのオンライン コース インストラクターである Maximilian Schwarzmüller です。この旅のガイドを務められることを嬉しく思います。このコースの目標は、Flutter を基礎から段階的に、非常に実践的な方法で教えることです。
 
-### **Unlock Your Potential in Mobile App Development**
+### **モバイル アプリ開発の可能性を解き放つ**
 
-This Flutter & Dart course is designed for absolute beginners with no prior programming experience, as well as for those with existing iOS, Android or other development skills. Through video lessons and hands-on projects, you'll learn the ins and outs of Flutter and Dart!
+この Flutter と Dart のコースは、プログラミング経験のない初心者だけでなく、iOS、Android、またはその他の開発スキルをすでに持っている人向けに設計されています。ビデオレッスンと実践的なプロジェクトを通じて、Flutter と Dart の詳細を学びます。
 
-Throughout the course you'll build multiple demo apps - ranging from simple to more complex - and, by the end of the course, you'll be able to build your own iOS and Android apps with Flutter.
+コース全体を通して、シンプルなものから複雑なものまで、複数のデモ アプリを構築します。コース終了時には、Flutter を使用して独自の iOS アプリと Android アプリを構築できるようになります。
 
-**Why Choose Flutter?**
+Flutter を選ぶ理由
 
-* Developed by Google, Flutter is a framework that allows you to learn one language (Dart) and build beautiful native mobile apps in no time
-* Write code only once and ship your apps both to the Apple App Store and Google Play
-* Use the rich widget suite Flutter provides to add common UI elements or build your own custom widgets
+* Google が開発した Flutter は、1 つの言語 (Dart) を学習して、すぐに美しいネイティブ モバイル アプリを構築できるフレームワークです
+* コードを 1 回記述するだけで、Apple App Store と Google Play の両方にアプリを出荷できます
+* Flutter が提供する豊富なウィジェット スイートを使用して、一般的な UI 要素を追加したり、独自のカスタム ウィジェットを構築したりできます
 
-**What You'll Learn:**
+**学習内容:**
 
-* Detailed setup instructions for both macOS and Windows
-* A thorough introduction to Flutter, Dart, and the concept behind widgets
-* An overview of the built-in widgets and how to add your own
-* Debugging tips & tricks
-* Page navigation with tabs, side drawers, and stack-based navigation
-* State management solutions
-* Handling and validating user input
-* Connecting your Flutter app to backend servers by sending HTTP requests
-* User authentication
-* Adding Google Maps
-* Using native device features like the camera
-* Adding beautiful animations & page transitions
-* Image upload
-* Push notifications - manual approach and automated
-* And much more!
+* macOS と Windows の両方の詳細なセットアップ手順
+* Flutter、Dart、ウィジェットの背後にある概念の徹底的な紹介
+* 組み込みウィジェットの概要と独自のウィジェットの追加方法
+* デバッグのヒントとコツ
+* タブ、サイド ドロワー、スタックベースのナビゲーションを使用したページ ナビゲーション
+* 状態管理ソリューション
+* ユーザー入力の処理と検証
+* HTTP リクエストを送信して Flutter アプリをバックエンド サーバーに接続
+* ユーザー認証
+* Google マップの追加
+* カメラなどのネイティブ デバイス機能の使用
+* 美しいアニメーションとページ遷移の追加
+* 画像のアップロード
+* プッシュ通知 - 手動アプローチと自動アプローチ
+* そして他にもたくさんあります!
 
-**Course Highlights:**
+**コースのハイライト:**
 
-* **On-Demand, Video-Based Learning** : An immersive experience with practical examples and demo apps to help you develop your skills at your own pace
-* **Lifetime Access** : Revisit topics and refresh your knowledge anytime
-* **Regularly Updated** : The course has been updated multiple times in the past to ensure it stays up-to-date with the latest industry standards
+* **オンデマンドのビデオベースの学習**: 実践的な例やデモ アプリを使った没入型の体験で、自分のペースでスキルを伸ばすことができます
+* **生涯アクセス**: いつでもトピックを再確認して知識をリフレッシュできます
+* **定期的に更新**: このコースは、最新の業界標準に合わせて更新されるよう、過去に何度も更新されています
 
-### **No Experience Necessary**
+### **経験は必要ありません**
 
-This course is designed to be accessible to everyone, regardless of their programming background. Whether you're a complete beginner or an experienced developer looking to expand your skillset, I will guide you through each step of the process, ensuring you gain a deep understanding of the fundamentals and advanced concepts.
+このコースは、プログラミングのバックグラウンドに関係なく、誰でも受講できるように設計されています。まったくの初心者でも、スキルセットの拡張を目指す経験豊富な開発者でも、プロセスの各ステップをガイドして、基礎と高度な概念を深く理解できるようにします。
 
-### **Prerequisites:**
+### **前提条件:**
 
-* Basic programming language knowledge will help but is not required
-* No prior knowledge of Flutter or Dart is needed
-* No iOS (Swift/ObjectiveC) or Android (Java/Kotlin) development experience required
+* 基本的なプログラミング言語の知識があると役立ちますが、必須ではありません
+* Flutter または Dart の事前知識は必要ありません
+* iOS (Swift/ObjectiveC) または Android (Java/Kotlin) の開発経験は必要ありません
 
-### **Take the First Step Towards Your Mobile App Development Career**
+### **モバイル アプリ開発キャリアへの第一歩を踏み出しましょう**
 
-With the skyrocketing demand for skilled mobile app developers in today's job market, there has never been a better time to jump into the world of Flutter & Dart. By the end of this course, you'll be fully equipped to design, develop, and deploy stunning iOS and Android apps, setting yourself up for a successful career in mobile app development.
+今日の求人市場では熟練したモバイル アプリ開発者の需要が急増しており、Flutter と Dart の世界に飛び込むのにこれほど良い時期はありません。このコースを修了すると、魅力的な iOS および Android アプリを設計、開発、展開する準備が完全に整い、モバイル アプリ開発で成功するキャリアを築くことができます。
 
-Don't let this opportunity pass you by! Enroll in "Flutter & Dart - The Complete Guide" today and start building amazing apps for the iOS and Android platforms!
+この機会を逃さないでください。今すぐ「Flutter と Dart - 完全ガイド」に登録して、iOS および Android プラットフォーム向けの素晴らしいアプリの構築を始めましょう。
 
-### Who this course is for
+### このコースの対象者
 
-* Beginner and experienced developers who are interested in diving into mobile app development using one language for both platforms
-* Experienced iOS or Android developers who want to build cross-platform (iOS + Android) apps with one single programming language
+* 1 つの言語で両方のプラットフォームに対応したモバイル アプリ開発に取り組みたい初心者および経験豊富な開発者
+* 1 つのプログラミング言語でクロスプラットフォーム (iOS + Android) アプリを構築したい経験豊富な iOS または Android 開発者
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
+[🔗 コースリンク 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© ムハマド・フセイン・アブータレビ | すべての権利は留保されています
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

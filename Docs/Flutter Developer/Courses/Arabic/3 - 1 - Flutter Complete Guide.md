@@ -2,11 +2,11 @@
 
 # Flutter & Dart - The Complete Guide [2024 Edition]
 
-A Complete Guide to the Flutter SDK and Flutter Framework for building native iOS and Android apps
+دليل كامل لمجموعة أدوات التطوير البرمجية Flutter وإطار عمل Flutter لبناء تطبيقات iOS وAndroid الأصلية
 
 ![Flutter & Dart - The Complete Guide [2024 Edition]](../../assets/Courses/Course%20Covers/3%20-%201%20-%20Flutter%20Complete%20Guide.webp)
 
-## Course Contents
+## محتويات الدورة
 
 * **Introduction**
   * Welcome To This Course!
@@ -327,75 +327,75 @@ A Complete Guide to the Flutter SDK and Flutter Framework for building native iO
   * Course Roundup
   * Bonus Lecture
 
-## Description
+## وصف
 
-Discover the power of Flutter and Dart to create stunning, high-performance mobile apps for iOS and Android with the most comprehensive and bestselling Flutter course! With  **over 30 hours of comprehensive content** , this course is the ultimate resource for anyone who wants to build beautiful, responsive, and feature-rich applications from scratch.
+اكتشف قوة Flutter وDart لإنشاء تطبيقات جوال مذهلة وعالية الأداء لنظامي التشغيل iOS وAndroid من خلال الدورة التدريبية الأكثر شمولاً والأكثر مبيعًا في Flutter! مع **أكثر من 30 ساعة من المحتوى الشامل**، تعد هذه الدورة التدريبية المورد النهائي لأي شخص يريد إنشاء تطبيقات جميلة ومتجاوبة وغنية بالميزات من الصفر.
 
-### Learn from a Bestselling Udemy Instructor: Maximilian Schwarzmüller
+### تعلم من أحد أفضل المدربين مبيعًا على Udemy: Maximilian Schwarzmüller
 
-I'm Maximilian Schwarzmüller, a bestselling, top-rated online course instructor with a vast variety of courses on web and mobile development. I'm excited to be your guide throughout this journey. My goal with this course is to teach you Flutter from the ground up, step-by-step and in a highly practice-oriented way!
+أنا Maximilian Schwarzmüller، مدرب دورات تدريبية عبر الإنترنت الأكثر مبيعًا وأعلى تصنيفًا مع مجموعة كبيرة ومتنوعة من الدورات التدريبية حول تطوير الويب والجوال. يسعدني أن أكون دليلك طوال هذه الرحلة. هدفي من هذه الدورة هو تعليمك Flutter من البداية، خطوة بخطوة وبطريقة عملية للغاية!
 
-### **Unlock Your Potential in Mobile App Development**
+### **افتح إمكاناتك في تطوير تطبيقات الجوال**
 
-This Flutter & Dart course is designed for absolute beginners with no prior programming experience, as well as for those with existing iOS, Android or other development skills. Through video lessons and hands-on projects, you'll learn the ins and outs of Flutter and Dart!
+تم تصميم دورة Flutter وDart هذه للمبتدئين تمامًا الذين ليس لديهم خبرة سابقة في البرمجة، وكذلك لأولئك الذين لديهم مهارات تطوير iOS أو Android أو غيرها من المهارات. من خلال دروس الفيديو والمشاريع العملية، ستتعلم كل ما يتعلق بـ Flutter وDart!
 
-Throughout the course you'll build multiple demo apps - ranging from simple to more complex - and, by the end of the course, you'll be able to build your own iOS and Android apps with Flutter.
+خلال الدورة، ستقوم ببناء تطبيقات تجريبية متعددة - تتراوح من البسيطة إلى الأكثر تعقيدًا - وبحلول نهاية الدورة، ستتمكن من بناء تطبيقات iOS وAndroid الخاصة بك باستخدام Flutter.
 
-**Why Choose Flutter?**
+لماذا تختار Flutter؟
 
-* Developed by Google, Flutter is a framework that allows you to learn one language (Dart) and build beautiful native mobile apps in no time
-* Write code only once and ship your apps both to the Apple App Store and Google Play
-* Use the rich widget suite Flutter provides to add common UI elements or build your own custom widgets
+* تم تطوير Flutter بواسطة Google، وهو إطار عمل يسمح لك بتعلم لغة واحدة (Dart) وبناء تطبيقات جوال أصلية جميلة في وقت قصير
+* اكتب التعليمات البرمجية مرة واحدة فقط وقم بإرسال تطبيقاتك إلى Apple App Store وGoogle Play
+* استخدم مجموعة الأدوات الغنية التي يوفرها Flutter لإضافة عناصر واجهة مستخدم شائعة أو بناء أدوات مخصصة خاصة بك
 
-**What You'll Learn:**
+**ما ستتعلمه:**
 
-* Detailed setup instructions for both macOS and Windows
-* A thorough introduction to Flutter, Dart, and the concept behind widgets
-* An overview of the built-in widgets and how to add your own
-* Debugging tips & tricks
-* Page navigation with tabs, side drawers, and stack-based navigation
-* State management solutions
-* Handling and validating user input
-* Connecting your Flutter app to backend servers by sending HTTP requests
-* User authentication
-* Adding Google Maps
-* Using native device features like the camera
-* Adding beautiful animations & page transitions
-* Image upload
-* Push notifications - manual approach and automated
-* And much more!
+* تعليمات إعداد مفصلة لكل من macOS وWindows
+* مقدمة شاملة عن Flutter وDart والمفهوم وراء الأدوات
+* نظرة عامة على الأدوات المضمنة وكيفية إضافة أدواتك الخاصة
+* نصائح وحيل تصحيح الأخطاء
+* التنقل بين الصفحات باستخدام علامات التبويب والأدراج الجانبية والتنقل القائم على المكدس
+* حلول إدارة الحالة
+* التعامل مع إدخال المستخدم والتحقق منه
+* ربط تطبيق Flutter الخاص بك بخوادم الواجهة الخلفية عن طريق إرسال طلبات HTTP
+* مصادقة المستخدم
+* إضافة خرائط Google
+* استخدام ميزات الجهاز الأصلية مثل الكاميرا
+* إضافة رسوم متحركة جميلة وانتقالات الصفحة
+* تحميل الصور
+* إشعارات الدفع - النهج اليدوي وتلقائية
+* وأكثر من ذلك بكثير!
 
-**Course Highlights:**
+**أبرز ما يميز الدورة:**
 
-* **On-Demand, Video-Based Learning** : An immersive experience with practical examples and demo apps to help you develop your skills at your own pace
-* **Lifetime Access** : Revisit topics and refresh your knowledge anytime
-* **Regularly Updated** : The course has been updated multiple times in the past to ensure it stays up-to-date with the latest industry standards
+* **التعلم حسب الطلب، القائم على الفيديو**: تجربة غامرة مع أمثلة عملية وتطبيقات تجريبية لمساعدتك على تطوير مهاراتك بالسرعة التي تناسبك
+* **الوصول مدى الحياة**: قم بمراجعة الموضوعات وتحديث معرفتك في أي وقت
+* **تحديث منتظم**: تم تحديث الدورة عدة مرات في الماضي لضمان مواكبتها لأحدث معايير الصناعة
 
-### **No Experience Necessary**
+### **لا يلزم الخبرة**
 
-This course is designed to be accessible to everyone, regardless of their programming background. Whether you're a complete beginner or an experienced developer looking to expand your skillset, I will guide you through each step of the process, ensuring you gain a deep understanding of the fundamentals and advanced concepts.
+تم تصميم هذه الدورة لتكون في متناول الجميع، بغض النظر عن خلفيتهم في البرمجة. سواء كنت مبتدئًا تمامًا أو مطورًا متمرسًا يتطلع إلى توسيع مجموعة مهاراتك، فسأرشدك خلال كل خطوة من خطوات العملية، مما يضمن لك اكتساب فهم عميق للأساسيات والمفاهيم المتقدمة.
 
-### **Prerequisites:**
+### **المتطلبات الأساسية:**
 
-* Basic programming language knowledge will help but is not required
-* No prior knowledge of Flutter or Dart is needed
-* No iOS (Swift/ObjectiveC) or Android (Java/Kotlin) development experience required
+* ستساعدك معرفة لغة البرمجة الأساسية ولكنها ليست مطلوبة
+* ليست هناك حاجة إلى معرفة مسبقة بلغة Flutter أو Dart
+* ليست هناك حاجة إلى خبرة تطوير iOS (Swift/ObjectiveC) أو Android (Java/Kotlin)
 
-### **Take the First Step Towards Your Mobile App Development Career**
+### **اتخذ الخطوة الأولى نحو مهنة تطوير تطبيقات الهاتف المحمول الخاصة بك**
 
-With the skyrocketing demand for skilled mobile app developers in today's job market, there has never been a better time to jump into the world of Flutter & Dart. By the end of this course, you'll be fully equipped to design, develop, and deploy stunning iOS and Android apps, setting yourself up for a successful career in mobile app development.
+مع الطلب المتزايد على مطوري تطبيقات الهاتف المحمول المهرة في سوق العمل اليوم، لم يكن هناك وقت أفضل من الآن للقفز إلى عالم Flutter & Dart. بحلول نهاية هذه الدورة، ستكون مجهزًا بالكامل لتصميم وتطوير ونشر تطبيقات iOS وAndroid المذهلة، مما يعدك بمهنة ناجحة في تطوير تطبيقات الهاتف المحمول.
 
-Don't let this opportunity pass you by! Enroll in "Flutter & Dart - The Complete Guide" today and start building amazing apps for the iOS and Android platforms!
+لا تدع هذه الفرصة تفوتك! سجل في "Flutter & Dart - الدليل الكامل" اليوم وابدأ في إنشاء تطبيقات مذهلة لمنصات iOS وAndroid!
 
-### Who this course is for
+### لمن هذه الدورة التدريبية
 
-* Beginner and experienced developers who are interested in diving into mobile app development using one language for both platforms
-* Experienced iOS or Android developers who want to build cross-platform (iOS + Android) apps with one single programming language
+* المطورون المبتدئون والمتمرسون المهتمون بالتعمق في تطوير تطبيقات الأجهزة المحمولة باستخدام لغة واحدة لكلا المنصتين
+* مطورو iOS أو Android المتمرسون الذين يرغبون في إنشاء تطبيقات متعددة المنصات (iOS + Android) باستخدام لغة برمجة واحدة
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
+[🔗 رابط الدورة 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسين أبوطالبي | جميع الحقوق محفوظة
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

@@ -2,11 +2,11 @@
 
 # Flutter & Dart - The Complete Guide [2024 Edition]
 
-A Complete Guide to the Flutter SDK and Flutter Framework for building native iOS and Android apps
+Una guía completa sobre el SDK y el marco de trabajo de Flutter para crear aplicaciones nativas de iOS y Android
 
 ![Flutter & Dart - The Complete Guide [2024 Edition]](../../assets/Courses/Course%20Covers/3%20-%201%20-%20Flutter%20Complete%20Guide.webp)
 
-## Course Contents
+## Contenido del curso
 
 * **Introduction**
   * Welcome To This Course!
@@ -327,75 +327,75 @@ A Complete Guide to the Flutter SDK and Flutter Framework for building native iO
   * Course Roundup
   * Bonus Lecture
 
-## Description
+## Descripción
 
-Discover the power of Flutter and Dart to create stunning, high-performance mobile apps for iOS and Android with the most comprehensive and bestselling Flutter course! With  **over 30 hours of comprehensive content** , this course is the ultimate resource for anyone who wants to build beautiful, responsive, and feature-rich applications from scratch.
+¡Descubre el poder de Flutter y Dart para crear aplicaciones móviles impresionantes y de alto rendimiento para iOS y Android con el curso de Flutter más completo y vendido! Con **más de 30 horas de contenido integral**, este curso es el recurso definitivo para cualquiera que quiera crear aplicaciones hermosas, responsivas y ricas en funciones desde cero.
 
-### Learn from a Bestselling Udemy Instructor: Maximilian Schwarzmüller
+### Aprende de un instructor de Udemy de gran éxito: Maximilian Schwarzmüller
 
-I'm Maximilian Schwarzmüller, a bestselling, top-rated online course instructor with a vast variety of courses on web and mobile development. I'm excited to be your guide throughout this journey. My goal with this course is to teach you Flutter from the ground up, step-by-step and in a highly practice-oriented way!
+Soy Maximilian Schwarzmüller, un instructor de cursos en línea de gran éxito y mejor calificado con una amplia variedad de cursos sobre desarrollo web y móvil. Estoy emocionado de ser tu guía a lo largo de este viaje. Mi objetivo con este curso es enseñarte Flutter desde cero, paso a paso y de una manera muy orientada a la práctica.
 
-### **Unlock Your Potential in Mobile App Development**
+### **Desbloquea tu potencial en el desarrollo de aplicaciones móviles**
 
-This Flutter & Dart course is designed for absolute beginners with no prior programming experience, as well as for those with existing iOS, Android or other development skills. Through video lessons and hands-on projects, you'll learn the ins and outs of Flutter and Dart!
+Este curso de Flutter y Dart está diseñado para principiantes absolutos sin experiencia previa en programación, así como para aquellos con habilidades de desarrollo existentes en iOS, Android u otras plataformas. A través de lecciones en video y proyectos prácticos, aprenderás todos los detalles de Flutter y Dart.
 
-Throughout the course you'll build multiple demo apps - ranging from simple to more complex - and, by the end of the course, you'll be able to build your own iOS and Android apps with Flutter.
+A lo largo del curso, crearás múltiples aplicaciones de demostración, desde las más simples hasta las más complejas, y, al final del curso, podrás crear tus propias aplicaciones para iOS y Android con Flutter.
 
-**Why Choose Flutter?**
+**¿Por qué elegir Flutter?**
 
-* Developed by Google, Flutter is a framework that allows you to learn one language (Dart) and build beautiful native mobile apps in no time
-* Write code only once and ship your apps both to the Apple App Store and Google Play
-* Use the rich widget suite Flutter provides to add common UI elements or build your own custom widgets
+* Flutter, desarrollado por Google, es un marco que te permite aprender un lenguaje (Dart) y crear hermosas aplicaciones móviles nativas en poco tiempo
+* Escribe el código una sola vez y envía tus aplicaciones tanto a la App Store de Apple como a Google Play
+* Usa el conjunto de widgets enriquecido que Flutter ofrece para agregar elementos de interfaz de usuario comunes o crear tus propios widgets personalizados
 
-**What You'll Learn:**
+**Lo que aprenderás:**
 
-* Detailed setup instructions for both macOS and Windows
-* A thorough introduction to Flutter, Dart, and the concept behind widgets
-* An overview of the built-in widgets and how to add your own
-* Debugging tips & tricks
-* Page navigation with tabs, side drawers, and stack-based navigation
-* State management solutions
-* Handling and validating user input
-* Connecting your Flutter app to backend servers by sending HTTP requests
-* User authentication
-* Adding Google Maps
-* Using native device features like the camera
-* Adding beautiful animations & page transitions
-* Image upload
-* Push notifications - manual approach and automated
-* And much more!
+* Instrucciones de configuración detalladas para macOS y Windows
+* Una introducción completa a Flutter, Dart y el concepto detrás de los widgets
+* Una descripción general de los widgets integrados y cómo agregar los tuyos propios
+* Consejos y trucos de depuración
+* Navegación de páginas con pestañas, cajones laterales y navegación basada en pila
+* Soluciones de gestión de estados
+* Manejo y validación de la entrada del usuario
+* Conexión de tu aplicación Flutter a servidores backend mediante el envío de solicitudes HTTP
+* Autenticación de usuarios
+* Agregar Google Maps
+* Uso de funciones nativas del dispositivo como la cámara
+* Agregar hermosas animaciones y transiciones de página
+* Carga de imágenes
+* Notificaciones push: enfoque manual y automatizado
+* ¡Y mucho más!
 
-**Course Highlights:**
+**Aspectos destacados del curso:**
 
-* **On-Demand, Video-Based Learning** : An immersive experience with practical examples and demo apps to help you develop your skills at your own pace
-* **Lifetime Access** : Revisit topics and refresh your knowledge anytime
-* **Regularly Updated** : The course has been updated multiple times in the past to ensure it stays up-to-date with the latest industry standards
+* **Aprendizaje a pedido basado en videos**: una experiencia inmersiva con ejemplos prácticos y aplicaciones de demostración para ayudarlo a desarrollar sus habilidades a su propio ritmo
+* **Acceso de por vida**: revise los temas y actualice sus conocimientos en cualquier momento
+* **Actualización periódica**: el curso se ha actualizado varias veces en el pasado para garantizar que se mantenga actualizado con los últimos estándares de la industria
 
-### **No Experience Necessary**
+### **No se requiere experiencia**
 
-This course is designed to be accessible to everyone, regardless of their programming background. Whether you're a complete beginner or an experienced developer looking to expand your skillset, I will guide you through each step of the process, ensuring you gain a deep understanding of the fundamentals and advanced concepts.
+Este curso está diseñado para que todos puedan acceder a él, independientemente de su experiencia en programación. Ya sea que sea un principiante absoluto o un desarrollador experimentado que busca expandir su conjunto de habilidades, lo guiaré a través de cada paso del proceso, asegurándome de que obtenga una comprensión profunda de los conceptos básicos y avanzados.
 
-### **Prerequisites:**
+### **Requisitos previos:**
 
-* Basic programming language knowledge will help but is not required
-* No prior knowledge of Flutter or Dart is needed
-* No iOS (Swift/ObjectiveC) or Android (Java/Kotlin) development experience required
+* El conocimiento básico de lenguajes de programación será de ayuda, pero no es obligatorio
+* No se necesitan conocimientos previos de Flutter o Dart
+* No se requiere experiencia en desarrollo de iOS (Swift/ObjectiveC) o Android (Java/Kotlin)
 
-### **Take the First Step Towards Your Mobile App Development Career**
+### **Da el primer paso hacia tu carrera en el desarrollo de aplicaciones móviles**
 
-With the skyrocketing demand for skilled mobile app developers in today's job market, there has never been a better time to jump into the world of Flutter & Dart. By the end of this course, you'll be fully equipped to design, develop, and deploy stunning iOS and Android apps, setting yourself up for a successful career in mobile app development.
+Con la creciente demanda de desarrolladores de aplicaciones móviles capacitados en el mercado laboral actual, nunca ha habido un mejor momento para adentrarse en el mundo de Flutter y Dart. Al finalizar este curso, estarás completamente equipado para diseñar, desarrollar e implementar increíbles aplicaciones para iOS y Android, lo que te preparará para una carrera exitosa en el desarrollo de aplicaciones móviles.
 
-Don't let this opportunity pass you by! Enroll in "Flutter & Dart - The Complete Guide" today and start building amazing apps for the iOS and Android platforms!
+¡No dejes pasar esta oportunidad! ¡Inscríbete en "Flutter & Dart - The Complete Guide" hoy mismo y comienza a crear aplicaciones increíbles para las plataformas iOS y Android!
 
-### Who this course is for
+### A quién va dirigido este curso
 
-* Beginner and experienced developers who are interested in diving into mobile app development using one language for both platforms
-* Experienced iOS or Android developers who want to build cross-platform (iOS + Android) apps with one single programming language
+* Desarrolladores principiantes y experimentados que estén interesados ​​en adentrarse en el desarrollo de aplicaciones móviles utilizando un lenguaje para ambas plataformas
+* Desarrolladores experimentados de iOS o Android que quieran crear aplicaciones multiplataforma (iOS + Android) con un solo lenguaje de programación
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
+[🔗 Enlace del curso 🔗](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/?couponCode=LETSLEARNNOW)
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Muhammad Husain Abootalebi | Todos los derechos están reservados
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
