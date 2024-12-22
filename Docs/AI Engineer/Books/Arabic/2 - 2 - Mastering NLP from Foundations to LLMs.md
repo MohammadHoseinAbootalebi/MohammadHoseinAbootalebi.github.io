@@ -4,7 +4,7 @@
 
 "Mastering NLP from Foundations to LLMs" is a comprehensive guide authored by Lior Gazit and Meysam Ghaffari, published on April 26, 2024.  This book offers an in-depth introduction to Natural Language Processing (NLP) techniques, beginning with the mathematical foundations of machine learning and progressing to advanced applications involving Large Language Models (LLMs). It covers essential topics such as text preprocessing, traditional machine learning methods for text classification, and deep learning language models. Additionally, the authors explore the theory, design, and implementation of LLMs, providing practical Python code samples throughout. The book also discusses future trends in NLP and includes expert insights, making it a valuable resource for both beginners and experienced practitioners aiming to solve real-world business problems using Python.
 
-![Mastering NLP from Foundations to LLMs](../../assets/Books/Book%20Covers/4%20-%20Mastering%20NLP%20from%20Foundations%20to%20LLMs.jpg)
+![Mastering NLP from Foundations to LLMs](../../assets/Books/Book%20Covers/2%20-%202%20-%20Mastering%20NLP%20from%20Foundations%20to%20LLMs.jpg)
 
 ## Table of Contents
 
