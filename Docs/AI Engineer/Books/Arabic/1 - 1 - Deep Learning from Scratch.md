@@ -2,11 +2,11 @@
 
 # Deep Learning from Scratch
 
-*Deep Learning from Scratch* by Seth Weidman is an excellent resource for readers seeking to understand the core principles of deep learning without relying heavily on pre-built libraries. The book takes a bottom-up approach, guiding readers through the process of building deep learning algorithms from the ground up using Python and NumPy. It explains fundamental concepts such as gradient descent, backpropagation, and neural network architectures with clarity, making them accessible to those with basic programming and math knowledge. By constructing key components of deep learning systems step by step, readers gain a solid foundation in how these systems work internally. This hands-on guide is perfect for anyone who wants to deeply understand the mechanics of deep learning and develop a robust intuition for building models from scratch.
+*يعد كتاب Deep Learning from Scratch* للمؤلف Seth Weidman مصدرًا ممتازًا للقراء الذين يسعون إلى فهم المبادئ الأساسية للتعلم العميق دون الاعتماد بشكل كبير على المكتبات المعدة مسبقًا. يتبنى الكتاب نهجًا من الأسفل إلى الأعلى، حيث يرشد القراء خلال عملية بناء خوارزميات التعلم العميق من الألف إلى الياء باستخدام Python وNumPy. وهو يشرح المفاهيم الأساسية مثل الانحدار التدرجي، والانتشار العكسي، وهندسة الشبكات العصبية بوضوح، مما يجعلها في متناول أولئك الذين لديهم معرفة أساسية بالبرمجة والرياضيات. من خلال بناء المكونات الرئيسية لأنظمة التعلم العميق خطوة بخطوة، يكتسب القراء أساسًا متينًا في كيفية عمل هذه الأنظمة داخليًا. يعد هذا الدليل العملي مثاليًا لأي شخص يريد فهم آليات التعلم العميق بشكل عميق وتطوير حدس قوي لبناء النماذج من الصفر.
 
 ![Deep Learning from Scratch](../../assets/Books/Book%20Covers/1%20-%201%20-%20Deep%20Learning%20from%20Scratch.png)
 
-## Table of Contents
+## جدول المحتويات
 
 - Chapter 1: Foundations
 - Chapter 2: Fundamentals
@@ -16,16 +16,16 @@
 - Chapter 6: Recurrent Neural Networks
 - Chapter 7: PyTorch
 
-## Overview
+## ملخص
 
-*Deep Learning from Scratch: Building with Python from First Principles* by Seth Weidman is a comprehensive resource that guides readers through the foundational concepts of deep learning by constructing neural networks from the ground up using Python and NumPy. The book emphasizes a first-principles approach, ensuring that readers gain a deep understanding of the mathematical and computational underpinnings of neural networks. This methodical construction aids in demystifying complex topics, making them accessible to individuals with a basic background in programming and mathematics.
+*التعلم العميق من الصفر: البناء باستخدام بايثون من المبادئ الأولى* بقلم سيث وايدمان هو مورد شامل يرشد القراء خلال المفاهيم الأساسية للتعلم العميق من خلال بناء الشبكات العصبية من الألف إلى الياء باستخدام بايثون ونومباي. يركز الكتاب على نهج المبادئ الأولى، مما يضمن حصول القراء على فهم عميق للأسس الرياضية والحسابية للشبكات العصبية. يساعد هذا البناء المنهجي في إزالة الغموض عن الموضوعات المعقدة، مما يجعلها في متناول الأفراد الذين لديهم خلفية أساسية في البرمجة والرياضيات.
 
-Throughout the text, Weidman introduces essential deep learning architectures, including multilayer neural networks, convolutional neural networks (CNNs), and recurrent neural networks (RNNs). Each architecture is explored in detail, with explanations of their theoretical foundations followed by practical implementation examples. By building these models from scratch, readers develop a robust intuition for how different components interact within a neural network, enhancing their ability to design and troubleshoot models in real-world applications.
+على مدار النص، يقدم وايدمان هياكل التعلم العميق الأساسية، بما في ذلك الشبكات العصبية متعددة الطبقات، والشبكات العصبية التلافيفية (CNNs)، والشبكات العصبية المتكررة (RNNs). يتم استكشاف كل بنية بالتفصيل، مع شرح أسسها النظرية متبوعة بأمثلة عملية للتنفيذ. من خلال بناء هذه النماذج من الصفر، يطور القراء حدسًا قويًا لكيفية تفاعل المكونات المختلفة داخل الشبكة العصبية، مما يعزز قدرتهم على تصميم النماذج واستكشاف الأخطاء وإصلاحها في التطبيقات في العالم الحقيقي.
 
-In addition to foundational architectures, the book delves into advanced topics such as automatic differentiation, optimization techniques, and the implementation of deep learning models using the PyTorch framework. This progression from basic to advanced subjects equips readers with the skills necessary to tackle complex deep learning challenges. By the end of the book, readers will have developed a solid foundation in deep learning principles and practical experience in building and deploying models, positioning them for success in the rapidly evolving field of artificial intelligence.
+بالإضافة إلى البنيات الأساسية، يتعمق الكتاب في موضوعات متقدمة مثل التمايز التلقائي وتقنيات التحسين وتنفيذ نماذج التعلم العميق باستخدام إطار عمل PyTorch. هذا التقدم من الموضوعات الأساسية إلى الموضوعات المتقدمة يزود القراء بالمهارات اللازمة لمواجهة تحديات التعلم العميق المعقدة. بحلول نهاية الكتاب، سيكون القراء قد طوروا أساسًا متينًا في مبادئ التعلم العميق والخبرة العملية في بناء ونشر النماذج، مما يضعهم في وضع يسمح لهم بالنجاح في مجال الذكاء الاصطناعي سريع التطور.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسين أبوطالبي | جميع الحقوق محفوظة
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

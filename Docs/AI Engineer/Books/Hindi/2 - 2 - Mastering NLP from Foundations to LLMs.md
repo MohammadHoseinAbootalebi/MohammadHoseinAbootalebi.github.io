@@ -2,11 +2,11 @@
 
 # Mastering NLP from Foundations to LLMs
 
-"Mastering NLP from Foundations to LLMs" is a comprehensive guide authored by Lior Gazit and Meysam Ghaffari, published on April 26, 2024.  This book offers an in-depth introduction to Natural Language Processing (NLP) techniques, beginning with the mathematical foundations of machine learning and progressing to advanced applications involving Large Language Models (LLMs). It covers essential topics such as text preprocessing, traditional machine learning methods for text classification, and deep learning language models. Additionally, the authors explore the theory, design, and implementation of LLMs, providing practical Python code samples throughout. The book also discusses future trends in NLP and includes expert insights, making it a valuable resource for both beginners and experienced practitioners aiming to solve real-world business problems using Python.
+"नींव से एलएलएम तक एनएलपी में महारत हासिल करना" लियोर गज़िट और मेसम गफ़री द्वारा लिखित एक व्यापक मार्गदर्शिका है, जिसे 26 अप्रैल, 2024 को प्रकाशित किया गया था। यह पुस्तक प्राकृतिक भाषा प्रसंस्करण (एनएलपी) तकनीकों का गहन परिचय प्रदान करती है, जो मशीन लर्निंग के गणितीय आधारों से शुरू होकर बड़े भाषा मॉडल (एलएलएम) से जुड़े उन्नत अनुप्रयोगों तक आगे बढ़ती है। इसमें टेक्स्ट प्रीप्रोसेसिंग, टेक्स्ट वर्गीकरण के लिए पारंपरिक मशीन लर्निंग विधियाँ और डीप लर्निंग लैंग्वेज मॉडल जैसे आवश्यक विषय शामिल हैं। इसके अतिरिक्त, लेखक एलएलएम के सिद्धांत, डिज़ाइन और कार्यान्वयन का पता लगाते हैं, जो पूरे समय व्यावहारिक पायथन कोड नमूने प्रदान करते हैं। पुस्तक एनएलपी में भविष्य के रुझानों पर भी चर्चा करती है और इसमें विशेषज्ञ अंतर्दृष्टि शामिल है, जो इसे पायथन का उपयोग करके वास्तविक दुनिया की व्यावसायिक समस्याओं को हल करने का लक्ष्य रखने वाले शुरुआती और अनुभवी चिकित्सकों दोनों के लिए एक मूल्यवान संसाधन बनाती है।
 
 ![Mastering NLP from Foundations to LLMs](../../assets/Books/Book%20Covers/2%20-%202%20-%20Mastering%20NLP%20from%20Foundations%20to%20LLMs.jpg)
 
-## Table of Contents
+## विषयसूची
 
 - Chapter 1: Navigating the NLP Landscape: A Comprehensive Introduction
 - Chapter 2: Mastering Linear Algebra, Probability, and Statistics for Machine Learning and NLP
@@ -20,16 +20,16 @@
 - Chapter 10: Riding the Wave: Analyzing Past, Present, and Future Trends Shaped by LLMs and AI
 - Chapter 11: Exclusive Industry Insights: Perspectives and Predictions from World Class Experts
 
-## Overview
+## अवलोकन
 
-"Mastering NLP from Foundations to LLMs" is a comprehensive guide that delves into the field of Natural Language Processing (NLP), authored by Lior Gazit and Meysam Ghaffari. The book begins with the mathematical foundations essential for machine learning and NLP, covering topics such as linear algebra, probability, and statistics. It then progresses to advanced techniques, including text preprocessing, traditional machine learning methods for text classification, and deep learning language models.
+"नींव से एलएलएम तक एनएलपी में महारत हासिल करना" एक व्यापक मार्गदर्शिका है जो प्राकृतिक भाषा प्रसंस्करण (एनएलपी) के क्षेत्र में गहराई से जाती है, जिसे लियोर गज़िट और मेसम गफ़री ने लिखा है। पुस्तक मशीन लर्निंग और एनएलपी के लिए आवश्यक गणितीय नींव से शुरू होती है, जिसमें रैखिक बीजगणित, संभाव्यता और सांख्यिकी जैसे विषय शामिल हैं। इसके बाद यह उन्नत तकनीकों की ओर बढ़ता है, जिसमें टेक्स्ट प्रीप्रोसेसिंग, टेक्स्ट वर्गीकरण के लिए पारंपरिक मशीन लर्निंग विधियाँ और डीप लर्निंग लैंग्वेज मॉडल शामिल हैं।
 
-A significant portion of the book is dedicated to Large Language Models (LLMs), exploring their theory, design, and implementation for various AI applications. The authors provide practical Python code samples throughout, enabling readers to apply the concepts discussed. Additionally, the book offers insights into future trends in NLP, featuring expert opinions from industry leaders, making it a valuable resource for both beginners and experienced practitioners.
+पुस्तक का एक महत्वपूर्ण हिस्सा बड़े भाषा मॉडल (एलएलएम) को समर्पित है, जो विभिन्न एआई अनुप्रयोगों के लिए उनके सिद्धांत, डिज़ाइन और कार्यान्वयन की खोज करता है। लेखक पूरे समय व्यावहारिक पायथन कोड नमूने प्रदान करते हैं, जिससे पाठक चर्चा की गई अवधारणाओं को लागू कर सकते हैं। इसके अतिरिक्त, पुस्तक एनएलपी में भविष्य के रुझानों के बारे में अंतर्दृष्टि प्रदान करती है, जिसमें उद्योग के नेताओं की विशेषज्ञ राय शामिल है, जो इसे शुरुआती और अनुभवी चिकित्सकों दोनों के लिए एक मूल्यवान संसाधन बनाती है।
 
-To complement the theoretical knowledge, the authors have made available a GitHub repository containing code examples and notebooks corresponding to various chapters. This hands-on approach facilitates a deeper understanding of NLP techniques and their real-world applications, empowering readers to develop and implement innovative solutions in their respective fields.
+सैद्धांतिक ज्ञान को पूरक करने के लिए, लेखकों ने विभिन्न अध्यायों के अनुरूप कोड उदाहरण और नोटबुक युक्त एक GitHub रिपॉजिटरी उपलब्ध कराई है। यह व्यावहारिक दृष्टिकोण एनएलपी तकनीकों और उनके वास्तविक-विश्व अनुप्रयोगों की गहन समझ को सुगम बनाता है, तथा पाठकों को अपने-अपने क्षेत्रों में नवीन समाधान विकसित करने और क्रियान्वित करने में सक्षम बनाता है।
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© मुहम्मद हुसैन अबूतालेबी | सभी अधिकार सुरक्षित हैं
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

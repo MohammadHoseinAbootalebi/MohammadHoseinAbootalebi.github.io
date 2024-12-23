@@ -2,11 +2,11 @@
 
 # Modern Computer Vision with PyTorch
 
-*Modern Computer Vision with PyTorch* by Kishore Ayyadevare and Yeshwanth Reddy is an insightful guide to leveraging the PyTorch deep learning framework for solving computer vision challenges. The book caters to both beginners and experienced practitioners, covering fundamental concepts as well as advanced techniques in computer vision. It introduces the essentials of PyTorch, delves into popular architectures like CNNs and transformers, and explores applications such as object detection, segmentation, and generative models. With a hands-on approach, the authors provide practical examples and real-world projects, enabling readers to build, train, and optimize their own models effectively. This comprehensive resource is ideal for anyone looking to advance their understanding of modern computer vision techniques using PyTorch.
+*Современное компьютерное зрение с PyTorch* Кишора Айядеваре и Йешванта Редди — это содержательное руководство по использованию фреймворка глубокого обучения PyTorch для решения задач компьютерного зрения. Книга рассчитана как на новичков, так и на опытных практиков, охватывая как фундаментальные концепции, так и передовые методы компьютерного зрения. Она знакомит с основами PyTorch, углубляется в популярные архитектуры, такие как CNN и трансформаторы, и исследует такие приложения, как обнаружение объектов, сегментация и генеративные модели. Используя практический подход, авторы приводят практические примеры и реальные проекты, позволяя читателям эффективно создавать, обучать и оптимизировать собственные модели. Этот всеобъемлющий ресурс идеально подходит для тех, кто хочет углубить свое понимание современных методов компьютерного зрения с помощью PyTorch.
 
 ![Modern Computer Vision with PyTorch](../../assets/Books/Book%20Covers/0%20-%201%20-%20Computer%20Vision%20with%20PyTorch.jpg)
 
-## Table of Contents
+## Оглавление
 
 - Chapter 1: Artificial Neural Network Fundamentals
 - Chapter 2: PyTorch Fundamentals
@@ -27,16 +27,16 @@
 - Chapter 17: Applications of Stable Diffusion
 - Chapter 18: Moving a Model to Production
 
-## Overview
+## Обзор
 
-*Modern Computer Vision with PyTorch* by V Kishore Ayyadevara and Yeshwanth Reddy is a comprehensive guide that delves into the application of deep learning techniques for computer vision tasks using the PyTorch framework. The book is structured to cater to both beginners and experienced practitioners, starting with foundational concepts such as artificial neural networks and progressing to advanced topics like generative adversarial networks (GANs) and reinforcement learning. Each chapter is meticulously crafted to provide theoretical insights accompanied by practical implementations, enabling readers to build and deploy sophisticated computer vision models effectively.
+*Современное компьютерное зрение с PyTorch* В. Кишора Айядевары и Йешванта Редди — это всеобъемлющее руководство, в котором подробно рассматривается применение методов глубокого обучения для задач компьютерного зрения с использованием фреймворка PyTorch. Книга структурирована так, чтобы быть полезной как новичкам, так и опытным практикам, начиная с основополагающих концепций, таких как искусственные нейронные сети, и переходя к продвинутым темам, таким как генеративно-состязательные сети (GAN) и обучение с подкреплением. Каждая глава тщательно продумана, чтобы предоставить теоретические идеи, сопровождаемые практическими реализациями, что позволяет читателям эффективно создавать и развертывать сложные модели компьютерного зрения.
 
-One of the standout features of this book is its hands-on approach, offering over 50 real-world computer vision problems with detailed solutions implemented in PyTorch. Readers are guided through building neural networks from scratch, performing image classification with convolutional neural networks (CNNs), and implementing object detection and segmentation using architectures like R-CNN, SSD, and YOLO. The inclusion of projects on facial expression manipulation, image generation with advanced GANs, and combining computer vision with natural language processing for tasks like optical character recognition (OCR) and image captioning further enriches the learning experience.
+Одной из выдающихся особенностей этой книги является ее практический подход, предлагающий более 50 реальных задач компьютерного зрения с подробными решениями, реализованными в PyTorch. Читатели проходят через создание нейронных сетей с нуля, выполнение классификации изображений с помощью сверточных нейронных сетей (CNN) и реализацию обнаружения и сегментации объектов с использованием таких архитектур, как R-CNN, SSD и YOLO. Включение проектов по манипулированию выражением лица, созданию изображений с помощью продвинутых GAN и объединению компьютерного зрения с обработкой естественного языка для таких задач, как оптическое распознавание символов (OCR) и субтитрование изображений, еще больше обогащает процесс обучения.
 
-Additionally, the authors provide valuable insights into deploying deep learning models in production environments, covering aspects such as creating APIs, containerization with Docker, and cloud deployment using AWS. The book also emphasizes best practices and introduces a custom library created especially for this book, enhancing the efficiency of developing computer vision applications. With its blend of theoretical depth and practical application, *Modern Computer Vision with PyTorch* serves as an essential resource for anyone aiming to master computer vision using one of the most popular deep learning frameworks.  
+Кроме того, авторы предоставляют ценные сведения о развертывании моделей глубокого обучения в производственных средах, охватывая такие аспекты, как создание API, контейнеризация с помощью Docker и развертывание в облаке с помощью AWS. В книге также подчеркивается передовой опыт и представлена ​​специальная библиотека, созданная специально для этой книги, что повышает эффективность разработки приложений компьютерного зрения. Благодаря сочетанию теоретической глубины и практического применения, *Современное компьютерное зрение с PyTorch* служит важным ресурсом для тех, кто стремится освоить компьютерное зрение с помощью одной из самых популярных платформ глубокого обучения.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Мухаммад Хусейн Абуталеби | Все права защищены
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

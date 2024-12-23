@@ -2,11 +2,11 @@
 
 # Deep Learning from Scratch
 
-*Deep Learning from Scratch* by Seth Weidman is an excellent resource for readers seeking to understand the core principles of deep learning without relying heavily on pre-built libraries. The book takes a bottom-up approach, guiding readers through the process of building deep learning algorithms from the ground up using Python and NumPy. It explains fundamental concepts such as gradient descent, backpropagation, and neural network architectures with clarity, making them accessible to those with basic programming and math knowledge. By constructing key components of deep learning systems step by step, readers gain a solid foundation in how these systems work internally. This hands-on guide is perfect for anyone who wants to deeply understand the mechanics of deep learning and develop a robust intuition for building models from scratch.
+Seth Weidman 著の「Deep Learning from Scratch」は、あらかじめ構築されたライブラリに大きく依存せずにディープラーニングのコア原理を理解したい読者にとって優れたリソースです。この本はボトムアップ アプローチを採用しており、Python と NumPy を使用してディープラーニング アルゴリズムをゼロから構築するプロセスを読者に案内します。勾配降下法、バックプロパゲーション、ニューラル ネットワーク アーキテクチャなどの基本概念をわかりやすく説明しており、基本的なプログラミングと数学の知識があれば誰でも理解できます。ディープラーニング システムの主要コンポーネントを段階的に構築することで、読者はこれらのシステムの内部動作についてしっかりとした基礎を身に付けることができます。この実践的なガイドは、ディープラーニングの仕組みを深く理解し、モデルをゼロから構築するための強固な直感を養いたい人にとって最適です。
 
 ![Deep Learning from Scratch](../../assets/Books/Book%20Covers/1%20-%201%20-%20Deep%20Learning%20from%20Scratch.png)
 
-## Table of Contents
+## 目次
 
 - Chapter 1: Foundations
 - Chapter 2: Fundamentals
@@ -16,16 +16,16 @@
 - Chapter 6: Recurrent Neural Networks
 - Chapter 7: PyTorch
 
-## Overview
+## 概要
 
-*Deep Learning from Scratch: Building with Python from First Principles* by Seth Weidman is a comprehensive resource that guides readers through the foundational concepts of deep learning by constructing neural networks from the ground up using Python and NumPy. The book emphasizes a first-principles approach, ensuring that readers gain a deep understanding of the mathematical and computational underpinnings of neural networks. This methodical construction aids in demystifying complex topics, making them accessible to individuals with a basic background in programming and mathematics.
+Seth Weidman 著の「Deep Learning from Scratch: Building with Python from First Principles」は、Python と NumPy を使用してニューラル ネットワークをゼロから構築することで、ディープラーニングの基本概念を読者に教える総合的なリソースです。この本では、第一原理アプローチを強調し、読者がニューラル ネットワークの数学的および計算的基盤を深く理解できるようにします。この系統的な構成により、複雑なトピックをわかりやすく説明し、プログラミングと数学の基本的な知識を持つ人でも理解できるようになります。
 
-Throughout the text, Weidman introduces essential deep learning architectures, including multilayer neural networks, convolutional neural networks (CNNs), and recurrent neural networks (RNNs). Each architecture is explored in detail, with explanations of their theoretical foundations followed by practical implementation examples. By building these models from scratch, readers develop a robust intuition for how different components interact within a neural network, enhancing their ability to design and troubleshoot models in real-world applications.
+テキスト全体を通じて、Weidman は、多層ニューラル ネットワーク、畳み込みニューラル ネットワーク (CNN)、再帰型ニューラル ネットワーク (RNN) など、重要なディープラーニング アーキテクチャを紹介しています。各アーキテクチャは、理論的基礎の説明に続いて実用的な実装例を示しながら詳細に検討されています。これらのモデルをゼロから構築することで、読者はニューラル ネットワーク内でさまざまなコンポーネントがどのように相互作用するかについて強固な直感を養い、実際のアプリケーションでモデルを設計およびトラブルシューティングする能力を高めます。
 
-In addition to foundational architectures, the book delves into advanced topics such as automatic differentiation, optimization techniques, and the implementation of deep learning models using the PyTorch framework. This progression from basic to advanced subjects equips readers with the skills necessary to tackle complex deep learning challenges. By the end of the book, readers will have developed a solid foundation in deep learning principles and practical experience in building and deploying models, positioning them for success in the rapidly evolving field of artificial intelligence.
+本書では、基礎的なアーキテクチャに加えて、自動微分、最適化手法、PyTorch フレームワークを使用したディープラーニング モデルの実装などの高度なトピックについても詳しく説明しています。基礎から高度なトピックへと進むことで、読者は複雑なディープラーニングの課題に取り組むために必要なスキルを身に付けることができます。本書を読み終える頃には、読者はディープラーニングの原理に関する強固な基礎と、モデルの構築と展開に関する実践的な経験を身に付け、急速に進化する人工知能の分野で成功するための準備を整えることができます。
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© ムハマド・フセイン・アブータレビ | すべての権利は留保されています
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

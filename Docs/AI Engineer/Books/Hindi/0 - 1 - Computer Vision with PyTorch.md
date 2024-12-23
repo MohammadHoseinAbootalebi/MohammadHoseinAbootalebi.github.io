@@ -2,11 +2,11 @@
 
 # Modern Computer Vision with PyTorch
 
-*Modern Computer Vision with PyTorch* by Kishore Ayyadevare and Yeshwanth Reddy is an insightful guide to leveraging the PyTorch deep learning framework for solving computer vision challenges. The book caters to both beginners and experienced practitioners, covering fundamental concepts as well as advanced techniques in computer vision. It introduces the essentials of PyTorch, delves into popular architectures like CNNs and transformers, and explores applications such as object detection, segmentation, and generative models. With a hands-on approach, the authors provide practical examples and real-world projects, enabling readers to build, train, and optimize their own models effectively. This comprehensive resource is ideal for anyone looking to advance their understanding of modern computer vision techniques using PyTorch.
+किशोर अय्यादेवरे और यशवंत रेड्डी द्वारा लिखित *मॉडर्न कंप्यूटर विज़न विद पायटॉर्च* कंप्यूटर विज़न चुनौतियों को हल करने के लिए पायटॉर्च डीप लर्निंग फ्रेमवर्क का लाभ उठाने के लिए एक व्यावहारिक मार्गदर्शिका है। यह पुस्तक शुरुआती और अनुभवी दोनों तरह के अभ्यासियों के लिए है, जिसमें कंप्यूटर विज़न में बुनियादी अवधारणाओं के साथ-साथ उन्नत तकनीकों को भी शामिल किया गया है। यह PyTorch की अनिवार्यताओं का परिचय देता है, CNN और ट्रांसफ़ॉर्मर जैसे लोकप्रिय आर्किटेक्चर में गहराई से जाता है, और ऑब्जेक्ट डिटेक्शन, सेगमेंटेशन और जनरेटिव मॉडल जैसे अनुप्रयोगों की खोज करता है। व्यावहारिक दृष्टिकोण के साथ, लेखक व्यावहारिक उदाहरण और वास्तविक दुनिया की परियोजनाएँ प्रदान करते हैं, जिससे पाठक अपने स्वयं के मॉडल को प्रभावी ढंग से बनाने, प्रशिक्षित करने और अनुकूलित करने में सक्षम होते हैं। यह व्यापक संसाधन PyTorch का उपयोग करके आधुनिक कंप्यूटर विज़न तकनीकों की अपनी समझ को आगे बढ़ाने के इच्छुक किसी भी व्यक्ति के लिए आदर्श है।
 
 ![Modern Computer Vision with PyTorch](../../assets/Books/Book%20Covers/0%20-%201%20-%20Computer%20Vision%20with%20PyTorch.jpg)
 
-## Table of Contents
+## विषयसूची
 
 - Chapter 1: Artificial Neural Network Fundamentals
 - Chapter 2: PyTorch Fundamentals
@@ -27,16 +27,16 @@
 - Chapter 17: Applications of Stable Diffusion
 - Chapter 18: Moving a Model to Production
 
-## Overview
+## अवलोकन
 
-*Modern Computer Vision with PyTorch* by V Kishore Ayyadevara and Yeshwanth Reddy is a comprehensive guide that delves into the application of deep learning techniques for computer vision tasks using the PyTorch framework. The book is structured to cater to both beginners and experienced practitioners, starting with foundational concepts such as artificial neural networks and progressing to advanced topics like generative adversarial networks (GANs) and reinforcement learning. Each chapter is meticulously crafted to provide theoretical insights accompanied by practical implementations, enabling readers to build and deploy sophisticated computer vision models effectively.
+वी किशोर अय्यादेवरा और यशवंत रेड्डी द्वारा लिखित *मॉडर्न कंप्यूटर विज़न विद पायटॉर्च* एक व्यापक मार्गदर्शिका है जो पायटॉर्च फ्रेमवर्क का उपयोग करके कंप्यूटर विज़न कार्यों के लिए डीप लर्निंग तकनीकों के अनुप्रयोग पर गहन जानकारी देती है। यह पुस्तक शुरुआती और अनुभवी दोनों तरह के अभ्यासकर्ताओं के लिए बनाई गई है, जो कृत्रिम तंत्रिका नेटवर्क जैसी मूलभूत अवधारणाओं से शुरू होकर जनरेटिव एडवर्सरियल नेटवर्क (GAN) और सुदृढीकरण सीखने जैसे उन्नत विषयों तक आगे बढ़ती है। प्रत्येक अध्याय को व्यावहारिक कार्यान्वयन के साथ सैद्धांतिक अंतर्दृष्टि प्रदान करने के लिए सावधानीपूर्वक तैयार किया गया है, जिससे पाठक परिष्कृत कंप्यूटर विज़न मॉडल को प्रभावी ढंग से बना और तैनात कर सकें।
 
-One of the standout features of this book is its hands-on approach, offering over 50 real-world computer vision problems with detailed solutions implemented in PyTorch. Readers are guided through building neural networks from scratch, performing image classification with convolutional neural networks (CNNs), and implementing object detection and segmentation using architectures like R-CNN, SSD, and YOLO. The inclusion of projects on facial expression manipulation, image generation with advanced GANs, and combining computer vision with natural language processing for tasks like optical character recognition (OCR) and image captioning further enriches the learning experience.
+इस पुस्तक की एक खास विशेषता इसका व्यावहारिक दृष्टिकोण है, जो पायटॉर्च में कार्यान्वित विस्तृत समाधानों के साथ 50 से अधिक वास्तविक दुनिया की कंप्यूटर विज़न समस्याओं की पेशकश करता है। पाठकों को स्क्रैच से न्यूरल नेटवर्क बनाने, कन्वोल्यूशनल न्यूरल नेटवर्क (CNN) के साथ इमेज क्लासिफिकेशन करने और R-CNN, SSD और YOLO जैसे आर्किटेक्चर का उपयोग करके ऑब्जेक्ट डिटेक्शन और सेगमेंटेशन को लागू करने के माध्यम से निर्देशित किया जाता है। चेहरे के भावों में हेरफेर, उन्नत GAN के साथ छवि निर्माण, तथा ऑप्टिकल कैरेक्टर रिकग्निशन (OCR) और छवि कैप्शनिंग जैसे कार्यों के लिए कंप्यूटर विज़न को प्राकृतिक भाषा प्रसंस्करण के साथ संयोजित करने पर परियोजनाओं को शामिल करने से सीखने का अनुभव और समृद्ध होता है।
 
-Additionally, the authors provide valuable insights into deploying deep learning models in production environments, covering aspects such as creating APIs, containerization with Docker, and cloud deployment using AWS. The book also emphasizes best practices and introduces a custom library created especially for this book, enhancing the efficiency of developing computer vision applications. With its blend of theoretical depth and practical application, *Modern Computer Vision with PyTorch* serves as an essential resource for anyone aiming to master computer vision using one of the most popular deep learning frameworks.  
+इसके अतिरिक्त, लेखक उत्पादन वातावरण में डीप लर्निंग मॉडल को तैनात करने में मूल्यवान अंतर्दृष्टि प्रदान करते हैं, जिसमें API बनाना, Docker के साथ कंटेनरीकरण और AWS का उपयोग करके क्लाउड परिनियोजन जैसे पहलू शामिल हैं। पुस्तक सर्वोत्तम प्रथाओं पर भी जोर देती है और विशेष रूप से इस पुस्तक के लिए बनाई गई एक कस्टम लाइब्रेरी पेश करती है, जो कंप्यूटर विज़न अनुप्रयोगों को विकसित करने की दक्षता को बढ़ाती है। सैद्धांतिक गहराई और व्यावहारिक अनुप्रयोग के अपने मिश्रण के साथ, *मॉडर्न कंप्यूटर विज़न विद पायटॉर्च* सबसे लोकप्रिय डीप लर्निंग फ्रेमवर्क में से एक का उपयोग करके कंप्यूटर विज़न में महारत हासिल करने का लक्ष्य रखने वाले किसी भी व्यक्ति के लिए एक आवश्यक संसाधन के रूप में कार्य करता है।
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© मुहम्मद हुसैन अबूतालेबी | सभी अधिकार सुरक्षित हैं
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

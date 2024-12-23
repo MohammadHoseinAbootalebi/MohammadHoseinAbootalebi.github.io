@@ -2,11 +2,11 @@
 
 # Natural Language Processing with Python
 
-Natural Language Processing with Python is a practical guide that introduces readers to the world of natural language processing using the Python programming language and the Natural Language Toolkit (NLTK). The book covers key NLP concepts and techniques, such as text preprocessing, tokenization, and part-of-speech tagging, while providing hands-on examples to help readers build and analyze language-based applications. It also addresses challenges in processing human language, like ambiguity and context, equipping readers with the tools to develop their own text analysis and language understanding projects.
+پردازش زبان طبیعی با پایتون راهنمای عملی است که خوانندگان را با دنیای پردازش زبان طبیعی با استفاده از زبان برنامه نویسی پایتون و جعبه ابزار زبان طبیعی (NLTK) آشنا می کند. این کتاب مفاهیم و تکنیک‌های کلیدی NLP، مانند پیش‌پردازش متن، نشانه‌گذاری، و برچسب‌گذاری بخشی از گفتار را پوشش می‌دهد، در حالی که نمونه‌های عملی را برای کمک به خوانندگان در ساخت و تجزیه و تحلیل برنامه‌های کاربردی مبتنی بر زبان ارائه می‌دهد. همچنین به چالش‌های پردازش زبان انسانی، مانند ابهام و زمینه، تجهیز خوانندگان به ابزارهایی برای توسعه تجزیه و تحلیل متن و پروژه‌های درک زبان خود می‌پردازد.
 
 ![Natural Language Processing with Python](../../assets/Books/Book%20Covers/2%20-%201%20-%20Natural%20Language%20Processing%20with%20Python.png)
 
-## Table of Contents
+## فهرست مطالب
 
 - Chapter 1: Language Processing and Python
 - Chapter 2: Accessing Text Corpora and Lexical Resources
@@ -20,16 +20,16 @@ Natural Language Processing with Python is a practical guide that introduces rea
 - Chapter 10: Analyzing the Meaning of Sentences
 - Chapter 11: Managing Linguistic Data
 
-## Overview
+## نمای کلی
 
-*Natural Language Processing with Python* by Steven Bird, Ewan Klein, and Edward Loper is a comprehensive guide that introduces readers to the field of natural language processing (NLP) using the Python programming language. The book emphasizes practical techniques for analyzing and processing human language data, making it accessible to both beginners and experienced programmers interested in linguistic data analysis.
+*پردازش زبان طبیعی با پایتون* توسط استیون برد، ایوان کلاین و ادوارد لوپر راهنمای جامعی است که خوانندگان را با زمینه پردازش زبان طبیعی (NLP) با استفاده از زبان برنامه نویسی پایتون آشنا می کند. این کتاب بر تکنیک‌های عملی برای تجزیه و تحلیل و پردازش داده‌های زبان انسانی تأکید می‌کند و آن را برای مبتدیان و برنامه‌نویسان با تجربه علاقه‌مند به تجزیه و تحلیل داده‌های زبانی در دسترس قرار می‌دهد.
 
-A key feature of this book is its integration with the Natural Language Toolkit (NLTK), a robust open-source library in Python designed for NLP tasks. Through detailed examples and exercises, readers learn to perform tasks such as tokenization, parsing, semantic reasoning, and text classification. The hands-on approach ensures that readers can apply these techniques to real-world data, enhancing their understanding of both the theoretical and practical aspects of NLP.
+یکی از ویژگی های کلیدی این کتاب، ادغام آن با جعبه ابزار زبان طبیعی (NLTK)، یک کتابخانه منبع باز قوی در پایتون است که برای وظایف NLP طراحی شده است. از طریق مثال‌ها و تمرین‌های دقیق، خوانندگان یاد می‌گیرند که کارهایی مانند نشانه‌سازی، تجزیه، استدلال معنایی و طبقه‌بندی متن را انجام دهند. رویکرد عملی تضمین می‌کند که خوانندگان می‌توانند این تکنیک‌ها را در داده‌های دنیای واقعی اعمال کنند و درک آن‌ها از جنبه‌های نظری و عملی NLP را افزایش دهند.
 
-The authors also provide insights into more advanced topics, including machine learning applications in NLP, managing linguistic data, and strategies for dealing with the complexities of human language. By the end of the book, readers are equipped with the knowledge and tools necessary to build their own NLP applications, making it a valuable resource for anyone looking to delve into the intersection of computer science and linguistics.
+نویسندگان همچنین بینش هایی در مورد موضوعات پیشرفته تر، از جمله برنامه های کاربردی یادگیری ماشین در NLP، مدیریت داده های زبانی، و استراتژی هایی برای مقابله با پیچیدگی های زبان انسانی ارائه می دهند. در پایان کتاب، خوانندگان به دانش و ابزارهای لازم برای ساختن برنامه های کاربردی NLP خود مجهز شده اند، و آن را به منبعی ارزشمند برای هر کسی که به دنبال کاوش در تقاطع علم کامپیوتر و زبان شناسی است تبدیل می کند.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسین ابوطالبی | تمامی حقوق محفوظ است
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

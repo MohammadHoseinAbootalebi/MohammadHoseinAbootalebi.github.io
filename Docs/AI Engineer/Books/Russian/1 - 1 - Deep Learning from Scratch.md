@@ -2,11 +2,11 @@
 
 # Deep Learning from Scratch
 
-*Deep Learning from Scratch* by Seth Weidman is an excellent resource for readers seeking to understand the core principles of deep learning without relying heavily on pre-built libraries. The book takes a bottom-up approach, guiding readers through the process of building deep learning algorithms from the ground up using Python and NumPy. It explains fundamental concepts such as gradient descent, backpropagation, and neural network architectures with clarity, making them accessible to those with basic programming and math knowledge. By constructing key components of deep learning systems step by step, readers gain a solid foundation in how these systems work internally. This hands-on guide is perfect for anyone who wants to deeply understand the mechanics of deep learning and develop a robust intuition for building models from scratch.
+*Deep Learning from Scratch* Сета Вайдмана — отличный ресурс для читателей, стремящихся понять основные принципы глубокого обучения, не полагаясь в значительной степени на готовые библиотеки. В книге используется подход «снизу вверх», который проводит читателей через процесс создания алгоритмов глубокого обучения с нуля с использованием Python и NumPy. В ней четко объясняются такие фундаментальные концепции, как градиентный спуск, обратное распространение и архитектуры нейронных сетей, что делает их доступными для тех, кто обладает базовыми знаниями в области программирования и математики. Создавая ключевые компоненты систем глубокого обучения шаг за шагом, читатели получают прочную основу для понимания того, как эти системы работают внутри. Это практическое руководство идеально подходит для тех, кто хочет глубоко понять механику глубокого обучения и развить надежную интуицию для создания моделей с нуля.
 
 ![Deep Learning from Scratch](../../assets/Books/Book%20Covers/1%20-%201%20-%20Deep%20Learning%20from%20Scratch.png)
 
-## Table of Contents
+## Оглавление
 
 - Chapter 1: Foundations
 - Chapter 2: Fundamentals
@@ -16,16 +16,16 @@
 - Chapter 6: Recurrent Neural Networks
 - Chapter 7: PyTorch
 
-## Overview
+## Обзор
 
-*Deep Learning from Scratch: Building with Python from First Principles* by Seth Weidman is a comprehensive resource that guides readers through the foundational concepts of deep learning by constructing neural networks from the ground up using Python and NumPy. The book emphasizes a first-principles approach, ensuring that readers gain a deep understanding of the mathematical and computational underpinnings of neural networks. This methodical construction aids in demystifying complex topics, making them accessible to individuals with a basic background in programming and mathematics.
+*Глубокое обучение с нуля: создание с помощью Python с первых принципов* Сета Вайдмана — это всеобъемлющий ресурс, который знакомит читателей с основополагающими концепциями глубокого обучения, создавая нейронные сети с нуля с помощью Python и NumPy. В книге подчеркивается подход с первых принципов, гарантирующий, что читатели получат глубокое понимание математических и вычислительных основ нейронных сетей. Эта методическая конструкция помогает демистифицировать сложные темы, делая их доступными для людей с базовыми знаниями в области программирования и математики.
 
-Throughout the text, Weidman introduces essential deep learning architectures, including multilayer neural networks, convolutional neural networks (CNNs), and recurrent neural networks (RNNs). Each architecture is explored in detail, with explanations of their theoretical foundations followed by practical implementation examples. By building these models from scratch, readers develop a robust intuition for how different components interact within a neural network, enhancing their ability to design and troubleshoot models in real-world applications.
+На протяжении всего текста Вайдман представляет основные архитектуры глубокого обучения, включая многослойные нейронные сети, сверточные нейронные сети (CNN) и рекуррентные нейронные сети (RNN). Каждая архитектура подробно рассматривается с объяснениями их теоретических основ, за которыми следуют примеры практической реализации. Создавая эти модели с нуля, читатели развивают надежную интуицию того, как различные компоненты взаимодействуют в нейронной сети, что повышает их способность проектировать и устранять неполадки моделей в реальных приложениях.
 
-In addition to foundational architectures, the book delves into advanced topics such as automatic differentiation, optimization techniques, and the implementation of deep learning models using the PyTorch framework. This progression from basic to advanced subjects equips readers with the skills necessary to tackle complex deep learning challenges. By the end of the book, readers will have developed a solid foundation in deep learning principles and practical experience in building and deploying models, positioning them for success in the rapidly evolving field of artificial intelligence.
+В дополнение к фундаментальным архитектурам, книга углубляется в продвинутые темы, такие как автоматическое дифференцирование, методы оптимизации и реализация моделей глубокого обучения с использованием фреймворка PyTorch. Этот переход от базовых к продвинутым предметам вооружает читателей навыками, необходимыми для решения сложных задач глубокого обучения. К концу книги читатели разовьют прочную основу в принципах глубокого обучения и практический опыт в создании и развертывании моделей, что позволит им добиться успеха в быстро развивающейся области искусственного интеллекта.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Мухаммад Хусейн Абуталеби | Все права защищены
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

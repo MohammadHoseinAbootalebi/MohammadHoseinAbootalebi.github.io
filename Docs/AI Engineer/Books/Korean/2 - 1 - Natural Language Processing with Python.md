@@ -2,11 +2,11 @@
 
 # Natural Language Processing with Python
 
-Natural Language Processing with Python is a practical guide that introduces readers to the world of natural language processing using the Python programming language and the Natural Language Toolkit (NLTK). The book covers key NLP concepts and techniques, such as text preprocessing, tokenization, and part-of-speech tagging, while providing hands-on examples to help readers build and analyze language-based applications. It also addresses challenges in processing human language, like ambiguity and context, equipping readers with the tools to develop their own text analysis and language understanding projects.
+Python을 사용한 자연어 처리(Natural Language Processing with Python)는 Python 프로그래밍 언어와 Natural Language Toolkit(NLTK)을 사용하여 자연어 처리의 세계를 독자에게 소개하는 실용적인 가이드입니다. 이 책은 텍스트 전처리, 토큰화, 품사 태깅과 같은 주요 NLP 개념과 기술을 다루면서 독자가 언어 기반 애플리케이션을 구축하고 분석하는 데 도움이 되는 실습 예제를 제공합니다. 또한 모호성과 맥락과 같은 인간 언어 처리의 과제를 다루어 독자에게 자체 텍스트 분석 및 언어 이해 프로젝트를 개발할 수 있는 도구를 제공합니다.
 
 ![Natural Language Processing with Python](../../assets/Books/Book%20Covers/2%20-%201%20-%20Natural%20Language%20Processing%20with%20Python.png)
 
-## Table of Contents
+## 목차
 
 - Chapter 1: Language Processing and Python
 - Chapter 2: Accessing Text Corpora and Lexical Resources
@@ -20,16 +20,16 @@ Natural Language Processing with Python is a practical guide that introduces rea
 - Chapter 10: Analyzing the Meaning of Sentences
 - Chapter 11: Managing Linguistic Data
 
-## Overview
+## 개요
 
-*Natural Language Processing with Python* by Steven Bird, Ewan Klein, and Edward Loper is a comprehensive guide that introduces readers to the field of natural language processing (NLP) using the Python programming language. The book emphasizes practical techniques for analyzing and processing human language data, making it accessible to both beginners and experienced programmers interested in linguistic data analysis.
+*Python을 사용한 자연어 처리*는 Steven Bird, Ewan Klein, Edward Loper가 쓴 책으로, Python 프로그래밍 언어를 사용하여 자연어 처리(NLP) 분야를 독자에게 소개하는 포괄적인 가이드입니다. 이 책은 인간 언어 데이터를 분석하고 처리하기 위한 실용적인 기술을 강조하여 언어 데이터 분석에 관심이 있는 초보자와 숙련된 프로그래머 모두에게 접근하기 쉽게 만들었습니다.
 
-A key feature of this book is its integration with the Natural Language Toolkit (NLTK), a robust open-source library in Python designed for NLP tasks. Through detailed examples and exercises, readers learn to perform tasks such as tokenization, parsing, semantic reasoning, and text classification. The hands-on approach ensures that readers can apply these techniques to real-world data, enhancing their understanding of both the theoretical and practical aspects of NLP.
+이 책의 주요 특징은 NLP 작업을 위해 설계된 Python의 강력한 오픈 소스 라이브러리인 Natural Language Toolkit(NLTK)과 통합되어 있다는 것입니다. 자세한 예제와 연습을 통해 독자는 토큰화, 구문 분석, 의미 추론 및 텍스트 분류와 같은 작업을 수행하는 방법을 배웁니다. 실습적인 접근 방식을 통해 독자는 이러한 기술을 실제 데이터에 적용하여 NLP의 이론적 측면과 실제적 측면에 대한 이해를 높일 수 있습니다.
 
-The authors also provide insights into more advanced topics, including machine learning applications in NLP, managing linguistic data, and strategies for dealing with the complexities of human language. By the end of the book, readers are equipped with the knowledge and tools necessary to build their own NLP applications, making it a valuable resource for anyone looking to delve into the intersection of computer science and linguistics.
+저자는 또한 NLP에서의 머신 러닝 애플리케이션, 언어 데이터 관리 및 인간 언어의 복잡성을 처리하기 위한 전략을 포함한 보다 고급 주제에 대한 통찰력을 제공합니다. 이 책을 읽고 나면 독자는 자신의 NLP 애플리케이션을 구축하는 데 필요한 지식과 도구를 갖추게 되며, 컴퓨터 과학과 언어학의 교차점을 탐구하려는 모든 사람에게 귀중한 자료가 될 것입니다.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 무하마드 후세인 아부탈레비 | 모든 권리는 보유됩니다
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

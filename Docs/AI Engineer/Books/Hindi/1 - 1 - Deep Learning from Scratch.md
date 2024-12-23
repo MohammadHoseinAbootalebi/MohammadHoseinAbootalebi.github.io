@@ -2,11 +2,11 @@
 
 # Deep Learning from Scratch
 
-*Deep Learning from Scratch* by Seth Weidman is an excellent resource for readers seeking to understand the core principles of deep learning without relying heavily on pre-built libraries. The book takes a bottom-up approach, guiding readers through the process of building deep learning algorithms from the ground up using Python and NumPy. It explains fundamental concepts such as gradient descent, backpropagation, and neural network architectures with clarity, making them accessible to those with basic programming and math knowledge. By constructing key components of deep learning systems step by step, readers gain a solid foundation in how these systems work internally. This hands-on guide is perfect for anyone who wants to deeply understand the mechanics of deep learning and develop a robust intuition for building models from scratch.
+सेठ वीडमैन द्वारा लिखित *डीप लर्निंग फ्रॉम स्क्रैच* उन पाठकों के लिए एक बेहतरीन संसाधन है जो पहले से बनी लाइब्रेरी पर बहुत ज़्यादा निर्भर हुए बिना डीप लर्निंग के मूल सिद्धांतों को समझना चाहते हैं। यह किताब नीचे से ऊपर की ओर दृष्टिकोण अपनाती है, जो पाठकों को पायथन और न्यूमपी का उपयोग करके शुरू से ही डीप लर्निंग एल्गोरिदम बनाने की प्रक्रिया के माध्यम से मार्गदर्शन करती है। यह ग्रेडिएंट डिसेंट, बैकप्रोपेगेशन और न्यूरल नेटवर्क आर्किटेक्चर जैसी बुनियादी अवधारणाओं को स्पष्टता के साथ समझाती है, जिससे वे बुनियादी प्रोग्रामिंग और गणित के ज्ञान वाले लोगों के लिए सुलभ हो जाती हैं। डीप लर्निंग सिस्टम के प्रमुख घटकों का चरण दर चरण निर्माण करके, पाठकों को इस बात का ठोस आधार मिलता है कि ये सिस्टम आंतरिक रूप से कैसे काम करते हैं। यह व्यावहारिक मार्गदर्शिका उन लोगों के लिए एकदम सही है जो डीप लर्निंग के यांत्रिकी को गहराई से समझना चाहते हैं और शुरू से ही मॉडल बनाने के लिए एक मज़बूत अंतर्ज्ञान विकसित करना चाहते हैं।
 
 ![Deep Learning from Scratch](../../assets/Books/Book%20Covers/1%20-%201%20-%20Deep%20Learning%20from%20Scratch.png)
 
-## Table of Contents
+## विषयसूची
 
 - Chapter 1: Foundations
 - Chapter 2: Fundamentals
@@ -16,16 +16,16 @@
 - Chapter 6: Recurrent Neural Networks
 - Chapter 7: PyTorch
 
-## Overview
+## अवलोकन
 
-*Deep Learning from Scratch: Building with Python from First Principles* by Seth Weidman is a comprehensive resource that guides readers through the foundational concepts of deep learning by constructing neural networks from the ground up using Python and NumPy. The book emphasizes a first-principles approach, ensuring that readers gain a deep understanding of the mathematical and computational underpinnings of neural networks. This methodical construction aids in demystifying complex topics, making them accessible to individuals with a basic background in programming and mathematics.
+सेठ वीडमैन द्वारा लिखित *डीप लर्निंग फ्रॉम स्क्रैच: बिल्डिंग विद पायथन फ्रॉम फर्स्ट प्रिंसिपल्स* एक व्यापक संसाधन है जो पाठकों को पायथन और न्यूमपी का उपयोग करके शुरू से ही न्यूरल नेटवर्क का निर्माण करके डीप लर्निंग की मूलभूत अवधारणाओं के माध्यम से मार्गदर्शन करता है। पुस्तक पहले-सिद्धांतों के दृष्टिकोण पर जोर देती है, यह सुनिश्चित करते हुए कि पाठकों को न्यूरल नेटवर्क के गणितीय और कम्प्यूटेशनल आधारों की गहरी समझ प्राप्त हो। यह व्यवस्थित निर्माण जटिल विषयों को समझने में सहायता करता है, जिससे उन्हें प्रोग्रामिंग और गणित में बुनियादी पृष्ठभूमि वाले व्यक्तियों के लिए सुलभ बनाया जा सके।
 
-Throughout the text, Weidman introduces essential deep learning architectures, including multilayer neural networks, convolutional neural networks (CNNs), and recurrent neural networks (RNNs). Each architecture is explored in detail, with explanations of their theoretical foundations followed by practical implementation examples. By building these models from scratch, readers develop a robust intuition for how different components interact within a neural network, enhancing their ability to design and troubleshoot models in real-world applications.
+पूरे पाठ में, वीडमैन मल्टीलेयर न्यूरल नेटवर्क, कन्वोल्यूशनल न्यूरल नेटवर्क (CNN) और रीकरंट न्यूरल नेटवर्क (RNN) सहित आवश्यक डीप लर्निंग आर्किटेक्चर का परिचय देते हैं। प्रत्येक आर्किटेक्चर का विस्तार से पता लगाया गया है, जिसमें उनके सैद्धांतिक आधारों की व्याख्या के बाद व्यावहारिक कार्यान्वयन उदाहरण दिए गए हैं। इन मॉडलों को शुरू से बनाकर, पाठकों को इस बात का एक मजबूत अंतर्ज्ञान विकसित होता है कि न्यूरल नेटवर्क के भीतर विभिन्न घटक कैसे परस्पर क्रिया करते हैं, जिससे वास्तविक दुनिया के अनुप्रयोगों में मॉडल को डिज़ाइन करने और समस्या निवारण करने की उनकी क्षमता में वृद्धि होती है।
 
-In addition to foundational architectures, the book delves into advanced topics such as automatic differentiation, optimization techniques, and the implementation of deep learning models using the PyTorch framework. This progression from basic to advanced subjects equips readers with the skills necessary to tackle complex deep learning challenges. By the end of the book, readers will have developed a solid foundation in deep learning principles and practical experience in building and deploying models, positioning them for success in the rapidly evolving field of artificial intelligence.
+आधारभूत संरचनाओं के अलावा, पुस्तक स्वचालित विभेदन, अनुकूलन तकनीकों और PyTorch फ्रेमवर्क का उपयोग करके डीप लर्निंग मॉडल के कार्यान्वयन जैसे उन्नत विषयों पर भी चर्चा करती है। बुनियादी से लेकर उन्नत विषयों तक की यह प्रगति पाठकों को जटिल डीप लर्निंग चुनौतियों से निपटने के लिए आवश्यक कौशल से लैस करती है। पुस्तक के अंत तक, पाठकों ने डीप लर्निंग सिद्धांतों में एक ठोस आधार विकसित कर लिया होगा और मॉडल बनाने और उन्हें लागू करने में व्यावहारिक अनुभव प्राप्त कर लिया होगा, जिससे वे तेजी से विकसित हो रहे आर्टिफिशियल इंटेलिजेंस के क्षेत्र में सफलता के लिए तैयार हो जाएंगे।
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© मुहम्मद हुसैन अबूतालेबी | सभी अधिकार सुरक्षित हैं
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

@@ -2,11 +2,11 @@
 
 # Mastering NLP from Foundations to LLMs
 
-"Mastering NLP from Foundations to LLMs" is a comprehensive guide authored by Lior Gazit and Meysam Ghaffari, published on April 26, 2024.  This book offers an in-depth introduction to Natural Language Processing (NLP) techniques, beginning with the mathematical foundations of machine learning and progressing to advanced applications involving Large Language Models (LLMs). It covers essential topics such as text preprocessing, traditional machine learning methods for text classification, and deep learning language models. Additionally, the authors explore the theory, design, and implementation of LLMs, providing practical Python code samples throughout. The book also discusses future trends in NLP and includes expert insights, making it a valuable resource for both beginners and experienced practitioners aiming to solve real-world business problems using Python.
+«Mastering NLP from Foundations to LLMs» — это всеобъемлющее руководство, написанное Лиором Газитом и Мейсамом Гаффари, опубликованное 26 апреля 2024 года. Эта книга предлагает углубленное введение в методы обработки естественного языка (NLP), начиная с математических основ машинного обучения и заканчивая продвинутыми приложениями, включающими большие языковые модели (LLM). Она охватывает такие важные темы, как предварительная обработка текста, традиционные методы машинного обучения для классификации текста и модели языка глубокого обучения. Кроме того, авторы изучают теорию, проектирование и реализацию LLM, предоставляя практические примеры кода Python. В книге также обсуждаются будущие тенденции в области NLP и содержатся экспертные идеи, что делает ее ценным ресурсом как для новичков, так и для опытных практиков, стремящихся решать реальные бизнес-задачи с помощью Python.
 
 ![Mastering NLP from Foundations to LLMs](../../assets/Books/Book%20Covers/2%20-%202%20-%20Mastering%20NLP%20from%20Foundations%20to%20LLMs.jpg)
 
-## Table of Contents
+## Оглавление
 
 - Chapter 1: Navigating the NLP Landscape: A Comprehensive Introduction
 - Chapter 2: Mastering Linear Algebra, Probability, and Statistics for Machine Learning and NLP
@@ -20,16 +20,16 @@
 - Chapter 10: Riding the Wave: Analyzing Past, Present, and Future Trends Shaped by LLMs and AI
 - Chapter 11: Exclusive Industry Insights: Perspectives and Predictions from World Class Experts
 
-## Overview
+## Обзор
 
-"Mastering NLP from Foundations to LLMs" is a comprehensive guide that delves into the field of Natural Language Processing (NLP), authored by Lior Gazit and Meysam Ghaffari. The book begins with the mathematical foundations essential for machine learning and NLP, covering topics such as linear algebra, probability, and statistics. It then progresses to advanced techniques, including text preprocessing, traditional machine learning methods for text classification, and deep learning language models.
+«Mastering NLP from Foundations to LLMs» — это всеобъемлющее руководство, которое углубляется в область обработки естественного языка (NLP), авторами которого являются Лиор Газит и Мейсам Гаффари. Книга начинается с математических основ, необходимых для машинного обучения и NLP, охватывая такие темы, как линейная алгебра, вероятность и статистика. Затем она переходит к продвинутым методам, включая предварительную обработку текста, традиционные методы машинного обучения для классификации текста и модели языка глубокого обучения.
 
-A significant portion of the book is dedicated to Large Language Models (LLMs), exploring their theory, design, and implementation for various AI applications. The authors provide practical Python code samples throughout, enabling readers to apply the concepts discussed. Additionally, the book offers insights into future trends in NLP, featuring expert opinions from industry leaders, making it a valuable resource for both beginners and experienced practitioners.
+Значительная часть книги посвящена большим языковым моделям (LLM), изучая их теорию, дизайн и реализацию для различных приложений ИИ. Авторы предоставляют практические примеры кода Python, что позволяет читателям применять обсуждаемые концепции. Кроме того, книга предлагает идеи будущих тенденций в области NLP, включая экспертные мнения лидеров отрасли, что делает ее ценным ресурсом как для новичков, так и для опытных практиков.
 
-To complement the theoretical knowledge, the authors have made available a GitHub repository containing code examples and notebooks corresponding to various chapters. This hands-on approach facilitates a deeper understanding of NLP techniques and their real-world applications, empowering readers to develop and implement innovative solutions in their respective fields.
+В дополнение к теоретическим знаниям авторы предоставили репозиторий GitHub, содержащий примеры кода и блокноты, соответствующие различным главам. Этот практический подход способствует более глубокому пониманию методов НЛП и их применения в реальной жизни, предоставляя читателям возможность разрабатывать и внедрять инновационные решения в своих областях.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Мухаммад Хусейн Абуталеби | Все права защищены
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

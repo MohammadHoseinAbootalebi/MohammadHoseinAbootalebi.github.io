@@ -2,11 +2,11 @@
 
 # Modern Computer Vision with PyTorch
 
-*Modern Computer Vision with PyTorch* by Kishore Ayyadevare and Yeshwanth Reddy is an insightful guide to leveraging the PyTorch deep learning framework for solving computer vision challenges. The book caters to both beginners and experienced practitioners, covering fundamental concepts as well as advanced techniques in computer vision. It introduces the essentials of PyTorch, delves into popular architectures like CNNs and transformers, and explores applications such as object detection, segmentation, and generative models. With a hands-on approach, the authors provide practical examples and real-world projects, enabling readers to build, train, and optimize their own models effectively. This comprehensive resource is ideal for anyone looking to advance their understanding of modern computer vision techniques using PyTorch.
+কিশোর আইয়াদেভারে এবং যশবন্ত রেড্ডির দ্বারা পাইটর্চের সাথে আধুনিক কম্পিউটার ভিশন* কম্পিউটার ভিশন চ্যালেঞ্জগুলি সমাধানের জন্য পাইটর্চ ডিপ লার্নিং ফ্রেমওয়ার্ক ব্যবহার করার জন্য একটি অন্তর্দৃষ্টিপূর্ণ গাইড। বইটি শিক্ষানবিস এবং অভিজ্ঞ অনুশীলনকারীদের উভয়কেই পূরণ করে, মৌলিক ধারণাগুলির পাশাপাশি কম্পিউটার দৃষ্টিতে উন্নত কৌশলগুলিকে কভার করে৷ এটি PyTorch-এর প্রয়োজনীয় জিনিসগুলির সাথে পরিচয় করিয়ে দেয়, CNNs এবং ট্রান্সফরমারগুলির মতো জনপ্রিয় আর্কিটেকচারগুলিকে আবিষ্কার করে এবং অবজেক্ট সনাক্তকরণ, বিভাজন এবং জেনারেটিভ মডেলগুলির মতো অ্যাপ্লিকেশনগুলি অন্বেষণ করে৷ একটি হ্যান্ড-অন পদ্ধতির সাথে, লেখকরা বাস্তব উদাহরণ এবং বাস্তব-বিশ্বের প্রকল্পগুলি প্রদান করে, পাঠকদের তাদের নিজস্ব মডেলগুলি কার্যকরভাবে তৈরি করতে, প্রশিক্ষণ দিতে এবং অপ্টিমাইজ করতে সক্ষম করে৷ PyTorch ব্যবহার করে আধুনিক কম্পিউটার ভিশন কৌশল সম্পর্কে তাদের বোঝার অগ্রগতি খুঁজছেন এমন প্রত্যেকের জন্য এই ব্যাপক সম্পদটি আদর্শ।
 
 ![Modern Computer Vision with PyTorch](../../assets/Books/Book%20Covers/0%20-%201%20-%20Computer%20Vision%20with%20PyTorch.jpg)
 
-## Table of Contents
+## সূচিপত্র
 
 - Chapter 1: Artificial Neural Network Fundamentals
 - Chapter 2: PyTorch Fundamentals
@@ -27,16 +27,16 @@
 - Chapter 17: Applications of Stable Diffusion
 - Chapter 18: Moving a Model to Production
 
-## Overview
+## ওভারভিউ
 
-*Modern Computer Vision with PyTorch* by V Kishore Ayyadevara and Yeshwanth Reddy is a comprehensive guide that delves into the application of deep learning techniques for computer vision tasks using the PyTorch framework. The book is structured to cater to both beginners and experienced practitioners, starting with foundational concepts such as artificial neural networks and progressing to advanced topics like generative adversarial networks (GANs) and reinforcement learning. Each chapter is meticulously crafted to provide theoretical insights accompanied by practical implementations, enabling readers to build and deploy sophisticated computer vision models effectively.
+ভি কিশোর আইয়াদেভারা এবং যশবন্ত রেড্ডির দ্বারা PyTorch সহ *আধুনিক কম্পিউটার ভিশন* হল একটি ব্যাপক নির্দেশিকা যা পাইটর্চ ফ্রেমওয়ার্ক ব্যবহার করে কম্পিউটার ভিশনের কাজগুলির জন্য গভীর শিক্ষার কৌশলগুলির প্রয়োগের বিষয়ে বিস্তারিত আলোচনা করে। কৃত্রিম নিউরাল নেটওয়ার্কের মতো ভিত্তিগত ধারণা দিয়ে শুরু করে এবং জেনারেটিভ অ্যাডভারসারিয়াল নেটওয়ার্ক (GAN) এবং রিইনফোর্সমেন্ট লার্নিং-এর মতো উন্নত বিষয়গুলিতে অগ্রগতি থেকে শুরু করে নতুন এবং অভিজ্ঞ অনুশীলনকারীদের উভয়ের জন্যই বইটি তৈরি করা হয়েছে। প্রতিটি অধ্যায় ব্যবহারিক বাস্তবায়নের সাথে তাত্ত্বিক অন্তর্দৃষ্টি প্রদানের জন্য যত্ন সহকারে তৈরি করা হয়েছে, পাঠকদের অত্যাধুনিক কম্পিউটার ভিশন মডেলগুলি কার্যকরভাবে তৈরি করতে এবং স্থাপন করতে সক্ষম করে৷
 
-One of the standout features of this book is its hands-on approach, offering over 50 real-world computer vision problems with detailed solutions implemented in PyTorch. Readers are guided through building neural networks from scratch, performing image classification with convolutional neural networks (CNNs), and implementing object detection and segmentation using architectures like R-CNN, SSD, and YOLO. The inclusion of projects on facial expression manipulation, image generation with advanced GANs, and combining computer vision with natural language processing for tasks like optical character recognition (OCR) and image captioning further enriches the learning experience.
+এই বইটির অন্যতম বৈশিষ্ট্য হল এর হ্যান্ডস-অন পদ্ধতি, পাইটর্চে বাস্তবায়িত বিশদ সমাধান সহ 50 টিরও বেশি বাস্তব-বিশ্বের কম্পিউটার দৃষ্টি সমস্যা অফার করে। পাঠকদের স্ক্র্যাচ থেকে নিউরাল নেটওয়ার্ক তৈরি করা, কনভোল্যুশনাল নিউরাল নেটওয়ার্ক (CNNs) এর সাথে ইমেজ শ্রেণীবিভাগ করা এবং R-CNN, SSD, এবং YOLO-এর মতো আর্কিটেকচার ব্যবহার করে অবজেক্ট ডিটেকশন এবং সেগমেন্টেশন বাস্তবায়নের মাধ্যমে গাইড করা হয়। ফেসিয়াল এক্সপ্রেশন ম্যানিপুলেশন, উন্নত GAN-এর সাহায্যে ইমেজ জেনারেশন, এবং অপটিক্যাল ক্যারেক্টার রিকগনিশন (OCR) এবং ইমেজ ক্যাপশনিং-এর মতো কাজের জন্য কম্পিউটার ভিশনকে প্রাকৃতিক ভাষা প্রক্রিয়াকরণের সাথে একত্রিত করা, শেখার অভিজ্ঞতাকে আরও সমৃদ্ধ করে।
 
-Additionally, the authors provide valuable insights into deploying deep learning models in production environments, covering aspects such as creating APIs, containerization with Docker, and cloud deployment using AWS. The book also emphasizes best practices and introduces a custom library created especially for this book, enhancing the efficiency of developing computer vision applications. With its blend of theoretical depth and practical application, *Modern Computer Vision with PyTorch* serves as an essential resource for anyone aiming to master computer vision using one of the most popular deep learning frameworks.  
+উপরন্তু, লেখক উত্পাদন পরিবেশে গভীর শিক্ষার মডেল স্থাপন, API তৈরি, ডকারের সাথে কন্টেইনারাইজেশন, এবং AWS ব্যবহার করে ক্লাউড স্থাপনার মতো দিকগুলি কভার করার জন্য মূল্যবান অন্তর্দৃষ্টি প্রদান করেন। বইটি সর্বোত্তম অনুশীলনের উপরও জোর দেয় এবং বিশেষ করে এই বইটির জন্য তৈরি একটি কাস্টম লাইব্রেরি প্রবর্তন করে, যা কম্পিউটার ভিশন অ্যাপ্লিকেশন বিকাশের দক্ষতা বাড়ায়। তাত্ত্বিক গভীরতা এবং ব্যবহারিক প্রয়োগের মিশ্রণের সাথে, *PyTorch সহ আধুনিক কম্পিউটার ভিশন* সবচেয়ে জনপ্রিয় ডিপ লার্নিং ফ্রেমওয়ার্কগুলির মধ্যে একটি ব্যবহার করে কম্পিউটার ভিশন আয়ত্ত করার লক্ষ্যে থাকা সকলের জন্য একটি অপরিহার্য সম্পদ হিসাবে কাজ করে।
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© মুহাম্মদ হুসাইন আবুতালেবী | সর্বস্বত্ব সংরক্ষিত
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

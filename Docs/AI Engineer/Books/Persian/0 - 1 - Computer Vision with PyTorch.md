@@ -2,11 +2,11 @@
 
 # Modern Computer Vision with PyTorch
 
-*Modern Computer Vision with PyTorch* by Kishore Ayyadevare and Yeshwanth Reddy is an insightful guide to leveraging the PyTorch deep learning framework for solving computer vision challenges. The book caters to both beginners and experienced practitioners, covering fundamental concepts as well as advanced techniques in computer vision. It introduces the essentials of PyTorch, delves into popular architectures like CNNs and transformers, and explores applications such as object detection, segmentation, and generative models. With a hands-on approach, the authors provide practical examples and real-world projects, enabling readers to build, train, and optimize their own models effectively. This comprehensive resource is ideal for anyone looking to advance their understanding of modern computer vision techniques using PyTorch.
+*مدرن کامپیوتر ویژن با PyTorch* توسط کیشور آیادواره و یشوانث ردی راهنمای روشنگری برای استفاده از چارچوب یادگیری عمیق PyTorch برای حل چالش های بینایی کامپیوتر است. این کتاب هم به مبتدیان و هم برای پزشکان با تجربه پاسخ می دهد و مفاهیم اساسی و همچنین تکنیک های پیشرفته در بینایی کامپیوتر را پوشش می دهد. ملزومات PyTorch را معرفی می‌کند، معماری‌های محبوبی مانند CNN و ترانسفورماتورها را بررسی می‌کند و برنامه‌هایی مانند تشخیص شی، تقسیم‌بندی و مدل‌های تولیدی را بررسی می‌کند. با یک رویکرد عملی، نویسندگان نمونه‌های عملی و پروژه‌های دنیای واقعی را ارائه می‌دهند و خوانندگان را قادر می‌سازند تا مدل‌های خود را بسازند، آموزش دهند و بهینه‌سازی کنند. این منبع جامع برای هر کسی که به دنبال پیشرفت درک خود از تکنیک های بینایی کامپیوتری مدرن با استفاده از PyTorch است ایده آل است.
 
 ![Modern Computer Vision with PyTorch](../../assets/Books/Book%20Covers/0%20-%201%20-%20Computer%20Vision%20with%20PyTorch.jpg)
 
-## Table of Contents
+## فهرست مطالب
 
 - Chapter 1: Artificial Neural Network Fundamentals
 - Chapter 2: PyTorch Fundamentals
@@ -27,16 +27,16 @@
 - Chapter 17: Applications of Stable Diffusion
 - Chapter 18: Moving a Model to Production
 
-## Overview
+## نمای کلی
 
-*Modern Computer Vision with PyTorch* by V Kishore Ayyadevara and Yeshwanth Reddy is a comprehensive guide that delves into the application of deep learning techniques for computer vision tasks using the PyTorch framework. The book is structured to cater to both beginners and experienced practitioners, starting with foundational concepts such as artificial neural networks and progressing to advanced topics like generative adversarial networks (GANs) and reinforcement learning. Each chapter is meticulously crafted to provide theoretical insights accompanied by practical implementations, enabling readers to build and deploy sophisticated computer vision models effectively.
+*مدرن کامپیوتر ویژن با PyTorch* توسط V Kishore Ayyadevara و Yeshwanth Reddy راهنمای جامعی است که به کاربرد تکنیک های یادگیری عمیق برای وظایف بینایی کامپیوتر با استفاده از چارچوب PyTorch می پردازد. این کتاب به گونه‌ای طراحی شده است که هم برای مبتدیان و هم برای پزشکان با تجربه، از مفاهیم اساسی مانند شبکه‌های عصبی مصنوعی شروع می‌شود و تا موضوعات پیشرفته مانند شبکه‌های متخاصم مولد (GANs) و یادگیری تقویتی پیش می‌رود. هر فصل با دقت طراحی شده است تا بینش های نظری همراه با پیاده سازی های عملی را ارائه دهد و خوانندگان را قادر می سازد تا مدل های پیچیده بینایی کامپیوتری را به طور موثر بسازند و به کار گیرند.
 
-One of the standout features of this book is its hands-on approach, offering over 50 real-world computer vision problems with detailed solutions implemented in PyTorch. Readers are guided through building neural networks from scratch, performing image classification with convolutional neural networks (CNNs), and implementing object detection and segmentation using architectures like R-CNN, SSD, and YOLO. The inclusion of projects on facial expression manipulation, image generation with advanced GANs, and combining computer vision with natural language processing for tasks like optical character recognition (OCR) and image captioning further enriches the learning experience.
+یکی از ویژگی های برجسته این کتاب رویکرد عملی آن است که بیش از 50 مشکل بینایی کامپیوتری در دنیای واقعی را با راه حل های دقیق پیاده سازی شده در PyTorch ارائه می دهد. خوانندگان از طریق ساخت شبکه‌های عصبی از ابتدا، انجام طبقه‌بندی تصاویر با شبکه‌های عصبی کانولوشن (CNN) و پیاده‌سازی تشخیص و تقسیم‌بندی اشیا با استفاده از معماری‌هایی مانند R-CNN، SSD و YOLO هدایت می‌شوند. گنجاندن پروژه‌هایی در مورد دستکاری حالت چهره، تولید تصویر با GAN‌های پیشرفته، و ترکیب بینایی کامپیوتر با پردازش زبان طبیعی برای کارهایی مانند تشخیص نوری کاراکتر (OCR) و زیرنویس تصویر، تجربه یادگیری را غنی‌تر می‌کند.
 
-Additionally, the authors provide valuable insights into deploying deep learning models in production environments, covering aspects such as creating APIs, containerization with Docker, and cloud deployment using AWS. The book also emphasizes best practices and introduces a custom library created especially for this book, enhancing the efficiency of developing computer vision applications. With its blend of theoretical depth and practical application, *Modern Computer Vision with PyTorch* serves as an essential resource for anyone aiming to master computer vision using one of the most popular deep learning frameworks.  
+علاوه بر این، نویسندگان بینش‌های ارزشمندی را در مورد استقرار مدل‌های یادگیری عمیق در محیط‌های تولید ارائه می‌دهند، که جنبه‌هایی مانند ایجاد API، کانتینری‌سازی با Docker و استقرار ابری با استفاده از AWS را پوشش می‌دهند. این کتاب همچنین بر بهترین شیوه‌ها تأکید می‌کند و یک کتابخانه سفارشی ایجاد شده به‌ویژه برای این کتاب را معرفی می‌کند و کارایی توسعه برنامه‌های بینایی رایانه را افزایش می‌دهد. با ترکیبی از عمق نظری و کاربرد عملی، *Modern Computer Vision با PyTorch* به عنوان یک منبع ضروری برای هر کسی که قصد تسلط بر بینایی کامپیوتر را با استفاده از یکی از محبوب ترین چارچوب های یادگیری عمیق دارد، عمل می کند.
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسین ابوطالبی | تمامی حقوق محفوظ است
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
