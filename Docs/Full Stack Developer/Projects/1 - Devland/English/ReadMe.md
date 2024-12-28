@@ -53,6 +53,22 @@ Not added yet.
 
 #### Authentication and Authorization
 
+Authentication and authorization are fundamental components in software development, each serving distinct purposes to ensure system security. **Authentication** is the process of verifying the identity of a user or device. It typically involves presenting credentials such as usernames and passwords, biometrics, or digital certificates to confirm that the entity is who it claims to be. This step is crucial for establishing trust and ensuring that only legitimate users gain access to the system. **Authorization** , on the other hand, determines the access rights and permissions granted to an authenticated user or device. Once identity is confirmed, authorization dictates what actions the user is permitted to perform and which resources they can access within the system. This ensures that users operate within their designated privileges, maintaining the integrity and security of the application. In the context of software development, implementing robust authentication and authorization mechanisms is vital. Authentication methods may include password-based logins, multi-factor authentication, or biometric verification, each adding layers of security to verify user identity. Authorization is often managed through role-based access control (RBAC) or permission-based access control (PBAC), defining user roles and associated permissions to enforce security policies effectively. In the following, the wireframing of the final user authentication and authorization process for the mobile and web platforms will be presented.
+
+- Mobile
+
+![User authentication Mobile wireframe](../Assets/Wireframing/1%20-%202%20-%201%20-%20Login%20Screen.png)
+
+As shown in the above image, the final mobile platform UI contains the project logo, two fields for entering credentials to log in, and a submit button that should be pressed after entering the user credentials. Additionally, there are two helpful links: one for resetting the password if the user has forgotten it, and another for navigating to the signup or account creation process if the user does not already have an account.
+
+![Account Creation Mobile wireframe](../Assets/Wireframing/1%20-%202%20-%202%20-%20Signup%20Screen.png)
+
+Similar to the login process, the signup screen includes the project logo in the UI and features the necessary fields required for user registration, along with a submit button to be pressed after the credentials are entered. Additionally, there is a link to the login page for users who already have an account, allowing them to access the login screen and complete the login process.
+
+- Web
+
+![Web Landing Page Wireframing](../Assets/Wireframing/Placeholder%20Image.png)
+
 Not added yet.
 
 ### **Visual Design**
