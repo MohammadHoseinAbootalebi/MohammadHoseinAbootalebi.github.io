@@ -34,7 +34,13 @@ ChatGPT Note:
 
 ---
 
-Not added yet.
+Description intorduction of EShoppify database not added yet.
+
+![Database Schema Compact View](../Assets/Database%20Schema/EShoppify%20-%20Compact.png)
+
+![Database Schema Beautiful View](../Assets/Database%20Schema/EShoppify%20-%20Beautiful%20View.png)
+
+Descripiton of details of the database not added yet.
 
 ### **Backend Development**
 
