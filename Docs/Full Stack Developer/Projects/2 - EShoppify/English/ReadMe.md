@@ -34,13 +34,45 @@ ChatGPT Note:
 
 ---
 
-Description intorduction of EShoppify database not added yet.
+#### Database Architecture
+
+As EShoppify is a kind of professional e-commerce platform, it has a complex database, which includes the following tables:
+
+* EShoppify Database Schema Concise View
 
 ![Database Schema Compact View](../Assets/Database%20Schema/EShoppify%20-%20Compact.png)
 
+* EShoppify Database Schema Compact View
+
 ![Database Schema Beautiful View](../Assets/Database%20Schema/EShoppify%20-%20Beautiful%20View.png)
 
-Descripiton of details of the database not added yet.
+The EShoppify database schema is generally divided into three main parts:
+
+* User Model and Interactions
+* Order and Shipping
+* Product-related Models
+
+##### User Model and Interactions
+
+This part mainly contains models that hold user-related information. The descriptions of its sub-database tables are provided here.
+
+* **Auth User**: This is the base model used for backend operations, specifically for authentication and authorization.
+  * Database fields:
+    * **First name**: This field is dedicated to the user's first name.
+    * **Last name**: This field is dedicated to the user's last name.
+    * **email**: This field is dedicated to the user's email.
+    * **Username**: This field is dedicated to the user's username.
+    * **Password**: This field is dedicated to the user's password.
+    * **ID**: This field is dedicated to the user's unique id.
+* **Profile**: Till adding the profile model object description like auth user.
+
+##### Order and Shipping
+
+Not added yet.
+
+##### Product-related Models
+
+Not added yet.
 
 ### **Backend Development**
 
