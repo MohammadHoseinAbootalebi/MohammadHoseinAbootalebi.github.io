@@ -32,9 +32,17 @@ ChatGPT Note:
 * Plan the backend architecture (e.g., APIs, databases).
 * Decide on the technology stack (e.g., frontend framework, backend language, database).
 
----
+#### Database Architecture
+
+Till describing the Assisti database short introduction of database.
+
+![Assisti Database Schema](../Assets/Database%20Schema/Assisti.png)
 
 Not added yet.
+
+#### Technology Stack
+
+Not added yet...
 
 ### **Backend Development**
 
