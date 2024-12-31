@@ -93,13 +93,21 @@ In the following section, the wireframes or low-level designs of the final UI fo
 
 As can be seen, for the account preferences user interface on the mobile platform, a user interface like the image above is desired. An app bar is at the top, allowing users to navigate to other sections of the Devland mobile app. Below it, there are fields dedicated to changing specific information, such as username, password, and email. At the bottom of the screen, there is a section for user account deletion.
 
-Till describing the how dialogs are used to change the user credentials fields.
+Each of the fields will have a button to change that field, after that button is pressed a dialog will be shown like the below image.
+
+![Dialog Account Preferences](../Assets/Wireframing/1%20-%203%20-%203%20-%20Account%20Field%20Change%20Dialog.png)
+
+As can be seen, the dialog contains a dialog title and the necessary form fields, which depend on the process. It will be different depending on which process is being done. The dialog will contain two buttons: one for dismissing the dialog and a submit button for sending REST API requests.
 
 - Web
 
 ![web Account Preferences](../Assets/Wireframing/Placeholder%20Image.png)
 
 Not added yet.
+
+#### Profile
+
+Till adding the short introduction of the profile section which what it is and why it will be used for.
 
 ### **Visual Design**
 
