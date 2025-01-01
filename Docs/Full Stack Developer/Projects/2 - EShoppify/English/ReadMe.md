@@ -64,7 +64,20 @@ This part mainly contains models that hold user-related information. The descrip
     * **Username**: This field is dedicated to the user's username.
     * **Password**: This field is dedicated to the user's password.
     * **ID**: This field is dedicated to the user's unique id.
-* **Profile**: Till adding the profile model object description like auth user.
+* **Profile**: This is the profile object model created for each authenticated user. It has a one-to-one relationship with the authenticated user.
+  * Database fields:
+    * **Auth User Owner:** The authenticated user to whom this profile is dedicated. It has a one-to-one relationship with the authenticated user.
+    * **First Name:** Profile first name, which is the same as the authenticated user's first name.
+    * **Last Name:** Profile last name, which is the same as the authenticated user's last name.
+    * **Bio:** Profile biography, which is filled in to provide a brief description.
+    * **Image:** Profile image, which serves as a showcase of the profile.
+    * **Phone:** User phone number
+    * **Email:** Profile email, which is the same as the authenticated user's email.
+    * **Username:** Profile username, which is the same as the authenticated user's username.
+    * **Updated:** Last updated profile object model date and time.
+    * **Created:** Profile creation date and time.
+    * **ID:** This field is dedicated to the profile's unique id.
+* **Addresses:** Till adding the description of the addresses object model.
 
 ##### Order and Shipping
 

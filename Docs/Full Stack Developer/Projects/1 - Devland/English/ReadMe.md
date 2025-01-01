@@ -107,7 +107,23 @@ Not added yet.
 
 #### Profile
 
-Till adding the short introduction of the profile section which what it is and why it will be used for.
+The **Profile** section of Devland will be used for accessing user profile information. In this section, users will be able to change their profile information. This information will include the profile name, short description, email, username, location, biography, profile image, and contact information. Contact information may include links to their GitHub, Twitter, LinkedIn, YouTube, or personal website. Devland profiles are a showcase of developers' or designers' profiles. In the profile section, users can add their skills or software expertise. They can also showcase projects they have completed. Additionally, this section allows users to edit or add new skills or projects directly from their profile.
+
+The following section will display the wireframes of the profile section for both mobile and web platforms.
+
+- Mobile
+
+![Profile Image Overview](../Assets/Wireframing/1%20-%203%20-%201%20-%20Profile%20Screen.png)
+
+On the mobile platform, the profile screen is generally designed to have three sections. At the top of the screen, an app bar is used to navigate between different sections of Devland. Below that, the profile information section allows users to change or edit their profile information through a REST API. There is also a section for adding, editing, or deleting skills related to the profile. Similarly, another section is used to manage projects completed by the authenticated profile.
+
+Till explaining pages to edit the information through REST API.
+
+- Web
+
+![Profile Web Overview](../Assets/Wireframing/Placeholder%20Image.png)
+
+Not added yet.
 
 ### **Visual Design**
 

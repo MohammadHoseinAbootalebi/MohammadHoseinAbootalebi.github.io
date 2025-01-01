@@ -34,11 +34,32 @@ ChatGPT Note:
 
 #### Database Architecture
 
-Till describing the Assisti database short introduction of database.
+As Assisti is a multidisciplinary project that combines full-stack development and artificial intelligence engineering, its database schema includes several models with a common label field that should be predicted by the Assisti AI models. The following section shows the Assisti database schema:
 
 ![Assisti Database Schema](../Assets/Database%20Schema/Assisti.png)
 
-Not added yet.
+The core Assisti database tables are categorized into the following sections:
+
+* **Assisti Chat Models**
+* **Users**
+* **NLP Models**
+* **Classifiers**
+* **Self-Driving Automobile Models**
+
+In the following, the sub-tables of each section will be explained:
+
+* **Users** : This table is used to store general user information and to manage authentication and authorization processes.
+  * *Tables:*
+    * **Auth User:** This object model will primarily be used for authentication and authorization.
+      * **Name:** This is the user's full name.
+      * **Email:** This field is designated for the user's email.
+      * **Username:** This field is designated for the user's username.
+      * **Joined Date:** This field is designated for the user's join date and time.
+      * **Is Active:** This field indicates whether the user account is active.
+      * **Is Verified:** This field indicates whether the user account has a verified email address.
+      * **Is Staff:** This field indicates whether this profile belongs to Assisit staff.
+      * **ID:** This is the unique ID of this user object model.
+    * **Profile:** Till adding the profile object model information.
 
 #### Technology Stack
 
