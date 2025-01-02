@@ -36,6 +36,8 @@ ChatGPT Note:
 
 As Assisti is a multidisciplinary project that combines full-stack development and artificial intelligence engineering, its database schema includes several models with a common label field that should be predicted by the Assisti AI models. The following section shows the Assisti database schema:
 
+![Assisti Simple View](../Assets/Database%20Schema/Assisti%20-%20Simple%20View.png)
+
 ![Assisti Database Schema](../Assets/Database%20Schema/Assisti.png)
 
 The core Assisti database tables are categorized into the following sections:
@@ -51,15 +53,25 @@ In the following, the sub-tables of each section will be explained:
 * **Users** : This table is used to store general user information and to manage authentication and authorization processes.
   * *Tables:*
     * **Auth User:** This object model will primarily be used for authentication and authorization.
-      * **Name:** This is the user's full name.
-      * **Email:** This field is designated for the user's email.
-      * **Username:** This field is designated for the user's username.
-      * **Joined Date:** This field is designated for the user's join date and time.
-      * **Is Active:** This field indicates whether the user account is active.
-      * **Is Verified:** This field indicates whether the user account has a verified email address.
-      * **Is Staff:** This field indicates whether this profile belongs to Assisit staff.
-      * **ID:** This is the unique ID of this user object model.
-    * **Profile:** Till adding the profile object model information.
+      * Database fields:
+        * **Name:** This is the user's full name.
+        * **Email:** This field is designated for the user's email.
+        * **Username:** This field is designated for the user's username.
+        * **Joined Date:** This field is designated for the user's join date and time.
+        * **Is Active:** This field indicates whether the user account is active.
+        * **Is Verified:** This field indicates whether the user account has a verified email address.
+        * **Is Staff:** This field indicates whether this profile belongs to Assisit staff.
+        * **ID:** This is the unique ID of this user object model.
+    * **Profile:** This is model will be used for Authencticated and authorization user's profile.
+      * Database fields:
+        * **Profile Owner:** This is a one-to-one relationship with the Auth user model field.
+        * **Name:** This is the profile model name.
+        * **Email:** This is the profile model email, which is the same as the authentication email.
+        * **Username:** This is the profile model username, which is the same as the authentication username.
+        * **Biography:** This is the profile model biography.
+        * **Creation Date and Time:** This is the profile model creation date and time.
+        * **ID:** This is the profile model unique id.
+* **Assisti Chat Models:** Till adding the description of the Assisti Chat models.
 
 #### Technology Stack
 

@@ -77,7 +77,13 @@ This part mainly contains models that hold user-related information. The descrip
     * **Updated:** Last updated profile object model date and time.
     * **Created:** Profile creation date and time.
     * **ID:** This field is dedicated to the profile's unique id.
-* **Addresses:** Till adding the description of the addresses object model.
+* **Addresses:** This section of the database will be dedicated to the addresses provided by the user, which will be used to ship the purchased products.
+  * Database fields:
+    * **Address Owner:** This field represents a many-to-one relationship, indicating that each user can have multiple addresses and specifying who owns each address.
+    * **Address:** This is the address information.
+    * **Creation Date and Time of Address:** This field shows the date and time when this address object model was created.
+    * **ID:** This field is the unique ID of the address object model.
+* **Review:** Till adding the table descripiton of the Review model.
 
 ##### Order and Shipping
 

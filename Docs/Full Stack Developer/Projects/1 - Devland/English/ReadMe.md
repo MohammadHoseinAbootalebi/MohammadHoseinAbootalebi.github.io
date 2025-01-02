@@ -117,13 +117,29 @@ The following section will display the wireframes of the profile section for bot
 
 On the mobile platform, the profile screen is generally designed to have three sections. At the top of the screen, an app bar is used to navigate between different sections of Devland. Below that, the profile information section allows users to change or edit their profile information through a REST API. There is also a section for adding, editing, or deleting skills related to the profile. Similarly, another section is used to manage projects completed by the authenticated profile.
 
-Till explaining pages to edit the information through REST API.
+In the profile screen, different aspects of the user profile can be changed. These different aspects will be shown here:
+
+![Profile Image Dialog Change Mobile](../Assets/Wireframing/1%20-%203%20-%204%20-%20Profile%20Image%20Dialog.png)
+
+One aspect is changing the user profile. The final user interface for this process is shown in the image above. As the image illustrates, it is a dialog box that pops up, allowing the user to upload their new profile image. The necessary permissions for this operation will be requested from the user on a real device, enabling them to browse their images and upload a new one.
+
+![Profile Information Text Dialog](../Assets/Wireframing/1%20-%203%20-%203%20-%20Account%20Field%20Change%20Dialog.png)
+
+Changing profile information, such as the name and short introduction texts, will be done through a dialog similar to the one shown in the image above. In the final UI design, a dialog is expected to include a form field where the user can enter their new information using the device keyboard. By pressing 'OK', a REST API request will be sent to perform the update. Once the operation is completed, the dialog will close.
+
+![Project and Skill CRUD Screen](../Assets/Wireframing/1%20-%203%20-%205%20-%20Skill%20or%20Project%20CRUD%20Screen.png)
+
+Creating or editing project or skill instances will be done using a screen similar to the image above. After a tapping event occurs on the mobile platform, a screen like the one shown above will pop up. The screen will contain a top AppBar with the screen title and a back button to close the screen. Below that, an optional description can be added, followed by the necessary form fields or inputs.
+
+In the wireframing phase, each form field is expected to have a label indicating what input is required. Below the label, an input field will be provided, allowing users to enter the necessary data via the device keyboard. At the bottom of the screen, a submit button will be added for submitting the information via REST API calls to the backend. Once the operation is successfully completed, the pop-up screen will close.
 
 - Web
 
 ![Profile Web Overview](../Assets/Wireframing/Placeholder%20Image.png)
 
-Not added yet.
+#### Devlopers
+
+Till adding the developers screen general description.
 
 ### **Visual Design**
 
