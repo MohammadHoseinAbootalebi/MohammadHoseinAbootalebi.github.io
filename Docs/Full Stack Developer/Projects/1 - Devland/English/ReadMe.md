@@ -139,7 +139,67 @@ In the wireframing phase, each form field is expected to have a label indicating
 
 #### Devlopers
 
-Till adding the developers screen general description.
+The **Developers section** of the super project **Devland** is dedicated to exploring different developers based on their skills or projects. As a wireframing view, this section should include an effective search feature for efficiently finding Devland's developers. This section is particularly beneficial for stakeholders or employers looking to hire developers with specific skill sets. Each profile will provide detailed information, including contact details, software skills, and previously completed projects.
+
+The wireframing for this section on both mobile and web platforms is presented below.
+
+- Mobile
+
+![Mobile Developers Section](../Assets/Wireframing/1%20-%203%20-%204%20-%20Developers%20Screen.png)
+
+The Developers Screen is designed with user-friendly navigation and efficient search capabilities to enhance the Devland app experience. At the top, a streamlined app bar facilitates seamless navigation across various sections of the platform. Below it, a powerful search field allows users to query the developer database effortlessly. Search inputs are processed via a REST API, delivering precise, real-time results of matched profiles displayed directly below the search field.
+
+Each profile is interactive, enabling users to view detailed information and initiate collaboration by sending messages directly from this screen. This feature-rich interface ensures an intuitive and effective way to connect with skilled developers, making it ideal for clients seeking talent and developers exploring new opportunities.
+
+- Web
+
+![Mobile Developers Section](../Assets/Wireframing/Placeholder%20Image.png)
+
+#### Projects
+
+Till adding the project description paragraph.
+
+- Mobile
+
+![Projects Search Screen Mobile](../Assets/Wireframing/1%20-%205%20-%201%20-%20Projects%20Screen.png)
+
+Not added yet.
+
+![Project detail screen](../Assets/Wireframing/1%20-%205%20-%202%20-%20Project%20Detail%20Screen.png)
+
+Not added yet.
+
+- Web
+
+![alt](../Assets/Wireframing/Placeholder%20Image.png)
+
+#### Messages
+
+Not added yet.
+
+- Mobile
+
+![Mobile Messages Screen](../Assets/Wireframing/1%20-%206%20-%201%20-%20Messages%20Screen.png)
+
+Not added yet.
+
+![Message Detail Dialog](../Assets/Wireframing/1%20-%206%20-%202%20-%20Message%20Detail%20Dialog.png)
+
+- Web
+
+![alt](../Assets/Wireframing/Placeholder%20Image.png)
+
+#### Options
+
+Not added yet.
+
+- Mobile
+
+![Mobile Options Drawer](../Assets/Wireframing/1%20-%207%20-%201%20-%20Options%20Drawer.png)
+
+- Web
+
+![alt](../Assets/Wireframing/Placeholder%20Image.png)
 
 ### **Visual Design**
 
