@@ -157,17 +157,34 @@ Each profile is interactive, enabling users to view detailed information and ini
 
 #### Projects
 
-Till adding the project description paragraph.
+**Project Section for Devland Platform**
+Developed a dedicated project section within the Devland platform, enabling developers with Devland profiles to explore and interact with projects created by other developers. Features include:
+
+1. Viewing project details, including live demos where available.
+2. Sharing feedback on projects to foster collaboration and enhance project visibility.
+3. Increasing engagement and interest in showcased projects through a user-friendly interface.
+
+Presented below are the wireframe designs for the project section, showcasing layouts for both mobile and web platforms.
 
 - Mobile
 
 ![Projects Search Screen Mobile](../Assets/Wireframing/1%20-%205%20-%201%20-%20Projects%20Screen.png)
 
-Not added yet.
+As can be seen from the above image, in terms of wireframe user interface design, it contains an app bar at the top, primarily used for navigating between different sections of the Devland app. Below that, there is a search form field, which can be used to search Devland projects, with the results displayed beneath the search form field. For each project record under the search field, a summary of that project is shown. At the bottom of the user interface, in the wireframe view, there is a bottom navigation bar that allows users to navigate between other screens of the Devland app.
 
 ![Project detail screen](../Assets/Wireframing/1%20-%205%20-%202%20-%20Project%20Detail%20Screen.png)
 
-Not added yet.
+In the projects screen, each project record will be tappable. By "tappable," it means that the end-user can tap on a project in the mobile platform, which will open a detailed screen like the one shown in the image above.
+
+To explain this screen further:
+
+- **App Bar** : Located at the top, it includes a back button to return to the projects screen.
+- **Project Image** : Displayed below the app bar to visually represent the project.
+- **Project Information** : Below the image, various aspects of the project are presented with attribute labels and icons to enhance user-friendliness.
+- **Feedback Section** : This section showcases reviews or opinions from other users about the project.
+- **Action Button** : At the bottom of the screen, an action button allows users to leave a review, making the review submission process straightforward.
+
+Next, the wireframe user interface for the projects section on the web platform will be presented.
 
 - Web
 
@@ -175,7 +192,7 @@ Not added yet.
 
 #### Messages
 
-Not added yet.
+Till adding the descripiton of the Messages screen.
 
 - Mobile
 

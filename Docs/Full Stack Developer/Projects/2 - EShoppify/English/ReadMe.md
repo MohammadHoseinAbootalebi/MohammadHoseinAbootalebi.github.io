@@ -40,7 +40,7 @@ As EShoppify is a kind of professional e-commerce platform, it has a complex dat
 
 * EShoppify Database Schema Concise View
 
-![Database Schema Compact View](../Assets/Database%20Schema/EShoppify%20-%20Compact.png)
+![Database Schema Compact View](../Assets/Database%20Schema/EShoppify%20-%20Simple.png)
 
 * EShoppify Database Schema Compact View
 
@@ -83,11 +83,26 @@ This part mainly contains models that hold user-related information. The descrip
     * **Address:** This is the address information.
     * **Creation Date and Time of Address:** This field shows the date and time when this address object model was created.
     * **ID:** This field is the unique ID of the address object model.
-* **Review:** Till adding the table descripiton of the Review model.
+* **Review:** This EShoppify database table is dedicated to EShoppify users who leave reviews on each product in EShoppify.
+  * Database fields:
+    * **Owner:** This field represents a many-to-one relationship with the Auth User model, indicating which user owns the review.
+    * **Product:** This field is dedicated to the product with which each review is specifically coupled.
+    * **Rating:** This field is for storing the stars given to the product on which this review is left by the end EShoppify user.
+    * **Text:** This is the text of the review left by the user.
+    * **Slug:** This is the user-friendly text URL used for URL routing.
+    * **Purchased:** This boolean field is used to indicate whether the user leaving the review has purchased the product on which the review is left.
+    * **Appropriate:** This field determines whether the review text is appropriate or not.
+    * **Creation Date and Time of Address:** This is the creation date and time of each review object model.
+    * **ID:** This is the unique ID of the review objects.
 
 ##### Order and Shipping
 
-Not added yet.
+Till adding the base description of the order and shipping section what does it do.
+
+* **Wallet:** Not added yet.
+* **Charge Wallet:** Not added yet.
+* **Transfer:** Not added yet.
+* **Order:** Not added yet.
 
 ##### Product-related Models
 

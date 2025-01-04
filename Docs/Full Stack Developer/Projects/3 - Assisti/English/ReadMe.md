@@ -71,7 +71,24 @@ In the following, the sub-tables of each section will be explained:
         * **Biography:** This is the profile model biography.
         * **Creation Date and Time:** This is the profile model creation date and time.
         * **ID:** This is the profile model unique id.
-* **Assisti Chat Models:** Till adding the description of the Assisti Chat models.
+* **Assisti Chat Models:** This section of the Assisti database is dedicated to the Assisti chatbot, which the end-user can interact with for various purposes, such as summarizing, grammar checking, practicing English or other languages, asking scientific questions, assisting with coding, and more.
+  * *Tables:*
+    * **Message:** This message table contains each message that will be sent to the Assisti chatbot.
+      * Database fields:
+        * **Owner:** This is the authenticated user who sends each message object model. Therefore, it has a many-to-one relationship with the Auth User model.
+        * **Category:** This is the category to which this message is related. It has a many-to-one relationship with the Category model.
+        * **Message:** This is the message body that the authenticated user sends to the Assisti chatbot.
+        * **Answer:** This is the answer that the Assisti bot will provide in response to this message.
+        * **Creation Date and Time:** This is the message model creation date and time.
+        * **ID:** This is the message model unique id.
+    * **Category:** This database table is dedicated to the message categories that Assisti end-users can use to ask the Assisti chatbot messages in different categories, or 'chatrooms.' This feature of Assisti is similar to ChatGPT by OpenAI.
+      * Database fields:
+
+        * **Owner:** This is the authenticated user who creates different message categories. It has a many-to-one relationship with the Auth User model.
+        * **Name:** This is the category name text field for this table.
+        * **Creation Date and Time:** This is the category model creation date and time.
+        * **ID:** This is the category model unique id.
+* **NLP Models:** Till adding the description of the NLP model section.
 
 #### Technology Stack
 
