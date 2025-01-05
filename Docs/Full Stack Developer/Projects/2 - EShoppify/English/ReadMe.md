@@ -97,10 +97,19 @@ This part mainly contains models that hold user-related information. The descrip
 
 ##### Order and Shipping
 
-Till adding the base description of the order and shipping section what does it do.
+The **Order and Shipping** section of EShoppify primarily focuses on managing users' orders and processing those ready for shipping. This section is crucial for all e-commerce platforms, including Amazon, Alibaba, EShoppify, and others.
 
-* **Wallet:** Not added yet.
-* **Charge Wallet:** Not added yet.
+* **Wallet:** This model is designed for each EShoppify user. It functions as an electronic wallet for users, primarily used for purchasing, recharging, transferring funds, and more.
+  * Database fields:
+    * **Owner:** Represents a one-to-one relationship with the Authentication User model of EShoppify.
+    * **Balance:** Indicates the current amount of money or credit available in the user's wallet.
+    * **Card Number:** A 16-digit number associated with the user's credit or debit card.
+    * **CVV2:** A 3- or 4-digit security code associated with the credit card for additional verification.
+    * **Expiry Date:** The date when the wallet's associated card or balance will expire.
+    * **Last Updated:** The most recent date and time when the wallet information was modified.
+    * **Created Date:** The date and time when the user's wallet model was initially created.
+    * **ID:** A unique identifier for the user's wallet model.
+* **Charge Wallet:** Till adding the Charge wallet object model descripiton.
 * **Transfer:** Not added yet.
 * **Order:** Not added yet.
 

@@ -83,12 +83,21 @@ In the following, the sub-tables of each section will be explained:
         * **ID:** This is the message model unique id.
     * **Category:** This database table is dedicated to the message categories that Assisti end-users can use to ask the Assisti chatbot messages in different categories, or 'chatrooms.' This feature of Assisti is similar to ChatGPT by OpenAI.
       * Database fields:
-
         * **Owner:** This is the authenticated user who creates different message categories. It has a many-to-one relationship with the Auth User model.
         * **Name:** This is the category name text field for this table.
         * **Creation Date and Time:** This is the category model creation date and time.
         * **ID:** This is the category model unique id.
-* **NLP Models:** Till adding the description of the NLP model section.
+* **NLP Models:** This section of the Assisti Super Artificial Intelligence project is dedicated to designing the database tables used in artificial intelligence models, primarily focused on the field of natural language processing.
+  * Tables:
+    * **OCR Model:** This table is dedicated to the Optical Character Recognition (OCR) model in the Assisti.
+      * Database fields:
+        * **Owner:** This refers to the owner or creator of the object model, which is the Assisti Auth User. It has a many-to-one relationship with the Auth User model.
+        * **Title:** This is the title of each created object model, provided by the user.
+        * **Image:** This is the OCR image uploaded by the user, intended to be processed by the Assisti OCR application.
+        * **Label:** This is the label associated with the image, predicted by the Assisti OCR application, with the extracted text saved in this field.
+        * **Creation Date and Time:** This represents the date and time when the OCR model was created.
+        * **ID:** This is the unique identifier for the OCR model.
+* **Classifiers:** Till adding the classifiers description.
 
 #### Technology Stack
 

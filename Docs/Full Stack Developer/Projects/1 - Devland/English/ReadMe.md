@@ -192,15 +192,17 @@ Next, the wireframe user interface for the projects section on the web platform 
 
 #### Messages
 
-Till adding the descripiton of the Messages screen.
+The next interesting section in Devland is the Messages section. In this section, each Devland user can manage their messages, including marking messages as unread, deleting them, and more.
 
 - Mobile
 
 ![Mobile Messages Screen](../Assets/Wireframing/1%20-%206%20-%201%20-%20Messages%20Screen.png)
 
-Not added yet.
+In the wireframe view design, the above user interface is expected to represent the Messages screen. Similar to the previous user interface, there is an app bar at the top, primarily used for navigating to other sections of Devland. Below the app bar is a list of messages. Each message record is expected to include the sender's image on the left, sender information next to it, a short snippet of the message body beneath that, and a 'more' menu button on the right for additional optional actions.
 
 ![Message Detail Dialog](../Assets/Wireframing/1%20-%206%20-%202%20-%20Message%20Detail%20Dialog.png)
+
+Each message is expected to be tappable. This means that users can tap on a message to open a detailed dialog, similar to the image above. The detailed message dialog is expected to display the sender's image, sender information, the message body, and action buttons.
 
 - Web
 
@@ -208,17 +210,21 @@ Not added yet.
 
 #### Options
 
-Not added yet.
+This section is dedicated to providing additional operational options. Here, users can navigate to various Devland-related sections.
 
 - Mobile
 
 ![Mobile Options Drawer](../Assets/Wireframing/1%20-%207%20-%201%20-%20Options%20Drawer.png)
+
+On the mobile platform, the options section is represented by the drawer, which users can use to navigate to different sections of Devland. This drawer should be accessible through the top app bar of Devland. The user's profile image is expected to appear at the top of the drawer, with other options listed below it. At the bottom of the drawer, a button is expected to allow users to exit the Devland app.
 
 - Web
 
 ![alt](../Assets/Wireframing/Placeholder%20Image.png)
 
 ### **Visual Design**
+
+Till designing the Visual Design of user interfaces adobe XD.
 
 ### **Prototyping**
 
