@@ -97,11 +97,30 @@ In the following, the sub-tables of each section will be explained:
         * **Label:** This is the label associated with the image, predicted by the Assisti OCR application, with the extracted text saved in this field.
         * **Creation Date and Time:** This represents the date and time when the OCR model was created.
         * **ID:** This is the unique identifier for the OCR model.
-* **Classifiers:** Till adding the classifiers description.
+* **Classifiers:** The classifier section of the Assisti database is dedicated to the artificial intelligence models that are highly focused on classifying objects.
+  * Tables:
+    * **Animal Classifier:** This model database table is dedicated to Assisti's animal classifier application.
+      * Database fields:
+        * **Owner:** This refers to the owner or creator of the object model, which is the Assisti Auth User. It has a many-to-one relationship with the Auth User model.
+        * **Title:** This is the title of each created object model, provided by the user.
+        * **Image:** This field is dedicated to the image file that Assisti's user will upload for prediction.
+        * **Label:** This label represents the prediction result after the uploaded image is processed by Assisti's animal classifier artificial intelligence model.
+        * **Creation Date and Time:** This represents the date and time when animal classifier model was created.
+        * **ID:** This is the unique identifier for the animal classifier models.
+* **Self-Driving Automobile Models:** This section of Assisti's database is dedicated to artificial intelligence models that are highly focused on developing models used in automation, robotics, and self-driving automobiles.
+  * Tables:
+    * **Road Sign:** This database table forms the backbone of the road sign detection schema in the road sign detection section of the Assisti project.
+      * Database fields:
+        * **Owner:** This refers to the owner or creator of the object model, which is the Assisti Auth User. It has a many-to-one relationship with the Auth User model.
+        * **Title:** This is the title of each created object model, provided by the user.
+        * **Image:** This field is dedicated to the image file that Assisti's user will upload for prediction.
+        * **Label:** This label represents the prediction result after the uploaded image is processed by Assisti's road sign detection artificial intelligence model.
+        * **Creation Date and Time:** This represents the date and time when road sign model was created.
+        * **ID:** This is the unique identifier for the road sign models.
 
 #### Technology Stack
 
-Not added yet...
+Till adding a short brief descripiton about the technologies which have been used to develop the Assisti Artificial intellignece model.
 
 ### **Backend Development**
 
