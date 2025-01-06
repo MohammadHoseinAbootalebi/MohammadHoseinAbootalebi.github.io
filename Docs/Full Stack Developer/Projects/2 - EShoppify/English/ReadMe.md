@@ -109,8 +109,15 @@ The **Order and Shipping** section of EShoppify primarily focuses on managing us
     * **Last Updated:** The most recent date and time when the wallet information was modified.
     * **Created Date:** The date and time when the user's wallet model was initially created.
     * **ID:** A unique identifier for the user's wallet model.
-* **Charge Wallet:** Till adding the Charge wallet object model descripiton.
-* **Transfer:** Not added yet.
+* **Charge Wallet:** This database table is used for the Charging Wallet model, which manages the process of increasing the balance in an EShoppify user's wallet.
+  * Database fields:
+    * **Wallet Owner:** This is the Wallet object database model, which serves as the target for balance increases requested by the Charging Wallet model. It has a many-to-one relationship with the Charging Wallet database model.
+    * **Amount:** This is the amount of money requested to be added to the wallet owner's balance.
+    * **Verified:** This field is used to check whether the charging wallet request has been verified.
+    * **Updated:** This field stores the last datetime when this object model was modified.
+    * **Created:** This is the initial datetime when the wallet charge object database model was created.
+    * **ID:** This is the unique identifier for each charging wallet object model.
+* **Transfer:** Till Adding the transfer model description.
 * **Order:** Not added yet.
 
 ##### Product-related Models
