@@ -117,12 +117,33 @@ The **Order and Shipping** section of EShoppify primarily focuses on managing us
     * **Updated:** This field stores the last datetime when this object model was modified.
     * **Created:** This is the initial datetime when the wallet charge object database model was created.
     * **ID:** This is the unique identifier for each charging wallet object model.
-* **Transfer:** Till Adding the transfer model description.
-* **Order:** Not added yet.
+* **Transfer:** The transfer database table is related to each object model used for transferring money from one EShoppify wallet to another.
+  * Database fields:
+    * **Wallet Owner:** This field represents a many-to-one relationship with the wallet from which the money originates. It identifies the wallet owned by the sender and is intended for transferring funds to another wallet.
+    * **Wallet Destination:** This field represents a many-to-one relationship with the wallet object model that serves as the destination for the transferred money.
+    * **Amount:** This field specifies the amount of money to be transferred.
+    * **Verified:** This boolean field indicates whether the transfer has been verified.
+    * **Created:** This field records the date and time when the wallet transfer object was initially created in the database.
+    * **ID:** This is a unique identifier for each wallet transfer object in the database.
+* **Order:** This database table schema corresponds to the order object model, which is used to plan purchased products and manage them for shipment to customers.
+  * Database fields:
+    * **Owner:** This field represents a many-to-one relationship with the authenticated user, indicating which user owns the created orders.
+    * **Product:** This field represents a many-to-one relationship with the Product database model, specifying which product is included in the order.
+    * **Address:** This field represents a many-to-one relationship with the EShoppify authenticated user's addresses, used for shipping purposes.
+    * **Description:** This optional field allows the user to provide a short description for additional details, if needed.
+    * **Quantity:** This integer field specifies the quantity of the product included in the order.
+    * **Price:** This field represents the total price of the order, which the EShoppify customer is required to pay.
+    * **Created:** This field records the date and time when the order object was created in the database.
+    * **ID:** This field is a unique identifier for each order object in the database.
 
 ##### Product-related Models
 
-Not added yet.
+Till adding the short description of the product section of the EShoppify database schema.
+
+* **Category:** Not added yet.
+* **Brand:** Not added yet.
+* **Product:** Not added yet.
+* **Product Images:** Not added yet.
 
 ### **Backend Development**
 

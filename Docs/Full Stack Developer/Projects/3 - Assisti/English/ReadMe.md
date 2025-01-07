@@ -26,12 +26,6 @@ Not added yet ....
 
 ### **Requirement Analysis & Architecture Planning**
 
-ChatGPT Note:
-
-* Understand the functional and technical requirements.
-* Plan the backend architecture (e.g., APIs, databases).
-* Decide on the technology stack (e.g., frontend framework, backend language, database).
-
 #### Database Architecture
 
 As Assisti is a multidisciplinary project that combines full-stack development and artificial intelligence engineering, its database schema includes several models with a common label field that should be predicted by the Assisti AI models. The following section shows the Assisti database schema:
@@ -120,7 +114,14 @@ In the following, the sub-tables of each section will be explained:
 
 #### Technology Stack
 
-Till adding a short brief descripiton about the technologies which have been used to develop the Assisti Artificial intellignece model.
+**The Power of Django for Assisti's Backend**
+Assisti is built on the Django framework, celebrated as one of the most cutting-edge tools in software development. Known for its scalability, security, and rapid development capabilities, Django ensures Assisti’s backend is robust and future-ready, delivering seamless and secure AI-powered experiences.
+
+**Python: The Heart of AI Innovation**
+At the core of Assisti lies Python, the pioneer language of artificial intelligence. Trusted by leading tech giants, Python powers everything from natural language processing to machine learning, making it the perfect choice for Assisti to stay ahead in the AI revolution.
+
+**Flutter and Dart: Cross-Platform Brilliance**
+For Assisti’s mobile interface, I leverage Flutter and Dart—a game-changing duo in cross-platform development. With Flutter’s expressive UI capabilities and Dart’s fast performance, Assisti delivers consistent, visually stunning, and responsive experiences on both Android and iOS devices.
 
 ### **Backend Development**
 
@@ -131,10 +132,23 @@ ChatGPT Notes:
 * **API Development** : Design and implement RESTful or GraphQL APIs to handle CRUD operations.
 * **Authentication & Authorization** : Implement user authentication (e.g., JWT, OAuth) and role-based access control.
 * **Business Logic** : Write the core logic for application functionality (e.g., order processing, payment handling).
+* **Artificial Intelligence Development** : Explaining the AI models used in the Assisti.
 
 ---
 
-Not added yet.
+#### Server Setup
+
+#### Database Design
+
+#### API Development
+
+#### Authentication & Authorization
+
+Till explaining the authentication and authorization section of the Assisti.
+
+#### Business Logic
+
+#### Artificial Intelligence Development
 
 ### **Frontend Development**
 
