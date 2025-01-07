@@ -138,11 +138,26 @@ The **Order and Shipping** section of EShoppify primarily focuses on managing us
 
 ##### Product-related Models
 
-Till adding the short description of the product section of the EShoppify database schema.
+This segment of EShoppify focuses on the management of product data within the database backend. It organizes products into relevant categories, ensuring efficient classification—a standard practice for e-commerce platforms. This section also centralizes essential product details, serving as the foundation for all product listings on EShoppify.
 
-* **Category:** Not added yet.
-* **Brand:** Not added yet.
-* **Product:** Not added yet.
+* **Category:** This database table plays a key role in organizing products into various categories for better structure and user experience.
+  * Database fields:
+    * **Owner:** Establishes a many-to-one relationship with EShoppify authenticated users, enabling sellers to define their categories and manage their products.
+    * **Category:** The name of the category, stored as text for easy reference.
+    * **Slug:** Converts the category name into a URL-friendly format to improve routing and SEO (**S**earch **E**ngine **O**ptimization).
+    * **Created:** The timestamp indicating when the category object model was created.
+    * **ID:** A unique identifier assigned to each category, ensuring distinct tracking and referencing in the database.
+* **Brand:** This section of the database schema organizes products by the brands supplying them, allowing for brand-specific categorization following the product categorization process.
+  * Database fields:
+    * **Owner:** Establishes a many-to-one relationship with EShoppify sellers, enabling them to define and manage their own brand.
+    * **Category:** The category that this brand is associated with.
+    * **Logo:** The image representing the brand’s logo.
+    * **Name:** The name of the brand.
+    * **Slug:** Converts the brand name into a URL-friendly format to enhance routing and improve **S**earch **E**ngine **O**ptimization (SEO).
+    * **Ratio:** A metric indicating how popular or favored each brand is within the platform.
+    * **Created:** The timestamp when the brand object model was created in the database.
+    * **ID:** A unique identifier assigned to each brand for accurate tracking and referencing in the database.
+* **Product:** Till adding the description of the product database table.
 * **Product Images:** Not added yet.
 
 ### **Backend Development**
