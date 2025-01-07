@@ -144,7 +144,209 @@ ChatGPT Notes:
 
 #### Authentication & Authorization
 
-Till explaining the authentication and authorization section of the Assisti.
+To create a robust and scalable backend with a focus on extensibility and security, the Assisti backend was developed using the powerful Django framework and Python programming language. Django’s versatility allows for rapid development, while its built-in security features ensure data protection and minimize vulnerabilities. Python's simplicity and efficiency further enhance the backend's performance, making it easier to maintain and expand as the application grows. This combination of technologies ensures that the backend can handle increased user traffic and new feature integrations seamlessly. Additionally, the flexible architecture supports continuous improvements, positioning the Assisti backend for long-term success and adaptability.
+
+To ensure extensibility, a key characteristic envisioned for Assisti, the development of the backend user models was carefully designed with scalability and flexibility in mind. The following base code serves as the foundation for the Assisti user model, allowing for seamless customization and integration of additional features as needed. By implementing a modular architecture, the user model can accommodate future enhancements without disrupting the core functionality. This approach not only simplifies maintenance but also aligns with the project's goal of supporting evolving user requirements. The base code exemplifies this commitment to adaptability and forward-thinking design.
+
+```Python
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+# - > Libraries
+
+## -- >> Django Auth Models
+from django.contrib.auth.models import (
+    AbstractBaseUser,
+    PermissionsMixin,
+)
+
+## -- >> Importing django settings
+from django.conf import settings
+
+## -- >> Getting the auth user model
+User = settings.AUTH_USER_MODEL
+
+## -- >> Django Models
+from django.db import models
+
+## -- > Django Utils Translations
+from django.utils.translation import gettext as _
+
+## -- >> Import UUID
+import uuid
+
+## -- >> Import Random Package
+import random
+
+## -- >> Import string
+import string
+
+## -- >> Import Slugify
+from django.utils.text import slugify
+
+# - > Modules
+
+## -- >> Import Managers
+from .managers import AssistIUserManager
+
+
+def generate_random_username(max_length=80):
+    """
+        Generate a random username based on a base name with a random suffix.
+        Ensures it's alphanumeric, lowercased, and within max_length.
+    """
+
+    # Use base_name or default to a generic prefix
+    base_name = "user"
+    base_name = slugify(base_name)[:max_length - 8]  # Limit base name length
+
+    # Generate a random alphanumeric suffix
+    suffix = ''.join(random.choices(string.ascii_lowercase + string.digits, k=6))
+
+    # Combine base name and suffix
+    username = f"{base_name}_{suffix}"
+
+    # Truncate if necessary
+    return username[:max_length]
+
+
+class AssistIUser(AbstractBaseUser, PermissionsMixin):
+    """ Assisti User Model """
+
+    ## -- >> User email
+    email = models.EmailField(_('email address'), unique=True)
+
+    ## -- >> User username
+    username = models.CharField(max_length=150, blank=True, null=True, unique=True, default=generate_random_username)
+
+    ## -- >> User full name
+    name = models.CharField(max_length=100, null=True, blank=True)
+
+    ## -- >> Created Account date time
+    date_joined = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+
+    ## -- >> Whether this user has an active account with purchased product or not
+    is_active = models.BooleanField(default=False)
+
+    ## -- >> Whether this account is verified
+    is_verified = models.BooleanField(default=False)
+
+    ## -- >> Whether this user is Assisti employer or not
+    is_staff = models.BooleanField(default=False)
+
+    ## -- >> Two-factor code field
+    two_factor_code = models.CharField(max_length=6, blank=True, null=True)
+
+    ## -- >> User Unique ID
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+
+    ## -- >> Assisti User Manager
+    objects = AssistIUserManager()
+
+    ## -- >> Override the required to be logged in parameter to assisti email
+    USERNAME_FIELD = 'email'
+
+    ## -- >> Assisti Required Fields
+    REQUIRED_FIELDS = [
+        "name",
+    ]
+
+    ## -- >> Assisti Base User Meta Options
+    class Meta:
+        ### --- >>> Single Object Name
+        verbose_name = 'Assisti User'
+
+        ### --- >>> Plural Object Names
+        verbose_name_plural = 'Assisti Users'
+
+    ## -- >> Show object name with the User email
+    def __str__(self):
+        return self.email
+
+    ## -- >> Method to generate and save a 2FA code
+    def generate_two_factor_code(self):
+        ### --- >>> Generate 6-digit code
+        self.two_factor_code = str(
+
+            #### ---- >>>> Return random integer in range [a, b], including both end points.
+            random.randint(
+                100000, 999999,
+            ),
+
+        )
+
+        ### --- >>> Save the User object model with new assigned TFC (Two-Factor Code)
+        self.save()
+
+
+# - > Create Profile object model
+class Profile(models.Model):
+    ## -- >> One-to-One relationship with the Authentication user
+    owner = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)
+
+    ## -- >> Name
+    name = models.CharField(max_length=500, blank=True, null=True)
+
+    ## -- >> email
+    email = models.EmailField(null=True, blank=True)
+
+    ## -- >> Username
+    username = models.CharField(max_length=300, blank=True, null=True)
+
+    ## -- >> Profile biography
+    bio = models.TextField(blank=True, null=True)
+
+    ## -- >> Profile creation data time
+    created = models.DateTimeField(auto_now_add=True)
+
+    ## -- >> Profile Unique ID
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+
+    ## -- >> Class Meta
+    class Meta:
+        ### --- >>> Indexes for index searching in the database
+        indexes = [
+            models.Index(
+                fields=[
+                    'name',
+                    'id',
+                ],
+            ),
+        ]
+
+    ## -- >> Change the name of object name in administrator | Show the object models based on profile name
+    def __str__(self):
+        return self.name
+
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+```
+
+📌 One of my core strengths is writing clean, well-structured, and fully documented code, ensuring readability and ease of understanding for seamless collaboration and future maintenance.
+
+In Django development, extending the user authentication model is best achieved by creating custom user models that inherit from `AbstractBaseUser`. This approach provides greater flexibility for future enhancements and customizations. I have implemented this key feature, ensuring the user model is robust, scalable, and adaptable to evolving project needs. By following this best practice, the backend is better positioned for seamless integration of advanced functionalities. This implementation highlights my focus on building maintainable and forward-thinking solutions.
+
+As demonstrated in the Assisti code above, the `AssistIUser`, a customized Django backend user model, includes the following attributes designed to enhance functionality and adaptability.
+
+* **Email:** This field stores the email addresses of Assisti users, serving as a cornerstone for authentication and authorization processes. Recognized as the "email address" in the admin panel, it is designed to be unique, ensuring every user has an exclusive identifier. Beyond authentication, this email is integral to various platform functionalities, including subscription services, successful payment confirmations, and other critical notifications. Most importantly, it supports secure login through cutting-edge two-factor authentication, where verification codes are sent via email—a widely adopted standard in modern authentication systems across platforms.
+* **Username:** Till adding the username AssistiUser description.
+* **Name:** wwwwwwwwwwwwwwwwwww
+* **Date Joined:** wwwwwwwwwwwwwwwwwww
+* **Is Active:** wwwwwwwwwwwwwwwwwww
+* **Is Verified:** wwwwwwwwwwwwwwwwwww
+* **Is Staff:** wwwwwwwwwwwwwwwwwww
+* **Two Factor Code:** wwwwwwwwwwwwwwwwwww
+* **ID:** wwwwwwwwwwwwwwwwwww
+* **Objects:** wwwwwwwwwwwwwwwwwww
+* **Username Field:** wwwwwwwwwwwwwwwwwww
+* **Required :** wwwwwwwwwwwwwwwwwww
 
 #### Business Logic
 
