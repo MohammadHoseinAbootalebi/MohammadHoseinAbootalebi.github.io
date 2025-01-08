@@ -157,8 +157,25 @@ This segment of EShoppify focuses on the management of product data within the d
     * **Ratio:** A metric indicating how popular or favored each brand is within the platform.
     * **Created:** The timestamp when the brand object model was created in the database.
     * **ID:** A unique identifier assigned to each brand for accurate tracking and referencing in the database.
-* **Product:** Till adding the description of the product database table.
-* **Product Images:** Not added yet.
+* **Product:** This EShoppify database table is dedicated to each product object defined in the EShoppify e-commerce website.
+  * Database fields:
+    * **Owner:** This field represents the owner or EShoppify seller user who defines each product object in the database model. It has a many-to-one foreign key relationship with the EShoppify user model.
+    * **Name:** This field stores the name of the product.
+    * **Brand:** This field represents the brand under which the product is licensed. It has a many-to-one relationship with the brand database model.
+    * **Category:** This field specifies the category under which the product is classified. It has a many-to-one relationship with the category model.
+    * **Description:** This field contains a description of the product to explain its details.
+    * **Price:** This field represents the price of the product as a floating-point number.
+    * **Ratio:** This field indicates how much the product is favored or liked.
+    * **Slug:** This field is used to create a slug for the product, ensuring the URL routes appear user-friendly.
+    * **Created Datetime:** This field records the creation date and time of the product object.
+    * **ID:** This is the unique identifier for each product object in the database model.
+* **Product Images:** This database table is used to store product images, allowing EShoppify customers to view them while shopping.
+  * Database fields:
+    * **Owner:** This field represents the owner or creator of the product object (EShoppify seller user). It has a many-to-one foreign key relationship with the EShoppify user model.
+    * **Product:** This field links to the product that each product image object is associated with. It has a many-to-one relationship with the product model.
+    * **File:** This field stores the image or any other file that showcases the product.
+    * **Creation Datetime:** This field records the creation date and time of each product file.
+    * **ID:** This is the unique identifier for each product image object in the database model.
 
 ### **Backend Development**
 
@@ -172,7 +189,21 @@ ChatGPT Notes:
 
 ---
 
-Not added yet.
+#### Server Setup
+
+Till adding the a short description about the setting up:
+
+* Enviromnet variables
+* Used and insalled packages
+* Django
+
+#### Database Design
+
+#### API Development
+
+#### Authentication & Authorization
+
+#### Business Logic
 
 ### **Frontend Development**
 
