@@ -140,11 +140,282 @@ ChatGPT Notes:
 
 #### Database Design
 
+##### Assisti Auth User
+
+The Assisti backend user model is designed for extensibility, scalability, and flexibility. It can be customized and expanded easily to accommodate future needs. The provided base code illustrates the user model's foundational structure, allowing seamless addition of features and ensuring smooth integration with evolving requirements. By adopting a modular architecture, the user model can be updated without disrupting core functionality, supporting the project’s vision of growth and adaptability.
+
+```Python
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+# - > Libraries
+
+## -- >> Django Auth Models
+from django.contrib.auth.models import (
+    AbstractBaseUser,
+    PermissionsMixin,
+)
+
+## -- >> Importing django settings
+from django.conf import settings
+
+## -- >> Getting the auth user model
+User = settings.AUTH_USER_MODEL
+
+## -- >> Django Models
+from django.db import models
+
+## -- > Django Utils Translations
+from django.utils.translation import gettext as _
+
+## -- >> Import UUID
+import uuid
+
+## -- >> Import Random Package
+import random
+
+## -- >> Import string
+import string
+
+## -- >> Import Slugify
+from django.utils.text import slugify
+
+# - > Modules
+
+## -- >> Import Managers
+from .managers import AssistIUserManager
+
+
+def generate_random_username(max_length=80):
+    """
+        Generate a random username based on a base name with a random suffix.
+        Ensures it's alphanumeric, lowercased, and within max_length.
+    """
+
+    # Use base_name or default to a generic prefix
+    base_name = "user"
+    base_name = slugify(base_name)[:max_length - 8]  # Limit base name length
+
+    # Generate a random alphanumeric suffix
+    suffix = ''.join(random.choices(string.ascii_lowercase + string.digits, k=6))
+
+    # Combine base name and suffix
+    username = f"{base_name}_{suffix}"
+
+    # Truncate if necessary
+    return username[:max_length]
+
+
+class AssistIUser(AbstractBaseUser, PermissionsMixin):
+    """ Assisti User Model """
+
+    ## -- >> User email
+    email = models.EmailField(_('email address'), unique=True)
+
+    ## -- >> User username
+    username = models.CharField(max_length=150, blank=True, null=True, unique=True, default=generate_random_username)
+
+    ## -- >> User full name
+    name = models.CharField(max_length=100, null=True, blank=True)
+
+    ## -- >> Created Account date time
+    date_joined = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+
+    ## -- >> Whether this user has an active account with purchased product or not
+    is_active = models.BooleanField(default=False)
+
+    ## -- >> Whether this account is verified
+    is_verified = models.BooleanField(default=False)
+
+    ## -- >> Whether this user is Assisti employer or not
+    is_staff = models.BooleanField(default=False)
+
+    ## -- >> Two-factor code field
+    two_factor_code = models.CharField(max_length=6, blank=True, null=True)
+
+    ## -- >> User Unique ID
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+
+    ## -- >> Assisti User Manager
+    objects = AssistIUserManager()
+
+    ## -- >> Override the required to be logged in parameter to assisti email
+    USERNAME_FIELD = 'email'
+
+    ## -- >> Assisti Required Fields
+    REQUIRED_FIELDS = [
+        "name",
+    ]
+
+    ## -- >> Assisti Base User Meta Options
+    class Meta:
+        ### --- >>> Single Object Name
+        verbose_name = 'Assisti User'
+
+        ### --- >>> Plural Object Names
+        verbose_name_plural = 'Assisti Users'
+
+    ## -- >> Show object name with the User email
+    def __str__(self):
+        return self.email
+
+    ## -- >> Method to generate and save a 2FA code
+    def generate_two_factor_code(self):
+        ### --- >>> Generate 6-digit code
+        self.two_factor_code = str(
+
+            #### ---- >>>> Return random integer in range [a, b], including both end points.
+            random.randint(
+                100000, 999999,
+            ),
+
+        )
+
+        ### --- >>> Save the User object model with new assigned TFC (Two-Factor Code)
+        self.save()
+
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+```
+
+As previously explained in the Assisti database schema section, the Auth User backend database model contains following attributes:
+
+* **Email**
+  * `email = models.EmailField(_('email address'), unique=True)`
+  * Stores the email address of the user, ensuring uniqueness in the system.
+* **Username**
+  * `username = models.CharField(max_length=150, blank=True, null=True, unique=True, default=generate_random_username)`
+  * Stores the username of the user, with a maximum length of 150 characters. It is unique and defaults to a randomly generated value if not provided.
+* **Name**
+  * `name = models.CharField(max_length=100, null=True, blank=True)`
+  * Stores the user's name, with a maximum length of 100 characters. This field is optional.
+* **Date Joined**
+  * `date_joined = models.DateTimeField(auto_now_add=True, null=True, blank=True)`
+  * Automatically records the date and time when the user account was created.
+* **Is Active**
+  * `is_active = models.BooleanField(default=False)`
+  * Indicates whether the user account is active. Default is `False`.
+* **Is Verified**
+  * `is_verified = models.BooleanField(default=False)`
+  * Indicates whether the user's email address has been verified. Default is `False`.
+* **Is Staff**
+  * `is_staff = models.BooleanField(default=False)`
+  * Determines whether the user has staff privileges. Default is `False`.
+* **Two-Factor Code**
+  * `two_factor_code = models.CharField(max_length=6, blank=True, null=True)`
+  * Stores the user's two-factor authentication code, if applicable, with a maximum length of 6 characters.
+* **ID**
+  * `id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)`
+  * Serves as the unique identifier for the user, using a UUID (Universally Unique Identifier).
+
+##### Profile
+
+Upon successfully creating an Assisti user account, a unique profile object is automatically generated. This profile serves various purposes, including frontend display, email notifications, participation in Assisti chatrooms, and more. The backend structure of the profile object model is as follows:
+
+```Python
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+# - > Libraries
+
+## -- >> Importing django settings
+from django.conf import settings
+
+## -- >> Getting the auth user model
+User = settings.AUTH_USER_MODEL
+
+## -- >> Django Models
+from django.db import models
+
+## -- >> Import UUID
+import uuid
+
+# - > Create Profile object model
+class Profile(models.Model):
+    ## -- >> One-to-One relationship with the Authentication user
+    owner = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)
+
+    ## -- >> Name
+    name = models.CharField(max_length=500, blank=True, null=True)
+
+    ## -- >> email
+    email = models.EmailField(null=True, blank=True)
+
+    ## -- >> Username
+    username = models.CharField(max_length=300, blank=True, null=True)
+
+    ## -- >> Profile biography
+    bio = models.TextField(blank=True, null=True)
+
+    ## -- >> Profile creation data time
+    created = models.DateTimeField(auto_now_add=True)
+
+    ## -- >> Profile Unique ID
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+
+    ## -- >> Class Meta
+    class Meta:
+        ### --- >>> Indexes for index searching in the database
+        indexes = [
+            models.Index(
+                fields=[
+                    'name',
+                    'id',
+                ],
+            ),
+        ]
+
+    ## -- >> Change the name of object name in administrator | Show the object models based on profile name
+    def __str__(self):
+        return self.name
+
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+```
+
+As previously explained in the Assisti database schema section, the profile backend database model contains following attributes:
+
+* **Owner**
+  * `owner = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)`
+  * Links the profile to a specific user account, ensuring a one-to-one relationship. If the user is deleted, the profile is also removed.
+* **Name**
+  * `name = models.CharField(max_length=500, blank=True, null=True)`
+  * Stores the name of the profile owner, with a maximum length of 500 characters. This field is optional.
+* **Email**
+  * `email = models.EmailField(null=True, blank=True)`
+  * Stores the email address associated with the profile. This field is optional and validates email formats.
+* **Username**
+  * `username = models.CharField(max_length=300, blank=True, null=True)`
+  * Stores the username for the profile, with a maximum length of 300 characters. This field is optional.
+* **Biography**
+  * `bio = models.TextField(blank=True, null=True)`
+  * Contains a textual biography or description for the profile. This field is optional and can hold long text.
+* **Creation Datetime**
+  * `created = models.DateTimeField(auto_now_add=True)`
+  * Automatically records the date and time when the profile is created.
+* **ID**
+  * `id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)`
+  * Serves as the unique identifier for the profile, using a universally unique identifier (UUID).
+
 #### API Development
 
 #### Authentication & Authorization
 
 To create a robust and scalable backend with a focus on extensibility and security, the Assisti backend was developed using the powerful Django framework and Python programming language. Django’s versatility allows for rapid development, while its built-in security features ensure data protection and minimize vulnerabilities. Python's simplicity and efficiency further enhance the backend's performance, making it easier to maintain and expand as the application grows. This combination of technologies ensures that the backend can handle increased user traffic and new feature integrations seamlessly. Additionally, the flexible architecture supports continuous improvements, positioning the Assisti backend for long-term success and adaptability.
+
+##### Assisti Auth User Database Model
 
 To ensure extensibility, a key characteristic envisioned for Assisti, the development of the backend user models was carefully designed with scalability and flexibility in mind. The following base code serves as the foundation for the Assisti user model, allowing for seamless customization and integration of additional features as needed. By implementing a modular architecture, the user model can accommodate future enhancements without disrupting the core functionality. This approach not only simplifies maintenance but also aligns with the project's goal of supporting evolving user requirements. The base code exemplifies this commitment to adaptability and forward-thinking design.
 
@@ -281,46 +552,6 @@ class AssistIUser(AbstractBaseUser, PermissionsMixin):
         ### --- >>> Save the User object model with new assigned TFC (Two-Factor Code)
         self.save()
 
-
-# - > Create Profile object model
-class Profile(models.Model):
-    ## -- >> One-to-One relationship with the Authentication user
-    owner = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)
-
-    ## -- >> Name
-    name = models.CharField(max_length=500, blank=True, null=True)
-
-    ## -- >> email
-    email = models.EmailField(null=True, blank=True)
-
-    ## -- >> Username
-    username = models.CharField(max_length=300, blank=True, null=True)
-
-    ## -- >> Profile biography
-    bio = models.TextField(blank=True, null=True)
-
-    ## -- >> Profile creation data time
-    created = models.DateTimeField(auto_now_add=True)
-
-    ## -- >> Profile Unique ID
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-
-    ## -- >> Class Meta
-    class Meta:
-        ### --- >>> Indexes for index searching in the database
-        indexes = [
-            models.Index(
-                fields=[
-                    'name',
-                    'id',
-                ],
-            ),
-        ]
-
-    ## -- >> Change the name of object name in administrator | Show the object models based on profile name
-    def __str__(self):
-        return self.name
-
 # ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
 # ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
 # ©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©© #
@@ -336,17 +567,21 @@ In Django development, extending the user authentication model is best achieved 
 As demonstrated in the Assisti code above, the `AssistIUser`, a customized Django backend user model, includes the following attributes designed to enhance functionality and adaptability.
 
 * **Email:** This field stores the email addresses of Assisti users, serving as a cornerstone for authentication and authorization processes. Recognized as the "email address" in the admin panel, it is designed to be unique, ensuring every user has an exclusive identifier. Beyond authentication, this email is integral to various platform functionalities, including subscription services, successful payment confirmations, and other critical notifications. Most importantly, it supports secure login through cutting-edge two-factor authentication, where verification codes are sent via email—a widely adopted standard in modern authentication systems across platforms.
-* **Username:** Till adding the username AssistiUser description.
-* **Name:** wwwwwwwwwwwwwwwwwww
-* **Date Joined:** wwwwwwwwwwwwwwwwwww
-* **Is Active:** wwwwwwwwwwwwwwwwwww
-* **Is Verified:** wwwwwwwwwwwwwwwwwww
-* **Is Staff:** wwwwwwwwwwwwwwwwwww
-* **Two Factor Code:** wwwwwwwwwwwwwwwwwww
-* **ID:** wwwwwwwwwwwwwwwwwww
-* **Objects:** wwwwwwwwwwwwwwwwwww
-* **Username Field:** wwwwwwwwwwwwwwwwwww
-* **Required :** wwwwwwwwwwwwwwwwwww
+* **Username:** This field is used to store the username, which increases the uniqueness of Assisti users and allows for potential future use cases.
+* **Name:** This field displays the names of Assisti users.
+* **Date Joined:** This field records the date and time when each Assisti user joined the platform.
+* **Is Active:** This field indicates whether an Assisti user's account is active or not.
+* **Is Verified:** This field indicates whether an Assisti user has verified their email address.
+* **Is Staff:** This field checks whether an Assisti user is a staff member or an employee of Assisti.
+* **Two-Factor Code:** This field stores the two-factor authentication code, which enhances Assisti's authentication and authorization system.
+* **ID:** This field serves as the unique identifier for each Assisti user.
+* **Objects:** This field specifies the customized Assisti manager responsible for user creation and superuser creation processes.
+* **Username Field:** This field determines which attribute of the Assisti Auth User model should be used in authentication processes.
+* **Required:** This field specifies which attributes of Assisti users are mandatory.
+
+##### Two-Factor Authentication System
+
+Till explaining the Two-Factor authentication system mechanism.
 
 #### Business Logic
 
