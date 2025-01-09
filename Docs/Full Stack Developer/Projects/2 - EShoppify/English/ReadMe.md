@@ -191,11 +191,14 @@ ChatGPT Notes:
 
 #### Server Setup
 
+To explain 
+
 Till adding the a short description about the setting up:
 
 * Enviromnet variables
 * Used and insalled packages
 * Django
+
 
 #### Database Design
 
