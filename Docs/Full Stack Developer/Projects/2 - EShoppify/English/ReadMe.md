@@ -352,7 +352,11 @@ By incorporating django-allauth into “EShoppify,” the project exemplifies th
 
 ##### **EShoppify** Authentication Walkthroughs
 
-Till adding the description of the real-time functionality of authentication of EShoppify with images and videos.
+Till adding the description of the starting the authentication landing page.
+
+![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.webp)
+
+Not added yet.
 
 #### Architecture
 
