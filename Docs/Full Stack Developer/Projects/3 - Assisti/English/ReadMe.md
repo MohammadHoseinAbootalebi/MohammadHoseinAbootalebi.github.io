@@ -221,7 +221,11 @@ The landing page is a vital component of any major project, serving as the first
 
 In Assisti, the landing page has been meticulously crafted to provide a comprehensive yet intuitive overview of the project’s offerings. Its design prioritizes clarity, user-friendliness, and visual appeal, making it an effective tool for conveying the project’s unique AI-driven solutions. From compelling headlines to strategically placed call-to-actions, every element has been optimized to capture user attention and drive engagement. This section not only showcases Assisti’s core features but also emphasizes its practical applications, ensuring visitors see its relevance to their needs. The following description delves deeper into the design and functionality of this pivotal aspect of Assisti.
 
-Till working on the landing page image to use **svg** for more resolution.
+Till explanation of the following image is landing page and more.
+
+![Landing Page](../Assets/Architecture/Landing/Images/Landing%20Page.png)
+
+Not added yet.
 
 #### Database Design
 
