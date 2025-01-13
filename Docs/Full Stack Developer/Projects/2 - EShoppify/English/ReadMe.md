@@ -362,6 +362,10 @@ The EShoppify landing page appears as shown. On this page, users without an exis
 
 Not added yet.
 
+![Landing Page - Mobile - Web](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Web.webp)
+
+Not added yet.
+
 ###### 📱 Native Mobile Application
 
 Not added yet.
