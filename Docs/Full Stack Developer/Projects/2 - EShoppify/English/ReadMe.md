@@ -352,17 +352,17 @@ By incorporating django-allauth into “EShoppify,” the project exemplifies th
 
 ##### **EShoppify** Authentication Walkthroughs
 
-Till writing a description for each platforms.
+This section provides an explanation of the authentication and authorization process across various platforms of EShoppify, a cutting-edge e-commerce project.
 
-###### 💻 Web, Desktop, PC
+###### 💻 Web, PC, Mobile
 
-Not added yet.
+The EShoppify landing page appears as shown. On this page, users without an existing account can create one by clicking the "Sign Up" button, which initiates the registration process, explained further below. For users with a prior EShoppify account, clicking the "Login" button begins the authorization process. This involves verifying user credentials through the backend authentication system, sending a two-factor authentication code via email, and then redirecting the user to their profile screen.
 
 ![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.webp)
 
 Not added yet.
 
-###### 📱 Mobile
+###### 📱 Native Mobile Application
 
 Not added yet.
 
