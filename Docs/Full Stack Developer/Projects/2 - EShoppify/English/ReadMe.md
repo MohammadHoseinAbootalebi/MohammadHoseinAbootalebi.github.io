@@ -360,9 +360,21 @@ The EShoppify landing page appears as shown. On this page, users without an exis
 
 ![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.webp)
 
-Not added yet.
+The functionality of the web platform mirrors that of the mobile web view, ensuring a consistent user experience across devices. By tapping the menu toggle button located in the top navigation bar, users can access the menu, which contains two primary options. The first button is for existing EShoppify users, allowing them to complete the authentication process to log in. The second button facilitates account creation for new users, enabling them to undergo the authorization process.
+
+During either the authentication or authorization process, users are required to provide their email as part of the necessary credentials. Once the email is entered, a two-factor authentication code is sent to the provided email address. The user must then input this code into the platform, and upon successful verification, they are redirected to their EShoppify profile. This enhanced process ensures both security and a seamless transition into the platform for all users.
 
 ![Landing Page - Mobile - Web](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Web.webp)
+
+📌 **Logging in**
+
+Till describing the login screen in web on desktop platform.
+
+![Login screen | Web PC](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Web%20-%20PC%20and%20Desktop.webp)
+
+Not added yet.
+
+📌 **Signing up**
 
 Not added yet.
 
