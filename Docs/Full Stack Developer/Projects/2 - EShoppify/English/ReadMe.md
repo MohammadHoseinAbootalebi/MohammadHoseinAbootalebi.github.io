@@ -368,13 +368,31 @@ During either the authentication or authorization process, users are required to
 
 📌 **Logging in**
 
-Till describing the login screen in web on desktop platform.
+The login page for PC or desktop platforms provides a clear and user-friendly interface for authentication. Users are required to enter their email address and password to proceed to the two-factor authentication step. Key features of the login page include:
+
+* **Email and Password Fields**
+  * The email field is for entering the registered email address.
+  * The password field includes an eye icon button that allows users to toggle between hiding and revealing the entered password for convenience.
+* **Forgot Password Option**
+  * Below the password field, there is a "Forgot Password" link that users can click to reset their password if needed.
+* **Stay Logged In Option**
+  * A checkbox is provided for users who want to stay logged in on the device.
+* **Login Button**
+  * The "Login" button submits the entered credentials to proceed to the next step of the authentication process, which is two-factor authentication.
+* **Sign-Up Link**
+  * Below the login button, there is a "Sign Up" link for new users to create an account.
+
+This streamlined layout ensures a smooth login experience while emphasizing security and convenience.
 
 ![Login screen | Web PC](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Web%20-%20PC%20and%20Desktop.webp)
 
-Not added yet.
+Till Designing and adding the login page in the mobile web view.
 
 📌 **Signing up**
+
+Not added yet.
+
+📌 **Password Reset**
 
 Not added yet.
 
