@@ -358,13 +358,15 @@ This section provides an explanation of the authentication and authorization pro
 
 The EShoppify landing page appears as shown. On this page, users without an existing account can create one by clicking the "Sign Up" button, which initiates the registration process, explained further below. For users with a prior EShoppify account, clicking the "Login" button begins the authorization process. This involves verifying user credentials through the backend authentication system, sending a two-factor authentication code via email, and then redirecting the user to their profile screen.
 
-![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.webp)
+![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.png)
 
 The functionality of the web platform mirrors that of the mobile web view, ensuring a consistent user experience across devices. By tapping the menu toggle button located in the top navigation bar, users can access the menu, which contains two primary options. The first button is for existing EShoppify users, allowing them to complete the authentication process to log in. The second button facilitates account creation for new users, enabling them to undergo the authorization process.
 
 During either the authentication or authorization process, users are required to provide their email as part of the necessary credentials. Once the email is entered, a two-factor authentication code is sent to the provided email address. The user must then input this code into the platform, and upon successful verification, they are redirected to their EShoppify profile. This enhanced process ensures both security and a seamless transition into the platform for all users.
 
-![Landing Page - Mobile - Web](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Web.webp)
+![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Closed.png)
+
+![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Opened.png)
 
 📌 **Logging in**
 
@@ -386,7 +388,11 @@ This streamlined layout ensures a smooth login experience while emphasizing secu
 
 ![Login screen | Web PC](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Web%20-%20PC%20and%20Desktop.webp)
 
-Till Designing and adding the login page in the mobile web view.
+Till Adding the descripiton of the login screen in the mobile web view.
+
+![Login screen | Mobile Web View](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Mobile%20-%20Web%20View.png)
+
+Not added yet.
 
 📌 **Signing up**
 
