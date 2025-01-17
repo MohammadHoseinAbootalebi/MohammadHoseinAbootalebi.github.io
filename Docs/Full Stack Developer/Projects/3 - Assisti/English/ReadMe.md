@@ -680,6 +680,8 @@ To enhance the security of user authentication in the Assisti project, an option
 
 ###### OCR
 
+Not added yet.
+
 ### **Testing**
 
 ChatGPT Notes:
