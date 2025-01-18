@@ -306,7 +306,7 @@ EShoppify backend database explanations.
 
 EShoppify API doucementation.
 
-#### Authentication & Authorization
+#### EShoppify Authentication & Authorization
 
 ##### Overview
 
@@ -350,11 +350,11 @@ The decision to use django-allauth for “EShoppify” is rooted in its proven t
 
 By incorporating django-allauth into “EShoppify,” the project exemplifies the importance of leveraging expertise and the right tools to deliver value. The ability to integrate and customize advanced features like authentication showcases technical proficiency and a client-focused approach. Employers and clients will recognize the strategic use of Django and its ecosystem as a testament to the developer’s dedication to creating secure, scalable, and user-friendly solutions. This commitment sets the stage for long-term success and collaboration.
 
-##### **EShoppify** Authentication Walkthroughs
+##### Web | PC | Mobile Walkthroughs
 
 This section provides an explanation of the authentication and authorization process across various platforms of EShoppify, a cutting-edge e-commerce project.
 
-###### 💻 Web, PC, Mobile
+###### Landing Page Login and Signup Buttons
 
 The EShoppify landing page appears as shown. On this page, users without an existing account can create one by clicking the "Sign Up" button, which initiates the registration process, explained further below. For users with a prior EShoppify account, clicking the "Login" button begins the authorization process. This involves verifying user credentials through the backend authentication system, sending a two-factor authentication code via email, and then redirecting the user to their profile screen.
 
@@ -368,7 +368,7 @@ During either the authentication or authorization process, users are required to
 
 ![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Opened.png)
 
-📌 **Logging in**
+###### **Logging in**
 
 The login page for PC or desktop platforms provides a clear and user-friendly interface for authentication. Users are required to enter their email address and password to proceed to the two-factor authentication step. Key features of the login page include:
 
@@ -412,15 +412,37 @@ The process described is the same for mobile devices in web view, as shown below
 
 ![Profile Page | Mobile View](../Assets/Backend%20Development/Authentication/Images/Profile%20-%20Page%20-%20Mobile%20View.png)
 
-📌 **Signing up**
+###### **Signing up**
 
-Starting the explanation of the signing up or account creation process in the EShoppify.
+The account creation process on EShoppify can be broken down into two key steps: account creation and account validation, which is similar to the login process. To create a new account, EShoppify users need to click the "Signup" button located in the top navigation bar. On desktop or PC, this button is easily accessible, and on mobile devices, users can tap the button in the mobile web view, as shown for the desktop version.
+
+* Desktop and PC Web View
+
+![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.png)
+
+* Mobile Web View | Navbar Closed
+
+![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Closed.png)
+
+* Mobile Web View | Navbar opened by tapping the '+' button.
+
+![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Opened.png)
+
+TODO: Till Adding the descripion of signing up screen.
+
+![Signup Page | Web | Desktop | PC](../Assets/Backend%20Development/Authentication/Images/Signup%20Screen%20-%20Desktop%20PC%20Web%20View.png)
+
+Not added yet.
+
+![Signup Page | Web | Mobile](../Assets/Backend%20Development/Authentication/Images/Signup%20Screen%20-%20Mobile%20Web%20View.png)
+
+Not added yet.
 
 📌 **Password Reset**
 
 Not added yet.
 
-###### 📱 Native Mobile Application
+##### 📱 Native Mobile Application Walkthroughs
 
 Not added yet.
 
