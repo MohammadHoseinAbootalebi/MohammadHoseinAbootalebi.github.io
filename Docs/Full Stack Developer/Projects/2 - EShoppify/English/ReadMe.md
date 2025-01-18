@@ -388,15 +388,33 @@ This streamlined layout ensures a smooth login experience while emphasizing secu
 
 ![Login screen | Web PC](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Web%20-%20PC%20and%20Desktop.webp)
 
-Till Adding the descripiton of the login screen in the mobile web view.
+The login page for mobile devices is the same as that for desktop platforms. This view can be seen here:
 
 ![Login screen | Mobile Web View](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Mobile%20-%20Web%20View.png)
 
-Not added yet.
+After providing the required login credentials, which include an email address and password, a webpage tailored for PC, desktop, or mobile platforms will appear. On this page, a notification will indicate that a sign-in code has been sent to the provided email. Upon checking the email, the sign-in code can be found.
+
+![Two-Factor Authentication Form | Web View](../Assets/Backend%20Development/Authentication/Images/Entering%20Two%20Factor%20Authentication%20-%20Form%20-%20PC.png)
+
+On mobile devices using the web view, the sign-in code page is identical to the version displayed on PC platforms. It appears as shown below.
+
+![Two-Factor Authentication Form | Mobile View](../Assets/Backend%20Development/Authentication/Images/Entering%20Two%20Factor%20Authentication%20-%20Form%20-%20Mobile.png)
+
+The email containing the sign-in code is designed to include a customizable text introduction, the sign-in code itself, and a closing greeting. Since the development is currently in a local environment, the website URL is configured as eshoppify.com:7000, reflecting its default running port.
+
+![Two-Factor Authentication Sent Code](../Assets/Backend%20Development/Authentication/Images/Two-Factor%20Authentication%20Code%20-%20Gmail.png)
+
+After entering the sign-in code, the EShoppify user is redirected to the profile page, displayed as shown below on PC or desktop platforms. A message confirming successful login is also displayed, as illustrated.
+
+![Profile Page | PC and Desktop View](../Assets/Backend%20Development/Authentication/Images/Profile%20-%20Page%20-%20Web%20and%20PC%20View.png)
+
+The process described is the same for mobile devices in web view, as shown below.
+
+![Profile Page | Mobile View](../Assets/Backend%20Development/Authentication/Images/Profile%20-%20Page%20-%20Mobile%20View.png)
 
 📌 **Signing up**
 
-Not added yet.
+Starting the explanation of the signing up or account creation process in the EShoppify.
 
 📌 **Password Reset**
 

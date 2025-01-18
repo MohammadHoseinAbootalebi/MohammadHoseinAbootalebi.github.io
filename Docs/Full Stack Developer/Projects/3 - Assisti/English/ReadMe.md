@@ -215,13 +215,15 @@ The core libraries, which form the foundation of Assisti, are as follows:
 
 In this section, I will provide an overview of the backend development for the Assisti project, focusing on its views, URL routing, and template integration. The views in Django serve as the logic layer, processing user requests and returning appropriate responses, while the URL routing connects these views to specific endpoints, enabling seamless navigation across the application. Additionally, the templates form the bridge between the backend and frontend, rendering dynamic content for the user interface. Each component plays a critical role in ensuring the functionality and responsiveness of the Assisti AI-driven system. This explanation aims to offer insight into how these elements collaborate to create a cohesive and efficient backend architecture for the project.
 
-##### Landing
+##### Web | PC | Mobile
+
+###### Landing
 
 The landing page is a vital component of any major project, serving as the first point of interaction for users and shaping their initial impressions. For a sophisticated AI-driven project like Assisti, the landing page acts as the gateway to its advanced features, offering a clear and engaging introduction. It not only highlights the project’s purpose and capabilities but also establishes trust and encourages user engagement. A well-designed landing page ensures visitors understand the value of the project and are guided seamlessly to explore further. This crucial section sets the tone for the user experience and reflects the quality and innovation behind Assisti.
 
 In Assisti, the landing page has been meticulously crafted to provide a comprehensive yet intuitive overview of the project’s offerings. Its design prioritizes clarity, user-friendliness, and visual appeal, making it an effective tool for conveying the project’s unique AI-driven solutions. From compelling headlines to strategically placed call-to-actions, every element has been optimized to capture user attention and drive engagement. This section not only showcases Assisti’s core features but also emphasizes its practical applications, ensuring visitors see its relevance to their needs. The following description delves deeper into the design and functionality of this pivotal aspect of Assisti.
 
-Till explanation of the following image is landing page and more.
+The landing page of Project Assisti is designed with a user-friendly interface, featuring a top navigation bar that provides quick access to essential functionalities. It includes a login button, primarily used for authentication, and a signup option for creating new user accounts, enabling seamless authentication and authorization processes within the platform. The page layout is optimized for large screens, ensuring a visually appealing and intuitive user experience. Below is a preview of how the landing page appears on larger devices:
 
 ![Landing Page](../Assets/Architecture/Landing/Images/Landing%20Page.png)
 
