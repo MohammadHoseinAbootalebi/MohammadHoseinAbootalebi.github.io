@@ -227,6 +227,14 @@ The landing page of Project Assisti is designed with a user-friendly interface, 
 
 ![Landing Page](../Assets/Architecture/Landing/Images/Landing%20Page.png)
 
+Till adding the description of the landing page on mobile web view.
+
+![Landing Page | Mobile Web View | Navbar Closed](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Closed.png)
+
+Not added yet.
+
+![Landing Page | Mobile Web View | Navbar Opened](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Opened.png)
+
 Not added yet.
 
 #### Database Design
