@@ -4,6 +4,24 @@
 
 /* ◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯ */
 
+/* ----------------------- ↓ General Rules ↓ ----------------------- */
+
+.Certificate svg {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-style: none !important;
+}
+
+.Certificate svg:hover {
+  color: black !important;
+  transition: all 500ms linear;
+}
+
+/* ----------------------- ↑ General Rules ↑ ----------------------- */
+
+/* □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□ */
+
 /* ----------------------- ↓ Carousel Background ↓ ----------------------- */
 
 /* >>>>>>>>>>>>>>>>>>>>>> ↓ Large Screen ↓ <<<<<<<<<<<<<<<<<<<<< */
