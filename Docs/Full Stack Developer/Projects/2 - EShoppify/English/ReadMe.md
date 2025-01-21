@@ -44,11 +44,12 @@ dedication to creating impactful digital solutions 😉.
       - [API Development](#api-development)
       - [EShoppify Authentication \& Authorization](#eshoppify-authentication--authorization)
         - [Overview](#overview)
-        - [Web | PC | Mobile Walkthroughs](#web--pc--mobile-walkthroughs)
+        - [Web Walkthroughs](#web-walkthroughs)
           - [Landing Page Login and Signup Buttons](#landing-page-login-and-signup-buttons)
           - [Logging in](#logging-in)
           - [Signing up](#signing-up)
           - [Signing Out](#signing-out)
+          - [Password Reset](#password-reset)
         - [📱 Native Mobile Application Walkthroughs](#-native-mobile-application-walkthroughs)
       - [Architecture](#architecture)
     - [Testing](#testing)
@@ -695,6 +696,8 @@ EShoppify account, clicking the "Login" button begins the authorization process.
 credentials through the backend authentication system, sending a two-factor authentication code via email, and then
 redirecting the user to their profile screen.
 
+* Landing page on large screens
+
 ![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.png)
 
 The functionality of the web platform mirrors that of the mobile web view, ensuring a consistent user experience across
@@ -709,9 +712,207 @@ address. The user must then input this code into the platform, and upon successf
 their EShoppify profile. This enhanced process ensures both security and a seamless transition into the platform for all
 users.
 
+* Landing page on small screens | Closed top navigation bar
+
 ![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Closed.png)
 
+* Landing page on small screens | Opened top navigation bar
+
 ![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Opened.png)
+
+To showcase my backend development skills, I will provide an in-depth explanation of the backend functionality behind the EShoppify landing page, highlighting the processes and logic that power its operations.
+
+The first thing to address is the root URL at the project level, which looks like this:
+
+```python
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+# - > Libraries
+
+## -- >> Import django admin
+from django.contrib import admin
+
+## -- >> Import path method
+from django.urls import path, include
+
+## -- >> Import website settings
+from django.conf import settings
+
+## -- >> Import static from urls
+from django.conf.urls.static import static
+
+urlpatterns = [
+
+	...
+
+	## -- >> Products URLs
+        path("", include("products.urls")),
+
+	...
+]
+
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+```
+
+The above code connects the `products` app-level URL patterns to the main project-level URL patterns. Additionally, to fully integrate the `products` app into the EShoppify project, the following code was added to the `eshoppify/settings.py` file, which contains the core backend configuration settings.
+
+```python
+...
+
+# Application definition
+INSTALLED_APPS = [
+
+  ...
+
+  ### --- >>> Products
+  "products.apps.ProductsConfig",
+
+  ...
+
+]
+
+...
+```
+
+The `products` app URL patterns then connect to the following URL, which is primarily used for the landing page and its related view.
+
+```python
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+# - > Libraries
+
+## -- >> Import Path
+from django.urls import path
+
+...
+
+# - > Modules
+
+## -- >> Import Products Views
+from . import views
+
+...
+
+# - > URL Patterns
+urlpatterns = [
+
+    ...  
+
+    ## -- >> EShoppify Landing Page
+    path(
+        route = "",
+        view = views.home_landing_page,
+        name = "home_landing_page",
+    ),
+
+    ...
+  
+]
+
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+```
+
+The view, which is a function-based view offering extensive customization in Django (though class-based views are another good option but with limited flexibility), is responsible for rendering the EShoppify landing page and will be called to perform its task.
+
+```python
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+...
+
+# - > Libraries
+
+...
+
+## -- >> Import Django Render Method 
+from django.shortcuts import render
+
+...
+
+# - > Home Page Render
+def home_landing_page(request):
+  
+    ## -- >> Render the Index Page
+    return render(
+        request = request,
+        template_name = "index.html",
+    )
+
+...
+
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+```
+
+The `return render()` function in Django is used to generate an HTTP response by combining a template with a context. In this specific example:
+
+* The `request` parameter represents the HTTP request object passed to the view. It carries metadata about the current request and is essential for rendering the appropriate response.
+* The `template_name` parameter specifies the name of the HTML template, `"index.html"`, which serves as the user interface for the EShoppify landing page.
+
+When this function is called, Django processes the specified template, applies any associated context (not shown here but can be passed as an additional parameter), and returns the resulting HTML to the user's browser. This ensures that the page is dynamically rendered while keeping the codebase modular and maintainable.
+
+Since the template HTML file may contain a large amount of code, I will include only relevant chunks below to keep this documentation concise and readable.
+
+```html
+{% extends 'navbar.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000" id="carousel-1" style="height: 90vh;">
+        ...
+    </div>
+    <div class="my-4 p-4 d-flex flex-column justify-content-center align-items-center">
+        ...
+    </div>
+    <div class="carousel slide MuhammadHusainAbootalebi-carousel-main-div py-4 my-4" data-bs-ride="carousel" id="carousel-2">
+        ...
+    </div>
+    <div class="my-4 p-4 d-flex flex-column justify-content-center align-items-center">
+        ...
+    </div>
+    <div class="carousel slide MuhammadHusainAbootalebi-carousel-main-div py-4 my-4" data-bs-ride="carousel" id="carousel-5">
+        ...
+    </div>
+    <div class="my-4 p-4 d-flex flex-column justify-content-center align-items-center">
+        ...
+    </div>
+    <div class="carousel slide MuhammadHusainAbootalebi-carousel-main-div py-4 my-4" data-bs-ride="carousel" id="carousel-3">
+        ...
+    </div>
+
+    <script src="{% static 'assets/js/carousels.js' %}"></script>
+    <script src="{% static 'assets/js/Services/Books.js' %}"></script>
+    <script src="{% static 'assets/js/Services/Clothing.js' %}"></script>
+    <script src="{% static 'assets/js/Services/Office.js' %}"></script>
+
+{% endblock content %}
+```
+
+The landing page primarily extends a `navbar.html` file, which defines the main appearance of EShoppify. It contains various elements designed to make the landing page more intuitive and engaging, leveraging the functionality of the developed JavaScript files.
 
 ###### Logging in
 
@@ -767,6 +968,8 @@ desktop platforms. A message confirming successful login is also displayed, as i
 The process described is the same for mobile devices in web view, as shown below.
 
 ![Profile Page | Mobile View](../Assets/Backend%20Development/Authentication/Images/Profile%20-%20Page%20-%20Mobile%20View.png)
+
+TODO: Till explaining the backend side of the login process in EShoppify.
 
 ###### Signing up
 
