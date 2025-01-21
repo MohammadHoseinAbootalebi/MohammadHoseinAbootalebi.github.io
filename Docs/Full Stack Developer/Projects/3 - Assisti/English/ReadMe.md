@@ -211,38 +211,6 @@ The core libraries, which form the foundation of Assisti, are as follows:
 * `easyocr~=1.7.2`
   * `easyocr` is a Python library for Optical Character Recognition (OCR) that supports multiple languages. It uses deep learning models to recognize and extract text from images with high accuracy. The library is simple to use, offering out-of-the-box support for over 80 languages. It is particularly useful for tasks involving document digitization, image-to-text conversion, and multilingual OCR processing. With its lightweight design and extensive functionality, it is a popular choice for developers working on OCR projects.
 
-#### Architecture
-
-In this section, I will provide an overview of the backend development for the Assisti project, focusing on its views, URL routing, and template integration. The views in Django serve as the logic layer, processing user requests and returning appropriate responses, while the URL routing connects these views to specific endpoints, enabling seamless navigation across the application. Additionally, the templates form the bridge between the backend and frontend, rendering dynamic content for the user interface. Each component plays a critical role in ensuring the functionality and responsiveness of the Assisti AI-driven system. This explanation aims to offer insight into how these elements collaborate to create a cohesive and efficient backend architecture for the project.
-
-##### Web | PC | Mobile
-
-###### Landing
-
-The landing page is a vital component of any major project, serving as the first point of interaction for users and shaping their initial impressions. For a sophisticated AI-driven project like Assisti, the landing page acts as the gateway to its advanced features, offering a clear and engaging introduction. It not only highlights the project’s purpose and capabilities but also establishes trust and encourages user engagement. A well-designed landing page ensures visitors understand the value of the project and are guided seamlessly to explore further. This crucial section sets the tone for the user experience and reflects the quality and innovation behind Assisti.
-
-In Assisti, the landing page has been meticulously crafted to provide a comprehensive yet intuitive overview of the project’s offerings. Its design prioritizes clarity, user-friendliness, and visual appeal, making it an effective tool for conveying the project’s unique AI-driven solutions. From compelling headlines to strategically placed call-to-actions, every element has been optimized to capture user attention and drive engagement. This section not only showcases Assisti’s core features but also emphasizes its practical applications, ensuring visitors see its relevance to their needs. The following description delves deeper into the design and functionality of this pivotal aspect of Assisti.
-
-The landing page of Project Assisti is designed with a user-friendly interface, featuring a top navigation bar that provides quick access to essential functionalities. It includes a login button, primarily used for authentication, and a signup option for creating new user accounts, enabling seamless authentication and authorization processes within the platform. The page layout is optimized for large screens, ensuring a visually appealing and intuitive user experience. Below is a preview of how the landing page appears on larger devices:
-
-![Landing Page](../Assets/Architecture/Landing/Images/Landing%20Page.png)
-
-To demonstrate my expertise in responsive design and development—a critical skill for a senior full-stack developer—I present my work on the super AI project, Assisti, optimized for both large screens (desktops and PCs) and small screens (mobile platforms). This showcases my ability to create user interfaces that seamlessly adapt across devices, ensuring an exceptional user experience.
-
-It’s important to note that while a Customer Experience (CX) specialist might excel at planning a project's overall strategy, they may lack the ability to design client-centric user interfaces. Similarly, a UI designer might craft visually appealing and intuitive designs but may not fully understand the software development process, potentially leading to conflicts between design and development teams. As a senior full-stack developer, I bridge this gap by combining my skills in design, development, and strategic planning to create cohesive, user-focused products that meet and exceed client expectations.
-
-Below, I highlight the landing page of Assisti, demonstrating its functionality with both the top navigation bar closed and opened, reflecting my commitment to detail and responsiveness in design.
-
-* Landing page when navigation bar is in its closed state
-
-![Landing Page | Mobile Web View | Navbar Closed](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Closed.png)
-
-* Landing page when navigation bar is in its opened state
-
-![Landing Page | Mobile Web View | Navbar Opened](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Opened.png)
-
-Not added yet.
-
 #### Database Design
 
 ##### Assisti Auth User
@@ -690,7 +658,37 @@ As demonstrated in the Assisti code above, the `AssistIUser`, a customized Djang
 
 To enhance the security of user authentication in the Assisti project, an optional two-factor authentication (2FA) method has been implemented. This approach involves generating a fixed-length random code, which is sent to the user's email address. During the login process, after the user enters his/her email, they are prompted to provide the two-factor authentication code received in their inbox. This additional step ensures that only the rightful owner of the email account can access the system, adding a significant layer of protection to the login process.
 
-#### Artificial Intelligence Development
+#### Artificial Intelligence Development & Architecture
+
+##### Overview Workflow
+
+In this section, I will provide an overview of the backend development for the Assisti project, focusing on its views, URL routing, and template integration. The views in Django serve as the logic layer, processing user requests and returning appropriate responses, while the URL routing connects these views to specific endpoints, enabling seamless navigation across the application. Additionally, the templates form the bridge between the backend and frontend, rendering dynamic content for the user interface. Each component plays a critical role in ensuring the functionality and responsiveness of the Assisti AI-driven system. This explanation aims to offer insight into how these elements collaborate to create a cohesive and efficient backend architecture for the project.
+
+###### Landing
+
+The landing page is a vital component of any major project, serving as the first point of interaction for users and shaping their initial impressions. For a sophisticated AI-driven project like Assisti, the landing page acts as the gateway to its advanced features, offering a clear and engaging introduction. It not only highlights the project’s purpose and capabilities but also establishes trust and encourages user engagement. A well-designed landing page ensures visitors understand the value of the project and are guided seamlessly to explore further. This crucial section sets the tone for the user experience and reflects the quality and innovation behind Assisti.
+
+In Assisti, the landing page has been meticulously crafted to provide a comprehensive yet intuitive overview of the project’s offerings. Its design prioritizes clarity, user-friendliness, and visual appeal, making it an effective tool for conveying the project’s unique AI-driven solutions. From compelling headlines to strategically placed call-to-actions, every element has been optimized to capture user attention and drive engagement. This section not only showcases Assisti’s core features but also emphasizes its practical applications, ensuring visitors see its relevance to their needs. The following description delves deeper into the design and functionality of this pivotal aspect of Assisti.
+
+The landing page of Project Assisti is designed with a user-friendly interface, featuring a top navigation bar that provides quick access to essential functionalities. It includes a login button, primarily used for authentication, and a signup option for creating new user accounts, enabling seamless authentication and authorization processes within the platform. The page layout is optimized for large screens, ensuring a visually appealing and intuitive user experience. Below is a preview of how the landing page appears on larger devices:
+
+![Landing Page](../Assets/Architecture/Landing/Images/Landing%20Page.png)
+
+To demonstrate my expertise in responsive design and development—a critical skill for a senior full-stack developer—I present my work on the super AI project, Assisti, optimized for both large screens (desktops and PCs) and small screens (mobile platforms). This showcases my ability to create user interfaces that seamlessly adapt across devices, ensuring an exceptional user experience.
+
+It’s important to note that while a Customer Experience (CX) specialist might excel at planning a project's overall strategy, they may lack the ability to design client-centric user interfaces. Similarly, a UI designer might craft visually appealing and intuitive designs but may not fully understand the software development process, potentially leading to conflicts between design and development teams. As a senior full-stack developer, I bridge this gap by combining my skills in design, development, and strategic planning to create cohesive, user-focused products that meet and exceed client expectations.
+
+Below, I highlight the landing page of Assisti, demonstrating its functionality with both the top navigation bar closed and opened, reflecting my commitment to detail and responsiveness in design.
+
+* Landing page when navigation bar is in its closed state
+
+![Landing Page | Mobile Web View | Navbar Closed](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Closed.png)
+
+* Landing page when navigation bar is in its opened state
+
+![Landing Page | Mobile Web View | Navbar Opened](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Opened.png)
+
+Not added yet.
 
 ##### OCR
 
@@ -875,15 +873,239 @@ class EasyOCRReader:
 
 ###### Assisti `ocr/models.py`
 
-Till explaining the models of the ocr section of the Assisti. Use this prompt in the ChatGPT:
+Here’s the explanation of `ocr/models.py` based on the note that the `DigitPic` model represents OCR detection within the Assisti project, not just digit recognition:
 
-Write in-depth description for this code which is for my AI developed project:
+📌 **1. Importing Required Modules**
 
-```Python
-# Code Comes here.....
+The first section imports necessary modules from Django and Python libraries:
+
+* `models` from `django.db`: Provides classes for defining database models.
+* `settings` from `django.conf`: Imports project-wide settings, including `AUTH_USER_MODEL`.
+* `uuid`: A Python module to generate universally unique identifiers (UUIDs).
+
+These imports are essential for defining and configuring the `DigitPic` model, enabling secure user associations, automatic creation of IDs, and handling of images.
+
+```python
+from django.db import models
+from django.conf import settings
+import uuid
 ```
 
-My preferences is first explaining the each section - explain my code in different chuncks - and then bring the code in the markdown format. More knowledge, the utils is mainly used for create an instance for easyocr.
+📌 **2. Defining the `DigitPic` Model**
+
+This model represents an entity for OCR detection, linking image files and metadata with specific users in the Assisti project. The `DigitPic` class inherits from `models.Model`, which is the base class for all Django models.
+
+📌 **3. Model Fields**
+
+The fields of the `DigitPic` model define the attributes and relationships stored in the database:
+
+* **`owner`**: A foreign key linking each instance to a user from the `AUTH_USER_MODEL`.
+  * `on_delete=models.CASCADE`: Ensures that when a user is deleted, their related `DigitPic` entries are also removed.
+  * `null=True` and `blank=True`: Make the field optional.
+* **`title`**: A `CharField` for storing the name or title of the OCR entry.
+  * `max_length=100`: Limits the character length to 100.
+  * `null=True` and `blank=True`: Make the field optional.
+* **`whatDigit`**: A `CharField` to store additional predictions or metadata related to the detected text or image content. It is also optional.
+* **`digitImage`**: An `ImageField` to store uploaded images for OCR processing.
+  * `blank=True` and `null=True`: Make the field optional.
+  * `default`: Specifies a default placeholder image.
+  * `upload_to`: Defines the directory structure for storing uploaded images.
+* **`created`**: A `DateTimeField` with `auto_now_add=True` to automatically record when an OCR detection instance is created.
+* **`id`**: A primary key field that uses `UUID` for unique, unguessable identifiers.
+  * `primary_key=True`: Designates this field as the primary key.
+  * `editable=False` and `unique=True`: Ensure the ID is immutable and unique.
+
+```python
+class DigitPic(models.Model):
+    owner = models.ForeignKey(settings.AUTH_USER_MODEL,
+                              on_delete=models.CASCADE, null=True, blank=True)
+    title = models.CharField(max_length=100, null=True, blank=True)
+    whatDigit = models.CharField(max_length=1000, blank=True, null=True)
+    digitImage = models.ImageField(
+        blank=True, null=True, default="aiEngineering/digitDetector/Default.png", upload_to="aiEngineering/digitDetector/")
+    created = models.DateTimeField(auto_now_add=True)
+    id = models.UUIDField(default=uuid.uuid4,
+                          primary_key=True, editable=False, unique=True)
+```
+
+📌 **4. String Representation**
+
+The `__str__` method defines how the model instance is represented as a string. In this case, the file name of the uploaded `digitImage` is returned, making debugging and logs more readable.
+
+```python
+    def __str__(self):
+        return self.digitImage.name
+```
+
+📌 **5. Meta Class**
+
+The `Meta` inner class customizes the model's behavior:
+
+* **`verbose_name`**: Defines a user-friendly name for the model in singular form.
+* **`verbose_name_plural`**: Specifies the plural form for the model name in admin interfaces.
+
+```python
+    class Meta:
+        verbose_name = "OCR Detector"
+        verbose_name_plural = "OCR Detectors"
+```
+
+📌 **Complete Code**
+
+Here’s the complete code block with all sections explained:
+
+```python
+from django.db import models
+from django.conf import settings
+import uuid
+
+
+class DigitPic(models.Model):
+    owner = models.ForeignKey(settings.AUTH_USER_MODEL,
+                              on_delete=models.CASCADE, null=True, blank=True)
+    title = models.CharField(max_length=100, null=True, blank=True)
+    whatDigit = models.CharField(max_length=1000, blank=True, null=True)
+    digitImage = models.ImageField(
+        blank=True, null=True, default="aiEngineering/digitDetector/Default.png", upload_to="aiEngineering/digitDetector/")
+    created = models.DateTimeField(auto_now_add=True)
+    id = models.UUIDField(default=uuid.uuid4,
+                          primary_key=True, editable=False, unique=True)
+
+    def __str__(self):
+        return self.digitImage.name
+
+    class Meta:
+        verbose_name = "OCR Detector"
+        verbose_name_plural = "OCR Detectors"
+```
+
+📌 **Use Case**
+In the Assisti project, this model is used for managing OCR detection records. It:
+
+1. Links OCR detection entries to specific users.
+2. Stores images uploaded for OCR processing.
+3. Tracks metadata related to OCR detections (such as predicted text, creation timestamp, and titles).
+
+By utilizing Django’s Object-Relational Mapping (ORM) capabilities, this code simplifies database management and ensures the efficient storage and retrieval of OCR-related data for Assisti.
+
+###### Assisti `ocr/signals.py`
+
+This code snippet demonstrates an automated OCR-based digit detection system using Django's `post_save` signal. The implementation seamlessly integrates with the `DigitPic` model, allowing for real-time image detection and classification. The primary objective of this setup is to ensure that uploaded or updated images are immediately processed, and their detected content is stored in the database for efficient handling and retrieval.
+
+📌 **1. Importing Required Libraries and Modules**
+
+The first section imports the necessary modules and signals:
+
+```python
+# Libraries
+from django.dispatch import receiver
+from django.db.models.signals import post_save
+
+# Modules
+from AiEngineering.digitDetector.models import DigitPic
+```
+
+* **`receiver` and `post_save`**: These are Django utilities for signal handling. The `receiver` decorator connects a function to a signal, while `post_save` triggers actions after a model instance is saved.
+* **`DigitPic`**: This is the model representing the uploaded images and their detected values.
+
+📌 **2. Signal to Detect and Process Images**
+
+The core functionality resides in the `detect_digit_pic` function, which acts as a listener for `post_save` events on the `DigitPic` model.
+
+```python
+@receiver(post_save, sender=DigitPic)
+def detect_digit_pic(sender, instance, created, **kwargs):
+    """ Re-detecting the digit image on save method call. """
+```
+
+- **Purpose**: Listens for any save operation on the `DigitPic` model. Whether a new instance is created or an existing one is updated, this function ensures the image is processed promptly.
+
+📌 **3. Loading the EasyOCR Reader**
+
+```python
+    from .utils import EasyOCRReader
+    reader = EasyOCRReader.get_instance()
+```
+
+- **`EasyOCRReader`**: A utility class providing a singleton instance of the EasyOCR model, ensuring efficient resource usage.
+- **`get_instance()`**: Retrieves the OCR reader instance, initializing it only once per application lifecycle.
+
+📌 **4. Extracting Image Path and Running OCR**
+
+```python
+    image_path = instance.digitImage.path
+    detected_digit = reader.readtext(image_path, detail=0)[0]
+```
+
+- **`image_path`**: Fetches the full path to the saved image file.
+- **`readtext()`**: Processes the image to detect and extract the content. The `detail=0` parameter ensures only the detected text is returned, without additional metadata.
+- **`[0]`**: Accesses the first result, as only one digit is expected in the image.
+
+📌 **5. Updating the Model if Needed**
+
+```python
+    if instance.digitImage and (instance.whatDigit != detected_digit):
+        instance.whatDigit = detected_digit
+        print(f"\nDetected Digit: {detected_digit}\n")
+        instance.save()
+```
+
+- **Condition Check**: Ensures that the `whatDigit` field is updated only if the detected digit is different from the existing value. This avoids unnecessary database writes.
+- **Logging**: Prints the detected digit for debugging or monitoring purposes.
+- **Save Operation**: Updates the model instance with the new digit value.
+
+📌 **Key Features of the Code**
+
+1. **Automated Image Processing**: Every save operation on the `DigitPic` model triggers an OCR detection process, ensuring immediate updates.
+2. **Efficient Singleton Design**: The EasyOCR reader instance is reused across the application, optimizing memory and processing time.
+3. **Error-Free Updates**: By checking the existing `whatDigit` value before updating, the system minimizes redundant operations.
+4. **Real-time Monitoring**: The detected digit is logged in the console, allowing developers to verify the system's functionality during runtime.
+
+📌 **Code Implementation**
+
+```python
+# Libraries
+from django.dispatch import receiver
+from django.db.models.signals import post_save
+
+# Modules
+from AiEngineering.digitDetector.models import DigitPic
+
+
+# Detect the image on save method call
+@receiver(post_save, sender=DigitPic)
+def detect_digit_pic(sender, instance, created, **kwargs):
+    """ Re-detecting the digit image on save method call. """
+
+    # Import the Easy OCR Reader
+    from .utils import EasyOCRReader
+
+    # Get the OCR reader instance
+    reader = EasyOCRReader.get_instance()
+
+    # Get the image path
+    image_path = instance.digitImage.path
+
+    # Detect the saved image digit with classifier
+    detected_digit = reader.readtext(image_path, detail=0)[0]
+
+    # Check two conditions: 1. digitImage isn't Empty, 2. this object's whatDigit is not equal to detected_digit
+    if instance.digitImage and (instance.whatDigit != detected_digit):
+        # Save the detected digit to this object
+        instance.whatDigit = detected_digit
+
+        # Show the saved detected digit in Command
+        print(f"\nDetected Digit: {detected_digit}\n")
+
+        # Finally, save this digit image object model
+        instance.save()
+```
+
+This approach demonstrates a professional, efficient backend workflow for handling OCR-based image detection and classification. The implementation can be expanded to include additional preprocessing steps, multi-language support, or error handling, making it suitable for various AI-driven applications.
+
+###### Assisti `ocr/forms.py`
+
+TODO: Till adding the description of the forms in order to create the Assisti OCR models.
 
 ### **Testing**
 
