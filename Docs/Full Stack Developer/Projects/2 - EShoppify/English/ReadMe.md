@@ -876,6 +876,8 @@ When this function is called, Django processes the specified template, applies a
 Since the template HTML file may contain a large amount of code, I will include only relevant chunks below to keep this documentation concise and readable.
 
 ```html
+{% raw %}
+
 {% extends 'navbar.html' %}
 
 {% load static %}
@@ -910,6 +912,8 @@ Since the template HTML file may contain a large amount of code, I will include 
     <script src="{% static 'assets/js/Services/Office.js' %}"></script>
 
 {% endblock content %}
+
+{% endraw %}
 ```
 
 The landing page primarily extends a `navbar.html` file, which defines the main appearance of EShoppify. It contains various elements designed to make the landing page more intuitive and engaging, leveraging the functionality of the developed JavaScript files.
