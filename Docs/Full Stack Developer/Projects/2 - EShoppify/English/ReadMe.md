@@ -973,7 +973,209 @@ The process described is the same for mobile devices in web view, as shown below
 
 ![Profile Page | Mobile View](../Assets/Backend%20Development/Authentication/Images/Profile%20-%20Page%20-%20Mobile%20View.png)
 
-TODO: Till explaining the backend side of the login process in EShoppify.
+To explain the login process, first, by clicking (on desktop and PC platforms) or tapping (on mobile platforms) the "Login" button, the `account_login` URL is requested through this template tag:
+
+```html
+{% raw %}
+
+...
+
+    <a 
+        class=
+        "
+            btn 
+            pt-2 
+            pb-2 
+            pe-4 
+            ps-4 
+            rounded-3 
+            me-5 
+            my-2 
+            border-2 
+            btn-dark 
+            cta-navbar-button 
+            MuhammadHusainAbootalebi-Navbar-login-button
+        "
+        type="button"
+        style=
+        "
+            background: rgba(255,255,255,0);
+            font-family: 'Baloo Bhaijaan 2', serif;
+            color: rgb(0,0,0);
+        "
+        href="{% url 'account_login' %}">
+  
+        Login
+  
+    </a>
+
+...
+
+{% endraw %}
+```
+
+In the code above, by clicking or tapping the "Login" button, the `account_login` URL is requested using the `url` method.
+
+After that, the URL corresponding to the `account_login` URL name is as follows:
+
+```python
+from django.conf import settings
+from django.urls import path, re_path
+
+from allauth import app_settings as allauth_app_settings
+from allauth.account import app_settings
+
+from . import views
+
+urlpatterns = [
+
+	path("login/", views.login, name="account_login"),
+
+	...
+
+]
+```
+
+In the code above, the `account_login` URL name is mapped to the `views.login` view. The `views.login` view looks like this:
+
+📌 1. **Class Definition and Mixin Inheritance**
+
+```python
+class LoginView(
+    NextRedirectMixin,
+    RedirectAuthenticatedUserMixin,
+    AjaxCapableProcessFormViewMixin,
+    FormView,
+):
+```
+
+The `LoginView` class inherits from multiple mixins and Django's `FormView`, combining functionalities:
+
+- **`NextRedirectMixin`**: Handles redirection to the next page after login.
+- **`RedirectAuthenticatedUserMixin`**: Redirects already authenticated users to avoid re-login.
+- **`AjaxCapableProcessFormViewMixin`**: Adds support for AJAX-based form submissions.
+- **`FormView`**: Provides the base for rendering and processing forms.
+
+📌 2. **Key Attributes**
+
+```python
+form_class = LoginForm
+template_name = "account/login." + app_settings.TEMPLATE_EXTENSION
+success_url = None
+```
+
+- **`form_class`**: Specifies the form class used for login, defaulting to `LoginForm`.
+- **`template_name`**: Defines the template file for rendering the login page, dynamically appending the extension from `app_settings`.
+- **`success_url`**: Placeholder for the URL to redirect after successful login. This is often determined dynamically.
+
+📌 3. **`dispatch` Method**
+
+```python
+@method_decorator(rate_limit(action="login"))
+@method_decorator(login_not_required)
+@sensitive_post_parameters_m
+@method_decorator(never_cache)
+def dispatch(self, request, *args, **kwargs):
+    if allauth_app_settings.SOCIALACCOUNT_ONLY and request.method != "GET":
+        raise PermissionDenied()
+    return super().dispatch(request, *args, **kwargs)
+```
+
+The `dispatch` method processes requests and applies these decorators:
+
+- **`rate_limit`**: Limits login attempts to prevent brute force attacks.
+- **`login_not_required`**: Allows unauthenticated users to access this view.
+- **`sensitive_post_parameters_m`**: Ensures sensitive data in POST requests is protected.
+- **`never_cache`**: Disables caching for security reasons.
+
+If `SOCIALACCOUNT_ONLY` is enabled and the request method isn't `GET`, the method raises a `PermissionDenied` error.
+
+📌 4. **`get_form_kwargs` Method**
+
+```python
+def get_form_kwargs(self):
+    kwargs = super().get_form_kwargs()
+    kwargs["request"] = self.request
+    return kwargs
+```
+
+This method adds the `request` object to the form's keyword arguments, allowing the form to access the current request for additional processing.
+
+📌 5. **`get_form_class` Method**
+
+```python
+def get_form_class(self):
+    return get_form_class(app_settings.FORMS, "login", self.form_class)
+```
+
+Returns the form class to be used for login. It retrieves the form class dynamically from the `app_settings.FORMS` configuration.
+
+📌 6. **`form_valid` Method**
+
+```python
+def form_valid(self, form):
+    redirect_url = self.get_success_url()
+    try:
+        return form.login(self.request, redirect_url=redirect_url)
+    except ImmediateHttpResponse as e:
+        return e.response
+```
+
+When the form is valid:
+
+- Calls `form.login()` to authenticate the user and manage redirection.
+- Catches `ImmediateHttpResponse` exceptions to handle scenarios like multi-factor authentication or custom responses.
+
+📌 7. **`get_context_data` Method**
+
+```python
+def get_context_data(self, **kwargs):
+    passkey_login_enabled = False
+    if allauth_app_settings.MFA_ENABLED:
+        from allauth.mfa import app_settings as mfa_settings
+        passkey_login_enabled = mfa_settings.PASSKEY_LOGIN_ENABLED
+
+    ret = super().get_context_data(**kwargs)
+    signup_url = None
+    if not allauth_app_settings.SOCIALACCOUNT_ONLY:
+        signup_url = self.passthrough_next_url(reverse("account_signup"))
+    site = get_current_site(self.request)
+
+    ret.update(
+        {
+            "signup_url": signup_url,
+            "site": site,
+            "SOCIALACCOUNT_ENABLED": allauth_app_settings.SOCIALACCOUNT_ENABLED,
+            "SOCIALACCOUNT_ONLY": allauth_app_settings.SOCIALACCOUNT_ONLY,
+            "LOGIN_BY_CODE_ENABLED": app_settings.LOGIN_BY_CODE_ENABLED,
+            "PASSKEY_LOGIN_ENABLED": passkey_login_enabled,
+        }
+    )
+    if app_settings.LOGIN_BY_CODE_ENABLED:
+        request_login_code_url = self.passthrough_next_url(
+            reverse("account_request_login_code")
+        )
+        ret["request_login_code_url"] = request_login_code_url
+    return ret
+```
+
+This method populates the context dictionary with additional data for the template:
+
+- Enables or disables **passkey login** based on MFA settings.
+- Adds the signup URL and site information.
+- Updates context with social account settings, login-by-code functionality, and other features.
+
+📌 8. **Final `as_view` Method**
+
+```python
+login = LoginView.as_view()
+```
+
+The `LoginView.as_view()` function transforms the class-based view into a callable function that Django can use in URL patterns.
+
+📌 **Final Insights**
+
+The `LoginView` class in `django-allauth` is a robust implementation for handling user login. It combines flexibility, security, and extensibility by leveraging Django's features and its own configuration options. This design ensures that authentication can adapt to various project needs while maintaining a seamless user experience.
 
 ###### Signing up
 
@@ -1033,6 +1235,343 @@ The second email is a welcome message sent to new EShoppify users, as illustrate
 
 ![Welcome Email EShoppify](../Assets/Backend%20Development/Authentication/Images/Welcome%20Email%20-%20EShoppify.png)
 
+In order to explain the backend side responsible for handling account creation, first, by clicking or tapping on the 'Signup' button, it requests the following URL in this template tag:
+
+```html
+...
+
+<a class=
+    "
+        btn 
+        btn-primary 
+        pt-2 
+        pb-2 
+        pe-4 
+        ps-4 
+        rounded-3 
+        my-2 
+        cta-navbar-button 
+        MuhammadHusainAbootalebi-navbar-signup-button
+    "
+    type="button"
+    style=
+    "
+        background: #000000;border-style: none;
+        font-family: 'Baloo Bhaijaan 2', serif;
+    "
+    href="{% url 'account_signup' %}"
+  >
+  
+  Signup
+  
+</a>
+
+...
+```
+
+In the above template tag, after clicking or tapping on the 'Signup' button, the `account_signup` URL name is requested using the `url` method. After that, the mentioned URL name, `account_signup`, is mapped to the following URL pattern:
+
+```python
+...
+
+        urlpatterns.extend(
+            [
+      
+                ...
+
+                path("signup/", views.signup, name="account_signup"),
+
+                ...
+
+            ]
+        )
+
+...
+```
+
+The above code maps the `account_signup` URL name to the `views.signup` view, which is explained below:
+
+📌 **1. Class Declaration and Inheritance**
+
+```python
+class SignupView(
+    RedirectAuthenticatedUserMixin,
+    CloseableSignupMixin,
+    NextRedirectMixin,
+    AjaxCapableProcessFormViewMixin,
+    FormView,
+):
+```
+
+This class inherits from several mixins and the `FormView` class, each serving specific purposes:
+
+- `RedirectAuthenticatedUserMixin`: Redirects users who are already authenticated, preventing them from accessing the signup page.
+- `CloseableSignupMixin`: Likely handles the ability to close or disable the signup functionality (e.g., in cases where registration is temporarily disabled).
+- `NextRedirectMixin`: Handles redirection after the signup process, ensuring users are redirected to the desired page after successfully signing up.
+- `AjaxCapableProcessFormViewMixin`: Facilitates AJAX handling, allowing the form submission to be processed asynchronously.
+- `FormView`: The base view class used for displaying and processing forms in Django.
+
+📌 **2. Template and Form Class**
+
+```python
+template_name = "account/signup." + app_settings.TEMPLATE_EXTENSION
+form_class = SignupForm
+```
+
+- `template_name`: Specifies the template that will be used to render the signup form. It dynamically appends the file extension defined in `app_settings.TEMPLATE_EXTENSION` to the template name.
+- `form_class`: Defines the form class that will be used for user signup. In this case, it is `SignupForm`, a form class typically responsible for validating and handling user data input during signup.
+
+📌 **3. Dispatch Method (Request Handling)**
+
+```python
+@method_decorator(rate_limit(action="signup"))
+@method_decorator(login_not_required)
+@sensitive_post_parameters_m
+@method_decorator(never_cache)
+def dispatch(self, request, *args, **kwargs):
+    return super().dispatch(request, *args, **kwargs)
+```
+
+- `@method_decorator(rate_limit(action="signup"))`: This decorator applies a rate limit to the signup process, helping to prevent abuse by limiting the number of signups from a single source.
+- `@method_decorator(login_not_required)`: Ensures that the view is accessible only by users who are not logged in, so that logged-in users cannot sign up again.
+- `@sensitive_post_parameters_m`: Marks sensitive POST parameters to avoid logging or displaying them in error messages.
+- `@method_decorator(never_cache)`: Prevents caching of the signup page, ensuring users always see the latest version and security settings.
+- The `dispatch` method is responsible for handling the request and passing it to the appropriate method to process it.
+
+📌 **4. Form Class Retrieval**
+
+```python
+def get_form_class(self):
+    return get_form_class(app_settings.FORMS, "signup", self.form_class)
+```
+
+- This method dynamically retrieves the form class to be used for signup. It combines settings from the application's `app_settings.FORMS` and ensures that the correct form class (`SignupForm`) is used.
+
+📌 **5. Form Handling and Validation**
+
+```python
+def form_valid(self, form):
+    self.user, resp = form.try_save(self.request)
+    if resp:
+        return resp
+    try:
+        redirect_url = self.get_success_url()
+        return flows.signup.complete_signup(
+            self.request,
+            user=self.user,
+            redirect_url=redirect_url,
+            by_passkey=form.by_passkey,
+        )
+    except ImmediateHttpResponse as e:
+        return e.response
+```
+
+- `form_valid`: This method is called when the form is valid. It attempts to save the user data and performs the signup process.
+  - The `try_save` method saves the user data and returns a response if needed.
+  - After saving, it tries to complete the signup by calling `complete_signup`. If successful, it redirects the user to the appropriate page.
+  - If there’s an immediate HTTP response (such as a redirect or error), the response is returned directly.
+
+📌 **6. Context Data**
+
+```python
+def get_context_data(self, **kwargs):
+    ret = super().get_context_data(**kwargs)
+    passkey_signup_enabled = False
+    if allauth_app_settings.MFA_ENABLED:
+        from allauth.mfa import app_settings as mfa_settings
+
+        passkey_signup_enabled = mfa_settings.PASSKEY_SIGNUP_ENABLED
+    form = ret["form"]
+    email = self.request.session.get("account_verified_email")
+    if email:
+        email_keys = ["email"]
+        if app_settings.SIGNUP_EMAIL_ENTER_TWICE:
+            email_keys.append("email2")
+        for email_key in email_keys:
+            form.fields[email_key].initial = email
+    login_url = self.passthrough_next_url(reverse("account_login"))
+    signup_url = self.passthrough_next_url(reverse("account_signup"))
+    signup_by_passkey_url = None
+    if passkey_signup_enabled:
+        signup_by_passkey_url = self.passthrough_next_url(
+            reverse("account_signup_by_passkey")
+        )
+    site = get_current_site(self.request)
+    ret.update(
+        {
+            "login_url": login_url,
+            "signup_url": signup_url,
+            "signup_by_passkey_url": signup_by_passkey_url,
+            "site": site,
+            "SOCIALACCOUNT_ENABLED": allauth_app_settings.SOCIALACCOUNT_ENABLED,
+            "SOCIALACCOUNT_ONLY": allauth_app_settings.SOCIALACCOUNT_ONLY,
+            "PASSKEY_SIGNUP_ENABLED": passkey_signup_enabled,
+        }
+    )
+    return ret
+```
+
+- `get_context_data`: This method gathers and returns all the necessary context data for rendering the signup page.
+  - It checks if Multi-Factor Authentication (MFA) is enabled and whether passkey signup is available.
+  - If an email has been verified previously in the session, it pre-fills the email fields in the form.
+  - It adds URLs for login, signup, and passkey signup to the context, so they can be used in the template.
+  - It also includes site-specific information, such as the site name, social account settings, and passkey signup availability.
+
+📌 **7. Initial Data for Form**
+
+```python
+def get_initial(self):
+    initial = super().get_initial()
+    email = self.request.GET.get("email")
+    if email:
+        try:
+            validate_email(email)
+        except ValidationError:
+            return initial
+        initial["email"] = email
+        if app_settings.SIGNUP_EMAIL_ENTER_TWICE:
+            initial["email2"] = email
+    return initial
+```
+
+- `get_initial`: This method sets up the initial data for the form. If an email is passed via GET parameters (e.g., pre-filled email from a previous form), it validates and adds it to the form’s initial data.
+  - If the `SIGNUP_EMAIL_ENTER_TWICE` setting is enabled, it also populates a second email field for confirmation.
+
+📌  **8. Final View Instantiation**
+
+```python
+signup = SignupView.as_view()
+```
+
+- This line instantiates the `SignupView` class as a view callable that can be used in Django’s URL routing system.
+
+📌 **Final Insights**
+
+The `SignupView` class in the `django-allauth` package is responsible for handling the signup process. It integrates multiple features like rate limiting, preventing login for authenticated users, multi-factor authentication, and conditional form population. The view manages various user actions during signup, including displaying forms, handling validation, and redirecting users upon successful account creation. The comprehensive context data handling and dynamic form initialization ensure a smooth, customized signup experience for users. The `views.signup` view will be explained here at a glance:
+
+```Python
+...
+
+# Inheriting from multiple mixins and FormView to add additional functionality
+class SignupView(
+    RedirectAuthenticatedUserMixin,  # Prevents authenticated users from accessing signup
+    CloseableSignupMixin,  # Allows disabling of signup process
+    NextRedirectMixin,  # Handles redirection after signup
+    AjaxCapableProcessFormViewMixin,  # Supports AJAX form submission
+    FormView,  # Basic view for rendering and handling form submissions
+):
+    # Specify the template to be used for rendering the signup page
+    template_name = "account/signup." + app_settings.TEMPLATE_EXTENSION
+  
+    # Define the form class to be used for handling user signup
+    form_class = SignupForm
+
+    # Define the dispatch method to add various decorators and control the request flow
+    @method_decorator(rate_limit(action="signup"))  # Apply rate limiting to prevent signup abuse
+    @method_decorator(login_not_required)  # Ensure only unauthenticated users can access this view
+    @sensitive_post_parameters_m  # Mark sensitive POST data to avoid logging it
+    @method_decorator(never_cache)  # Prevent caching of the signup page
+    def dispatch(self, request, *args, **kwargs):
+        # Call the parent dispatch method after applying the decorators
+        return super().dispatch(request, *args, **kwargs)
+
+    # Dynamically get the form class based on application settings
+    def get_form_class(self):
+        # Retrieve the correct form class from the app settings
+        return get_form_class(app_settings.FORMS, "signup", self.form_class)
+
+    # Handle form submission when the form is valid
+    def form_valid(self, form):
+        # Try to save the user with the provided form data
+        self.user, resp = form.try_save(self.request)
+    
+        if resp:  # If there's a response (e.g., a redirect or error), return it
+            return resp
+
+        try:
+            # Get the URL to redirect to upon successful signup
+            redirect_url = self.get_success_url()
+            # Complete the signup flow and redirect the user
+            return flows.signup.complete_signup(
+                self.request,
+                user=self.user,
+                redirect_url=redirect_url,
+                by_passkey=form.by_passkey,  # Handle passkey (MFA) if enabled
+            )
+        except ImmediateHttpResponse as e:  # If there's an immediate response (e.g., redirect), return it
+            return e.response
+
+    # Populate the context data for rendering the signup page
+    def get_context_data(self, **kwargs):
+        # Call the parent method to get the initial context data
+        ret = super().get_context_data(**kwargs)
+    
+        passkey_signup_enabled = False
+        if allauth_app_settings.MFA_ENABLED:  # Check if MFA is enabled
+            from allauth.mfa import app_settings as mfa_settings
+            # Check if passkey signup is enabled in MFA settings
+            passkey_signup_enabled = mfa_settings.PASSKEY_SIGNUP_ENABLED
+    
+        # Get the form from context and pre-fill email if it exists in the session
+        form = ret["form"]
+        email = self.request.session.get("account_verified_email")
+        if email:  # If email is in session, pre-fill the email fields in the form
+            email_keys = ["email"]
+            if app_settings.SIGNUP_EMAIL_ENTER_TWICE:
+                email_keys.append("email2")
+            for email_key in email_keys:
+                form.fields[email_key].initial = email
+
+        # Prepare the URLs for login and signup pages
+        login_url = self.passthrough_next_url(reverse("account_login"))
+        signup_url = self.passthrough_next_url(reverse("account_signup"))
+    
+        signup_by_passkey_url = None
+        if passkey_signup_enabled:  # If passkey signup is enabled, provide the URL
+            signup_by_passkey_url = self.passthrough_next_url(
+                reverse("account_signup_by_passkey")
+            )
+
+        # Get the current site to include in the context
+        site = get_current_site(self.request)
+
+        # Update the context with additional data for the template
+        ret.update(
+            {
+                "login_url": login_url,
+                "signup_url": signup_url,
+                "signup_by_passkey_url": signup_by_passkey_url,
+                "site": site,
+                "SOCIALACCOUNT_ENABLED": allauth_app_settings.SOCIALACCOUNT_ENABLED,
+                "SOCIALACCOUNT_ONLY": allauth_app_settings.SOCIALACCOUNT_ONLY,
+                "PASSKEY_SIGNUP_ENABLED": passkey_signup_enabled,
+            }
+        )
+        return ret
+
+    # Get the initial data for the form, such as pre-filling the email
+    def get_initial(self):
+        # Call the parent method to get the initial data
+        initial = super().get_initial()
+    
+        email = self.request.GET.get("email")
+        if email:  # If an email is passed in the GET parameters, validate and pre-fill it
+            try:
+                validate_email(email)  # Validate the email format
+            except ValidationError:
+                return initial  # If validation fails, return the initial data
+        
+            initial["email"] = email
+            if app_settings.SIGNUP_EMAIL_ENTER_TWICE:  # If the email confirmation field is enabled
+                initial["email2"] = email
+        return initial
+
+# Instantiate the SignupView class to use as a view in Django's URL routing system
+signup = SignupView.as_view()
+
+...
+```
+
 ###### Signing Out
 
 The final step in the EShoppify authentication and authorization process is signing out, which is easily done by clicking or tapping the logout button in the navigation menu. Once selected, the user is directed to the sign-out page, as shown below. From this page, clicking the "Sign Out" button, available across desktop, PC, and mobile platforms in web view, redirects the user to the EShoppify landing page. Alternatively, if the user chooses to stay logged in, they can click or tap the "Stay Logged In" button to seamlessly return to their account profile.
@@ -1048,6 +1587,180 @@ The final step in the EShoppify authentication and authorization process is sign
 * Signing out on mobile platforms | Web View | Collapsed Top Navigation Bar
 
 ![Signing Out | Web | Mobile | Navbar Closed](../Assets/Backend%20Development/Authentication/Images/Signing%20Out%20-%20Mobile%20Web%20View%20-%20Navbar%20Closed.png)
+
+In order to explain the backend functionality responsible for logging out, first, after the 'Logout' button is clicked or tapped, the following button is pressed, and the related template tag is as follows:
+
+```html
+...
+
+<a class=
+        "
+            text-white 
+            btn 
+            btn-primary 
+            pt-2 
+            pb-2 
+            pe-4 
+            ps-4 
+            rounded-3 
+            my-2 
+            cta-navbar-button 
+            MuhammadHusainAbootalebi-navbar-signup-button
+        "
+        type="button"
+        style=
+        "
+            background: #000000;border-style: none;
+            font-family: 'Baloo Bhaijaan 2', serif;
+        "
+        href="{% url 'account_logout' %}">
+      
+    Logout
+  
+</a>
+
+...
+```
+
+In the above code, the 'Logout' anchor link refers to the `account_logout` URL name, and its URL pattern is as follows:
+
+```python
+from django.conf import settings
+from django.urls import path, re_path
+
+from allauth import app_settings as allauth_app_settings
+from allauth.account import app_settings
+
+from . import views
+
+urlpatterns = [
+
+	...
+
+	path("logout/", views.logout, name="account_logout"),
+
+	...
+
+]
+
+...
+```
+
+In the above code, the `account_logout` URL name is mapped to the `views.logout` view, which is explained here:
+
+📌 **1. Class Definition and Inheritance:**
+
+```Python
+class LogoutView(NextRedirectMixin, LogoutFunctionalityMixin, TemplateView):
+    template_name = "account/logout." + app_settings.TEMPLATE_EXTENSION
+```
+
+This class, `LogoutView`, is responsible for handling the logout functionality of a user in a Django application. It inherits from several mixins, namely `NextRedirectMixin`, `LogoutFunctionalityMixin`, and `TemplateView`.
+
+- `NextRedirectMixin` helps redirect users to a page after they log out.
+- `LogoutFunctionalityMixin` provides the logout logic.
+- `TemplateView` allows for rendering a template, which in this case, is the logout template (`account/logout.html`), dynamically determined by `app_settings.TEMPLATE_EXTENSION`.
+
+📌 **2. `get` Method - Handles GET Requests:**
+
+```Python
+def get(self, *args, **kwargs):
+    if app_settings.LOGOUT_ON_GET:
+        return self.post(*args, **kwargs)
+    if not self.request.user.is_authenticated:
+        response = redirect(self.get_redirect_url())
+        return _ajax_response(self.request, response)
+    ctx = self.get_context_data()
+    response = self.render_to_response(ctx)
+    return _ajax_response(self.request, response)
+```
+
+- The `get` method handles GET requests for the logout view.
+- If `app_settings.LOGOUT_ON_GET` is enabled, the method will call the `post` method to handle the logout process, even for GET requests.
+- If the user is not authenticated (`self.request.user.is_authenticated`), the method will redirect them to the specified URL (obtained from `get_redirect_url()`).
+- If the user is authenticated, it gathers the context data using `get_context_data()`, renders the logout template (`render_to_response()`), and returns an AJAX response with the rendered template.
+
+📌 **3. `post` Method - Handles POST Requests:**
+
+```Python
+def post(self, *args, **kwargs):
+    url = self.get_redirect_url()
+    self.logout()
+    response = redirect(url)
+    return _ajax_response(self.request, response)
+```
+
+- The `post` method handles POST requests for logging out.
+- First, it retrieves the URL where the user should be redirected after logging out using `get_redirect_url()`.
+- It then calls the `logout()` method to log the user out.
+- After logging out, the method redirects the user to the retrieved URL.
+- An AJAX response is returned with the redirection.
+
+📌 **4. `get_redirect_url` Method - Determines the Redirect URL:**
+
+```Python
+def get_redirect_url(self):
+    return self.get_next_url() or get_adapter(self.request).get_logout_redirect_url(self.request)
+```
+
+- The `get_redirect_url()` method determines the URL the user will be redirected to after logging out.
+- It first checks if a "next" URL is available using `get_next_url()`.
+- If no "next" URL is available, it uses `get_adapter(self.request).get_logout_redirect_url(self.request)` to retrieve the logout redirect URL from the adapter.
+  
+📌 **5. Final LogoutView Initialization:**
+
+```Python
+logout = LogoutView.as_view()
+```
+
+- This line initializes the `LogoutView` class as a view, making it ready for use in URL routing.
+
+📌 **Final Insights**
+
+```Python
+# Class definition inheriting from necessary mixins and TemplateView
+class LogoutView(NextRedirectMixin, LogoutFunctionalityMixin, TemplateView):
+    # Specifying the template to render upon logout
+    template_name = "account/logout." + app_settings.TEMPLATE_EXTENSION
+
+    # Handles GET requests for logging out
+    def get(self, *args, **kwargs):
+        # If LOGOUT_ON_GET is set to True, perform the logout action with a POST request logic
+        if app_settings.LOGOUT_ON_GET:
+            return self.post(*args, **kwargs)
+        
+        # If the user is not authenticated, redirect them to the specified URL
+        if not self.request.user.is_authenticated:
+            response = redirect(self.get_redirect_url())
+            return _ajax_response(self.request, response)
+        
+        # Render the context data for the logout template
+        ctx = self.get_context_data()
+        response = self.render_to_response(ctx)
+        return _ajax_response(self.request, response)
+
+    # Handles POST requests for logging out
+    def post(self, *args, **kwargs):
+        # Get the redirect URL after logout
+        url = self.get_redirect_url()
+        
+        # Perform the logout operation
+        self.logout()
+        
+        # Redirect the user to the URL
+        response = redirect(url)
+        return _ajax_response(self.request, response)
+
+    # Determines the redirect URL after logout
+    def get_redirect_url(self):
+        # First check if a "next" URL exists; if not, use the adapter's default logout URL
+        return self.get_next_url() or get_adapter(self.request).get_logout_redirect_url(self.request)
+
+# Initialize the LogoutView as a view to be used in the URL routing
+logout = LogoutView.as_view()
+```
+
+This class enables a clean, flexible logout system for users, utilizing various mixins to handle different aspects of the process, such as redirection after logout and AJAX support for enhanced user experience.
 
 ###### Password Reset
 
