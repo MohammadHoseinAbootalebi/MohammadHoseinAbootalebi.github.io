@@ -1238,6 +1238,8 @@ The second email is a welcome message sent to new EShoppify users, as illustrate
 In order to explain the backend side responsible for handling account creation, first, by clicking or tapping on the 'Signup' button, it requests the following URL in this template tag:
 
 ```html
+{% raw %}
+
 ...
 
 <a class=
@@ -1267,6 +1269,8 @@ In order to explain the backend side responsible for handling account creation, 
 </a>
 
 ...
+
+{% endraw %}
 ```
 
 In the above template tag, after clicking or tapping on the 'Signup' button, the `account_signup` URL name is requested using the `url` method. After that, the mentioned URL name, `account_signup`, is mapped to the following URL pattern:
@@ -1276,7 +1280,7 @@ In the above template tag, after clicking or tapping on the 'Signup' button, the
 
         urlpatterns.extend(
             [
-      
+    
                 ...
 
                 path("signup/", views.signup, name="account_signup"),
@@ -1484,7 +1488,7 @@ class SignupView(
     def form_valid(self, form):
         # Try to save the user with the provided form data
         self.user, resp = form.try_save(self.request)
-    
+  
         if resp:  # If there's a response (e.g., a redirect or error), return it
             return resp
 
@@ -1505,13 +1509,13 @@ class SignupView(
     def get_context_data(self, **kwargs):
         # Call the parent method to get the initial context data
         ret = super().get_context_data(**kwargs)
-    
+  
         passkey_signup_enabled = False
         if allauth_app_settings.MFA_ENABLED:  # Check if MFA is enabled
             from allauth.mfa import app_settings as mfa_settings
             # Check if passkey signup is enabled in MFA settings
             passkey_signup_enabled = mfa_settings.PASSKEY_SIGNUP_ENABLED
-    
+  
         # Get the form from context and pre-fill email if it exists in the session
         form = ret["form"]
         email = self.request.session.get("account_verified_email")
@@ -1525,7 +1529,7 @@ class SignupView(
         # Prepare the URLs for login and signup pages
         login_url = self.passthrough_next_url(reverse("account_login"))
         signup_url = self.passthrough_next_url(reverse("account_signup"))
-    
+  
         signup_by_passkey_url = None
         if passkey_signup_enabled:  # If passkey signup is enabled, provide the URL
             signup_by_passkey_url = self.passthrough_next_url(
@@ -1553,14 +1557,14 @@ class SignupView(
     def get_initial(self):
         # Call the parent method to get the initial data
         initial = super().get_initial()
-    
+  
         email = self.request.GET.get("email")
         if email:  # If an email is passed in the GET parameters, validate and pre-fill it
             try:
                 validate_email(email)  # Validate the email format
             except ValidationError:
                 return initial  # If validation fails, return the initial data
-        
+      
             initial["email"] = email
             if app_settings.SIGNUP_EMAIL_ENTER_TWICE:  # If the email confirmation field is enabled
                 initial["email2"] = email
@@ -1591,6 +1595,8 @@ The final step in the EShoppify authentication and authorization process is sign
 In order to explain the backend functionality responsible for logging out, first, after the 'Logout' button is clicked or tapped, the following button is pressed, and the related template tag is as follows:
 
 ```html
+{% raw %}
+
 ...
 
 <a class=
@@ -1614,12 +1620,14 @@ In order to explain the backend functionality responsible for logging out, first
             font-family: 'Baloo Bhaijaan 2', serif;
         "
         href="{% url 'account_logout' %}">
-      
+  
     Logout
   
 </a>
 
 ...
+
+{% endraw %}
 ```
 
 In the above code, the 'Logout' anchor link refers to the `account_logout` URL name, and its URL pattern is as follows:
@@ -1706,7 +1714,7 @@ def get_redirect_url(self):
 - The `get_redirect_url()` method determines the URL the user will be redirected to after logging out.
 - It first checks if a "next" URL is available using `get_next_url()`.
 - If no "next" URL is available, it uses `get_adapter(self.request).get_logout_redirect_url(self.request)` to retrieve the logout redirect URL from the adapter.
-  
+
 📌 **5. Final LogoutView Initialization:**
 
 ```Python
@@ -1728,12 +1736,12 @@ class LogoutView(NextRedirectMixin, LogoutFunctionalityMixin, TemplateView):
         # If LOGOUT_ON_GET is set to True, perform the logout action with a POST request logic
         if app_settings.LOGOUT_ON_GET:
             return self.post(*args, **kwargs)
-        
+      
         # If the user is not authenticated, redirect them to the specified URL
         if not self.request.user.is_authenticated:
             response = redirect(self.get_redirect_url())
             return _ajax_response(self.request, response)
-        
+      
         # Render the context data for the logout template
         ctx = self.get_context_data()
         response = self.render_to_response(ctx)
@@ -1743,10 +1751,10 @@ class LogoutView(NextRedirectMixin, LogoutFunctionalityMixin, TemplateView):
     def post(self, *args, **kwargs):
         # Get the redirect URL after logout
         url = self.get_redirect_url()
-        
+      
         # Perform the logout operation
         self.logout()
-        
+      
         # Redirect the user to the URL
         response = redirect(url)
         return _ajax_response(self.request, response)
