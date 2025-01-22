@@ -8,23 +8,64 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
 
 ## Table of Contents
 
-Not added yet ....
+- [🤖 Assisti 🤖](#-assisti-)
+  - [Table of Contents](#table-of-contents)
+  - [🎨 Design 🎨](#-design-)
+    - [User Research](#user-research)
+    - [Define Objectives](#define-objectives)
+    - [Wireframing](#wireframing)
+    - [Visual Design](#visual-design)
+    - [Prototyping](#prototyping)
+  - [💻 Development 💻](#-development-)
+    - [Requirement Analysis \& Architecture Planning](#requirement-analysis--architecture-planning)
+      - [Database Architecture](#database-architecture)
+      - [Technology Stack](#technology-stack)
+    - [Backend Development](#backend-development)
+      - [Server Setup](#server-setup)
+        - [Frameworks and Programming Languages](#frameworks-and-programming-languages)
+          - [Backend Framework](#backend-framework)
+          - [Python Programming Language](#python-programming-language)
+          - [Web Frontend Design Programming Languages](#web-frontend-design-programming-languages)
+          - [Mobile Framework](#mobile-framework)
+          - [Dart Programming Language](#dart-programming-language)
+        - [Backend Libraries](#backend-libraries)
+      - [Database Design](#database-design)
+        - [Assisti Auth User](#assisti-auth-user)
+        - [Profile](#profile)
+      - [API Development](#api-development)
+      - [Authentication \& Authorization](#authentication--authorization)
+        - [Assisti Auth User Database Model](#assisti-auth-user-database-model)
+        - [Two-Factor Authentication System](#two-factor-authentication-system)
+      - [Artificial Intelligence Development \& Architecture](#artificial-intelligence-development--architecture)
+        - [Overview Workflow](#overview-workflow)
+          - [Landing](#landing)
+        - [OCR](#ocr)
+          - [Overview](#overview)
+          - [EasyOCR Overview](#easyocr-overview)
+          - [`easyocr` Backbone](#easyocr-backbone)
+          - [Assisti `ocr/utils.py`](#assisti-ocrutilspy)
+          - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
+          - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
+          - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+    - [Testing](#testing)
+    - [Deployment](#deployment)
 
 ## 🎨 Design 🎨
 
-### **User Research**
+### User Research
 
-### **Define Objectives**
+### Define Objectives
 
-### **Wireframing**
+### Wireframing
 
-### **Visual Design**
+### Visual Design
 
-### **Prototyping**
+### Prototyping
 
 ## 💻 Development 💻
 
-### **Requirement Analysis & Architecture Planning**
+### Requirement Analysis & Architecture Planning
 
 #### Database Architecture
 
@@ -123,7 +164,7 @@ At the core of Assisti lies Python, the pioneer language of artificial intellige
 **Flutter and Dart: Cross-Platform Brilliance**
 For Assisti’s mobile interface, I leverage Flutter and Dart—a game-changing duo in cross-platform development. With Flutter’s expressive UI capabilities and Dart’s fast performance, Assisti delivers consistent, visually stunning, and responsive experiences on both Android and iOS devices.
 
-### **Backend Development**
+### Backend Development
 
 ChatGPT Notes:
 
@@ -142,7 +183,7 @@ The server setup will be explained in the following subtopics:
 
 ##### Frameworks and Programming Languages
 
-###### **Backend Framework:**
+###### Backend Framework
 
 Django serves as a powerful and flexible backend framework, making it an excellent choice for developing advanced systems like Assisti, an AI-powered project. Its "batteries-included" philosophy provides a wide range of built-in tools and libraries, enabling developers to streamline the development process without relying heavily on external dependencies. This approach not only accelerates the development cycle but also helps bring innovative solutions like Assisti to users more quickly, maintaining a competitive edge in the AI landscape.
 
@@ -150,7 +191,7 @@ Security is a critical aspect of any AI-driven platform, and Django excels by of
 
 Django's scalability further solidifies its suitability for projects like Assisti, which may need to handle a growing user base and increasing data complexity. Its architecture is designed to efficiently manage high volumes of data and interactions, ensuring the system remains responsive as it expands. Moreover, Django's extensive and active developer community provides a wealth of resources and continuous support, ensuring that Assisti can evolve and stay at the forefront of AI technology.
 
-###### **Python Programming Language:**
+###### Python Programming Language
 
 Python is a high-level, interpreted programming language celebrated for its simplicity and readability, making it an ideal choice for projects like Assisti. Its clean and intuitive syntax, resembling natural English, enables developers to write clear and maintainable code, simplifying debugging and fostering efficient development. These qualities have made Python a go-to language across diverse fields, including artificial intelligence, web development, data analysis, and scientific computing.
 
@@ -158,7 +199,7 @@ A key advantage of Python is its versatility. Supporting multiple programming pa
 
 Python's cross-platform compatibility further strengthens its role in powering Assisti. It runs effortlessly on major operating systems like Windows, macOS, and Linux, ensuring that the platform remains accessible and functional across various environments. Combined with its vibrant community support and continuous evolution, Python provides a robust foundation for building and scaling innovative AI solutions like Assisti.
 
-###### **Web Frontend Design Programming Languages:**
+###### Web Frontend Design Programming Languages
 
 HTML, CSS, and JavaScript form the backbone of web development, each fulfilling a unique role in creating dynamic and responsive user interfaces. HTML (HyperText Markup Language) structures web content, providing a semantic foundation that improves accessibility and enhances search engine optimization (SEO). CSS (Cascading Style Sheets) adds style and visual elements, enabling developers to craft user-friendly designs with consistent branding across devices. JavaScript introduces interactivity and dynamic functionality, transforming static pages into immersive and engaging experiences. Together, these technologies are essential for building responsive, high-performance web applications.
 
@@ -166,7 +207,7 @@ In the context of Assisti, an AI-powered project, the combination of HTML, CSS, 
 
 For contemporary frontend designs, these technologies provide unmatched flexibility and scalability. Advanced CSS techniques, such as grid and flexbox, facilitate responsive designs that adapt to different screen sizes, ensuring usability on desktops, tablets, and smartphones. JavaScript frameworks and libraries, like React or Vue.js, streamline the creation of interactive components, such as live feedback systems, personalized recommendations, and real-time visualizations of AI outputs. By leveraging HTML, CSS, and JavaScript, Assisti achieves a cutting-edge, future-ready web interface that effectively showcases its AI capabilities.
 
-###### **Mobile Framework:**
+###### Mobile Framework
 
 Flutter, developed by Google, is an open-source UI toolkit that allows developers to build natively compiled applications for mobile, web, and desktop platforms from a single codebase. This cross-platform approach greatly reduces development time and costs by enabling developers to write code once and deploy it across multiple platforms, ensuring consistency and efficiency. Flutter’s rich library of customizable widgets and its expressive UI framework make it ideal for creating visually appealing and highly interactive interfaces, which are essential for engaging users in today’s competitive environment.
 
@@ -174,7 +215,7 @@ In the context of Assisti, an AI-driven project, Flutter offers significant bene
 
 Additionally, Flutter’s expanding ecosystem and active developer community provide a wealth of resources, plugins, and ongoing support, facilitating the integration of advanced functionalities into Assisti. Its open-source nature ensures that the framework evolves alongside technological advancements, enabling Assisti to incorporate new features and maintain a competitive edge. By leveraging Flutter, Assisti can deliver a seamless, engaging, and consistent user experience across multiple platforms, driving user satisfaction and showcasing the project’s AI capabilities effectively.
 
-###### **Dart Programming Language:**
+###### Dart Programming Language
 
 Dart is an open-source, object-oriented programming language developed by Google, specifically designed to create high-performance, cross-platform applications. With its C-style syntax, Dart is familiar to developers experienced in languages like JavaScript, Java, or C#. It supports both just-in-time (JIT) and ahead-of-time (AOT) compilation, ensuring fast development cycles during testing and optimized performance in production environments.
 
@@ -1105,9 +1146,139 @@ This approach demonstrates a professional, efficient backend workflow for handli
 
 ###### Assisti `ocr/forms.py`
 
-TODO: Till adding the description of the forms in order to create the Assisti OCR models.
+To create an OCR object model, a form is required to facilitate the creation of the OCR object and predict its label. The following section will explain the OCR model forms used for this purpose. Below is a comprehensive explanation of this section:
 
-### **Testing**
+📌 **1. Importing Necessary Modules**
+
+```python
+from django import forms
+from .models import DigitPic
+```
+
+* `from django import forms`: This imports the `forms` module from Django, which provides tools for creating and handling web forms.
+* `from .models import DigitPic`: This imports the `DigitPic` model from the same app (`.` refers to the current directory), which is used to define the structure of the model and interact with the database.
+
+📌 **2. Defining the `DigitPicForm` Class**
+
+```python
+class DigitPicForm(forms.ModelForm):
+```
+
+* `DigitPicForm` is a subclass of `forms.ModelForm`, which is a special form class in Django that automatically generates a form based on a model. This form will be used to interact with the `DigitPic` model.
+
+📌 **3. Meta Class for Model and Fields**
+
+```python
+class Meta:
+    model = DigitPic
+    fields = ['title', 'digitImage']  # Only include the title and digitImage fields
+```
+
+* The `Meta` class is used to provide additional configuration for the form. Here, it specifies:
+  * `model = DigitPic`: The form is associated with the `DigitPic` model.
+  * `fields = ['title', 'digitImage']`: Only the `title` and `digitImage` fields will be included in the form, meaning the form will not handle other model fields such as `whatDigit` or `created`.
+
+📌 **4. Customizing the Form Fields**
+
+```python
+def __init__(self, *args, **kwargs):
+    super(DigitPicForm, self).__init__(*args, **kwargs)
+```
+
+* This is the form's `__init__` method, which is called when an instance of the form is created. The `super(DigitPicForm, self).__init__(*args, **kwargs)` call ensures that the parent class (`forms.ModelForm`) initialization is run first, allowing the form to function correctly.
+
+📌 **5. Customizing the `title` Field**
+
+```python
+self.fields['title'].widget.attrs.update({
+    'class': 'form-control',
+    'placeholder': 'Your image title ...',  # You can change this placeholder
+})
+```
+
+* `self.fields['title']`: This refers to the `title` field from the model.
+* `widget.attrs.update(...)`: This allows customization of the field's HTML attributes. Specifically:
+  * `'class': 'form-control'`: This adds the `form-control` class to the `title` input field, which applies Bootstrap's styling to the form input.
+  * `'placeholder': 'Your image title ...'`: This sets a placeholder text inside the input field, providing a hint to the user about what to enter in the field.
+
+📌 **6. Customizing the `digitImage` Field**
+
+```python
+self.fields['digitImage'].widget.attrs.update({
+    'class': 'form-control',
+    'placeholder': 'Choose an image',  # Placeholder for image input is not standard but can be used for styling
+})
+```
+
+* `self.fields['digitImage']`: This refers to the `digitImage` field from the model.
+* `widget.attrs.update(...)`: Similar to the `title` field, this customizes the `digitImage` field:
+  * `'class': 'form-control'`: Adds the `form-control` class for Bootstrap styling.
+  * `'placeholder': 'Choose an image'`: While placeholders are not typically used for file input fields, this provides a placeholder for visual consistency or can be styled accordingly.
+
+📌 **Final Insights**
+
+This form is designed to handle two main pieces of information:
+
+1. **Title**: A textual field for the user to provide a name or title for the image.
+2. **Digit Image**: A file upload field where the user selects an image (typically a digit image for recognition purposes).
+
+The custom styling using Bootstrap's `form-control` ensures that both fields are visually consistent with a modern web application. The placeholders give further guidance to users for interacting with the form fields.
+
+Below the entire `ocr/forms.py` will come in one glance:
+
+```Python
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©© All Rights are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+
+from django import forms
+from .models import DigitPic
+
+class DigitPicForm(forms.ModelForm):
+    class Meta:
+        model = DigitPic
+        fields = ['title', 'digitImage']  # Only include the title and digitImage fields
+
+    def __init__(self, *args, **kwargs):
+        super(DigitPicForm, self).__init__(*args, **kwargs)
+    
+        # Customize the form fields
+        self.fields['title'].widget.attrs.update({
+            'class': 'form-control',
+            'placeholder': 'Your image title ...',  # You can change this placeholder
+        })
+    
+        self.fields['digitImage'].widget.attrs.update({
+            'class': 'form-control',
+            'placeholder': 'Choose an image',  # Placeholder for image input is not standard but can be used for styling
+        })
+
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©© All Rights are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+# ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
+```
+
+This form (`DigitPicForm`) is designed for creating and updating `DigitPic` model instances in Django. It allows users to provide a title and upload an image. By using `ModelForm`, it automatically handles form validation and persistence to the database. The form also includes custom styling via Bootstrap classes, making it easy to integrate into a web application with a modern look and feel. The placeholders guide users and improve the user experience when interacting with the form.
+
+###### Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module
+
+📌 **Overview**
+
+TODO: Adding the designed presentation of how to go to the OCR zone of Assisti project.
+
+📌 **Creating OCR Models**
+
+📌 **Editing OCR Models**
+
+📌 **Reading OCR Models**
+
+📌 **Deleting OCR Models**
+
+### Testing
 
 ChatGPT Notes:
 
@@ -1120,7 +1291,7 @@ ChatGPT Notes:
 
 Not added yet.
 
-### **Deployment**
+### Deployment
 
 ChatGPT Notes:
 
