@@ -1243,13 +1243,13 @@ class DigitPicForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super(DigitPicForm, self).__init__(*args, **kwargs)
-    
+  
         # Customize the form fields
         self.fields['title'].widget.attrs.update({
             'class': 'form-control',
             'placeholder': 'Your image title ...',  # You can change this placeholder
         })
-    
+  
         self.fields['digitImage'].widget.attrs.update({
             'class': 'form-control',
             'placeholder': 'Choose an image',  # Placeholder for image input is not standard but can be used for styling
@@ -1268,7 +1268,7 @@ This form (`DigitPicForm`) is designed for creating and updating `DigitPic` mode
 
 📌 **Overview**
 
-TODO: Adding the designed presentation of how to go to the OCR zone of Assisti project.
+TODO : Till working on responsivenss of the landing page middle carousel and the services carousels.
 
 📌 **Creating OCR Models**
 
