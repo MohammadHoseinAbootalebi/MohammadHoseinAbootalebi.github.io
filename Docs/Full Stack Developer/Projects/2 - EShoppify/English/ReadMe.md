@@ -2,7 +2,7 @@
 
 Shop it with EShoppify 😉🛒!
 
-**Description:**
+-*Description:**
 
 EShoppify stands out as one of the most ambitious projects in my portfolio, showcasing my expertise in both design and
 development. This fully integrated e-commerce platform allows users to browse and purchase products seamlessly, manage
@@ -75,9 +75,9 @@ dedication to creating impactful digital solutions 😉.
 
 ChatGPT Note:
 
-* Understand the functional and technical requirements.
-* Plan the backend architecture (e.g., APIs, databases).
-* Decide on the technology stack (e.g., frontend framework, backend language, database).
+- Understand the functional and technical requirements.
+- Plan the backend architecture (e.g., APIs, databases).
+- Decide on the technology stack (e.g., frontend framework, backend language, database).
 
 ---
 
@@ -86,129 +86,129 @@ ChatGPT Note:
 As EShoppify is a kind of professional e-commerce platform, it has a complex database, which includes the following
 tables:
 
-* EShoppify Database Schema Concise View
+- EShoppify Database Schema Concise View
 
 ![Database Schema Compact View](../Assets/Database%20Schema/EShoppify%20-%20Simple.png)
 
-* EShoppify Database Schema Compact View
+- EShoppify Database Schema Compact View
 
 ![Database Schema Beautiful View](../Assets/Database%20Schema/EShoppify%20-%20Beautiful%20View.png)
 
 The EShoppify database schema is generally divided into three main parts:
 
-* User Model and Interactions
-* Order and Shipping
-* Product-related Models
+- User Model and Interactions
+- Order and Shipping
+- Product-related Models
 
 ##### User Model and Interactions
 
 This part mainly contains models that hold user-related information. The descriptions of its sub-database tables are
 provided here.
 
-* **Auth User**: This is the base model used for backend operations, specifically for authentication and authorization.
-  * Database fields:
-    * **First name**: This field is dedicated to the user's first name.
-    * **Last name**: This field is dedicated to the user's last name.
-    * **email**: This field is dedicated to the user's email.
-    * **Username**: This field is dedicated to the user's username.
-    * **Password**: This field is dedicated to the user's password.
-    * **ID**: This field is dedicated to the user's unique id.
-* **Profile**: This is the profile object model created for each authenticated user. It has a one-to-one relationship
+- **Auth User**: This is the base model used for backend operations, specifically for authentication and authorization.
+  - Database fields:
+    - **First name**: This field is dedicated to the user's first name.
+    - **Last name**: This field is dedicated to the user's last name.
+    - **email**: This field is dedicated to the user's email.
+    - **Username**: This field is dedicated to the user's username.
+    - **Password**: This field is dedicated to the user's password.
+    - **ID**: This field is dedicated to the user's unique id.
+- **Profile**: This is the profile object model created for each authenticated user. It has a one-to-one relationship
   with the authenticated user.
-  * Database fields:
-    * **Auth User Owner:** The authenticated user to whom this profile is dedicated. It has a one-to-one
+  - Database fields:
+    - **Auth User Owner:** The authenticated user to whom this profile is dedicated. It has a one-to-one
       relationship with the authenticated user.
-    * **First Name:** Profile first name, which is the same as the authenticated user's first name.
-    * **Last Name:** Profile last name, which is the same as the authenticated user's last name.
-    * **Bio:** Profile biography, which is filled in to provide a brief description.
-    * **Image:** Profile image, which serves as a showcase of the profile.
-    * **Phone:** User phone number
-    * **Email:** Profile email, which is the same as the authenticated user's email.
-    * **Username:** Profile username, which is the same as the authenticated user's username.
-    * **Updated:** Last updated profile object model date and time.
-    * **Created:** Profile creation date and time.
-    * **ID:** This field is dedicated to the profile's unique id.
-* **Addresses:** This section of the database will be dedicated to the addresses provided by the user, which will be
+    - **First Name:** Profile first name, which is the same as the authenticated user's first name.
+    - **Last Name:** Profile last name, which is the same as the authenticated user's last name.
+    - **Bio:** Profile biography, which is filled in to provide a brief description.
+    - **Image:** Profile image, which serves as a showcase of the profile.
+    - **Phone:** User phone number
+    - **Email:** Profile email, which is the same as the authenticated user's email.
+    - **Username:** Profile username, which is the same as the authenticated user's username.
+    - **Updated:** Last updated profile object model date and time.
+    - **Created:** Profile creation date and time.
+    - **ID:** This field is dedicated to the profile's unique id.
+- **Addresses:** This section of the database will be dedicated to the addresses provided by the user, which will be
   used to ship the purchased products.
-  * Database fields:
-    * **Address Owner:** This field represents a many-to-one relationship, indicating that each user can have
+  - Database fields:
+    - **Address Owner:** This field represents a many-to-one relationship, indicating that each user can have
       multiple addresses and specifying who owns each address.
-    * **Address:** This is the address information.
-    * **Creation Date and Time of Address:** This field shows the date and time when this address object model was
+    - **Address:** This is the address information.
+    - **Creation Date and Time of Address:** This field shows the date and time when this address object model was
       created.
-    * **ID:** This field is the unique ID of the address object model.
-* **Review:** This EShoppify database table is dedicated to EShoppify users who leave reviews on each product in
+    - **ID:** This field is the unique ID of the address object model.
+- **Review:** This EShoppify database table is dedicated to EShoppify users who leave reviews on each product in
   EShoppify.
-  * Database fields:
-    * **Owner:** This field represents a many-to-one relationship with the Auth User model, indicating which user
+  - Database fields:
+    - **Owner:** This field represents a many-to-one relationship with the Auth User model, indicating which user
       owns the review.
-    * **Product:** This field is dedicated to the product with which each review is specifically coupled.
-    * **Rating:** This field is for storing the stars given to the product on which this review is left by the end
+    - **Product:** This field is dedicated to the product with which each review is specifically coupled.
+    - **Rating:** This field is for storing the stars given to the product on which this review is left by the end
       EShoppify user.
-    * **Text:** This is the text of the review left by the user.
-    * **Slug:** This is the user-friendly text URL used for URL routing.
-    * **Purchased:** This boolean field is used to indicate whether the user leaving the review has purchased the
+    - **Text:** This is the text of the review left by the user.
+    - **Slug:** This is the user-friendly text URL used for URL routing.
+    - **Purchased:** This boolean field is used to indicate whether the user leaving the review has purchased the
       product on which the review is left.
-    * **Appropriate:** This field determines whether the review text is appropriate or not.
-    * **Creation Date and Time of Address:** This is the creation date and time of each review object model.
-    * **ID:** This is the unique ID of the review objects.
+    - **Appropriate:** This field determines whether the review text is appropriate or not.
+    - **Creation Date and Time of Address:** This is the creation date and time of each review object model.
+    - **ID:** This is the unique ID of the review objects.
 
 ##### Order and Shipping
 
 The **Order and Shipping** section of EShoppify primarily focuses on managing users' orders and processing those ready
 for shipping. This section is crucial for all e-commerce platforms, including Amazon, Alibaba, EShoppify, and others.
 
-* **Wallet:** This model is designed for each EShoppify user. It functions as an electronic wallet for users, primarily
+- **Wallet:** This model is designed for each EShoppify user. It functions as an electronic wallet for users, primarily
   used for purchasing, recharging, transferring funds, and more.
-  * Database fields:
-    * **Owner:** Represents a one-to-one relationship with the Authentication User model of EShoppify.
-    * **Balance:** Indicates the current amount of money or credit available in the user's wallet.
-    * **Card Number:** A 16-digit number associated with the user's credit or debit card.
-    * **CVV2:** A 3- or 4-digit security code associated with the credit card for additional verification.
-    * **Expiry Date:** The date when the wallet's associated card or balance will expire.
-    * **Last Updated:** The most recent date and time when the wallet information was modified.
-    * **Created Date:** The date and time when the user's wallet model was initially created.
-    * **ID:** A unique identifier for the user's wallet model.
-* **Charge Wallet:** This database table is used for the Charging Wallet model, which manages the process of increasing
+  - Database fields:
+    - **Owner:** Represents a one-to-one relationship with the Authentication User model of EShoppify.
+    - **Balance:** Indicates the current amount of money or credit available in the user's wallet.
+    - **Card Number:** A 16-digit number associated with the user's credit or debit card.
+    - **CVV2:** A 3- or 4-digit security code associated with the credit card for additional verification.
+    - **Expiry Date:** The date when the wallet's associated card or balance will expire.
+    - **Last Updated:** The most recent date and time when the wallet information was modified.
+    - **Created Date:** The date and time when the user's wallet model was initially created.
+    - **ID:** A unique identifier for the user's wallet model.
+- **Charge Wallet:** This database table is used for the Charging Wallet model, which manages the process of increasing
   the balance in an EShoppify user's wallet.
-  * Database fields:
-    * **Wallet Owner:** This is the Wallet object database model, which serves as the target for balance increases
+  - Database fields:
+    - **Wallet Owner:** This is the Wallet object database model, which serves as the target for balance increases
       requested by the Charging Wallet model. It has a many-to-one relationship with the Charging Wallet database
       model.
-    * **Amount:** This is the amount of money requested to be added to the wallet owner's balance.
-    * **Verified:** This field is used to check whether the charging wallet request has been verified.
-    * **Updated:** This field stores the last datetime when this object model was modified.
-    * **Created:** This is the initial datetime when the wallet charge object database model was created.
-    * **ID:** This is the unique identifier for each charging wallet object model.
-* **Transfer:** The transfer database table is related to each object model used for transferring money from one
+    - **Amount:** This is the amount of money requested to be added to the wallet owner's balance.
+    - **Verified:** This field is used to check whether the charging wallet request has been verified.
+    - **Updated:** This field stores the last datetime when this object model was modified.
+    - **Created:** This is the initial datetime when the wallet charge object database model was created.
+    - **ID:** This is the unique identifier for each charging wallet object model.
+- **Transfer:** The transfer database table is related to each object model used for transferring money from one
   EShoppify wallet to another.
-  * Database fields:
-    * **Wallet Owner:** This field represents a many-to-one relationship with the wallet from which the money
+  - Database fields:
+    - **Wallet Owner:** This field represents a many-to-one relationship with the wallet from which the money
       originates. It identifies the wallet owned by the sender and is intended for transferring funds to another
       wallet.
-    * **Wallet Destination:** This field represents a many-to-one relationship with the wallet object model that
+    - **Wallet Destination:** This field represents a many-to-one relationship with the wallet object model that
       serves as the destination for the transferred money.
-    * **Amount:** This field specifies the amount of money to be transferred.
-    * **Verified:** This boolean field indicates whether the transfer has been verified.
-    * **Created:** This field records the date and time when the wallet transfer object was initially created in the
+    - **Amount:** This field specifies the amount of money to be transferred.
+    - **Verified:** This boolean field indicates whether the transfer has been verified.
+    - **Created:** This field records the date and time when the wallet transfer object was initially created in the
       database.
-    * **ID:** This is a unique identifier for each wallet transfer object in the database.
-* **Order:** This database table schema corresponds to the order object model, which is used to plan purchased products
+    - **ID:** This is a unique identifier for each wallet transfer object in the database.
+- **Order:** This database table schema corresponds to the order object model, which is used to plan purchased products
   and manage them for shipment to customers.
-  * Database fields:
-    * **Owner:** This field represents a many-to-one relationship with the authenticated user, indicating which user
+  - Database fields:
+    - **Owner:** This field represents a many-to-one relationship with the authenticated user, indicating which user
       owns the created orders.
-    * **Product:** This field represents a many-to-one relationship with the Product database model, specifying
+    - **Product:** This field represents a many-to-one relationship with the Product database model, specifying
       which product is included in the order.
-    * **Address:** This field represents a many-to-one relationship with the EShoppify authenticated user's
+    - **Address:** This field represents a many-to-one relationship with the EShoppify authenticated user's
       addresses, used for shipping purposes.
-    * **Description:** This optional field allows the user to provide a short description for additional details, if
+    - **Description:** This optional field allows the user to provide a short description for additional details, if
       needed.
-    * **Quantity:** This integer field specifies the quantity of the product included in the order.
-    * **Price:** This field represents the total price of the order, which the EShoppify customer is required to
+    - **Quantity:** This integer field specifies the quantity of the product included in the order.
+    - **Price:** This field represents the total price of the order, which the EShoppify customer is required to
       pay.
-    * **Created:** This field records the date and time when the order object was created in the database.
-    * **ID:** This field is a unique identifier for each order object in the database.
+    - **Created:** This field records the date and time when the order object was created in the database.
+    - **ID:** This field is a unique identifier for each order object in the database.
 
 ##### Product-related Models
 
@@ -216,66 +216,66 @@ This segment of EShoppify focuses on the management of product data within the d
 into relevant categories, ensuring efficient classification—a standard practice for e-commerce platforms. This section
 also centralizes essential product details, serving as the foundation for all product listings on EShoppify.
 
-* **Category:** This database table plays a key role in organizing products into various categories for better structure
+- **Category:** This database table plays a key role in organizing products into various categories for better structure
   and user experience.
-  * Database fields:
-    * **Owner:** Establishes a many-to-one relationship with EShoppify authenticated users, enabling sellers to
+  - Database fields:
+    - **Owner:** Establishes a many-to-one relationship with EShoppify authenticated users, enabling sellers to
       define their categories and manage their products.
-    * **Category:** The name of the category, stored as text for easy reference.
-    * **Slug:** Converts the category name into a URL-friendly format to improve routing and SEO (**S**earch **E**
+    - **Category:** The name of the category, stored as text for easy reference.
+    - **Slug:** Converts the category name into a URL-friendly format to improve routing and SEO (**S**earch **E**
       ngine **O**ptimization).
-    * **Created:** The timestamp indicating when the category object model was created.
-    * **ID:** A unique identifier assigned to each category, ensuring distinct tracking and referencing in the
+    - **Created:** The timestamp indicating when the category object model was created.
+    - **ID:** A unique identifier assigned to each category, ensuring distinct tracking and referencing in the
       database.
-* **Brand:** This section of the database schema organizes products by the brands supplying them, allowing for
+- **Brand:** This section of the database schema organizes products by the brands supplying them, allowing for
   brand-specific categorization following the product categorization process.
-  * Database fields:
-    * **Owner:** Establishes a many-to-one relationship with EShoppify sellers, enabling them to define and manage
+  - Database fields:
+    - **Owner:** Establishes a many-to-one relationship with EShoppify sellers, enabling them to define and manage
       their own brand.
-    * **Category:** The category that this brand is associated with.
-    * **Logo:** The image representing the brand’s logo.
-    * **Name:** The name of the brand.
-    * **Slug:** Converts the brand name into a URL-friendly format to enhance routing and improve **S**earch **E**
+    - **Category:** The category that this brand is associated with.
+    - **Logo:** The image representing the brand’s logo.
+    - **Name:** The name of the brand.
+    - **Slug:** Converts the brand name into a URL-friendly format to enhance routing and improve **S**earch **E**
       ngine **O**ptimization (SEO).
-    * **Ratio:** A metric indicating how popular or favored each brand is within the platform.
-    * **Created:** The timestamp when the brand object model was created in the database.
-    * **ID:** A unique identifier assigned to each brand for accurate tracking and referencing in the database.
-* **Product:** This EShoppify database table is dedicated to each product object defined in the EShoppify e-commerce
+    - **Ratio:** A metric indicating how popular or favored each brand is within the platform.
+    - **Created:** The timestamp when the brand object model was created in the database.
+    - **ID:** A unique identifier assigned to each brand for accurate tracking and referencing in the database.
+- **Product:** This EShoppify database table is dedicated to each product object defined in the EShoppify e-commerce
   website.
-  * Database fields:
-    * **Owner:** This field represents the owner or EShoppify seller user who defines each product object in the
+  - Database fields:
+    - **Owner:** This field represents the owner or EShoppify seller user who defines each product object in the
       database model. It has a many-to-one foreign key relationship with the EShoppify user model.
-    * **Name:** This field stores the name of the product.
-    * **Brand:** This field represents the brand under which the product is licensed. It has a many-to-one
+    - **Name:** This field stores the name of the product.
+    - **Brand:** This field represents the brand under which the product is licensed. It has a many-to-one
       relationship with the brand database model.
-    * **Category:** This field specifies the category under which the product is classified. It has a many-to-one
+    - **Category:** This field specifies the category under which the product is classified. It has a many-to-one
       relationship with the category model.
-    * **Description:** This field contains a description of the product to explain its details.
-    * **Price:** This field represents the price of the product as a floating-point number.
-    * **Ratio:** This field indicates how much the product is favored or liked.
-    * **Slug:** This field is used to create a slug for the product, ensuring the URL routes appear user-friendly.
-    * **Created Datetime:** This field records the creation date and time of the product object.
-    * **ID:** This is the unique identifier for each product object in the database model.
-* **Product Images:** This database table is used to store product images, allowing EShoppify customers to view them
+    - **Description:** This field contains a description of the product to explain its details.
+    - **Price:** This field represents the price of the product as a floating-point number.
+    - **Ratio:** This field indicates how much the product is favored or liked.
+    - **Slug:** This field is used to create a slug for the product, ensuring the URL routes appear user-friendly.
+    - **Created Datetime:** This field records the creation date and time of the product object.
+    - **ID:** This is the unique identifier for each product object in the database model.
+- **Product Images:** This database table is used to store product images, allowing EShoppify customers to view them
   while shopping.
-  * Database fields:
-    * **Owner:** This field represents the owner or creator of the product object (EShoppify seller user). It has a
+  - Database fields:
+    - **Owner:** This field represents the owner or creator of the product object (EShoppify seller user). It has a
       many-to-one foreign key relationship with the EShoppify user model.
-    * **Product:** This field links to the product that each product image object is associated with. It has a
+    - **Product:** This field links to the product that each product image object is associated with. It has a
       many-to-one relationship with the product model.
-    * **File:** This field stores the image or any other file that showcases the product.
-    * **Creation Datetime:** This field records the creation date and time of each product file.
-    * **ID:** This is the unique identifier for each product image object in the database model.
+    - **File:** This field stores the image or any other file that showcases the product.
+    - **Creation Datetime:** This field records the creation date and time of each product file.
+    - **ID:** This is the unique identifier for each product image object in the database model.
 
 ### Backend Development
 
 ChatGPT Notes:
 
-* **Server Setup** : Set up a server environment (e.g., Node.js, Django, or any backend framework).
-* **Database Design** : Create the database schema, relationships, and models.
-* **API Development** : Design and implement RESTful or GraphQL APIs to handle CRUD operations.
-* **Authentication & Authorization** : Implement user authentication (e.g., JWT, OAuth) and role-based access control.
-* **Business Logic** : Write the core logic for application functionality (e.g., order processing, payment handling).
+- **Server Setup** : Set up a server environment (e.g., Node.js, Django, or any backend framework).
+- **Database Design** : Create the database schema, relationships, and models.
+- **API Development** : Design and implement RESTful or GraphQL APIs to handle CRUD operations.
+- **Authentication & Authorization** : Implement user authentication (e.g., JWT, OAuth) and role-based access control.
+- **Business Logic** : Write the core logic for application functionality (e.g., order processing, payment handling).
 
 ---
 
@@ -388,190 +388,190 @@ EShoppify to deliver a reliable and engaging shopping experience to users across
 
 The core libraries, which are the backbone of EShoppify, are as follows:
 
-* `asgiref==3.8.1`
-  * The `asgiref==3.8.1` library is a key utility for Python's asynchronous web development, supporting the ASGI (
+- `asgiref==3.8.1`
+  - The `asgiref==3.8.1` library is a key utility for Python's asynchronous web development, supporting the ASGI (
     Asynchronous Server Gateway Interface) standard. It provides tools like sync-to-async and async-to-sync wrappers,
     making it easier to integrate synchronous and asynchronous code. Essential for high-performance web applications,
     `asgiref` enables concurrent request handling, improving scalability and responsiveness. This makes it an
     excellent choice for applications like EShoppify, where real-time features and efficient request management are
     crucial.
-* `certifi==2024.8.30`
-  * The `certifi==2024.8.30` library in Python provides a curated collection of trusted root certificates for
+- `certifi==2024.8.30`
+  - The `certifi==2024.8.30` library in Python provides a curated collection of trusted root certificates for
     verifying the SSL/TLS certificates of websites and APIs. By using `certifi`, developers ensure secure
     communication between applications and external servers, reducing the risk of man-in-the-middle attacks. This is
     especially important for e-commerce platforms like EShoppify, where safeguarding sensitive customer data, such as
     payment information, is a top priority. With `certifi`, EShoppify can maintain a secure and reliable connection to
     external services like payment gateways and APIs.
-* `cffi==1.17.1`
-  * CFFI, or C Foreign Function Interface, provides a way for Python programs to call and interact with C code
+- `cffi==1.17.1`
+  - CFFI, or C Foreign Function Interface, provides a way for Python programs to call and interact with C code
     directly, making it easier to extend Python with C libraries. It allows developers to define C data structures and
     functions in Python code, simplifying the integration of C-based functionality. CFFI is particularly useful in
     performance-critical applications where Python alone may not suffice, such as system-level programming or bindings
     to existing C libraries. It ensures safe interaction with C code through well-defined interfaces, offering both a
     high-level and low-level API. CFFI’s portability across platforms and its focus on simplicity make it a go-to
     choice for Python-C integration.
-* `charset-normalizer==3.4.0`
-  * Charset Normalizer is a library that helps detect and normalize the character encoding of text. It is particularly
+- `charset-normalizer==3.4.0`
+  - Charset Normalizer is a library that helps detect and normalize the character encoding of text. It is particularly
     useful for handling different encodings in web scraping, data processing, or API integrations where the text may
     come in a variety of encodings. By normalizing the encoding, it ensures that text is readable and consistent
     across platforms, regardless of the original encoding format. Charset Normalizer is an alternative to libraries
     like `chardet` and is designed to be faster and more reliable. Its capabilities are essential for developers
     working with international or legacy data sources, ensuring smooth text handling across diverse systems.
-* `cryptography==43.0.1`
-  * Cryptography is a comprehensive library for cryptographic operations, including encryption, decryption, hashing,
+- `cryptography==43.0.1`
+  - Cryptography is a comprehensive library for cryptographic operations, including encryption, decryption, hashing,
     and key management. It provides high-level cryptographic recipes and primitives for developers who need secure
     data transmission, such as SSL/TLS or token-based authentication. The library supports a wide range of
     cryptographic algorithms, including AES, RSA, and SHA-2, enabling both symmetric and asymmetric encryption.
     Cryptography also provides tools for safely handling cryptographic keys and ensuring compliance with industry
     standards. Its extensive use in securing web applications, APIs, and data storage makes it a critical component
     for developers focused on security.
-* `Django==5.1.1`
-  * Django is a high-level web framework for Python that allows rapid development of secure and maintainable web
+- `Django==5.1.1`
+  - Django is a high-level web framework for Python that allows rapid development of secure and maintainable web
     applications. It follows the "batteries-included" philosophy, offering a wide range of built-in features such as
     an ORM, authentication system, and admin interface. Django emphasizes reusability, less code, and rapid
     prototyping, which accelerates development while maintaining flexibility. It is highly scalable and well-suited
     for both small and large applications, with robust support for security best practices, including protection
     against common vulnerabilities like SQL injection and cross-site scripting (XSS). With its active community and
     extensive documentation, Django remains one of the most popular web frameworks in the Python ecosystem.
-* `django-admin-interface==0.29.0`
-  * Django Admin Interface is an open-source Django app that enhances the appearance and usability of the default
+- `django-admin-interface==0.29.0`
+  - Django Admin Interface is an open-source Django app that enhances the appearance and usability of the default
     Django admin interface. It provides a modern and customizable UI with features such as color themes, improved
     navigation, and better user experience. This library makes the Django admin more visually appealing and easier to
     use, especially for non-technical users managing application content. It supports various customization options
     like changing colors, typography, and layout adjustments. By offering these enhancements, django-admin-interface
     helps developers create more user-friendly admin interfaces without modifying core Django code.
-* `django-allauth==65.0.2`
-  * Django Allauth is a Django package that provides a complete authentication system, including user login,
+- `django-allauth==65.0.2`
+  - Django Allauth is a Django package that provides a complete authentication system, including user login,
     registration, account management, and third-party authentication via OAuth, OpenID, and more. It simplifies the
     implementation of common authentication flows like social logins with providers such as Google, Facebook, or
     Twitter. With its extensible architecture, Django Allauth allows developers to easily integrate user
     authentication into any Django project while ensuring best practices for security. It also includes features like
     email verification, password reset, and account linking for a robust user management system. This makes it a go-to
     solution for applications that require complex authentication features without having to build them from scratch.
-* `django-colorfield==0.11.0`
-  * Django Colorfield is a Django model field that allows users to select and store color values in a standardized
+- `django-colorfield==0.11.0`
+  - Django Colorfield is a Django model field that allows users to select and store color values in a standardized
     format. It integrates seamlessly with the Django admin interface, providing an intuitive color picker widget for
     managing color inputs. This field supports multiple color formats, including HEX, RGB, and HSL, making it
     versatile for various design-related tasks. Django Colorfield is often used in projects where color customization
     is a key feature, such as in theming, branding, or user profile customization. Its easy integration into Django
     models makes it an attractive choice for developers needing color support in their applications.
-* `django-phonenumber-field==8.0.0`
-  * Django Phonenumber Field is a Django app that simplifies the process of managing phone numbers within a Django
+- `django-phonenumber-field==8.0.0`
+  - Django Phonenumber Field is a Django app that simplifies the process of managing phone numbers within a Django
     model. It uses the `phonenumbers` library to ensure that phone numbers are stored in an international, valid, and
     standardized format. This field can automatically validate phone numbers, format them according to local
     conventions, and ensure their correctness based on global phone number rules. It integrates smoothly with Django’s
     admin and forms, providing users with an intuitive interface for input. By using Django Phonenumber Field,
     developers can ensure that phone number data is consistent, valid, and ready for integration with other services
     like SMS gateways or third-party authentication.
-* `idna==3.10`
-  * IDNA is a library that implements the Internationalized Domain Names (IDN) standard in Python. This allows Python
+- `idna==3.10`
+  - IDNA is a library that implements the Internationalized Domain Names (IDN) standard in Python. This allows Python
     programs to correctly handle domain names that include non-ASCII characters, such as those in different languages
     or scripts. It ensures compatibility with domain names that use Unicode characters beyond the typical Latin
     alphabet, making the global internet more accessible. IDNA converts these internationalized domain names into the
     ASCII-compatible encoding (ACE) that can be used in URLs. By supporting IDN, the library enables Python
     applications to resolve and handle domain names in any language or character set correctly.
-* `oauthlib==3.2.2`
-  * OAuthLib is a Python library that provides tools for working with OAuth1 and OAuth2 protocols. OAuth is a widely
+- `oauthlib==3.2.2`
+  - OAuthLib is a Python library that provides tools for working with OAuth1 and OAuth2 protocols. OAuth is a widely
     used authentication standard that allows third-party applications to access user data without requiring direct
     access to user credentials. OAuthLib simplifies the implementation of secure and scalable authentication systems,
     such as single sign-on (SSO) and token-based authentication. It supports both OAuth1 and OAuth2, enabling
     developers to easily integrate secure authorization mechanisms into their web applications. OAuthLib’s flexibility
     and robustness make it a key library for handling authentication and authorization in modern Python applications.
-* `phonenumbers==8.13.50`
-  * Phonenumbers is a Python library that provides tools for parsing, formatting, and validating phone numbers. It is
+- `phonenumbers==8.13.50`
+  - Phonenumbers is a Python library that provides tools for parsing, formatting, and validating phone numbers. It is
     based on Google's libphonenumber, which is a widely used library for phone number processing. The library allows
     developers to easily handle international phone numbers by parsing them into a standard format, validating their
     correctness, and formatting them according to the appropriate conventions. Phonenumbers is used in applications
     that require phone number storage, verification, or display, such as user registration forms, contact management
     systems, or SMS-based services. Its ability to validate phone numbers for different countries makes it a critical
     tool for any application dealing with phone number data.
-* `pillow==10.4.0`
-  * Pillow is a powerful image processing library for Python, built as a fork of the Python Imaging Library (PIL). It
+- `pillow==10.4.0`
+  - Pillow is a powerful image processing library for Python, built as a fork of the Python Imaging Library (PIL). It
     provides an easy-to-use interface for opening, manipulating, and saving various image formats, including PNG,
     JPEG, and GIF. Pillow supports a wide range of image processing operations, such as resizing, cropping, rotating,
     applying filters, and more. It also supports advanced image features like transparency handling, image annotation,
     and metadata manipulation. Pillow’s popularity among Python developers stems from its simplicity, versatility, and
     active community, making it the go-to choice for any image-related tasks.
-* `pycparser==2.22`
-  * Pycparser is a complete and lightweight C parser written in Python. It is capable of parsing and analyzing C
+- `pycparser==2.22`
+  - Pycparser is a complete and lightweight C parser written in Python. It is capable of parsing and analyzing C
     source code into an abstract syntax tree (AST), enabling developers to manipulate and understand C code
     programmatically. Pycparser can be used for various applications, including static analysis, code generation, or
     building tools that interact with C codebases. It is fully compliant with the C99 standard, making it suitable for
     handling modern C code. Pycparser’s integration with Python allows developers to write powerful tools for working
     with C code without needing to leave the Python ecosystem.
-* `PyJWT==2.9.0`
-  * PyJWT is a Python library for creating and verifying JSON Web Tokens (JWTs). JWTs are commonly used in modern web
+- `PyJWT==2.9.0`
+  - PyJWT is a Python library for creating and verifying JSON Web Tokens (JWTs). JWTs are commonly used in modern web
     applications for transmitting securely signed information between clients and servers, particularly for
     authentication and authorization purposes. PyJWT provides an easy way to encode and decode JWTs, using algorithms
     like HMAC, RSA, and ECDSA for secure signing. The library also supports token expiration, claims, and additional
     security features, making it suitable for a variety of use cases in user authentication systems. By simplifying
     the creation and validation of JWTs, PyJWT is a key tool for building secure and scalable web applications.
-* `python-decouple==3.8`
-  * Python Decouple is a library that helps separate configuration settings from code, making it easier to manage
+- `python-decouple==3.8`
+  - Python Decouple is a library that helps separate configuration settings from code, making it easier to manage
     different environments (development, production, etc.) without hardcoding values. It reads configuration from
     environment variables or `.env` files, ensuring that sensitive data like API keys or database credentials are not
     exposed in source code. This is especially important for deploying applications to different environments where
     configurations may change, like in continuous integration (CI) or cloud platforms. Python Decouple’s simplicity
     and ease of use have made it a popular choice for managing settings in a secure and scalable way. By isolating
     configuration, it helps keep Python projects clean and portable across environments.
-* `python-slugify==8.0.4`
-  * Python Slugify is a simple utility for generating URL-friendly slugs from strings. It takes an input string,
+- `python-slugify==8.0.4`
+  - Python Slugify is a simple utility for generating URL-friendly slugs from strings. It takes an input string,
     removes special characters, converts the text to lowercase, and replaces spaces with hyphens, making it suitable
     for use in SEO-friendly URLs. Slugify is commonly used in content management systems, blogs, and e-commerce
     applications to create clean, readable URLs that are both user-friendly and search engine optimized. It supports
     various languages and character sets, ensuring that slugs are generated correctly across different locales. By
     automating the slug creation process, Python Slugify saves developers time and effort when creating user-friendly
     web addresses.
-* `requests==2.32.3`
-  * Requests is a simple and intuitive HTTP library for Python, making it easy to send HTTP requests and handle
+- `requests==2.32.3`
+  - Requests is a simple and intuitive HTTP library for Python, making it easy to send HTTP requests and handle
     responses. It abstracts the complexities of working with HTTP, enabling developers to focus on interacting with
     APIs, web services, or other HTTP-based protocols. Requests support various HTTP methods like GET, POST, PUT,
     DELETE, and more, while also handling cookies, sessions, and redirection automatically. The library also provides
     convenient features for handling headers, parameters, timeouts, and responses, making it a go-to choice for web
     scraping, data retrieval, or building web clients. Requests is widely praised for its simplicity and ease of use,
     making it a popular library in the Python ecosystem.
-* `requests-oauthlib==2.0.0`
-  * Requests-OAuthlib is an extension of the popular `requests` library that adds OAuth authentication support. OAuth
+- `requests-oauthlib==2.0.0`
+  - Requests-OAuthlib is an extension of the popular `requests` library that adds OAuth authentication support. OAuth
     is a widely used protocol for allowing third-party applications to access user data securely, without requiring
     users to share their credentials. With Requests-OAuthlib, developers can integrate OAuth1 and OAuth2
     authentication flows seamlessly into their applications. The library simplifies the process of obtaining access
     tokens and making authenticated API requests, streamlining the integration of external services like Google,
     Facebook, or Twitter. It is an essential tool for building secure and scalable applications that require
     OAuth-based authentication.
-* `sqlparse==0.5.1`
-  * SQLParse is a non-validating SQL parser for Python, designed to handle the parsing and formatting of SQL
+- `sqlparse==0.5.1`
+  - SQLParse is a non-validating SQL parser for Python, designed to handle the parsing and formatting of SQL
     statements. It can break down SQL queries into components, making it useful for tasks like query analysis, code
     generation, and formatting SQL for readability. SQLParse is particularly beneficial for tools that need to
     interact with SQL databases in a programmatic way, such as database migration systems or SQL injection detection.
     The library can also reformat SQL queries into a consistent style, improving the readability and maintainability
     of complex queries. Its simplicity and focus on parsing make it a useful library for developers working with SQL
     in Python.
-* `text-unidecode==1.3`
-  * Text-Unidecode is a Python library that converts Unicode text into its closest ASCII representation. It is useful
+- `text-unidecode==1.3`
+  - Text-Unidecode is a Python library that converts Unicode text into its closest ASCII representation. It is useful
     for removing accents, diacritical marks, and other special characters from text, which is helpful in tasks like
     generating SEO-friendly URLs or normalizing text for search engines. The library ensures that non-ASCII characters
     are safely removed, resulting in clean, standardized text without losing the meaning or pronunciation of the
     original content. Text-Unidecode is commonly used in applications that need to generate readable and accessible
     text from international or special-character-based input. Its simple interface and functionality make it a
     valuable tool for normalizing text in Python.
-* `typing_extensions==4.12.2`
-  * Typing Extensions is a backport of the latest features from Python’s typing module, enabling developers to use new
+- `typing_extensions==4.12.2`
+  - Typing Extensions is a backport of the latest features from Python’s typing module, enabling developers to use new
     type hints and static analysis tools even in older Python versions. It provides additional features like
     `TypedDict`, `Literal`, and `Final`, which are part of Python’s gradual adoption of static typing. Typing
     Extensions helps developers improve the clarity and maintainability of their code by enforcing stronger type
     checks, leading to fewer runtime errors and better code quality. It is especially useful in projects that use
     older versions of Python but still want to take advantage of the latest typing features. The library contributes
     to better documentation, code quality, and tooling for Python developers working with complex applications.
-* `tzdata==2024.1`
-  * TZData is a package that contains the IANA Time Zone Database, which provides accurate and up-to-date information
+- `tzdata==2024.1`
+  - TZData is a package that contains the IANA Time Zone Database, which provides accurate and up-to-date information
     about time zones worldwide. This database is used to manage time zone conversions, daylight saving time
     adjustments, and the handling of timestamps across different regions. By using TZData, Python applications can
     accurately handle time-related calculations in different parts of the world, ensuring that times are correctly
     displayed for users in various time zones. TZData is frequently updated to reflect changes in local timekeeping
     rules and practices, such as changes in daylight saving time. This package is an essential tool for any Python
     application that deals with date, time, and time zone manipulation.
-* `urllib3==2.2.3`
-  * urllib3 is a powerful HTTP library for Python, designed to provide advanced features for handling HTTP requests.
+- `urllib3==2.2.3`
+  - urllib3 is a powerful HTTP library for Python, designed to provide advanced features for handling HTTP requests.
     It includes features such as connection pooling, retry logic, and handling of SSL/TLS connections, making it ideal
     for high-performance, production-grade web applications. urllib3 simplifies the management of HTTP connections,
     automatically handling redirects, cookies, and response parsing. It also integrates seamlessly with libraries like
@@ -696,7 +696,7 @@ EShoppify account, clicking the "Login" button begins the authorization process.
 credentials through the backend authentication system, sending a two-factor authentication code via email, and then
 redirecting the user to their profile screen.
 
-* Landing page on large screens
+- Landing page on large screens
 
 ![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.png)
 
@@ -712,11 +712,11 @@ address. The user must then input this code into the platform, and upon successf
 their EShoppify profile. This enhanced process ensures both security and a seamless transition into the platform for all
 users.
 
-* Landing page on small screens | Closed top navigation bar
+- Landing page on small screens | Closed top navigation bar
 
 ![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Closed.png)
 
-* Landing page on small screens | Opened top navigation bar
+- Landing page on small screens | Opened top navigation bar
 
 ![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Opened.png)
 
@@ -747,12 +747,13 @@ from django.conf.urls.static import static
 
 urlpatterns = [
 
-	...
+  ...
 
-	## -- >> Products URLs
+  ## -- >> Products URLs
         path("", include("products.urls")),
 
-	...
+  ...
+
 ]
 
 # ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© #
@@ -868,8 +869,8 @@ def home_landing_page(request):
 
 The `return render()` function in Django is used to generate an HTTP response by combining a template with a context. In this specific example:
 
-* The `request` parameter represents the HTTP request object passed to the view. It carries metadata about the current request and is essential for rendering the appropriate response.
-* The `template_name` parameter specifies the name of the HTML template, `"index.html"`, which serves as the user interface for the EShoppify landing page.
+- The `request` parameter represents the HTTP request object passed to the view. It carries metadata about the current request and is essential for rendering the appropriate response.
+- The `template_name` parameter specifies the name of the HTML template, `"index.html"`, which serves as the user interface for the EShoppify landing page.
 
 When this function is called, Django processes the specified template, applies any associated context (not shown here but can be passed as an additional parameter), and returns the resulting HTML to the user's browser. This ensures that the page is dynamically rendered while keeping the codebase modular and maintainable.
 
@@ -924,20 +925,20 @@ The login page for PC or desktop platforms provides a clear and user-friendly in
 required to enter their email address and password to proceed to the two-factor authentication step. Key features of the
 login page include:
 
-* **Email and Password Fields**
-  * The email field is for entering the registered email address.
-  * The password field includes an eye icon button that allows users to toggle between hiding and revealing the
+- **Email and Password Fields**
+  - The email field is for entering the registered email address.
+  - The password field includes an eye icon button that allows users to toggle between hiding and revealing the
     entered password for convenience.
-* **Forgot Password Option**
-  * Below the password field, there is a "Forgot Password" link that users can click to reset their password if
+- **Forgot Password Option**
+  - Below the password field, there is a "Forgot Password" link that users can click to reset their password if
     needed.
-* **Stay Logged In Option**
-  * A checkbox is provided for users who want to stay logged in on the device.
-* **Login Button**
-  * The "Login" button submits the entered credentials to proceed to the next step of the authentication process,
+- **Stay Logged In Option**
+  - A checkbox is provided for users who want to stay logged in on the device.
+- **Login Button**
+  - The "Login" button submits the entered credentials to proceed to the next step of the authentication process,
     which is two-factor authentication.
-* **Sign-Up Link**
-  * Below the login button, there is a "Sign Up" link for new users to create an account.
+- **Sign-Up Link**
+  - Below the login button, there is a "Sign Up" link for new users to create an account.
 
 This streamlined layout ensures a smooth login experience while emphasizing security and convenience.
 
@@ -1029,9 +1030,9 @@ from . import views
 
 urlpatterns = [
 
-	path("login/", views.login, name="account_login"),
+  path("login/", views.login, name="account_login"),
 
-	...
+  ...
 
 ]
 ```
@@ -1184,15 +1185,15 @@ validation, which is similar to the login process. To create a new account, ESho
 button located in the top navigation bar. On desktop or PC, this button is easily accessible, and on mobile devices,
 users can tap the button in the mobile web view, as shown for the desktop version.
 
-* Desktop and PC Web View
+- Desktop and PC Web View
 
 ![Landing Page](../Assets/Backend%20Development/Authentication/Images/Landing%20Page.png)
 
-* Mobile Web View | Navbar Closed
+- Mobile Web View | Navbar Closed
 
 ![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Closed.png)
 
-* Mobile Web View | Navbar opened by tapping the '+' button.
+- Mobile Web View | Navbar opened by tapping the '+' button.
 
 ![Landing Page - Mobile - Web - Navbar - Closed](../Assets/Backend%20Development/Authentication/Images/Landing%20Page%20-%20Mobile%20-%20Navbar%20-%20Opened.png)
 
@@ -1206,11 +1207,11 @@ all fields are completed correctly, users can finalize the process by clicking t
 below the button redirects users to the login page, enabling them to access an existing account or the newly created
 one. This clear and user-friendly layout ensures a smooth account creation process for all EShoppify users.
 
-* Desktop and PC Signup Page Web View
+- Desktop and PC Signup Page Web View
 
 ![Signup Page | Web | Desktop | PC](../Assets/Backend%20Development/Authentication/Images/Signup%20Screen%20-%20Desktop%20PC%20Web%20View.png)
 
-* Mobile Signup Page Web View
+- Mobile Signup Page Web View
 
 ![Signup Page | Web | Mobile](../Assets/Backend%20Development/Authentication/Images/Signup%20Screen%20-%20Mobile%20Web%20View.png)
 
@@ -1218,11 +1219,11 @@ After successfully submitting the required information on the signup screen, the
 page, which is part of EShoppify's two-factor authentication process. This step ensures account security and follows the
 same procedure as the login process, which will be reviewed in detail.
 
-* Two-Factor Authentication Process on Desktop and PC Web View
+- Two-Factor Authentication Process on Desktop and PC Web View
 
 ![Two-Factor Authentication Form | Web View](../Assets/Backend%20Development/Authentication/Images/Entering%20Two%20Factor%20Authentication%20-%20Form%20-%20PC.png)
 
-* Two-Factor Authentication Process on Mobile Web View
+- Two-Factor Authentication Process on Mobile Web View
 
 ![Two-Factor Authentication Form | Mobile View](../Assets/Backend%20Development/Authentication/Images/Entering%20Two%20Factor%20Authentication%20-%20Form%20-%20Mobile.png)
 
@@ -1280,7 +1281,7 @@ In the above template tag, after clicking or tapping on the 'Signup' button, the
 
         urlpatterns.extend(
             [
-    
+  
                 ...
 
                 path("signup/", views.signup, name="account_signup"),
@@ -1564,7 +1565,7 @@ class SignupView(
                 validate_email(email)  # Validate the email format
             except ValidationError:
                 return initial  # If validation fails, return the initial data
-      
+  
             initial["email"] = email
             if app_settings.SIGNUP_EMAIL_ENTER_TWICE:  # If the email confirmation field is enabled
                 initial["email2"] = email
@@ -1580,15 +1581,15 @@ signup = SignupView.as_view()
 
 The final step in the EShoppify authentication and authorization process is signing out, which is easily done by clicking or tapping the logout button in the navigation menu. Once selected, the user is directed to the sign-out page, as shown below. From this page, clicking the "Sign Out" button, available across desktop, PC, and mobile platforms in web view, redirects the user to the EShoppify landing page. Alternatively, if the user chooses to stay logged in, they can click or tap the "Stay Logged In" button to seamlessly return to their account profile.
 
-* Signing out on desktop platforms
+- Signing out on desktop platforms
 
 ![Signing Out | Web | Desktop & PC](../Assets/Backend%20Development/Authentication/Images/Signing%20Out%20-%20Desktop%20PC.png)
 
-* Logout button displayed after the top navigation bar is opened | Mobile Web View
+- Logout button displayed after the top navigation bar is opened | Mobile Web View
 
 ![Signing Out | Web | Mobile | Navbar Opened](../Assets/Backend%20Development/Authentication/Images/Signing%20Out%20-%20Mobile%20Web%20View%20-%20Navbar%20Opened.png)
 
-* Signing out on mobile platforms | Web View | Collapsed Top Navigation Bar
+- Signing out on mobile platforms | Web View | Collapsed Top Navigation Bar
 
 ![Signing Out | Web | Mobile | Navbar Closed](../Assets/Backend%20Development/Authentication/Images/Signing%20Out%20-%20Mobile%20Web%20View%20-%20Navbar%20Closed.png)
 
@@ -1643,11 +1644,11 @@ from . import views
 
 urlpatterns = [
 
-	...
+  ...
 
-	path("logout/", views.logout, name="account_logout"),
+  path("logout/", views.logout, name="account_logout"),
 
-	...
+  ...
 
 ]
 
@@ -1736,12 +1737,12 @@ class LogoutView(NextRedirectMixin, LogoutFunctionalityMixin, TemplateView):
         # If LOGOUT_ON_GET is set to True, perform the logout action with a POST request logic
         if app_settings.LOGOUT_ON_GET:
             return self.post(*args, **kwargs)
-      
+  
         # If the user is not authenticated, redirect them to the specified URL
         if not self.request.user.is_authenticated:
             response = redirect(self.get_redirect_url())
             return _ajax_response(self.request, response)
-      
+  
         # Render the context data for the logout template
         ctx = self.get_context_data()
         response = self.render_to_response(ctx)
@@ -1751,10 +1752,10 @@ class LogoutView(NextRedirectMixin, LogoutFunctionalityMixin, TemplateView):
     def post(self, *args, **kwargs):
         # Get the redirect URL after logout
         url = self.get_redirect_url()
-      
+  
         # Perform the logout operation
         self.logout()
-      
+  
         # Redirect the user to the URL
         response = redirect(url)
         return _ajax_response(self.request, response)
@@ -1772,7 +1773,678 @@ This class enables a clean, flexible logout system for users, utilizing various 
 
 ###### Password Reset
 
-TODO: Till explaining and if need, designing and developing the reset password process.
+Password resets are a common feature in software development, particularly in e-commerce platforms, where users may often forget their passwords. EShoppify provides a simple and user-friendly password reset process to address this issue. If a user is unable to log in due to a forgotten password, they can easily initiate the reset process by clicking or tapping the "Reset" button located on the login page of the EShoppify website. This ensures quick and seamless access to their account.
+
+- Reset Button on the Login Page (Desktop/PC Web View)
+
+![Login screen | Web PC](https://file+.vscode-resource.vscode-cdn.net/e%3A/GitHub%20Repository/_Muhammad%20Hussain%20Abootalebi_/Website/Exportation/Docs/Full%20Stack%20Developer/Projects/2%20-%20EShoppify/Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Web%20-%20PC%20and%20Desktop.webp)
+
+- Reset Button on the Login Page (Mobile Web View)
+
+![Login screen | Mobile Web View](https://file+.vscode-resource.vscode-cdn.net/e%3A/GitHub%20Repository/_Muhammad%20Hussain%20Abootalebi_/Website/Exportation/Docs/Full%20Stack%20Developer/Projects/2%20-%20EShoppify/Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Mobile%20-%20Web%20View.png)
+
+This button is implemented in the frontend as shown below. In the provided code, clicking or tapping the 'Reset' button triggers a request to the URL pattern named `account_reset_password`, which will be explained in the next section.
+
+```html
+{% raw %}
+
+...
+
+<div class="mb-3 d-inline-flex justify-content-between align-items-center w-100">
+  
+    <p 
+        class="text-white" 
+        style="margin-bottom: 0px;color: rgb(86,86,86);">
+            Forgot your password ?
+    </p>
+  
+    <a href="{% url 'account_reset_password' %}" style="color: #000000;">Reset</a>
+  
+</div>
+
+...
+
+{% endraw %}
+```
+
+The URL pattern matched to `account_reset_password` is shown below. As illustrated, the `account_reset_password` pattern is linked to the `views.password_reset` function, which will be explained in the next section.
+
+```python
+from django.conf import settings
+from django.urls import path, re_path
+
+from allauth import app_settings as allauth_app_settings
+from allauth.account import app_settings
+
+from . import views
+
+...
+
+if not allauth_app_settings.SOCIALACCOUNT_ONLY:
+    urlpatterns.extend(
+        [
+
+            ...
+
+            # password reset
+            path(
+                "password/reset/", views.password_reset, name="account_reset_password"
+            ),
+
+            ...
+        ]
+    )
+
+...
+```
+
+The linked view is explained line by line here:
+
+```python
+@method_decorator(login_not_required, name="dispatch")
+```
+
+This line applies the `login_not_required` decorator to the `dispatch` method of the `PasswordResetView` class.
+
+- The `login_not_required` decorator ensures that this view can be accessed without the user being logged in.
+- The `dispatch` method is called when a request reaches the view, ensuring this decorator affects all HTTP methods (GET, POST, etc.).
+
+```python
+class PasswordResetView(NextRedirectMixin, AjaxCapableProcessFormViewMixin, FormView):
+```
+
+This defines the `PasswordResetView` class, which inherits from three mixins:
+
+1. **`NextRedirectMixin`:** Handles redirecting users to a specified URL after successful processing.
+2. **`AjaxCapableProcessFormViewMixin`:** Adds support for processing AJAX requests in form views.
+3. **`FormView`:** A Django generic view for handling forms.
+
+This class encapsulates the logic for rendering the password reset page and handling form submissions.
+
+```python
+template_name = "account/password_reset." + app_settings.TEMPLATE_EXTENSION
+```
+
+Specifies the template used to render the password reset page.
+
+- The template is dynamically determined based on the `TEMPLATE_EXTENSION` setting in `app_settings`.
+- For example, if `TEMPLATE_EXTENSION = "html"`, the template would be `account/password_reset.html`.
+
+```python
+form_class = ResetPasswordForm
+```
+
+Defines the form class used for handling the password reset logic.
+
+- The `ResetPasswordForm` is a form class (likely provided by `django-allauth`) that validates user input and processes password reset requests.
+
+```python
+success_url = reverse_lazy("account_reset_password_done")
+```
+
+Defines the URL to redirect users to after successfully submitting the password reset form.
+
+- `reverse_lazy` lazily resolves the URL named `account_reset_password_done`. This ensures the URL is resolved only when needed, avoiding potential import issues.
+
+```python
+def get_form_class(self):
+    return get_form_class(app_settings.FORMS, "reset_password", self.form_class)
+```
+
+Overrides the `get_form_class` method to dynamically fetch the appropriate form class for the password reset process.
+
+- The `get_form_class` utility checks the `FORMS` setting in `app_settings` to allow customization of the form class.
+- If no custom form is specified, it defaults to `ResetPasswordForm`.
+
+```python
+def form_valid(self, form):
+    r429 = ratelimit.consume_or_429(
+        self.request,
+        action="reset_password",
+        key=form.cleaned_data["email"].lower(),
+    )
+    if r429:
+        return r429
+    form.save(self.request)
+    return super().form_valid(form)
+```
+
+Defines the logic for handling valid form submissions:
+
+1. **`ratelimit.consume_or_429`:** Prevents abuse by rate-limiting password reset requests based on the user's email. If the limit is exceeded, it returns a 429 (Too Many Requests) response.
+2. **`form.save(self.request)`:** Triggers the process to generate and send a password reset email to the user.
+3. **`return super().form_valid(form)`:** Calls the parent method to handle the success case and redirect to the `success_url`.
+
+```python
+def get_context_data(self, **kwargs):
+    ret = super().get_context_data(**kwargs)
+    login_url = self.passthrough_next_url(reverse("account_login"))
+    ret["password_reset_form"] = ret.get("form")  # Backward compatibility
+    ret.update({"login_url": login_url})
+    return ret
+```
+
+This method customizes the context data passed to the template:
+
+1. **`super().get_context_data(**kwargs)`:** Retrieves the default context data.
+2. **`login_url`:** Resolves the login URL, incorporating the `next` parameter for redirecting users after login.
+3. **`ret["password_reset_form"]`:** Adds the password reset form to the context for backward compatibility.
+4. **`ret.update({"login_url": login_url})`:** Adds the login URL to the context for use in the template.
+
+```python
+password_reset = PasswordResetView.as_view()
+```
+
+This line converts the `PasswordResetView` class into a callable view function using `as_view()`.
+
+- This callable is assigned to `password_reset`, which can be referenced in the `urls.py` file to handle requests for the password reset process.
+
+Summary:
+This block of code defines a robust, customizable password reset view using **django-allauth**. It handles:
+
+- Rendering the password reset page.
+- Validating form input.
+- Limiting excessive requests to prevent abuse.
+- Triggering the password reset email.
+- Redirecting users upon success.
+
+These features ensure security, flexibility, and user convenience in managing password resets.
+
+The `PasswordResetView` at a glance is as follows:
+
+```python
+@method_decorator(login_not_required, name="dispatch")
+class PasswordResetView(NextRedirectMixin, AjaxCapableProcessFormViewMixin, FormView):
+    template_name = "account/password_reset." + app_settings.TEMPLATE_EXTENSION
+    form_class = ResetPasswordForm
+    success_url = reverse_lazy("account_reset_password_done")
+
+    def get_form_class(self):
+        return get_form_class(app_settings.FORMS, "reset_password", self.form_class)
+
+    def form_valid(self, form):
+        r429 = ratelimit.consume_or_429(
+            self.request,
+            action="reset_password",
+            key=form.cleaned_data["email"].lower(),
+        )
+        if r429:
+            return r429
+        form.save(self.request)
+        return super().form_valid(form)
+
+    def get_context_data(self, **kwargs):
+        ret = super().get_context_data(**kwargs)
+        login_url = self.passthrough_next_url(reverse("account_login"))
+        # NOTE: For backwards compatibility
+        ret["password_reset_form"] = ret.get("form")
+        # (end NOTE)
+        ret.update({"login_url": login_url})
+        return ret
+
+
+password_reset = PasswordResetView.as_view()
+```
+
+After that, the above code will render a template called `password_reset.html`, which looks like this:
+
+- Password Reset Page (Desktop / PC Web View)
+
+![Password Reset Page | Desktop and PC | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Reset%20Page%20-%20Desktop%20and%20PC%20Web%20View.webp)
+
+- Password Reset Page (Mobile Web View)
+
+![Password Reset Page | Mobile | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Reset%20Page%20-%20Mobile%20Web%20View.webp)
+
+On the Password Reset page, users are prompted to enter the email associated with their account in the designated email field. The page features a stylish card with a glass effect, containing an icon at the top, a brief and friendly description below it, a form field for the email, and a submit button at the bottom. The background of the card includes an eye-catching, shopping-inspired design to enhance the user experience. As shown above, the page is professionally designed on the frontend. On the backend, once the user enters their email and clicks the "Reset Password" button, the form with the provided email is submitted via an HTTP request to the `PasswordResetView`. This checks the form for validation and sends a password reset link to the user. Below is an example of the submitted form:
+
+```html
+{% raw %}
+
+                ...
+
+                <form class="text-center" id="MuhammadHusainAbootalebi-Auth-Credentials_Form" method="post" action="{% url 'account_reset_password' %}" tags="entrance,login">
+  
+                    {% csrf_token %}
+
+                    <p class="pb-3 text-white MuhammadHusainAbootalebi-Password-Change-Label" style="margin-bottom: 0px;color: rgb(86,86,86);">Forgotten your password? Enter your email address below, and we'll send you an email allowing you to reset it.</p>
+  
+                    <div class="mb-4 w-100">
+  
+                        <input class="form-control h-50 w-100" aria-invalid="true" maxlength="320" required autocomplete="email" type="email" name="email" placeholder="Email address" style="font-family: Roboto, sans-serif;width: 250px;" id="id_email">
+  
+                    </div>
+  
+                    {% if form.errors %}
+
+                        <ul class="text-white MHA-Custom-Unordered-List" style="text-align: left;">
+
+                            {% for key, value in form.errors.items %} 
+
+                                <li style="font-family: 'Baloo Bhaijaan 2', serif;">
+                  
+                                    {{ key |safe | capfirst }}: {{ value|join:", "|safe }}
+
+                                </li>
+
+                            {% endfor %}
+
+                        </ul>
+
+                    {% endif %}
+
+                    <div class="mb-3">
+      
+                        <button class="btn btn-primary d-block w-100" type="submit" tags="prominent,login" style="background: var(--bs-emphasis-color);font-family: Roboto, sans-serif;border-style: none;">Reset Password</button>
+  
+                    </div>
+  
+                </form>
+
+                ...
+
+{% endraw %}
+```
+
+After the email is successfully sent to the user's email address (the one submitted in the previous step), the user will be directed to the 'Password Reset Done' page, which looks like this:
+
+- Password Reset Done (Desktop / PC Web View)
+
+![Password Reset Done | Desktop and PC | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Reset%20Done%20-%20Desktop%20and%20PC%20-%20Web%20View.webp)
+
+- Password Reset Done (Mobile Web View)
+
+![Password Reset Done | Mobile | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Reset%20Done%20-%20Mobile%20-%20Web%20View.webp)
+
+Next, the user should navigate to their email to proceed with the next step, which is changing the password. The email should look like the one below. It contains a link that should be clicked or tapped to go to the Password Change Page, which will be explained next.
+
+![Password Change Link | Sent Email](../Assets/Backend%20Development/Authentication/Images/Password%20Reset%20Link%20-%20Gmail.webp)
+
+After clicking or tapping the provided link, the user will be directed to a page similar to the one shown below. To successfully change the password, the new password must be entered twice in the designated fields, and the "Change Password" button should be clicked or tapped. This page, like the previous ones, features a sleek and professional frontend design, with a card that has a glass effect. The page includes two password fields for entering the new password, with buttons to toggle the visibility of the password. Below first field, helper text is provided to guide the user in creating a password that meets EShoppify’s acceptable standards. The backend implementation of this process will be explained next.
+
+- Password Change Page (Desktop / PC Web View)
+
+![Password Change | Desktop and PC | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Change%20-%20Desktop%20and%20PC%20-%20Web%20View.webp)
+
+- Password Change Page (Mobile Web View)
+
+![Password Change | Mobile | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Change%20-%20Mobile%20-%20Web%20View.webp)
+
+The form above, after being submitted, is sent to the URL pattern named `account_reset_password_from_key`. The corresponding URL pattern is as follows:
+
+```python
+...
+
+            re_path(
+                r"^password/reset/key/(?P<uidb36>[0-9A-Za-z]+)-(?P<key>.+)/$",
+                views.password_reset_from_key,
+                name="account_reset_password_from_key",
+            ),
+
+...
+```
+
+As shown above, the `account_reset_password_from_key` is linked to the `views.password_reset_from_key` view, which will be explained next.
+
+📌 **Decorators**
+
+```python
+@method_decorator(rate_limit(action="reset_password_from_key"), name="dispatch")
+@method_decorator(login_not_required, name="dispatch")
+```
+
+- **`@method_decorator(rate_limit(action="reset_password_from_key"), name="dispatch")`:** This decorator applies rate-limiting to the view. It prevents abuse by limiting how often a user can request password resets, especially to avoid brute-force attacks.
+- **`@method_decorator(login_not_required, name="dispatch")`:** This decorator ensures that the user does not need to be logged in to access the view. The password reset can be triggered without requiring authentication first.
+
+📌 **Class Definition**
+
+```python
+class PasswordResetFromKeyView(
+    AjaxCapableProcessFormViewMixin,
+    NextRedirectMixin,
+    LogoutFunctionalityMixin,
+    FormView,
+):
+```
+
+- This is the class definition for handling the password reset process from a key. The class extends multiple mixins to support Ajax handling, redirects after successful password reset, and logout functionality.
+- **`AjaxCapableProcessFormViewMixin`:** This mixin enables the form handling to support Ajax requests.
+- **`NextRedirectMixin`:** This mixin is used to redirect the user after the password reset is successful.
+- **`LogoutFunctionalityMixin`:** This mixin logs the user out from any active sessions if they are logged into a different account while attempting to reset the password.
+- **`FormView`:** The core Django class for handling form submissions. It’s used for rendering the form, processing data, and redirecting on success.
+
+📌 **Class Attributes**
+
+```python
+template_name = "account/password_reset_from_key." + app_settings.TEMPLATE_EXTENSION
+form_class = ResetPasswordKeyForm
+success_url = reverse_lazy("account_reset_password_from_key_done")
+reset_url_key = "set-password"
+```
+
+- **`template_name`:** Specifies the template that will be used to render the page. The template's extension is dynamically loaded from the app settings (`app_settings.TEMPLATE_EXTENSION`).
+- **`form_class`:** The form class used in this view for handling password reset. In this case, it’s the `ResetPasswordKeyForm`.
+- **`success_url`:** The URL to redirect to upon successful password reset. It's lazily evaluated to avoid problems with circular imports.
+- **`reset_url_key`:** A key used to verify the password reset process. If the key matches this value, the password reset process proceeds.
+
+📌 **`get_form_class` Method**
+
+```python
+def get_form_class(self):
+    return get_form_class(
+        app_settings.FORMS, "reset_password_from_key", self.form_class
+    )
+```
+
+- This method dynamically loads the form class for resetting the password from the key. It uses the `get_form_class` utility function, which allows for the dynamic fetching of form classes based on app settings.
+
+📌 **`dispatch` Method**
+
+```python
+def dispatch(self, request, uidb36, key, **kwargs):
+    self.request = request
+    self.key = key
+```
+
+- The `dispatch` method is called when the view is accessed. It is responsible for handling the incoming HTTP request and determining how to process the request based on the URL parameters (`uidb36` and `key`).
+- `uidb36` is a base36-encoded user ID, and `key` is the reset token.
+
+```python
+    user_token_form_class = get_form_class(
+        app_settings.FORMS, "user_token", UserTokenForm
+    )
+    is_ajax = get_adapter().is_ajax(request)
+```
+
+- **`user_token_form_class`:** This dynamically loads the form class for validating the token.
+- **`is_ajax`:** Checks if the request is an Ajax request using the allauth adapter.
+
+```python
+    if self.key == self.reset_url_key or is_ajax:
+        if not is_ajax:
+            self.key = self.request.session.get(INTERNAL_RESET_SESSION_KEY, "")
+```
+
+- This checks if the reset key matches the expected value (`self.reset_url_key`) or if the request is an Ajax request.
+- If it's not an Ajax request, it retrieves the reset key stored in the session.
+
+```python
+        token_form = user_token_form_class(data={"uidb36": uidb36, "key": self.key})
+        if token_form.is_valid():
+            self.reset_user = token_form.reset_user
+```
+
+- **`token_form`:** A form is created with the `uidb36` and the reset `key`.
+- **`token_form.is_valid()`:** If the form is valid, it means the reset token is valid, and the user is found.
+
+```python
+            if (
+                self.request.user.is_authenticated
+                and self.request.user.pk != self.reset_user.pk
+            ):
+                self.logout()
+                self.request.session[INTERNAL_RESET_SESSION_KEY] = self.key
+```
+
+- If the user is logged in and the logged-in user is not the same as the user attempting the password reset, the current user is logged out to avoid conflicts.
+
+```python
+            return super().dispatch(request, uidb36, self.key, **kwargs)
+```
+
+- After processing, the normal `dispatch` method is called to handle the request further.
+
+```python
+    else:
+        token_form = user_token_form_class(data={"uidb36": uidb36, "key": self.key})
+        if token_form.is_valid():
+            self.request.session[INTERNAL_RESET_SESSION_KEY] = self.key
+            redirect_url = self.passthrough_next_url(
+                self.request.path.replace(self.key, self.reset_url_key)
+            )
+            return redirect(redirect_url)
+```
+
+- If the key does not match, a new form is created and validated. If valid, it redirects the user to a page without exposing the key in the URL.
+
+```python
+    self.reset_user = None
+    response = self.render_to_response(self.get_context_data(token_fail=True))
+    return _ajax_response(self.request, response, form=token_form)
+```
+
+- If the token is invalid, the `reset_user` is set to `None` and an error response is rendered.
+
+📌 **`get_context_data` Method**
+
+```python
+def get_context_data(self, **kwargs):
+    ret = super(PasswordResetFromKeyView, self).get_context_data(**kwargs)
+    ret["action_url"] = reverse(
+        "account_reset_password_from_key",
+        kwargs={
+            "uidb36": self.kwargs["uidb36"],
+            "key": self.kwargs["key"],
+        },
+    )
+    return ret
+```
+
+- This method adds context to the template, specifically the action URL for the password reset form.
+
+📌 **`get_form_kwargs` Method**
+
+```python
+def get_form_kwargs(self):
+    kwargs = super(PasswordResetFromKeyView, self).get_form_kwargs()
+    kwargs["user"] = self.reset_user
+    kwargs["temp_key"] = self.key
+    return kwargs
+```
+
+- This method provides additional arguments to the form, such as the `reset_user` (the user who is resetting their password) and the `temp_key` (the reset token).
+
+📌 **`form_valid` Method**
+
+```python
+def form_valid(self, form):
+    form.save()
+    flows.password_reset.finalize_password_reset(self.request, self.reset_user)
+    if app_settings.LOGIN_ON_PASSWORD_RESET:
+        return perform_login(
+            self.request,
+            self.reset_user,
+        )
+    return super(PasswordResetFromKeyView, self).form_valid(form)
+```
+
+- If the form is valid (the password reset is successful), it saves the new password and finalizes the reset process.
+- If `LOGIN_ON_PASSWORD_RESET` is enabled, the user is automatically logged in after the reset. Otherwise, the form redirects to the success URL.
+
+📌 **`password_reset_from_key` View**
+
+```python
+password_reset_from_key = PasswordResetFromKeyView.as_view()
+```
+
+- This creates an instance of the `PasswordResetFromKeyView` class and makes it a view that can be used in Django’s URL configuration.
+
+The entire code for this view at a glance looks like this:
+
+```Python
+@method_decorator(rate_limit(action="reset_password_from_key"), name="dispatch")
+@method_decorator(login_not_required, name="dispatch")
+class PasswordResetFromKeyView(
+    AjaxCapableProcessFormViewMixin,
+    NextRedirectMixin,
+    LogoutFunctionalityMixin,
+    FormView,
+):
+    template_name = "account/password_reset_from_key." + app_settings.TEMPLATE_EXTENSION
+    form_class = ResetPasswordKeyForm
+    success_url = reverse_lazy("account_reset_password_from_key_done")
+    reset_url_key = "set-password"
+
+    def get_form_class(self):
+        return get_form_class(
+            app_settings.FORMS, "reset_password_from_key", self.form_class
+        )
+
+    def dispatch(self, request, uidb36, key, **kwargs):
+        self.request = request
+        self.key = key
+
+        user_token_form_class = get_form_class(
+            app_settings.FORMS, "user_token", UserTokenForm
+        )
+        is_ajax = get_adapter().is_ajax(request)
+        if self.key == self.reset_url_key or is_ajax:
+            if not is_ajax:
+                self.key = self.request.session.get(INTERNAL_RESET_SESSION_KEY, "")
+            # (Ab)using forms here to be able to handle errors in XHR #890
+            token_form = user_token_form_class(data={"uidb36": uidb36, "key": self.key})
+            if token_form.is_valid():
+                self.reset_user = token_form.reset_user
+
+                # In the event someone clicks on a password reset link
+                # for one account while logged into another account,
+                # logout of the currently logged in account.
+                if (
+                    self.request.user.is_authenticated
+                    and self.request.user.pk != self.reset_user.pk
+                ):
+                    self.logout()
+                    self.request.session[INTERNAL_RESET_SESSION_KEY] = self.key
+
+                return super().dispatch(request, uidb36, self.key, **kwargs)
+        else:
+            token_form = user_token_form_class(data={"uidb36": uidb36, "key": self.key})
+            if token_form.is_valid():
+                # Store the key in the session and redirect to the
+                # password reset form at a URL without the key. That
+                # avoids the possibility of leaking the key in the
+                # HTTP Referer header.
+                self.request.session[INTERNAL_RESET_SESSION_KEY] = self.key
+                redirect_url = self.passthrough_next_url(
+                    self.request.path.replace(self.key, self.reset_url_key)
+                )
+                return redirect(redirect_url)
+
+        self.reset_user = None
+        response = self.render_to_response(self.get_context_data(token_fail=True))
+        return _ajax_response(self.request, response, form=token_form)
+
+    def get_context_data(self, **kwargs):
+        ret = super(PasswordResetFromKeyView, self).get_context_data(**kwargs)
+        ret["action_url"] = reverse(
+            "account_reset_password_from_key",
+            kwargs={
+                "uidb36": self.kwargs["uidb36"],
+                "key": self.kwargs["key"],
+            },
+        )
+        return ret
+
+    def get_form_kwargs(self):
+        kwargs = super(PasswordResetFromKeyView, self).get_form_kwargs()
+        kwargs["user"] = self.reset_user
+        kwargs["temp_key"] = self.key
+        return kwargs
+
+    def form_valid(self, form):
+        form.save()
+        flows.password_reset.finalize_password_reset(self.request, self.reset_user)
+        if app_settings.LOGIN_ON_PASSWORD_RESET:
+            return perform_login(
+                self.request,
+                self.reset_user,
+            )
+        return super(PasswordResetFromKeyView, self).form_valid(form)
+
+
+password_reset_from_key = PasswordResetFromKeyView.as_view()
+```
+
+Once the user successfully changes their password, they will be redirected to the 'Password Change Done' page, as shown below. The page will display a success alert at the top, along with the previous professional frontend design featuring a beautiful background. It will also include a helper text confirming the password change and a button to proceed to the Login page, where the user can log in with their new password.
+
+- Password Change Done (Desktop / PC Web View)
+
+![Password Change Done | Desktop and PC | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Change%20Done%20-%20Desktop%20and%20PC%20-%20Web%20View.webp)
+
+- Password Change Done (Mobile Web View)
+
+![Password Change Done | Mobile | Web View](../Assets/Backend%20Development/Authentication/Images/Password%20Change%20Done%20-%20Mobile%20-%20Web%20View.webp)
+
+To explain the final step on the backend side, the above page template is linked to a URL pattern, which looks like this:
+
+```Python
+...
+
+            path(
+                "password/reset/key/done/",
+                views.password_reset_from_key_done,
+                name="account_reset_password_from_key_done",
+            ),
+
+...
+```
+
+The above URL pattern is matched to `views.password_reset_from_key_done`, which will be explained next:
+
+```python
+@method_decorator(login_not_required, name="dispatch")
+```
+
+- This line uses the `method_decorator` to apply the `login_not_required` decorator to the `dispatch` method of the view class.
+- The `login_not_required` decorator ensures that the view can be accessed by users who are **not logged in**. This is important because the password reset process should allow access to users without requiring them to be logged in.
+- The decorator is applied specifically to the `dispatch` method, which is responsible for handling the HTTP request and returning an HTTP response.
+
+```python
+class PasswordResetFromKeyDoneView(TemplateView):
+```
+
+- This line defines a class called `PasswordResetFromKeyDoneView`, which inherits from Django’s `TemplateView`.
+- The `TemplateView` class is a built-in Django class used for rendering templates without needing to provide a form or any complex logic.
+- This view handles the final page of the password reset process, confirming to the user that their password has been successfully changed after following the link sent to their email.
+
+```python
+template_name = (
+    "account/password_reset_from_key_done." + app_settings.TEMPLATE_EXTENSION
+)
+```
+
+- This line defines the template name for the view. The view will render the template `password_reset_from_key_done.html` (or `.htm` or `.twig`, depending on the value of `app_settings.TEMPLATE_EXTENSION`).
+- The template extension (`app_settings.TEMPLATE_EXTENSION`) allows flexibility, so the template name can be modified easily based on the application's settings (e.g., it could use `.html` for most Django apps or another extension if needed).
+
+```python
+password_reset_from_key_done = PasswordResetFromKeyDoneView.as_view()
+```
+
+- This line creates a class-based view by calling `as_view()` on the `PasswordResetFromKeyDoneView` class.
+- `as_view()` is a Django method that converts the class into a callable view that can be used by Django’s URL routing system.
+- The result is assigned to the `password_reset_from_key_done` variable, which will be used to define the corresponding URL pattern in Django’s `urls.py`.
+
+This code defines a simple view for rendering the "Password Reset Done" page, which is shown to the user after they have successfully reset their password. It uses Django's class-based views (`TemplateView`) and applies the `login_not_required` decorator to ensure users who are not logged in can access this view.
+
+- The `template_name` attribute specifies the template that will be rendered for this view.
+- The view is then made available through `password_reset_from_key_done = PasswordResetFromKeyDoneView.as_view()`, which creates a callable view function for use in URL routing.
+
+In the context of Django Allauth or any password reset process, this view is the final step that the user sees after successfully resetting their password. It doesn't require any complex logic or form handling; it just displays a confirmation page to the user.
+
+The final view, at a glance, will look like this:
+
+```python
+@method_decorator(login_not_required, name="dispatch")
+class PasswordResetFromKeyDoneView(TemplateView):
+    template_name = (
+        "account/password_reset_from_key_done." + app_settings.TEMPLATE_EXTENSION
+    )
+
+
+password_reset_from_key_done = PasswordResetFromKeyDoneView.as_view()
+```
+
+Based on the explanation above, this demonstrates my expertise as a professional full-stack developer or software engineer. It highlights my ability to implement secure backend development practices while also designing intuitive and user-friendly frontend interfaces. This workflow reflects the core standards of my skill set.
 
 ##### 📱 Native Mobile Application Walkthroughs
 
@@ -1780,16 +2452,16 @@ Not added yet.
 
 #### Architecture
 
-Not added yet.
+TODO: Till working on the making the landing page more user intutive and programming and designing the cateogries section of the EShoppify.
 
 ### Testing
 
 ChatGPT Notes:
 
-* **Unit Testing** : Test individual units or components of the application.
-* **Integration Testing** : Ensure the frontend and backend work seamlessly together.
-* **End-to-End Testing** : Simulate user journeys to test the full application flow (e.g., Selenium, Cypress).
-* **Performance Testing** : Evaluate application speed and scalability under load.
+- **Unit Testing** : Test individual units or components of the application.
+- **Integration Testing** : Ensure the frontend and backend work seamlessly together.
+- **End-to-End Testing** : Simulate user journeys to test the full application flow (e.g., Selenium, Cypress).
+- **Performance Testing** : Evaluate application speed and scalability under load.
 
 ---
 
@@ -1799,9 +2471,9 @@ Not added yet.
 
 ChatGPT Notes:
 
-* **Environment Setup** : Prepare production environments (e.g., cloud services like AWS, Google Cloud, or Heroku).
-* **CI/CD Implementation** : Set up Continuous Integration/Continuous Deployment pipelines.
-* **Monitoring Tools** : Integrate monitoring tools for error tracking and performance (e.g., Sentry, New Relic).
+- **Environment Setup** : Prepare production environments (e.g., cloud services like AWS, Google Cloud, or Heroku).
+- **CI/CD Implementation** : Set up Continuous Integration/Continuous Deployment pipelines.
+- **Monitoring Tools** : Integrate monitoring tools for error tracking and performance (e.g., Sentry, New Relic).
 
 ---
 
