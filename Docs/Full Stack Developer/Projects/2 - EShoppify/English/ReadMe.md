@@ -1777,11 +1777,11 @@ Password resets are a common feature in software development, particularly in e-
 
 - Reset Button on the Login Page (Desktop/PC Web View)
 
-![Login screen | Web PC](https://file+.vscode-resource.vscode-cdn.net/e%3A/GitHub%20Repository/_Muhammad%20Hussain%20Abootalebi_/Website/Exportation/Docs/Full%20Stack%20Developer/Projects/2%20-%20EShoppify/Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Web%20-%20PC%20and%20Desktop.webp)
+![Login screen | Web PC](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Web%20-%20PC%20and%20Desktop.webp)
 
 - Reset Button on the Login Page (Mobile Web View)
 
-![Login screen | Mobile Web View](https://file+.vscode-resource.vscode-cdn.net/e%3A/GitHub%20Repository/_Muhammad%20Hussain%20Abootalebi_/Website/Exportation/Docs/Full%20Stack%20Developer/Projects/2%20-%20EShoppify/Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Mobile%20-%20Web%20View.png)
+![Login screen | Mobile Web View](../Assets/Backend%20Development/Authentication/Images/Login%20Screen%20-%20Mobile%20-%20Web%20View.png)
 
 This button is implemented in the frontend as shown below. In the provided code, clicking or tapping the 'Reset' button triggers a request to the URL pattern named `account_reset_password`, which will be explained in the next section.
 
