@@ -224,10 +224,50 @@ On the mobile platform, the options section is represented by the drawer, which 
 
 ### **Visual Design**
 
-Till designing the Visual Design of user interfaces adobe XD.
+#### 💻 Web
+
+This section is under preparation.
+
+#### 📱 Native Mobile Device
+
+In this section, the visual designs for native mobile devices will be presented, emphasizing their role in improving end-user experience. These designs cater to various sections within Devland, ensuring that each part of the app is visually engaging and user-friendly. I will provide detailed explanations of the design elements, from layout choices to color schemes, showcasing how each design enhances functionality. These designs are carefully crafted to provide a seamless and intuitive interaction for the user. Not only will these visual designs be a key feature in my portfolio and presentations, but they will also be included in my resume, illustrating my proficiency in mobile interface design.
+
+This section focuses on the visual designs developed for native mobile applications, aimed at optimizing the user experience for various Devland sections. Each design is thoughtfully created with end users in mind, prioritizing both aesthetic appeal and usability. I will explain how each design aligns with Devland’s goals, demonstrating my ability to craft effective and attractive mobile interfaces. The designs are tailored to provide clarity, ease of use, and engagement for users across different sections of the platform. These visual design examples will be included not only in my visual design presentations but also in my resume, providing clear evidence of my expertise in mobile design.
+
+In this part, I will present the visual designs for native mobile devices, highlighting their focus on the end-user journey. The designs will cover different sections of Devland, showcasing my ability to create visually cohesive and functional layouts. I will detail the thought process behind each design choice, including the use of color, typography, and interactive elements to enhance the user experience. These mobile designs are tailored to ensure an engaging and smooth interaction for users within the app. Both my resume and visual design presentations will feature these designs, serving as key examples of my skills in mobile user interface design.
+
+##### Splash Screen
+
+The splash screen in a native mobile device is the initial screen that appears when an app is launched, typically displaying the app's logo or branding elements. Its primary purpose is to provide a visually engaging introduction to the app, while also allowing the necessary resources and data to load in the background. The splash screen sets the tone for the app’s overall aesthetic and user experience, creating a smooth transition from the app icon to the main interface. While it should be brief, it serves as a moment for users to familiarize themselves with the app’s identity. A well-designed splash screen can contribute to the overall impression of an app, helping to establish a polished and professional first impression. This can be seen in the following showcase images:
+
+- Splash screen with an orange background and a white logo
+
+![Mobile Device | Splash Screen | Orange Background](../Assets/Visual%20Design/Native%20Mobile/Splash%20Screen%20-%20Orange%20BG.png)
+
+- Splash screen with an white background and a orange logo
+
+![Mobile Device | Splash Screen | White Background](../Assets/Visual%20Design/Native%20Mobile/Splash%20Screen%20-%20Whtie%20BG.png)
+
+##### Authentication Screens
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Login Screen | Native Mobile Device | Visual Design](../Assets/Visual%20Design/Native%20Mobile/Login%20Screen.png)
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Signup Screen | Native Mobile Device | Visual Design](../Assets/Visual%20Design/Native%20Mobile/Signup%20Screen.png)
+
+This section is under preparation.
 
 ### **Prototyping**
 
+This section is under preparation.
+
 ## Development
 
-This is the development section ....
+This section is under preparation.

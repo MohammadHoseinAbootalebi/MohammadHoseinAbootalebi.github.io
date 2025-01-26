@@ -47,7 +47,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -1269,6 +1269,28 @@ This form (`DigitPicForm`) is designed for creating and updating `DigitPic` mode
 📌 **Overview**
 
 TODO : Till working on responsivenss of the landing page middle carousel and the services carousels.
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Web Landing Page | Web | Large Screen | Desktop and PCs](../Assets/Artificial%20Intelligence/OCR/Landing%20Page%20After%20Login%20-%20Web%20-%20PCs%20and%20Desktop.png)
+
+- This section is under preparation.
+
+![Web Landing Page | Web | Small Screen | Mobile](../Assets/Artificial%20Intelligence/OCR/Landing%20Page%20After%20Login%20-%20Web%20-%20Mobile.png)
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Most Used App | Web | Desktops and PCs](../Assets/Artificial%20Intelligence/OCR/Most%20Used%20App%20-%20Web%20-%20Desktop%20and%20PCs.png)
+
+- This section is under preparation.
+
+![Most Used App | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/Most%20Used%20App%20-%20Web%20-%20Mobile.png)
+
+This section is under preparation.
 
 📌 **Creating OCR Models**
 
