@@ -8,15 +8,36 @@ This project is a social application designed to connect developers with each ot
 
 ## Table of Contents
 
-Not added yet ....
+- [🌴💻 Devland Test 💻🌴](#-devland-test-)
+  - [Table of Contents](#table-of-contents)
+  - [Design](#design)
+    - [User Research](#user-research)
+    - [Define Objectives](#define-objectives)
+    - [Wireframing](#wireframing)
+      - [Big Picture](#big-picture)
+      - [Introduction](#introduction)
+      - [Authentication and Authorization](#authentication-and-authorization)
+      - [Account Preferences](#account-preferences)
+      - [Profile](#profile)
+      - [Devlopers](#devlopers)
+      - [Projects](#projects)
+      - [Messages](#messages)
+      - [Options](#options)
+    - [Visual Design](#visual-design)
+      - [💻 Web](#-web)
+      - [📱 Native Mobile Device](#-native-mobile-device)
+        - [Splash Screen](#splash-screen)
+        - [Authentication Screens](#authentication-screens)
+    - [Prototyping](#prototyping)
+  - [Development](#development)
 
 ## Design
 
-### **User Research**
+### User Research
 
-### **Define Objectives**
+### Define Objectives
 
-### **Wireframing**
+### Wireframing
 
 Wireframing, or low-level design, plays a crucial role in project development by serving as the foundational blueprint of the final product. This process focuses on visualizing the overall structure of the project in its simplest form, providing clarity on how various components interconnect. By starting with a broad overview, wireframing allows for a comprehensive understanding of the project's scope and functionality. Each section is subsequently broken down into smaller, clearly defined design elements, ensuring that even complex systems are presented in an intuitive and easily comprehensible manner. The low-level design of the Devand project demonstrates this approach, offering a streamlined representation of its structure that facilitates both analysis and implementation.
 
@@ -222,7 +243,7 @@ On the mobile platform, the options section is represented by the drawer, which 
 
 ![alt](../Assets/Wireframing/Placeholder%20Image.png)
 
-### **Visual Design**
+### Visual Design
 
 #### 💻 Web
 
@@ -250,21 +271,33 @@ The splash screen in a native mobile device is the initial screen that appears w
 
 ##### Authentication Screens
 
-This section is under preparation.
+The login screen of the application showcases a clean and professional design tailored to meet the expectations of modern users. The central feature of the screen is the bold yellow logo positioned at the top, instantly drawing attention and establishing a strong brand identity. Accompanied by the tagline, “Devland, land of Developers!”, the interface makes its purpose and target audience clear—a platform dedicated to developers and tech professionals. This branding communicates a sense of professionalism and aligns with the expectations of the target demographic.
 
-- This section is under preparation.
+The interface is user-friendly, with an intuitive layout that ensures a seamless login experience. The input fields for "Username" and "Password" are sleek, with a rounded design and subtle shadows that give the interface a modern and polished aesthetic. The password field includes a visibility toggle, enhancing usability by allowing users to confirm their input effortlessly. Below the input fields, users are provided with a clear "Reset" option for password recovery, presented in an accessible yellow text that aligns with the app’s color scheme.
+
+The black "Login" button serves as a prominent call-to-action, standing out against the white background and ensuring users can quickly identify their next step. For new users, the screen includes a "Register" option, also highlighted in yellow to ensure visibility and continuity with the branding. Overall, the design combines functionality with a visually appealing layout, creating an excellent first impression. This login screen effectively reflects the app’s professionalism and commitment to delivering a user-centric experience, ensuring both ease of use and alignment with modern design principles.
+
+- Login Screen Visual Design (Targeted for Native Mobile Devices)
 
 ![Login Screen | Native Mobile Device | Visual Design](../Assets/Visual%20Design/Native%20Mobile/Login%20Screen.png)
 
-This section is under preparation.
+The registration screen of the application provides a well-designed and user-centric interface, ensuring a seamless onboarding experience for new users. At the top of the screen, the bold yellow logo establishes the brand identity, while the tagline, “Devland, land of Developers!”, highlights the app’s focus on catering to developers and tech enthusiasts. This creates an immediate connection with the target audience and sets the tone for the app’s purpose.
 
-- This section is under preparation.
+The registration form is neatly organized and intuitive, featuring input fields for “Name,” “Email,” “Username,” “Password,” and “Password Confirmation.” Each field has a rounded, minimalistic design with subtle shadows, which not only enhances the aesthetic appeal but also improves focus and usability. Password and confirmation fields include visibility toggles, making it easier for users to verify their input and avoid errors. This attention to detail reflects the app’s commitment to delivering a frustration-free user experience.
+
+The black "Register" button is prominently displayed, serving as a clear call-to-action. Its bold color ensures it stands out while aligning with the overall design theme. Beneath the button, users are provided with a link to log in if they already have an account. The “Login” option is styled in yellow to maintain consistency with the app’s branding while ensuring it remains noticeable.
+
+Overall, the registration screen embodies a balance between functionality and design. It simplifies the account creation process while presenting a polished and professional interface that reflects the app’s quality and focus on user satisfaction. This screen is designed to leave a positive impression on new users, encouraging them to join the platform with confidence.
+
+- Signup Screen Visual Design (Targeted for Native Mobile Devices)
 
 ![Signup Screen | Native Mobile Device | Visual Design](../Assets/Visual%20Design/Native%20Mobile/Signup%20Screen.png)
 
-This section is under preparation.
+##### Account Preferences Screen
 
-### **Prototyping**
+TODO : Till making the presentation of the Account screen.
+
+### Prototyping
 
 This section is under preparation.
 

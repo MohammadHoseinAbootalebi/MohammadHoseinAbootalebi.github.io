@@ -47,7 +47,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -1268,29 +1268,136 @@ This form (`DigitPicForm`) is designed for creating and updating `DigitPic` mode
 
 📌 **Overview**
 
-TODO : Till working on responsivenss of the landing page middle carousel and the services carousels.
+This section demonstrates the navigation process to access the OCR feature in Assisti. The user flow and actions required to reach the OCR section are outlined below for clarity.
 
-This section is under preparation.
+To access the OCR feature in Assisti, users first log in to their account. From the landing page, they can scroll down to the carousel highlighting Assisti's various applications. By simply clicking or tapping the 'See More' button within the carousel, they will seamlessly navigate to the OCR section.
 
-- This section is under preparation.
+- Landing Page After User Login (Desktop and PC View)
 
 ![Web Landing Page | Web | Large Screen | Desktop and PCs](../Assets/Artificial%20Intelligence/OCR/Landing%20Page%20After%20Login%20-%20Web%20-%20PCs%20and%20Desktop.png)
 
-- This section is under preparation.
+- Landing Page After User Login (Mobile View)
 
 ![Web Landing Page | Web | Small Screen | Mobile](../Assets/Artificial%20Intelligence/OCR/Landing%20Page%20After%20Login%20-%20Web%20-%20Mobile.png)
 
-This section is under preparation.
+The images displayed after scrolling down slightly are shown here.
 
-- This section is under preparation.
+- Link to the OCR Zone of Assisti (Desktop and PC View)
 
 ![Most Used App | Web | Desktops and PCs](../Assets/Artificial%20Intelligence/OCR/Most%20Used%20App%20-%20Web%20-%20Desktop%20and%20PCs.png)
 
-- This section is under preparation.
+- Link to the OCR Zone of Assisti (Mobile View)
 
 ![Most Used App | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/Most%20Used%20App%20-%20Web%20-%20Mobile.png)
 
-This section is under preparation.
+To keep this documentation concise, I will focus on explaining the key sections and omit the front-end code responsible for the professional design of Assisti's landing page, as shown in the images above.
+
+The front-end code responsible for the OCR card shown above is as follows:
+
+```html
+{% raw %}
+
+        <div class="carousel-item h-auto my-5">
+            <div class="container d-flex justify-content-center h-auto my-5">
+                <div class="row mx-5 my-5 h-auto">
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center my-3">
+                      <img class="w-75 rounded-5" src="{% static 'assets/img/Services/Digit Detector.webp' %}" style="height: auto;" />
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center my-2">
+                        <div style="max-width: 350px;">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon md" style="background: #000814;">
+                              <svg class="bi bi-robot" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5M3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.58 26.58 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.933.933 0 0 1-.765.935c-.845.147-2.34.346-4.235.346-1.895 0-3.39-.2-4.235-.346A.933.933 0 0 1 3 9.219zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a24.767 24.767 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25.286 25.286 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135Z">
+                                    </path>
+                                    <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2zM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5">
+                                    </path>
+                              </svg>
+                            </div>
+                            <h1 class="fw-bold text-white" style="font-family: 'Protest Guerrilla', serif;">
+                              <span style="font-weight: normal !important;">Optical Character Recognition</span>
+                            </h1>
+                            <p class="my-3 text-white-50">
+                              This section of Assisti focuses on Optical Character Recognition, designed to seamlessly extract and read text from images for a smooth and user-friendly experience.
+                            </p>
+                            <a class="d-xxl-inline-flex align-items-xxl-center btn rounded-2 pt-2 pb-2 ps-4 pe-4 MuhammadHusainAbootalebi-Services-Link-to-The-App" href="{% url 'digit-detector-welcome' %}" style="background: #ffd60a;">
+                              See More 
+                              <svg class="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8">
+                                    </path>
+                              </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endraw %}
+```
+
+After clicking the 'See More' button, the URL associated with the `digit-detector-welcome` pattern is requested via HTTP using the `url` tag.
+
+The mentioned URL is connected to the following URL pattern:
+
+```python
+...
+  
+    ## -- >> Digit Detector Introduction
+    path("", views.digit_detector_welcome, name="digit-detector-welcome"),
+
+...
+```
+
+As shown above, this URL pattern is associated with the `views.digit_detector_welcome` view, which will be explained in the following section.
+
+📌 `@login_required(login_url="login-view")`
+
+This line is a decorator that ensures the user must be authenticated (logged in) to access the view. If the user is not logged in, they will be redirected to the specified login page, which in this case is mapped by the URL name `"login-view"`.
+
+📌 `def digit_detector_welcome(request):`
+
+This line defines the function `digit_detector_welcome`, which is the view function that will be called when the corresponding URL pattern is matched. The function takes the `request` object as an argument, which contains information about the HTTP request made by the client.
+
+📌 `digits = DigitPic.objects.filter(owner=request.user,)`
+
+This line queries the `DigitPic` model to retrieve all the `DigitPic` objects associated with the currently logged-in user. The `filter()` method is used to retrieve records where the `owner` field matches `request.user`, which refers to the authenticated user making the request. This ensures that only the digit pictures that belong to the current user are retrieved.
+
+📌 `context = { "digits": digits, }`
+
+This line creates a context dictionary to pass data to the template. The `digits` variable, which contains the queryset of digit pictures, is included in the context. The context is then passed to the template to be rendered dynamically.
+
+📌 `return render(request, "digitDetector/digits-intro.html", context)`
+
+This line returns an HTTP response generated by rendering the `"digitDetector/digits-intro.html"` template. The `render()` function combines the `request` object, the path to the template, and the context data (`digits`) to generate the final HTML page that will be sent back to the client.
+
+📌 Summary
+
+- This view is accessible only to authenticated users (via `@login_required`).
+- It retrieves the digit images (`DigitPic` objects) that belong to the current logged-in user.
+- It passes these images to the `digits-intro.html` template, which will use this data to display the relevant information to the user.
+
+The final view code at a glance is as follows:
+
+```Python
+...
+
+@login_required(login_url="login-view")
+def digit_detector_welcome(request):
+  
+    digits = DigitPic.objects.filter(
+        owner = request.user,
+    )
+  
+    context = {
+        "digits": digits,
+    }
+  
+    return render(request, "digitDetector/digits-intro.html", context)
+
+...
+```
+
+TODO: Till working on the responsiveness and design of the services categories and showing the navigation from the services section to the OCR zone.
 
 📌 **Creating OCR Models**
 
