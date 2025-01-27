@@ -28,6 +28,12 @@ This project is a social application designed to connect developers with each ot
       - [📱 Native Mobile Device](#-native-mobile-device)
         - [Splash Screen](#splash-screen)
         - [Authentication Screens](#authentication-screens)
+        - [Account Preferences Screen](#account-preferences-screen)
+        - [Profile Screen](#profile-screen)
+        - [Developers Screen](#developers-screen)
+        - [Projects Screen](#projects-screen)
+        - [Messages Screen](#messages-screen)
+        - [Options Screen](#options-screen)
     - [Prototyping](#prototyping)
   - [Development](#development)
 
@@ -295,7 +301,53 @@ Overall, the registration screen embodies a balance between functionality and de
 
 ##### Account Preferences Screen
 
-TODO : Till making the presentation of the Account screen.
+TODO : Till adding the descriptions of the visual designs paragraphs.
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Account Preferences Screen](../Assets/Visual%20Design/Native%20Mobile/Account%20Preferences%20Screen.png)
+
+##### Profile Screen
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Profile Screen](../Assets/Visual%20Design/Native%20Mobile/Profile%20Screen.png)
+
+##### Developers Screen
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Developers Screen](../Assets/Visual%20Design/Native%20Mobile/Developers%20Screen.png)
+
+##### Projects Screen
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Projects](../Assets/Visual%20Design/Native%20Mobile/Projects%20Screen.png)
+
+##### Messages Screen
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Messages Screen](../Assets/Visual%20Design/Native%20Mobile/Messages%20Screen.png)
+
+##### Options Screen
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Options Screen](../Assets/Visual%20Design/Native%20Mobile/Options%20Screen.png)
 
 ### Prototyping
 

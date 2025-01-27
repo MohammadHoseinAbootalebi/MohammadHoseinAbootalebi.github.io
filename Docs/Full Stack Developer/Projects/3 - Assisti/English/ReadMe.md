@@ -1397,7 +1397,31 @@ def digit_detector_welcome(request):
 ...
 ```
 
-TODO: Till working on the responsiveness and design of the services categories and showing the navigation from the services section to the OCR zone.
+TODO: Till description of the services section of the Assisti and how to navigate to the OCR into that description.
+
+This section is under preparation.
+
+- This section is under preparation.
+
+![Web Landing Page | Web | Large Screen | Desktop and PCs](../Assets/Artificial%20Intelligence/OCR/Landing%20Page%20After%20Login%20-%20Web%20-%20PCs%20and%20Desktop.png)
+
+- This section is under preparation.
+
+![Landing Page | Mobile Web View | Navbar Closed](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Closed.png)
+
+- This section is under preparation.
+
+![Landing Page | Mobile Web View | Navbar Opened](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Opened.png)
+
+- This section is under preparation.
+
+![Services | Desktop and PC | Web | OCR](../Assets/Artificial%20Intelligence/OCR/Services%20-%20OCR%20-%20Desktops%20and%20PCs.png)
+
+- This section is under preparation.
+
+![Services | Mobile | Web | OCR](../Assets/Artificial%20Intelligence/OCR/Services%20-%20OCR%20-%20Mobile.png)
+
+This section is under preparation.
 
 📌 **Creating OCR Models**
 
