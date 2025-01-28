@@ -263,6 +263,20 @@ This section focuses on the visual designs developed for native mobile applicati
 
 In this part, I will present the visual designs for native mobile devices, highlighting their focus on the end-user journey. The designs will cover different sections of Devland, showcasing my ability to create visually cohesive and functional layouts. I will detail the thought process behind each design choice, including the use of color, typography, and interactive elements to enhance the user experience. These mobile designs are tailored to ensure an engaging and smooth interaction for users within the app. Both my resume and visual design presentations will feature these designs, serving as key examples of my skills in mobile user interface design.
 
+The complete visual design screens can be seen at a glance in the image below:
+
+![Visual Design Big Picture](../Assets/Visual%20Design/Native%20Mobile/Big%20Picture.png)
+
+The above design is based on the wireframing process and is organized into the following sections:
+
+- Splash Screens
+- Authentication Screens
+- Profile Screens
+- Developers Screens
+- Projects Screens
+- Messages Screens
+- Account Screens
+
 ##### Splash Screen
 
 The splash screen in a native mobile device is the initial screen that appears when an app is launched, typically displaying the app's logo or branding elements. Its primary purpose is to provide a visually engaging introduction to the app, while also allowing the necessary resources and data to load in the background. The splash screen sets the tone for the app’s overall aesthetic and user experience, creating a smooth transition from the app icon to the main interface. While it should be brief, it serves as a moment for users to familiarize themselves with the app’s identity. A well-designed splash screen can contribute to the overall impression of an app, helping to establish a polished and professional first impression. This can be seen in the following showcase images:
@@ -301,57 +315,45 @@ Overall, the registration screen embodies a balance between functionality and de
 
 ##### Account Preferences Screen
 
-TODO : Till adding the descriptions of the visual designs paragraphs.
-
-This section is under preparation.
-
-- This section is under preparation.
+The account preferences screen is primarily used for setting or changing account options, such as updating the user’s email, password, or deleting the account, as showcased in the visual design below.
 
 ![Account Preferences Screen](../Assets/Visual%20Design/Native%20Mobile/Account%20Preferences%20Screen.png)
 
 ##### Profile Screen
 
-This section is under preparation.
-
-- This section is under preparation.
+The visual design of the profile screen on a mobile device is as follows:
 
 ![Profile Screen](../Assets/Visual%20Design/Native%20Mobile/Profile%20Screen.png)
 
 ##### Developers Screen
 
-This section is under preparation.
-
-- This section is under preparation.
+The visual design of the developers' screen is shown in the image below:
 
 ![Developers Screen](../Assets/Visual%20Design/Native%20Mobile/Developers%20Screen.png)
 
 ##### Projects Screen
 
-This section is under preparation.
-
-- This section is under preparation.
+The visual design of the Projects Screen, which showcases Devland's developers' projects, is shown in the image below:
 
 ![Projects](../Assets/Visual%20Design/Native%20Mobile/Projects%20Screen.png)
 
 ##### Messages Screen
 
-This section is under preparation.
-
-- This section is under preparation.
+The visual design of the Messages Screen, dedicated to developers' messages and professionally designed, is shown in the image below:
 
 ![Messages Screen](../Assets/Visual%20Design/Native%20Mobile/Messages%20Screen.png)
 
 ##### Options Screen
 
-This section is under preparation.
-
-- This section is under preparation.
+The options screen, which appears as a drawer on native mobile devices, is designed as shown below and is primarily used to navigate through various sections of Devland.
 
 ![Options Screen](../Assets/Visual%20Design/Native%20Mobile/Options%20Screen.png)
 
+The above messages highlight my expertise in user interface (UI) and user experience (UX) design. My skillset spans the entire design process, from wireframing to crafting intuitive and visually appealing UI components. These designs not only incorporate programming principles, thanks to my background in full-stack development and software engineering, but also focus on creating user-friendly and aesthetically pleasing interfaces tailored to meet the needs of both clients and software users.
+
 ### Prototyping
 
-This section is under preparation.
+TODO : Till working on the prototyping of the visual design and adding the walking through each section or the entire process.
 
 ## Development
 

@@ -1397,31 +1397,76 @@ def digit_detector_welcome(request):
 ...
 ```
 
-TODO: Till description of the services section of the Assisti and how to navigate to the OCR into that description.
+Another way to access the Assisti OCR zone section is by using the services offered by Assisti. After logging in, users can click on the Services option in the top navigation bar on large screens or expand the top navigation bar on smaller screens, such as mobile devices, and tap on the Services option. This section is illustrated in the images below.
 
-This section is under preparation.
-
-- This section is under preparation.
+- Services option in the top navigation bar after logging in (Desktop and PC view)
 
 ![Web Landing Page | Web | Large Screen | Desktop and PCs](../Assets/Artificial%20Intelligence/OCR/Landing%20Page%20After%20Login%20-%20Web%20-%20PCs%20and%20Desktop.png)
 
-- This section is under preparation.
+- Top navigation bar in its closed state on small screens (Mobile view)
 
 ![Landing Page | Mobile Web View | Navbar Closed](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Closed.png)
 
-- This section is under preparation.
+- Top navigation bar in its opened state on small screens (Mobile view)
 
 ![Landing Page | Mobile Web View | Navbar Opened](../Assets/Architecture/Landing/Images/Landing%20Page%20-%20Mobile%20Web%20View%20-%20Navbar%20Opened.png)
 
-- This section is under preparation.
+- Services webpage (Desktop view)
 
 ![Services | Desktop and PC | Web | OCR](../Assets/Artificial%20Intelligence/OCR/Services%20-%20OCR%20-%20Desktops%20and%20PCs.png)
 
-- This section is under preparation.
+- Services webpage (Mobile view)
 
 ![Services | Mobile | Web | OCR](../Assets/Artificial%20Intelligence/OCR/Services%20-%20OCR%20-%20Mobile.png)
 
-This section is under preparation.
+To explain the backend process of accessing services through the Services option, the Services menu item is linked to the following template:
+
+```html
+{% raw %}
+
+...
+
+<li class="nav-item d-xxl-flex justify-content-xxl-center align-items-xxl-center mt-2 mb-2">
+  
+  <a class="nav-link me-5 MuhammadHusainAbootalebi-Navbar-NavItem-Link" id="MuhammadHusainAbootalebi-NavItem-Services-link" href="{% url 'all-services' %}" style="color: #000814;font-family: Roboto, sans-serif;">
+  
+    <i class="bi bi-x-diamond-fill MuhammadHusainAbootalebi-Navbar-NavItem-Link-Icon active"></i>
+  
+    Services
+  
+  </a>
+</li>
+
+...
+
+{% endraw %}
+```
+
+As seen above, the Services option is linked to the `all-services` URL pattern, which is defined as follows:
+
+```python
+...
+  
+    # All Services
+    path("services/", services, name="all-services"),
+
+...
+```
+
+The above URL pattern is linked to the `services` view, which is defined as follows:
+
+```Python
+...
+
+def services(request):
+    return render(request, "Services.html")
+
+...
+```
+
+As seen above, the `services` view simply uses the `render` method with the passed request to render the `Services.html` template. In the `Services.html` template, the process of clicking on the 'See More' button is similar to the previous process of navigating to the `digit_detector_welcome` view, which was explained earlier.
+
+TODO : Till working on the responsive design of the OCR zone of the Assisti.
 
 📌 **Creating OCR Models**
 
