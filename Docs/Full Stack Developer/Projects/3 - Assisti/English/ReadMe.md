@@ -1466,9 +1466,19 @@ def services(request):
 
 As seen above, the `services` view simply uses the `render` method with the passed request to render the `Services.html` template. In the `Services.html` template, the process of clicking on the 'See More' button is similar to the previous process of navigating to the `digit_detector_welcome` view, which was explained earlier.
 
-TODO : Till working on the responsive design of the OCR zone of the Assisti.
+In each scenario, the user will navigate to a page that looks like the one below. The process of creating, editing, reading, and deleting OCR models is explained next.
+
+- Optical Charactrer Recognision (Large Screens Web View)
+
+![OCR Zone | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Desktop.png)
+
+- Optical Charactrer Recognision (Small Screens Web View)
+
+![OCR Zone | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Mobile.png)
 
 📌 **Creating OCR Models**
+
+TODO : Till working on the process of the OCR detection creation object model.
 
 📌 **Editing OCR Models**
 
