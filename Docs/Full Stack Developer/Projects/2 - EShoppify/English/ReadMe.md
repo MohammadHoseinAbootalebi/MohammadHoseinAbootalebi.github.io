@@ -2,7 +2,7 @@
 
 Shop it with EShoppify 😉🛒!
 
--*Description:**
+- **Description:**
 
 EShoppify stands out as one of the most ambitious projects in my portfolio, showcasing my expertise in both design and
 development. This fully integrated e-commerce platform allows users to browse and purchase products seamlessly, manage
