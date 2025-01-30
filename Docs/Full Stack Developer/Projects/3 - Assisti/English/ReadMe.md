@@ -47,7 +47,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -1468,19 +1468,223 @@ As seen above, the `services` view simply uses the `render` method with the pass
 
 In each scenario, the user will navigate to a page that looks like the one below. The process of creating, editing, reading, and deleting OCR models is explained next.
 
-- Optical Charactrer Recognision (Large Screens Web View)
+- Optical Charactrer Recognition (Large Screens Web View)
 
 ![OCR Zone | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Desktop.png)
 
-- Optical Charactrer Recognision (Small Screens Web View)
+- Optical Charactrer Recognition (Small Screens Web View)
 
 ![OCR Zone | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Mobile.png)
 
 📌 **Creating OCR Models**
 
-TODO : Till working on the process of the OCR detection creation object model.
+To interact with the Assisti OCR detector in real time, users can access the OCR introduction page, as shown below. On desktop web views, the 'OCR Detection' button can be clicked, while on mobile web views, it can be tapped to initiate the detection process.
+
+- Optical Character Recognition (Large Screens Web View)
+
+![OCR Zone | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Desktop.png)
+
+- Optical Character Recognition (Small Screens Web View)
+
+![OCR Zone | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Mobile.png)
+
+To illustrate the background process leading to the OCR detection page, the following front-end code is triggered when the 'OCR Detection' button is clicked or tapped.
+
+```html
+{% raw %}
+
+...
+
+<a
+  class="btn btn-primary btn-lg d-xxl-flex justify-content-xxl-center align-items-xxl-center me-2 ps-5 pe-5 w-100"
+  role="button" href="{% url 'digit-create' %}"
+  style="background: rgb(0,0,0); color: rgb(255,214,10);font-family: Roboto, sans-serif;font-weight: bold;border-style: none;">
+    OCR Detection 
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="1em" 
+      height="1em"
+      fill="currentColor" 
+      viewBox="0 0 16 16" 
+      class="bi bi-caret-right-fill">
+        <path 
+          d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
+        </path>
+    </svg>
+</a>
+
+...
+
+{% endraw %}
+```
+
+In the code above, the anchor link references the `digit-create` URL pattern name, which is mapped to the following URL pattern:
+
+```python
+...
+
+  path("digit-create/", views.digit_create, name="digit-create"),
+
+...
+```
+
+As seen in the code above, the `digit-create` URL name is mapped to `views.digit_create` via an HTTP request, facilitating the rendering of the OCR detection form web page, which appears as follows:
+
+- Optical Character Recognition Creation Form (Large Screens Web View)
+
+![OCR Creation Form | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20Detection%20Form%20Creation%20-%20Desktop%20Web%20View.png)
+
+- Optical Character Recognition Creation Form (Small Screens Web View)
+
+![OCR Creation Form | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20Detection%20Form%20Creation%20-%20Mobile%20Web%20View.png)
+
+As seen above, the front-end implementation of the OCR creation form is developed professionally, highlighting my expertise in front-end programming. To keep the documentation concise, the backend implementation of the OCR model creation view will be explained below.
+
+```python
+@login_required(login_url="login-view")
+```
+
+- This decorator ensures that only authenticated users can access this view.
+- If an unauthenticated user tries to access this view, they will be redirected to the login page (`login-view`).
+
+```python
+def digit_create(request):
+```
+
+- This function defines the `digit_create` view, which handles the creation of new OCR digit recognition objects.
+
+```python
+    forms = DigitPicForm()
+```
+
+- An empty instance of the `DigitPicForm` is created to be displayed in the template for user input.
+
+```python
+    if request.method == "POST":
+```
+
+- Checks if the request method is **POST**, indicating that the form has been submitted.
+
+```python
+        forms = DigitPicForm(request.POST, request.FILES)
+```
+
+- If the request is **POST**, the form is re-initialized with the submitted data (`request.POST`) and uploaded files (`request.FILES`).
+
+```python
+        if forms.is_valid():
+```
+
+- Validates the form to ensure all required fields are properly filled and the uploaded file meets the expected format.
+
+```python
+            digit = forms.save(commit=False)
+```
+
+- The form is temporarily saved without committing to the database.
+- This allows setting additional attributes (like assigning an owner) before finalizing the save.
+
+```python
+            digit.owner = request.user
+```
+
+- The authenticated user who submitted the form is assigned as the `owner` of the digit object.
+
+```python
+            digit.save()
+```
+
+- The `digit` object is now fully saved in the database. The OCR signal will be triggered to detect the characters in the uploaded image, as explained earlier.
+
+```python
+            messages.success(request, "Digit was successfully predicted.")
+```
+
+- A success message is displayed to inform the user that the digit has been successfully processed.
+
+```python
+            return redirect("digit-read-detail", digit.id)
+```
+
+- After saving, the user is redirected to the **digit detail page** (`digit-read-detail`), where they can see the predicted results.
+
+```python
+    context = {
+        "forms": forms,
+    }
+```
+
+- A context dictionary is created containing the form instance, which will be passed to the template.
+
+```python
+    return render(request, "digitDetector/digit-create.html", context)
+```
+
+- The `digit-create.html` template is rendered, displaying the form for the user.
+
+Summary of Functionality:
+
+- Ensures that only authenticated users can create OCR digit recognition objects.
+- Displays a form for uploading an image and providing a title.
+- Handles form submission and validation.
+- Associates the uploaded digit image with the logged-in user.
+- Saves the digit object and redirects to its detail page upon successful submission.
+- Displays a success message to the user.
+- Renders the **digit creation form** for GET requests.
+
+This structured approach ensures a smooth and user-friendly process for creating OCR objects while maintaining security and proper validation. 🚀
+
+The complete code for this view can be seen at a glance below:
+
+```Python
+...
+
+@login_required(login_url="login-view")
+def digit_create(request):
+  
+    forms = DigitPicForm()
+  
+    if request.method == "POST":
+        forms = DigitPicForm(request.POST, request.FILES)
+        if forms.is_valid():
+            digit = forms.save(commit=False)
+            digit.owner = request.user
+            digit.save()
+            messages.success(request, "Digit was successfully predicted.")
+            return redirect("digit-read-detail", digit.id)
+  
+    context = {
+        "forms": forms,
+    }
+  
+    return render(request, "digitDetector/digit-create.html", context)
+
+...
+```
 
 📌 **Editing OCR Models**
+
+TODO : Till explaining the editing process of the editing the OCR model.
+
+- Not added yet.
+
+![OCR Zone First View | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Desktop.png)
+
+- Not added yet.
+
+![OCR Zone First View | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Mobile.png)
+
+Not added yet.
+
+- Not added yet.
+
+![OCR Zone Second View | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20Prediction%20Models%20Showcases%20-%20Desktop%20Web%20View.png)
+
+- Not added yet.
+
+![OCR Zone Second View | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20Prediction%20Models%20Showcases%20-%20Mobile%20Web%20View.png)
+
+Not added yet.
 
 📌 **Reading OCR Models**
 
