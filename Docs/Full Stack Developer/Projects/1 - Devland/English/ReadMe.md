@@ -353,9 +353,9 @@ The above messages highlight my expertise in user interface (UI) and user experi
 
 ### Prototyping
 
-TODO : Till working on the prototyping of the visual design and adding the walking through each section or the entire process.
+TODO : Till adding the description of the splash screen prototype video.
 
-[![Splash Screen | Prototype | Mobile](../Assets/Prototyping/Mobile/Video%20Cover.png)](https://raw.githubusercontent.com/MohammadHoseinAbootalebi/MohammadHoseinAbootalebi.github.io/refs/heads/main/Docs/Full%20Stack%20Developer/Projects/1%20-%20Devland/Assets/Prototyping/Mobile/Splash%20Screen.mp4)
+https://github.com/user-attachments/assets/cabc921c-cba8-4c23-ac37-2dae0b8917fc
 
 ## Development
 
