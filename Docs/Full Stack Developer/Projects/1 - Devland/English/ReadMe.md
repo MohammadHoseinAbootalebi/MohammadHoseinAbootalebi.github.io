@@ -353,9 +353,13 @@ The above messages highlight my expertise in user interface (UI) and user experi
 
 ### Prototyping
 
-TODO : Till adding the description of the splash screen prototype video.
+TODO : Till preparing other prototype videos and including them in the documentation.
+
+- Splash Screen
 
 https://github.com/user-attachments/assets/cabc921c-cba8-4c23-ac37-2dae0b8917fc
+
+Not added yet.
 
 ## Development
 
