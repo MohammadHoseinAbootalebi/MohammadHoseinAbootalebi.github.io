@@ -47,7 +47,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -1664,27 +1664,27 @@ def digit_create(request):
 
 📌 **Editing OCR Models**
 
-TODO : Till explaining the editing process of the editing the OCR model.
+Another aspect of the OCR zone is editing the OCR object models in a way that allows changing either the object title or the image. To see the predicted images in the OCR zone, scroll to the bottom of the page where the predicted images can be seen.
 
-- Not added yet.
+- OCR Landing Page (Large Screens Web View)
 
 ![OCR Zone First View | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Desktop.png)
 
-- Not added yet.
+- OCR Landing Page (Samll Screens Web View)
 
 ![OCR Zone First View | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Introduction%20--%20Mobile.png)
 
-Not added yet.
+After that, by scrolling to the bottom of the OCR zone web page, the predicted models can be seen. The images below show what the predicted object models look like.
 
-- Not added yet.
+- OCR Predicted Objects (Large Screens Web View)
 
 ![OCR Zone Second View | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20Prediction%20Models%20Showcases%20-%20Desktop%20Web%20View.png)
 
-- Not added yet.
+- OCR Predicted Objects (Small Screens Web View)
 
 ![OCR Zone Second View | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20Prediction%20Models%20Showcases%20-%20Mobile%20Web%20View.png)
 
-Not added yet.
+TODO : Till explaining the Edit button click and what happened in the background.
 
 📌 **Reading OCR Models**
 
