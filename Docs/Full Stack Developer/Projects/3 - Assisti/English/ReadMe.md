@@ -47,7 +47,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -1687,6 +1687,10 @@ After that, by scrolling to the bottom of the OCR zone web page, the predicted m
 After the 'Edit' button is pressed, the `digit-update` URL name will be requested via HTTP.
 
 ```html
+{% raw %}
+
+...
+
 <a 
   href="{% url 'digit-update' digit.id %}"
   class="btn btn-primary d-xxl-flex justify-content-xxl-center align-items-xxl-center ps-3 pe-3 me-3"
@@ -1706,6 +1710,10 @@ After the 'Edit' button is pressed, the `digit-update` URL name will be requeste
        
     Edit
 </a>
+
+...
+
+{% endraw %}
 ```
 
 As seen above, the object model's unique identifier (ID) is passed to the `digit-update` URL pattern name to specify which model should be updated. The `digit-update` URL pattern is shown below:
