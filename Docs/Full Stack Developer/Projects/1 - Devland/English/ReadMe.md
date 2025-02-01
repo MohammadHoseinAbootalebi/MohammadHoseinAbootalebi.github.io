@@ -35,6 +35,8 @@ This project is a social application designed to connect developers with each ot
         - [Messages Screen](#messages-screen)
         - [Options Screen](#options-screen)
     - [Prototyping](#prototyping)
+      - [Splash Screen Prototype](#splash-screen-prototype)
+      - [Authentication Screen Prototype](#authentication-screen-prototype)
   - [Development](#development)
 
 ## Design
@@ -353,13 +355,17 @@ The above messages highlight my expertise in user interface (UI) and user experi
 
 ### Prototyping
 
-TODO : Till preparing other prototype videos and including them in the documentation.
+This section is under preparation.
 
-- Splash Screen
+#### Splash Screen Prototype
+
+This section is under preparation.
 
 https://github.com/user-attachments/assets/cabc921c-cba8-4c23-ac37-2dae0b8917fc
 
-Not added yet.
+#### Authentication Screen Prototype
+
+TODO : Till preparing adding the tap effect to the authentication video.
 
 ## Development
 

@@ -1684,9 +1684,133 @@ After that, by scrolling to the bottom of the OCR zone web page, the predicted m
 
 ![OCR Zone Second View | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20Prediction%20Models%20Showcases%20-%20Mobile%20Web%20View.png)
 
-TODO : Till explaining the Edit button click and what happened in the background.
+After the 'Edit' button is pressed, the `digit-update` URL name will be requested via HTTP.
+
+```html
+<a 
+  href="{% url 'digit-update' digit.id %}"
+  class="btn btn-primary d-xxl-flex justify-content-xxl-center align-items-xxl-center ps-3 pe-3 me-3"
+  type="button"
+  style="border-style: none;background: rgb(0,0,0);color: rgb(255,214,10);">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="1em" 
+      height="1em" 
+      fill="currentColor"
+      viewBox="0 0 16 16" 
+      class="bi bi-pen-fill">
+        <path 
+          d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001">
+        </path>
+    </svg>
+       
+    Edit
+</a>
+```
+
+As seen above, the object model's unique identifier (ID) is passed to the `digit-update` URL pattern name to specify which model should be updated. The `digit-update` URL pattern is shown below:
+
+```python
+path("digit-update/<str:pk>/", views.digit_update, name="digit-update"),
+```
+
+As seen above, the `digit-update` URL pattern name is linked to the `views.digit_update` view, which is explained below.
+
+```python
+@login_required(login_url="login-view")
+```
+
+- This decorator ensures that only authenticated users can access this view.
+- If a user is not logged in, they will be redirected to the `login-view` page.
+
+```python
+def digit_update(request, pk):
+```
+
+- Defines the `digit_update` function, which is responsible for handling the update process for a specific `DigitPic` object.
+- Accepts `request` (the HTTP request object) and `pk` (the primary key of the `DigitPic` object that needs to be updated).
+
+```python
+digit = DigitPic.objects.get(id=pk)
+```
+
+- Retrieves the `DigitPic` object from the database based on its unique ID (`pk`).
+
+```python
+forms = DigitPicForm(instance=digit)
+```
+
+- Initializes a `DigitPicForm` instance, pre-filling it with the data of the retrieved `DigitPic` object.
+- This ensures that the form displays the current values of the object, allowing the user to modify them.
+
+```python
+if request.method == "POST":
+```
+
+- Checks if the request method is `POST`, which means the user has submitted the form to update the object.
+
+```python
+form = DigitPicForm(request.POST, request.FILES, instance=digit)
+```
+
+- Creates a new `DigitPicForm` instance populated with the submitted form data (`request.POST`) and any uploaded files (`request.FILES`).
+- The `instance=digit` argument ensures that the form updates the existing `DigitPic` object instead of creating a new one.
+
+```python
+if form.is_valid():
+```
+
+- Checks if the form input is valid based on the model constraints and form validation rules.
+
+```python
+form.save()
+```
+
+- Saves the updated data to the existing `DigitPic` object in the database.
+
+```python
+messages.success(request, "Digit was successfully updated")
+```
+
+- Displays a success message to the user indicating that the update was successful.
+
+```python
+return redirect("digit-read-detail", digit.id)
+```
+
+- Redirects the user to the detail page of the updated `DigitPic` object using its ID.
+- This prevents form resubmission if the user refreshes the page.
+
+```python
+context = {
+    "forms": forms,
+}
+```
+
+- Prepares the `context` dictionary with the form instance to be passed to the template.
+
+```python
+return render(request, "digitDetector/digit-create.html", context)
+```
+
+- Renders the `digit-create.html` template, passing the form data in the `context` dictionary.
+- This allows the user to see and edit the existing values in the form.
+
+After clicking or tapping the 'Edit' button for a predicted OCR object model, the following web page will be displayed.
+
+- OCR Update View (Large Screen Web View)
+
+![OCR Update View | Desktop Web View](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Update%20View%20-%20Desktop%20Web%20View.png)
+
+- OCR Update View (Small Screen Web View)
+
+![OCR Update View | Mobile Web View](../Assets/Artificial%20Intelligence/OCR/OCR%20-%20Update%20View%20-%20Mobile%20Web%20View.png)
+
+As seen in the images above, the form includes a field for updating the title of the object model. Below that, an anchor link allows users to view the previously uploaded image, followed by an upload field for selecting a new image. At the bottom of the card, a 'Detect' button is provided to initiate the OCR process for the newly uploaded image, predicting its label or the characters it contains. This process occurs after the model is saved, triggering the post-save signal.
 
 📌 **Reading OCR Models**
+
+TODO : Till explaining the retrieving or reading the of the OCR object models.
 
 📌 **Deleting OCR Models**
 
