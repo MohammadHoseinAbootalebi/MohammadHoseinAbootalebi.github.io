@@ -47,7 +47,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -1818,9 +1818,113 @@ As seen in the images above, the form includes a field for updating the title of
 
 📌 **Reading OCR Models**
 
-TODO : Till explaining the retrieving or reading the of the OCR object models.
+In order to view each model prediction in detail, the title of each predicted object model must be clicked or tapped. For example, the anchor link, which is underlined with an orange or yellow line, should be clicked or tapped. The view below is displayed after navigating to the OCR zone of Assisti and scrolling down to the bottom of the page.
+
+- OCR Predicted Objects (Large Screens Web View)
+
+![OCR Zone Second View | Web | Desktop](../Assets/Artificial%20Intelligence/OCR/OCR%20Prediction%20Models%20Showcases%20-%20Desktop%20Web%20View.png)
+
+- OCR Predicted Objects (Small Screens Web View)
+
+![OCR Zone Second View | Web | Mobile](../Assets/Artificial%20Intelligence/OCR/OCR%20Prediction%20Models%20Showcases%20-%20Mobile%20Web%20View.png)
+
+After the anchor link is clicked or tapped, the following link is triggered:
+
+```html
+{% raw %}
+
+...
+
+<a 
+  class="py-2" 
+  href="{% url 'digit-read-detail' digit.id %}" 
+  style="color:#FFD60A;">
+    <h4
+      style="font-family: Roboto, sans-serif;font-weight: bold; color: #000000">
+        {{ digit.title }}</h4>
+</a>
+
+...
+
+{% endraw %}
+```
+
+According to the above code, each anchor link is associated with the `digit-read-detail` URL name, along with the unique identifier (ID) of the object model. The following code shows the linked URL pattern:
+
+```python
+...
+
+path("digit-read/<str:pk>/", views.digit_read, name="digit-read-detail"),
+
+...
+```
+
+As seen above, the `digit-read-detail` URL name is linked to the `views.digit_read` view, which will be explained next.
+
+`@login_required(login_url="login-view")`
+
+- This is a Django decorator that ensures only authenticated users can access the digit_read view.
+- If a user is not logged in, they are redirected to the "login-view" page.
+
+`def digit_read(request, pk):`
+
+- Defines a **view function** named `digit_read` that takes `request` and `pk` (primary key) as parameters.
+- `request` represents the **HTTP request** sent by the user.
+- `pk` is the **unique identifier** of the `DigitPic` object to be retrieved.
+
+`digit = DigitPic.objects.get(id=pk)`
+
+- Queries the database for a `DigitPic` object where the `id` matches the provided `pk`.
+- If the object exists, it is stored in the `digit` variable.
+- If no matching object is found, this raises a `DoesNotExist` exception.
+
+`context = { "digit": digit }`
+
+- Creates a **context dictionary** that holds the retrieved `digit` object.
+- This dictionary is passed to the template for rendering.
+
+`return render(request, "digitDetector/digit-detail.html", context)`
+
+- Uses Django’s `render` function to return an **HTTP response**.
+- Renders the `"digitDetector/digit-detail.html"` template.
+- Passes the `context` dictionary to the template, allowing it to use `digit` in the HTML.
+
+The complete code at a glance is shown below:
+
+```python
+...
+
+@login_required(login_url="login-view")
+def digit_read(request, pk):
+  
+    digit = DigitPic.objects.get(id=pk)
+  
+    context = {
+        "digit": digit,
+    }
+  
+    return render(request, "digitDetector/digit-detail.html", context)
+
+...
+```
+
+The rendered OCR object model, in its reading or retrieving process (which corresponds to the "Read" operation in CRUD), looks like this:
+
+- OCR Object Model Reading (Desktop Web View)
+
+![OCR Object Reading (Desktop Web View)](../Assets/Artificial%20Intelligence/OCR/OCR%20Detail%20Reading%20-%20Desktop%20Web%20View.png)
+
+- OCR Object Model Reading (Mobile Web View)
+
+![OCR Object Reading (Mobile Web View)](../Assets/Artificial%20Intelligence/OCR/OCR%20Detail%20Reading%20-%20Mobile%20Web%20View.png)
+
+As seen, the front-end design maintains a professional appearance, similar to the previous web pages. This showcases my expertise in front-end design, as well as backend planning and programming.
+
+The rendered web page contains the uploaded image, the object model title, the natural date-time since creation, and the label or predicted characters. There are two buttons: one to edit the OCR object model and another to delete it.
 
 📌 **Deleting OCR Models**
+
+TODO : Till explaining the deletion process of OCR object model.
 
 ### Testing
 
