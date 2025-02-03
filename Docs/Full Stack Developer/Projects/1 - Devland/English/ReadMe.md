@@ -365,7 +365,13 @@ https://github.com/user-attachments/assets/cabc921c-cba8-4c23-ac37-2dae0b8917fc
 
 #### Authentication Screen Prototype
 
-TODO : Till preparing adding the tap effect to the authentication video.
+This section is under preparation.
+
+https://github.com/user-attachments/assets/7685e2df-54ba-4a05-8235-933a52271917
+
+#### Account Preferences Prototype
+
+TODO : Till working on preparing the account preferences raw video in premiere pro.
 
 ## Development
 
