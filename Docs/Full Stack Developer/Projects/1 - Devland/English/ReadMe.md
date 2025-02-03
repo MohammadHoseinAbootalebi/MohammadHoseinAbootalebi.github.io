@@ -1,4 +1,4 @@
-# 🌴💻 Devland Test 💻🌴
+# 🌴💻 Devland 💻🌴
 
 🌴💻 Devland, land of developers 😉
 
