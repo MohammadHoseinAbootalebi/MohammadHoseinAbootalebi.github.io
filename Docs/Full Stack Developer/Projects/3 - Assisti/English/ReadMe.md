@@ -1946,7 +1946,7 @@ As seen above, the front-end design exhibits a professional and visually appeali
 
 In this section, it is evident that this project demonstrates my professional expertise in artificial intelligence engineering, showcasing my ability to develop AI models while also building robust front-end and back-end systems. By seamlessly integrating theoretical models into real-time software applications, I exemplify my skills as a professional full-stack developer and software engineer.
 
-TODO : Till recording real time video of real OCR section of Assisti and adding it to the documentation.
+TODO : Till explaining the backend side of deletion process.
 
 ### Testing
 
