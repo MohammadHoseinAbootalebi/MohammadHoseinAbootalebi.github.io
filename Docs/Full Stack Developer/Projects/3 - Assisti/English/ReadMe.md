@@ -1924,7 +1924,29 @@ The rendered web page contains the uploaded image, the object model title, the n
 
 📌 **Deleting OCR Models**
 
-TODO : Till explaining the deletion process of OCR object model.
+To delete a created OCR object model, simply click or tap the 'Delete' button. This will navigate to a delete confirmation page, where the user is asked to confirm whether they want to proceed with deleting the object model. The confirmation page looks as follows:
+
+- Delete Confirmation Page (Desktop Web View)
+
+![Delete Confirmation Page (Desktop Web View)](../Assets/Artificial%20Intelligence/OCR/Delete%20Confirmation%20Page%20(Desktop%20Web%20View).png)
+
+- Delete Confirmation Page (Mobile Web View)
+
+![Delete Confirmation Page (Desktop Web View)](../Assets/Artificial%20Intelligence/OCR/Delete%20Confirmation%20Page%20(Mobile%20Web%20View).png)
+
+As seen above, the front-end design exhibits a professional and visually appealing interface, highlighting my expertise in both front-end design and programming. The confirmation message features a sleek glass effect with a modern, futuristic background. If the 'Back' button is clicked or tapped, the user will be redirected to the previous page. However, if the 'Delete' button is selected, the object model will be removed, and the user will be navigated to the OCR Introduction page displayed earlier. Additionally, an alert message confirming the deletion will be shown, as demonstrated below:
+
+- After Delete Confirmation Page (Desktop Web View)
+
+![After Delete Confirmation Page (Desktop Web View)](../Assets/Artificial%20Intelligence/OCR/After%20Delete%20Confirmation%20Page%20(Desktop%20Web%20View).png)
+
+- After Delete Confirmation Page (Mobile Web View)
+
+![After Delete Confirmation Page (Mobile Web View)](../Assets/Artificial%20Intelligence/OCR/After%20Delete%20Confirmation%20Page%20(Mobile%20Web%20View).png)
+
+In this section, it is evident that this project demonstrates my professional expertise in artificial intelligence engineering, showcasing my ability to develop AI models while also building robust front-end and back-end systems. By seamlessly integrating theoretical models into real-time software applications, I exemplify my skills as a professional full-stack developer and software engineer.
+
+TODO : Till recording real time video of real OCR section of Assisti and adding it to the documentation.
 
 ### Testing
 
