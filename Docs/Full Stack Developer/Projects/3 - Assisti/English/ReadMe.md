@@ -47,7 +47,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -1946,7 +1946,173 @@ As seen above, the front-end design exhibits a professional and visually appeali
 
 In this section, it is evident that this project demonstrates my professional expertise in artificial intelligence engineering, showcasing my ability to develop AI models while also building robust front-end and back-end systems. By seamlessly integrating theoretical models into real-time software applications, I exemplify my skills as a professional full-stack developer and software engineer.
 
-TODO : Till explaining the backend side of deletion process.
+To explain the backend process of deleting an OCR object model, when the 'Delete' button is clicked, the `digit-delete` URL name is requested via HTTP. Additionally, the `digit.id`, which serves as the unique identifier for the OCR object, is passed through the HTTP request.
+
+```html
+{% raw %}
+...
+
+<a
+  href="{% url 'digit-delete' digit.id %}?back=digit-detector-welcome"
+  class="btn d-xxl-flex justify-content-xxl-center align-items-xxl-center ps-3 pe-3 btn-danger"
+  style="border-style: none;background: rgb(255,0,24);">
+  <svg 
+    xmlns="http://www.w3.org/2000/svg"
+     width="1em" 
+     height="1em" 
+     fill="currentColor"
+     viewBox="0 0 16 16" 
+     class="bi bi-trash-fill">
+    <path 
+      d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+    </path>
+  </svg>   
+  Delete
+</a>
+
+...
+{% endraw %}
+```
+
+The mentioned URL name is linked to the following URL path. As seen below, the `digit-delete` URL name is connected to `views.digit_delete`, which will be explained next.
+
+```python
+...
+
+  path("digit-delete/<str:pk>/", views.digit_delete, name="digit-delete"),
+
+...
+```
+
+```python
+@login_required(login_url="login-view")
+```
+
+- This decorator ensures that only authenticated users can access the `digit_delete` view.  
+- If a user is not logged in, they will be redirected to the **login page** (specified by `"login-view"`).
+
+```python
+def digit_delete(request, pk):
+```
+
+- Defines the `digit_delete` function, which handles the deletion of an **OCR object model**.  
+- It accepts:
+  - `request`: The HTTP request from the user.  
+  - `pk`: The **primary key** of the object to be deleted (used to identify the specific OCR object).
+
+```python
+digit = DigitPic.objects.get(id = pk)
+```
+
+- Retrieves the `DigitPic` object from the database using its **primary key (id)**.  
+- This object represents the OCR model that the user wants to delete.
+
+```python
+if request.GET.get("pk") == None:
+```
+
+- Checks if a query parameter `pk` exists in the **GET request**.  
+- If `pk` is **not provided**, the view assumes the user is navigating **back to a previous page** without specifying an object ID.
+
+```python
+back = reverse(request.GET.get("back"))
+```
+
+- If there is no `pk` in the GET request, this line dynamically generates a **URL** for the previous page (using the `back` parameter in the request).  
+- The `reverse()` function constructs the URL based on the **provided view name**.
+
+```python
+else:
+    back = reverse(request.GET.get("back"), kwargs={'pk': request.GET.get("pk")})
+```
+
+- If a `pk` is present in the GET request, the `back` URL will include the **specific object ID** in its parameters.  
+- This ensures that when the user navigates back, the previous view knows which **OCR object model** was referenced.
+
+```python
+if request.method == "POST":
+```
+
+- Checks if the request is a **POST request** (which means the user confirmed deletion).
+
+```python
+digit.delete()
+```
+
+- Deletes the retrieved `DigitPic` object from the database.  
+- This **removes the OCR object model permanently**.
+
+```python
+messages.success(request, "Object was successfully deleted.")
+```
+
+- After deletion, a success message is sent to the user indicating that the object was deleted successfully.  
+- This message will be displayed in the UI using Django’s **message framework**.
+
+```python
+return redirect("digit-detector-welcome")
+```
+
+- After the object is deleted, the user is redirected to the **digit detector welcome page**.  
+- This ensures a smooth user experience after deletion.
+
+```python
+context = {
+    "object": digit.title,
+    "back": back,
+}
+```
+
+- Creates a context dictionary that passes data to the **delete confirmation template**:  
+  - `"object"`: Contains the **title** of the OCR model being deleted (used for confirmation).  
+  - `"back"`: Holds the **URL** to return to the previous page.
+
+```python
+return render(request, "delete-object-model.html", context)
+```
+
+- Renders the **delete confirmation page** (`delete-object-model.html`) with the provided context.  
+- This page asks the user for **final confirmation** before deletion.
+
+📌 **Summary of Functionality:**
+
+- Ensures only **authenticated users** can delete OCR models.  
+- Fetches the **OCR object** using its primary key (`pk`).  
+- Checks if a **previous page URL** exists to return after deletion.  
+- If the request method is **POST**, the object is **deleted**, a success message is displayed, and the user is redirected.  
+- Otherwise, it renders the **delete confirmation page** where the user can confirm or cancel the deletion.
+
+The complete code for the mentioned view is shown below at a glance:
+
+```python
+...
+
+@login_required(login_url="login-view")
+def digit_delete(request, pk):
+    
+    digit = DigitPic.objects.get(id = pk)
+    
+    if request.GET.get("pk") == None:
+        back = reverse(request.GET.get("back"))
+    else:
+        back = reverse(request.GET.get("back"), kwargs={'pk': request.GET.get("pk")})
+    
+    if request.method == "POST":
+        digit.delete()
+        messages.success(request, "Object was successfully deleted.")
+        return redirect("digit-detector-welcome")
+    
+    context = {
+        "object": digit.title,
+        "back": back,
+    }
+    
+    return render(request, "delete-object-model.html", context)
+
+...
+```
+
+TODO : Till adding the presentation video of the OCR creation and updating and deleting.
 
 ### Testing
 
