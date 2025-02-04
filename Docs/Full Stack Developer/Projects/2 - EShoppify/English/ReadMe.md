@@ -2022,7 +2022,7 @@ On the Password Reset page, users are prompted to enter the email associated wit
                             {% for key, value in form.errors.items %} 
 
                                 <li style="font-family: 'Baloo Bhaijaan 2', serif;">
-                
+              
                                     {{ key |safe | capfirst }}: {{ value|join:", "|safe }}
 
                                 </li>
@@ -2034,7 +2034,7 @@ On the Password Reset page, users are prompted to enter the email associated wit
                     {% endif %}
 
                     <div class="mb-3">
-    
+  
                         <button class="btn btn-primary d-block w-100" type="submit" tags="prominent,login" style="background: var(--bs-emphasis-color);font-family: Roboto, sans-serif;border-style: none;">Reset Password</button>
   
                     </div>
@@ -2451,6 +2451,10 @@ Based on the explanation above, this demonstrates my expertise as a professional
 Not added yet.
 
 #### Architecture
+
+##### 🌐 Web 🌐
+
+###### Landing Page
 
 TODO: Till recording the landing page and adding its video to the documentation.
 
