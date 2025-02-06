@@ -541,7 +541,7 @@ var neededProperties = {
                                         newSlide_container_div_row_column.classList.add("w-50");
                                         newSlide_container_div_row_column.classList.add("col-4");
                                         newSlide_container_div_row_column.style.zIndex = "1";
-                                        newSlide_container_div_row_column.id = "MuhammadHusainAbootalebi-Skill-Silo-Page-Software-Skills-Column_Icon_Container-" + i;
+                                        newSlide_container_div_row_column.id = "MuhammadHusainAbootalebi-Skill-Silo-Page-Software-Skills-Column_Icon_Container";
 
                                 } else if (i == 0) {
 
