@@ -76,7 +76,7 @@ dedication to creating impactful digital solutions 😉.
 
 ### Requirement Analysis & Architecture Planning
 
-ChatGPT Note:
+Note:
 
 - Understand the functional and technical requirements.
 - Plan the backend architecture (e.g., APIs, databases).
@@ -272,7 +272,7 @@ also centralizes essential product details, serving as the foundation for all pr
 
 ### Backend Development
 
-ChatGPT Notes:
+Notes:
 
 - **Server Setup** : Set up a server environment (e.g., Node.js, Django, or any backend framework).
 - **Database Design** : Create the database schema, relationships, and models.
@@ -2025,7 +2025,7 @@ On the Password Reset page, users are prompted to enter the email associated wit
                             {% for key, value in form.errors.items %} 
 
                                 <li style="font-family: 'Baloo Bhaijaan 2', serif;">
-              
+          
                                     {{ key |safe | capfirst }}: {{ value|join:", "|safe }}
 
                                 </li>
@@ -2459,21 +2459,21 @@ Not added yet.
 
 ###### Landing Page
 
-**Professional E-Commerce Website – Landing Page Development**  
+**Professional E-Commerce Website – Landing Page Development**
 
-Designed and developed a **high-performance, visually stunning, and user-friendly** landing page for a **fully functional e-commerce platform**. This landing page serves as the gateway to a seamless shopping experience, combining **modern UI/UX principles** with **robust backend functionality** to optimize user engagement and conversion rates.  
+Designed and developed a **high-performance, visually stunning, and user-friendly** landing page for a **fully functional e-commerce platform**. This landing page serves as the gateway to a seamless shopping experience, combining **modern UI/UX principles** with **robust backend functionality** to optimize user engagement and conversion rates.
 
-📌 **Front-End Highlights:**  
-✔ **Sleek & Responsive Design** – Built with **HTML, CSS, Bootstrap 5, and JavaScript**, ensuring pixel-perfect responsiveness across **desktops, tablets, and mobile devices**.  
-✔ **Engaging UI/UX** – Interactive elements, smooth animations, and intuitive navigation enhance user experience.  
-✔ **Optimized Performance** – Minimized load times with efficient asset management and lazy loading techniques.  
-✔ **Dynamic Components** – Integrated features such as **product carousels, category highlights, and call-to-action (CTA) buttons** to improve conversions.  
+📌 **Front-End Highlights:**
+✔ **Sleek & Responsive Design** – Built with **HTML, CSS, Bootstrap 5, and JavaScript**, ensuring pixel-perfect responsiveness across **desktops, tablets, and mobile devices**.
+✔ **Engaging UI/UX** – Interactive elements, smooth animations, and intuitive navigation enhance user experience.
+✔ **Optimized Performance** – Minimized load times with efficient asset management and lazy loading techniques.
+✔ **Dynamic Components** – Integrated features such as **product carousels, category highlights, and call-to-action (CTA) buttons** to improve conversions.
 
-📌 **Back-End Development:**  
-✔ **Secure & Scalable** – Developed using **Django (Python)** with a **robust database architecture (PostgreSQL/MySQL)** for seamless product and user management.  
-✔ **User Authentication** – Integrated **secure login & signup system** with password encryption and social authentication.  
-✔ **Dynamic Content Management** – Implemented an **admin dashboard** for effortless content updates.  
-✔ **SEO-Friendly & Analytics Integration** – Ensured search engine visibility and real-time user tracking with **Google Analytics**.  
+📌 **Back-End Development:**
+✔ **Secure & Scalable** – Developed using **Django (Python)** with a **robust database architecture (PostgreSQL/MySQL)** for seamless product and user management.
+✔ **User Authentication** – Integrated **secure login & signup system** with password encryption and social authentication.
+✔ **Dynamic Content Management** – Implemented an **admin dashboard** for effortless content updates.
+✔ **SEO-Friendly & Analytics Integration** – Ensured search engine visibility and real-time user tracking with **Google Analytics**.
 
 This **landing page is a core element** of the full e-commerce platform, built with a **strong emphasis on performance, usability, and security** to provide an **exceptional shopping experience**.
 
@@ -2491,7 +2491,7 @@ TODO : Designing and developing the categories web page of the EShoppify page.
 
 ### Testing
 
-ChatGPT Notes:
+Notes:
 
 - **Unit Testing** : Test individual units or components of the application.
 - **Integration Testing** : Ensure the frontend and backend work seamlessly together.
@@ -2504,7 +2504,7 @@ Not added yet.
 
 ### Deployment
 
-ChatGPT Notes:
+Notes:
 
 - **Environment Setup** : Prepare production environments (e.g., cloud services like AWS, Google Cloud, or Heroku).
 - **CI/CD Implementation** : Set up Continuous Integration/Continuous Deployment pipelines.
