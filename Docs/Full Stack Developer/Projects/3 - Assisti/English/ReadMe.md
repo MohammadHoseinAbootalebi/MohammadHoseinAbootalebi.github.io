@@ -47,7 +47,9 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [🎥 Finalized OCR Functionality Demonstration Videos 🎥](#-finalized-ocr-functionality-demonstration-videos-)
+        - [Road Sign Recognision](#road-sign-recognision)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -698,6 +700,10 @@ As demonstrated in the Assisti code above, the `AssistIUser`, a customized Djang
 ##### Two-Factor Authentication System
 
 To enhance the security of user authentication in the Assisti project, an optional two-factor authentication (2FA) method has been implemented. This approach involves generating a fixed-length random code, which is sent to the user's email address. During the login process, after the user enters his/her email, they are prompted to provide the two-factor authentication code received in their inbox. This additional step ensures that only the rightful owner of the email account can access the system, adding a significant layer of protection to the login process.
+
+##### Logging In Procedure
+
+TODO : Till explaining the loggin in procedure in front-end and backend.
 
 #### Artificial Intelligence Development & Architecture
 
@@ -1988,37 +1994,37 @@ The mentioned URL name is linked to the following URL path. As seen below, the `
 @login_required(login_url="login-view")
 ```
 
-- This decorator ensures that only authenticated users can access the `digit_delete` view.  
+- This decorator ensures that only authenticated users can access the `digit_delete` view.
 - If a user is not logged in, they will be redirected to the **login page** (specified by `"login-view"`).
 
 ```python
 def digit_delete(request, pk):
 ```
 
-- Defines the `digit_delete` function, which handles the deletion of an **OCR object model**.  
+- Defines the `digit_delete` function, which handles the deletion of an **OCR object model**.
 - It accepts:
-  - `request`: The HTTP request from the user.  
+  - `request`: The HTTP request from the user.
   - `pk`: The **primary key** of the object to be deleted (used to identify the specific OCR object).
 
 ```python
 digit = DigitPic.objects.get(id = pk)
 ```
 
-- Retrieves the `DigitPic` object from the database using its **primary key (id)**.  
+- Retrieves the `DigitPic` object from the database using its **primary key (id)**.
 - This object represents the OCR model that the user wants to delete.
 
 ```python
 if request.GET.get("pk") == None:
 ```
 
-- Checks if a query parameter `pk` exists in the **GET request**.  
+- Checks if a query parameter `pk` exists in the **GET request**.
 - If `pk` is **not provided**, the view assumes the user is navigating **back to a previous page** without specifying an object ID.
 
 ```python
 back = reverse(request.GET.get("back"))
 ```
 
-- If there is no `pk` in the GET request, this line dynamically generates a **URL** for the previous page (using the `back` parameter in the request).  
+- If there is no `pk` in the GET request, this line dynamically generates a **URL** for the previous page (using the `back` parameter in the request).
 - The `reverse()` function constructs the URL based on the **provided view name**.
 
 ```python
@@ -2026,7 +2032,7 @@ else:
     back = reverse(request.GET.get("back"), kwargs={'pk': request.GET.get("pk")})
 ```
 
-- If a `pk` is present in the GET request, the `back` URL will include the **specific object ID** in its parameters.  
+- If a `pk` is present in the GET request, the `back` URL will include the **specific object ID** in its parameters.
 - This ensures that when the user navigates back, the previous view knows which **OCR object model** was referenced.
 
 ```python
@@ -2039,21 +2045,21 @@ if request.method == "POST":
 digit.delete()
 ```
 
-- Deletes the retrieved `DigitPic` object from the database.  
+- Deletes the retrieved `DigitPic` object from the database.
 - This **removes the OCR object model permanently**.
 
 ```python
 messages.success(request, "Object was successfully deleted.")
 ```
 
-- After deletion, a success message is sent to the user indicating that the object was deleted successfully.  
+- After deletion, a success message is sent to the user indicating that the object was deleted successfully.
 - This message will be displayed in the UI using Django’s **message framework**.
 
 ```python
 return redirect("digit-detector-welcome")
 ```
 
-- After the object is deleted, the user is redirected to the **digit detector welcome page**.  
+- After the object is deleted, the user is redirected to the **digit detector welcome page**.
 - This ensures a smooth user experience after deletion.
 
 ```python
@@ -2063,23 +2069,23 @@ context = {
 }
 ```
 
-- Creates a context dictionary that passes data to the **delete confirmation template**:  
-  - `"object"`: Contains the **title** of the OCR model being deleted (used for confirmation).  
+- Creates a context dictionary that passes data to the **delete confirmation template**:
+  - `"object"`: Contains the **title** of the OCR model being deleted (used for confirmation).
   - `"back"`: Holds the **URL** to return to the previous page.
 
 ```python
 return render(request, "delete-object-model.html", context)
 ```
 
-- Renders the **delete confirmation page** (`delete-object-model.html`) with the provided context.  
+- Renders the **delete confirmation page** (`delete-object-model.html`) with the provided context.
 - This page asks the user for **final confirmation** before deletion.
 
 📌 **Summary of Functionality:**
 
-- Ensures only **authenticated users** can delete OCR models.  
-- Fetches the **OCR object** using its primary key (`pk`).  
-- Checks if a **previous page URL** exists to return after deletion.  
-- If the request method is **POST**, the object is **deleted**, a success message is displayed, and the user is redirected.  
+- Ensures only **authenticated users** can delete OCR models.
+- Fetches the **OCR object** using its primary key (`pk`).
+- Checks if a **previous page URL** exists to return after deletion.
+- If the request method is **POST**, the object is **deleted**, a success message is displayed, and the user is redirected.
 - Otherwise, it renders the **delete confirmation page** where the user can confirm or cancel the deletion.
 
 The complete code for the mentioned view is shown below at a glance:
@@ -2089,30 +2095,44 @@ The complete code for the mentioned view is shown below at a glance:
 
 @login_required(login_url="login-view")
 def digit_delete(request, pk):
-    
+  
     digit = DigitPic.objects.get(id = pk)
-    
+  
     if request.GET.get("pk") == None:
         back = reverse(request.GET.get("back"))
     else:
         back = reverse(request.GET.get("back"), kwargs={'pk': request.GET.get("pk")})
-    
+  
     if request.method == "POST":
         digit.delete()
         messages.success(request, "Object was successfully deleted.")
         return redirect("digit-detector-welcome")
-    
+  
     context = {
         "object": digit.title,
         "back": back,
     }
-    
+  
     return render(request, "delete-object-model.html", context)
 
 ...
 ```
 
-TODO : Till adding the presentation video of the OCR creation and updating and deleting.
+###### 🎥 Finalized OCR Functionality Demonstration Videos 🎥
+
+To witness the real-time functionality of Assisti's OCR application, the following videos provide a demonstration of its capabilities. These recordings serve as verification of my expertise in developing and engineering artificial intelligence projects. They showcase the seamless integration of AI technologies into a professional software solution. By reviewing these demonstrations, viewers can gain insight into the efficiency and accuracy of the OCR system. This highlights my proficiency in both AI model development and full-stack implementation.
+
+- Assisti OCR Application (Desktop Web View)
+
+https://github.com/user-attachments/assets/ad5956e4-26dd-44c4-8449-2699b88a6ee2
+
+- Assisti OCR Application (Mobile Web View)
+
+https://github.com/user-attachments/assets/17799847-9e5c-4395-95fb-52e4402ddd8e
+
+##### Road Sign Recognision
+
+Not added yet.
 
 ### Testing
 
