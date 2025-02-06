@@ -52,6 +52,9 @@ dedication to creating impactful digital solutions 😉.
           - [Password Reset](#password-reset)
         - [📱 Native Mobile Application Walkthroughs](#-native-mobile-application-walkthroughs)
       - [Architecture](#architecture)
+        - [🌐 Web 🌐](#-web-)
+          - [Landing Page](#landing-page)
+          - [Categories Page](#categories-page)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -2456,7 +2459,35 @@ Not added yet.
 
 ###### Landing Page
 
-TODO: Till recording the landing page and adding its video to the documentation.
+**Professional E-Commerce Website – Landing Page Development**  
+
+Designed and developed a **high-performance, visually stunning, and user-friendly** landing page for a **fully functional e-commerce platform**. This landing page serves as the gateway to a seamless shopping experience, combining **modern UI/UX principles** with **robust backend functionality** to optimize user engagement and conversion rates.  
+
+📌 **Front-End Highlights:**  
+✔ **Sleek & Responsive Design** – Built with **HTML, CSS, Bootstrap 5, and JavaScript**, ensuring pixel-perfect responsiveness across **desktops, tablets, and mobile devices**.  
+✔ **Engaging UI/UX** – Interactive elements, smooth animations, and intuitive navigation enhance user experience.  
+✔ **Optimized Performance** – Minimized load times with efficient asset management and lazy loading techniques.  
+✔ **Dynamic Components** – Integrated features such as **product carousels, category highlights, and call-to-action (CTA) buttons** to improve conversions.  
+
+📌 **Back-End Development:**  
+✔ **Secure & Scalable** – Developed using **Django (Python)** with a **robust database architecture (PostgreSQL/MySQL)** for seamless product and user management.  
+✔ **User Authentication** – Integrated **secure login & signup system** with password encryption and social authentication.  
+✔ **Dynamic Content Management** – Implemented an **admin dashboard** for effortless content updates.  
+✔ **SEO-Friendly & Analytics Integration** – Ensured search engine visibility and real-time user tracking with **Google Analytics**.  
+
+This **landing page is a core element** of the full e-commerce platform, built with a **strong emphasis on performance, usability, and security** to provide an **exceptional shopping experience**.
+
+- Landing Page (Desktop Web View)
+
+https://github.com/user-attachments/assets/9a902845-3cb0-4dce-84d8-17fc16f822aa
+
+- Landing Page (Mobile Web View)
+
+https://github.com/user-attachments/assets/4fd3497f-2d17-4801-9366-8dab34062178
+
+###### Categories Page
+
+TODO : Designing and developing the categories web page of the EShoppify page.
 
 ### Testing
 
