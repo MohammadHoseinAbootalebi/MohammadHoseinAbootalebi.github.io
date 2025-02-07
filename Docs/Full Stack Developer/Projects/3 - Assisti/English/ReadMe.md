@@ -36,6 +36,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
       - [Authentication \& Authorization](#authentication--authorization)
         - [Assisti Auth User Database Model](#assisti-auth-user-database-model)
         - [Two-Factor Authentication System](#two-factor-authentication-system)
+        - [Authentication and Authorization](#authentication-and-authorization)
       - [Artificial Intelligence Development \& Architecture](#artificial-intelligence-development--architecture)
         - [Overview Workflow](#overview-workflow)
           - [Landing](#landing)
@@ -701,9 +702,68 @@ As demonstrated in the Assisti code above, the `AssistIUser`, a customized Djang
 
 To enhance the security of user authentication in the Assisti project, an optional two-factor authentication (2FA) method has been implemented. This approach involves generating a fixed-length random code, which is sent to the user's email address. During the login process, after the user enters his/her email, they are prompted to provide the two-factor authentication code received in their inbox. This additional step ensures that only the rightful owner of the email account can access the system, adding a significant layer of protection to the login process.
 
-##### Logging In Procedure
+##### Authentication and Authorization
 
-TODO : Till explaining the loggin in procedure in front-end and backend.
+The most important aspect of the Assisti professional AI-driven project is its authentication and authorization, which serve as its security shield. In this section, user account creation and, most importantly, user account validation will be discussed. With a professionally developed backend, only valid users can gain access and have the opportunity to use Assisti's features and applications. The following explains this procedure, starting with the login process, which is exclusively for users with a valid account. To log in to Assisti in the web view, users should click or tap the 'Login' button, as shown below.
+
+- "Login" Button on the Landing Page (Desktop Web View)
+
+![Login Button on the Landing Page | Desktop Web View](../Assets/Authentication%20and%20Authorization/Landing%20Page%20--%20Assisti%20-%20Web%20--%20Desktop.png)
+
+- "Login" Button on the Landing Page (Mobile Web View and Closed Top Appbar)
+
+![Login Button on the Landing Page (Mobile Web View and Closed Top Appbar)](../Assets/Authentication%20and%20Authorization/Landing%20Page%20--%20Assisti%20-%20Web%20--%20Mobile%20--%20Not%20Login%20--%20Closed%20Appbar.png)
+
+- "Login" Button on the Landing Page (Mobile Web View and Opened Top Appbar)
+
+![Login Button on the Landing Page (Mobile Web View and Opened Top Appbar)](../Assets/Authentication%20and%20Authorization/Landing%20Page%20--%20Assisti%20-%20Web%20--%20Mobile%20--%20Not%20Login%20--%20Opened%20Appbar.png)
+
+By clicking or tapping the 'Login' button, the login-view URL name will be requested via an HTTP request. The anchor link for the 'Login' button is shown below.
+
+```html
+{% raw %}
+
+...
+
+<li 
+  class="nav-item d-xxl-flex justify-content-xxl-center">
+    <a 
+      class="btn btn-primary d-xxl-flex align-items-xxl-center ms-md-2 mt-2 mb-2 pt-pb-1 pe-3 ps-3 w-100 MuhammadHusainAbootalebi-navbar-button text-white" 
+      role="button" 
+      href="{% url 'login-view' %}" 
+      style="background: rgb(0,8,20);border-style: none;font-family: Roboto, sans-serif;">
+        Login
+    </a>
+</li>
+
+...
+
+{% endraw %}
+```
+
+The mentioned URL name, login-view, is linked to the login_view view—which will be explained next—in the following URL pattern:
+
+```python
+...
+
+    path('login/', views.login_view, name='login-view'),
+
+...
+```
+
+After clicking or tapping the 'Login' button, the user will be navigated to the login web view, which appears as follows:
+
+- Login Form (Desktop Web View)
+
+![Login Form (Desktop Web View)](../Assets/Authentication%20and%20Authorization/Login%20Form%20--%20Desktop%20Web%20View.png)
+
+- Login Form (Desktop Web View)
+
+![Login Form (Desktop Web View)](../Assets/Authentication%20and%20Authorization/Login%20Form%20--%20Mobile%20Web%20View.png)
+
+The login view above is linked to the `login_view` function, which is explained next.
+
+TODO : Till explaining the `login_view` view line by line.
 
 #### Artificial Intelligence Development & Architecture
 
