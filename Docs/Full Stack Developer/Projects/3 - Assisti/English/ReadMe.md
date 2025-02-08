@@ -48,7 +48,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
           - [🎥 Finalized OCR Functionality Demonstration Videos 🎥](#-finalized-ocr-functionality-demonstration-videos-)
         - [Road Sign Recognision](#road-sign-recognision)
     - [Testing](#testing)
@@ -763,7 +763,152 @@ After clicking or tapping the 'Login' button, the user will be navigated to the 
 
 The login view above is linked to the `login_view` function, which is explained next.
 
-TODO : Till explaining the `login_view` view line by line.
+1. **`def login_view(request):`**  
+   - Defines the `login_view` function, which handles user login requests.
+
+2. **`if request.method == 'POST':`**  
+   - Checks if the request method is `POST`, meaning the user has submitted the login form.
+
+3. **`email = request.POST['email']`**  
+   - Retrieves the email entered by the user from the submitted form data.
+
+4. **`password = request.POST['password']`**  
+   - Retrieves the password entered by the user from the submitted form data.
+
+5. **`user = authenticate(request, email=email, password=password)`**  
+   - Calls Django’s `authenticate` function to verify if the provided credentials match a registered user.
+
+6. **`if user is not None:`**  
+   - Checks if authentication was successful. If `user` is not `None`, it means valid credentials were provided.
+
+7. **`user.generate_two_factor_code()`**  
+   - Calls a method on the user model to generate a two-factor authentication (2FA) code.
+
+8. **`send_mail(...`**  
+   - Sends an email containing the generated 2FA code to the user’s registered email.  
+
+   - **`subject='Your Two-Factor Code',`**  
+     - Sets the email subject as "Your Two-Factor Code."
+
+   - **`message=f"Your code is {user.two_factor_code}",`**  
+     - Provides a plain text version of the message containing the 2FA code.
+
+   - **`html_message=f""" ... """`**  
+     - Defines an HTML-styled email message with an eye-catching design.
+
+     - **Inline styles and Google Fonts:**  
+       - The email body has a yellow background (`#FFD60A`), center alignment, and padding.  
+       - Uses Google Fonts (`Roboto`) for a professional look.  
+
+     - **Main contents of the email:**  
+       - A heading (`Your Two-Factor Authentication Code`).  
+       - A styled block displaying the 2FA code.  
+       - A note informing the user that the code will expire soon.
+
+   - **`from_email=settings.EMAIL_HOST_USER,`**  
+     - Specifies the sender's email, retrieved from Django’s settings.
+
+   - **`recipient_list=[user.email],`**  
+     - Sends the email to the authenticated user’s email address.
+
+   - **`fail_silently=False,`**  
+     - Ensures that an error is raised if the email fails to send.
+
+9. **`return redirect('verify_2fa-view', user_id=user.id)`**  
+   - Redirects the user to a 2FA verification page after receiving the code.
+
+10. **`else:`**  
+    - Executes if authentication fails (invalid email or password).
+
+11. **`messages.error(request, "Check your credentials and try again.")`**  
+    - Displays an error message prompting the user to verify their credentials.
+
+12. **`return redirect('login-view')`**  
+    - Redirects the user back to the login page if authentication fails.
+
+13. **`return render(request, 'account/login.html')`**  
+    - If the request method is not `POST`, renders the login page (`login.html`) so users can enter their credentials.
+
+The total `login_view` in a glance likes below:
+
+```python
+...
+
+def login_view(request):
+    if request.method == 'POST':
+        email = request.POST['email']
+        password = request.POST['password']
+
+        # Authenticate user
+        user = authenticate(request, email=email, password=password)
+        if user is not None:
+            # Generate and send 2FA code
+            user.generate_two_factor_code()
+            send_mail(
+                subject='Your Two-Factor Code',
+                message=f"Your code is {user.two_factor_code}",
+                html_message=f"""
+                <html>
+                    <body style="background-color: #FFD60A; text-align: center; padding: 20px;border-radius:20px;">
+
+                        <!-- Import Google Fonts -->
+                        <style>
+                            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+                        </style>
+
+                        <h1 style="font-family: 'Roboto', Arial, sans-serif; color: black;">Your Two-Factor Authentication Code</h1>
+                        <p style="color: black;">Use the code below to complete your login:</p>
+                        <div style="background-color: black; color: white; display: inline-block; padding: 10px; margin-top: 20px;border-radius:15px;">
+                            <span style="font-size: 24px;">{user.two_factor_code}</span>
+                        </div>
+                        <p style="color: black; margin-top: 20px;">This code will expire shortly.</p>
+                    </body>
+                </html>
+                """,
+                from_email=settings.EMAIL_HOST_USER,  # Replace with your email sender
+                recipient_list=[user.email],
+                fail_silently=False,
+            )
+            # Redirect to the 2FA verification page
+            return redirect('verify_2fa-view', user_id=user.id)
+        else:
+            messages.error(request, "Check your credintials and try again.")
+            return redirect('login-view')
+
+    return render(request, 'account/login.html')
+
+...
+```
+
+After the login credentials are entered and the 'Login' button is clicked or tapped, the user will be navigated to the Two-Factor Authentication web page, which looks like the one below.
+
+- Two-Factor Authentication Screen (Laptop Web View)
+
+![Two-Factor Authentication | Web View | Laptop](../Assets/Authentication%20and%20Authorization/Two-Factor%20Authentication%20-%20Web%20-%20Desktop.png)
+
+- Two-Factor Authentication Screen (Mobile Web View)
+
+![Two-Factor Authentication | Web View | Mobile](../Assets/Authentication%20and%20Authorization/Two-Factor%20Authentication%20-%20Web%20-%20Mobile.png)
+
+At this stage of the authentication process, a one-time code will be sent to the entered email, which may look like the following:
+
+- Email Containing the Sent Two-Factor Authentication Code
+
+![Email Containing the Sent Two-Factor Authentication Code](../Assets/Authentication%20and%20Authorization/Sent%20Two-Factor%20Authentication%20Email.png)
+
+In the final step, after successfully entering the two-factor authentication code, the user will be navigated to the Assisti landing page, which looks like the following:
+
+- Assisti Landing Screen (Desktop Web View)
+
+![Assisti Landing Screen (Desktop Web View)](../Assets/Authentication%20and%20Authorization/Assisti%20Landing%20Screen%20--%20Logged%20In%20-%20Desktop.png)
+
+- Assisti Landing Screen (Mobile Web View)
+
+![Assisti Landing Screen (Mobile Web View)](../Assets/Authentication%20and%20Authorization/Assisti%20Landing%20Screen%20--%20Logged%20In%20-%20Mobile.png)
+
+TODO : Adding the login process in Assisti in real time by recording a video.
+
+TODO : Explaining the backend customized two-factor sender functionality.
 
 #### Artificial Intelligence Development & Architecture
 
