@@ -8,7 +8,7 @@ This project is a social application designed to connect developers with each ot
 
 ## Table of Contents
 
-- [🌴💻 Devland Test 💻🌴](#-devland-test-)
+- [🌴💻 Devland 💻🌴](#-devland-)
   - [Table of Contents](#table-of-contents)
   - [Design](#design)
     - [User Research](#user-research)
@@ -37,6 +37,8 @@ This project is a social application designed to connect developers with each ot
     - [Prototyping](#prototyping)
       - [Splash Screen Prototype](#splash-screen-prototype)
       - [Authentication Screen Prototype](#authentication-screen-prototype)
+      - [Account Preferences and Optional Screens Prototype](#account-preferences-and-optional-screens-prototype)
+      - [Profile Screen Prototype](#profile-screen-prototype)
   - [Development](#development)
 
 ## Design
@@ -369,9 +371,15 @@ This section is under preparation.
 
 https://github.com/user-attachments/assets/7685e2df-54ba-4a05-8235-933a52271917
 
-#### Account Preferences Prototype
+#### Account Preferences and Optional Screens Prototype
 
-TODO : Till working on preparing the account preferences raw video in premiere pro.
+This section is under preparation.
+
+https://github.com/user-attachments/assets/a183e8c8-803e-42c3-941e-9b87bc064683
+
+#### Profile Screen Prototype
+
+TODO : Till premiering the video of profile screens in the premiere pro.
 
 ## Development
 
