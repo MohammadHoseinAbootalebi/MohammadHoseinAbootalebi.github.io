@@ -48,7 +48,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
           - [🎥 Finalized OCR Functionality Demonstration Videos 🎥](#-finalized-ocr-functionality-demonstration-videos-)
         - [Road Sign Recognision](#road-sign-recognision)
     - [Testing](#testing)
@@ -702,7 +702,11 @@ As demonstrated in the Assisti code above, the `AssistIUser`, a customized Djang
 
 To enhance the security of user authentication in the Assisti project, an optional two-factor authentication (2FA) method has been implemented. This approach involves generating a fixed-length random code, which is sent to the user's email address. During the login process, after the user enters his/her email, they are prompted to provide the two-factor authentication code received in their inbox. This additional step ensures that only the rightful owner of the email account can access the system, adding a significant layer of protection to the login process.
 
-##### Authentication and Authorization
+###### Backend of Two-Factor Authentication System
+
+TODO : Explaining the backend customized two-factor sender functionality.
+
+##### Login Process
 
 The most important aspect of the Assisti professional AI-driven project is its authentication and authorization, which serve as its security shield. In this section, user account creation and, most importantly, user account validation will be discussed. With a professionally developed backend, only valid users can gain access and have the opportunity to use Assisti's features and applications. The following explains this procedure, starting with the login process, which is exclusively for users with a valid account. To log in to Assisti in the web view, users should click or tap the 'Login' button, as shown below.
 
@@ -763,70 +767,71 @@ After clicking or tapping the 'Login' button, the user will be navigated to the 
 
 The login view above is linked to the `login_view` function, which is explained next.
 
-1. **`def login_view(request):`**  
+1. **`def login_view(request):`**
+
    - Defines the `login_view` function, which handles user login requests.
+2. **`if request.method == 'POST':`**
 
-2. **`if request.method == 'POST':`**  
    - Checks if the request method is `POST`, meaning the user has submitted the login form.
+3. **`email = request.POST['email']`**
 
-3. **`email = request.POST['email']`**  
    - Retrieves the email entered by the user from the submitted form data.
+4. **`password = request.POST['password']`**
 
-4. **`password = request.POST['password']`**  
    - Retrieves the password entered by the user from the submitted form data.
+5. **`user = authenticate(request, email=email, password=password)`**
 
-5. **`user = authenticate(request, email=email, password=password)`**  
    - Calls Django’s `authenticate` function to verify if the provided credentials match a registered user.
+6. **`if user is not None:`**
 
-6. **`if user is not None:`**  
    - Checks if authentication was successful. If `user` is not `None`, it means valid credentials were provided.
+7. **`user.generate_two_factor_code()`**
 
-7. **`user.generate_two_factor_code()`**  
    - Calls a method on the user model to generate a two-factor authentication (2FA) code.
+8. **`send_mail(...`**
 
-8. **`send_mail(...`**  
-   - Sends an email containing the generated 2FA code to the user’s registered email.  
+   - Sends an email containing the generated 2FA code to the user’s registered email.
+   - **`subject='Your Two-Factor Code',`**
 
-   - **`subject='Your Two-Factor Code',`**  
      - Sets the email subject as "Your Two-Factor Code."
+   - **`message=f"Your code is {user.two_factor_code}",`**
 
-   - **`message=f"Your code is {user.two_factor_code}",`**  
      - Provides a plain text version of the message containing the 2FA code.
+   - **`html_message=f""" ... """`**
 
-   - **`html_message=f""" ... """`**  
      - Defines an HTML-styled email message with an eye-catching design.
+     - **Inline styles and Google Fonts:**
 
-     - **Inline styles and Google Fonts:**  
-       - The email body has a yellow background (`#FFD60A`), center alignment, and padding.  
-       - Uses Google Fonts (`Roboto`) for a professional look.  
+       - The email body has a yellow background (`#FFD60A`), center alignment, and padding.
+       - Uses Google Fonts (`Roboto`) for a professional look.
+     - **Main contents of the email:**
 
-     - **Main contents of the email:**  
-       - A heading (`Your Two-Factor Authentication Code`).  
-       - A styled block displaying the 2FA code.  
+       - A heading (`Your Two-Factor Authentication Code`).
+       - A styled block displaying the 2FA code.
        - A note informing the user that the code will expire soon.
+   - **`from_email=settings.EMAIL_HOST_USER,`**
 
-   - **`from_email=settings.EMAIL_HOST_USER,`**  
      - Specifies the sender's email, retrieved from Django’s settings.
+   - **`recipient_list=[user.email],`**
 
-   - **`recipient_list=[user.email],`**  
      - Sends the email to the authenticated user’s email address.
+   - **`fail_silently=False,`**
 
-   - **`fail_silently=False,`**  
      - Ensures that an error is raised if the email fails to send.
+9. **`return redirect('verify_2fa-view', user_id=user.id)`**
 
-9. **`return redirect('verify_2fa-view', user_id=user.id)`**  
    - Redirects the user to a 2FA verification page after receiving the code.
+10. **`else:`**
 
-10. **`else:`**  
     - Executes if authentication fails (invalid email or password).
+11. **`messages.error(request, "Check your credentials and try again.")`**
 
-11. **`messages.error(request, "Check your credentials and try again.")`**  
     - Displays an error message prompting the user to verify their credentials.
+12. **`return redirect('login-view')`**
 
-12. **`return redirect('login-view')`**  
     - Redirects the user back to the login page if authentication fails.
+13. **`return render(request, 'account/login.html')`**
 
-13. **`return render(request, 'account/login.html')`**  
     - If the request method is not `POST`, renders the login page (`login.html`) so users can enter their credentials.
 
 The total `login_view` in a glance likes below:
@@ -906,9 +911,19 @@ In the final step, after successfully entering the two-factor authentication cod
 
 ![Assisti Landing Screen (Mobile Web View)](../Assets/Authentication%20and%20Authorization/Assisti%20Landing%20Screen%20--%20Logged%20In%20-%20Mobile.png)
 
-TODO : Adding the login process in Assisti in real time by recording a video.
+###### 🎥 Login Process Videos 🎥
 
-TODO : Explaining the backend customized two-factor sender functionality.
+- Login Process (Desktop Web View)
+
+https://github.com/user-attachments/assets/2565027f-d083-4e4b-9a90-16935b4e3cd4
+
+- Login Process (Mobile Web View)
+
+https://github.com/user-attachments/assets/389839fc-b4b5-444d-9947-3688c9b07782
+
+##### Signup Process
+
+TODO : Till Adding the explanation of the signup process.
 
 #### Artificial Intelligence Development & Architecture
 
