@@ -706,6 +706,8 @@ To enhance the security of user authentication in the Assisti project, an option
 
 TODO : Explaining the backend customized two-factor sender functionality.
 
+To explain the backend side of the two-factor authentication system which is designed in the professional AI-driven Assisti project, for each Assisti user there is a field which stores a two-factor auth code.
+
 ##### Login Process
 
 The most important aspect of the Assisti professional AI-driven project is its authentication and authorization, which serve as its security shield. In this section, user account creation and, most importantly, user account validation will be discussed. With a professionally developed backend, only valid users can gain access and have the opportunity to use Assisti's features and applications. The following explains this procedure, starting with the login process, which is exclusively for users with a valid account. To log in to Assisti in the web view, users should click or tap the 'Login' button, as shown below.
