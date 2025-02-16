@@ -36,7 +36,10 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
       - [Authentication \& Authorization](#authentication--authorization)
         - [Assisti Auth User Database Model](#assisti-auth-user-database-model)
         - [Two-Factor Authentication System](#two-factor-authentication-system)
-        - [Authentication and Authorization](#authentication-and-authorization)
+          - [Backend of Two-Factor Authentication System](#backend-of-two-factor-authentication-system)
+        - [Login Process](#login-process)
+          - [🎥 Login Process Videos 🎥](#-login-process-videos-)
+        - [Signup Process](#signup-process)
       - [Artificial Intelligence Development \& Architecture](#artificial-intelligence-development--architecture)
         - [Overview Workflow](#overview-workflow)
           - [Landing](#landing)
@@ -48,7 +51,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
           - [🎥 Finalized OCR Functionality Demonstration Videos 🎥](#-finalized-ocr-functionality-demonstration-videos-)
         - [Road Sign Recognision](#road-sign-recognision)
     - [Testing](#testing)
@@ -704,9 +707,18 @@ To enhance the security of user authentication in the Assisti project, an option
 
 ###### Backend of Two-Factor Authentication System
 
-TODO : Explaining the backend customized two-factor sender functionality.
+To explain the backend implementation of the two-factor authentication system in the AI-driven **Assisti** project, each user has a database field that stores a two-factor authentication code, as shown below:  
 
-To explain the backend side of the two-factor authentication system which is designed in the professional AI-driven Assisti project, for each Assisti user there is a field which stores a two-factor auth code.
+```python
+...
+    # Two-factor authentication code field
+    two_factor_code = models.CharField(max_length=6, blank=True, null=True)
+...
+```
+
+This field stores the authentication code generated during login. When a user enters their email and password as credentials, a random six-digit code is generated and sent via email using **Gmail**, which serves as the backend email sender for **Assisti**. The email is sent using the `send_mail` method from the `django.core.mail` package.  
+
+After the email is sent, the user is redirected to the **Two-Factor Authentication** view and its corresponding template. Upon entering the received code in the provided form, the code is validated by comparing the user’s input (retrieved from the `POST` request) with the stored code in the database. If the validation is successful, the user is logged in using Django’s `login` method from the `django.contrib.auth` package and then redirected to the **Assisti** landing page.  
 
 ##### Login Process
 
@@ -925,7 +937,160 @@ https://github.com/user-attachments/assets/389839fc-b4b5-444d-9947-3688c9b07782
 
 ##### Signup Process
 
-TODO : Till Adding the explanation of the signup process.
+During the signup process, a new user account is created. This step is intended for users who do not already have an existing account. By completing the signup, they gain access to the platform as registered Assisti users. The system ensures that only new users can proceed with this process to prevent duplicate accounts. Once registered, they can log in and utilize the platform’s features. This marks the beginning of their experience as authenticated Assisti users.
+
+To navigate to the Signup form or web page from the landing page shown below, the "Signup" button should be clicked or tapped.
+
+- "Signup" Button on the Landing Page (Desktop Web View)
+
+![Signup Button on the Landing Page | Desktop Web View](../Assets/Authentication%20and%20Authorization/Landing%20Page%20--%20Assisti%20-%20Web%20--%20Desktop.png)
+
+- "Signup" Button on the Landing Page (Mobile Web View and Closed Top Appbar)
+
+![Signup Button on the Landing Page (Mobile Web View and Closed Top Appbar)](../Assets/Authentication%20and%20Authorization/Landing%20Page%20--%20Assisti%20-%20Web%20--%20Mobile%20--%20Not%20Login%20--%20Closed%20Appbar.png)
+
+- "Signup" Button on the Landing Page (Mobile Web View and Opened Top Appbar)
+
+![Signup Button on the Landing Page (Mobile Web View and Opened Top Appbar)](../Assets/Authentication%20and%20Authorization/Landing%20Page%20--%20Assisti%20-%20Web%20--%20Mobile%20--%20Not%20Login%20--%20Opened%20Appbar.png)
+
+By clicking or tapping on the "Signup" button, the URL below will be requested through HTTP.
+
+```HTML
+{% raw %}
+
+...
+
+<li 
+  class="nav-item d-xxl-flex justify-content-xxl-center me-xl-5">
+  <a
+    class="btn d-xxl-flex align-items-xxl-center mt-2 mb-2 pt-pb-1 pe-3 ps-3 w-100 MuhammadHusainAbootalebi-navbar-button"
+    role="button" 
+    href="{% url 'register-view' %}"
+    style="background: rgba(255,255,255,0);color: rgb(0,8,20);font-family: Roboto, sans-serif;border-width: 1.8px;border-color: #000814;">
+      Signup
+  </a>
+</li>
+
+...
+
+{% endraw %}
+```
+
+As seen above, the "Signup" button is linked to the `register-view` URL name, which has the following URL pattern:
+
+```python
+  ...
+
+  path("register/", views.registerView, name="register-view"),
+
+  ...
+```
+
+As seen above, the URL pattern is linked to `views.registerView`, whose backend implementation is shown below:
+
+```python
+def registerView(request):
+```
+
+- Defines a function named `registerView`, which handles user registration. It takes `request` as an argument to process HTTP requests.
+
+```python
+    form = AssistIUserCreationForm()
+```
+
+- Initializes an empty registration form using the `AssistIUserCreationForm` custom form class. This form will be displayed when the page first loads.  
+
+```python
+    if request.method == 'POST':
+```
+
+- Checks if the form submission method is `POST`, meaning the user has submitted the registration form.  
+
+```python
+        form = AssistIUserCreationForm(request.POST)
+```
+
+- Creates a new instance of `AssistIUserCreationForm`, now populated with the data submitted by the user.  
+
+```python
+        if form.is_valid():
+```
+
+- Validates the form data to ensure it meets the defined requirements (e.g., valid email, password strength, unique username).  
+
+```python
+            # Save the new user
+            form.save()
+```
+
+- Saves the new user to the database, officially creating their account.
+
+```python
+            # Provide a success message
+            messages.success(request, 'Account created successfully.')
+```
+
+- Displays a success message to inform the user that their account has been created successfully.  
+
+```python
+            # Redirect to the login page or any other page
+            return redirect('login-view')  # Adjust to your actual login URL name
+```
+
+- Redirects the user to the login page (`login-view`), ensuring they can log in immediately after signing up.  
+
+```python
+    else:
+        form = AssistIUserCreationForm()
+```
+
+- If the request is not a `POST` request (meaning the user is just visiting the page), an empty form instance is created and displayed.  
+
+```python
+    context = {
+        'form': form
+    }
+```
+
+- Creates a `context` dictionary that contains the form, which will be passed to the template for rendering.
+
+```python
+    return render(request, 'account/register.html', context)
+```
+
+- Renders the `register.html` template, passing in the form so users can fill it out and register.
+
+The entire code at a glance looks like the one below:
+
+```python
+...
+
+def registerView(request):
+    
+    form = AssistIUserCreationForm()
+    
+    if request.method == 'POST':
+        form = AssistIUserCreationForm(request.POST)
+        if form.is_valid():
+            # Save the new user
+            form.save()
+            # Provide a success message
+            messages.success(request, 'Account created successfully.')
+            # Redirect to the login page or any other page
+            return redirect('login-view')  # Adjust to your actual login URL name
+    else:
+        form = AssistIUserCreationForm()
+        
+    context = {
+        'form': form
+    }
+    
+    return render(request, 'account/register.html', context)
+
+...
+```
+
+TODO : Adding the Signup screen screenshots.
 
 #### Artificial Intelligence Development & Architecture
 
