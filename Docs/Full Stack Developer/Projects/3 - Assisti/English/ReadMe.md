@@ -40,6 +40,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
         - [Login Process](#login-process)
           - [🎥 Login Process Videos 🎥](#-login-process-videos-)
         - [Signup Process](#signup-process)
+          - [🎥 Signup Process Videos 🎥](#-signup-process-videos-)
       - [Artificial Intelligence Development \& Architecture](#artificial-intelligence-development--architecture)
         - [Overview Workflow](#overview-workflow)
           - [Landing](#landing)
@@ -707,7 +708,7 @@ To enhance the security of user authentication in the Assisti project, an option
 
 ###### Backend of Two-Factor Authentication System
 
-To explain the backend implementation of the two-factor authentication system in the AI-driven **Assisti** project, each user has a database field that stores a two-factor authentication code, as shown below:  
+To explain the backend implementation of the two-factor authentication system in the AI-driven **Assisti** project, each user has a database field that stores a two-factor authentication code, as shown below:
 
 ```python
 ...
@@ -716,9 +717,9 @@ To explain the backend implementation of the two-factor authentication system in
 ...
 ```
 
-This field stores the authentication code generated during login. When a user enters their email and password as credentials, a random six-digit code is generated and sent via email using **Gmail**, which serves as the backend email sender for **Assisti**. The email is sent using the `send_mail` method from the `django.core.mail` package.  
+This field stores the authentication code generated during login. When a user enters their email and password as credentials, a random six-digit code is generated and sent via email using **Gmail**, which serves as the backend email sender for **Assisti**. The email is sent using the `send_mail` method from the `django.core.mail` package.
 
-After the email is sent, the user is redirected to the **Two-Factor Authentication** view and its corresponding template. Upon entering the received code in the provided form, the code is validated by comparing the user’s input (retrieved from the `POST` request) with the stored code in the database. If the validation is successful, the user is logged in using Django’s `login` method from the `django.contrib.auth` package and then redirected to the **Assisti** landing page.  
+After the email is sent, the user is redirected to the **Two-Factor Authentication** view and its corresponding template. Upon entering the received code in the provided form, the code is validated by comparing the user’s input (retrieved from the `POST` request) with the stored code in the database. If the validation is successful, the user is logged in using Django’s `login` method from the `django.contrib.auth` package and then redirected to the **Assisti** landing page.
 
 ##### Login Process
 
@@ -998,25 +999,25 @@ def registerView(request):
     form = AssistIUserCreationForm()
 ```
 
-- Initializes an empty registration form using the `AssistIUserCreationForm` custom form class. This form will be displayed when the page first loads.  
+- Initializes an empty registration form using the `AssistIUserCreationForm` custom form class. This form will be displayed when the page first loads.
 
 ```python
     if request.method == 'POST':
 ```
 
-- Checks if the form submission method is `POST`, meaning the user has submitted the registration form.  
+- Checks if the form submission method is `POST`, meaning the user has submitted the registration form.
 
 ```python
         form = AssistIUserCreationForm(request.POST)
 ```
 
-- Creates a new instance of `AssistIUserCreationForm`, now populated with the data submitted by the user.  
+- Creates a new instance of `AssistIUserCreationForm`, now populated with the data submitted by the user.
 
 ```python
         if form.is_valid():
 ```
 
-- Validates the form data to ensure it meets the defined requirements (e.g., valid email, password strength, unique username).  
+- Validates the form data to ensure it meets the defined requirements (e.g., valid email, password strength, unique username).
 
 ```python
             # Save the new user
@@ -1030,21 +1031,21 @@ def registerView(request):
             messages.success(request, 'Account created successfully.')
 ```
 
-- Displays a success message to inform the user that their account has been created successfully.  
+- Displays a success message to inform the user that their account has been created successfully.
 
 ```python
             # Redirect to the login page or any other page
             return redirect('login-view')  # Adjust to your actual login URL name
 ```
 
-- Redirects the user to the login page (`login-view`), ensuring they can log in immediately after signing up.  
+- Redirects the user to the login page (`login-view`), ensuring they can log in immediately after signing up.
 
 ```python
     else:
         form = AssistIUserCreationForm()
 ```
 
-- If the request is not a `POST` request (meaning the user is just visiting the page), an empty form instance is created and displayed.  
+- If the request is not a `POST` request (meaning the user is just visiting the page), an empty form instance is created and displayed.
 
 ```python
     context = {
@@ -1066,9 +1067,9 @@ The entire code at a glance looks like the one below:
 ...
 
 def registerView(request):
-    
+  
     form = AssistIUserCreationForm()
-    
+  
     if request.method == 'POST':
         form = AssistIUserCreationForm(request.POST)
         if form.is_valid():
@@ -1080,17 +1081,43 @@ def registerView(request):
             return redirect('login-view')  # Adjust to your actual login URL name
     else:
         form = AssistIUserCreationForm()
-        
+  
     context = {
         'form': form
     }
-    
+  
     return render(request, 'account/register.html', context)
 
 ...
 ```
 
-TODO : Adding the Signup screen screenshots.
+After the user navigates to the registration template, a page like the one below can be seen on both large and small screens:
+
+- Signup Screen (Large Web View)
+
+![Signup Screen (Large Web View)](../Assets/Authentication%20and%20Authorization/Signup%20Screen%20-%20Large%20Web%20View.png)
+
+- Signup Screen (Small Web View)
+
+![Signup Screen (Small Web View)](../Assets/Authentication%20and%20Authorization/Signup%20Screen%20-%20Small%20Web%20View.png)
+
+After the account is successfully created, the user will be navigated to the login screen by the `return redirect('login-view')` code in order to use their new credentials to validate their account and authenticate in the Assisti authentication system. And a successful message will be shown to the user as shown below. Additionally an welcome email will be sent to the used email for registration for more user intractivity as whown below.
+
+- Account Creation Success Message (Large Screen View)
+
+![Account Creation Success Message (Large Screen View)](../Assets/Authentication%20and%20Authorization/User%20Registration%20Message%20Creation%20-%20Large%20Web%20View.png)
+
+- Account Creation Success Message (Small Screen View)
+
+![Account Creation Success Message (Small Screen View)](../Assets/Authentication%20and%20Authorization/User%20Registration%20Message%20Creation%20-%20Small%20Web%20View.png)
+
+The welcome email sent to the user looks like this:
+
+![Welcome Email](../Assets/Authentication%20and%20Authorization/Welcome%20Email.png)
+
+###### 🎥 Signup Process Videos 🎥
+
+TODO : Preparing the presentation video of account registration.
 
 #### Artificial Intelligence Development & Architecture
 
