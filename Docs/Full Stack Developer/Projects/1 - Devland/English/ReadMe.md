@@ -379,7 +379,13 @@ https://github.com/user-attachments/assets/a183e8c8-803e-42c3-941e-9b87bc064683
 
 #### Profile Screen Prototype
 
-TODO : Till premiering the video of profile screens in the premiere pro.
+This section is under preparation.
+
+https://github.com/user-attachments/assets/6edd265c-d902-453a-9890-c0f141d32e9c
+
+#### Developers Screen Prototype
+
+TODO : Till premiering the video of Developers screens in the premiere pro.
 
 ## Development
 
