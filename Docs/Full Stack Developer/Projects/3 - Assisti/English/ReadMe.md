@@ -1117,6 +1117,10 @@ The welcome email sent to the user looks like this:
 
 ###### 🎥 Signup Process Videos 🎥
 
+- Signup Process (Desktop Web View)
+
+https://github.com/user-attachments/assets/e20bccd2-cba1-4ae9-a2f8-323ca133a41d
+
 TODO : Preparing the presentation video of account registration.
 
 #### Artificial Intelligence Development & Architecture
