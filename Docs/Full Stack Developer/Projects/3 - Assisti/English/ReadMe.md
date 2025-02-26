@@ -52,7 +52,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
           - [🎥 Finalized OCR Functionality Demonstration Videos 🎥](#-finalized-ocr-functionality-demonstration-videos-)
         - [Road Sign Recognision](#road-sign-recognision)
     - [Testing](#testing)
@@ -1121,7 +1121,9 @@ The welcome email sent to the user looks like this:
 
 https://github.com/user-attachments/assets/e20bccd2-cba1-4ae9-a2f8-323ca133a41d
 
-TODO : Preparing the presentation video of account registration.
+- Signup Process (Mobile Web View)
+
+https://github.com/user-attachments/assets/96492157-fd29-4a34-8bb7-c3e8a40ae0c9
 
 #### Artificial Intelligence Development & Architecture
 
@@ -2550,7 +2552,7 @@ https://github.com/user-attachments/assets/17799847-9e5c-4395-95fb-52e4402ddd8e
 
 ##### Road Sign Recognision
 
-Not added yet.
+TODO : Processing to documenting the Road Sign Detection Assisti app.
 
 ### Testing
 
