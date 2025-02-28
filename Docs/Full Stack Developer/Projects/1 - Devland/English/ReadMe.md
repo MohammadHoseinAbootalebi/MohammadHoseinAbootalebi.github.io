@@ -35,10 +35,12 @@ This project is a social application designed to connect developers with each ot
         - [Messages Screen](#messages-screen)
         - [Options Screen](#options-screen)
     - [Prototyping](#prototyping)
-      - [Splash Screen Prototype](#splash-screen-prototype)
-      - [Authentication Screen Prototype](#authentication-screen-prototype)
-      - [Account Preferences and Optional Screens Prototype](#account-preferences-and-optional-screens-prototype)
-      - [Profile Screen Prototype](#profile-screen-prototype)
+      - [🎥 Splash Screen Prototype 🎥](#-splash-screen-prototype-)
+      - [🎥 Authentication Screen Prototype 🎥](#-authentication-screen-prototype-)
+      - [🎥 Account Preferences and Optional Screens Prototype 🎥](#-account-preferences-and-optional-screens-prototype-)
+      - [🎥 Profile Screen Prototype 🎥](#-profile-screen-prototype-)
+      - [🎥 Developers Screen Prototype 🎥](#-developers-screen-prototype-)
+      - [🎥 Projects Screen Prototype🎥](#-projects-screen-prototype)
   - [Development](#development)
 
 ## Design
@@ -359,33 +361,39 @@ The above messages highlight my expertise in user interface (UI) and user experi
 
 This section is under preparation.
 
-#### Splash Screen Prototype
+#### 🎥 Splash Screen Prototype 🎥
 
 This section is under preparation.
 
 https://github.com/user-attachments/assets/cabc921c-cba8-4c23-ac37-2dae0b8917fc
 
-#### Authentication Screen Prototype
+#### 🎥 Authentication Screen Prototype 🎥
 
 This section is under preparation.
 
 https://github.com/user-attachments/assets/7685e2df-54ba-4a05-8235-933a52271917
 
-#### Account Preferences and Optional Screens Prototype
+#### 🎥 Account Preferences and Optional Screens Prototype 🎥
 
 This section is under preparation.
 
 https://github.com/user-attachments/assets/a183e8c8-803e-42c3-941e-9b87bc064683
 
-#### Profile Screen Prototype
+#### 🎥 Profile Screen Prototype 🎥
 
 This section is under preparation.
 
 https://github.com/user-attachments/assets/6edd265c-d902-453a-9890-c0f141d32e9c
 
-#### Developers Screen Prototype
+#### 🎥 Developers Screen Prototype 🎥
 
-TODO : Till premiering the video of Developers screens in the premiere pro.
+This section is under preparation.
+
+https://github.com/user-attachments/assets/bd48d6bc-9f24-4b2b-9883-a67645edba7f
+
+#### 🎥 Projects Screen Prototype🎥
+
+TODO : Till premiering the video of Projects screens in the premiere pro.
 
 ## Development
 
