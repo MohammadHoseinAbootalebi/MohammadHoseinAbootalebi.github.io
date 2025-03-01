@@ -41,6 +41,7 @@ This project is a social application designed to connect developers with each ot
       - [🎥 Profile Screen Prototype 🎥](#-profile-screen-prototype-)
       - [🎥 Developers Screen Prototype 🎥](#-developers-screen-prototype-)
       - [🎥 Projects Screen Prototype🎥](#-projects-screen-prototype)
+      - [🎥 Messages Screen Prototype🎥](#-messages-screen-prototype)
   - [Development](#development)
 
 ## Design
@@ -393,7 +394,13 @@ https://github.com/user-attachments/assets/bd48d6bc-9f24-4b2b-9883-a67645edba7f
 
 #### 🎥 Projects Screen Prototype🎥
 
-TODO : Till premiering the video of Projects screens in the premiere pro.
+This section is under preparation.
+
+https://github.com/user-attachments/assets/c6a10ec8-2d14-4993-b8ed-8b5fae54103c
+
+#### 🎥 Messages Screen Prototype🎥
+
+TODO : Till premiering the video of Messages screens in the premiere pro.
 
 ## Development
 
