@@ -360,7 +360,7 @@ The above messages highlight my expertise in user interface (UI) and user experi
 
 ### Prototyping
 
-This section is under preparation.
+TODO : Adding the description of the Prototype section and its process.
 
 #### 🎥 Splash Screen Prototype 🎥
 
@@ -392,15 +392,17 @@ This section is under preparation.
 
 https://github.com/user-attachments/assets/bd48d6bc-9f24-4b2b-9883-a67645edba7f
 
-#### 🎥 Projects Screen Prototype🎥
+#### 🎥 Projects Screen Prototype 🎥
 
 This section is under preparation.
 
 https://github.com/user-attachments/assets/c6a10ec8-2d14-4993-b8ed-8b5fae54103c
 
-#### 🎥 Messages Screen Prototype🎥
+#### 🎥 Messages Screen Prototype 🎥
 
-TODO : Till premiering the video of Messages screens in the premiere pro.
+This section is under preparation.
+
+https://github.com/user-attachments/assets/5c48dd7b-53cd-4877-a83f-58121b0f4a4e
 
 ## Development
 
