@@ -360,50 +360,58 @@ The above messages highlight my expertise in user interface (UI) and user experi
 
 ### Prototyping
 
-TODO : Adding the description of the Prototype section and its process.
+In the **Prototype** stage of UI/UX design, I create interactive and high-fidelity representations of applications to visualize user flows, layouts, and key functionalities. Using tools like Figma, Adobe XD, or Axure, I build prototypes that simulate real-world interactions, enabling thorough usability testing and stakeholder feedback. This process helps refine concepts and user journeys before moving into full-scale development, ensuring a user-centered approach from the start.
+
+My expertise in prototyping includes both **low-fidelity** and **high-fidelity** designs, allowing for iterative testing and validation of ideas. I focus on accessibility, responsive design, and seamless user experiences, ensuring that every prototype aligns with business goals and user needs. By incorporating micro-interactions, transitions, and intuitive navigation, I create engaging prototypes that serve as a clear reference for front-end and back-end development.
+
+As a **full-stack developer**, I leverage prototypes to guide my own development process without requiring additional integration steps from other developers. By translating interactive designs into clean, maintainable code, I ensure that the final product closely aligns with the original vision. This approach reduces miscommunication, enhances efficiency, and results in user-friendly applications that meet both functional and aesthetic requirements.
 
 #### 🎥 Splash Screen Prototype 🎥
 
-This section is under preparation.
+This video showcases the prototype of the **Splash Screen**, highlighting my senior-level expertise in UI/UX design. With years of experience in crafting intuitive and visually compelling interfaces, I specialize in creating seamless user experiences that balance aesthetics with functionality. My design approach focuses on user engagement, accessibility, and responsive interactions, ensuring that every product delivers a smooth and immersive experience. From concept to execution, I prioritize user-centered design principles, leveraging modern tools and best practices to bring innovative digital experiences to life.
 
 https://github.com/user-attachments/assets/cabc921c-cba8-4c23-ac37-2dae0b8917fc
 
 #### 🎥 Authentication Screen Prototype 🎥
 
-This section is under preparation.
+This video showcases the prototype of the **Authentication Screens**.
 
 https://github.com/user-attachments/assets/7685e2df-54ba-4a05-8235-933a52271917
 
 #### 🎥 Account Preferences and Optional Screens Prototype 🎥
 
-This section is under preparation.
+This video showcases the prototype of the **Account Preferences and Optional Screens**.
 
 https://github.com/user-attachments/assets/a183e8c8-803e-42c3-941e-9b87bc064683
 
 #### 🎥 Profile Screen Prototype 🎥
 
-This section is under preparation.
+This video showcases the prototype of the **Profile Screen**.
 
 https://github.com/user-attachments/assets/6edd265c-d902-453a-9890-c0f141d32e9c
 
 #### 🎥 Developers Screen Prototype 🎥
 
-This section is under preparation.
+This video showcases the prototype of the **Developers** **Screen**.
 
 https://github.com/user-attachments/assets/bd48d6bc-9f24-4b2b-9883-a67645edba7f
 
 #### 🎥 Projects Screen Prototype 🎥
 
-This section is under preparation.
+This video showcases the prototype of the **Projects Screen**.
 
 https://github.com/user-attachments/assets/c6a10ec8-2d14-4993-b8ed-8b5fae54103c
 
 #### 🎥 Messages Screen Prototype 🎥
 
-This section is under preparation.
+This video showcases the prototype of the **Messages Screen**.
 
 https://github.com/user-attachments/assets/5c48dd7b-53cd-4877-a83f-58121b0f4a4e
 
 ## Development
 
-This section is under preparation.
+The next section outlines the development process of Devland, highlighting my expertise as a senior full-stack developer. It showcases my advanced skill set in designing, building, and optimizing scalable applications.
+
+### 📱 Mobile Native Devland Application (Flutter & Dart) 📱
+
+TODO : Preparing the slpash screen video of the mobile native application.
