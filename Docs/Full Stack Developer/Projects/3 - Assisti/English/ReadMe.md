@@ -2552,7 +2552,211 @@ https://github.com/user-attachments/assets/17799847-9e5c-4395-95fb-52e4402ddd8e
 
 ##### Road Sign Recognision
 
-TODO : Processing to documenting the Road Sign Detection Assisti app.
+###### Overview
+
+**📌 The Sign Detection Process in Self-Driving Cars**
+
+The **sign detection process** in self-driving automobiles involves identifying and interpreting traffic signs to ensure safe and law-abiding navigation. This process typically begins with **image acquisition** using cameras mounted on the vehicle, capturing real-time road scenes. The system then applies **image preprocessing techniques** such as noise reduction, contrast enhancement, and edge detection to improve sign visibility. Advanced  **computer vision algorithms** , often powered by deep learning models like CNNs (Convolutional Neural Networks), classify and recognize traffic signs accurately. Finally, the interpreted signs are fed into the car’s decision-making system, which adjusts the vehicle's behavior accordingly, such as stopping at a red light or slowing down in a school zone.
+
+**📌 The Role of AI and Machine Learning in Sign Detection**
+
+Modern **sign detection systems** heavily rely on **artificial intelligence (AI) and machine learning (ML)** to improve accuracy and adaptability in varying conditions. Traditional rule-based vision systems struggled with poor lighting, occlusions, and weather-related distortions, but **deep learning models trained on vast datasets** now enable more robust recognition. **Neural networks like YOLO (You Only Look Once) and Faster R-CNN** are widely used for real-time sign detection due to their speed and precision. These models continuously learn from new data, making them adaptable to different regions and road conditions. By integrating AI-based sign detection, self-driving cars can **respond dynamically** to changing road environments, improving their reliability and safety.
+
+**📌 Impact on Self-Driving Automobile Engineering**
+
+The **integration of sign detection in autonomous vehicles** has a profound impact on self-driving automobile engineering, contributing to  **enhanced safety, regulatory compliance, and traffic efficiency** . By correctly identifying stop signs, speed limits, and pedestrian crossings, autonomous cars reduce the risk of accidents caused by human errors, such as missed signs or misinterpretation. Additionally, automated sign recognition ensures that self-driving cars adhere to local traffic laws, preventing violations and ensuring smooth coexistence with human-driven vehicles. As self-driving technology evolves, improved sign detection capabilities will be crucial in achieving  **Level 4 and Level 5 autonomy** , where cars operate with minimal or no human intervention. Ultimately, accurate sign detection enhances the trust and feasibility of autonomous vehicles, paving the way for safer and more intelligent transportation systems.
+
+###### Model Layers
+
+In this application, I designed and implemented a **Convolutional Neural Network (CNN)** using the **Keras Sequential API** to classify traffic signs. The model consists of multiple  **convolutional layers** ,  **max-pooling layers** ,  **dropout regularization** , and **fully connected layers** to ensure efficient feature extraction and classification. My approach emphasizes  **deep hierarchical feature learning** ,  **regularization for overfitting prevention** , and  **a robust softmax-based classification layer** .
+
+The model begins with **two convolutional layers** to extract low-level features like edges and textures, followed by **max pooling and dropout** to reduce spatial dimensions and prevent overfitting. A deeper set of **convolutional layers** refines feature representations, followed by additional pooling and dropout layers for regularization. The network then transitions to a **fully connected dense layer** to learn complex patterns before the final  **softmax layer** , which classifies the input into  **43 traffic sign categories** . Below is a layer-by-layer breakdown of my architecture:
+
+**📌 Layer-by-Layer Explanation**
+
+*1️⃣ First Convolutional Layer (Feature Extraction)*
+
+```python
+model.add(Conv2D(filters=32, kernel_size=(5, 5), activation='relu', input_shape=X_t1.shape[1:]))
+```
+
+🔹  **Purpose** : Extracts low-level features (edges, corners, textures) from the input image.
+
+🔹  **Filter Count (`32`)** : Uses 32 filters (feature detectors) to learn patterns.
+
+🔹  **Kernel Size (`5x5`)** : A slightly larger receptive field for better spatial feature learning.
+
+🔹  **Activation (`ReLU`)** : Introduces non-linearity, helping the model learn complex relationships.
+
+🔹  **Input Shape** : Specifies input dimensions, ensuring compatibility with the dataset.
+
+*2️⃣ Second Convolutional Layer (Feature Refinement)*
+
+```python
+model.add(Conv2D(filters=32, kernel_size=(5,5), activation='relu'))
+```
+
+🔹  **Purpose** : Further refines the extracted features by adding another layer of non-linearity.
+
+🔹  **Filter Count (`32`)** : Maintains the same number of filters to reinforce early feature learning.
+
+🔹  **Kernel Size (`5x5`)** : Retains the same receptive field to improve initial feature detection.
+
+*3️⃣ First Max Pooling Layer (Dimensionality Reduction)*
+
+```python
+model.add(MaxPool2D(pool_size=(2, 2)))
+```
+
+🔹  **Purpose** : Reduces spatial dimensions, making the model more efficient while retaining important features.
+
+🔹  **Pooling Size (`2x2`)** : Reduces the feature map size by half, improving computational efficiency.
+
+🔹  **Effect** : Reduces overfitting, speeds up training, and maintains key information.
+
+*4️⃣ First Dropout Layer (Regularization)*
+
+```python
+model.add(Dropout(rate=0.25))
+```
+
+🔹  **Purpose** : Prevents overfitting by randomly deactivating **25% of neurons** during training.
+
+🔹  **Effect** : Improves generalization, ensuring the model performs well on unseen data.
+
+*5️⃣ Third Convolutional Layer (Deeper Feature Learning)*
+
+```python
+model.add(Conv2D(filters=64, kernel_size=(3, 3), activation='relu'))
+```
+
+🔹  **Purpose** : Extracts more complex patterns (shapes, textures) learned from previous layers.
+
+🔹  **Filter Count (`64`)** : Increases the number of filters to capture more detailed patterns.
+
+🔹  **Kernel Size (`3x3`)** : A smaller kernel helps capture finer spatial details.
+
+*6️⃣ Fourth Convolutional Layer (High-Level Features)*
+
+```python
+model.add(Conv2D(filters=64, kernel_size=(3, 3), activation='relu'))
+```
+
+🔹  **Purpose** : Further refines the deep feature representations, helping in accurate classification.
+
+🔹  **Filter Count (`64`)** : Maintains filter size to reinforce deep feature extraction.
+
+🔹  **Kernel Size (`3x3`)** : Continues improving feature extraction at a finer level.
+
+*7️⃣ Second Max Pooling Layer (Further Dimensionality Reduction)*
+
+```python
+model.add(MaxPool2D(pool_size=(2, 2)))
+```
+
+🔹  **Purpose** : Further reduces spatial dimensions, keeping only the most important features.
+
+🔹  **Pooling Size (`2x2`)** : Again reduces feature maps by half for better efficiency.
+
+*8️⃣ Second Dropout Layer (More Regularization)*
+
+```python
+model.add(Dropout(rate=0.25))
+```
+
+🔹  **Purpose** : Adds another **25% dropout** to prevent overfitting and ensure robust learning.
+
+*9️⃣ Flatten Layer (Transition to Fully Connected Layers)*
+
+```python
+model.add(Flatten())
+```
+
+🔹  **Purpose** : Converts 2D feature maps into a  **1D vector** , preparing it for dense layers.
+
+🔹  **Effect** : Allows fully connected layers to process extracted features.
+
+*1️⃣0️⃣ Fully Connected Layer (Feature Combination)*
+
+```python
+model.add(Dense(256, activation='relu'))
+```
+
+🔹  **Purpose** : Processes the flattened feature vector for classification.
+
+🔹  **Neurons (`256`)** : Large number to capture complex feature interactions.
+
+🔹  **Activation (`ReLU`)** : Ensures non-linearity and efficient learning.
+
+*1️⃣1️⃣ Final Dropout Layer (Stronger Regularization)*
+
+```python
+model.add(Dropout(rate=0.5))
+```
+
+🔹  **Purpose** : **Drops 50% of neurons** to ensure the model generalizes well.
+
+🔹  **Effect** : Reduces dependency on specific neurons, preventing overfitting.
+
+*1️⃣2️⃣ Output Layer (Traffic Sign Classification)*
+
+```python
+model.add(Dense(43, activation='softmax'))
+```
+
+🔹  **Purpose** : Predicts which of the **43 traffic sign categories** the input belongs to.
+
+🔹  **Neurons (`43`)** : Matches the number of possible classes.
+
+🔹  **Activation (`Softmax`)** : Converts output into a probability distribution over all classes.
+
+**🚀 Summary of Model Design**
+
+* **Feature Extraction** → **Conv2D layers** with **ReLU activation** extract patterns.
+* **Dimensionality Reduction** → **MaxPooling layers** shrink spatial size while retaining important information.
+* **Regularization** → **Dropout layers** prevent overfitting.
+* **Classification** → **Fully connected layers** learn patterns, and  **softmax outputs the final class probabilities** .
+
+This model is  **well-balanced between feature extraction and classification** , ensuring both **accuracy and efficiency** in detecting traffic signs. By integrating  **dropout layers** , the model reduces overfitting, making it  **robust in real-world scenarios**.
+
+###### Train
+
+TODO : Adding the training necessary explanations.
+
+```python
+Epoch 1/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 122s 122ms/step - accuracy: 0.2940 - loss: 3.4792 - val_accuracy: 0.8257 - val_loss: 0.6565
+Epoch 2/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 105s 107ms/step - accuracy: 0.7275 - loss: 0.9266 - val_accuracy: 0.9161 - val_loss: 0.2999
+Epoch 3/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 140s 105ms/step - accuracy: 0.8329 - loss: 0.5680 - val_accuracy: 0.9504 - val_loss: 0.1800
+Epoch 4/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 104s 106ms/step - accuracy: 0.8856 - loss: 0.3859 - val_accuracy: 0.9697 - val_loss: 0.1136
+Epoch 5/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 147s 111ms/step - accuracy: 0.8998 - loss: 0.3346 - val_accuracy: 0.9727 - val_loss: 0.1034
+Epoch 6/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 137s 106ms/step - accuracy: 0.9140 - loss: 0.2910 - val_accuracy: 0.9773 - val_loss: 0.0830
+Epoch 7/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 147s 111ms/step - accuracy: 0.9269 - loss: 0.2612 - val_accuracy: 0.9742 - val_loss: 0.0857
+Epoch 8/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 141s 110ms/step - accuracy: 0.9298 - loss: 0.2461 - val_accuracy: 0.9807 - val_loss: 0.0743
+Epoch 9/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 136s 104ms/step - accuracy: 0.9423 - loss: 0.2042 - val_accuracy: 0.9778 - val_loss: 0.0763
+Epoch 10/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 149s 111ms/step - accuracy: 0.9392 - loss: 0.2172 - val_accuracy: 0.9699 - val_loss: 0.0999
+Epoch 11/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 109s 111ms/step - accuracy: 0.9401 - loss: 0.2129 - val_accuracy: 0.9725 - val_loss: 0.0887
+Epoch 12/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 138s 107ms/step - accuracy: 0.9387 - loss: 0.2253 - val_accuracy: 0.9852 - val_loss: 0.0519
+Epoch 13/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 143s 108ms/step - accuracy: 0.9507 - loss: 0.1794 - val_accuracy: 0.9847 - val_loss: 0.0621
+Epoch 14/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 109s 111ms/step - accuracy: 0.9433 - loss: 0.2200 - val_accuracy: 0.9867 - val_loss: 0.0534
+Epoch 15/15
+981/981 ━━━━━━━━━━━━━━━━━━━━ 138s 107ms/step - accuracy: 0.9492 - loss: 0.1970 - val_accuracy: 0.9783 - val_loss: 0.0720
+```
+
+Not added yet.
 
 ### Testing
 
