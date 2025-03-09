@@ -52,9 +52,14 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
           - [🎥 Finalized OCR Functionality Demonstration Videos 🎥](#-finalized-ocr-functionality-demonstration-videos-)
         - [Road Sign Recognision](#road-sign-recognision)
+          - [Overview](#overview-1)
+          - [Model Layers](#model-layers)
+          - [Train](#train)
+          - [Results](#results)
+          - [🎥 Assisti Sign Detector Application 🎥](#-assisti-sign-detector-application-)
     - [Testing](#testing)
     - [Deployment](#deployment)
 
@@ -2719,9 +2724,17 @@ model.add(Dense(43, activation='softmax'))
 
 This model is  **well-balanced between feature extraction and classification** , ensuring both **accuracy and efficiency** in detecting traffic signs. By integrating  **dropout layers** , the model reduces overfitting, making it  **robust in real-world scenarios**.
 
+The model layers at a glance are shown below:
+
+![Model layers](../Assets/Artificial%20Intelligence/Sign%20Detector/MODEL.png)
+
 ###### Train
 
-TODO : Adding the training necessary explanations.
+To optimize my deep learning model for multi-class classification, I compiled it using the **Adam optimizer** and a  **categorical cross-entropy loss function** , ensuring efficient gradient updates and stability during training. I trained the model on a dataset of **31,367 images** (80% of the total dataset), with the remaining **7,842 images** reserved for validation. The dataset consists of  **30×30 RGB images** , preprocessed and one-hot encoded into **43 distinct categories** to match the classification task. The model was trained for **15 epochs** with a batch size of  **32** , balancing computational efficiency and learning stability.
+
+During training, the model showed  **rapid improvement** , achieving an initial accuracy of **29.4%** in the first epoch and reaching **94.9% training accuracy** by epoch 15. The validation accuracy followed a similar trend, reaching  **98.67%** , demonstrating strong generalization capabilities. The  **loss function consistently decreased** , starting at **3.4792** in the first epoch and dropping to  **0.1970** , while the validation loss reduced from **0.6565** to  **0.0720** , indicating an effective learning process. Notably, after epoch 6, validation accuracy exceeded  **97%** , highlighting the model’s strong feature extraction and classification capabilities.
+
+My training pipeline included **data preprocessing, model compilation, and hyperparameter tuning** to maximize accuracy while preventing overfitting. The final model achieved a  **high-performance validation accuracy of 98.67%** , proving its robustness in handling real-world classification tasks. This experience has enhanced my expertise in  **deep learning, Keras/TensorFlow, data preprocessing, model evaluation, and optimization techniques**, enabling me to develop and fine-tune models effectively for complex classification problems.
 
 ```python
 Epoch 1/15
@@ -2756,7 +2769,25 @@ Epoch 15/15
 981/981 ━━━━━━━━━━━━━━━━━━━━ 138s 107ms/step - accuracy: 0.9492 - loss: 0.1970 - val_accuracy: 0.9783 - val_loss: 0.0720
 ```
 
-Not added yet.
+###### Results
+
+The attached diagrams illustrate the training progress of my sign detector AI model, showcasing its performance in terms of accuracy and loss over multiple epochs. The accuracy graph demonstrates a steady improvement in both training and validation accuracy, with the validation accuracy reaching a high level early in training and maintaining stability. This indicates that the model is learning effectively and generalizing well to unseen data, a crucial aspect for real-world applications such as sign language recognition or traffic sign detection.
+
+The second diagram, which depicts the loss curves, shows a sharp decrease in both training and validation loss within the first few epochs, followed by a gradual reduction as training progresses. The validation loss remains low and closely follows the training loss, suggesting that the model is not overfitting and retains good predictive performance. The smooth convergence of the loss curves confirms that the optimization process is well-tuned, ensuring reliable performance.
+
+These results highlight the robustness of my sign detector AI model, demonstrating its ability to achieve high accuracy while maintaining low loss. The balance between training and validation metrics suggests that the model has been trained effectively with a well-structured dataset and optimized hyperparameters. The performance achieved in this project reflects my proficiency in deep learning, model training, and evaluation, making me well-equipped to tackle AI-driven challenges in real-world scenarios.
+
+- Accuracy
+
+![Accuracy](../Assets/Artificial%20Intelligence/Sign%20Detector/Accuracy.png)
+
+- Loss
+
+![Loss](../Assets/Artificial%20Intelligence/Sign%20Detector/Loss.png)
+
+###### 🎥 Assisti Sign Detector Application 🎥
+
+TODO : Preparing the real time Assisti sign detector application functionality video.
 
 ### Testing
 
