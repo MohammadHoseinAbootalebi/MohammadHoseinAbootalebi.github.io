@@ -2791,7 +2791,13 @@ These results highlight the robustness of my sign detector AI model, demonstrati
 
 https://github.com/user-attachments/assets/bc30ceac-77ee-4ac4-88ee-82a601ba1fad
 
-TODO : Preparing the real time Assisti sign detector application functionality video.
+- Small Screen (Mobile Web View)
+
+https://github.com/user-attachments/assets/783d3d09-3276-4f46-857a-86e38b522349
+
+##### Assisti Chatbot
+
+TODO : Not added yet.
 
 ### Testing
 
