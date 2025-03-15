@@ -52,7 +52,7 @@ Assisti is a multidisciplinary professional project that seamlessly integrates U
           - [Assisti `ocr/models.py`](#assisti-ocrmodelspy)
           - [Assisti `ocr/signals.py`](#assisti-ocrsignalspy)
           - [Assisti `ocr/forms.py`](#assisti-ocrformspy)
-          - [Understanding Assisti's Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
+          - [Understanding Assisti&#39;s Routing (`urls.py`) and Logic (`views.py`) in the OCR Module](#understanding-assistis-routing-urlspy-and-logic-viewspy-in-the-ocr-module)
           - [🎥 Finalized OCR Functionality Demonstration Videos 🎥](#-finalized-ocr-functionality-demonstration-videos-)
         - [Road Sign Recognision](#road-sign-recognision)
           - [Overview](#overview-1)
@@ -2786,6 +2786,10 @@ These results highlight the robustness of my sign detector AI model, demonstrati
 ![Loss](../Assets/Artificial%20Intelligence/Sign%20Detector/Loss.png)
 
 ###### 🎥 Assisti Sign Detector Application 🎥
+
+- Large Screen (Desktop Web View)
+
+https://github.com/user-attachments/assets/bc30ceac-77ee-4ac4-88ee-82a601ba1fad
 
 TODO : Preparing the real time Assisti sign detector application functionality video.
 
