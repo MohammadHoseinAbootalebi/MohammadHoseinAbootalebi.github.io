@@ -2,11 +2,11 @@
 
 # Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stack web development in one course!
+Webentwicklung mit C#, ASP.NET MVC, MS SQL und objektorientierter Programmierung in C#. Alles vereint in einem Kurs für Full-Stack-Webentwicklung!
 
-![Azure Devops for Beginners](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
+![Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
 
-## Course Contents
+## Studieninhalte
 
 - **What You Will Learn in C# For Complete Beginners Section**
   - Here is the C# Section Program
@@ -377,18 +377,18 @@ Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stac
 - **Extra**
   - Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-## Description
+## Beschreibung
 
-This course offers a comprehensive dive into full stack web development using C#, object-oriented programming (OOP), SQL, and ASP.NET MVC. It is designed for learners aiming to build professional-grade web applications and backend systems. Throughout the course, students will learn essential programming concepts such as encapsulation, constructors, destructors, and the model-view-controller (MVC) architectural pattern. Emphasis is placed on hands-on experience, as students work on real-world projects that cover C# OOP principles, SQL data manipulation, and creating layered architecture using Entity Framework. The course is structured to provide a practical understanding of each technology through progressive application.
+Dieser Kurs bietet einen umfassenden Einstieg in die Full-Stack-Webentwicklung mit C#, objektorientierter Programmierung (OOP), SQL und ASP.NET MVC. Er richtet sich an Lernende, die professionelle Webanwendungen und Backend-Systeme entwickeln möchten. Im Laufe des Kurses lernen die Teilnehmer grundlegende Programmierkonzepte wie Kapselung, Konstruktoren, Destruktoren sowie das Model-View-Controller-(MVC)-Architekturmuster kennen. Der Schwerpunkt liegt auf praktischer Erfahrung, da die Teilnehmer an realitätsnahen Projekten arbeiten, die C#-OOP-Prinzipien, SQL-Datenmanipulation und den Aufbau einer mehrschichtigen Architektur mit dem Entity Framework abdecken. Der Kurs ist so strukturiert, dass er ein praxisorientiertes Verständnis jeder Technologie durch schrittweise Anwendung vermittelt.
 
-Students will also gain insight into fundamental and advanced SQL concepts, including database normalization, SQL transactions, schema management, and user roles. These skills are essential not only for software engineers but also for business analysts and data professionals. The course explores common industry use-cases for SQL and emphasizes best practices such as preventing SQL injection. It also provides an overview of how relational databases function, offering learners the knowledge needed to work confidently with Microsoft SQL Server and other relational database systems. The focus on interactive development with tools like Microsoft SQL Server Management Studio (SSMS) enhances the learning experience.
+Die Teilnehmer erhalten außerdem Einblicke in grundlegende und fortgeschrittene SQL-Konzepte, darunter Datenbanknormalisierung, SQL-Transaktionen, Schemaverwaltung und Benutzerrollen. Diese Fähigkeiten sind nicht nur für Softwareentwickler, sondern auch für Business Analysten und Datenexperten unerlässlich. Der Kurs behandelt gängige Anwendungsszenarien aus der Industrie für SQL und betont Best Practices wie die Vermeidung von SQL-Injections. Zudem wird ein Überblick über die Funktionsweise relationaler Datenbanken gegeben, wodurch die Teilnehmer das nötige Wissen erhalten, um sicher mit Microsoft SQL Server und anderen relationalen Datenbanksystemen zu arbeiten. Der Fokus auf interaktive Entwicklung mit Tools wie dem Microsoft SQL Server Management Studio (SSMS) verbessert das Lernerlebnis zusätzlich.
 
-Beyond technical skills, the course prepares students to implement professional software development practices, including clean code, design patterns like Facade and Abstract Factory, and layered architecture (N-tier, 3-tier, and 4-tier). Learners will also explore additional topics like GitHub integration, deploying projects to the web, and even converting web applications into Android apps. By the end of the course, students will be equipped to build complete, dynamic web solutions using C#, SQL, and ASP.NET MVC, and will have a solid foundation for further learning in related programming languages and frameworks.
+Neben den technischen Fähigkeiten bereitet der Kurs die Teilnehmer darauf vor, professionelle Softwareentwicklungspraktiken umzusetzen – darunter Clean Code, Designmuster wie Fassade und Abstrakte Fabrik sowie mehrschichtige Architekturen (N-Tier, 3-Tier und 4-Tier). Die Lernenden beschäftigen sich zudem mit weiteren Themen wie der Integration von GitHub, der Veröffentlichung von Projekten im Web und sogar der Umwandlung von Webanwendungen in Android-Apps. Am Ende des Kurses sind die Teilnehmer in der Lage, vollständige, dynamische Weblösungen mit C#, SQL und ASP.NET MVC zu entwickeln und verfügen über eine solide Grundlage für das weitere Lernen verwandter Programmiersprachen und Frameworks.
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
+[🔗 Kurslink 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Muhammad Husain Abootalebi | Alle Rechte vorbehalten
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

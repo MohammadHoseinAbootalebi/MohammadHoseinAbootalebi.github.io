@@ -2,11 +2,11 @@
 
 # Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stack web development in one course!
+تطوير الويب باستخدام C#، وASP.NET MVC، وMS SQL، وC# OOP. جميعها مجتمعة في دورة واحدة لتطوير الويب الكامل (Full Stack)!
 
-![Azure Devops for Beginners](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
+![Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
 
-## Course Contents
+## محتويات الدورة
 
 - **What You Will Learn in C# For Complete Beginners Section**
   - Here is the C# Section Program
@@ -377,18 +377,18 @@ Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stac
 - **Extra**
   - Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-## Description
+## الوصف
 
-This course offers a comprehensive dive into full stack web development using C#, object-oriented programming (OOP), SQL, and ASP.NET MVC. It is designed for learners aiming to build professional-grade web applications and backend systems. Throughout the course, students will learn essential programming concepts such as encapsulation, constructors, destructors, and the model-view-controller (MVC) architectural pattern. Emphasis is placed on hands-on experience, as students work on real-world projects that cover C# OOP principles, SQL data manipulation, and creating layered architecture using Entity Framework. The course is structured to provide a practical understanding of each technology through progressive application.
+تقدم هذه الدورة غوصًا شاملاً في تطوير الويب الكامل (Full Stack) باستخدام C#، والبرمجة كائنية التوجه (OOP)، وSQL، وASP.NET MVC. تم تصميمها للمتعلمين الذين يهدفون إلى بناء تطبيقات ويب وأنظمة خلفية (Backend) بمستوى احترافي. خلال الدورة، سيتعلم الطلاب مفاهيم برمجية أساسية مثل التغليف (Encapsulation)، والبنّاؤون (Constructors)، والمُدمّرون (Destructors)، ونمط الهيكلية MVC (النموذج-العرض-المتحكم). يتم التركيز على التطبيق العملي من خلال تنفيذ مشاريع واقعية تشمل مبادئ C# OOP، والتعامل مع البيانات في SQL، وبناء الهيكلية الطبقية باستخدام Entity Framework.
 
-Students will also gain insight into fundamental and advanced SQL concepts, including database normalization, SQL transactions, schema management, and user roles. These skills are essential not only for software engineers but also for business analysts and data professionals. The course explores common industry use-cases for SQL and emphasizes best practices such as preventing SQL injection. It also provides an overview of how relational databases function, offering learners the knowledge needed to work confidently with Microsoft SQL Server and other relational database systems. The focus on interactive development with tools like Microsoft SQL Server Management Studio (SSMS) enhances the learning experience.
+سيكتسب الطلاب أيضًا فهماً عميقًا للمفاهيم الأساسية والمتقدمة في SQL، بما في ذلك تطبيع قواعد البيانات، والمعاملات (Transactions)، وإدارة المخططات (Schemas)، وأدوار المستخدمين. تُعد هذه المهارات ضرورية ليس فقط لمهندسي البرمجيات، بل أيضًا للمحللين التجاريين ومتخصصي البيانات. تستعرض الدورة حالات الاستخدام الشائعة في الصناعة لـ SQL، مع التركيز على أفضل الممارسات مثل الحماية من هجمات SQL Injection. كما تقدم نظرة عامة على كيفية عمل قواعد البيانات العلائقية، مما يمنح المتعلمين المعرفة اللازمة للعمل بثقة مع Microsoft SQL Server وأنظمة قواعد البيانات العلائقية الأخرى. يعزز التركيز على التطوير التفاعلي باستخدام أدوات مثل Microsoft SQL Server Management Studio (SSMS) تجربة التعلم.
 
-Beyond technical skills, the course prepares students to implement professional software development practices, including clean code, design patterns like Facade and Abstract Factory, and layered architecture (N-tier, 3-tier, and 4-tier). Learners will also explore additional topics like GitHub integration, deploying projects to the web, and even converting web applications into Android apps. By the end of the course, students will be equipped to build complete, dynamic web solutions using C#, SQL, and ASP.NET MVC, and will have a solid foundation for further learning in related programming languages and frameworks.
+تتجاوز الدورة المهارات التقنية، حيث تُعد الطلاب لتطبيق ممارسات تطوير البرمجيات الاحترافية، بما في ذلك كتابة الكود النظيف (Clean Code)، وأنماط التصميم مثل Facade وAbstract Factory، والهندسة الطبقية (الطبقات N-Tier، 3-Tier، و4-Tier). كما يستكشف المتعلمون مواضيع إضافية مثل التكامل مع GitHub، ونشر المشاريع على الويب، وحتى تحويل تطبيقات الويب إلى تطبيقات أندرويد. بنهاية الدورة، سيكون الطلاب قادرين على بناء حلول ويب ديناميكية وكاملة باستخدام C#، وSQL، وASP.NET MVC، وسيكون لديهم أساس قوي للتوسع في لغات وأطر عمل أخرى ذات صلة.
 
 [🔗 Course Link 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسين أبوطالبي | جميع الحقوق محفوظة
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

@@ -2,11 +2,12 @@
 
 # Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stack web development in one course!
+توسعه وب با C#، ASP.NET MVC، پایگاه‌داده MS SQL و برنامه‌نویسی شیء‌گرا با C#.  
+همه در یک دوره گرد هم آمده‌اند برای آموزش کامل توسعه Full Stack وب!
 
-![Azure Devops for Beginners](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
+![Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
 
-## Course Contents
+## مطالب دوره
 
 - **What You Will Learn in C# For Complete Beginners Section**
   - Here is the C# Section Program
@@ -377,18 +378,18 @@ Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stac
 - **Extra**
   - Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-## Description
+## توضیحات
 
-This course offers a comprehensive dive into full stack web development using C#, object-oriented programming (OOP), SQL, and ASP.NET MVC. It is designed for learners aiming to build professional-grade web applications and backend systems. Throughout the course, students will learn essential programming concepts such as encapsulation, constructors, destructors, and the model-view-controller (MVC) architectural pattern. Emphasis is placed on hands-on experience, as students work on real-world projects that cover C# OOP principles, SQL data manipulation, and creating layered architecture using Entity Framework. The course is structured to provide a practical understanding of each technology through progressive application.
+این دوره یک بررسی جامع از توسعه وب فول استک با استفاده از C#، برنامه‌نویسی شیء‌گرا (OOP)، SQL و ASP.NET MVC ارائه می‌دهد. این دوره برای افرادی طراحی شده است که قصد دارند برنامه‌های وب و سیستم‌های بک‌اند در سطح حرفه‌ای بسازند. در طول دوره، دانشجویان با مفاهیم اساسی برنامه‌نویسی مانند کپسوله‌سازی، سازنده‌ها، نابودگرها و الگوی معماری مدل-نما-کنترل‌گر (MVC) آشنا می‌شوند. تأکید این دوره بر تجربه عملی است، زیرا دانشجویان روی پروژه‌های واقعی کار می‌کنند که اصول OOP در C#، کار با داده‌ها در SQL و ساخت معماری لایه‌ای با استفاده از Entity Framework را پوشش می‌دهد. ساختار این دوره به‌گونه‌ای است که درک عملی از هر فناوری را از طریق کاربرد تدریجی فراهم می‌کند.
 
-Students will also gain insight into fundamental and advanced SQL concepts, including database normalization, SQL transactions, schema management, and user roles. These skills are essential not only for software engineers but also for business analysts and data professionals. The course explores common industry use-cases for SQL and emphasizes best practices such as preventing SQL injection. It also provides an overview of how relational databases function, offering learners the knowledge needed to work confidently with Microsoft SQL Server and other relational database systems. The focus on interactive development with tools like Microsoft SQL Server Management Studio (SSMS) enhances the learning experience.
+دانشجویان همچنین با مفاهیم پایه و پیشرفته SQL مانند نرمال‌سازی پایگاه‌داده، تراکنش‌های SQL، مدیریت اسکیمای پایگاه‌داده و نقش‌های کاربری آشنا می‌شوند. این مهارت‌ها نه تنها برای مهندسان نرم‌افزار، بلکه برای تحلیلگران تجاری و متخصصان داده نیز ضروری هستند. این دوره به کاربردهای معمول SQL در صنعت می‌پردازد و بر بهترین شیوه‌ها مانند جلوگیری از تزریق SQL تأکید دارد. همچنین نمای کلی از نحوه عملکرد پایگاه‌های داده رابطه‌ای ارائه می‌دهد تا دانشجویان بتوانند با اعتماد به نفس با Microsoft SQL Server و دیگر سیستم‌های پایگاه‌داده رابطه‌ای کار کنند. تمرکز بر توسعه تعاملی با ابزارهایی مانند Microsoft SQL Server Management Studio (SSMS) تجربه یادگیری را بهبود می‌بخشد.
 
-Beyond technical skills, the course prepares students to implement professional software development practices, including clean code, design patterns like Facade and Abstract Factory, and layered architecture (N-tier, 3-tier, and 4-tier). Learners will also explore additional topics like GitHub integration, deploying projects to the web, and even converting web applications into Android apps. By the end of the course, students will be equipped to build complete, dynamic web solutions using C#, SQL, and ASP.NET MVC, and will have a solid foundation for further learning in related programming languages and frameworks.
+فراتر از مهارت‌های فنی، این دوره دانشجویان را برای اجرای شیوه‌های حرفه‌ای توسعه نرم‌افزار آماده می‌کند، از جمله کدنویسی تمیز، الگوهای طراحی مانند Facade و Abstract Factory و معماری لایه‌ای (N-tier، 3-tier و 4-tier). فراگیران همچنین با موضوعاتی مانند ادغام با GitHub، انتشار پروژه‌ها در وب و حتی تبدیل برنامه‌های وب به اپلیکیشن‌های اندروید آشنا می‌شوند. در پایان این دوره، دانشجویان توانایی ساخت راه‌حل‌های کامل و پویای وب با استفاده از C#، SQL و ASP.NET MVC را خواهند داشت و پایه‌ای محکم برای یادگیری بیشتر در زبان‌ها و چارچوب‌های برنامه‌نویسی مرتبط کسب خواهند کرد.
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
+[🔗 لینک دوره 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسین ابوطالبی | تمامی حقوق محفوظ است
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

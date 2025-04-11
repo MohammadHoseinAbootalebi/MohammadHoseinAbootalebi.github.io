@@ -2,11 +2,11 @@
 
 # Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stack web development in one course!
+C#, ASP.NET MVC, MS SQL, C# OOP를 활용한 웹 개발. 풀스택 웹 개발에 필요한 모든 것을 한 강의에 담았습니다!
 
-![Azure Devops for Beginners](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
+![Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
 
-## Course Contents
+## 과정 내용
 
 - **What You Will Learn in C# For Complete Beginners Section**
   - Here is the C# Section Program
@@ -377,18 +377,18 @@ Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stac
 - **Extra**
   - Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-## Description
+## 설명
 
-This course offers a comprehensive dive into full stack web development using C#, object-oriented programming (OOP), SQL, and ASP.NET MVC. It is designed for learners aiming to build professional-grade web applications and backend systems. Throughout the course, students will learn essential programming concepts such as encapsulation, constructors, destructors, and the model-view-controller (MVC) architectural pattern. Emphasis is placed on hands-on experience, as students work on real-world projects that cover C# OOP principles, SQL data manipulation, and creating layered architecture using Entity Framework. The course is structured to provide a practical understanding of each technology through progressive application.
+이 과정은 C#, 객체 지향 프로그래밍(OOP), SQL, ASP.NET MVC를 활용한 풀스택 웹 개발에 대한 포괄적인 이해를 제공합니다. 전문가급 웹 애플리케이션과 백엔드 시스템 구축을 목표로 하는 학습자를 위해 설계되었습니다. 과정을 통해 캡슐화, 생성자, 소멸자, 모델-뷰-컨트롤러(MVC) 아키텍처 패턴과 같은 필수 프로그래밍 개념을 배우게 됩니다. C# 객체 지향 프로그래밍(OOP) 원리, SQL 데이터 조작, Entity Framework를 활용한 계층형 아키텍처 구축 등을 다루는 실제 프로젝트를 진행하며 실무 경험을 쌓는 데 중점을 둡니다. 이 과정은 점진적인 적용을 통해 각 기술에 대한 실질적인 이해를 제공하도록 구성됩니다.
 
-Students will also gain insight into fundamental and advanced SQL concepts, including database normalization, SQL transactions, schema management, and user roles. These skills are essential not only for software engineers but also for business analysts and data professionals. The course explores common industry use-cases for SQL and emphasizes best practices such as preventing SQL injection. It also provides an overview of how relational databases function, offering learners the knowledge needed to work confidently with Microsoft SQL Server and other relational database systems. The focus on interactive development with tools like Microsoft SQL Server Management Studio (SSMS) enhances the learning experience.
+또한 데이터베이스 정규화, SQL 트랜잭션, 스키마 관리, 사용자 역할 등 기본 및 고급 SQL 개념에 대한 통찰력을 얻게 됩니다. 이러한 기술은 소프트웨어 엔지니어뿐만 아니라 비즈니스 분석가와 데이터 전문가에게도 필수적입니다. 이 과정은 SQL의 일반적인 업계 사용 사례를 살펴보고 SQL 삽입 방지와 같은 모범 사례를 강조합니다. 또한 관계형 데이터베이스의 작동 방식에 대한 개요를 제공하여 학습자에게 Microsoft SQL Server 및 기타 관계형 데이터베이스 시스템을 자신 있게 사용하는 데 필요한 지식을 제공합니다. Microsoft SQL Server Management Studio(SSMS)와 같은 도구를 활용한 대화형 개발에 중점을 두어 학습 경험을 향상시킵니다.
 
-Beyond technical skills, the course prepares students to implement professional software development practices, including clean code, design patterns like Facade and Abstract Factory, and layered architecture (N-tier, 3-tier, and 4-tier). Learners will also explore additional topics like GitHub integration, deploying projects to the web, and even converting web applications into Android apps. By the end of the course, students will be equipped to build complete, dynamic web solutions using C#, SQL, and ASP.NET MVC, and will have a solid foundation for further learning in related programming languages and frameworks.
+이 과정은 기술적인 능력 향상 외에도 클린 코드, Facade 및 Abstract Factory와 같은 디자인 패턴, 계층형 아키텍처(N계층, 3계층, 4계층) 등 전문적인 소프트웨어 개발 방식을 구현할 수 있도록 준비시킵니다. 또한 GitHub 통합, 웹에 프로젝트 배포, 웹 애플리케이션을 Android 앱으로 변환하는 방법 등의 추가 주제도 다룹니다. 과정을 마치면 C#, SQL, ASP.NET MVC를 사용하여 완전하고 동적인 웹 솔루션을 구축할 수 있는 역량을 갖추게 되며, 관련 프로그래밍 언어 및 프레임워크에 대한 심화 학습을 위한 탄탄한 기반을 갖추게 됩니다.
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
+[🔗 코스 링크 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 무하마드 후세인 아부탈레비 | 모든 권리는 보유됩니다
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

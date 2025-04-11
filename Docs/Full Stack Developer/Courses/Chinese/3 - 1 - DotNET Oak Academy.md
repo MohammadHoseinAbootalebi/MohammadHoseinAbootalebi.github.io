@@ -2,11 +2,11 @@
 
 # Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stack web development in one course!
+使用 C#、ASP.NET MVC、MS SQL、C# OOP 进行 Web 开发。一门课程涵盖全栈 Web 开发！
 
-![Azure Devops for Beginners](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
+![Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
 
-## Course Contents
+## 课程内容
 
 - **What You Will Learn in C# For Complete Beginners Section**
   - Here is the C# Section Program
@@ -377,18 +377,18 @@ Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stac
 - **Extra**
   - Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-## Description
+## 描述
 
-This course offers a comprehensive dive into full stack web development using C#, object-oriented programming (OOP), SQL, and ASP.NET MVC. It is designed for learners aiming to build professional-grade web applications and backend systems. Throughout the course, students will learn essential programming concepts such as encapsulation, constructors, destructors, and the model-view-controller (MVC) architectural pattern. Emphasis is placed on hands-on experience, as students work on real-world projects that cover C# OOP principles, SQL data manipulation, and creating layered architecture using Entity Framework. The course is structured to provide a practical understanding of each technology through progressive application.
+本课程全面深入地讲解使用 C#、面向对象编程 (OOP)、SQL 和 ASP.NET MVC 进行全栈 Web 开发的技巧。它专为希望构建专业级 Web 应用程序和后端系统的学习者而设计。在整个课程中，学生将学习基本的编程概念，例如封装、构造函数、析构函数和模型-视图-控制器 (MVC) 架构模式。课程注重实践经验，学生将通过实际项目参与，涵盖 C# OOP 原则、SQL 数据操作以及使用 Entity Framework 创建分层架构。课程旨在通过循序渐进的应用，帮助学生对每种技术进行实践理解。
 
-Students will also gain insight into fundamental and advanced SQL concepts, including database normalization, SQL transactions, schema management, and user roles. These skills are essential not only for software engineers but also for business analysts and data professionals. The course explores common industry use-cases for SQL and emphasizes best practices such as preventing SQL injection. It also provides an overview of how relational databases function, offering learners the knowledge needed to work confidently with Microsoft SQL Server and other relational database systems. The focus on interactive development with tools like Microsoft SQL Server Management Studio (SSMS) enhances the learning experience.
+学生还将深入了解 SQL 的基本和高级概念，包括数据库规范化、SQL 事务、模式管理和用户角色。这些技能不仅对软件工程师至关重要，对业务分析师和数据专业人员也同样重要。本课程探讨了 SQL 的常见行业用例，并强调了防止 SQL 注入等最佳实践。它还概述了关系数据库的工作原理，为学习者提供自信地使用 Microsoft SQL Server 和其他关系数据库系统所需的知识。课程重点讲解如何使用 Microsoft SQL Server Management Studio (SSMS) 等工具进行交互式开发，从而提升学习体验。
 
-Beyond technical skills, the course prepares students to implement professional software development practices, including clean code, design patterns like Facade and Abstract Factory, and layered architecture (N-tier, 3-tier, and 4-tier). Learners will also explore additional topics like GitHub integration, deploying projects to the web, and even converting web applications into Android apps. By the end of the course, students will be equipped to build complete, dynamic web solutions using C#, SQL, and ASP.NET MVC, and will have a solid foundation for further learning in related programming languages and frameworks.
+除了技术技能之外，本课程还帮助学生掌握专业的软件开发实践，包括简洁的代码、外观设计模式（例如 Facade 和 Abstract Factory）以及分层架构（N 层、3 层和 4 层）。学习者还将探索其他主题，例如 GitHub 集成、将项目部署到 Web，甚至将 Web 应用程序转换为 Android 应用。课程结束时，学生将能够使用 C#、SQL 和 ASP.NET MVC 构建完整的动态 Web 解决方案，并为进一步学习相关编程语言和框架奠定坚实的基础。
 
 [🔗 Course Link 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 穆罕默德·侯赛因·阿布塔莱比 | 保留所有权利
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

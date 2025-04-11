@@ -2,11 +2,11 @@
 
 # Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stack web development in one course!
+C#、ASP.NET MVC、MS SQL、C# OOPを使ったWeb開発。フルスタックWeb開発に必要な知識がすべて1つのコースに凝縮されています。
 
 ![Azure Devops for Beginners](../../assets/Courses/Course%20Covers/3%20-%201%20-%20DotNET%20Oak%20Academy.webp)
 
-## Course Contents
+## コース内容
 
 - **What You Will Learn in C# For Complete Beginners Section**
   - Here is the C# Section Program
@@ -377,18 +377,18 @@ Web development with C#, ASP.NET MVC, MS SQL, C# OOP. All gathered for full stac
 - **Extra**
   - Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC
 
-## Description
+## 説明
 
-This course offers a comprehensive dive into full stack web development using C#, object-oriented programming (OOP), SQL, and ASP.NET MVC. It is designed for learners aiming to build professional-grade web applications and backend systems. Throughout the course, students will learn essential programming concepts such as encapsulation, constructors, destructors, and the model-view-controller (MVC) architectural pattern. Emphasis is placed on hands-on experience, as students work on real-world projects that cover C# OOP principles, SQL data manipulation, and creating layered architecture using Entity Framework. The course is structured to provide a practical understanding of each technology through progressive application.
+このコースでは、C#、オブジェクト指向プログラミング（OOP）、SQL、ASP.NET MVCを用いたフルスタックWeb開発を包括的に学びます。プロフェッショナルレベルのWebアプリケーションとバックエンドシステムの構築を目指す学習者向けに設計されています。コース全体を通して、カプセル化、コンストラクタ、デストラクター、モデル・ビュー・コントローラ（MVC）アーキテクチャパターンといったプログラミングの基本概念を習得します。C# OOPの原則、SQLによるデータ操作、Entity Frameworkを用いた階層化アーキテクチャの構築など、実践的なプロジェクトに取り組むことで、実践的な経験を積むことに重点を置いています。このコースは、段階的な応用を通して各技術を実践的に理解できるよう構成されています。
 
-Students will also gain insight into fundamental and advanced SQL concepts, including database normalization, SQL transactions, schema management, and user roles. These skills are essential not only for software engineers but also for business analysts and data professionals. The course explores common industry use-cases for SQL and emphasizes best practices such as preventing SQL injection. It also provides an overview of how relational databases function, offering learners the knowledge needed to work confidently with Microsoft SQL Server and other relational database systems. The focus on interactive development with tools like Microsoft SQL Server Management Studio (SSMS) enhances the learning experience.
+また、データベースの正規化、SQLトランザクション、スキーマ管理、ユーザーロールといったSQLの基本概念と高度な概念についても理解を深めることができます。これらのスキルは、ソフトウェアエンジニアだけでなく、ビジネスアナリストやデータプロフェッショナルにとっても不可欠です。このコースでは、SQLの一般的な業界ユースケースを探求し、SQLインジェクションの防止といったベストプラクティスに重点を置いています。また、リレーショナルデータベースの機能概要も提供し、Microsoft SQL Server やその他のリレーショナルデータベースシステムを自信を持って使いこなすために必要な知識を習得できます。Microsoft SQL Server Management Studio (SSMS) などのツールを用いたインタラクティブな開発に重点を置くことで、学習体験が充実します。
 
-Beyond technical skills, the course prepares students to implement professional software development practices, including clean code, design patterns like Facade and Abstract Factory, and layered architecture (N-tier, 3-tier, and 4-tier). Learners will also explore additional topics like GitHub integration, deploying projects to the web, and even converting web applications into Android apps. By the end of the course, students will be equipped to build complete, dynamic web solutions using C#, SQL, and ASP.NET MVC, and will have a solid foundation for further learning in related programming languages and frameworks.
+このコースでは、技術的なスキルだけでなく、クリーンコード、Facade や Abstract Factory などの設計パターン、階層化アーキテクチャ（N 層、3 層、4 層）といったプロフェッショナルなソフトウェア開発手法を実践するための準備も行います。さらに、GitHub との統合、プロジェクトの Web へのデプロイ、Web アプリケーションから Android アプリへの変換といった追加トピックも学習します。コース修了時には、C#、SQL、ASP.NET MVC を使用して完全かつ動的な Web ソリューションを構築できるようになり、関連するプログラミング言語やフレームワークをさらに学習するための確固たる基盤を身に付けることができます。
 
-[🔗 Course Link 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
+[🔗 コースリンク 🔗](https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/?couponCode=ST13MT80425G3 "Udemy")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© ムハマド・フセイン・アブータレビ | すべての権利は留保されています
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
