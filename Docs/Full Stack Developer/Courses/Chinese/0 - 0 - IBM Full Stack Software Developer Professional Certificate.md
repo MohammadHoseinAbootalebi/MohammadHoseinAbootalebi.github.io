@@ -2,11 +2,11 @@
 
 # IBM Full Stack Software Developer Professional Certificate
 
-Prepare for a career as a full stack developer. Build job-ready skills – and must-have AI skills – for an in-demand career. Earn a credential from IBM.
+为成为全栈开发人员做好准备。培养就业所需的技能以及必备的 AI 技能，助您开启热门职业之路。获取 IBM 认证。
 
 ![IBM Full Stack Software Developer Professional Certificate](../../assets/Courses/Course%20Covers/0%20-%200%20-%20IBM%20Full%20Stack%20Software%20Developer%20Professional%20Certificate.webp)
 
-## Course Contents
+## 课程内容
 
 - Course 1 – introduction to software engineering
   - Sdlc the software development lifecycle
@@ -205,40 +205,40 @@ Prepare for a career as a full stack developer. Build job-ready skills – and m
     - Interviewing
     - Course wrap up
 
-## Description
+## 描述
 
-### Professional Certificate - 15 course series
+### 专业证书 - 15 门课程系列
 
-Prepare for a career in the **high-growth field of software development.** In this program, you’ll learn in-demand skills and tools for front-end, back-end, and cloud native application development to **get job-ready in less than 4 months**.
+为在**高增长的软件开发领域**开启职业生涯做好准备。在本课程中，您将学习前端、后端和云原生应用开发的热门技能和工具，**在不到 4 个月的时间内做好就业准备**。
 
-Full stack refers to the end-to-end computer system application, including the front end and back end coding. Cloud native development refers to developing a program designed to work on cloud architecture. The flexibility and adaptability that full stack and cloud native developers provide make them highly sought after in this digital world. You'll also have the option to learn how generative AI tools and techniques are used in software development.
+全栈是指端到端的计算机系统应用程序，包括前端和后端编码。云原生开发是指开发基于云架构的程序。全栈和云原生开发人员所具备的灵活性和适应性，使他们在这个数字世界中备受追捧。您还可以选择学习如何在软件开发中使用生成式人工智能工具和技术。
 
-You’ll  learn how to **build, deploy, test, run, and manage full stack cloud native applications**. Technologies covered includes Cloud foundations, GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.
+您将学习如何**构建、部署、测试、运行和管理全栈云原生应用程序**。涵盖的技术包括云基础、GitHub、Node.js、React、CI/CD、容器、Docker、Kubernetes、OpenShift、Istio、数据库、NoSQL、Django ORM、Bootstrap、应用安全、微服务、无服务器计算等等。
 
-After completing the program you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies. You will **publish these projects through your GitHub repository to share your portfolio** with your peers and prospective employers.
+完成本课程后，您将能够使用前端和后端技术开发多个应用程序，并使用云原生方法将它们部署到云平台上。您将**通过 GitHub 代码库发布这些项目，并与同行和潜在雇主分享您的作品集**。
 
-This program is ACE® and FIBAA recommended—when you complete, **you can earn up to 18 college credits and 6 ECTS credits**.
+本课程获得 ACE® 和 FIBA​​A 推荐——完成本课程后，**您最多可获得 18 个大学学分和 6 个 ECTS 学分**。
 
-Applied Learning Project
+应用学习项目
 
-Throughout the courses in the Professional Certificate, you will develop a portfolio of hands-on projects involving various popular technologies and programming languages in Full Stack Cloud Application Development. These projects include creating:
+在专业证书课程中，您将开发一系列实践项目，涵盖全栈云应用开发领域中各种流行的技术和编程语言。这些项目包括：
 
-- HTML pages on Cloud Object Storage
-- An interest rate calculator using HTML, CSS, and JavaScript
-- An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A Node.js back-end application and a React front-end application
-- A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- A Python app bundled as a package
-- A database-powered application using Django ORM and Bootstrap
-- An app built using Microservices & Serverless
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
+- 基于云对象存储的 HTML 页面
+- 使用 HTML、CSS 和 JavaScript 构建的利率计算器
+- 使用 DevOps 原则和 CI/CD 工具链以及 NoSQL 数据库在 Cloud Foundry 上部署的 AI 程序
+- 一个 Node.js 后端应用程序和一个 React 前端应用程序
+- 一个使用 Docker 打包的容器化留言簿应用程序，该应用程序使用 Kubernetes 部署，并使用 OpenShift 进行管理
+- 一个打包成包的 Python 应用程序
+- 一个使用 Django ORM 和 Bootstrap 构建的数据库驱动应用程序
+- 一个使用微服务和无服务器架构构建的应用程序
+- 一个使用之前课程所学技术的可扩展云原生全栈应用程序
 
-You will publish these projects through your GitHub repository to share your skills with your peers and prospective employers.
+您将通过 GitHub 代码库发布这些项目，与同行和潜在雇主分享您的技能。
 
-[🔗 Course Link 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
+[🔗 课程链接 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 穆罕默德·侯赛因·阿布塔莱比 |保留所有权利
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

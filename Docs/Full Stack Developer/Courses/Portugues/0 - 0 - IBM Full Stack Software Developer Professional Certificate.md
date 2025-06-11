@@ -2,11 +2,11 @@
 
 # IBM Full Stack Software Developer Professional Certificate
 
-Prepare for a career as a full stack developer. Build job-ready skills – and must-have AI skills – for an in-demand career. Earn a credential from IBM.
+Prepare-se para uma carreira como full stack developer. Desenvolva competências de mercado de trabalho — e competências essenciais de IA — para uma carreira em crescimento. Obtenha uma credencial da IBM.
 
 ![IBM Full Stack Software Developer Professional Certificate](../../assets/Courses/Course%20Covers/0%20-%200%20-%20IBM%20Full%20Stack%20Software%20Developer%20Professional%20Certificate.webp)
 
-## Course Contents
+## Conteúdo do curso
 
 - Course 1 – introduction to software engineering
   - Sdlc the software development lifecycle
@@ -205,40 +205,40 @@ Prepare for a career as a full stack developer. Build job-ready skills – and m
     - Interviewing
     - Course wrap up
 
-## Description
+## Descrição
 
-### Professional Certificate - 15 course series
+### Certificado Profissional - série de 15 cursos
 
-Prepare for a career in the **high-growth field of software development.** In this program, you’ll learn in-demand skills and tools for front-end, back-end, and cloud native application development to **get job-ready in less than 4 months**.
+Prepare-se para uma carreira no **campo de alto crescimento do desenvolvimento de software.** Neste programa, aprenderá competências e ferramentas muito procuradas para o desenvolvimento de aplicações front-end, back-end e nativas na cloud para **estar pronto para o mercado de trabalho em menos de 4 meses**.
 
-Full stack refers to the end-to-end computer system application, including the front end and back end coding. Cloud native development refers to developing a program designed to work on cloud architecture. The flexibility and adaptability that full stack and cloud native developers provide make them highly sought after in this digital world. You'll also have the option to learn how generative AI tools and techniques are used in software development.
+Pilha completa refere-se à aplicação de sistema de computador de ponta a ponta, incluindo a codificação front-end e back-end. O desenvolvimento nativo da cloud refere-se ao desenvolvimento de um programa concebido para funcionar na arquitetura da cloud. A flexibilidade e adaptabilidade que os programadores full stack e nativos da cloud oferecem tornam-nos muito procurados neste mundo digital. Terá também a opção de aprender como as ferramentas e técnicas de IA generativa são utilizadas no desenvolvimento de software.
 
-You’ll  learn how to **build, deploy, test, run, and manage full stack cloud native applications**. Technologies covered includes Cloud foundations, GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.
+Aprenderá como **construir, implementar, testar, executar e gerir aplicações nativas em nuvem full stack**. As tecnologias abordadas incluem os fundamentos da cloud, GitHub, Node.js, React, CI/CD, contentores, Docker, Kubernetes, OpenShift, Istio, bases de dados, NoSQL, Django ORM, Bootstrap, segurança de aplicações, microserviços, computação sem servidor e muito mais.
 
-After completing the program you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies. You will **publish these projects through your GitHub repository to share your portfolio** with your peers and prospective employers.
+Após concluir o programa, terá desenvolvido várias aplicações utilizando tecnologias front-end e back-end e implantou-as numa plataforma de cloud utilizando metodologias Cloud Native. Irá **publicar estes projetos através do seu repositório GitHub para partilhar o seu portfólio** com os seus colegas e potenciais empregadores.
 
-This program is ACE® and FIBAA recommended—when you complete, **you can earn up to 18 college credits and 6 ECTS credits**.
+Este programa é recomendado pela ACE® e pela FIBAA. Ao concluí-lo, **pode obter até 18 créditos universitários e 6 créditos ECTS**.
 
-Applied Learning Project
+Projeto de Aprendizagem Aplicada
 
-Throughout the courses in the Professional Certificate, you will develop a portfolio of hands-on projects involving various popular technologies and programming languages in Full Stack Cloud Application Development. These projects include creating:
+Ao longo dos cursos do Certificado Profissional, irá desenvolver um portfólio de projetos práticos envolvendo diversas tecnologias e linguagens de programação populares em Full Stack Cloud Application Development. Estes projetos incluem a criação de:
 
-- HTML pages on Cloud Object Storage
-- An interest rate calculator using HTML, CSS, and JavaScript
-- An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A Node.js back-end application and a React front-end application
-- A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- A Python app bundled as a package
-- A database-powered application using Django ORM and Bootstrap
-- An app built using Microservices & Serverless
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
+- Páginas HTML no Cloud Object Storage
+- Uma calculadora de taxas de juro utilizando HTML, CSS e JavaScript
+- Um programa de IA implementado no Cloud Foundry utilizando princípios de DevOps e cadeias de ferramentas de CI/CD com uma base de dados NoSQL
+- Uma aplicação back-end Node.js e uma aplicação front-end React
+- Uma aplicação de livro de visitas em contentor empacotada com Docker implantada com Kubernetes e gerida com OpenShift
+- Uma aplicação Python empacotada como um pacote
+- Uma aplicação baseada em base de dados usando Django ORM e Bootstrap
+- Uma aplicação construída usando microsserviços e serverless
+- Uma aplicação Full Stack escalável e nativa na cloud, utilizando as tecnologias aprendidas em cursos anteriores
 
-You will publish these projects through your GitHub repository to share your skills with your peers and prospective employers.
+Publicará estes projetos através do seu repositório GitHub para partilhar as suas competências com os seus colegas e potenciais empregadores.
 
-[🔗 Course Link 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
+[🔗 Link do curso 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© Muhammad Husain Abootalebi | Todos os direitos reservados
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

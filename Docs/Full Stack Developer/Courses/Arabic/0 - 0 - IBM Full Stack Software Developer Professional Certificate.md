@@ -2,11 +2,11 @@
 
 # IBM Full Stack Software Developer Professional Certificate
 
-Prepare for a career as a full stack developer. Build job-ready skills – and must-have AI skills – for an in-demand career. Earn a credential from IBM.
+استعد لمسيرتك المهنية كمطور برمجيات متكامل. طوّر مهاراتك الوظيفية - ومهارات الذكاء الاصطناعي الأساسية - لمهنة مطلوبة بشدة. احصل على شهادة من IBM.
 
 ![IBM Full Stack Software Developer Professional Certificate](../../assets/Courses/Course%20Covers/0%20-%200%20-%20IBM%20Full%20Stack%20Software%20Developer%20Professional%20Certificate.webp)
 
-## Course Contents
+## محتويات الدورة
 
 - Course 1 – introduction to software engineering
   - Sdlc the software development lifecycle
@@ -205,40 +205,40 @@ Prepare for a career as a full stack developer. Build job-ready skills – and m
     - Interviewing
     - Course wrap up
 
-## Description
+## وصف
 
-### Professional Certificate - 15 course series
+### شهادة مهنية - سلسلة من 15 دورة
 
-Prepare for a career in the **high-growth field of software development.** In this program, you’ll learn in-demand skills and tools for front-end, back-end, and cloud native application development to **get job-ready in less than 4 months**.
+استعد لمسيرتك المهنية في **مجال تطوير البرمجيات عالي النمو**. في هذا البرنامج، ستتعلم مهارات وأدوات مطلوبة لتطوير تطبيقات الواجهة الأمامية والخلفية والسحابية الأصلية، لتستعد للعمل في أقل من 4 أشهر**.
 
-Full stack refers to the end-to-end computer system application, including the front end and back end coding. Cloud native development refers to developing a program designed to work on cloud architecture. The flexibility and adaptability that full stack and cloud native developers provide make them highly sought after in this digital world. You'll also have the option to learn how generative AI tools and techniques are used in software development.
+يشير مصطلح "البرمجيات الكاملة" إلى تطبيقات أنظمة الحاسوب الشاملة، بما في ذلك برمجة الواجهتين الأمامية والخلفية. أما تطوير البرمجيات السحابية الأصلية، فيشير إلى تطوير برنامج مصمم للعمل على بنية السحابة. إن المرونة والقدرة على التكيف التي يوفرها مطورو البرمجيات الكاملة والسحابية الأصلية تجعلهم مطلوبين بشدة في هذا العالم الرقمي. ستتاح لك أيضًا فرصة تعلم كيفية استخدام أدوات وتقنيات الذكاء الاصطناعي التوليدي في تطوير البرمجيات.
 
-You’ll  learn how to **build, deploy, test, run, and manage full stack cloud native applications**. Technologies covered includes Cloud foundations, GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.
+ستتعلم كيفية **بناء ونشر واختبار وتشغيل وإدارة تطبيقات سحابية أصلية كاملة**. تشمل التقنيات التي يغطيها البرنامج أساسيات الحوسبة السحابية، وGitHub، وNode.js، وReact، وCI/CD، والحاويات، وDocker، وKubernetes، وOpenShift، وIstio، وقواعد البيانات، وNoSQL، وDjango ORM، وBootstrap، وأمان التطبيقات، والخدمات المصغرة، والحوسبة بدون خادم، وغيرها.
 
-After completing the program you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies. You will **publish these projects through your GitHub repository to share your portfolio** with your peers and prospective employers.
+بعد إكمال البرنامج، ستكون قد طورت العديد من التطبيقات باستخدام تقنيات الواجهة الأمامية والخلفية، ونشرتها على منصة سحابية باستخدام منهجيات Cloud Native. ستنشر هذه المشاريع من خلال مستودع GitHub الخاص بك لمشاركة ملف أعمالك مع زملائك وأصحاب العمل المحتملين.
 
-This program is ACE® and FIBAA recommended—when you complete, **you can earn up to 18 college credits and 6 ECTS credits**.
+هذا البرنامج موصى به من قبل ACE® وFIBAA - عند إكماله، يمكنك الحصول على ما يصل إلى 18 ساعة معتمدة جامعية و6 ساعات معتمدة بنظام ECTS.
 
-Applied Learning Project
+مشروع التعلم التطبيقي
 
-Throughout the courses in the Professional Certificate, you will develop a portfolio of hands-on projects involving various popular technologies and programming languages in Full Stack Cloud Application Development. These projects include creating:
+خلال دورات الشهادة الاحترافية، ستطور ملف أعمالك من المشاريع العملية التي تتضمن مختلف التقنيات ولغات البرمجة الشائعة في تطوير تطبيقات السحابة المتكاملة. تتضمن هذه المشاريع إنشاء:
 
-- HTML pages on Cloud Object Storage
-- An interest rate calculator using HTML, CSS, and JavaScript
-- An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A Node.js back-end application and a React front-end application
-- A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- A Python app bundled as a package
-- A database-powered application using Django ORM and Bootstrap
-- An app built using Microservices & Serverless
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
+- صفحات HTML على Cloud Object Storage
+- حاسبة لمعدلات الفائدة باستخدام HTML وCSS وJavaScript
+- برنامج ذكاء اصطناعي مُنشر على Cloud Foundry باستخدام مبادئ DevOps وسلاسل أدوات CI/CD مع قاعدة بيانات NoSQL
+- تطبيق Node.js خلفي وتطبيق React أمامي
+- تطبيق سجل زوار مُدمج مع Docker مُنشر مع Kubernetes ومُدار باستخدام OpenShift
+- تطبيق Python مُدمج كحزمة
+- تطبيق مُدعم بقاعدة بيانات باستخدام Django ORM وBootstrap
+- تطبيق مُصمم باستخدام Microservices وServerless
+- تطبيق Cloud Native Full Stack قابل للتطوير، مُتكامل مع السحابة، باستخدام التقنيات التي تعلمتها في الدورات السابقة
 
-You will publish these projects through your GitHub repository to share your skills with your peers and prospective employers.
+ستنشر هذه المشاريع عبر مستودع GitHub الخاص بك لمشاركة مهاراتك مع زملائك وأصحاب العمل المُحتملين.
 
-[🔗 Course Link 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
+[🔗 رابط الدورة 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسين أبوطالبي | جميع الحقوق محفوظة
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

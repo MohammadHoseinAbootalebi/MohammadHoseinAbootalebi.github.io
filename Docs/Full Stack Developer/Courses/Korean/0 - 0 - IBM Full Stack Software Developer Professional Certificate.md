@@ -2,11 +2,11 @@
 
 # IBM Full Stack Software Developer Professional Certificate
 
-Prepare for a career as a full stack developer. Build job-ready skills – and must-have AI skills – for an in-demand career. Earn a credential from IBM.
+풀스택 개발자로서의 커리어를 준비하세요. 수요가 많은 커리어에 필요한 실무 역량과 필수 AI 역량을 키우세요. IBM 자격증을 취득하세요.
 
 ![IBM Full Stack Software Developer Professional Certificate](../../assets/Courses/Course%20Covers/0%20-%200%20-%20IBM%20Full%20Stack%20Software%20Developer%20Professional%20Certificate.webp)
 
-## Course Contents
+## 과정 내용
 
 - Course 1 – introduction to software engineering
   - Sdlc the software development lifecycle
@@ -205,40 +205,40 @@ Prepare for a career as a full stack developer. Build job-ready skills – and m
     - Interviewing
     - Course wrap up
 
-## Description
+## 설명
 
-### Professional Certificate - 15 course series
+### 전문가 자격증 - 15개 과정 시리즈
 
-Prepare for a career in the **high-growth field of software development.** In this program, you’ll learn in-demand skills and tools for front-end, back-end, and cloud native application development to **get job-ready in less than 4 months**.
+**고성장 소프트웨어 개발 분야**에서 경력을 쌓으세요. 이 프로그램에서는 프런트엔드, 백엔드 및 클라우드 네이티브 애플리케이션 개발에 필요한 기술과 도구를 배우고 **4개월 이내에 취업 준비를 마칠 수 있습니다**.
 
-Full stack refers to the end-to-end computer system application, including the front end and back end coding. Cloud native development refers to developing a program designed to work on cloud architecture. The flexibility and adaptability that full stack and cloud native developers provide make them highly sought after in this digital world. You'll also have the option to learn how generative AI tools and techniques are used in software development.
+풀스택은 프런트엔드 및 백엔드 코딩을 포함한 엔드투엔드 컴퓨터 시스템 애플리케이션을 의미합니다. 클라우드 네이티브 개발은 클라우드 아키텍처에서 작동하도록 설계된 프로그램을 개발하는 것을 의미합니다. 풀스택 및 클라우드 네이티브 개발자는 뛰어난 유연성과 적응성을 제공하여 디지털 세상에서 높은 수요를 자랑합니다. 또한, 소프트웨어 개발에 생성적 AI 도구와 기술이 어떻게 사용되는지 배울 수 있습니다.
 
-You’ll  learn how to **build, deploy, test, run, and manage full stack cloud native applications**. Technologies covered includes Cloud foundations, GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.
+**풀스택 클라우드 네이티브 애플리케이션을 구축, 배포, 테스트, 실행 및 관리하는 방법**을 배우게 됩니다. 다루는 기술에는 클라우드 기반, GitHub, Node.js, React, CI/CD, 컨테이너, Docker, Kubernetes, OpenShift, Istio, 데이터베이스, NoSQL, Django ORM, Bootstrap, 애플리케이션 보안, 마이크로서비스, 서버리스 컴퓨팅 등이 포함됩니다.
 
-After completing the program you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies. You will **publish these projects through your GitHub repository to share your portfolio** with your peers and prospective employers.
+프로그램을 완료하면 프런트엔드 및 백엔드 기술을 사용하여 여러 애플리케이션을 개발하고 클라우드 네이티브 방법론을 사용하여 클라우드 플랫폼에 배포하게 됩니다. **이 프로젝트를 GitHub 저장소에 게시하여 포트폴리오를 동료 및 미래 고용주와 공유**하게 됩니다.
 
-This program is ACE® and FIBAA recommended—when you complete, **you can earn up to 18 college credits and 6 ECTS credits**.
+이 프로그램은 ACE® 및 FIBAA 권장 프로그램입니다. 이수 시 **최대 18학점과 6ECTS 학점을 취득**할 수 있습니다.
 
-Applied Learning Project
+응용 학습 프로젝트
 
-Throughout the courses in the Professional Certificate, you will develop a portfolio of hands-on projects involving various popular technologies and programming languages in Full Stack Cloud Application Development. These projects include creating:
+전문가 자격증 과정 전반에 걸쳐 풀 스택 클라우드 애플리케이션 개발 분야에서 다양한 인기 기술과 프로그래밍 언어를 활용한 실무 프로젝트 포트폴리오를 개발하게 됩니다. 이 프로젝트에는 다음이 포함됩니다.
 
-- HTML pages on Cloud Object Storage
-- An interest rate calculator using HTML, CSS, and JavaScript
-- An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A Node.js back-end application and a React front-end application
-- A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- A Python app bundled as a package
-- A database-powered application using Django ORM and Bootstrap
-- An app built using Microservices & Serverless
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
+- Cloud Object Storage의 HTML 페이지
+- HTML, CSS, JavaScript를 사용한 이자율 계산기
+- NoSQL 데이터베이스와 DevOps 원칙 및 CI/CD 툴체인을 사용하여 Cloud Foundry에 배포된 AI 프로그램
+- Node.js 백엔드 애플리케이션 및 React 프런트엔드 애플리케이션
+- Kubernetes로 배포되고 OpenShift로 관리되는 Docker로 패키징된 컨테이너화된 방명록 앱
+- 패키지로 번들된 Python 앱
+- Django ORM 및 Bootstrap을 사용한 데이터베이스 기반 애플리케이션
+- 마이크로서비스 및 서버리스를 사용하여 구축된 앱
+- 이전 과정에서 학습한 기술을 사용하는 확장 가능한 클라우드 네이티브 풀 스택 애플리케이션
 
-You will publish these projects through your GitHub repository to share your skills with your peers and prospective employers.
+이러한 프로젝트를 GitHub 저장소에 게시하여 동료 및 잠재적 고용주와 기술을 공유하게 됩니다.
 
-[🔗 Course Link 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
+[🔗 코스 링크 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© 무하마드 후세인 아부탈레비 | 모든 권리는 보유됩니다
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

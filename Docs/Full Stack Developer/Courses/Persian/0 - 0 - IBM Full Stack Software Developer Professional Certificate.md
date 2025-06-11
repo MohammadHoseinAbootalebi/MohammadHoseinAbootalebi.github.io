@@ -2,11 +2,11 @@
 
 # IBM Full Stack Software Developer Professional Certificate
 
-Prepare for a career as a full stack developer. Build job-ready skills – and must-have AI skills – for an in-demand career. Earn a credential from IBM.
+برای حرفه ای به عنوان یک توسعه دهنده فول استک آماده شوید. مهارت های آماده برای کار - و مهارت های ضروری هوش مصنوعی - را برای یک حرفه مورد تقاضا ایجاد کنید. از IBM مدرک معتبر کسب کنید.
 
 ![IBM Full Stack Software Developer Professional Certificate](../../assets/Courses/Course%20Covers/0%20-%200%20-%20IBM%20Full%20Stack%20Software%20Developer%20Professional%20Certificate.webp)
 
-## Course Contents
+## محتوای دوره
 
 - Course 1 – introduction to software engineering
   - Sdlc the software development lifecycle
@@ -205,40 +205,40 @@ Prepare for a career as a full stack developer. Build job-ready skills – and m
     - Interviewing
     - Course wrap up
 
-## Description
+## توضیحات
 
-### Professional Certificate - 15 course series
+### گواهینامه حرفه‌ای - ۱۵ دوره آموزشی
 
-Prepare for a career in the **high-growth field of software development.** In this program, you’ll learn in-demand skills and tools for front-end, back-end, and cloud native application development to **get job-ready in less than 4 months**.
+برای شغلی در **زمینه‌ی رو به رشد توسعه‌ی نرم‌افزار** آماده شوید.** در این برنامه، مهارت‌ها و ابزارهای مورد نیاز برای توسعه‌ی برنامه‌های front-end، back-end و cloud native را یاد خواهید گرفت تا **در کمتر از ۴ ماه آماده‌ی کار شوید**.
 
-Full stack refers to the end-to-end computer system application, including the front end and back end coding. Cloud native development refers to developing a program designed to work on cloud architecture. The flexibility and adaptability that full stack and cloud native developers provide make them highly sought after in this digital world. You'll also have the option to learn how generative AI tools and techniques are used in software development.
+فول‌استک به برنامه‌ی سیستم کامپیوتری end-to-end، شامل کدنویسی front-end و back-end اشاره دارد. توسعه‌ی cloud native به توسعه‌ی برنامه‌ای اشاره دارد که برای کار بر روی معماری ابری طراحی شده است. انعطاف‌پذیری و سازگاری که توسعه‌دهندگان full-stack و cloud native ارائه می‌دهند، آنها را در این دنیای دیجیتال بسیار مورد توجه قرار می‌دهد. همچنین می‌توانید یاد بگیرید که چگونه از ابزارها و تکنیک‌های هوش مصنوعی مولد در توسعه‌ی نرم‌افزار استفاده می‌شود.
 
-You’ll  learn how to **build, deploy, test, run, and manage full stack cloud native applications**. Technologies covered includes Cloud foundations, GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.
+شما یاد خواهید گرفت که چگونه **برنامه‌های full-stack cloud native را بسازید، مستقر کنید، آزمایش کنید، اجرا کنید و مدیریت کنید**. فناوری‌های تحت پوشش شامل مبانی ابری، گیت‌هاب، نود.جی‌اس، ری‌اکت، CI/CD، کانتینرها، داکر، کوبرنتس، اوپن‌شیفت، ایستیو، پایگاه‌های داده، NoSQL، Django ORM، بوت‌استرپ، امنیت برنامه، میکروسرویس‌ها، محاسبات بدون سرور و موارد دیگر می‌شود.
 
-After completing the program you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies. You will **publish these projects through your GitHub repository to share your portfolio** with your peers and prospective employers.
+پس از اتمام این دوره، شما چندین برنامه کاربردی را با استفاده از فناوری‌های front-end و back-end توسعه داده و آنها را با استفاده از روش‌های Cloud Native بر روی یک پلتفرم ابری مستقر خواهید کرد. شما **این پروژه‌ها را از طریق مخزن گیت‌هاب خود منتشر خواهید کرد تا نمونه کارهای خود را** با همسالان و کارفرمایان آینده خود به اشتراک بگذارید.
 
-This program is ACE® and FIBAA recommended—when you complete, **you can earn up to 18 college credits and 6 ECTS credits**.
+این برنامه توسط ACE® و FIBAA توصیه می‌شود - پس از اتمام آن، **می‌توانید تا ۱۸ واحد دانشگاهی و ۶ واحد ECTS کسب کنید**.
 
-Applied Learning Project
+پروژه یادگیری کاربردی
 
-Throughout the courses in the Professional Certificate, you will develop a portfolio of hands-on projects involving various popular technologies and programming languages in Full Stack Cloud Application Development. These projects include creating:
+در طول دوره‌های گواهینامه حرفه‌ای، مجموعه‌ای از پروژه‌های عملی شامل فناوری‌ها و زبان‌های برنامه‌نویسی محبوب مختلف را در توسعه برنامه‌های ابری Full Stack توسعه خواهید داد. این پروژه‌ها شامل ایجاد موارد زیر است:
 
-- HTML pages on Cloud Object Storage
-- An interest rate calculator using HTML, CSS, and JavaScript
-- An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A Node.js back-end application and a React front-end application
-- A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- A Python app bundled as a package
-- A database-powered application using Django ORM and Bootstrap
-- An app built using Microservices & Serverless
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
+- صفحات HTML در Cloud Object Storage
+- یک ماشین حساب نرخ بهره با استفاده از HTML، CSS و جاوا اسکریپت
+- یک برنامه هوش مصنوعی مستقر در Cloud Foundry با استفاده از اصول DevOps و زنجیره ابزارهای CI/CD با یک پایگاه داده NoSQL
+- یک برنامه Back-end Node.js و یک برنامه Front-end React
+- یک برنامه Guestbook کانتینر شده بسته بندی شده با Docker مستقر با Kubernetes و مدیریت شده با OpenShift
+- یک برنامه Python به صورت بسته بندی شده
+- یک برنامه مبتنی بر پایگاه داده با استفاده از Django ORM و Bootstrap
+- یک برنامه ساخته شده با استفاده از Microservices & Serverless
+- یک برنامه Full Stack مقیاس پذیر و Cloud Native با استفاده از فناوری‌های آموخته شده در دوره‌های قبلی
 
-You will publish these projects through your GitHub repository to share your skills with your peers and prospective employers.
+شما این پروژه‌ها را از طریق مخزن GitHub خود منتشر خواهید کرد تا مهارت‌های خود را با همسالان و کارفرمایان بالقوه خود به اشتراک بگذارید.
 
-[🔗 Course Link 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
+[🔗 لینک دوره 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© محمد حسین ابوطالبی | تمامی حقوق محفوظ است
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

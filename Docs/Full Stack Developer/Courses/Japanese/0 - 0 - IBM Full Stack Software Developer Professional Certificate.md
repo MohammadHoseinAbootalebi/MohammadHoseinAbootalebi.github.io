@@ -2,11 +2,11 @@
 
 # IBM Full Stack Software Developer Professional Certificate
 
-Prepare for a career as a full stack developer. Build job-ready skills – and must-have AI skills – for an in-demand career. Earn a credential from IBM.
+フルスタック開発者としてのキャリアを準備しましょう。需要の高いキャリアに必要な、即戦力となるスキル、そして必須のAIスキルを身につけましょう。IBM認定資格を取得しましょう。
 
 ![IBM Full Stack Software Developer Professional Certificate](../../assets/Courses/Course%20Covers/0%20-%200%20-%20IBM%20Full%20Stack%20Software%20Developer%20Professional%20Certificate.webp)
 
-## Course Contents
+## コース内容
 
 - Course 1 – introduction to software engineering
   - Sdlc the software development lifecycle
@@ -205,40 +205,40 @@ Prepare for a career as a full stack developer. Build job-ready skills – and m
     - Interviewing
     - Course wrap up
 
-## Description
+## 説明
 
-### Professional Certificate - 15 course series
+### プロフェッショナル認定 - 15コースシリーズ
 
-Prepare for a career in the **high-growth field of software development.** In this program, you’ll learn in-demand skills and tools for front-end, back-end, and cloud native application development to **get job-ready in less than 4 months**.
+**急成長中のソフトウェア開発分野**でのキャリアを準備しましょう。このプログラムでは、フロントエンド、バックエンド、クラウドネイティブアプリケーション開発に必要なスキルとツールを習得し、**4ヶ月以内に就職準備を整えることができます**。
 
-Full stack refers to the end-to-end computer system application, including the front end and back end coding. Cloud native development refers to developing a program designed to work on cloud architecture. The flexibility and adaptability that full stack and cloud native developers provide make them highly sought after in this digital world. You'll also have the option to learn how generative AI tools and techniques are used in software development.
+フルスタックとは、フロントエンドとバックエンドのコーディングを含む、エンドツーエンドのコンピュータシステムアプリケーションを指します。クラウドネイティブ開発とは、クラウドアーキテクチャ上で動作するように設計されたプログラムの開発を指します。フルスタック開発者とクラウドネイティブ開発者が提供する柔軟性と適応性は、今日のデジタル世界で非常に求められています。また、生成型AIツールと技術がソフトウェア開発にどのように使用されているかを学ぶオプションもあります。
 
-You’ll  learn how to **build, deploy, test, run, and manage full stack cloud native applications**. Technologies covered includes Cloud foundations, GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.
+**フルスタッククラウドネイティブアプリケーションの構築、デプロイ、テスト、実行、管理**方法を学びます。対象となるテクノロジーには、クラウド基盤、GitHub、Node.js、React、CI/CD、コンテナ、Docker、Kubernetes、OpenShift、Istio、データベース、NoSQL、Django ORM、Bootstrap、アプリケーションセキュリティ、マイクロサービス、サーバーレスコンピューティングなどが含まれます。
 
-After completing the program you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies. You will **publish these projects through your GitHub repository to share your portfolio** with your peers and prospective employers.
+本プログラムを修了すると、フロントエンドおよびバックエンドテクノロジーを用いて複数のアプリケーションを開発し、クラウドネイティブ手法を用いてクラウドプラットフォームにデプロイできるようになります。**これらのプロジェクトをGitHubリポジトリを通じて公開し、ポートフォリオを同僚や将来の雇用主と共有**します。
 
-This program is ACE® and FIBAA recommended—when you complete, **you can earn up to 18 college credits and 6 ECTS credits**.
+本プログラムはACE®およびFIBAAの推奨プログラムであり、修了すると**最大18単位と6ECTS単位を取得できます**。
 
-Applied Learning Project
+応用学習プロジェクト
 
-Throughout the courses in the Professional Certificate, you will develop a portfolio of hands-on projects involving various popular technologies and programming languages in Full Stack Cloud Application Development. These projects include creating:
+プロフェッショナル認定資格のコースを通して、フルスタック・クラウドアプリケーション開発における様々な人気テクノロジーとプログラミング言語を用いた実践的なプロジェクトのポートフォリオを作成します。これらのプロジェクトには、以下の作成が含まれます。
 
-- HTML pages on Cloud Object Storage
-- An interest rate calculator using HTML, CSS, and JavaScript
-- An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A Node.js back-end application and a React front-end application
-- A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- A Python app bundled as a package
-- A database-powered application using Django ORM and Bootstrap
-- An app built using Microservices & Serverless
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
+- Cloud Object Storage 上の HTML ページ
+- HTML、CSS、JavaScript を使用した金利計算ツール
+- DevOps の原則と CI/CD ツールチェーンを使用し、NoSQL データベースを使用して Cloud Foundry にデプロイされた AI プログラム
+- Node.js バックエンドアプリケーションと React フロントエンドアプリケーション
+- Docker でパッケージ化され、Kubernetes でデプロイされ、OpenShift で管理されるコンテナ化されたゲストブックアプリ
+- パッケージとしてバンドルされた Python アプリ
+- Django ORM と Bootstrap を使用したデータベース駆動型アプリケーション
+- マイクロサービスとサーバーレスを使用して構築されたアプリ
+- 以前のコースで学習したテクノロジーを使用した、スケーラブルなクラウドネイティブ フルスタック アプリケーション
 
-You will publish these projects through your GitHub repository to share your skills with your peers and prospective employers.
+これらのプロジェクトは GitHub リポジトリを通じて公開し、同僚や将来の雇用主とスキルを共有します。
 
-[🔗 Course Link 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
+[🔗 コースリンク 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© ムハマド・フセイン・アブータレビ | すべての権利は留保されています
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->

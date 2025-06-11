@@ -2,11 +2,11 @@
 
 # IBM Full Stack Software Developer Professional Certificate
 
-Prepare for a career as a full stack developer. Build job-ready skills – and must-have AI skills – for an in-demand career. Earn a credential from IBM.
+फुल स्टैक डेवलपर के रूप में करियर के लिए तैयारी करें। नौकरी के लिए तैयार कौशल विकसित करें - और मांग वाले करियर के लिए ज़रूरी AI कौशल - IBM से प्रमाण पत्र प्राप्त करें।
 
 ![IBM Full Stack Software Developer Professional Certificate](../../assets/Courses/Course%20Covers/0%20-%200%20-%20IBM%20Full%20Stack%20Software%20Developer%20Professional%20Certificate.webp)
 
-## Course Contents
+## पाठ्यक्रम सामग्री
 
 - Course 1 – introduction to software engineering
   - Sdlc the software development lifecycle
@@ -205,40 +205,44 @@ Prepare for a career as a full stack developer. Build job-ready skills – and m
     - Interviewing
     - Course wrap up
 
-## Description
+## विवरण
 
-### Professional Certificate - 15 course series
+### व्यावसायिक प्रमाणपत्र - 15 पाठ्यक्रम श्रृंखला
 
-Prepare for a career in the **high-growth field of software development.** In this program, you’ll learn in-demand skills and tools for front-end, back-end, and cloud native application development to **get job-ready in less than 4 months**.
+**तेज़ी से बढ़ते सॉफ़्टवेयर डेवलपमेंट क्षेत्र में करियर के लिए तैयारी करें।**
+इस प्रोग्राम में, आप फ्रंट-एंड, बैक-एंड और क्लाउड नेटिव एप्लिकेशन डेवलपमेंट के लिए माँगे जाने वाले कौशल और टूल्स सीखेंगे, जिससे आप **4 महीने से कम समय में नौकरी के लिए तैयार हो सकते हैं।**
 
-Full stack refers to the end-to-end computer system application, including the front end and back end coding. Cloud native development refers to developing a program designed to work on cloud architecture. The flexibility and adaptability that full stack and cloud native developers provide make them highly sought after in this digital world. You'll also have the option to learn how generative AI tools and techniques are used in software development.
+**फुल स्टैक** का मतलब है एक कंप्यूटर सिस्टम एप्लिकेशन का एंड-टू-एंड विकास, जिसमें फ्रंट-एंड और बैक-एंड कोडिंग शामिल होती है।
+**क्लाउड नेटिव डेवलपमेंट** का मतलब है ऐसे प्रोग्राम विकसित करना जो क्लाउड आर्किटेक्चर पर चलने के लिए डिज़ाइन किए गए हों। फुल स्टैक और क्लाउड नेटिव डेवलपर्स की लचीलापन और अनुकूलता उन्हें इस डिजिटल युग में अत्यधिक मांग वाला बनाती है।
+आपके पास यह जानने का भी विकल्प होगा कि कैसे **जनरेटिव एआई टूल्स और तकनीकों** का उपयोग सॉफ़्टवेयर डेवलपमेंट में किया जाता है।
 
-You’ll  learn how to **build, deploy, test, run, and manage full stack cloud native applications**. Technologies covered includes Cloud foundations, GitHub, Node.js, React, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Databases, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.
+आप सीखेंगे कि **फुल स्टैक क्लाउड नेटिव एप्लिकेशन को कैसे बनाना, डिप्लॉय करना, टेस्ट करना, रन करना और मैनेज करना है।**
+इसमें शामिल तकनीकों में शामिल हैं: क्लाउड फाउंडेशंस, GitHub, Node.js, React, CI/CD, कंटेनर्स, Docker, Kubernetes, OpenShift, Istio, डेटाबेस, NoSQL, Django ORM, Bootstrap, एप्लिकेशन सिक्योरिटी, माइक्रोसर्विसेस, सर्वरलेस कंप्यूटिंग और बहुत कुछ।
 
-After completing the program you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies. You will **publish these projects through your GitHub repository to share your portfolio** with your peers and prospective employers.
+प्रोग्राम पूरा करने के बाद, आपने फ्रंट-एंड और बैक-एंड तकनीकों का उपयोग करके कई एप्लिकेशन बनाए होंगे और उन्हें क्लाउड प्लेटफॉर्म पर क्लाउड नेटिव पद्धतियों का उपयोग करके डिप्लॉय किया होगा। आप **इन प्रोजेक्ट्स को अपने GitHub रिपॉजिटरी में प्रकाशित करेंगे ताकि आप अपना पोर्टफोलियो अपने साथियों और संभावित नियोक्ताओं के साथ साझा कर सकें।**
 
-This program is ACE® and FIBAA recommended—when you complete, **you can earn up to 18 college credits and 6 ECTS credits**.
+यह प्रोग्राम **ACE® और FIBAA द्वारा अनुशंसित** है — पूरा करने पर **आप 18 कॉलेज क्रेडिट और 6 ECTS क्रेडिट** कमा सकते हैं।
 
-Applied Learning Project
+### **एप्लाइड लर्निंग प्रोजेक्ट**
 
-Throughout the courses in the Professional Certificate, you will develop a portfolio of hands-on projects involving various popular technologies and programming languages in Full Stack Cloud Application Development. These projects include creating:
+प्रोफेशनल सर्टिफिकेट के कोर्सेज के दौरान, आप लोकप्रिय तकनीकों और प्रोग्रामिंग भाषाओं का उपयोग करते हुए कई प्रैक्टिकल प्रोजेक्ट्स का एक पोर्टफोलियो तैयार करेंगे। इसमें शामिल हैं:
 
-- HTML pages on Cloud Object Storage
-- An interest rate calculator using HTML, CSS, and JavaScript
-- An AI program deployed on Cloud Foundry using DevOps principles and CI/CD toolchains with a NoSQL database
-- A Node.js back-end application and a React front-end application
-- A containerized guestbook app packaged with Docker deployed with Kubernetes and managed with OpenShift
-- A Python app bundled as a package
-- A database-powered application using Django ORM and Bootstrap
-- An app built using Microservices & Serverless
-- A scalable, Cloud Native Full Stack application using the technologies learned in previous courses
+- क्लाउड ऑब्जेक्ट स्टोरेज पर HTML पेज बनाना
+- HTML, CSS, और JavaScript का उपयोग करके एक इंटरेस्ट रेट कैलकुलेटर बनाना
+- DevOps सिद्धांतों और CI/CD टूलचेन के साथ NoSQL डेटाबेस का उपयोग करते हुए क्लाउड फाउंड्री पर एक एआई प्रोग्राम डिप्लॉय करना
+- एक Node.js बैक-एंड एप्लिकेशन और एक React फ्रंट-एंड एप्लिकेशन बनाना
+- Docker के साथ पैकेज किया गया कंटेनराइज्ड गेस्टबुक ऐप, जिसे Kubernetes के साथ डिप्लॉय और OpenShift से प्रबंधित किया गया हो
+- एक Python ऐप को पैकेज के रूप में बंडल करना
+- Django ORM और Bootstrap का उपयोग करके एक डेटाबेस-पावर्ड एप्लिकेशन बनाना
+- माइक्रोसर्विसेस और सर्वरलेस आर्किटेक्चर का उपयोग करके एक ऐप बनाना
+- पिछली सभी तकनीकों का उपयोग करके एक स्केलेबल, क्लाउड नेटिव फुल स्टैक एप्लिकेशन तैयार करना
 
-You will publish these projects through your GitHub repository to share your skills with your peers and prospective employers.
+आप इन सभी प्रोजेक्ट्स को अपने GitHub रिपॉजिटरी में प्रकाशित करेंगे, ताकि आप अपनी क्षमताओं को अपने साथियों और संभावित नियोक्ताओं के साथ साझा कर सकें।
 
-[🔗 Course Link 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
+[🔗 कोर्स लिंक 🔗](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer "Course Link")
 
 ---
 
-© Muhammad Husain Abootalebi | All Rights are Reserved
+© मुहम्मद हुसैन अबूतालेबी | सभी अधिकार सुरक्षित हैं
 
 <!-- ©©©©©©©©©©©©©©©©©©©©©©©© All Rights Are Reserved By Muhammad Husain Abootalebi ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©© -->
