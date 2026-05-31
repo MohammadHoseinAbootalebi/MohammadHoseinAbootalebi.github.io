@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-79080fc9923436a1892a587676f25814.woff2) format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-cb90f250807b79983892f63bf0582499.woff2) format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-a56895cb781b2893683438f24cb71da5.woff2) format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-06301e20a0da865a77cfdb8f2a2defbb.woff2) format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-6abd9b19fa74eb93c4eb69a16fb69fa7.woff2) format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-6c5cea0c2fe85d8b27e80d9845a40eb2.woff2) format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-281e130f75e1efa0fc2e00ec30909f0a.woff2) format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-37c96eb55a9036356dd23a656165b394.woff2) format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Vazirmatn';
+	src: url(../../assets/fonts/Vazirmatn-1451b90728635882eee205ccc971f771.woff2) format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}

@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Lalezar';
+	src: url(../../assets/fonts/Lalezar-a0af09c48e988a7d38a133efdbf82289.woff) format('woff'),
+	url(../../assets/fonts/Lalezar-7e530f63137f8a76c320e431bf7a9f85.ttf) format('truetype'),
+	url(../../assets/fonts/Lalezar-38094f397e9688c70c37a646152a883d.otf) format('otf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

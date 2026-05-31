@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <g id="c" data-name="Layer 1">
+    <g>
+      <rect x="0" y="0" width="192" height="192" rx="96" ry="96" fill="#1e6bf9"/>
+      <polygon points="168 133.22 63.13 133.22 80.92 110.32 127.75 110.32 119.16 99.02 73.42 99.02 46.84 133.22 24 133.22 61.2 78.89 103.93 78.89 95.83 67.88 67.94 67.88 84.38 44.41 107.62 44.41 152.44 110.32 168 133.22" fill="#fff"/>
+    </g>
+  </g>
+</svg>
