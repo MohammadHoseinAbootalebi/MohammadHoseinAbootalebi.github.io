@@ -75,13 +75,9 @@ document.querySelector('.loader-wrapper').classList.add("show");
 window.addEventListener('load', () => {
 
     const loader = document.querySelector('.loader-wrapper');
+    loader.classList.add('hidden');
+    loader.classList.remove('show');
 
-    // Optional: Add a small delay (e.g., 500ms) so the animation 
-    // is visible even on very fast connections.
-    setTimeout(() => {
-        loader.classList.add('hidden');
-        document.getElementById("loader-wrapper")?.classList.remove("show");
-    }, 500);
 });
 
 /* -------------------------------------------- */
