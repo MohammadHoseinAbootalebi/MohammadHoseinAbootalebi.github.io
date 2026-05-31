@@ -72,12 +72,13 @@ document.documentElement.style.setProperty('--font-secondary', languageConfig['e
 /* PAGE LOADER                                  */
 /* -------------------------------------------- */
 document.querySelector('.loader-wrapper').classList.add("show");
-window.addEventListener('load', () => {
-
+document.addEventListener('DOMContentLoaded', () => {
     const loader = document.querySelector('.loader-wrapper');
-    loader.classList.add('hidden');
-    loader.classList.remove('show');
-
+    // Hide the loader quickly once the HTML is ready
+    setTimeout(() => {
+        loader.classList.add('hidden');
+        document.getElementById("loader-wrapper")?.classList.remove("show");
+    }, 500); 
 });
 
 /* -------------------------------------------- */
@@ -1048,14 +1049,14 @@ const projectsData = {
                 title: 'E-Commerce UI Design',
                 subtitle: 'Professional & Creative Solutions',
                 category: "Full-Stack Software Engineer",
-                cover: 'Projects/UI_UX_Designing/Horvex/Image_1.webp',
+                cover: '../img/Projects/UI_UX_Designing/Horvex/Image_1.webp',
                 images: [
-                    'Projects/UI_UX_Designing/Horvex/Image_1.webp',
-                    'Projects/UI_UX_Designing/Horvex/Image_2.webp',
+                    '../img/Projects/UI_UX_Designing/Horvex/Image_1.webp',
+                    '../img/Projects/UI_UX_Designing/Horvex/Image_2.webp',
                 ],
                 media: [
-                    { type: 'image', src: 'Projects/UI_UX_Designing/Horvex/Image_1.webp' },
-                    { type: 'image', src: 'Projects/UI_UX_Designing/Horvex/Image_2.webp' },
+                    { type: 'image', src: '../img/Projects/UI_UX_Designing/Horvex/Image_1.webp' },
+                    { type: 'image', src: '../img/Projects/UI_UX_Designing/Horvex/Image_2.webp' },
                 ],
                 keywords: ['#ui', '#ux', '#ecommerce'],
                 tags: ['#design', '#ui', '#ux', '#designing', '#developing'],
