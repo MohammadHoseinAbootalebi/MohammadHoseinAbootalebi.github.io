@@ -82,51 +82,76 @@
   <p class="loading-text">
           <span class="waiting-text" data-i18n="loading_text" style="font-family: var(--font-secondary);">Just a moment </span><span class="jump-dot">.</span><span class="jump-dot">.</span><span class="jump-dot">.</span>
   </p>
-</div><section style="position: relative;"><div class="container w-100" style="max-width: 100vw; height: 100vh;"><!-- Add a relative wrapper around your 80vh hero section -->
-<div
-  class="hero-plexus-wrapper"
-  id="hero-plexus-wrapper-id"
-  style="
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 95vh;
-    display: none;
-    position: absolute;
-    z-index: -3;
-  "
->
-  <!-- The Plexus Canvas -->
-  <canvas
-    id="plexus-canvas"
-    style="
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 0;
-    "
-  ></canvas>
+</div><section style="position: relative;">
+    <div class="container w-100" style="max-width: 100vw; min-height: 100vh;">
+        
+        <!-- Plexus Background -->
+        <div id="hero-plexus-wrapper-id" class="hero-plexus-wrapper" style="position: absolute; width: 100%; overflow: hidden; height: 95vh; display: none; z-index: -3;">
+            <canvas id="plexus-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;"></canvas>
+        </div>
 
-  <!-- Your existing content, but with relative positioning and z-index -->
-  <div
-    class="row d-flex flex-md-row flex-column justify-content-center align-items-center h-100"
-    style="position: relative; z-index: 1; pointer-events: none"
-  >
-    <!-- Add pointer-events: auto to your inner columns/buttons so they remain clickable -->
-    <div
-      class="col d-flex flex-row align-items-center align-items-center"
-      style="padding: 0px; pointer-events: auto"
-    >
-      <!-- Your profile image ... -->
+        <!-- Main Hero Content -->
+        <div class="row d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 gap-md-0" style="min-height: 80vh; padding-top: 5vh;">
+            
+            <!-- Profile Image & 3D Icons -->
+            <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center" style="position: relative;">
+                <!-- Main Profile Pic -->
+                <div class="w-100 d-flex justify-content-center align-items-center" style="z-index: 1;">
+                    <img class="w-50 w-md-50 rounded-circle" src="assets/img/Profile/Profile%20-%20Transparent.webp" style="border: 15px solid var(--color-accent); background: var(--color-bg-alt);" loading="lazy" />
+                </div>
+                
+                <!-- Floating 3D Icons Wrapper -->
+                <div class="w-100 h-100 d-flex justify-content-center align-items-center" style="z-index: 2; inset: 0; position: absolute; pointer-events: none;">
+                    <div class="w-50 h-50 w-md-50 h-md-100 rounded-circle" style="position: relative;">
+                        <img class="giggle-1 hero-icon-top-right" style="position: absolute; top: -10%; right: -20px; width: 35%; pointer-events: auto;" src="assets/img/3D%20Icons/Coding%20Icon%20-%20Transparent.webp" loading="lazy" />
+                        <img class="giggle-2 hero-icon-top-left" style="position: absolute; top: -10%; left: -20px; width: 35%; pointer-events: auto;" src="assets/img/3D%20Icons/Artificailintelligence%20Icon%20-%20Transparent.webp" loading="lazy" />
+                        <!-- Adjusted bottom values for giggle-3 and giggle-4 -->
+                        <img class="giggle-3 hero-icon-bottom-left" style="position: absolute; bottom: 0%; left: -20px; width: 35%; pointer-events: auto;" src="assets/img/3D%20Icons/Engineering%20Icon%20-%20Transparent.webp" loading="lazy" />
+                        <img class="giggle-4 hero-icon-bottom-right" style="position: absolute; bottom: 0%; right: -20px; width: 35%; pointer-events: auto;" src="assets/img/3D%20Icons/Designing%20Icon%20-%20Transparent.webp" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Text & CTA -->
+            <!-- Added mb-5 for mobile to push the mouse indicator down -->
+            <div class="col-12 col-md-6 mt-4 mt-md-0 mb-5 mb-md-0" style="padding: 0px;">
+                <div class="mx-3 mx-md-5 text-center text-md-start">
+                    <h1 class="d-flex flex-column justify-content-center align-items-center align-items-md-start name" style="font-family: Dodger;">
+                        <span class="fs-1 name-line gray" style="font-family: var(--font-primary);" data-i18n="first_view_muhammad_title">MUHAMMAD</span>
+                        <span class="fs-1 name-line dark" style="font-family: var(--font-primary);" data-i18n="first_view_husain_title">HUSAIN</span>
+                        <span class="fs-1 name-line blue" style="font-family: var(--font-primary);" data-i18n="first_view_aboutalebi_title">ABOUTALEBI</span>
+                    </h1>
+                    <div class="d-flex flex-row justify-content-center justify-content-md-start typing-container align-items-end mt-2">
+                        <span id="typing" class="fs-4" style="height: 30px;"></span><span class="cursor fs-4"></span>
+                    </div>
+                    <p id="muhammad-husain-aboutalebi-first-view-description-paragraph" class="mt-4 mb-4 mx-md-0 mx-3" style="font-family: var(--font-secondary);" data-i18n="hero_desc">
+                        I create thoughtful, high‑quality solutions by combining creativity, technical skill, and a deep understanding of problem‑solving. My work focuses on turning ideas into polished, effective results—whether through design, development, or engineering.
+                    </p>
+                    <div class="w-100 d-flex flex-row justify-content-center justify-content-md-start align-items-center flex-wrap gap-3">
+                        <a class="btn primary d-flex flex-row justify-content-center align-items-center" role="button" href="#projects" style="font-family: var(--font-secondary);">
+                            <span data-i18n="btn_projects">My Projects</span>
+                        </a>
+                        <a class="btn outline d-flex flex-row justify-content-center align-items-center" role="button" href="#contact" style="font-family: var(--font-secondary);">
+                            <span data-i18n="btn_contact">Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mouse Scroll Indicator -->
+        <div class="row" style="position: relative;">
+            <!-- Added mt-5 to give more breathing room from the buttons -->
+            <div class="col-12 mt-sm-5 mt-md-4 d-flex flex-row align-items-center justify-content-center">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+        
     </div>
-    <div class="col" style="padding: 0px; pointer-events: auto">
-      <!-- Your text content ... -->
-    </div>
-  </div>
-</div>
-<div class="row d-flex flex-md-row flex-column justify-content-center align-items-center" style="height: 80vh;"><div class="col d-flex flex-row align-items-center align-items-center" style="padding: 0px; position: relative;"><div class="w-100 d-flex flex-row justify-content-center align-items-center" style="z-index: -2;"><img class="w-75 w-md-50 rounded-circle" src="assets/img/Profile/Profile%20-%20Transparent.webp" style="border: 15px solid var(--color-accent);background: var(--color-bg-alt);" loading="lazy"></div><div class="w-100 h-100 d-flex flex-row justify-content-center align-items-center" style="z-index: -1;inset: 0;position: absolute;"><div class="w-75 h-75 w-md-50 rounded-circle h-md-100" style="position: relative;"><img class="giggle-1" style="position: absolute;top: 0;right: -30px;width: 35%;" src="assets/img/3D%20Icons/Coding%20Icon%20-%20Transparent.webp" loading="lazy"><img class="giggle-2" style="position: absolute;top: 0;left: -30px;width: 35%;" src="assets/img/3D%20Icons/Artificailintelligence%20Icon%20-%20Transparent.webp" loading="lazy"><img class="giggle-3" style="position: absolute;bottom: 0;left: -30px;width: 35%;" src="assets/img/3D%20Icons/Engineering%20Icon%20-%20Transparent.webp" loading="lazy"><img class="giggle-4" style="position: absolute;bottom: 0;right: -30px;width: 35%;" src="assets/img/3D%20Icons/Designing%20Icon%20-%20Transparent.webp" loading="lazy"></div></div></div><div class="col" style="padding: 0px;"><div class="mx-5"><h1 class="d-flex flex-column justify-content-center align-items-center align-items-md-start name" style="font-family:Dodger;"><span class="fs-1 name-line gray" style="font-family: var(--font-primary);" data-i18n="first_view_muhammad_title">MUHAMMAD</span><span class="fs-1 name-line dark" style="font-family: var(--font-primary);" data-i18n="first_view_husain_title">HUSAIN</span><span class="fs-1 name-line blue" style="font-family: var(--font-primary);" data-i18n="first_view_aboutalebi_title">ABOUTALEBI</span></h1><div class="d-flex flex-row justify-content-center justify-content-md-start typing-container align-items-end"><span id="typing" class="fs-4" style="height: 30px;"></span><span class="cursor fs-4"></span></div><p class="mt-4 mb-4 text-center text-md-start" id="muhammad-husain-aboutalebi-first-view-description-paragraph" style="font-family: var(--font-secondary);" data-i18n="hero_desc">    I create thoughtful, high‑quality solutions by combining creativity,    technical skill, and a deep understanding of problem‑solving. My work    focuses on turning ideas into polished, effective results—whether through    design, development, or engineering.  </p><div class="w-100 d-flex flex-row justify-content-between align-items-center w-md-50"><a class="btn mx-2 primary d-flex flex-row justify-content-center align-items-center" role="button" href="#projects" style="font-family: var(--font-secondary);"><span data-i18n="btn_projects">My Projects</span></a><a class="btn mx-2 outline d-flex flex-row justify-content-center align-items-center" role="button" href="#contact" style="font-family: var(--font-secondary);"><span data-i18n="btn_contact">Contact Me</span></a></div></div></div></div><div class="row" style="position: relative;"><div class="col-md-12 mt-4 d-flex flex-row align-items-center justify-content-center"><div class="mouse"><div class="wheel"></div></div></div></div></div></section><!-- ==========================================
+</section>
+<!-- ==========================================
      START: Trust & Soft Skills Section HTML 
 =========================================== -->
 <section id="reviews" class="trust-skills-section">
