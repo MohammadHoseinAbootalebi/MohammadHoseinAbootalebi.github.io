@@ -1,0 +1,131 @@
+WEBVTT
+
+00:00:04.000 --> 00:00:05.000
+Hello, and welcome.
+
+00:00:05.000 --> 00:00:11.600
+In this video, I will explain my Enterprise-Grade SaaS Management Platform project.
+
+00:00:11.600 --> 00:00:18.800
+In this project, I utilized Python and the Django framework to develop a management portal.
+
+00:00:18.800 --> 00:00:26.733
+I adopted a monolith-first architecture for the backend to facilitate rapid and agile frontend development.
+
+00:00:26.733 --> 00:00:39.266
+While microservices are typically preferred for large-scale applications, starting with a well-structured monolith is the ideal approach for the initial stages of a complex system.
+
+00:00:39.266 --> 00:00:46.733
+It establishes a working foundation, making the eventual transition to microservices much smoother.
+
+00:00:46.733 --> 00:00:51.733
+But before diving into the project details, let me briefly introduce myself.
+
+00:00:52.233 --> 00:00:54.033
+I am Muhammad Husain Aboutalebi.
+
+00:00:54.033 --> 00:01:06.299
+I hold a degree in Mechanical Engineering from Amirkabir University of Technology (Tehran Polytechnic), but I have never let a paper degree define my limits.
+
+00:01:06.300 --> 00:01:13.800
+Driven by a deep passion for technology, I am a self-taught, multidisciplinary engineer.
+
+00:01:13.800 --> 00:01:22.900
+I have years of hands-on experience programming across various languages and frameworks to build end-to-end software solutions.
+
+00:01:22.900 --> 00:01:38.233
+Additionally, my expertise includes crafting intuitive UI/UX designs and developing artificial intelligence models using machine learning, deep learning, and reinforcement learning.
+
+00:01:38.233 --> 00:01:46.066
+First, to demonstrate the backend, let me activate the Python virtual environment and start the local server.
+
+00:01:49.466 --> 00:01:54.066
+Next, I’ll open the browser and navigate to the backend’s local URL.
+
+00:01:54.066 --> 00:02:00.800
+As you can see, the portal requires authentication to verify permissions before granting access.
+
+00:02:00.800 --> 00:02:07.433
+I’ve built the portal with three display modes—light, dark, and system—to enhance usability.
+
+00:02:09.133 --> 00:02:12.166
+Now, I’ll enter my email and password.
+
+00:02:34.766 --> 00:02:38.100
+The first view in the portal is the user dashboard.
+
+00:02:38.100 --> 00:02:45.633
+This layout is dynamic, adapting to the specific roles and permissions defined by administrators.
+
+00:02:45.633 --> 00:02:50.966
+The primary goal is to provide a high-level overview of all data models.
+
+00:02:50.966 --> 00:03:02.733
+Since the backend handles diverse modules—such as dating, e-commerce, fitness tracking, and a library—this dashboard balances comprehensive reporting with a user-friendly experience.
+
+00:03:02.733 --> 00:03:12.866
+To verify that the frontend portal is actively communicating with the backend, let’s monitor the logs on the local development server.
+
+00:03:15.033 --> 00:03:25.033
+Navigating between modules in the portal is seamless. Clicking a module in the left sidebar instantly reveals its associated data models.
+
+00:03:25.200 --> 00:03:32.833
+Sorting, filtering, and searching through model records—such as user accounts—is straightforward and intuitive.
+
+00:04:01.533 --> 00:04:18.900
+You can also add new users by simply clicking the plus button. Overall, the portal provides a complete set of CRUD operations, putting all necessary data interactions right at your fingertips.
+
+00:04:37.233 --> 00:04:43.133
+The OTP, or One-Time Password, model stores the codes used to verify user authentication.
+
+00:04:43.133 --> 00:04:49.966
+These verification codes can be dispatched by either our current monolith-first backend or a dedicated microservice.
+
+00:04:52.233 --> 00:04:59.300
+The next module in the backend is the REST API. First, I’ll navigate to the API documentation.
+
+00:05:02.066 --> 00:05:12.900
+On the left, there is a sidebar listing all available APIs. I’ve grouped the endpoints by feature, following Domain-Driven Design principles.
+
+00:05:12.900 --> 00:05:17.733
+On the right, you’ll find the interactive section to test the API calls.
+
+00:05:22.366 --> 00:05:28.400
+There are several configuration options available to further customize the API interface.
+
+00:05:30.333 --> 00:05:35.700
+You can download the API documentation in both JSON and YAML formats.
+
+00:05:36.766 --> 00:05:43.800
+To enhance the user experience, the interface supports seamless toggling between light and dark themes.
+
+00:05:44.800 --> 00:05:51.800
+In the left sidebar, expanding a category reveals its grouped endpoints and their HTTP methods.
+
+00:05:51.800 --> 00:05:59.566
+Selecting an endpoint opens its full details and an interactive request console in the right-hand panel.
+
+00:06:00.666 --> 00:06:08.533
+As your API grows or spans multiple versions, you can easily search across all endpoints and descriptions.
+
+00:06:08.533 --> 00:06:14.733
+Simply click the search field in the left sidebar, type a keyword, and select your result.
+
+00:06:15.766 --> 00:06:23.000
+To test the API in real time, simply select an endpoint from the left sidebar and click the ‘Test Request’ button.
+
+00:06:23.000 --> 00:06:37.266
+The interface provides everything you need to consume the endpoint correctly, including required fields, expected responses, and ready-to-use client code snippets for languages like Python and C#.
+
+00:06:38.600 --> 00:06:48.233
+You can also use the quick search feature directly within the test console. This greatly improves usability and speeds up your testing workflow.
+
+00:06:50.600 --> 00:06:56.933
+To simplify the testing process, you can use filters to control exactly what is displayed in the interface.
+
+00:06:59.900 --> 00:07:09.433
+Because some backend endpoints require authentication, you can set a Bearer token directly in the interface to test protected requests.
+
+00:07:18.733 --> 00:07:26.366
+You can also change the API code snippets to match your client-side language, such as Python, C#, or Dart.
+
