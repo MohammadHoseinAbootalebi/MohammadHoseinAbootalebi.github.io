@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00:04.000 --> 00:00:05.533
+Hallo und herzlich willkommen.
+
+00:00:05.533 --> 00:00:13.900
+In diesem Video stelle ich mein Projekt einer Enterprise-tauglichen SaaS-Managementplattform vor.
+
+00:00:13.900 --> 00:00:20.933
+Für dieses Projekt habe ich Python und das Django-Framework verwendet, um ein Verwaltungsportal zu entwickeln.
+
+00:00:20.933 --> 00:00:31.466
+Für das Backend habe ich mich zunächst für eine monolithische Architektur entschieden, um eine schnelle und agile Frontend-Entwicklung zu ermöglichen.
+
+00:00:31.466 --> 00:00:44.633
+Obwohl Microservices bei großen Anwendungen in der Regel bevorzugt werden, ist ein gut strukturierter Monolith in der Anfangsphase eines komplexen Systems der ideale Ansatz.
+
+00:00:44.633 --> 00:00:51.833
+Er schafft eine funktionsfähige Grundlage und erleichtert den späteren Übergang zu Microservices erheblich.
+
+00:00:51.833 --> 00:00:56.833
+Bevor ich jedoch näher auf das Projekt eingehe, möchte ich mich kurz vorstellen.
+
+00:00:58.100 --> 00:01:01.033
+Mein Name ist Muhammad Husain Aboutalebi.
+
+00:01:01.033 --> 00:01:08.399
+Ich habe einen Abschluss in Maschinenbau von der Amirkabir University of Technology, auch bekannt als Tehran Polytechnic.
+
+00:01:08.400 --> 00:01:14.833
+Doch ich habe mich nie allein durch einen formalen Abschluss definieren oder einschränken lassen.
+
+00:01:14.833 --> 00:01:22.166
+Angetrieben von meiner großen Leidenschaft für Technologie bin ich ein autodidaktischer, multidisziplinärer Ingenieur.
+
+00:01:22.166 --> 00:01:32.466
+Ich verfüge über mehrere Jahre praktische Programmiererfahrung mit verschiedenen Sprachen und Frameworks und entwickle damit ganzheitliche Softwarelösungen.
+
+00:01:32.466 --> 00:01:45.533
+Darüber hinaus umfasst meine Expertise die Gestaltung intuitiver UI/UX-Designs sowie die Entwicklung von KI-Modellen mithilfe von maschinellem Lernen, Deep Learning und Reinforcement Learning.
+
+00:01:45.533 --> 00:01:53.166
+Um zunächst das Backend zu demonstrieren, aktiviere ich die virtuelle Python-Umgebung und starte den lokalen Server.
+
+00:01:56.666 --> 00:02:02.599
+Als Nächstes öffne ich den Browser und rufe die lokale URL des Backends auf.
+
+00:02:02.599 --> 00:02:12.533
+Wie Sie sehen können, erfordert das Portal eine Authentifizierung, um die Berechtigungen vor der Zugriffsfreigabe zu überprüfen.
+
+00:02:12.533 --> 00:02:24.699
+Um die Benutzerfreundlichkeit zu verbessern, habe ich das Portal mit drei Anzeigemodi ausgestattet: hell, dunkel und systemabhängig.
+
+00:02:24.699 --> 00:02:28.433
+Nun gebe ich meine E-Mail-Adresse und mein Passwort ein.
+
+00:02:34.299 --> 00:02:38.199
+Die erste Ansicht des Portals ist das Benutzer-Dashboard.
+
+00:02:38.199 --> 00:02:46.966
+Dieses Layout ist dynamisch und passt sich an die jeweiligen Rollen und Berechtigungen an, die von den Administratoren festgelegt wurden.
+
+00:02:46.966 --> 00:02:53.633
+Das Hauptziel besteht darin, einen umfassenden Überblick über sämtliche Datenmodelle zu bieten.
+
+00:02:53.633 --> 00:03:05.000
+Da das Backend verschiedene Module wie Dating, E-Commerce, Fitness-Tracking und eine Bibliothek verwaltet, verbindet dieses Dashboard umfassende Berichte mit einer benutzerfreundlichen Bedienung.
+
+00:03:05.499 --> 00:03:15.666
+Um zu überprüfen, ob das Frontend-Portal aktiv mit dem Backend kommuniziert, sehen wir uns die Protokolle des lokalen Entwicklungsservers an.
+
+00:03:17.599 --> 00:03:30.466
+Die Navigation zwischen den Modulen im Portal erfolgt nahtlos. Durch Anklicken eines Moduls in der linken Seitenleiste werden sofort die zugehörigen Datenmodelle angezeigt.
+
+00:03:30.466 --> 00:03:39.666
+Das Sortieren, Filtern und Durchsuchen von Modelldatensätzen, beispielsweise von Benutzerkonten, ist einfach und intuitiv.
+
+00:03:54.300 --> 00:04:02.000
+Neue Benutzer lassen sich ebenfalls hinzufügen, indem Sie einfach auf die Plus-Schaltfläche klicken.
+
+00:04:02.000 --> 00:04:14.400
+Insgesamt bietet das Portal einen vollständigen Satz an CRUD-Operationen, sodass Ihnen alle erforderlichen Dateninteraktionen unmittelbar zur Verfügung stehen.
+
+00:04:14.766 --> 00:04:24.900
+Das OTP-Modell, also das Modell für Einmalpasswörter, speichert die Codes, die zur Überprüfung der Benutzerauthentifizierung verwendet werden.
+
+00:04:24.900 --> 00:04:36.299
+Diese Verifizierungscodes können entweder von unserem derzeitigen monolithischen Backend oder von einem dedizierten Microservice versendet werden.
+
+00:04:36.299 --> 00:04:44.199
+Das nächste Modul im Backend ist die REST-API. Zunächst rufe ich die API-Dokumentation auf.
+
+00:04:44.700 --> 00:04:52.000
+Auf der linken Seite befindet sich eine Seitenleiste, in der alle verfügbaren APIs aufgeführt sind.
+
+00:04:52.000 --> 00:04:58.833
+Die Endpunkte habe ich nach Funktionen gruppiert und dabei die Prinzipien des Domain-Driven Designs berücksichtigt.
+
+00:04:58.833 --> 00:05:04.300
+Auf der rechten Seite befindet sich der interaktive Bereich zum Testen der API-Aufrufe.
+
+00:05:04.966 --> 00:05:13.099
+Es stehen verschiedene Konfigurationsoptionen zur Verfügung, mit denen sich die API-Oberfläche weiter anpassen lässt.
+
+00:05:13.433 --> 00:05:19.666
+Sie können die API-Dokumentation sowohl im JSON- als auch im YAML-Format herunterladen.
+
+00:05:19.866 --> 00:05:27.133
+Zur Verbesserung der Benutzererfahrung ermöglicht die Oberfläche einen nahtlosen Wechsel zwischen dem hellen und dem dunklen Design.
+
+00:05:27.400 --> 00:05:36.700
+Wenn Sie in der linken Seitenleiste eine Kategorie aufklappen, werden die darin gruppierten Endpunkte und ihre HTTP-Methoden angezeigt.
+
+00:05:36.700 --> 00:05:46.100
+Wenn Sie einen Endpunkt auswählen, werden im rechten Bereich sämtliche Details sowie eine interaktive Konsole für Anfragen geöffnet.
+
+00:05:46.966 --> 00:05:55.866
+Wenn Ihre API wächst oder mehrere Versionen umfasst, können Sie sämtliche Endpunkte und Beschreibungen problemlos durchsuchen.
+
+00:05:55.866 --> 00:06:07.066
+Klicken Sie dazu einfach auf das Suchfeld in der linken Seitenleiste, geben Sie ein Schlüsselwort ein und wählen Sie das gewünschte Ergebnis aus.
+
+00:06:07.566 --> 00:06:19.466
+Um die API in Echtzeit zu testen, wählen Sie einfach einen Endpunkt in der linken Seitenleiste aus und klicken Sie auf die Schaltfläche „Test Request“.
+
+00:06:19.466 --> 00:06:25.600
+Die Oberfläche stellt alles bereit, was Sie zur korrekten Verwendung des Endpunkts benötigen.
+
+00:06:25.600 --> 00:06:34.833
+Dazu gehören Pflichtfelder, erwartete Antworten und sofort einsetzbare Client-Codebeispiele für Programmiersprachen wie Python und C#.
+
+00:06:34.833 --> 00:06:43.400
+Sie können die Schnellsuche auch direkt in der Testkonsole verwenden. Dies verbessert die Benutzerfreundlichkeit erheblich und beschleunigt Ihren Testablauf.
+
+00:06:43.900 --> 00:06:52.866
+Um den Testprozess zu vereinfachen, können Sie mithilfe von Filtern genau festlegen, welche Inhalte in der Oberfläche angezeigt werden.
+
+00:06:53.366 --> 00:07:03.800
+Da einige Backend-Endpunkte eine Authentifizierung erfordern, können Sie direkt in der Oberfläche ein Bearer-Token festlegen, um geschützte Anfragen zu testen.
+
+00:07:04.300 --> 00:07:15.033
+Sie können außerdem die API-Codebeispiele an die Programmiersprache Ihres Clients anpassen, beispielsweise Python, C# oder Dart.
+
+00:07:15.800 --> 00:07:21.633
+Der gleiche Ablauf gilt auch für alle anderen Module des Verwaltungsportals.
