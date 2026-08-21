@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:12.438 --> 00:00:18.982
+Hi, I’m Muhammad Husain Aboutalebi, a software and AI engineer with a background in mechanical engineering.
+
+00:00:18.982 --> 00:00:25.421
+In this video, I’m showing MaxC, an engineering pre-processor I designed and built in MATLAB.
+
+00:00:25.421 --> 00:00:32.350
+MaxC helps turn complex mechanical and reservoir problems into clean, consistent simulation inputs.
+
+00:00:32.350 --> 00:00:45.947
+Instead of scattered parameters in spreadsheets and manual forms, it provides a single interface for defining fluid and material properties, phase-change and ideal-gas behavior, and simulation controls.
+
+00:00:45.947 --> 00:00:55.210
+On the screen, you can see a sped-up example: I configure the model, set key properties, and export validated input data for the numerical solver.
+
+00:00:55.210 --> 00:01:07.491
+I was responsible for the full stack of this software: from the user interface and UX flow to the data model and numerical logic, as well as testing and verification of the generated inputs.
+
+00:01:07.491 --> 00:01:18.035
+This project shows how I combine engineering domain knowledge with practical software design to build reliable application-focused software.
