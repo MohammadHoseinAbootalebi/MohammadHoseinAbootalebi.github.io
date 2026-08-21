@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:12.416 --> 00:00:19.766
+Hallo, ich bin Muhammad Husain Aboutalebi, Software- und KI-Ingenieur mit einem Hintergrund im Maschinenbau.
+
+00:00:19.766 --> 00:00:28.000
+In diesem Video zeige ich MaxC einen technischen Pre-Processor, den ich in MATLAB entworfen und entwickelt habe.
+
+00:00:28.000 --> 00:00:37.400
+MaxC hilft dabei komplexe mechanische und lagerstättentechnische Probleme in übersichtliche, konsistente Simulationseingaben zu überführen.
+
+00:00:37.400 --> 00:00:53.833
+Anstatt Parameter über Tabellenkalkulationen und manuelle Formulare zu verteilen, bietet die Software eine zentrale Benutzeroberfläche zur Definition von Fluid- und Materialeigenschaften, Phasenwechsel- und Idealgasverhalten sowie Simulationssteuerungen.
+
+00:00:53.833 --> 00:01:06.150
+Auf dem Bildschirm sehen Sie ein beschleunigtes Beispiel: Ich konfiguriere das Modell, lege wichtige Eigenschaften fest und exportiere validierte Eingabedaten für den numerischen Solver.
+
+00:01:06.150 --> 00:01:10.366
+Ich war für den vollständigen Stack dieser Software verantwortlich.
+
+00:01:10.366 --> 00:01:21.866
+Von der Benutzeroberfläche und dem UX-Ablauf über das Datenmodell und die numerische Logik bis hin zum Testen und Verifizieren der erzeugten Eingaben.
+
+00:01:21.866 --> 00:01:32.416
+Dieses Projekt zeigt, wie ich ingenieurwissenschaftliches Fachwissen mit projektorientiertem Softwaredesign verbinde, um zuverlässige, anwendungsorientierte Software zu entwickeln.
