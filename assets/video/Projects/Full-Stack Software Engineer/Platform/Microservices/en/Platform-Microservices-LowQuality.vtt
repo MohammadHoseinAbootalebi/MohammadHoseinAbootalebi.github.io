@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:03.250 --> 00:00:15.583
+Hi, I'm Muhammad Husain Aboutalebi, an AI specialist, Mechanical Engineer, and Full-Stack Software Engineer. Today, I'm walking you through the core of my scalable, microservices platform.
+
+00:00:15.583 --> 00:00:32.983
+We start at the infrastructure level. Using Docker Compose, I'm orchestrating the entire containerized architecture. A quick check confirms that all our isolated services—including our PostgreSQL databases and Go backends—are up and running perfectly.
+
+00:00:32.983 --> 00:00:53.366
+For the Authentication Microservice, I use grpcurl to demonstrate gRPC server reflection. This dynamically exposes our protocol buffer definitions and endpoints. It proves the API contract is clean, strict, and instantly discoverable by client applications.
+
+00:00:58.566 --> 00:01:15.633
+Next, we move to execution. Using the Bruno API client, I trigger a gRPC user registration request. Switching over to pgAdmin, you can see the new user data is successfully and securely persisted in our PostgreSQL database.
+
+00:01:35.383 --> 00:01:45.983
+Finally, I validate the authentication tokens to confirm that our JWT security boundaries and gRPC interceptors are fully operational.
+
+00:01:57.700 --> 00:02:03.400
+This workflow represents a production-ready, highly decoupled backend architecture.
+
+00:02:03.400 --> 00:02:04.966
+Thanks for watching!
