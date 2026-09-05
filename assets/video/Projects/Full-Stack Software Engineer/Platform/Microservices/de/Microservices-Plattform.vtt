@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:03.250 --> 00:00:10.683
+Hallo, ich bin Muhammad Husain Aboutalebi, Spezialist für KI, Maschinenbauingenieur und Full-Stack-Softwareentwickler.
+
+00:00:10.683 --> 00:00:16.116
+Heute führe ich Sie durch das Herzstück meiner skalierbaren, Microservices-Plattform.
+
+00:00:16.116 --> 00:00:18.933
+Wir beginnen auf der Infrastrukturebene.
+
+00:00:18.933 --> 00:00:23.750
+Mit Docker Compose orchestriere ich die gesamte containerisierte Architektur.
+
+00:00:23.750 --> 00:00:33.800
+Ein kurzer Blick bestätigt, dass alle unsere isolierten Dienste – einschließlich unserer PostgreSQL-Datenbanken und Go-Backends – einwandfrei laufen.
+
+00:00:33.800 --> 00:00:41.416
+Für den Authentifizierungs-Microservice nutze ich grpcurl, um die gRPC-Server-Reflection zu demonstrieren.
+
+00:00:41.416 --> 00:00:47.666
+Dadurch werden unsere Protocol-Buffer-Definitionen und Endpunkte dynamisch offengelegt.
+
+00:00:47.666 --> 00:00:54.350
+Dies beweist, dass der API-Vertrag sauber, strikt und für Client-Anwendungen sofort auffindbar ist.
+
+00:00:58.566 --> 00:01:01.616
+Als Nächstes gehen wir zur Ausführung über.
+
+00:01:01.616 --> 00:01:06.483
+Mit dem Bruno-API-Client stoße ich eine gRPC-Benutzerregistrierung an.
+
+00:01:06.483 --> 00:01:14.516
+Beim Wechsel zu pgAdmin sehen Sie, dass die neuen Benutzerdaten erfolgreich und sicher in unserer PostgreSQL-Datenbank gespeichert wurden.
+
+00:01:35.383 --> 00:01:48.466
+Schließlich validiere ich die Authentifizierungs-Token, um zu bestätigen, dass unsere JWT-Sicherheitsgrenzen und gRPC-Interzeptoren voll funktionsfähig sind.
+
+00:01:57.616 --> 00:02:02.933
+Dieser Workflow repräsentiert eine produktionsreife, hochgradig entkoppelte Backend-Architektur.
+
+00:02:02.933 --> 00:02:04.716
+Vielen Dank fürs Zuschauen!
