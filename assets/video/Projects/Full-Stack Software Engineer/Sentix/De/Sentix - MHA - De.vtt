@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00:09.450 --> 00:00:14.866
+Hallo, ich bin Muhammad Husain Aboutalebi – Ingenieur für KI, Maschinenbau und Softwareentwicklung.
+
+00:00:14.866 --> 00:00:22.416
+Willkommen bei Sentix, einer Predictive-Maintenance-Plattform für den industriellen Einsatz, die ich von Grund auf entwickelt habe.
+
+00:00:22.416 --> 00:00:26.116
+Zunächst orchestriere ich die Microservices mittels Docker Compose.
+
+00:00:26.116 --> 00:00:33.050
+Dieses Setup habe ich so konfiguriert, dass eine vollständig autarke, isolierte Air-Gapped-Umgebung bereitgestellt wird – dies
+
+00:00:33.050 --> 00:00:39.883
+gewährleistet sichere, robuste und deterministische Deployments für das Backend, Frontend, Redis und die KI-Dienste.
+
+00:00:39.883 --> 00:00:44.166
+Hier in Portainer zeige ich Ihnen die Logs des FastAPI-Dienstes.
+
+00:00:44.166 --> 00:00:50.066
+Was Sie hier sehen, ist eine echtzeitfähige, physikbasierte mathematische Simulation rotierender Maschinen,
+
+00:00:50.066 --> 00:00:52.116
+die ich modelliert und implementiert habe.
+
+00:00:52.116 --> 00:00:58.283
+Durch die Generierung hochfrequenter thermischer und triaxialer Schwingungstelemetrie simuliert meine Engine mechanischen
+
+00:00:58.283 --> 00:01:01.866
+Verschleiß und Fehlerdynamiken präzise direkt an der Edge.
+
+00:01:01.866 --> 00:01:06.783
+Als Nächstes demonstriere ich die KI-Diagnose-Engine anhand der API-Dokumentation.
+
+00:01:06.783 --> 00:01:12.133
+Ich habe eine Offline-Retrieval-Augmented-Generation-Pipeline (RAG) konzipiert und implementiert, die auf einem lokal
+
+00:01:12.133 --> 00:01:16.516
+ausgeführten Llama-3.2-Modell und FAISS-Vektorindizierung basiert.
+
+00:01:16.516 --> 00:01:23.416
+Bei Abfragen zu OEM-Gerätehandbüchern generiert meine Engine nicht nur Schritte zur Fehlerbehebung, sondern extrahiert
+
+00:01:23.416 --> 00:01:30.583
+und zitiert exakte Quellseiten. Dadurch erhalten Servicetechniker im Feld sofortige, auditierbare Standardarbeitsanweisungen
+
+00:01:30.583 --> 00:01:32.883
+(SOPs) – ganz ohne externe Cloud-Abhängigkeit.
+
+00:01:32.883 --> 00:01:39.016
+Abschließend werfen wir einen Blick auf die Ingestion-Schicht in RedisInsight. Um Durchsätze im industriellen Maßstab ohne
+
+00:01:39.016 --> 00:01:44.166
+Datenbank-Engpässe zu bewältigen, habe ich die Streaming-Pipeline auf Basis von Redis Streams für die
+
+00:01:44.166 --> 00:01:49.616
+Verarbeitung im Sub-Millisekundenbereich entworfen. Zudem habe ich einen In-Memory-Deduplizierungs- und
+
+00:01:49.616 --> 00:01:57.166
+Zustandsverifizierungsmechanismus entwickelt, der mechanische Anomalien in Echtzeit erfasst, Alarmmüdigkeit (Alert Fatigue)
+
+00:01:57.166 --> 00:02:02.900
+eliminiert und sicherstellt, dass kritische Fehlerzustände verzögerungsfrei protokolliert werden.
+
+00:02:02.900 --> 00:02:08.450
+Dieses Projekt veranschaulicht meine ganzheitliche End-to-End-Umsetzung an der Schnittstelle zwischen Maschinenbau
+
+00:02:08.450 --> 00:02:10.816
+und moderner, hochskalierbarer Softwarearchitektur.
+
+00:02:21.033 --> 00:02:23.166
+Vielen Dank fürs Zuschauen!
