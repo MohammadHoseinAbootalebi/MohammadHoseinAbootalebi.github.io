@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:03.269 --> 00:00:03.837
+Hi!
+
+00:00:03.837 --> 00:00:05.572
+I'm Muhammad Husain Aboutalebi,
+
+00:00:05.572 --> 00:00:07.741
+a multidisciplinary engineer
+
+00:00:07.741 --> 00:00:10.510
+specializing in full-stack software development,
+
+00:00:10.510 --> 00:00:12.278
+mechanical engineering,
+
+00:00:12.278 --> 00:00:14.514
+and artificial intelligence.
+
+00:00:14.514 --> 00:00:15.615
+In this video,
+
+00:00:15.615 --> 00:00:20.186
+I give a brief overview of the Omnia mobile application I developed.
+
+00:00:20.186 --> 00:00:22.922
+When building an end-to-end ecosystem,
+
+00:00:22.922 --> 00:00:27.927
+security and a seamless onboarding experience are where it all begins.
+
+00:00:27.927 --> 00:00:31.197
+Here, I implemented robust user authentication,
+
+00:00:31.197 --> 00:00:33.066
+secure phone verification,
+
+00:00:33.066 --> 00:00:35.201
+and strict session management
+
+00:00:35.201 --> 00:00:39.272
+to ensure a reliable entry point for every user.
+
+00:00:39.272 --> 00:00:41.608
+From an architectural standpoint,
+
+00:00:41.608 --> 00:00:45.945
+scalability and user-centric design drive every decision.
+
+00:00:45.945 --> 00:00:50.316
+I designed dynamic user preference systems and customized profiles
+
+00:00:50.316 --> 00:00:53.319
+that allow the application to adapt fluidly
+
+00:00:53.319 --> 00:00:54.821
+to individual learning paths,
+
+00:00:54.821 --> 00:00:56.623
+bridging complex backend logic
+
+00:00:56.623 --> 00:00:58.892
+with an intuitive frontend interface.
+
+00:00:58.892 --> 00:01:01.694
+A truly production-grade application requires
+
+00:01:01.694 --> 00:01:04.664
+comprehensive state management and resource tracking.
+
+00:01:04.664 --> 00:01:07.967
+This includes managing persistent conversational memory,
+
+00:01:07.967 --> 00:01:09.969
+handling secure data updates,
+
+00:01:09.969 --> 00:01:13.640
+and integrating real-time credit-based wallet transactions
+
+00:01:13.640 --> 00:01:17.444
+—demonstrating a complete handle on business logic and state flow.
+
+00:01:17.444 --> 00:01:20.980
+Bridging technical execution with real-world product value,
+
+00:01:20.980 --> 00:01:25.552
+I built flexible subscription models and seamless billing options,
+
+00:01:25.552 --> 00:01:30.457
+proving my capability to deliver software ready for commercial deployment.
+
+00:02:07.861 --> 00:02:12.599
+At the heart of the platform is real-time AI integration.
+
+00:02:12.599 --> 00:02:16.469
+Whether it's processing instant bilingual translations,
+
+00:02:16.469 --> 00:02:18.671
+rendering dynamic suggestion chips,
+
+00:02:18.671 --> 00:02:23.610
+or capturing and visualizing audio waveforms for voice interactions,
+
+00:02:23.610 --> 00:02:32.118
+this project showcases my dedication to crafting immersive, responsive, and end-to-end client experiences.
